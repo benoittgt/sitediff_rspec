@@ -65,6 +65,7 @@ PAGE_LIST.each do |page_link|
   system(
     <<~SHELL
      git diff \
+       --no-index \
        --ignore-all-space \
        --ignore-blank-lines \
        --minimal \
