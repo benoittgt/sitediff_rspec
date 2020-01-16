@@ -1,6 +1,13 @@
 require 'nokogiri'
 require 'open-uri'
 
+DOC_CURRENT_VERSION = "http://rspec.info/documentation/3.9"
+DOC_NEW_VERSION = "http://0.0.0.0:4567/documentation/3.9"
+
+PAGE_LIST = [
+  "rspec-rails/RSpec/Rails"
+]
+
 CLASS_NODES_TO_REMOVE = [
   "defines",
   "summary_signature"
@@ -9,13 +16,6 @@ CLASS_NODES_TO_REMOVE = [
 ID_NODES_TO_REMOVE = [
   "Assertions-constant"
 ]
-
-PAGE_LIST = [
-  "rspec-rails/RSpec/Rails"
-]
-
-DOC_CURRENT_VERSION = "http://rspec.info/documentation/3.9"
-DOC_NEW_VERSION = "http://0.0.0.0:4567/documentation/3.9"
 
 def get_html(base_url: , page_link:)
   puts ">> Get html for: #{base_url}/#{page_link}.html"
@@ -44,7 +44,7 @@ end
 
 class String
   def to_filename
-    tr("/", "-")
+    "export/#{tr("/", "-")}"
   end
 end
 
