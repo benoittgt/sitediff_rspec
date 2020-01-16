@@ -10,7 +10,8 @@ PAGE_LIST = [
 
 CLASS_NODES_TO_REMOVE = [
   "defines",
-  "summary_signature"
+  "summary_signature",
+  "signature"
 ]
 
 ID_NODES_TO_REMOVE = [
