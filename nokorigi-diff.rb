@@ -26,7 +26,7 @@ def extract_text(html)
   text = []
   html.at_css("div#content").traverse do |node|
     if CLASS_NODES_TO_REMOVE.include?(node.attr('class')) || ID_NODES_TO_REMOVE.include?(node.attr('id'))
-      puts <<~NOTICE
+      puts <<-NOTICE
        Ignoring:
          node.name: #{node.name}
          class: #{node.attr('class')}
@@ -72,6 +72,7 @@ PAGE_LIST.each do |page_link|
        #{current_web_page_file_name} #{new_web_page_file_name} > #{page_link.to_filename}.diff
      SHELL
   )
+  puts ">> Diff done: #{page_link.to_filename}.diff"
 end
 
 
