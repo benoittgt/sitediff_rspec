@@ -1,0 +1,22 @@
+GIT
+  remote: https://github.com/aha-app/differ.git
+  revision: f941d8d77527c994f831da6d8b9bde4a7d259c6e
+  specs:
+    differ (0.1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  differ!
+  nokogiri
+
+BUNDLED WITH
+   2.1.1
