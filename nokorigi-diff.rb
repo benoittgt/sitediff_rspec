@@ -26,22 +26,23 @@ end
 def extract_text(html)
   text = []
   html.at_css("div#content").traverse do |node|
-    if CLASS_NODES_TO_REMOVE.include?(node.attr('class')) || ID_NODES_TO_REMOVE.include?(node.attr('id'))
+    if CLASS_NODES_TO_REMOVE.include?(node.attr('class')) ||
+        ID_NODES_TO_REMOVE.include?(node.attr('id')) ||
+        node.text =~ /collapse|\+ \(Object\)| ⇒ Object /
       puts <<-NOTICE
        Ignoring:
          node.name: #{node.name}
          class: #{node.attr('class')}
          id: #{node.attr('id')}
+         text: \n--------------\n#{node.text}\n--------------
        NOTICE
       node.remove
       next
     end
-    node.remove && next if node.text =~ /collapse/
     text << node.text
   end
   text.join('')
 end
-
 
 class String
   def to_filename
@@ -70,7 +71,6 @@ PAGE_LIST.each do |page_link|
        --ignore-all-space \
        --ignore-blank-lines \
        --minimal \
-       --word-diff \
        #{current_web_page_file_name} #{new_web_page_file_name} > #{page_link.to_filename}.diff
      SHELL
   )

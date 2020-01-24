@@ -290,7 +290,7 @@ Mappings used by infer_spec_type_from_file_location!.
         
   
     
-      .add_test_type_configurationsadd_test_type_configurations(config)  ⇒ Object .add_test_type_configurations(config)  ⇒ Object 
+      .add_test_type_configurationsadd_test_type_configurations.add_test_type_configurations
     
 
     
@@ -360,7 +360,7 @@ Sets up the different example group modules for the different spec types.
         
   
     
-      #infer_spec_type_from_file_location!infer_spec_type_from_file_location!  ⇒ Object #infer_spec_type_from_file_location!  ⇒ Object 
+      #infer_spec_type_from_file_location!infer_spec_type_from_file_location!#infer_spec_type_from_file_location!
     
 
     
@@ -399,7 +399,7 @@ Automatically tag specs in conventional directories with matching type metadata 
         
   
     
-      #render_viewsrender_views(val)  ⇒ Object #render_views(val)  ⇒ Object 
+      #render_viewsrender_views#render_views
     
 
     
@@ -438,7 +438,7 @@ Enables view rendering for controllers specs.
         
   
     
-      #render_views=render_views=(val)  ⇒ Object #render_views=(val)  ⇒ Object 
+      #render_views=render_views=#render_views=
     
 
     
@@ -477,7 +477,7 @@ When set to true, controller specs will render the relevant view as well.
         
   
     
-      #render_views?render_views?  ⇒ Object #render_views?  ⇒ Object 
+      #render_views?render_views?#render_views?
     
 
     
@@ -596,14 +596,6 @@ Reader for currently value of render_views setting.
   
   
     .add_test_type_configurationsadd_test_type_configurations(config)  ⇒ ObjectObject 
-  
-
-  
-
-  
-
-  
-    .add_test_type_configurations(config)  ⇒ Object 
   
 
   
@@ -805,14 +797,6 @@ end
 
   
   
-    .add_test_type_configurations(config)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
@@ -868,14 +852,6 @@ end
     
       
   
-  
-    .add_test_type_configurations(config)  ⇒ Object 
-  
-
-  
-
-  
-
   
     
   This method is part of a private API.
@@ -936,14 +912,6 @@ end
   
   
     #infer_spec_type_from_file_location!infer_spec_type_from_file_location!  ⇒ ObjectObject 
-  
-
-  
-
-  
-
-  
-    #infer_spec_type_from_file_location!  ⇒ Object 
   
 
   
@@ -1042,14 +1010,6 @@ applied to each directory.
 
   
   
-    #infer_spec_type_from_file_location!  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1082,14 +1042,6 @@ applied to each directory.
   
   
     #render_viewsrender_views(val)  ⇒ ObjectObject 
-  
-
-  
-
-  
-
-  
-    #render_views(val)  ⇒ Object 
   
 
   
@@ -1176,14 +1128,6 @@ applied to each directory.
 
   
   
-    #render_views(val)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1213,14 +1157,6 @@ applied to each directory.
   
   
     #render_views=render_views=(val)  ⇒ ObjectObject 
-  
-
-  
-
-  
-
-  
-    #render_views=(val)  ⇒ Object 
   
 
   
@@ -1311,14 +1247,6 @@ well. Defaults to false.
 
   
   
-    #render_views=(val)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
 
@@ -1349,14 +1277,6 @@ well. Defaults to false.
   
   
     #render_views?render_views?  ⇒ ObjectObject 
-  
-
-  
-
-  
-
-  
-    #render_views?  ⇒ Object 
   
 
   
@@ -1443,14 +1363,6 @@ well. Defaults to false.
 
   
   
-    #render_views?  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Reader for currently value of render_views setting.
 
 
@@ -1483,14 +1395,6 @@ well. Defaults to false.
       
   
   
-    #infer_spec_type_from_file_location!  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1522,14 +1426,6 @@ applied to each directory.
       
   
   
-    #render_views(val)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1557,14 +1453,6 @@ applied to each directory.
     
       
   
-  
-    #render_views=(val)  ⇒ Object 
-  
-
-  
-
-  
-
   
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
@@ -1594,14 +1482,6 @@ well. Defaults to false.
     
       
   
-  
-    #render_views?  ⇒ Object 
-  
-
-  
-
-  
-
   
     Reader for currently value of render_views setting.
 
@@ -1842,14 +1722,6 @@ Mappings used by infer_spec_type_from_file_location!.
       
   
   
-    .add_test_type_configurations(config)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
@@ -1908,14 +1780,6 @@ end
       
   
   
-    #infer_spec_type_from_file_location!  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1947,14 +1811,6 @@ applied to each directory.
       
   
   
-    #render_views(val)  ⇒ Object 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1982,14 +1838,6 @@ applied to each directory.
     
       
   
-  
-    #render_views=(val)  ⇒ Object 
-  
-
-  
-
-  
-
   
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
@@ -2019,14 +1867,6 @@ well. Defaults to false.
     
       
   
-  
-    #render_views?  ⇒ Object 
-  
-
-  
-
-  
-
   
     Reader for currently value of render_views setting.
 
