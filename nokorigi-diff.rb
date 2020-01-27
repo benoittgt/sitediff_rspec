@@ -27,7 +27,18 @@ def get_html(base_url: , page_link:)
 end
 
 def remove_noise_and_extract_text(html)
+  html = remove_assertions_block(html)
+  html = remove_selected_class_and_id_div(html)
+  html = remove_noisy_small_text(html)
+
   text = []
+  html.at_css("div#content").traverse do |node|
+    text << node.text
+  end
+  text.join('')
+end
+
+def remove_assertions_block(html)
   assertions_constant_node = nil
   html.css(".constants").first.children.each { |node| assertions_constant_node = node if node.attr('id') == 'Assertions-constant' }
   assertions_constant_node_id = html.css(".constants").first.children.index(assertions_constant_node)
@@ -35,23 +46,27 @@ def remove_noise_and_extract_text(html)
   assertion_node = html.css(".constants").first.children[assertions_constant_node_id + 2]
   logger(assertion_node)
   assertion_node.remove
+  html
+end
 
+def remove_selected_class_and_id_div(html)
   (ID_NODES_TO_REMOVE + CLASS_NODES_TO_REMOVE).each do |class_or_id_to_remove|
     html.css("#{class_or_id_to_remove}").each do |node_to_remove|
       logger(node_to_remove)
       node_to_remove.remove
     end
   end
+  html
+end
 
+def remove_noisy_small_text(html)
   html.at_css("div#content").traverse do |node|
     if node.text =~ /collapse|\+ \(Object\)| ⇒ Object /
       logger(node)
       node.remove
-      next
     end
-    text << node.text
   end
-  text.join('')
+  html
 end
 
 def logger(node)
