@@ -18,8 +18,7 @@ Module: RSpec::Rails
   
   
     Defined in:Defined in:
-    lib/rspec-rails.rb,
-  lib/rspec/rails/version.rb, lib/rspec/rails/adapters.rb, lib/rspec/rails/matchers.rb, lib/rspec/rails/view_assigns.rb, lib/rspec/rails/configuration.rb, lib/rspec/rails/feature_check.rb, lib/rspec/rails/active_record.rb, lib/rspec/rails/view_rendering.rb, lib/rspec/rails/fixture_support.rb, lib/rspec/rails/view_path_builder.rb, lib/rspec/rails/matchers/be_valid.rb, lib/rspec/rails/matchers/be_a_new.rb, lib/rspec/rails/view_spec_methods.rb, lib/rspec/rails/matchers/active_job.rb, lib/rspec/rails/matchers/redirect_to.rb, lib/rspec/rails/file_fixture_support.rb, lib/rspec/rails/matchers/base_matcher.rb, lib/rspec/rails/matchers/have_rendered.rb, lib/rspec/rails/matchers/be_new_record.rb, lib/rspec/rails/matchers/routing_matchers.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/matchers/have_http_status.rb, lib/rspec/rails/example/view_example_group.rb, lib/rspec/rails/matchers/have_enqueued_mail.rb, lib/rspec/rails/fixture_file_upload_support.rb, lib/rspec/rails/example/model_example_group.rb, lib/rspec/rails/example/rails_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/helper_example_group.rb, lib/rspec/rails/example/system_example_group.rb, lib/rspec/rails/example/request_example_group.rb, lib/rspec/rails/example/routing_example_group.rb, lib/rspec/rails/example/feature_example_group.rb, lib/rspec/rails/example/controller_example_group.rb
+    lib/rspec-rails.rb
 lib/rspec-rails.rb
 
   
@@ -181,37 +180,8 @@ Mappings used by infer_spec_type_from_file_location!.
   :system     => %w[spec system]
 }
       
-        Assertions =
-          
-  
-    Constant aliased to either Minitest or TestUnit, depending on what is
-loaded.Constant aliased to either Minitest or TestUnit, depending on what is
-loaded.
-
-
-  
-    Constant aliased to either Minitest or TestUnit, depending on what is
-loaded.
-
-
-  
-
-  
-    Constant aliased to either Minitest or TestUnit, depending on what is
-loaded.
-
-
-  
-
-
-  
-
-
-  
-
-
         
-        TestTest::::UnitUnit::::AssertionsAssertionsTest::Unit::AssertionsTest::Unit::Assertions
+        
       
     
       
@@ -246,7 +216,7 @@ Mappings used by infer_spec_type_from_file_location!.
 }
       
         
-        Test::Unit::Assertions
+        
       
     
   
@@ -269,12 +239,6 @@ Mappings used by infer_spec_type_from_file_location!.
     
       
         
-  
-    
-      add_test_type_configurationsadd_test_type_configurations(config) add_test_type_configurations(config) 
-    
-
-    
   
   
   
@@ -340,12 +304,6 @@ Sets up the different example group modules for the different spec types.
       
         
   
-    
-      - (Object) infer_spec_type_from_file_location!infer_spec_type_from_file_location! - (Object) infer_spec_type_from_file_location! 
-    
-
-    
-  
   
   
   
@@ -378,12 +336,6 @@ Automatically tag specs in conventional directories with matching type metadata 
 
       
         
-  
-    
-      - (Object) render_viewsrender_views(val) - (Object) render_views(val) 
-    
-
-    
   
   
   
@@ -418,12 +370,6 @@ Enables view rendering for controllers specs.
       
         
   
-    
-      - (Object) render_views=render_views=(val) - (Object) render_views=(val) 
-    
-
-    
-  
   
   
   
@@ -456,12 +402,6 @@ When set to true, controller specs will render the relevant view as well.
 
       
         
-  
-    
-      - (Object) render_views?render_views? - (Object) render_views? 
-    
-
-    
   
   
   
@@ -575,14 +515,6 @@ Reader for currently value of render_views setting.
     
       
   
-  
-    + (ObjectObject) add_test_type_configurationsadd_test_type_configurations(config) 
-  
-
-  
-
-  
-
   
     
   This method is part of a private API.This method is part of a private API.
@@ -892,22 +824,6 @@ end
       
   
   
-    - (ObjectObject) infer_spec_type_from_file_location!infer_spec_type_from_file_location! 
-  
-
-  
-
-  
-
-  
-    - (Object) infer_spec_type_from_file_location! 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching typetype
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGSRSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -999,14 +915,6 @@ applied to each directory.
 
   
   
-    - (Object) infer_spec_type_from_file_location! 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1037,22 +945,6 @@ applied to each directory.
     
       
   
-  
-    - (ObjectObject) render_viewsrender_views(val) 
-  
-
-  
-
-  
-
-  
-    - (Object) render_views(val) 
-  
-
-  
-
-  
-
   
     Enables view rendering for controllers specs.Enables view rendering for controllers specs.
 
@@ -1133,14 +1025,6 @@ applied to each directory.
 
   
   
-    - (Object) render_views(val) 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1168,22 +1052,6 @@ applied to each directory.
     
       
   
-  
-    - (ObjectObject) render_views=render_views=(val) 
-  
-
-  
-
-  
-
-  
-    - (Object) render_views=(val) 
-  
-
-  
-
-  
-
   
     When set to truetrue, controller specs will render the relevant view as
 well. Defaults to falsefalse.When set to true, controller specs will render the relevant view as
@@ -1268,14 +1136,6 @@ well. Defaults to false.
 
   
   
-    - (Object) render_views=(val) 
-  
-
-  
-
-  
-
-  
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
 
@@ -1304,22 +1164,6 @@ well. Defaults to false.
     
       
   
-  
-    - (ObjectObject) render_views?render_views? 
-  
-
-  
-
-  
-
-  
-    - (Object) render_views? 
-  
-
-  
-
-  
-
   
     Reader for currently value of render_viewsrender_views setting.Reader for currently value of render_views setting.
 
@@ -1400,14 +1244,6 @@ well. Defaults to false.
 
   
   
-    - (Object) render_views? 
-  
-
-  
-
-  
-
-  
     Reader for currently value of render_views setting.
 
 
@@ -1440,14 +1276,6 @@ well. Defaults to false.
       
   
   
-    - (Object) infer_spec_type_from_file_location! 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1479,14 +1307,6 @@ applied to each directory.
       
   
   
-    - (Object) render_views(val) 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1514,14 +1334,6 @@ applied to each directory.
     
       
   
-  
-    - (Object) render_views=(val) 
-  
-
-  
-
-  
-
   
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
@@ -1551,14 +1363,6 @@ well. Defaults to false.
     
       
   
-  
-    - (Object) render_views? 
-  
-
-  
-
-  
-
   
     Reader for currently value of render_views setting.
 
@@ -1667,7 +1471,7 @@ Mappings used by infer_spec_type_from_file_location!.
 }
       
         
-        Test::Unit::Assertions
+        
       
     
   
@@ -1850,14 +1654,6 @@ end
       
   
   
-    - (Object) infer_spec_type_from_file_location! 
-  
-
-  
-
-  
-
-  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -1889,14 +1685,6 @@ applied to each directory.
       
   
   
-    - (Object) render_views(val) 
-  
-
-  
-
-  
-
-  
     Enables view rendering for controllers specs.
 
 
@@ -1924,14 +1712,6 @@ applied to each directory.
     
       
   
-  
-    - (Object) render_views=(val) 
-  
-
-  
-
-  
-
   
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
@@ -1961,14 +1741,6 @@ well. Defaults to false.
     
       
   
-  
-    - (Object) render_views? 
-  
-
-  
-
-  
-
   
     Reader for currently value of render_views setting.
 

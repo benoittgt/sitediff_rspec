@@ -1,26 +1,24 @@
 diff --git a/export/rspec-rails-RSpec-Rails.current b/export/rspec-rails-RSpec-Rails.new
-index 362a17f..cb37370 100644
+index 37e6d33..9744a21 100644
 --- a/export/rspec-rails-RSpec-Rails.current
 +++ b/export/rspec-rails-RSpec-Rails.new
-@@ -17,9 +17,16 @@ Module: RSpec::Rails
-   
+@@ -22,6 +25,15 @@ Module: RSpec::Rails
+ lib/rspec-rails.rb
  
    
-+
-+  
-+  
-     Defined in:Defined in:
-     lib/rspec-rails.rb,
--  lib/rspec/rails/version.rb, lib/rspec/rails/adapters.rb, lib/rspec/rails/matchers.rb, lib/rspec/rails/view_assigns.rb, lib/rspec/rails/configuration.rb, lib/rspec/rails/feature_check.rb, lib/rspec/rails/active_record.rb, lib/rspec/rails/view_rendering.rb, lib/rspec/rails/fixture_support.rb, lib/rspec/rails/view_path_builder.rb, lib/rspec/rails/matchers/be_valid.rb, lib/rspec/rails/matchers/be_a_new.rb, lib/rspec/rails/view_spec_methods.rb, lib/rspec/rails/matchers/active_job.rb, lib/rspec/rails/matchers/redirect_to.rb, lib/rspec/rails/file_fixture_support.rb, lib/rspec/rails/matchers/base_matcher.rb, lib/rspec/rails/matchers/have_rendered.rb, lib/rspec/rails/matchers/be_new_record.rb, lib/rspec/rails/matchers/routing_matchers.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/matchers/have_http_status.rb, lib/rspec/rails/example/view_example_group.rb, lib/rspec/rails/matchers/have_enqueued_mail.rb, lib/rspec/rails/fixture_file_upload_support.rb, lib/rspec/rails/example/model_example_group.rb, lib/rspec/rails/example/rails_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/helper_example_group.rb, lib/rspec/rails/example/system_example_group.rb, lib/rspec/rails/example/request_example_group.rb, lib/rspec/rails/example/routing_example_group.rb, lib/rspec/rails/example/feature_example_group.rb, lib/rspec/rails/example/controller_example_group.rb
-+  lib/rspec/rails/version.rb, lib/rspec/rails/adapters.rb, lib/rspec/rails/matchers.rb, lib/rspec/rails/view_assigns.rb, lib/rspec/rails/active_record.rb, lib/rspec/rails/configuration.rb, lib/rspec/rails/feature_check.rb, lib/rspec/rails/view_rendering.rb, lib/rspec/rails/fixture_support.rb, lib/rspec/rails/matchers/be_a_new.rb, lib/rspec/rails/matchers/be_valid.rb, lib/rspec/rails/view_path_builder.rb, lib/rspec/rails/view_spec_methods.rb, lib/rspec/rails/matchers/active_job.rb, lib/rspec/rails/file_fixture_support.rb, lib/rspec/rails/matchers/redirect_to.rb, lib/rspec/rails/matchers/base_matcher.rb, lib/rspec/rails/matchers/be_new_record.rb, lib/rspec/rails/matchers/have_rendered.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/example/job_example_group.rb, lib/rspec/rails/matchers/have_http_status.rb, lib/rspec/rails/matchers/routing_matchers.rb, lib/rspec/rails/example/view_example_group.rb, lib/rspec/rails/example/model_example_group.rb, lib/rspec/rails/example/rails_example_group.rb, lib/rspec/rails/fixture_file_upload_support.rb, lib/rspec/rails/matchers/have_enqueued_mail.rb, lib/rspec/rails/example/helper_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/mailer_example_group.rb, lib/rspec/rails/example/system_example_group.rb, lib/rspec/rails/example/feature_example_group.rb, lib/rspec/rails/example/request_example_group.rb, lib/rspec/rails/example/routing_example_group.rb, lib/rspec/rails/example/controller_example_group.rb
-+lib/rspec-rails.rb
-+
-+  
 +    Defined in:
-     lib/rspec-rails.rb
- 
++    lib/rspec-rails.rb
++
++  
++  
++
++  
++
++  
    
-@@ -85,10 +97,49 @@ Defined Under NamespaceDefined Under Namespace
+   
+   
+@@ -84,7 +96,17 @@ Defined Under NamespaceDefined Under Namespace
    
  
  
@@ -36,94 +34,14 @@ index 362a17f..cb37370 100644
 +
 +    
 +      
-+        Assertions =
-+          
-+  
-+    Constant aliased to either Minitest or TestUnit, depending on what is
-+loaded.Constant aliased to either Minitest or TestUnit, depending on what is
-+loaded.
-+
-+
-+  
-+    Constant aliased to either Minitest or TestUnit, depending on what is
-+loaded.
-+
-+
-+  
-+
-+  
-+    Constant aliased to either Minitest or TestUnit, depending on what is
-+loaded.
- 
- 
-   
-+
-+
-+  
-+
-+
-+  
-+
-+
-+        
-+        TestTest::::UnitUnit::::AssertionsAssertionsTest::Unit::AssertionsTest::Unit::Assertions
-+      
-         DIRECTORY_MAPPINGS =
-           
-   
-@@ -181,39 +232,10 @@ Mappings used by infer_spec_type_from_file_location!.
-   :system     => %w[spec system]
- }
-       
--        Assertions =
--          
-     
--    Constant aliased to either Minitest or TestUnit, depending on what is
--loaded.Constant aliased to either Minitest or TestUnit, depending on what is
--loaded.
--
--
--  
--    Constant aliased to either Minitest or TestUnit, depending on what is
--loaded.
--
--
--  
--
--  
--    Constant aliased to either Minitest or TestUnit, depending on what is
--loaded.
--
--
--  
--
--
--  
--
--
--  
--
--
--        
--        TestTest::::UnitUnit::::AssertionsAssertionsTest::Unit::AssertionsTest::Unit::Assertions
-       
          
-+        Test::Unit::Assertions
+         
        
-         DIRECTORY_MAPPINGS =
-           
-@@ -246,7 +268,6 @@ Mappings used by infer_spec_type_from_file_location!.
- }
-       
-     
--        Test::Unit::Assertions
-   
- 
- 
-@@ -257,13 +278,11 @@ Mappings used by infer_spec_type_from_file_location!.
+@@ -226,14 +248,11 @@ Mappings used by infer_spec_type_from_file_location!.
  
    
      
+-
 +      Class Method Summary
        
      
@@ -135,16 +53,7 @@ index 362a17f..cb37370 100644
      
  
      
-@@ -271,7 +290,7 @@ Mappings used by infer_spec_type_from_file_location!.
-         
-   
-     
--      add_test_type_configurationsadd_test_type_configurations(config) add_test_type_configurations(config) 
-+      .add_test_type_configurationsadd_test_type_configurations.add_test_type_configurations
-     
- 
-     
-@@ -330,10 +349,9 @@ Sets up the different example group modules for the different spec types.
+@@ -294,10 +313,10 @@ Sets up the different example group modules for the different spec types.
    
      
        Instance Method Summary
@@ -153,56 +62,11 @@ index 362a17f..cb37370 100644
      
        Instance Method Summary
 -      ()
-       
-     
- 
-@@ -341,7 +359,8 @@ Sets up the different example group modules for the different spec types.
-       
-         
-   
--      - (Object) infer_spec_type_from_file_location!infer_spec_type_from_file_location! - (Object) infer_spec_type_from_file_location! 
-+    
-+      #infer_spec_type_from_file_location!infer_spec_type_from_file_location!#infer_spec_type_from_file_location!
++      
      
  
      
-@@ -380,7 +399,7 @@ Automatically tag specs in conventional directories with matching type metadata
-         
-   
-     
--      - (Object) render_viewsrender_views(val) - (Object) render_views(val) 
-+      #render_viewsrender_views#render_views
-     
- 
-     
-@@ -419,7 +438,7 @@ Enables view rendering for controllers specs.
-         
-   
-     
--      - (Object) render_views=render_views=(val) - (Object) render_views=(val) 
-+      #render_views=render_views=#render_views=
-     
- 
-     
-@@ -458,7 +477,7 @@ When set to true, controller specs will render the relevant view as well.
-         
-   
-     
--      - (Object) render_views?render_views? - (Object) render_views? 
-+      #render_views?render_views?#render_views?
-     
- 
-     
-@@ -576,7 +595,7 @@ Reader for currently value of render_views setting.
-       
-   
-   
--    + (ObjectObject) add_test_type_configurationsadd_test_type_configurations(config) 
-+    .add_test_type_configurationsadd_test_type_configurations(config)  ⇒ ObjectObject 
-   
- 
-   
-@@ -670,15 +689,15 @@ Sets up the different example group modules for the different spec types
+@@ -602,15 +621,15 @@ Sets up the different example group modules for the different spec types
        # File 'lib/rspec/rails/configuration.rb', line 43# File 'lib/rspec/rails/configuration.rb', line 43
  
  defdef selfself..add_test_type_configurationsadd_test_type_configurations((configconfig))
@@ -227,226 +91,20 @@ index 362a17f..cb37370 100644
  endend# File 'lib/rspec/rails/configuration.rb', line 43
  
  def self.add_test_type_configurations(config)
-@@ -892,15 +911,7 @@ end
-       
-   
-   
--    - (ObjectObject) infer_spec_type_from_file_location!infer_spec_type_from_file_location! 
--  
--
--  
--
--  
--
--  
--    - (Object) infer_spec_type_from_file_location! 
-+    #infer_spec_type_from_file_location!infer_spec_type_from_file_location!  ⇒ ObjectObject 
-   
+@@ -1481,11 +1510,8 @@ Mappings used by infer_spec_type_from_file_location!.
  
    
-@@ -999,14 +1010,6 @@ applied to each directory.
- 
-   
-   
--    - (Object) infer_spec_type_from_file_location! 
--  
--
--  
--
--  
--
--  
-     Automatically tag specs in conventional directories with matching type
- metadata so that they have relevant helpers available to them. See
- RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
-@@ -1038,15 +1041,7 @@ applied to each directory.
-       
-   
-   
--    - (ObjectObject) render_viewsrender_views(val) 
--  
--
--  
--
--  
--
--  
--    - (Object) render_views(val) 
-+    #render_viewsrender_views(val)  ⇒ ObjectObject 
-   
- 
-   
-@@ -1133,14 +1128,6 @@ applied to each directory.
- 
-   
-   
--    - (Object) render_views(val) 
--  
--
--  
--
--  
--
--  
-     Enables view rendering for controllers specs.
- 
- 
-@@ -1169,15 +1156,7 @@ applied to each directory.
-       
-   
-   
--    - (ObjectObject) render_views=render_views=(val) 
--  
--
--  
--
--  
--
--  
--    - (Object) render_views=(val) 
-+    #render_views=render_views=(val)  ⇒ ObjectObject 
-   
- 
-   
-@@ -1268,14 +1247,6 @@ well. Defaults to false.
- 
-   
-   
--    - (Object) render_views=(val) 
--  
--
--  
--
--  
--
--  
-     When set to true, controller specs will render the relevant view as
- well. Defaults to false.
- 
-@@ -1305,15 +1276,7 @@ well. Defaults to false.
-       
-   
-   
--    - (ObjectObject) render_views?render_views? 
--  
--
--  
--
--  
--
--  
--    - (Object) render_views? 
-+    #render_views?render_views?  ⇒ ObjectObject 
-   
- 
-   
-@@ -1400,14 +1363,6 @@ well. Defaults to false.
- 
-   
-   
--    - (Object) render_views? 
--  
--
--  
--
--  
--
--  
-     Reader for currently value of render_views setting.
- 
- 
-@@ -1440,14 +1395,6 @@ well. Defaults to false.
-       
-   
-   
--    - (Object) infer_spec_type_from_file_location! 
--  
--
--  
--
--  
--
--  
-     Automatically tag specs in conventional directories with matching type
- metadata so that they have relevant helpers available to them. See
- RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
-@@ -1479,14 +1426,6 @@ applied to each directory.
-       
-   
-   
--    - (Object) render_views(val) 
--  
--
--  
--
--  
--
--  
-     Enables view rendering for controllers specs.
- 
- 
-@@ -1515,14 +1454,6 @@ applied to each directory.
-       
-   
-   
--    - (Object) render_views=(val) 
--  
--
--  
--
--  
--
--  
-     When set to true, controller specs will render the relevant view as
- well. Defaults to false.
- 
-@@ -1552,14 +1483,6 @@ well. Defaults to false.
-       
-   
-   
--    - (Object) render_views? 
--  
--
--  
--
--  
--
--  
-     Reader for currently value of render_views setting.
- 
- 
-@@ -1636,6 +1564,11 @@ Defined Under Namespace
-       
      
- 
-+    
-+      
-+        
-+        Test::Unit::Assertions
-+      
-         DIRECTORY_MAPPINGS =
-           
-   
-@@ -1667,9 +1600,6 @@ Mappings used by infer_spec_type_from_file_location!.
- }
-       
-     
--        Test::Unit::Assertions
--      
+-
+-  
 -    
-   
- 
- 
-@@ -1681,7 +1611,7 @@ Mappings used by infer_spec_type_from_file_location!.
-   
-     
        Class Method Summary
 -      ()
 +      
      
  
      
-@@ -1707,7 +1637,7 @@ Mappings used by infer_spec_type_from_file_location!.
+@@ -1511,7 +1537,7 @@ Mappings used by infer_spec_type_from_file_location!.
    
      
        Instance Method Summary
@@ -455,63 +113,3 @@ index 362a17f..cb37370 100644
      
  
      
-@@ -1850,14 +1780,6 @@ end
-       
-   
-   
--    - (Object) infer_spec_type_from_file_location! 
--  
--
--  
--
--  
--
--  
-     Automatically tag specs in conventional directories with matching type
- metadata so that they have relevant helpers available to them. See
- RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
-@@ -1889,14 +1811,6 @@ applied to each directory.
-       
-   
-   
--    - (Object) render_views(val) 
--  
--
--  
--
--  
--
--  
-     Enables view rendering for controllers specs.
- 
- 
-@@ -1925,14 +1839,6 @@ applied to each directory.
-       
-   
-   
--    - (Object) render_views=(val) 
--  
--
--  
--
--  
--
--  
-     When set to true, controller specs will render the relevant view as
- well. Defaults to false.
- 
-@@ -1962,14 +1868,6 @@ well. Defaults to false.
-       
-   
-   
--    - (Object) render_views? 
--  
--
--  
--
--  
--
--  
-     Reader for currently value of render_views setting.
- 
- 
