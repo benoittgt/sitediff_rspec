@@ -78,12 +78,6 @@ def logger(node)
   NOTICE
 end
 
-class String
-  def to_filename
-    "export/#{tr("/", "-")}"
-  end
-end
-
 class AttrDecorator
   def initialize(attribute)
     @attribute = attribute
@@ -95,6 +89,12 @@ class AttrDecorator
 
   private
   attr_reader :attribute
+end
+
+class String
+  def to_filename
+    "export/#{tr("/", "-")}"
+  end
 end
 
 PAGE_LIST.each do |page_link|
@@ -123,5 +123,3 @@ PAGE_LIST.each do |page_link|
   )
   puts ">> Diff done: #{page_link.to_filename}.diff"
 end
-
-
