@@ -23,24 +23,43 @@ def get_html(base_url: , page_link:)
   Nokogiri::HTML(URI.open("#{base_url}/#{page_link}.html"))
 end
 
-def extract_text(html)
+def extract_text(html, log)
   text = []
-  html.at_css("div#content").traverse do |node|
+  size = 0
+  nodes = html.at_css("div#content")
+  new_nodes = nodes.traverse do |node|
+    size += 1
+    puts "Node------------------------------------"
+    pp node
+    puts
     if CLASS_NODES_TO_REMOVE.include?(node.attr('class')) ||
-        ID_NODES_TO_REMOVE.include?(node.attr('id')) ||
-        node.text =~ /collapse|\+ \(Object\)| ⇒ Object /
-      puts <<-NOTICE
-       Ignoring:
-         node.name: #{node.name}
-         class: #{node.attr('class')}
-         id: #{node.attr('id')}
-         text: \n--------------\n#{node.text}\n--------------
-       NOTICE
+        ID_NODES_TO_REMOVE.include?(node.attr('id')) #||
+        # node.text =~ /collapse|\+ \(Object\)| ⇒ Object |\- \(Object\) /
+      if log
+        puts <<-NOTICE
+         Ignoring:
+           node.name: #{node.name}
+           class: #{node.attr('class')}
+           id: #{node.attr('id')}
+           text: \n--------------\n#{node.text}\n--------------
+         NOTICE
+      else
+        puts "SKIPPING LOGS"
+      end
       node.remove
       next
     end
+    puts ">> Add #{node.text}"
     text << node.text
   end
+
+  new_size = 0
+  edited_nodes = new_nodes.traverse do |node|
+    new_size += 1
+  end
+  put "size is #{size}"
+  put "new_size is #{new_size}"
+
   text.join('')
 end
 
@@ -56,12 +75,12 @@ PAGE_LIST.each do |page_link|
 
   File.write(
     current_web_page_file_name,
-    extract_text(get_html(base_url: DOC_CURRENT_VERSION, page_link: page_link))
+    extract_text(get_html(base_url: DOC_CURRENT_VERSION, page_link: page_link), false)
   )
 
   File.write(
     new_web_page_file_name,
-    extract_text(get_html(base_url: DOC_NEW_VERSION, page_link: page_link))
+    extract_text(get_html(base_url: DOC_NEW_VERSION, page_link: page_link), true)
   )
 
   system(
