@@ -1,6 +1,5 @@
 require 'nokogiri'
 require 'open-uri'
-require 'erb'
 
 DOC_CURRENT_VERSION = "http://rspec.info/documentation/3.9"
 DOC_NEW_VERSION = "http://0.0.0.0:4567/documentation/3.9"
@@ -70,21 +69,32 @@ def remove_noisy_small_text(html)
 end
 
 def logger(node)
-  @node = node
-  notice = ERB.new("
-       Removing node:
-         <% if @node.name %>node.name: <%= @node.name %><% end %>
-         <% if @node.attr('class') %>class:: <%= @node.attr('class') %><% end %>
-         <% if @node.attr('id') %>id:: <%= @node.attr('id') %><% end %>
-         text: \n      --------------\n:       <%= @node.text %>\n      --------------
-         ")
-  puts notice.result
+  puts <<-NOTICE
+     Ignoring:
+       node.name: #{node.name}
+       class: #{AttrDecorator.new(node.attr('class'))}
+       id: #{AttrDecorator.new(node.attr('id'))}
+       text:⤵️ \n--------------\n#{node.text}\n--------------
+  NOTICE
 end
 
 class String
   def to_filename
     "export/#{tr("/", "-")}"
   end
+end
+
+class AttrDecorator
+  def initialize(attribute)
+    @attribute = attribute
+  end
+
+  def to_s
+    attribute.nil? ? "✖️" : attribute
+  end
+
+  private
+  attr_reader :attribute
 end
 
 PAGE_LIST.each do |page_link|
