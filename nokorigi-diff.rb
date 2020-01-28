@@ -28,10 +28,12 @@ end
 def remove_noise_and_extract_text(html)
   html = remove_assertions_block(html)
   html = remove_selected_class_and_id_div(html)
-  html = remove_noisy_small_text(html)
+  html = remove_collapse_expand_buttons(html)
 
   text = []
   html.at_css("div#content").traverse do |node|
+    next unless node.is_a?(Nokogiri::XML::Element)
+    # puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n"
     text << node.text
   end
   text.join('')
@@ -58,11 +60,12 @@ def remove_selected_class_and_id_div(html)
   html
 end
 
-def remove_noisy_small_text(html)
-  html.at_css("div#content").traverse do |node|
-    if node.text =~ /collapse|\+ \(Object\)| ⇒ Object /
-      logger(node)
-      node.remove
+def remove_collapse_expand_buttons(html)
+  [".constants_summary_toggle", ".summary_toggle"].each do |class_to_remove|
+    html.css("#{class_to_remove}").each do |node_to_remove|
+      parent = node_to_remove.parent
+      logger(parent)
+      parent.remove
     end
   end
   html
@@ -70,7 +73,7 @@ end
 
 def logger(node)
   puts <<-NOTICE
-     Ignoring:
+     Removing:
        node.name: #{node.name}
        class: #{AttrDecorator.new(node.attr('class'))}
        id: #{AttrDecorator.new(node.attr('id'))}
