@@ -34,6 +34,9 @@ module Utils
       opts.on("--diff", "Display git diff") { VerboseMode[:diff] = true }
       opts.on("--removed-content", "Display removed content") { VerboseMode[:removed_content] = true }
       opts.on("--added-text", "Display text extracted") { VerboseMode[:added_text] = true }
+      opts.on("--custom-url=url", "Diff only one url. Example: rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html") do |url|
+        VerboseMode[:custom_url] = url
+      end
     end.parse!
   end
 end
@@ -62,6 +65,10 @@ class RSpecYardDiffer
   end
 
   def run
+    if VerboseMode[:custom_url]
+      return DiffPage.new("#{VerboseMode[:custom_url]}").generate_diff
+    end
+
     page_list.each do |lib, links|
       links.each { |link| DiffPage.new("#{lib}/#{link}").generate_diff }
     end

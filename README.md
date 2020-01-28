@@ -13,9 +13,10 @@ $ cd sitediff_rspec
 $ ruby nokorigi-diff.rb
 ```
 
-#### Verbose args
+#### CLI args
 
-Check args available to different verbose mode with `--help`
+Check args available to different verbose mode with `--help`. You can also run the diff on one url
+in particular
 
 
 ## Output
