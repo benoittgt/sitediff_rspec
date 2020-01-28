@@ -86,6 +86,7 @@ class DiffPage
     html = remove_assertions_block(html)
     html = remove_selected_class_and_id_div(html)
     html = remove_collapse_expand_buttons(html)
+    html = add_ending_dot(html)
 
     text = []
     html.at_css("div#content").traverse do |node|
@@ -140,6 +141,15 @@ class DiffPage
         parent = node_to_remove.parent
         logger(parent)
         parent.remove
+      end
+    end
+    html
+  end
+
+  def add_ending_dot(html)
+    html.css(".discussion p").map do |element|
+      if element.content.strip[-1] != "."
+        element.content = element.content + "."
       end
     end
     html
