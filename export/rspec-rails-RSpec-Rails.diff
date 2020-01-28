@@ -1,11 +1,11 @@
 diff --git a/export/rspec-rails-RSpec-Rails.current b/export/rspec-rails-RSpec-Rails.new
-index 37e6d33..9744a21 100644
+index 7bcfe37..0fc5aa5 100644
 --- a/export/rspec-rails-RSpec-Rails.current
 +++ b/export/rspec-rails-RSpec-Rails.new
-@@ -22,6 +25,15 @@ Module: RSpec::Rails
- lib/rspec-rails.rb
- 
+@@ -4,6 +4,14 @@ Module: RSpec::Rails
    
+ Defined in:lib/rspec-rails.rb
+ 
 +    Defined in:
 +    lib/rspec-rails.rb
 +
@@ -13,103 +13,28 @@ index 37e6d33..9744a21 100644
 +  
 +
 +  
-+
 +  
    
    
    
-@@ -84,7 +96,17 @@ Defined Under NamespaceDefined Under Namespace
+@@ -39,7 +48,10 @@ Defined Under NamespaceModules:ControllerExampleGroupControllerExampleGroupFeatu
+       Classes: ActiveRecordConfiguration, Configuration, Railtie, ViewPathBuilder
+     
    
- 
- 
--  Constant SummaryConstant Summary
-+  
-+    
-+      Constant Summary
-+      
-+    
-+      Constant Summary
-+      
-+    
+-Constant SummaryThis constant is part of a private API.
 +
-+    
++      Constant Summary
 +      
-         
-         
-       
-@@ -226,14 +248,11 @@ Mappings used by infer_spec_type_from_file_location!.
- 
-   
-     
--
-+      Class Method Summary
-       
-     
-       Class Method Summary
--      ()()
-       
--      Class Method Summary
--      ()
-     
- 
-     
-@@ -294,10 +313,10 @@ Sets up the different example group modules for the different spec types.
-   
-     
-       Instance Method Summary
--      ()()
-+      
-     
-       Instance Method Summary
--      ()
-+      
-     
- 
-     
-@@ -602,15 +621,15 @@ Sets up the different example group modules for the different spec types
-       # File 'lib/rspec/rails/configuration.rb', line 43# File 'lib/rspec/rails/configuration.rb', line 43
- 
- defdef selfself..add_test_type_configurationsadd_test_type_configurations((configconfig))
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::ControllerExampleGroupControllerExampleGroup,, :type:type =>=> :controller:controller
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::HelperExampleGroupHelperExampleGroup,,     :type:type =>=> :helper:helper
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::ModelExampleGroupModelExampleGroup,,      :type:type =>=> :model:model
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::RequestExampleGroupRequestExampleGroup,,    :type:type =>=> :request:request
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::RoutingExampleGroupRoutingExampleGroup,,    :type:type =>=> :routing:routing
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::ViewExampleGroupViewExampleGroup,,       :type:type =>=> :view:view
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::FeatureExampleGroupFeatureExampleGroup,,    :type:type =>=> :feature:feature
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::MatchersMatchers
--  configconfig..includeinclude RSpecRSpec::::RailsRails::::SystemExampleGroupSystemExampleGroup,, :type:type =>=> :system:system
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::ControllerExampleGroupControllerExampleGroupControllerExampleGroupControllerExampleGroup,, :type:type =>=> :controller:controller
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::HelperExampleGroupHelperExampleGroupHelperExampleGroupHelperExampleGroup,,     :type:type =>=> :helper:helper
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::ModelExampleGroupModelExampleGroupModelExampleGroupModelExampleGroup,,      :type:type =>=> :model:model
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::RequestExampleGroupRequestExampleGroupRequestExampleGroupRequestExampleGroup,,    :type:type =>=> :request:request
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::RoutingExampleGroupRoutingExampleGroupRoutingExampleGroupRoutingExampleGroup,,    :type:type =>=> :routing:routing
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::ViewExampleGroupViewExampleGroupViewExampleGroupViewExampleGroup,,       :type:type =>=> :view:view
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::FeatureExampleGroupFeatureExampleGroupFeatureExampleGroupFeatureExampleGroup,,    :type:type =>=> :feature:feature
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::MatchersMatchersMatchersMatchers
-+  configconfig..includeinclude RSpecRSpecRSpecRSpec::::RailsRailsRailsRails::::SystemExampleGroupSystemExampleGroupSystemExampleGroupSystemExampleGroup,, :type:type =>=> :system:system
- endend# File 'lib/rspec/rails/configuration.rb', line 43
++    This constant is part of a private API.
+   This constant is part of a private API.
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.
+ infer_spec_type_from_file_location!Mappings used by infer_spec_type_from_file_location!.
+@@ -363,7 +375,7 @@ Sets up the different example group modules for the different spec types
+ 51
+ 52
+ 53
+-    # File 'lib/rspec/rails/configuration.rb', line 43defself.add_test_type_configurations(config)config.includeRSpec::Rails::ControllerExampleGroup,:type=>:controllerconfig.includeRSpec::Rails::HelperExampleGroup,:type=>:helperconfig.includeRSpec::Rails::ModelExampleGroup,:type=>:modelconfig.includeRSpec::Rails::RequestExampleGroup,:type=>:requestconfig.includeRSpec::Rails::RoutingExampleGroup,:type=>:routingconfig.includeRSpec::Rails::ViewExampleGroup,:type=>:viewconfig.includeRSpec::Rails::FeatureExampleGroup,:type=>:featureconfig.includeRSpec::Rails::Matchersconfig.includeRSpec::Rails::SystemExampleGroup,:type=>:systemend# File 'lib/rspec/rails/configuration.rb', line 43
++    # File 'lib/rspec/rails/configuration.rb', line 43defself.add_test_type_configurations(config)config.includeRSpecRSpecRSpec::RailsRailsRails::ControllerExampleGroupControllerExampleGroupControllerExampleGroup,:type=>:controllerconfig.includeRSpecRSpecRSpec::RailsRailsRails::HelperExampleGroupHelperExampleGroupHelperExampleGroup,:type=>:helperconfig.includeRSpecRSpecRSpec::RailsRailsRails::ModelExampleGroupModelExampleGroupModelExampleGroup,:type=>:modelconfig.includeRSpecRSpecRSpec::RailsRailsRails::RequestExampleGroupRequestExampleGroupRequestExampleGroup,:type=>:requestconfig.includeRSpecRSpecRSpec::RailsRailsRails::RoutingExampleGroupRoutingExampleGroupRoutingExampleGroup,:type=>:routingconfig.includeRSpecRSpecRSpec::RailsRailsRails::ViewExampleGroupViewExampleGroupViewExampleGroup,:type=>:viewconfig.includeRSpecRSpecRSpec::RailsRailsRails::FeatureExampleGroupFeatureExampleGroupFeatureExampleGroup,:type=>:featureconfig.includeRSpecRSpecRSpec::RailsRailsRails::MatchersMatchersMatchersconfig.includeRSpecRSpecRSpec::RailsRailsRails::SystemExampleGroupSystemExampleGroupSystemExampleGroup,:type=>:systemend# File 'lib/rspec/rails/configuration.rb', line 43
  
  def self.add_test_type_configurations(config)
-@@ -1481,11 +1510,8 @@ Mappings used by infer_spec_type_from_file_location!.
- 
-   
-     
--
--  
--    
-       Class Method Summary
--      ()
-+      
-     
- 
-     
-@@ -1511,7 +1537,7 @@ Mappings used by infer_spec_type_from_file_location!.
-   
-     
-       Instance Method Summary
--      ()
-+      
-     
- 
-     
+   config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
