@@ -344,24 +344,24 @@ quickly degrade with overuse. YMMV.
 
   
     Note:Note:
-    letlet can be configured to be threadsafe or not.
+    let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configureRSpec.configurelet can be configured to be threadsafe or not.
+that spawn separate threads. Specify this on RSpec.configure.let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
     Note:
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -410,7 +410,7 @@ quickly degrade with overuse. YMMV.
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -445,7 +445,7 @@ quickly degrade with overuse. YMMV.
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -986,7 +986,7 @@ quickly degrade with overuse. YMMV.
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -1586,24 +1586,24 @@ end
     
   
     Note:Note:
-    subjectsubject can be configured to be threadsafe or not.
+    subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configureRSpec.configuresubject can be configured to be threadsafe or not.
+that spawn separate threads. Specify this on RSpec.configure.subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
     Note:
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -1631,7 +1631,7 @@ When given a namename, calling supersuper in the block is not supported.When giv
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -1656,7 +1656,7 @@ When given a name, calling super in the block is not supported.
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -2113,7 +2113,7 @@ end
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -2728,7 +2728,7 @@ quickly degrade with overuse. YMMV.
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -2957,7 +2957,7 @@ end
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -3329,7 +3329,7 @@ quickly degrade with overuse. YMMV.
     let can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 
@@ -3558,7 +3558,7 @@ end
     subject can be configured to be threadsafe or not.
 If it is threadsafe, it will take longer to access the value.
 If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure
+that spawn separate threads. Specify this on RSpec.configure.
 
   
 

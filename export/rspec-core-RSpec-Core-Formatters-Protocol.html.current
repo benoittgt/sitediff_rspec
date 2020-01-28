@@ -114,17 +114,17 @@ OverviewOverview
 notifications implemented as part of the standard interface. The
 reporter will issue these during a normal test suite run, but a
 formatter will only receive those notifications it has registered
-itself to receive. To register a formatter call:This class isn't loaded at runtime but serves to document all of the
+itself to receive. To register a formatter call:.This class isn't loaded at runtime but serves to document all of the
 notifications implemented as part of the standard interface. The
 reporter will issue these during a normal test suite run, but a
 formatter will only receive those notifications it has registered
-itself to receive. To register a formatter call:
+itself to receive. To register a formatter call:.
 
-::RSpec::Core::Formatters.register class, :list, :of, :notifications::RSpec::Core::Formatters.register class, :list, :of, :notifications::RSpec::Core::Formatters.register class, :list, :of, :notifications
+::RSpec::Core::Formatters.register class, :list, :of, :notifications.::RSpec::Core::Formatters.register class, :list, :of, :notifications.
 
 e.g.e.g.
 
-::RSpec::Core::Formatters.register self, :start, :example_started::RSpec::Core::Formatters.register self, :start, :example_started::RSpec::Core::Formatters.register self, :start, :example_started
+::RSpec::Core::Formatters.register self, :start, :example_started.::RSpec::Core::Formatters.register self, :start, :example_started.
 
 
   
@@ -132,13 +132,13 @@ e.g.e.g.
 notifications implemented as part of the standard interface. The
 reporter will issue these during a normal test suite run, but a
 formatter will only receive those notifications it has registered
-itself to receive. To register a formatter call:
+itself to receive. To register a formatter call:.
 
-::RSpec::Core::Formatters.register class, :list, :of, :notifications
+::RSpec::Core::Formatters.register class, :list, :of, :notifications.
 
 e.g.
 
-::RSpec::Core::Formatters.register self, :start, :example_started
+::RSpec::Core::Formatters.register self, :start, :example_started.
 
 
   
@@ -148,13 +148,13 @@ e.g.
 notifications implemented as part of the standard interface. The
 reporter will issue these during a normal test suite run, but a
 formatter will only receive those notifications it has registered
-itself to receive. To register a formatter call:
+itself to receive. To register a formatter call:.
 
-::RSpec::Core::Formatters.register class, :list, :of, :notifications
+::RSpec::Core::Formatters.register class, :list, :of, :notifications.
 
 e.g.
 
-::RSpec::Core::Formatters.register self, :start, :example_started
+::RSpec::Core::Formatters.register self, :start, :example_started.
 
 
   
@@ -5311,13 +5311,13 @@ Overview
 notifications implemented as part of the standard interface. The
 reporter will issue these during a normal test suite run, but a
 formatter will only receive those notifications it has registered
-itself to receive. To register a formatter call:
+itself to receive. To register a formatter call:.
 
-::RSpec::Core::Formatters.register class, :list, :of, :notifications
+::RSpec::Core::Formatters.register class, :list, :of, :notifications.
 
 e.g.
 
-::RSpec::Core::Formatters.register self, :start, :example_started
+::RSpec::Core::Formatters.register self, :start, :example_started.
 
 
   

@@ -1193,9 +1193,9 @@ end
     
   
     Note:Note:
-    subjectsubject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:.
 
 RSpecRSpec..describedescribe WidgetWidget dodo
   itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}
@@ -1221,7 +1221,7 @@ an intention revealing name instead.While the examples below demonstrate how to 
 explicitly in examples, we recommend that you define a method with
 an intention revealing name instead.
 subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1237,7 +1237,7 @@ an intention revealing name instead.
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1282,7 +1282,7 @@ subject is not intended to be used in a before(:context) hook.
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1315,7 +1315,7 @@ subject is not intended to be used in a before(:context) hook.
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1634,7 +1634,7 @@ end
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1943,7 +1943,7 @@ end
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -2398,7 +2398,7 @@ end
   
     Note:
     subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:
+syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }

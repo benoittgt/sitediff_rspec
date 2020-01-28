@@ -22,2822 +22,247 @@ in particular
 ## Output
 
 ```diff
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/_index.html
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/_index.html
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/_index.html
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/_index.html
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.current b/export/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.new
-index 8324ea1..2b63e88 100644
---- a/export/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.current
-+++ b/export/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.new
-@@ -523,17 +523,17 @@ A new instance of BaseFormatter.
-
-
-
--    Returns a new instance of BaseFormatterReturns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.Returns a new instance of BaseFormatter.
-
-
-
--    Returns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.
-
-
-
-
-
--    Returns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.
-
-
-
-@@ -719,7 +719,7 @@ end
-
-
-
--    Returns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.
-
-
-
-@@ -782,7 +782,7 @@ end
-
-
-
--    Returns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.
-
-
-
-@@ -849,17 +849,17 @@ end
-
-
-
--    Returns the value of attribute example_groupReturns the value of attribute example_group
-+    Returns the value of attribute example_group.Returns the value of attribute example_group.
-
-
-
--    Returns the value of attribute example_group
-+    Returns the value of attribute example_group.
-
-
-
-
-
--    Returns the value of attribute example_group
-+    Returns the value of attribute example_group.
-
-
-
-@@ -948,7 +948,7 @@ end
-
-
-
--    Returns the value of attribute example_group
-+    Returns the value of attribute example_group.
-
-
-
-@@ -982,17 +982,17 @@ end
-
-
-
--    Returns the value of attribute outputReturns the value of attribute output
-+    Returns the value of attribute output.Returns the value of attribute output.
-
-
-
--    Returns the value of attribute output
-+    Returns the value of attribute output.
-
-
-
-
-
--    Returns the value of attribute output
-+    Returns the value of attribute output.
-
-
-
-@@ -1081,7 +1081,7 @@ end
-
-
-
--    Returns the value of attribute output
-+    Returns the value of attribute output.
-
-
-
-@@ -1118,7 +1118,7 @@ end
-
-
-
--    Returns the value of attribute example_group
-+    Returns the value of attribute example_group.
-
-
-
-@@ -1152,7 +1152,7 @@ end
-
-
-
--    Returns the value of attribute output
-+    Returns the value of attribute output.
-
-
-
-@@ -2286,7 +2286,7 @@ RSpec::Core::Formatters::BaseFormatter.
-
-
-
--    Returns a new instance of BaseFormatter
-+    Returns a new instance of BaseFormatter.
-
-
-
-@@ -2353,7 +2353,7 @@ end
-
-
-
--    Returns the value of attribute example_group
-+    Returns the value of attribute example_group.
-
-
-
-@@ -2387,7 +2387,7 @@ end
-
-
-
--    Returns the value of attribute output
-+    Returns the value of attribute output.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-MemoizedHelpers-ClassMethods.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Configuration.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Configuration.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Configuration.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Configuration.html.current b/export/rspec-core-RSpec-Core-Configuration.html.new
-index ef56b4e..634a50b 100644
---- a/export/rspec-core-RSpec-Core-Configuration.html.current
-+++ b/export/rspec-core-RSpec-Core-Configuration.html.new
-@@ -8248,17 +8248,17 @@ add_setting :error_stream
-
-
-
--    Returns the file pathReturns the file path
-+    Returns the file path.Returns the file path.
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -8335,7 +8335,7 @@ Returns:
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -8496,7 +8496,7 @@ the file path
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -8571,7 +8571,7 @@ Returns:
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -8710,7 +8710,7 @@ define_reader :example_status_persistence_file_path
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -11687,17 +11687,17 @@ supported behavior in RSpec 4.
-
-
-
--    Returns the configured behaviorReturns the configured behavior
-+    Returns the configured behavior.Returns the configured behavior.
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -11774,7 +11774,7 @@ Returns:
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -11935,7 +11935,7 @@ sets the configured behavior
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -12010,7 +12010,7 @@ Returns:
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -12186,7 +12186,7 @@ supported behavior in RSpec 4.
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -13178,7 +13178,7 @@ add_setting :error_stream
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -14018,7 +14018,7 @@ supported behavior in RSpec 4.
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -24930,17 +24930,17 @@ end
-
-
-
--    Returns full description filterReturns full description filter
-+    Returns full description filter.Returns full description filter.
-
-
-
--    Returns full description filter
-+    Returns full description filter.
-
-
-
-
-
--    Returns full description filter
-+    Returns full description filter.
-
-
-
-@@ -25090,7 +25090,7 @@ end
-
-
-
--    Returns full description filter
-+    Returns full description filter.
-
-
-
-@@ -29780,17 +29780,17 @@ delegate_to_ordering_manager :register_ordering
-
-
-
--    Returns the currently configured reporterReturns the currently configured reporter
-+    Returns the currently configured reporter.Returns the currently configured reporter.
-
-
-
--    Returns the currently configured reporter
-+    Returns the currently configured reporter.
-
-
-
-
-
--    Returns the currently configured reporter
-+    Returns the currently configured reporter.
-
-
-
-@@ -30032,7 +30032,7 @@ end
-
-
-
--    Returns the currently configured reporter
-+    Returns the currently configured reporter.
-
-
-
-@@ -33642,7 +33642,7 @@ end
-
-
-
--    Returns full description filter
-+    Returns full description filter.
-
-
-
-@@ -34702,7 +34702,7 @@ delegate_to_ordering_manager :register_ordering
-
-
-
--    Returns the currently configured reporter
-+    Returns the currently configured reporter.
-
-
-
-@@ -37525,7 +37525,7 @@ add_setting :error_stream
-
-
-
--    Returns the file path
-+    Returns the file path.
-
-
-
-@@ -38365,7 +38365,7 @@ supported behavior in RSpec 4.
-
-
-
--    Returns the configured behavior
-+    Returns the configured behavior.
-
-
-
-@@ -40896,7 +40896,7 @@ end
-
-
-
--    Returns full description filter
-+    Returns full description filter.
-
-
-
-@@ -41956,7 +41956,7 @@ delegate_to_ordering_manager :register_ordering
-
-
-
--    Returns the currently configured reporter
-+    Returns the currently configured reporter.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/ConfigurationOptions.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/ConfigurationOptions.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-ConfigurationOptions.html.diff
-diff --git a/export/rspec-core-RSpec-Core-ConfigurationOptions.html.current b/export/rspec-core-RSpec-Core-ConfigurationOptions.html.new
-index 73e23a2..28ba2e5 100644
---- a/export/rspec-core-RSpec-Core-ConfigurationOptions.html.current
-+++ b/export/rspec-core-RSpec-Core-ConfigurationOptions.html.new
-@@ -465,17 +465,17 @@ A new instance of ConfigurationOptions.
-
-
-
--    Returns a new instance of ConfigurationOptionsReturns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.Returns a new instance of ConfigurationOptions.
-
-
-
--    Returns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.
-
-
-
-
-
--    Returns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.
-
-
-
-@@ -643,7 +643,7 @@ end
-
-
-
--    Returns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.
-
-
-
-@@ -699,7 +699,7 @@ end
-
-
-
--    Returns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.
-
-
-
-@@ -759,17 +759,17 @@ end
-
-
-
--    Returns the original command-line argumentsReturns the original command-line arguments
-+    Returns the original command-line arguments.Returns the original command-line arguments.
-
-
-
--    Returns the original command-line arguments
-+    Returns the original command-line arguments.
-
-
-
-
-
--    Returns the original command-line arguments
-+    Returns the original command-line arguments.
-
-
-
-@@ -919,7 +919,7 @@ end
-
-
-
--    Returns the original command-line arguments
-+    Returns the original command-line arguments.
-
-
-
-@@ -970,17 +970,17 @@ end
-
-
-
--    Returns the final merged options, drawn from all external sourcesReturns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.Returns the final merged options, drawn from all external sources.
-
-
-
--    Returns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.
-
-
-
-
-
--    Returns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.
-
-
-
-@@ -1130,7 +1130,7 @@ end
-
-
-
--    Returns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.
-
-
-
-@@ -1184,7 +1184,7 @@ end
-
-
-
--    Returns the original command-line arguments
-+    Returns the original command-line arguments.
-
-
-
-@@ -1235,7 +1235,7 @@ end
-
-
-
--    Returns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.
-
-
-
-@@ -2098,7 +2098,7 @@ file.
-
-
-
--    Returns a new instance of ConfigurationOptions
-+    Returns a new instance of ConfigurationOptions.
-
-
-
-@@ -2158,7 +2158,7 @@ end
-
-
-
--    Returns the original command-line arguments
-+    Returns the original command-line arguments.
-
-
-
-@@ -2209,7 +2209,7 @@ end
-
-
-
--    Returns the final merged options, drawn from all external sources
-+    Returns the final merged options, drawn from all external sources.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/ConsoleCodes.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/ConsoleCodes.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-ConsoleCodes.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/CustomNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/CustomNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-CustomNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/DSL.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/DSL.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-DSL.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/DeprecationNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/DeprecationNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Example.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-MemoizedHelpers-ClassMethods.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Configuration.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Configuration.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Configuration.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/ConfigurationOptions.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/ConfigurationOptions.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-ConfigurationOptions.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/ConsoleCodes.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/ConsoleCodes.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-ConsoleCodes.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/CustomNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/CustomNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-CustomNotification.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/DSL.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/DSL.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-DSL.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/DeprecationNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/DeprecationNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Example.html.diff
 diff --git a/export/rspec-core-RSpec-Core-Example.html.current b/export/rspec-core-RSpec-Core-Example.html.new
-index 801aaaf..daa39d5 100644
+index 04f817b..43bf597 100644
 --- a/export/rspec-core-RSpec-Core-Example.html.current
 +++ b/export/rspec-core-RSpec-Core-Example.html.new
-@@ -2709,17 +2709,17 @@ end
-
-
-
--    Returns the current reporter for the exampleReturns the current reporter for the example
-+    Returns the current reporter for the example.Returns the current reporter for the example.
-
-
-
--    Returns the current reporter for the example
-+    Returns the current reporter for the example.
-
-
-
-
-
--    Returns the current reporter for the example
-+    Returns the current reporter for the example.
-
-
-
-@@ -2869,7 +2869,7 @@ end
-
-
-
--    Returns the current reporter for the example
-+    Returns the current reporter for the example.
-
-
-
-@@ -2992,7 +2992,7 @@ end
-
-
-
--    Returns the current reporter for the example
-+    Returns the current reporter for the example.
-
-
-
-@@ -4966,20 +4966,20 @@ end
+@@ -4966,7 +4966,7 @@ end
 
 
      Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17./path/to/spec.rb:17Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
+-like ./path/to/spec.rb:17.Returns the exact source location of this example in a form
 +like ./path/to/spec.rb:17./path/to/spec.rb:17.Returns the exact source location of this example in a form
-+like ./path/to/spec.rb:17.
+ like ./path/to/spec.rb:17.
 
 
 
-     Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
-+like ./path/to/spec.rb:17.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/ExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/ExampleGroup.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-ExampleGroup.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExampleNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExampleNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ExampleNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExamplesNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExamplesNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example/ExecutionResult.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example/ExecutionResult.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Example-ExecutionResult.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/FailedExampleNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/FailedExampleNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.diff
 
-     Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
-+like ./path/to/spec.rb:17.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/FallbackMessageFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/FallbackMessageFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-GroupNotification.html.diff
 
-@@ -5116,7 +5116,7 @@ delegate_to_metadata :location
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Helpers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Helpers.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Helpers.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Hooks.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Hooks.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Hooks.html.diff
 
-     Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
-+like ./path/to/spec.rb:17.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/HtmlSnippetExtractor.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/HtmlSnippetExtractor.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.diff
 
-
-
-@@ -7207,7 +7207,7 @@ end
-
-
-     Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
-+like ./path/to/spec.rb:17.
-
-
-
-@@ -8309,7 +8309,7 @@ end
-
-
-
--    Returns the current reporter for the example
-+    Returns the current reporter for the example.
-
-
-
-@@ -8802,7 +8802,7 @@ end
-
-
-     Returns the exact source location of this example in a form
--like ./path/to/spec.rb:17
-+like ./path/to/spec.rb:17.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/ExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/ExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-ExampleGroup.html.diff
-diff --git a/export/rspec-core-RSpec-Core-ExampleGroup.html.current b/export/rspec-core-RSpec-Core-ExampleGroup.html.new
-index 2ffd82e..0cf6cb9 100644
---- a/export/rspec-core-RSpec-Core-ExampleGroup.html.current
-+++ b/export/rspec-core-RSpec-Core-ExampleGroup.html.new
-@@ -1620,17 +1620,17 @@ A new instance of ExampleGroup.
-
-
-
--    Returns a new instance of ExampleGroupReturns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.Returns a new instance of ExampleGroup.
-
-
-
--    Returns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.
-
-
-
-
-
--    Returns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.
-
-
-
-@@ -1730,7 +1730,7 @@ end
-
-
-
--    Returns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.
-
-
-
-@@ -1767,7 +1767,7 @@ end
-
-
-
--    Returns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.
-
-
-
-@@ -2394,17 +2394,17 @@ end
-
-
-
--    Returns the current example group descriptionReturns the current example group description
-+    Returns the current example group description.Returns the current example group description.
-
-
-
--    Returns the current example group description
-+    Returns the current example group description.
-
-
-
-
-
--    Returns the current example group description
-+    Returns the current example group description.
-
-
-
-@@ -2564,7 +2564,7 @@ end
-
-
-
--    Returns the current example group description
-+    Returns the current example group description.
-
-
-
-@@ -24016,7 +24016,7 @@ end
-
-
-
--    Returns the current example group description
-+    Returns the current example group description.
-
-
-
-@@ -28351,7 +28351,7 @@ group block.
-
-
-
--    Returns a new instance of ExampleGroup
-+    Returns a new instance of ExampleGroup.
-
-
-
-@@ -28518,7 +28518,7 @@ end
-
-
-
--    Returns the current example group description
-+    Returns the current example group description.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExampleNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExampleNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ExampleNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExamplesNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ExamplesNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.new
-index 6f4cd93..03a8f56 100644
---- a/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.current
-+++ b/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.new
-@@ -652,17 +652,17 @@ returns pending examples as notifications.
-
-
-
--    Returns a new instance of ExamplesNotificationReturns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.Returns a new instance of ExamplesNotification.
-
-
-
--    Returns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.
-
-
-
-
-
--    Returns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.
-
-
-
-@@ -751,7 +751,7 @@ end
-
-
-
--    Returns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.
-
-
-
-@@ -786,7 +786,7 @@ end
-
-
-
--    Returns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.
-
-
-
-@@ -825,17 +825,17 @@ end
-
-
-
--    Returns list of examplesReturns list of examples
-+    Returns list of examples.Returns list of examples.
-
-
-
--    Returns list of examples
-+    Returns list of examples.
-
-
-
-
-
--    Returns list of examples
-+    Returns list of examples.
-
-
-
-@@ -985,7 +985,7 @@ end
-
-
-
--    Returns list of examples
-+    Returns list of examples.
-
-
-
-@@ -1034,17 +1034,17 @@ end
-
-
-
--    Returns list of failed examplesReturns list of failed examples
-+    Returns list of failed examples.Returns list of failed examples.
-
-
-
--    Returns list of failed examples
-+    Returns list of failed examples.
-
-
-
-
-
--    Returns list of failed examples
-+    Returns list of failed examples.
-
-
-
-@@ -1194,7 +1194,7 @@ end
-
-
-
--    Returns list of failed examples
-+    Returns list of failed examples.
-
-
-
-@@ -2247,17 +2247,17 @@ end
-
-
-
--    Returns list of pending examplesReturns list of pending examples
-+    Returns list of pending examples.Returns list of pending examples.
-
-
-
--    Returns list of pending examples
-+    Returns list of pending examples.
-
-
-
-
-
--    Returns list of pending examples
-+    Returns list of pending examples.
-
-
-
-@@ -2407,7 +2407,7 @@ end
-
-
-
--    Returns list of pending examples
-+    Returns list of pending examples.
-
-
-
-@@ -2655,7 +2655,7 @@ end
-
-
-
--    Returns list of examples
-+    Returns list of examples.
-
-
-
-@@ -2704,7 +2704,7 @@ end
-
-
-
--    Returns list of failed examples
-+    Returns list of failed examples.
-
-
-
-@@ -2977,7 +2977,7 @@ end
-
-
-
--    Returns list of pending examples
-+    Returns list of pending examples.
-
-
-
-@@ -3311,7 +3311,7 @@ end
-
-
-
--    Returns a new instance of ExamplesNotification
-+    Returns a new instance of ExamplesNotification.
-
-
-
-@@ -3350,7 +3350,7 @@ end
-
-
-
--    Returns list of examples
-+    Returns list of examples.
-
-
-
-@@ -3399,7 +3399,7 @@ end
-
-
-
--    Returns list of failed examples
-+    Returns list of failed examples.
-
-
-
-@@ -3672,7 +3672,7 @@ end
-
-
-
--    Returns list of pending examples
-+    Returns list of pending examples.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example/ExecutionResult.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example/ExecutionResult.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Example-ExecutionResult.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/FailedExampleNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/FailedExampleNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.new
-index effc0ba..4946f8d 100644
---- a/export/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.current
-+++ b/export/rspec-core-RSpec-Core-Notifications-FailedExampleNotification.html.new
-@@ -1615,17 +1615,17 @@ end
-
-
-
--    Returns The example descriptionReturns The example description
-+    Returns The example description.Returns The example description.
-
-
-
--    Returns The example description
-+    Returns The example description.
-
-
-
-
-
--    Returns The example description
-+    Returns The example description.
-
-
-
-@@ -1775,7 +1775,7 @@ end
-
-
-
--    Returns The example description
-+    Returns The example description.
-
-
-
-@@ -1824,17 +1824,17 @@ end
-
-
-
--    Returns The example failureReturns The example failure
-+    Returns The example failure.Returns The example failure.
-
-
-
--    Returns The example failure
-+    Returns The example failure.
-
-
-
-
-
--    Returns The example failure
-+    Returns The example failure.
-
-
-
-@@ -1984,7 +1984,7 @@ end
-
-
-
--    Returns The example failure
-+    Returns The example failure.
-
-
-
-@@ -3037,7 +3037,7 @@ end
-
-
-
--    Returns The example description
-+    Returns The example description.
-
-
-
-@@ -3086,7 +3086,7 @@ end
-
-
-
--    Returns The example failure
-+    Returns The example failure.
-
-
-
-@@ -3804,7 +3804,7 @@ end
-
-
-
--    Returns The example description
-+    Returns The example description.
-
-
-
-@@ -3853,7 +3853,7 @@ end
-
-
-
--    Returns The example failure
-+    Returns The example failure.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/FallbackMessageFormatter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/FallbackMessageFormatter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.current b/export/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.new
-index fa4afe9..154d163 100644
---- a/export/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.current
-+++ b/export/rspec-core-RSpec-Core-Formatters-FallbackMessageFormatter.html.new
-@@ -292,7 +292,7 @@ Used by the reporter to send messages to the output stream.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatterReturns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.Returns a new instance of FallbackMessageFormatter.
-
-
-
-@@ -300,7 +300,7 @@ Returns a new instance of FallbackMessageFormatterReturns a new instance of Fall
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.
-
-
-
-@@ -310,7 +310,7 @@ Returns a new instance of FallbackMessageFormatter
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.
-
-
-
-@@ -403,7 +403,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.
-
-
-
-@@ -442,7 +442,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.
-
-
-
-@@ -873,7 +873,7 @@ profiler implements #message
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of FallbackMessageFormatter
-+Returns a new instance of FallbackMessageFormatter.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-GroupNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Helpers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Helpers.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Helpers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Hooks.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Hooks.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Hooks.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/HtmlSnippetExtractor.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/HtmlSnippetExtractor.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Loader.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Loader.html.diff
 diff --git a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new
-index 5c78a7d..9069f6d 100644
+index fc5396e..9069f6d 100644
 --- a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current
 +++ b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new
-@@ -510,7 +510,7 @@ A new instance of Loader.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of LoaderReturns a new instance of Loader
-+Returns a new instance of Loader.Returns a new instance of Loader.
-
-
-
-@@ -518,7 +518,7 @@ Returns a new instance of LoaderReturns a new instance of Loader
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Loader
-+Returns a new instance of Loader.
-
-
-
-@@ -528,7 +528,7 @@ Returns a new instance of Loader
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Loader
-+Returns a new instance of Loader.
-
-
-
-@@ -641,7 +641,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Loader
-+Returns a new instance of Loader.
-
-
-
-@@ -684,7 +684,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Loader
-+Returns a new instance of Loader.
-
-
-
 @@ -734,7 +734,7 @@ end
    This method is part of a private API.
    You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns the default formatter to setup, defaults to progressprogressReturns the default formatter to setup, defaults to progress
+-Returns the default formatter to setup, defaults to progress.Returns the default formatter to setup, defaults to progress.
 +Returns the default formatter to setup, defaults to progressprogress.Returns the default formatter to setup, defaults to progress.
 
 
 
-@@ -742,7 +742,7 @@ Returns the default formatter to setup, defaults to progressprogressReturns the
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns the default formatter to setup, defaults to progress
-+Returns the default formatter to setup, defaults to progress.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-MemoizedHelpers.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/MessageNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/MessageNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-MessageNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Metadata.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Metadata.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Metadata.html.diff
 
-@@ -752,7 +752,7 @@ Returns the default formatter to setup, defaults to progress
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MetadataFilter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MetadataFilter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-MetadataFilter.html.diff
 
--Returns the default formatter to setup, defaults to progress
-+Returns the default formatter to setup, defaults to progress.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MultipleExceptionError.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MultipleExceptionError.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-MultipleExceptionError.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/NullNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/NullNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-NullNotification.html.diff
 
-@@ -906,7 +906,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Pending.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Pending.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Pending.html.diff
 
--Returns the default formatter to setup, defaults to progress
-+Returns the default formatter to setup, defaults to progress.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFailedAsExpectedNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFailedAsExpectedNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-PendingExampleFailedAsExpectedNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFixedNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFixedNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-PendingExampleFixedNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example/Procsy.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example/Procsy.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Example-Procsy.html.diff
 
-@@ -964,7 +964,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/ProfileFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/ProfileFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.diff
 
--Returns the loaded formattersReturns the loaded formatters
-+Returns the loaded formatters.Returns the loaded formatters.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ProfileNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ProfileNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Protocol.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Protocol.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Protocol.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec.html
+🏆 Diff done: export/diff/rspec-core-RSpec.html.diff
 
-@@ -972,7 +972,7 @@ Returns the loaded formattersReturns the loaded formatters
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/RakeTask.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/RakeTask.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-RakeTask.html.diff
 
--Returns the loaded formatters
-+Returns the loaded formatters.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Reporter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Reporter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Reporter.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Runner.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Runner.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Runner.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Sandbox.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Sandbox.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Sandbox.html.diff
 
-@@ -982,7 +982,7 @@ Returns the loaded formatters
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SeedNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SeedNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SeedNotification.html.diff
 
--Returns the loaded formatters
-+Returns the loaded formatters.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedContext.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedContext.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-SharedContext.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroup.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupInclusionStackFrame.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupInclusionStackFrame.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.diff
 
-@@ -1136,7 +1136,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupModule.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupModule.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroupModule.html.diff
 
--Returns the loaded formatters
-+Returns the loaded formatters.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Pending/SkipDeclaredInExample.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Pending/SkipDeclaredInExample.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SkippedExampleNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SkippedExampleNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.diff
 
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/StartNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/StartNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-StartNotification.html.diff
 
-@@ -1194,7 +1194,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SummaryNotification.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SummaryNotification.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.diff
 
--Returns the reporterReturns the reporter
-+Returns the reporter.Returns the reporter.
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup/TopLevelDSL.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup/TopLevelDSL.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroup-TopLevelDSL.html.diff
 
-
-
-@@ -1202,7 +1202,7 @@ Returns the reporterReturns the reporter
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the reporter
-+Returns the reporter.
-
-
-
-@@ -1212,7 +1212,7 @@ Returns the reporter
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the reporter
-+Returns the reporter.
-
-
-
-@@ -1366,7 +1366,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the reporter
-+Returns the reporter.
-
-
-
-@@ -1424,7 +1424,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the default formatter to setup, defaults to progress
-+Returns the default formatter to setup, defaults to progress.
-
-
-
-@@ -1479,7 +1479,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the loaded formatters
-+Returns the loaded formatters.
-
-
-
-@@ -1534,7 +1534,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the reporter
-+Returns the reporter.
-
-
-
-@@ -1978,7 +1978,7 @@ interface.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Loader
-+Returns a new instance of Loader.
-
-
-
-@@ -2025,7 +2025,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the default formatter to setup, defaults to progress
-+Returns the default formatter to setup, defaults to progress.
-
-
-
-@@ -2080,7 +2080,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the loaded formatters
-+Returns the loaded formatters.
-
-
-
-@@ -2135,7 +2135,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns the reporter
-+Returns the reporter.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-MemoizedHelpers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/MessageNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/MessageNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-MessageNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Metadata.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Metadata.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Metadata.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Metadata.html.current b/export/rspec-core-RSpec-Core-Metadata.html.new
-index ee23eaf..094ab84 100644
---- a/export/rspec-core-RSpec-Core-Metadata.html.current
-+++ b/export/rspec-core-RSpec-Core-Metadata.html.new
-@@ -322,7 +322,7 @@ Matches strings either at the beginning of the input or prefixed with a whitespa
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to lineReturns relative path to line
-+Returns relative path to line.Returns relative path to line.
-
-
-
-@@ -330,7 +330,7 @@ Returns relative path to lineReturns relative path to line
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to line
-+Returns relative path to line.
-
-
-
-@@ -340,7 +340,7 @@ Returns relative path to line
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to line
-+Returns relative path to line.
-
-
-
-@@ -635,7 +635,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to line
-+Returns relative path to line.
-
-
-
-@@ -889,7 +889,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to line
-+Returns relative path to line.
-
-
-
-@@ -1141,7 +1141,7 @@ run (e.g. filter_run_including, filter_run_excluding, etc).
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns relative path to line
-+Returns relative path to line.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MetadataFilter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MetadataFilter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-MetadataFilter.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MultipleExceptionError.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MultipleExceptionError.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-MultipleExceptionError.html.diff
-diff --git a/export/rspec-core-RSpec-Core-MultipleExceptionError.html.current b/export/rspec-core-RSpec-Core-MultipleExceptionError.html.new
-index b549e9b..974eeed 100644
---- a/export/rspec-core-RSpec-Core-MultipleExceptionError.html.current
-+++ b/export/rspec-core-RSpec-Core-MultipleExceptionError.html.new
-@@ -727,17 +727,17 @@ A summary of the failure, including the block label and a count of failures.
-
-
-
--    Returns a new instance of MultipleExceptionErrorReturns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.Returns a new instance of MultipleExceptionError.
-
-
-
--    Returns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.
-
-
-
-
-
--    Returns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.
-
-
-
-@@ -975,7 +975,7 @@ end
-
-
-
--    Returns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.
-
-
-
-@@ -1045,7 +1045,7 @@ end
-
-
-
--    Returns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.
-
-
-
-@@ -3494,7 +3494,7 @@ and one in an after block.
-
-
-
--    Returns a new instance of MultipleExceptionError
-+    Returns a new instance of MultipleExceptionError.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/NullNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/NullNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-NullNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Pending.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Pending.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Pending.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFailedAsExpectedNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFailedAsExpectedNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-PendingExampleFailedAsExpectedNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFixedNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/PendingExampleFixedNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-PendingExampleFixedNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Example/Procsy.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Example/Procsy.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Example-Procsy.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Example-Procsy.html.current b/export/rspec-core-RSpec-Core-Example-Procsy.html.new
-index 4d86f21..ae3f596 100644
---- a/export/rspec-core-RSpec-Core-Example-Procsy.html.current
-+++ b/export/rspec-core-RSpec-Core-Example-Procsy.html.new
-@@ -542,17 +542,17 @@ Provides a wrapped proc that will update our executed? state when executed.
-
-
-
--    Returns a new instance of ProcsyReturns a new instance of Procsy
-+    Returns a new instance of Procsy.Returns a new instance of Procsy.
-
-
-
--    Returns a new instance of Procsy
-+    Returns a new instance of Procsy.
-
-
-
-
-
--    Returns a new instance of Procsy
-+    Returns a new instance of Procsy.
-
-
-
-@@ -661,7 +661,7 @@ end
-
-
-
--    Returns a new instance of Procsy
-+    Returns a new instance of Procsy.
-
-
-
-@@ -700,7 +700,7 @@ end
-
-
-
--    Returns a new instance of Procsy
-+    Returns a new instance of Procsy.
-
-
-
-@@ -1697,7 +1697,7 @@ end
-
-
-
--    Returns a new instance of Procsy
-+    Returns a new instance of Procsy.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/ProfileFormatter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/ProfileFormatter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.current b/export/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.new
-index d7a7461..4fefa87 100644
---- a/export/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.current
-+++ b/export/rspec-core-RSpec-Core-Formatters-ProfileFormatter.html.new
-@@ -288,7 +288,7 @@ A new instance of ProfileFormatter.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatterReturns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.Returns a new instance of ProfileFormatter.
-
-
-
-@@ -296,7 +296,7 @@ Returns a new instance of ProfileFormatterReturns a new instance of ProfileForma
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.
-
-
-
-@@ -306,7 +306,7 @@ Returns a new instance of ProfileFormatter
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.
-
-
-
-@@ -399,7 +399,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.
-
-
-
-@@ -438,7 +438,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.
-
-
-
-@@ -896,7 +896,7 @@ Formatter for providing profile output.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ProfileFormatter
-+Returns a new instance of ProfileFormatter.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/ProfileNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/ProfileNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.new
-index 41f7182..b81c76b 100644
---- a/export/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.current
-+++ b/export/rspec-core-RSpec-Core-Notifications-ProfileNotification.html.new
-@@ -667,17 +667,17 @@ The slowest example groups.
-
-
-
--    Returns a new instance of ProfileNotificationReturns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.Returns a new instance of ProfileNotification.
-
-
-
--    Returns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.
-
-
-
-
-
--    Returns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.
-
-
-
-@@ -796,7 +796,7 @@ end
-
-
-
--    Returns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.
-
-
-
-@@ -837,7 +837,7 @@ end
-
-
-
--    Returns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.
-
-
-
-@@ -1938,17 +1938,17 @@ end
-
-
-
--    Returns the percentage of total time takenReturns the percentage of total time taken
-+    Returns the percentage of total time taken.Returns the percentage of total time taken.
-
-
-
--    Returns the percentage of total time taken
-+    Returns the percentage of total time taken.
-
-
-
-
-
--    Returns the percentage of total time taken
-+    Returns the percentage of total time taken.
-
-
-
-@@ -2138,7 +2138,7 @@ end
-
-
-
--    Returns the percentage of total time taken
-+    Returns the percentage of total time taken.
-
-
-
-@@ -2195,17 +2195,17 @@ end
-
-
-
--    Returns the time taken (in seconds) to run the slowest examplesReturns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.Returns the time taken (in seconds) to run the slowest examples.
-
-
-
--    Returns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.
-
-
-
-
-
--    Returns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.
-
-
-
-@@ -2385,7 +2385,7 @@ end
-
-
-
--    Returns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.
-
-
-
-@@ -2440,17 +2440,17 @@ end
-
-
-
--    Returns the slowest examplesReturns the slowest examples
-+    Returns the slowest examples.Returns the slowest examples.
-
-
-
--    Returns the slowest examples
-+    Returns the slowest examples.
-
-
-
-
-
--    Returns the slowest examples
-+    Returns the slowest examples.
-
-
-
-@@ -2630,7 +2630,7 @@ end
-
-
-
--    Returns the slowest examples
-+    Returns the slowest examples.
-
-
-
-@@ -2685,17 +2685,17 @@ end
-
-
-
--    Returns the slowest example groupsReturns the slowest example groups
-+    Returns the slowest example groups.Returns the slowest example groups.
-
-
-
--    Returns the slowest example groups
-+    Returns the slowest example groups.
-
-
-
-
-
--    Returns the slowest example groups
-+    Returns the slowest example groups.
-
-
-
-@@ -2845,7 +2845,7 @@ end
-
-
-
--    Returns the slowest example groups
-+    Returns the slowest example groups.
-
-
-
-@@ -2898,7 +2898,7 @@ end
-
-
-
--    Returns the percentage of total time taken
-+    Returns the percentage of total time taken.
-
-
-
-@@ -2955,7 +2955,7 @@ end
-
-
-
--    Returns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.
-
-
-
-@@ -3010,7 +3010,7 @@ end
-
-
-
--    Returns the slowest examples
-+    Returns the slowest examples.
-
-
-
-@@ -3065,7 +3065,7 @@ end
-
-
-
--    Returns the slowest example groups
-+    Returns the slowest example groups.
-
-
-
-@@ -3361,7 +3361,7 @@ information at the end of the test run for profiling information.
-
-
-
--    Returns a new instance of ProfileNotification
-+    Returns a new instance of ProfileNotification.
-
-
-
-@@ -3615,7 +3615,7 @@ end
-
-
-
--    Returns the percentage of total time taken
-+    Returns the percentage of total time taken.
-
-
-
-@@ -3672,7 +3672,7 @@ end
-
-
-
--    Returns the time taken (in seconds) to run the slowest examples
-+    Returns the time taken (in seconds) to run the slowest examples.
-
-
-
-@@ -3727,7 +3727,7 @@ end
-
-
-
--    Returns the slowest examples
-+    Returns the slowest examples.
-
-
-
-@@ -3782,7 +3782,7 @@ end
-
-
-
--    Returns the slowest example groups
-+    Returns the slowest example groups.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Protocol.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Protocol.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Protocol.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/RakeTask.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/RakeTask.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-RakeTask.html.diff
-diff --git a/export/rspec-core-RSpec-Core-RakeTask.html.current b/export/rspec-core-RSpec-Core-RakeTask.html.new
-index 4d70284..ad623b9 100644
---- a/export/rspec-core-RSpec-Core-RakeTask.html.current
-+++ b/export/rspec-core-RSpec-Core-RakeTask.html.new
-@@ -988,17 +988,17 @@ A new instance of RakeTask.
-
-
-
--    Returns a new instance of RakeTaskReturns a new instance of RakeTask
-+    Returns a new instance of RakeTask.Returns a new instance of RakeTask.
-
-
-
--    Returns a new instance of RakeTask
-+    Returns a new instance of RakeTask.
-
-
-
-
-
--    Returns a new instance of RakeTask
-+    Returns a new instance of RakeTask.
-
-
-
-@@ -1167,7 +1167,7 @@ end
-
-
-
--    Returns a new instance of RakeTask
-+    Returns a new instance of RakeTask.
-
-
-
-@@ -1218,7 +1218,7 @@ end
-
-
-
--    Returns a new instance of RakeTask
-+    Returns a new instance of RakeTask.
-
-
-
-@@ -3335,7 +3335,7 @@ Overview
-
-
-
--    Returns a new instance of RakeTask
-+    Returns a new instance of RakeTask.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Reporter.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Reporter.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Reporter.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Reporter.html.current b/export/rspec-core-RSpec-Core-Reporter.html.new
-index bde8633..b2becfb 100644
---- a/export/rspec-core-RSpec-Core-Reporter.html.current
-+++ b/export/rspec-core-RSpec-Core-Reporter.html.new
-@@ -470,17 +470,17 @@ Initializes the report run and yields itself for further reporting.
-
-
-
--    Returns a new instance of ReporterReturns a new instance of Reporter
-+    Returns a new instance of Reporter.Returns a new instance of Reporter.
-
-
-
--    Returns a new instance of Reporter
-+    Returns a new instance of Reporter.
-
-
-
-
-
--    Returns a new instance of Reporter
-+    Returns a new instance of Reporter.
-
-
-
-@@ -659,7 +659,7 @@ end
-
-
-
--    Returns a new instance of Reporter
-+    Returns a new instance of Reporter.
-
-
-
-@@ -712,7 +712,7 @@ end
-
-
-
--    Returns a new instance of Reporter
-+    Returns a new instance of Reporter.
-
-
-
-@@ -2879,7 +2879,7 @@ spec suite run.
-
-
-
--    Returns a new instance of Reporter
-+    Returns a new instance of Reporter.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Runner.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Runner.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Runner.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Runner.html.current b/export/rspec-core-RSpec-Core-Runner.html.new
-index daa1e05..814eb81 100644
---- a/export/rspec-core-RSpec-Core-Runner.html.current
-+++ b/export/rspec-core-RSpec-Core-Runner.html.new
-@@ -530,17 +530,17 @@ Wires together the various configuration objects and state holders.
-
-
-
--    Returns a new instance of RunnerReturns a new instance of Runner
-+    Returns a new instance of Runner.Returns a new instance of Runner.
-
-
-
--    Returns a new instance of Runner
-+    Returns a new instance of Runner.
-
-
-
-
-
--    Returns a new instance of Runner
-+    Returns a new instance of Runner.
-
-
-
-@@ -649,7 +649,7 @@ end
-
-
-
--    Returns a new instance of Runner
-+    Returns a new instance of Runner.
-
-
-
-@@ -688,7 +688,7 @@ end
-
-
-
--    Returns a new instance of Runner
-+    Returns a new instance of Runner.
-
-
-
-@@ -3604,7 +3604,7 @@ Overview
-
-
-
--    Returns a new instance of Runner
-+    Returns a new instance of Runner.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Sandbox.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Sandbox.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Sandbox.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SeedNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SeedNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SeedNotification.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Notifications-SeedNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-SeedNotification.html.new
-index 65c3d2d..6dd860b 100644
---- a/export/rspec-core-RSpec-Core-Notifications-SeedNotification.html.current
-+++ b/export/rspec-core-RSpec-Core-Notifications-SeedNotification.html.new
-@@ -1273,17 +1273,17 @@ end
-
-
-
--    Returns has the seed been used?Returns has the seed been used?
-+    Returns has the seed been used?.Returns has the seed been used?.
-
-
-
--    Returns has the seed been used?
-+    Returns has the seed been used?.
-
-
-
-
-
--    Returns has the seed been used?
-+    Returns has the seed been used?.
-
-
-
-@@ -1433,7 +1433,7 @@ end
-
-
-
--    Returns has the seed been used?
-+    Returns has the seed been used?.
-
-
-
-@@ -1537,7 +1537,7 @@ end
-
-
-
--    Returns has the seed been used?
-+    Returns has the seed been used?.
-
-
-
-@@ -1925,7 +1925,7 @@ end
-
-
-
--    Returns has the seed been used?
-+    Returns has the seed been used?.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedContext.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedContext.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-SharedContext.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroup.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupInclusionStackFrame.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupInclusionStackFrame.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.diff
-diff --git a/export/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.current b/export/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.new
-index fb5a20c..10632a2 100644
---- a/export/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.current
-+++ b/export/rspec-core-RSpec-Core-SharedExampleGroupInclusionStackFrame.html.new
-@@ -453,17 +453,17 @@ A new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrameReturns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
-@@ -562,7 +562,7 @@ end
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
-@@ -599,7 +599,7 @@ end
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
-@@ -640,17 +640,17 @@ end
-
-
-
--    Returns the location where the shared example was includedReturns the location where the shared example was included
-+    Returns the location where the shared example was included.Returns the location where the shared example was included.
-
-
-
--    Returns the location where the shared example was included
-+    Returns the location where the shared example was included.
-
-
-
-
-
--    Returns the location where the shared example was included
-+    Returns the location where the shared example was included.
-
-
-
-@@ -800,7 +800,7 @@ end
-
-
-
--    Returns the location where the shared example was included
-+    Returns the location where the shared example was included.
-
-
-
-@@ -851,17 +851,17 @@ end
-
-
-
--    Returns the name of the shared example groupReturns the name of the shared example group
-+    Returns the name of the shared example group.Returns the name of the shared example group.
-
-
-
--    Returns the name of the shared example group
-+    Returns the name of the shared example group.
-
-
-
-
-
--    Returns the name of the shared example group
-+    Returns the name of the shared example group.
-
-
-
-@@ -1011,7 +1011,7 @@ end
-
-
-
--    Returns the name of the shared example group
-+    Returns the name of the shared example group.
-
-
-
-@@ -1065,7 +1065,7 @@ end
-
-
-
--    Returns the location where the shared example was included
-+    Returns the location where the shared example was included.
-
-
-
-@@ -1116,7 +1116,7 @@ end
-
-
-
--    Returns the name of the shared example group
-+    Returns the name of the shared example group.
-
-
-
-@@ -1951,7 +1951,7 @@ Overview
-
-
-
--    Returns a new instance of SharedExampleGroupInclusionStackFrame
-+    Returns a new instance of SharedExampleGroupInclusionStackFrame.
-
-
-
-@@ -1992,7 +1992,7 @@ end
-
-
-
--    Returns the location where the shared example was included
-+    Returns the location where the shared example was included.
-
-
-
-@@ -2043,7 +2043,7 @@ end
-
-
-
--    Returns the name of the shared example group
-+    Returns the name of the shared example group.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupModule.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroupModule.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroupModule.html.diff
-diff --git a/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.current b/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.new
-index 0409d21..15967ff 100644
---- a/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.current
-+++ b/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.new
-@@ -339,17 +339,17 @@ Provides a human-readable representation of this module.
-
-
-
--    Returns a new instance of SharedExampleGroupModuleReturns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.Returns a new instance of SharedExampleGroupModule.
-
-
-
--    Returns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.
-
-
-
-
-
--    Returns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.
-
-
-
-@@ -458,7 +458,7 @@ end
-
-
-
--    Returns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.
-
-
-
-@@ -497,7 +497,7 @@ end
-
-
-
--    Returns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.
-
-
-
-@@ -1028,7 +1028,7 @@ group.
-
-
-
--    Returns a new instance of SharedExampleGroupModule
-+    Returns a new instance of SharedExampleGroupModule.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Pending/SkipDeclaredInExample.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Pending/SkipDeclaredInExample.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.current b/export/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.new
-index 8fb206b..56ea361 100644
---- a/export/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.current
-+++ b/export/rspec-core-RSpec-Core-Pending-SkipDeclaredInExample.html.new
-@@ -303,17 +303,17 @@ A new instance of SkipDeclaredInExample.
-
-
-
--    Returns a new instance of SkipDeclaredInExampleReturns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.Returns a new instance of SkipDeclaredInExample.
-
-
-
--    Returns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.
-
-
-
-
-
--    Returns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.
-
-
-
-@@ -402,7 +402,7 @@ end
-
-
-
--    Returns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.
-
-
-
-@@ -437,7 +437,7 @@ end
-
-
-
--    Returns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.
-
-
-
-@@ -476,17 +476,17 @@ end
-
-
-
--    Returns the value of attribute argumentReturns the value of attribute argument
-+    Returns the value of attribute argument.Returns the value of attribute argument.
-
-
-
--    Returns the value of attribute argument
-+    Returns the value of attribute argument.
-
-
-
-
-
--    Returns the value of attribute argument
-+    Returns the value of attribute argument.
-
-
-
-@@ -575,7 +575,7 @@ end
-
-
-
--    Returns the value of attribute argument
-+    Returns the value of attribute argument.
-
-
-
-@@ -612,7 +612,7 @@ end
-
-
-
--    Returns the value of attribute argument
-+    Returns the value of attribute argument.
-
-
-
-@@ -768,7 +768,7 @@ as skipped.
-
-
-
--    Returns a new instance of SkipDeclaredInExample
-+    Returns a new instance of SkipDeclaredInExample.
-
-
-
-@@ -807,7 +807,7 @@ end
-
-
-
--    Returns the value of attribute argument
-+    Returns the value of attribute argument.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SkippedExampleNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SkippedExampleNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/StartNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/StartNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-StartNotification.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/SummaryNotification.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/SummaryNotification.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.diff
-diff --git a/export/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.new
-index 4dd0652..3d33a7a 100644
---- a/export/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.current
-+++ b/export/rspec-core-RSpec-Core-Notifications-SummaryNotification.html.new
-@@ -3359,17 +3359,17 @@ end
-
-
-
--    Returns the number of examples runReturns the number of examples run
-+    Returns the number of examples run.Returns the number of examples run.
-
-
-
--    Returns the number of examples run
-+    Returns the number of examples run.
-
-
-
-
-
--    Returns the number of examples run
-+    Returns the number of examples run.
-
-
-
-@@ -3519,7 +3519,7 @@ end
-
-
-
--    Returns the number of examples run
-+    Returns the number of examples run.
-
-
-
-@@ -3568,17 +3568,17 @@ end
-
-
-
--    Returns the number of failed examplesReturns the number of failed examples
-+    Returns the number of failed examples.Returns the number of failed examples.
-
-
-
--    Returns the number of failed examples
-+    Returns the number of failed examples.
-
-
-
-
-
--    Returns the number of failed examples
-+    Returns the number of failed examples.
-
-
-
-@@ -3728,7 +3728,7 @@ end
-
-
-
--    Returns the number of failed examples
-+    Returns the number of failed examples.
-
-
-
-@@ -3778,20 +3778,20 @@ end
-
-
-     Returns a formatted version of the time it took to run the
--suiteReturns a formatted version of the time it took to run the
--suite
-+suite.Returns a formatted version of the time it took to run the
-+suite.
-
-
-
-     Returns a formatted version of the time it took to run the
--suite
-+suite.
-
-
-
-
-
-     Returns a formatted version of the time it took to run the
--suite
-+suite.
-
-
-
-@@ -3948,7 +3948,7 @@ end
-
-
-     Returns a formatted version of the time it took to run the
--suite
-+suite.
-
-
-
-@@ -3999,20 +3999,20 @@ end
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec filesReturns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.Returns a formatted version of the time it took to boot RSpec
-+and load the spec files.
-
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.
-
-
-
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.
-
-
-
-@@ -4169,7 +4169,7 @@ end
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.
-
-
-
-@@ -4536,17 +4536,17 @@ end
-
-
-
--    Returns the number of pending examplesReturns the number of pending examples
-+    Returns the number of pending examples.Returns the number of pending examples.
-
-
-
--    Returns the number of pending examples
-+    Returns the number of pending examples.
-
-
-
-
-
--    Returns the number of pending examples
-+    Returns the number of pending examples.
-
-
-
-@@ -4696,7 +4696,7 @@ end
-
-
-
--    Returns the number of pending examples
-+    Returns the number of pending examples.
-
-
-
-@@ -5242,7 +5242,7 @@ end
-
-
-
--    Returns the number of examples run
-+    Returns the number of examples run.
-
-
-
-@@ -5291,7 +5291,7 @@ end
-
-
-
--    Returns the number of failed examples
-+    Returns the number of failed examples.
-
-
-
-@@ -5341,7 +5341,7 @@ end
-
-
-     Returns a formatted version of the time it took to run the
--suite
-+suite.
-
-
-
-@@ -5392,7 +5392,7 @@ end
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.
-
-
-
-@@ -5509,7 +5509,7 @@ end
-
-
-
--    Returns the number of pending examples
-+    Returns the number of pending examples.
-
-
-
-@@ -6471,7 +6471,7 @@ end
-
-
-
--    Returns the number of examples run
-+    Returns the number of examples run.
-
-
-
-@@ -6520,7 +6520,7 @@ end
-
-
-
--    Returns the number of failed examples
-+    Returns the number of failed examples.
-
-
-
-@@ -6570,7 +6570,7 @@ end
-
-
-     Returns a formatted version of the time it took to run the
--suite
-+suite.
-
-
-
-@@ -6621,7 +6621,7 @@ end
-
-
-     Returns a formatted version of the time it took to boot RSpec
--and load the spec files
-+and load the spec files.
-
-
-
-@@ -6738,7 +6738,7 @@ end
-
-
-
--    Returns the number of pending examples
-+    Returns the number of pending examples.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup/TopLevelDSL.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/SharedExampleGroup/TopLevelDSL.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-SharedExampleGroup-TopLevelDSL.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Version.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Version.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-Version.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Version.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Version.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Version.html.diff
 diff --git a/export/rspec-core-RSpec-Core-Version.html.current b/export/rspec-core-RSpec-Core-Version.html.new
 index 7b86d5a..fc2d600 100644
 --- a/export/rspec-core-RSpec-Core-Version.html.current
@@ -2870,2983 +295,373 @@ index 7b86d5a..fc2d600 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/World.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/World.html
-
-🏆>> Diff done: export/diff/rspec-core-RSpec-Core-World.html.diff
-diff --git a/export/rspec-core-RSpec-Core-World.html.current b/export/rspec-core-RSpec-Core-World.html.new
-index 41b0eb7..58fd5d2 100644
---- a/export/rspec-core-RSpec-Core-World.html.current
-+++ b/export/rspec-core-RSpec-Core-World.html.new
-@@ -754,7 +754,7 @@ Reset world to 'scratch' before running suite.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of WorldReturns a new instance of World
-+Returns a new instance of World.Returns a new instance of World.
-
-
-
-@@ -762,7 +762,7 @@ Returns a new instance of WorldReturns a new instance of World
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of World
-+Returns a new instance of World.
-
-
-
-@@ -772,7 +772,7 @@ Returns a new instance of World
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of World
-+Returns a new instance of World.
-
-
-
-@@ -905,7 +905,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of World
-+Returns a new instance of World.
-
-
-
-@@ -952,7 +952,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of World
-+Returns a new instance of World.
-
-
-
-@@ -3754,7 +3754,7 @@ Internal container for global non-configuration data.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of World
-+Returns a new instance of World.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/AliasedMatcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/AliasedMatcher.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.current b/export/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.new
-index 87225d2..fd2e7e5 100644
---- a/export/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.new
-@@ -489,7 +489,7 @@ Forward messages on to the wrapped matcher.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcherReturns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.Returns a new instance of AliasedMatcher.
-
-
-
-@@ -497,7 +497,7 @@ Returns a new instance of AliasedMatcherReturns a new instance of AliasedMatcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.
-
-
-
-@@ -507,7 +507,7 @@ Returns a new instance of AliasedMatcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.
-
-
-
-@@ -610,7 +610,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.
-
-
-
-@@ -651,7 +651,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.
-
-
-
-@@ -1763,7 +1763,7 @@ description read naturally.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AliasedMatcher
-+Returns a new instance of AliasedMatcher.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/All.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/All.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.new
-index adde7a7..9fe1dae 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.new
-@@ -388,7 +388,7 @@ A new instance of All.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of AllReturns a new instance of All
-+Returns a new instance of All.Returns a new instance of All.
-
-
-
-@@ -396,7 +396,7 @@ Returns a new instance of AllReturns a new instance of All
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of All
-+Returns a new instance of All.
-
-
-
-@@ -406,7 +406,7 @@ Returns a new instance of All
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of All
-+Returns a new instance of All.
-
-
-
-@@ -509,7 +509,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of All
-+Returns a new instance of All.
-
-
-
-@@ -550,7 +550,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of All
-+Returns a new instance of All.
-
-
-
-@@ -1389,7 +1389,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of All
-+Returns a new instance of All.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/And.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/And.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-And.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.new
-index cdb4911..03f2dfa 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.new
-@@ -723,7 +723,7 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcherReturns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.Returns a new instance of BaseMatcher.
-
-
-
-@@ -731,7 +731,7 @@ Returns a new instance of BaseMatcherReturns a new instance of BaseMatcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.
-
-
-
-@@ -741,7 +741,7 @@ Returns a new instance of BaseMatcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.
-
-
-
-@@ -834,7 +834,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.
-
-
-
-@@ -873,7 +873,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.
-
-
-
-@@ -2841,7 +2841,7 @@ nil cannot be used because it's a valid value to pass.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BaseMatcher
-+Returns a new instance of BaseMatcher.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/BasicObject.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/BasicObject.html
-
-🏆>> Diff done: export/diff/rspec-expectations-BasicObject.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Be.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Be.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.new
-index 6b2e99a..dc6a65e 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.new
-@@ -389,7 +389,7 @@ A new instance of Be.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeReturns a new instance of Be
-+Returns a new instance of Be.Returns a new instance of Be.
-
-
-
-@@ -397,7 +397,7 @@ Returns a new instance of BeReturns a new instance of Be
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Be
-+Returns a new instance of Be.
-
-
-
-@@ -407,7 +407,7 @@ Returns a new instance of Be
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Be
-+Returns a new instance of Be.
-
-
-
-@@ -500,7 +500,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Be
-+Returns a new instance of Be.
-
-
-
-@@ -539,7 +539,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Be
-+Returns a new instance of Be.
-
-
-
-@@ -1265,7 +1265,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Be
-+Returns a new instance of Be.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAKindOf.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAKindOf.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeAKindOf.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAnInstanceOf.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAnInstanceOf.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeAnInstanceOf.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeBetween.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeBetween.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.new
-index 1ff47f5..14b9f5a 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.new
-@@ -533,7 +533,7 @@ A new instance of BeBetween.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetweenReturns a new instance of BeBetween
-+Returns a new instance of BeBetween.Returns a new instance of BeBetween.
-
-
-
-@@ -541,7 +541,7 @@ Returns a new instance of BeBetweenReturns a new instance of BeBetween
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetween
-+Returns a new instance of BeBetween.
-
-
-
-@@ -551,7 +551,7 @@ Returns a new instance of BeBetween
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetween
-+Returns a new instance of BeBetween.
-
-
-
-@@ -654,7 +654,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetween
-+Returns a new instance of BeBetween.
-
-
-
-@@ -695,7 +695,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetween
-+Returns a new instance of BeBetween.
-
-
-
-@@ -2299,7 +2299,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeBetween
-+Returns a new instance of BeBetween.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.new
-index c0461c2..bd9b755 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.new
-@@ -479,7 +479,7 @@ A new instance of BeComparedTo.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedToReturns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.Returns a new instance of BeComparedTo.
-
-
-
-@@ -487,7 +487,7 @@ Returns a new instance of BeComparedToReturns a new instance of BeComparedTo
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.
-
-
-
-@@ -497,7 +497,7 @@ Returns a new instance of BeComparedTo
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.
-
-
-
-@@ -610,7 +610,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.
-
-
-
-@@ -653,7 +653,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.
-
-
-
-@@ -2057,7 +2057,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeComparedTo
-+Returns a new instance of BeComparedTo.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeFalsey.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeFalsey.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeFalsey.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeNil.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeNil.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeNil.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BePredicate.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BePredicate.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.new
-index 92bab4d..8f41ad1 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.new
-@@ -524,7 +524,7 @@ A new instance of BePredicate.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicateReturns a new instance of BePredicate
-+Returns a new instance of BePredicate.Returns a new instance of BePredicate.
-
-
-
-@@ -532,7 +532,7 @@ Returns a new instance of BePredicateReturns a new instance of BePredicate
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicate
-+Returns a new instance of BePredicate.
-
-
-
-@@ -542,7 +542,7 @@ Returns a new instance of BePredicate
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicate
-+Returns a new instance of BePredicate.
-
-
-
-@@ -655,7 +655,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicate
-+Returns a new instance of BePredicate.
-
-
-
-@@ -698,7 +698,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicate
-+Returns a new instance of BePredicate.
-
-
-
-@@ -2285,7 +2285,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BePredicate
-+Returns a new instance of BePredicate.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeTruthy.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeTruthy.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeTruthy.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeWithin.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeWithin.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.new
-index 1befbfa..bd11563 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.new
-@@ -528,7 +528,7 @@ Sets the expected value, and makes the matcher do a percent comparison.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithinReturns a new instance of BeWithin
-+Returns a new instance of BeWithin.Returns a new instance of BeWithin.
-
-
-
-@@ -536,7 +536,7 @@ Returns a new instance of BeWithinReturns a new instance of BeWithin
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithin
-+Returns a new instance of BeWithin.
-
-
-
-@@ -546,7 +546,7 @@ Returns a new instance of BeWithin
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithin
-+Returns a new instance of BeWithin.
-
-
-
-@@ -639,7 +639,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithin
-+Returns a new instance of BeWithin.
-
-
-
-@@ -678,7 +678,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithin
-+Returns a new instance of BeWithin.
-
-
-
-@@ -2115,7 +2115,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of BeWithin
-+Returns a new instance of BeWithin.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Change.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Change.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Change.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeFromValue.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeFromValue.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.new
-index dafcbf8..5a2997d 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.new
-@@ -364,7 +364,7 @@ Specifies the new value you expect.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValueReturns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.Returns a new instance of ChangeFromValue.
-
-
-
-@@ -372,7 +372,7 @@ Returns a new instance of ChangeFromValueReturns a new instance of ChangeFromVal
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.
-
-
-
-@@ -382,7 +382,7 @@ Returns a new instance of ChangeFromValue
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.
-
-
-
-@@ -485,7 +485,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.
-
-
-
-@@ -526,7 +526,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.
-
-
-
-@@ -935,7 +935,7 @@ Used to specify a change from a specific value
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeFromValue
-+Returns a new instance of ChangeFromValue.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeRelatively.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeRelatively.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.new
-index 86d6692..0c8ce74 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.new
-@@ -294,7 +294,7 @@ A new instance of ChangeRelatively.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelativelyReturns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.Returns a new instance of ChangeRelatively.
-
-
-
-@@ -302,7 +302,7 @@ Returns a new instance of ChangeRelativelyReturns a new instance of ChangeRelati
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.
-
-
-
-@@ -312,7 +312,7 @@ Returns a new instance of ChangeRelatively
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.
-
-
-
-@@ -435,7 +435,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.
-
-
-
-@@ -480,7 +480,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.
-
-
-
-@@ -666,7 +666,7 @@ Used to specify a relative change.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeRelatively
-+Returns a new instance of ChangeRelatively.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeToValue.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeToValue.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.new
-index f0136d0..394f7c3 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.new
-@@ -364,7 +364,7 @@ A new instance of ChangeToValue.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValueReturns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.Returns a new instance of ChangeToValue.
-
-
-
-@@ -372,7 +372,7 @@ Returns a new instance of ChangeToValueReturns a new instance of ChangeToValue
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.
-
-
-
-@@ -382,7 +382,7 @@ Returns a new instance of ChangeToValue
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.
-
-
-
-@@ -485,7 +485,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.
-
-
-
-@@ -526,7 +526,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.
-
-
-
-@@ -935,7 +935,7 @@ Used to specify a change to a specific value
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ChangeToValue
-+Returns a new instance of ChangeToValue.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-Composable.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.new
-index 36042eb..a7b001d 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.new
-@@ -544,7 +544,7 @@ A new instance of Compound.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of CompoundReturns a new instance of Compound
-+Returns a new instance of Compound.Returns a new instance of Compound.
-
-
-
-@@ -552,7 +552,7 @@ Returns a new instance of CompoundReturns a new instance of Compound
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Compound
-+Returns a new instance of Compound.
-
-
-
-@@ -562,7 +562,7 @@ Returns a new instance of Compound
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Compound
-+Returns a new instance of Compound.
-
-
-
-@@ -665,7 +665,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Compound
-+Returns a new instance of Compound.
-
-
-
-@@ -706,7 +706,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Compound
-+Returns a new instance of Compound.
-
-
-
-@@ -2289,7 +2289,7 @@ Defined Under Namespace
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Compound
-+Returns a new instance of Compound.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/Configuration.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/Configuration.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-Configuration.html.diff
-diff --git a/export/rspec-expectations-RSpec-Expectations-Configuration.html.current b/export/rspec-expectations-RSpec-Expectations-Configuration.html.new
-index b04f8a7..36864e0 100644
---- a/export/rspec-expectations-RSpec-Expectations-Configuration.html.current
-+++ b/export/rspec-expectations-RSpec-Expectations-Configuration.html.new
-@@ -1063,17 +1063,17 @@ Indicates whether RSpec will warn about matcher use which will potentially cause
-
-
-
--    Returns a new instance of ConfigurationReturns a new instance of Configuration
-+    Returns a new instance of Configuration.Returns a new instance of Configuration.
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -1162,7 +1162,7 @@ end
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -1197,7 +1197,7 @@ end
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -5012,7 +5012,7 @@ end
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ContainExactly.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ContainExactly.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ContainExactly.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Cover.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Cover.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.new
-index 0a54502..6fb7cfd 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.new
-@@ -388,7 +388,7 @@ A new instance of Cover.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of CoverReturns a new instance of Cover
-+Returns a new instance of Cover.Returns a new instance of Cover.
-
-
-
-@@ -396,7 +396,7 @@ Returns a new instance of CoverReturns a new instance of Cover
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Cover
-+Returns a new instance of Cover.
-
-
-
-@@ -406,7 +406,7 @@ Returns a new instance of Cover
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Cover
-+Returns a new instance of Cover.
-
-
-
-@@ -499,7 +499,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Cover
-+Returns a new instance of Cover.
-
-
-
-@@ -538,7 +538,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Cover
-+Returns a new instance of Cover.
-
-
-
-@@ -1291,7 +1291,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Cover
-+Returns a new instance of Cover.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher/DefaultFailureMessages.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher/DefaultFailureMessages.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher-DefaultFailureMessages.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/DefaultImplementations.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/DefaultImplementations.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-DefaultImplementations.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros/Deprecated.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros/Deprecated.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Macros-Deprecated.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable/DescribableItem.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable/DescribableItem.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-Composable-DescribableItem.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/EndWith.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/EndWith.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-EndWith.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/EnglishPhrasing.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/EnglishPhrasing.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-EnglishPhrasing.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eq.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eq.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Eq.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eql.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eql.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Eql.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Equal.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Equal.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Equal.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.new
-index e1c2962..fbe0c01 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.new
-@@ -491,7 +491,7 @@ A new instance of Exist.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExistReturns a new instance of Exist
-+Returns a new instance of Exist.Returns a new instance of Exist.
-
-
-
-@@ -499,7 +499,7 @@ Returns a new instance of ExistReturns a new instance of Exist
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Exist
-+Returns a new instance of Exist.
-
-
-
-@@ -509,7 +509,7 @@ Returns a new instance of Exist
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Exist
-+Returns a new instance of Exist.
-
-
-
-@@ -602,7 +602,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Exist
-+Returns a new instance of Exist.
-
-
-
-@@ -641,7 +641,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Exist
-+Returns a new instance of Exist.
-
-
-
-@@ -1961,7 +1961,7 @@ Defined Under Namespace
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Exist
-+Returns a new instance of Exist.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist/ExistenceTest.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist/ExistenceTest.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Exist-ExistenceTest.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationNotMetError.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationNotMetError.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationNotMetError.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.diff
-diff --git a/export/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.current b/export/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.new
-index 957c3de..6481522 100644
---- a/export/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.current
-+++ b/export/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.new
-@@ -430,7 +430,7 @@ A new instance of ExpectationTarget.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTargetReturns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.Returns a new instance of ExpectationTarget.
-
-
-
-@@ -438,7 +438,7 @@ Returns a new instance of ExpectationTargetReturns a new instance of Expectation
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.
-
-
-
-@@ -448,7 +448,7 @@ Returns a new instance of ExpectationTarget
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.
-
-
-
-@@ -541,7 +541,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.
-
-
-
-@@ -580,7 +580,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.
-
-
-
-@@ -639,7 +639,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectationReturns the target of the expectation
-+Returns the target of the expectation.Returns the target of the expectation.
-
-
-
-@@ -652,7 +652,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectation
-+Returns the target of the expectation.
-
-
-
-@@ -667,7 +667,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectation
-+Returns the target of the expectation.
-
-
-
-@@ -826,7 +826,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectation
-+Returns the target of the expectation.
-
-
-
-@@ -889,7 +889,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectation
-+Returns the target of the expectation.
-
-
-
-@@ -1111,7 +1111,7 @@ Defined Under Namespace
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectationTarget
-+Returns a new instance of ExpectationTarget.
-
-
-
-@@ -1159,7 +1159,7 @@ used in a Minitest context.
-
-
-
--Returns the target of the expectation
-+Returns the target of the expectation.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/ExpectedsForMultipleDiffs.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/ExpectedsForMultipleDiffs.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.current b/export/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.new
-index c0f13ac..0742149 100644
---- a/export/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.new
-@@ -406,7 +406,7 @@ Returns message with diff(s) appended for provided differ factory and actual val
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffsReturns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-@@ -414,7 +414,7 @@ Returns a new instance of ExpectedsForMultipleDiffsReturns a new instance of Exp
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-@@ -424,7 +424,7 @@ Returns a new instance of ExpectedsForMultipleDiffs
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-@@ -517,7 +517,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-@@ -556,7 +556,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-@@ -2078,7 +2078,7 @@ multiple diffs. Also can handle one value.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ExpectedsForMultipleDiffs
-+Returns a new instance of ExpectedsForMultipleDiffs.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/FailMatchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/FailMatchers.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-FailMatchers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Has.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Has.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.new
-index a4bd7ce..6062340 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.new
-@@ -428,7 +428,7 @@ A new instance of Has.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HasReturns a new instance of Has
-+Returns a new instance of Has.Returns a new instance of Has.
-
-
-
-@@ -436,7 +436,7 @@ Returns a new instance of HasReturns a new instance of Has
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Has
-+Returns a new instance of Has.
-
-
-
-@@ -446,7 +446,7 @@ Returns a new instance of Has
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Has
-+Returns a new instance of Has.
-
-
-
-@@ -539,7 +539,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Has
-+Returns a new instance of Has.
-
-
-
-@@ -578,7 +578,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Has
-+Returns a new instance of Has.
-
-
-
-@@ -1565,7 +1565,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Has
-+Returns a new instance of Has.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/HaveAttributes.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/HaveAttributes.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.new
-index 04f7f61..8949918 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.new
-@@ -563,7 +563,7 @@ A new instance of HaveAttributes.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributesReturns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.Returns a new instance of HaveAttributes.
-
-
-
-@@ -571,7 +571,7 @@ Returns a new instance of HaveAttributesReturns a new instance of HaveAttributes
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.
-
-
-
-@@ -581,7 +581,7 @@ Returns a new instance of HaveAttributes
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.
-
-
-
-@@ -704,7 +704,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.
-
-
-
-@@ -749,7 +749,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.
-
-
-
-@@ -2669,7 +2669,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of HaveAttributes
-+Returns a new instance of HaveAttributes.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Include.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Include.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.new
-index 40a2543..62f8489 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.new
-@@ -608,7 +608,7 @@ A new instance of Include.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of IncludeReturns a new instance of Include
-+Returns a new instance of Include.Returns a new instance of Include.
-
-
-
-@@ -616,7 +616,7 @@ Returns a new instance of IncludeReturns a new instance of Include
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Include
-+Returns a new instance of Include.
-
-
-
-@@ -626,7 +626,7 @@ Returns a new instance of Include
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Include
-+Returns a new instance of Include.
-
-
-
-@@ -719,7 +719,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Include
-+Returns a new instance of Include.
-
-
-
-@@ -758,7 +758,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Include
-+Returns a new instance of Include.
-
-
-
-@@ -2897,7 +2897,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Include
-+Returns a new instance of Include.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget/InstanceMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget/InstanceMethods.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationTarget-InstanceMethods.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Macros.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Match.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Match.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.new
-index f08b63e..3d31de3 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.new
-@@ -438,7 +438,7 @@ Used to specify the captures we match against.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of MatchReturns a new instance of Match
-+Returns a new instance of Match.Returns a new instance of Match.
-
-
-
-@@ -446,7 +446,7 @@ Returns a new instance of MatchReturns a new instance of Match
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Match
-+Returns a new instance of Match.
-
-
-
-@@ -456,7 +456,7 @@ Returns a new instance of Match
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Match
-+Returns a new instance of Match.
-
-
-
-@@ -569,7 +569,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Match
-+Returns a new instance of Match.
-
-
-
-@@ -612,7 +612,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Match
-+Returns a new instance of Match.
-
-
-
-@@ -1684,7 +1684,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Match
-+Returns a new instance of Match.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Matcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Matcher.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.current b/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.new
-index d1986b5..3e85e24 100644
---- a/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.new
-@@ -870,7 +870,7 @@ Indicates that this matcher responds to messages from the @matcher_execution_con
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of MatcherReturns a new instance of Matcher
-+Returns a new instance of Matcher.Returns a new instance of Matcher.
-
-
-
-@@ -878,7 +878,7 @@ Returns a new instance of MatcherReturns a new instance of Matcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Matcher
-+Returns a new instance of Matcher.
-
-
-
-@@ -888,7 +888,7 @@ Returns a new instance of Matcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Matcher
-+Returns a new instance of Matcher.
-
-
-
-@@ -1092,7 +1092,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Matcher
-+Returns a new instance of Matcher.
-
-
-
-@@ -1153,7 +1153,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Matcher
-+Returns a new instance of Matcher.
-
-
-
-@@ -3681,7 +3681,7 @@ Macros methods available.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Matcher
-+Returns a new instance of Matcher.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/MatcherProtocol.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/MatcherProtocol.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-MatcherProtocol.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/MultipleExpectationsNotMetError.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/MultipleExpectationsNotMetError.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-MultipleExpectationsNotMetError.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/NestedEvaluator.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/NestedEvaluator.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.new
-index c821032..3edfc2b 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.new
-@@ -327,7 +327,7 @@ A new instance of NestedEvaluator.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluatorReturns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.Returns a new instance of NestedEvaluator.
-
-
-
-@@ -335,7 +335,7 @@ Returns a new instance of NestedEvaluatorReturns a new instance of NestedEvaluat
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.
-
-
-
-@@ -345,7 +345,7 @@ Returns a new instance of NestedEvaluator
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.
-
-
-
-@@ -528,7 +528,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.
-
-
-
-@@ -585,7 +585,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.
-
-
-
-@@ -1096,7 +1096,7 @@ This is necessary so that the expect block is only executed once.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NestedEvaluator
-+Returns a new instance of NestedEvaluator.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/OperatorMatcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/OperatorMatcher.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.new
-index eb212f7..238d92e 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.new
-@@ -291,7 +291,7 @@ A new instance of OperatorMatcher.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcherReturns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.Returns a new instance of OperatorMatcher.
-
-
-
-@@ -299,7 +299,7 @@ Returns a new instance of OperatorMatcherReturns a new instance of OperatorMatch
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.
-
-
-
-@@ -309,7 +309,7 @@ Returns a new instance of OperatorMatcher
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.
-
-
-
-@@ -402,7 +402,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.
-
-
-
-@@ -441,7 +441,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.
-
-
-
-@@ -853,7 +853,7 @@ Only available for use with should.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OperatorMatcher
-+Returns a new instance of OperatorMatcher.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/Or.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/Or.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-Or.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Output.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Output.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.new
-index 6b7771d..a4aef5d 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.new
-@@ -813,7 +813,7 @@ Tells the matcher to match against stdout.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of OutputReturns a new instance of Output
-+Returns a new instance of Output.Returns a new instance of Output.
-
-
-
-@@ -821,7 +821,7 @@ Returns a new instance of OutputReturns a new instance of Output
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Output
-+Returns a new instance of Output.
-
-
-
-@@ -831,7 +831,7 @@ Returns a new instance of Output
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Output
-+Returns a new instance of Output.
-
-
-
-@@ -954,7 +954,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Output
-+Returns a new instance of Output.
-
-
-
-@@ -999,7 +999,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Output
-+Returns a new instance of Output.
-
-
-
-@@ -3976,7 +3976,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Output
-+Returns a new instance of Output.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RaiseError.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RaiseError.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.new
-index bd0e267..413a1fa 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.new
-@@ -504,7 +504,7 @@ Specifies the expected error message.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseErrorReturns a new instance of RaiseError
-+Returns a new instance of RaiseError.Returns a new instance of RaiseError.
-
-
-
-@@ -512,7 +512,7 @@ Returns a new instance of RaiseErrorReturns a new instance of RaiseError
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseError
-+Returns a new instance of RaiseError.
-
-
-
-@@ -522,7 +522,7 @@ Returns a new instance of RaiseError
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseError
-+Returns a new instance of RaiseError.
-
-
-
-@@ -755,7 +755,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseError
-+Returns a new instance of RaiseError.
-
-
-
-@@ -822,7 +822,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseError
-+Returns a new instance of RaiseError.
-
-
-
-@@ -2302,7 +2302,7 @@ rubocop:disable RescueException
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RaiseError
-+Returns a new instance of RaiseError.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ReliableMatchData.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ReliableMatchData.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.new
-index bbc9e97..06e09d1 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.new
-@@ -338,7 +338,7 @@ Returns match data names for named captures.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchDataReturns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.Returns a new instance of ReliableMatchData.
-
-
-
-@@ -346,7 +346,7 @@ Returns a new instance of ReliableMatchDataReturns a new instance of ReliableMat
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.
-
-
-
-@@ -356,7 +356,7 @@ Returns a new instance of ReliableMatchData
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.
-
-
-
-@@ -449,7 +449,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.
-
-
-
-@@ -488,7 +488,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.
-
-
-
-@@ -1227,7 +1227,7 @@ Used to wrap match data and make it reliable for 1.8.7
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ReliableMatchData
-+Returns a new instance of ReliableMatchData.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RespondTo.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RespondTo.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.new
-index 22b4781..f731daf 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.new
-@@ -678,7 +678,7 @@ Specifies that the number of arguments has no upper limit, i.e.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondToReturns a new instance of RespondTo
-+Returns a new instance of RespondTo.Returns a new instance of RespondTo.
-
-
-
-@@ -686,7 +686,7 @@ Returns a new instance of RespondToReturns a new instance of RespondTo
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondTo
-+Returns a new instance of RespondTo.
-
-
-
-@@ -696,7 +696,7 @@ Returns a new instance of RespondTo
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondTo
-+Returns a new instance of RespondTo.
-
-
-
-@@ -829,7 +829,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondTo
-+Returns a new instance of RespondTo.
-
-
-
-@@ -876,7 +876,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondTo
-+Returns a new instance of RespondTo.
-
-
-
-@@ -3060,7 +3060,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of RespondTo
-+Returns a new instance of RespondTo.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Satisfy.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Satisfy.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.new
-index a8486e2..b5ad51d 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.new
-@@ -383,7 +383,7 @@ A new instance of Satisfy.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SatisfyReturns a new instance of Satisfy
-+Returns a new instance of Satisfy.Returns a new instance of Satisfy.
-
-
-
-@@ -391,7 +391,7 @@ Returns a new instance of SatisfyReturns a new instance of Satisfy
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Satisfy
-+Returns a new instance of Satisfy.
-
-
-
-@@ -401,7 +401,7 @@ Returns a new instance of Satisfy
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Satisfy
-+Returns a new instance of Satisfy.
-
-
-
-@@ -504,7 +504,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Satisfy
-+Returns a new instance of Satisfy.
-
-
-
-@@ -545,7 +545,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Satisfy
-+Returns a new instance of Satisfy.
-
-
-
-@@ -1267,7 +1267,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Satisfy
-+Returns a new instance of Satisfy.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/SequentialEvaluator.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/SequentialEvaluator.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.new
-index 196f513..8a07e31 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.new
-@@ -283,7 +283,7 @@ A new instance of SequentialEvaluator.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluatorReturns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.Returns a new instance of SequentialEvaluator.
-
-
-
-@@ -291,7 +291,7 @@ Returns a new instance of SequentialEvaluatorReturns a new instance of Sequentia
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.
-
-
-
-@@ -301,7 +301,7 @@ Returns a new instance of SequentialEvaluator
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.
-
-
-
-@@ -394,7 +394,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.
-
-
-
-@@ -433,7 +433,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.
-
-
-
-@@ -843,7 +843,7 @@ For value expectations, we can evaluate the matchers sequentially.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SequentialEvaluator
-+Returns a new instance of SequentialEvaluator.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/SpecificValuesChange.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/SpecificValuesChange.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.new
-index c4fb3e0..e05620e 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.new
-@@ -301,7 +301,7 @@ A new instance of SpecificValuesChange.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChangeReturns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.Returns a new instance of SpecificValuesChange.
-
-
-
-@@ -309,7 +309,7 @@ Returns a new instance of SpecificValuesChangeReturns a new instance of Specific
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.
-
-
-
-@@ -319,7 +319,7 @@ Returns a new instance of SpecificValuesChange
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.
-
-
-
-@@ -432,7 +432,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.
-
-
-
-@@ -475,7 +475,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.
-
-
-
-@@ -663,7 +663,7 @@ Base class for specifying a change from and/or to specific values.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SpecificValuesChange
-+Returns a new instance of SpecificValuesChange.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartOrEndWith.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartOrEndWith.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.new
-index d791347..827675c 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.new
-@@ -395,7 +395,7 @@ A new instance of StartOrEndWith.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWithReturns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.Returns a new instance of StartOrEndWith.
-
-
-
-@@ -403,7 +403,7 @@ Returns a new instance of StartOrEndWithReturns a new instance of StartOrEndWith
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.
-
-
-
-@@ -413,7 +413,7 @@ Returns a new instance of StartOrEndWith
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.
-
-
-
-@@ -516,7 +516,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.
-
-
-
-@@ -557,7 +557,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.
-
-
-
-@@ -1414,7 +1414,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of StartOrEndWith
-+Returns a new instance of StartOrEndWith.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartWith.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartWith.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-StartWith.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/Syntax.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/Syntax.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Expectations-Syntax.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ThrowSymbol.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ThrowSymbol.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.new
-index fc04e02..281e43a 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.new
-@@ -546,7 +546,7 @@ Indicates this matcher matches against a block.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbolReturns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.Returns a new instance of ThrowSymbol.
-
-
-
-@@ -554,7 +554,7 @@ Returns a new instance of ThrowSymbolReturns a new instance of ThrowSymbol
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.
-
-
-
-@@ -564,7 +564,7 @@ Returns a new instance of ThrowSymbol
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.
-
-
-
-@@ -677,7 +677,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.
-
-
-
-@@ -720,7 +720,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.
-
-
-
-@@ -2498,7 +2498,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ThrowSymbol
-+Returns a new instance of ThrowSymbol.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldControl.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldControl.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.new
-index cb5f51d..b4ff6f1 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.new
-@@ -733,7 +733,7 @@ Specifies that the method is expected to yield twice.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControlReturns a new instance of YieldControl
-+Returns a new instance of YieldControl.Returns a new instance of YieldControl.
-
-
-
-@@ -741,7 +741,7 @@ Returns a new instance of YieldControlReturns a new instance of YieldControl
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControl
-+Returns a new instance of YieldControl.
-
-
-
-@@ -751,7 +751,7 @@ Returns a new instance of YieldControl
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControl
-+Returns a new instance of YieldControl.
-
-
-
-@@ -844,7 +844,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControl
-+Returns a new instance of YieldControl.
-
-
-
-@@ -883,7 +883,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControl
-+Returns a new instance of YieldControl.
-
-
-
-@@ -2947,7 +2947,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldControl
-+Returns a new instance of YieldControl.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldSuccessiveArgs.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldSuccessiveArgs.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.new
-index 5f0b1a5..fe3d90f 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.new
-@@ -338,7 +338,7 @@ A new instance of YieldSuccessiveArgs.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgsReturns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.Returns a new instance of YieldSuccessiveArgs.
-
-
-
-@@ -346,7 +346,7 @@ Returns a new instance of YieldSuccessiveArgsReturns a new instance of YieldSucc
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.
-
-
-
-@@ -356,7 +356,7 @@ Returns a new instance of YieldSuccessiveArgs
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.
-
-
-
-@@ -449,7 +449,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.
-
-
-
-@@ -488,7 +488,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.
-
-
-
-@@ -941,7 +941,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldSuccessiveArgs
-+Returns a new instance of YieldSuccessiveArgs.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithArgs.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithArgs.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.diff
-diff --git a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.current b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.new
-index 78e12ac..622984e 100644
---- a/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.current
-+++ b/export/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.new
-@@ -293,7 +293,7 @@ A new instance of YieldWithArgs.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgsReturns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.Returns a new instance of YieldWithArgs.
-
-
-
-@@ -301,7 +301,7 @@ Returns a new instance of YieldWithArgsReturns a new instance of YieldWithArgs
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.
-
-
-
-@@ -311,7 +311,7 @@ Returns a new instance of YieldWithArgs
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.
-
-
-
-@@ -404,7 +404,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.
-
-
-
-@@ -443,7 +443,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.
-
-
-
-@@ -619,7 +619,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of YieldWithArgs
-+Returns a new instance of YieldWithArgs.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithNoArgs.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithNoArgs.html
-
-🏆>> Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithNoArgs.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentListMatcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentListMatcher.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-ArgumentListMatcher.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentMatchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentMatchers.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-ArgumentMatchers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/BasicObject.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/BasicObject.html
-
-🏆>> Diff done: export/diff/rspec-mocks-BasicObject.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/Class.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/Class.html
-
-🏆>> Diff done: export/diff/rspec-mocks-Class.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Configuration.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Configuration.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Configuration.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-Configuration.html.current b/export/rspec-mocks-RSpec-Mocks-Configuration.html.new
-index 82a74d0..78c9573 100644
---- a/export/rspec-mocks-RSpec-Mocks-Configuration.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-Configuration.html.new
-@@ -1172,17 +1172,17 @@ Returns an array of blocks to call when verifying doubles.
-
-
-
--    Returns a new instance of ConfigurationReturns a new instance of Configuration
-+    Returns a new instance of Configuration.Returns a new instance of Configuration.
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -1331,7 +1331,7 @@ end
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -1378,7 +1378,7 @@ end
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-@@ -6072,7 +6072,7 @@ Overview
-
-
-
--    Returns a new instance of Configuration
-+    Returns a new instance of Configuration.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Constant.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Constant.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Constant.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-Constant.html.current b/export/rspec-mocks-RSpec-Mocks-Constant.html.new
-index 4d01b30..9fa09de 100644
---- a/export/rspec-mocks-RSpec-Mocks-Constant.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-Constant.html.new
-@@ -736,7 +736,7 @@ Whether or not the provided constant name is a valid Ruby constant name.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of ConstantReturns a new instance of Constant
-+Returns a new instance of Constant.Returns a new instance of Constant.
-
-
-
-@@ -744,7 +744,7 @@ Returns a new instance of ConstantReturns a new instance of Constant
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Constant
-+Returns a new instance of Constant.
-
-
-
-@@ -754,7 +754,7 @@ Returns a new instance of Constant
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Constant
-+Returns a new instance of Constant.
-
-
-
-@@ -1010,7 +1010,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Constant
-+Returns a new instance of Constant.
-
-
-
-@@ -1091,7 +1091,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Constant
-+Returns a new instance of Constant.
-
-
-
-@@ -3934,7 +3934,7 @@ have been mutated by rspec-mocks.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of Constant
-+Returns a new instance of Constant.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ConstantMutator.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ConstantMutator.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-ConstantMutator.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/DirectObjectReference.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/DirectObjectReference.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.current b/export/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.new
-index 58c8471..90fbda8 100644
---- a/export/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.new
-@@ -500,17 +500,17 @@ Yields if the reference target is loaded, providing a generic mechanism to optio
-
-
-
--    Returns a new instance of DirectObjectReferenceReturns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.Returns a new instance of DirectObjectReference.
-
-
-
--    Returns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.
-
-
-
-
-
--    Returns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.
-
-
-
-@@ -668,7 +668,7 @@ end
-
-
-
--    Returns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.
-
-
-
-@@ -722,7 +722,7 @@ end
-
-
-
--    Returns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.
-
-
-
-@@ -2241,7 +2241,7 @@ Represents a reference to that object.
-
-
-
--    Returns a new instance of DirectObjectReference
-+    Returns a new instance of DirectObjectReference.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Double.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Double.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Double.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-ExampleMethods.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods/ExpectHost.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods/ExpectHost.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-ExampleMethods-ExpectHost.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Matchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Matchers.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Matchers.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/MessageExpectation.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/MessageExpectation.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-MessageExpectation.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new
-index 136a37d..e0bdd6c 100644
---- a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new
-@@ -5556,17 +5556,17 @@ end
-
-
-
--    Returns a nice representation of the message expectationReturns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.Returns a nice representation of the message expectation.
-
-
-
--    Returns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.
-
-
-
-
-
--    Returns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.
-
-
-
-@@ -5736,7 +5736,7 @@ end
-
-
-
--    Returns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.
-
-
-
-@@ -7494,7 +7494,7 @@ end
-
-
-
--    Returns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.
-
-
-
-@@ -9093,7 +9093,7 @@ end
-
-
-
--    Returns a nice representation of the message expectation
-+    Returns a nice representation of the message expectation.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/NamedObjectReference.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/NamedObjectReference.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.current b/export/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.new
-index 8360da6..4f0eea1 100644
---- a/export/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.new
-@@ -454,17 +454,17 @@ Yields if the reference target is loaded, providing a generic mechanism to optio
-
-
-
--    Returns a new instance of NamedObjectReferenceReturns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.Returns a new instance of NamedObjectReference.
-
-
-
--    Returns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.
-
-
-
-
-
--    Returns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.
-
-
-
-@@ -622,7 +622,7 @@ end
-
-
-
--    Returns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.
-
-
-
-@@ -676,7 +676,7 @@ end
-
-
-
--    Returns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.
-
-
-
-@@ -1968,7 +1968,7 @@ by the string.
-
-
-
--    Returns a new instance of NamedObjectReference
-+    Returns a new instance of NamedObjectReference.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Syntax.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Syntax.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Syntax.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/TestDouble.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/TestDouble.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-TestDouble.html.diff
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/VerifyingMessageExpectation.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/VerifyingMessageExpectation.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.diff
-diff --git a/export/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.current b/export/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.new
-index badbe26..6358a35 100644
---- a/export/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.current
-+++ b/export/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.new
-@@ -339,7 +339,7 @@ A new instance of VerifyingMessageExpectation.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectationReturns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.Returns a new instance of VerifyingMessageExpectation.
-
-
-
-@@ -347,7 +347,7 @@ Returns a new instance of VerifyingMessageExpectationReturns a new instance of V
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.
-
-
-
-@@ -357,7 +357,7 @@ Returns a new instance of VerifyingMessageExpectation
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.
-
-
-
-@@ -450,7 +450,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.
-
-
-
-@@ -489,7 +489,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.
-
-
-
-@@ -906,7 +906,7 @@ have the valid arguments.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of VerifyingMessageExpectation
-+Returns a new instance of VerifyingMessageExpectation.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Version.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Version.html
-
-🏆>> Diff done: export/diff/rspec-mocks-RSpec-Mocks-Version.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/World.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/World.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-World.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/AliasedMatcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/AliasedMatcher.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-AliasedMatcher.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/All.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/All.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-All.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/And.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/And.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-And.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/BasicObject.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/BasicObject.html
+🏆 Diff done: export/diff/rspec-expectations-BasicObject.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Be.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Be.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Be.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAKindOf.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAKindOf.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeAKindOf.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAnInstanceOf.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeAnInstanceOf.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeAnInstanceOf.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeBetween.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeBetween.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeBetween.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeComparedTo.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeComparedTo.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeFalsey.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeFalsey.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeFalsey.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeNil.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeNil.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeNil.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BePredicate.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BePredicate.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BePredicate.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeTruthy.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeTruthy.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeTruthy.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeWithin.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BeWithin.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BeWithin.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Change.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Change.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Change.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeFromValue.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeFromValue.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeFromValue.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeRelatively.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeRelatively.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeRelatively.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeToValue.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ChangeToValue.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ChangeToValue.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-Composable.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/Configuration.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/Configuration.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-Configuration.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ContainExactly.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ContainExactly.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ContainExactly.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Cover.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Cover.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Cover.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher/DefaultFailureMessages.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/BaseMatcher/DefaultFailureMessages.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-BaseMatcher-DefaultFailureMessages.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/DefaultImplementations.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/DefaultImplementations.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-DefaultImplementations.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros/Deprecated.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros/Deprecated.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Macros-Deprecated.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable/DescribableItem.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/Composable/DescribableItem.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-Composable-DescribableItem.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/EndWith.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/EndWith.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-EndWith.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/EnglishPhrasing.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/EnglishPhrasing.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-EnglishPhrasing.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eq.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eq.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Eq.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eql.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Eql.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Eql.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Equal.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Equal.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Equal.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Exist.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist/ExistenceTest.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Exist/ExistenceTest.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Exist-ExistenceTest.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationNotMetError.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationNotMetError.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationNotMetError.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationTarget.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/ExpectedsForMultipleDiffs.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/ExpectedsForMultipleDiffs.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-ExpectedsForMultipleDiffs.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/FailMatchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/FailMatchers.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-FailMatchers.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Has.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Has.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Has.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/HaveAttributes.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/HaveAttributes.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-HaveAttributes.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Include.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Include.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Include.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget/InstanceMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/ExpectationTarget/InstanceMethods.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-ExpectationTarget-InstanceMethods.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Macros.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Macros.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Match.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Match.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Match.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Matcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/DSL/Matcher.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/MatcherProtocol.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/MatcherProtocol.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-MatcherProtocol.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/MultipleExpectationsNotMetError.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/MultipleExpectationsNotMetError.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-MultipleExpectationsNotMetError.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/NestedEvaluator.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/NestedEvaluator.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-NestedEvaluator.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/OperatorMatcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/OperatorMatcher.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-OperatorMatcher.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/Or.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/Or.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-Or.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Output.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Output.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Output.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RaiseError.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RaiseError.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-RaiseError.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ReliableMatchData.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ReliableMatchData.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ReliableMatchData.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RespondTo.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/RespondTo.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-RespondTo.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Satisfy.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Satisfy.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Satisfy.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/SequentialEvaluator.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/Compound/SequentialEvaluator.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-Compound-SequentialEvaluator.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/SpecificValuesChange.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/SpecificValuesChange.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-SpecificValuesChange.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartOrEndWith.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartOrEndWith.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-StartOrEndWith.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartWith.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/StartWith.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-StartWith.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Expectations/Syntax.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Expectations/Syntax.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Expectations-Syntax.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ThrowSymbol.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/ThrowSymbol.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-ThrowSymbol.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldControl.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldControl.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldControl.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldSuccessiveArgs.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldSuccessiveArgs.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldSuccessiveArgs.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithArgs.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithArgs.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithArgs.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithNoArgs.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-expectations/RSpec/Matchers/BuiltIn/YieldWithNoArgs.html
+🏆 Diff done: export/diff/rspec-expectations-RSpec-Matchers-BuiltIn-YieldWithNoArgs.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentListMatcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentListMatcher.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-ArgumentListMatcher.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentMatchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ArgumentMatchers.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-ArgumentMatchers.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/BasicObject.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/BasicObject.html
+🏆 Diff done: export/diff/rspec-mocks-BasicObject.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/Class.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/Class.html
+🏆 Diff done: export/diff/rspec-mocks-Class.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Configuration.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Configuration.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Configuration.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Constant.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Constant.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Constant.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ConstantMutator.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ConstantMutator.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-ConstantMutator.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/DirectObjectReference.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/DirectObjectReference.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-DirectObjectReference.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Double.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Double.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Double.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-ExampleMethods.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods/ExpectHost.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/ExampleMethods/ExpectHost.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-ExampleMethods-ExpectHost.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Matchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Matchers.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Matchers.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/MessageExpectation.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/MessageExpectation.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-MessageExpectation.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/NamedObjectReference.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/NamedObjectReference.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-NamedObjectReference.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Syntax.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Syntax.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Syntax.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/TestDouble.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/TestDouble.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-TestDouble.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/VerifyingMessageExpectation.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/VerifyingMessageExpectation.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-VerifyingMessageExpectation.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/RSpec/Mocks/Version.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-mocks/RSpec/Mocks/Version.html
+🏆 Diff done: export/diff/rspec-mocks-RSpec-Mocks-Version.html.diff
 diff --git a/export/rspec-mocks-RSpec-Mocks-Version.html.current b/export/rspec-mocks-RSpec-Mocks-Version.html.new
 index a762e47..5b61a25 100644
 --- a/export/rspec-mocks-RSpec-Mocks-Version.html.current
@@ -5879,12 +694,11 @@ index a762e47..5b61a25 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/ActiveJob.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/ActiveJob.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/ActiveJob.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/ActiveJob.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.current b/export/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.new
-index 2520cf3..55066fd 100644
+index 3b1718b..de1ab30 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-ActiveJob.html.new
 @@ -20,6 +23,14 @@ Module: RSpec::Rails::Matchers::ActiveJob
@@ -5903,10 +717,9 @@ index 2520cf3..55066fd 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ActiveRecordConfiguration.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ActiveRecordConfiguration.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ActiveRecordConfiguration.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ActiveRecordConfiguration.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ActiveRecordConfiguration.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ActiveRecordConfiguration.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ActiveRecordConfiguration.html.current b/export/rspec-rails-RSpec-Rails-ActiveRecordConfiguration.html.new
 index f606fd8..a39c714 100644
 --- a/export/rspec-rails-RSpec-Rails-ActiveRecordConfiguration.html.current
@@ -5949,12 +762,11 @@ index f606fd8..a39c714 100644
 
      Inherits:
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new
-index 7ac429d..2fa3f42 100644
+index ec3a95a..494f993 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new
 @@ -40,6 +40,22 @@ Class: RSpec::Rails::Matchers::BaseMatcher
@@ -6021,59 +833,10 @@ index 7ac429d..2fa3f42 100644
 
 
 
-@@ -628,17 +667,17 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather
 
-
-
--    Returns a new instance of BaseMatcherReturns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.Returns a new instance of BaseMatcher.
-
-
-
--    Returns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.
-
-
-
-
-
--    Returns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.
-
-
-
-@@ -727,7 +766,7 @@ end
-
-
-
--    Returns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.
-
-
-
-@@ -762,7 +801,7 @@ end
-
-
-
--    Returns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.
-
-
-
-@@ -2696,7 +2744,7 @@ nil cannot be used because it's a valid value to pass.
-
-
-
--    Returns a new instance of BaseMatcher
-+    Returns a new instance of BaseMatcher.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BeANew.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BeANew.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BeANew.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BeANew.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BeANew.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BeANew.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-BeANew.html.current b/export/rspec-rails-RSpec-Rails-Matchers-BeANew.html.new
 index a1e15b9..0cfb024 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-BeANew.html.current
@@ -6138,10 +901,9 @@ index a1e15b9..0cfb024 100644
 
    Constant Summary
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup/ClassMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup/ClassMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-RoutingExampleGroup-ClassMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup/ClassMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup/ClassMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-RoutingExampleGroup-ClassMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-RoutingExampleGroup-ClassMethods.html.new
 index 6d7c7bc..f41b656 100644
 --- a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup-ClassMethods.html.current
@@ -6162,12 +924,11 @@ index 6d7c7bc..f41b656 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup/ClassMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup/ClassMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup/ClassMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup/ClassMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new
-index 9f5e13f..64d201c 100644
+index b7ce9e8..d61fa12 100644
 --- a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current
 +++ b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new
 @@ -20,6 +23,14 @@ Module: RSpec::Rails::ControllerExampleGroup::ClassMethods
@@ -6186,10 +947,9 @@ index 9f5e13f..64d201c 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup/ClassMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup/ClassMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-MailerExampleGroup-ClassMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup/ClassMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup/ClassMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-MailerExampleGroup-ClassMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-MailerExampleGroup-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-MailerExampleGroup-ClassMethods.html.new
 index 2887d55..a32208d 100644
 --- a/export/rspec-rails-RSpec-Rails-MailerExampleGroup-ClassMethods.html.current
@@ -6210,12 +970,11 @@ index 2887d55..a32208d 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering/ClassMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering/ClassMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering/ClassMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering/ClassMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.new
-index c83921b..8e6d655 100644
+index 8531637..889569e 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.current
 +++ b/export/rspec-rails-RSpec-Rails-ViewRendering-ClassMethods.html.new
 @@ -20,6 +23,14 @@ Module: RSpec::Rails::ViewRendering::ClassMethods
@@ -6234,10 +993,9 @@ index c83921b..8e6d655 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Configuration.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Configuration.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Configuration.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Configuration.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Configuration.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Configuration.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Configuration.html.current b/export/rspec-rails-RSpec-Rails-Configuration.html.new
 index 40a5b43..d8c002d 100644
 --- a/export/rspec-rails-RSpec-Rails-Configuration.html.current
@@ -6280,10 +1038,9 @@ index 40a5b43..d8c002d 100644
 
      Inherits:
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ControllerExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.new
 index d528f4d..1a6f2f3 100644
 --- a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.current
@@ -6348,10 +1105,9 @@ index d528f4d..1a6f2f3 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher/DefaultFailureMessages.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher/DefaultFailureMessages.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BaseMatcher-DefaultFailureMessages.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher/DefaultFailureMessages.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/BaseMatcher/DefaultFailureMessages.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-BaseMatcher-DefaultFailureMessages.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher-DefaultFailureMessages.html.current b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher-DefaultFailureMessages.html.new
 index 07bac10..314aa1c 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher-DefaultFailureMessages.html.current
@@ -6381,12 +1137,11 @@ index 07bac10..314aa1c 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup/ExampleMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup/ExampleMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup/ExampleMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup/ExampleMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new
-index c098c99..eb58177 100644
+index 5d82106..36aed46 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current
 +++ b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new
 @@ -15,6 +16,12 @@ Module: RSpec::Rails::ViewExampleGroup::ExampleMethods
@@ -6416,10 +1171,9 @@ index c098c99..eb58177 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/FeatureExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/FeatureExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/FeatureExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/FeatureExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.new
 index df597ea..8116041 100644
 --- a/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.current
@@ -6477,12 +1231,11 @@ index df597ea..8116041 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/GenericStatus.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/GenericStatus.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/GenericStatus.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/GenericStatus.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new
-index 82ec32c..3953a9d 100644
+index 19196c1..3953a9d 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new
 @@ -46,6 +46,24 @@ Class: RSpec::Rails::Matchers::HaveHttpStatus::GenericStatus
@@ -6545,233 +1298,15 @@ index 82ec32c..3953a9d 100644
 
 
    Constant SummaryConstant Summary
-@@ -602,7 +633,7 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
+@@ -1944,8 +1975,8 @@ end
    This method is part of a private API.
    You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns a new instance of GenericStatusReturns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.Returns a new instance of GenericStatus.
-
-
-
-@@ -610,7 +641,7 @@ Returns a new instance of GenericStatusReturns a new instance of GenericStatus
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.
-
-
-
-@@ -620,7 +651,7 @@ Returns a new instance of GenericStatus
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.
-
-
-
-@@ -763,7 +794,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.
-
-
-
-@@ -812,7 +843,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.
-
-
-
-@@ -869,8 +900,8 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"Returns of status codes which represent a HTTP status
--code "group"
-+code "group".Returns of status codes which represent a HTTP status
-+code "group".
-
-
-
-@@ -879,7 +910,7 @@ code "group"
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"
-+code "group".
-
-
-
-@@ -890,7 +921,7 @@ code "group"
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"
-+code "group".
-
-
-
-@@ -1109,7 +1140,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"
-+code "group".
-
-
-
-@@ -1183,7 +1214,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"
-+code "group".
-
-
-
-@@ -1464,7 +1495,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -1472,7 +1503,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1482,7 +1513,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1646,7 +1677,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1704,7 +1735,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -1712,7 +1743,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1722,7 +1753,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1886,7 +1917,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1945,8 +1976,8 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns truetrue if Rack's associated numeric HTTP code matched
--the responseresponse code or the named response statusReturns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
+-Returns true if Rack's associated numeric HTTP code matched
+-the response code or the named response status.Returns true if Rack's associated numeric HTTP code matched
++Returns truetrue if Rack's associated numeric HTTP code matched
 +the responseresponse code or the named response status.Returns true if Rack's associated numeric HTTP code matched
-+the response code or the named response status.
-
-
-
-@@ -1955,7 +1986,7 @@ the response code or the named response status
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
-+the response code or the named response status.
-
-
-
-@@ -1966,7 +1997,7 @@ the response code or the named response status
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
-+the response code or the named response status.
-
-
-
-@@ -2177,7 +2208,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
-+the response code or the named response status.
-
-
-
-@@ -2293,7 +2324,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2348,7 +2379,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2404,7 +2435,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
-+the response code or the named response status.
-
+ the response code or the named response status.
 
 
 @@ -2543,9 +2579,6 @@ expect(response).to have_http_status(:redirect)
@@ -6784,58 +1319,12 @@ index 82ec32c..3953a9d 100644
 
 
    Constant Summary
-@@ -2726,7 +2759,7 @@ expect(response).to have_http_status(:redirect)
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns a new instance of GenericStatus
-+Returns a new instance of GenericStatus.
-
-
-
-@@ -2780,7 +2813,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns of status codes which represent a HTTP status
--code "group"
-+code "group".
-
-
-
-@@ -2903,7 +2936,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2958,7 +2991,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -3014,7 +3047,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code or the named response status
-+the response code or the named response status.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new
-index a401902..61ba86c 100644
+index 9436990..61ba86c 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new
 @@ -19,11 +21,23 @@ Module: RSpec::Rails::Matchers::HaveHttpStatus
@@ -6862,67 +1351,19 @@ index a401902..61ba86c 100644
 
 
 
-@@ -1415,8 +1431,8 @@ end
+@@ -1415,7 +1431,7 @@ end
    You should avoid using this method if possible, as it may be removed or be changed in the future.
 
  Returns a formatted failure message if
--@invalid_response@invalid_response is present, nilnil otherwiseReturns a formatted failure message if
--@invalid_response is present, nil otherwise
+-@invalid_response is present, nil otherwise.Returns a formatted failure message if
 +@invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if
-+@invalid_response is present, nil otherwise.
+ @invalid_response is present, nil otherwise.
 
 
 
-@@ -1425,7 +1441,7 @@ Returns a formatted failure message if
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns a formatted failure message if
--@invalid_response is present, nil otherwise
-+@invalid_response is present, nil otherwise.
-
-
-
-@@ -1436,7 +1452,7 @@ Returns a formatted failure message if
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns a formatted failure message if
--@invalid_response is present, nil otherwise
-+@invalid_response is present, nil otherwise.
-
-
-
-@@ -1617,7 +1633,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns a formatted failure message if
--@invalid_response is present, nil otherwise
-+@invalid_response is present, nil otherwise.
-
-
-
-@@ -1680,7 +1696,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns a formatted failure message if
--@invalid_response is present, nil otherwise
-+@invalid_response is present, nil otherwise.
-
-
-
-@@ -2070,7 +2090,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns a formatted failure message if
--@invalid_response is present, nil otherwise
-+@invalid_response is present, nil otherwise.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/HelperExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/HelperExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-HelperExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/HelperExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/HelperExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-HelperExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-HelperExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-HelperExampleGroup.html.new
 index f47201f..629115c 100644
 --- a/export/rspec-rails-RSpec-Rails-HelperExampleGroup.html.current
@@ -6964,10 +1405,9 @@ index f47201f..629115c 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/JobExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/JobExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-JobExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/JobExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/JobExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-JobExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-JobExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-JobExampleGroup.html.new
 index 5fe03db..773fe4a 100644
 --- a/export/rspec-rails-RSpec-Rails-JobExampleGroup.html.current
@@ -7010,10 +1450,9 @@ index 5fe03db..773fe4a 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-MailerExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/MailerExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-MailerExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-MailerExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-MailerExampleGroup.html.new
 index 30ac5d7..0d5f892 100644
 --- a/export/rspec-rails-RSpec-Rails-MailerExampleGroup.html.current
@@ -7091,12 +1530,11 @@ index 30ac5d7..0d5f892 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers.html.current b/export/rspec-rails-RSpec-Rails-Matchers.html.new
-index ef88fe3..e58614b 100644
+index 6ba1c5d..2c9fcb0 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers.html.new
 @@ -22,6 +25,15 @@ Module: RSpec::Rails::Matchers
@@ -7116,10 +1554,9 @@ index ef88fe3..e58614b 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ModelExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ModelExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ModelExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ModelExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ModelExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ModelExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ModelExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-ModelExampleGroup.html.new
 index abdf49a..0b3acfb 100644
 --- a/export/rspec-rails-RSpec-Rails-ModelExampleGroup.html.current
@@ -7161,12 +1598,11 @@ index abdf49a..0b3acfb 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/NumericCode.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/NumericCode.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/NumericCode.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/NumericCode.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new
-index ce98e1a..c7fdebd 100644
+index 3d08c0f..c7fdebd 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new
 @@ -46,6 +46,24 @@ Class: RSpec::Rails::Matchers::HaveHttpStatus::NumericCode
@@ -7229,183 +1665,12 @@ index ce98e1a..c7fdebd 100644
 
 
    Constant SummaryConstant Summary
-@@ -517,7 +548,7 @@ true if the numeric code matched the response code.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NumericCodeReturns a new instance of NumericCode
-+Returns a new instance of NumericCode.Returns a new instance of NumericCode.
-
-
-
-@@ -525,7 +556,7 @@ Returns a new instance of NumericCodeReturns a new instance of NumericCode
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NumericCode
-+Returns a new instance of NumericCode.
-
-
-
-@@ -535,7 +566,7 @@ Returns a new instance of NumericCode
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NumericCode
-+Returns a new instance of NumericCode.
-
-
-
-@@ -648,7 +679,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NumericCode
-+Returns a new instance of NumericCode.
-
-
-
-@@ -691,7 +722,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of NumericCode
-+Returns a new instance of NumericCode.
-
-
-
-@@ -944,7 +975,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -952,7 +983,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -962,7 +993,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1136,7 +1167,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1196,7 +1227,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -1204,7 +1235,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1214,7 +1245,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1388,7 +1419,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
 @@ -1448,7 +1479,7 @@ end
    This method is part of a private API.
    You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns truetrue if the numeric code matched the responseresponse codeReturns true if the numeric code matched the response code
+-Returns true if the numeric code matched the response code.Returns true if the numeric code matched the response code.
 +Returns truetrue if the numeric code matched the responseresponse code.Returns true if the numeric code matched the response code.
-
-
-
-@@ -1456,7 +1487,7 @@ Returns truetrue if the numeric code matched the responseresponse codeReturns tr
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns true if the numeric code matched the response code
-+Returns true if the numeric code matched the response code.
-
-
-
-@@ -1466,7 +1497,7 @@ Returns true if the numeric code matched the response code
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns true if the numeric code matched the response code
-+Returns true if the numeric code matched the response code.
-
-
-
-@@ -1739,7 +1770,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns true if the numeric code matched the response code
-+Returns true if the numeric code matched the response code.
-
-
-
-@@ -1873,7 +1904,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1930,7 +1961,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1987,7 +2018,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns true if the numeric code matched the response code
-+Returns true if the numeric code matched the response code.
 
 
 
@@ -7419,49 +1684,12 @@ index ce98e1a..c7fdebd 100644
 
 
    Constant Summary
-@@ -2296,7 +2329,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns a new instance of NumericCode
-+Returns a new instance of NumericCode.
-
-
-
-@@ -2391,7 +2424,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2448,7 +2481,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2505,7 +2538,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns true if the numeric code matched the response code
-+Returns true if the numeric code matched the response code.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec.html
+🏆 Diff done: export/diff/rspec-rails-RSpec.html.diff
 diff --git a/export/rspec-rails-RSpec.html.current b/export/rspec-rails-RSpec.html.new
-index 3fa2b3d..96a20fb 100644
+index fedda2c..51129fc 100644
 --- a/export/rspec-rails-RSpec.html.current
 +++ b/export/rspec-rails-RSpec.html.new
 @@ -22,6 +25,15 @@ Module: RSpec
@@ -7481,12 +1709,11 @@ index 3fa2b3d..96a20fb 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails.html.current b/export/rspec-rails-RSpec-Rails.html.new
-index 56ca611..dd2abcc 100644
+index 2cdf6de..cee1008 100644
 --- a/export/rspec-rails-RSpec-Rails.html.current
 +++ b/export/rspec-rails-RSpec-Rails.html.new
 @@ -22,6 +25,15 @@ Module: RSpec::Rails
@@ -7525,10 +1752,9 @@ index 56ca611..dd2abcc 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RailsExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RailsExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-RailsExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RailsExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RailsExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-RailsExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-RailsExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-RailsExampleGroup.html.new
 index be65410..5ec3317 100644
 --- a/export/rspec-rails-RSpec-Rails-RailsExampleGroup.html.current
@@ -7569,10 +1795,9 @@ index be65410..5ec3317 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Railtie.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Railtie.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Railtie.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Railtie.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Railtie.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Railtie.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Railtie.html.current b/export/rspec-rails-RSpec-Rails-Railtie.html.new
 index c9485ae..25fb9d2 100644
 --- a/export/rspec-rails-RSpec-Rails-Railtie.html.current
@@ -7617,10 +1842,9 @@ index c9485ae..25fb9d2 100644
 
      Inherits:
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RedirectTo.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RedirectTo.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RedirectTo.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RedirectTo.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RedirectTo.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RedirectTo.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-RedirectTo.html.current b/export/rspec-rails-RSpec-Rails-Matchers-RedirectTo.html.new
 index 653b488..57dd0ea 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-RedirectTo.html.current
@@ -7650,10 +1874,9 @@ index 653b488..57dd0ea 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RenderTemplate.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RenderTemplate.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RenderTemplate.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RenderTemplate.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RenderTemplate.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RenderTemplate.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-RenderTemplate.html.current b/export/rspec-rails-RSpec-Rails-Matchers-RenderTemplate.html.new
 index 4298132..4c2b112 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-RenderTemplate.html.current
@@ -7683,10 +1906,9 @@ index 4298132..4c2b112 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RequestExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RequestExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-RequestExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RequestExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RequestExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-RequestExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-RequestExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-RequestExampleGroup.html.new
 index 623eb24..e151748 100644
 --- a/export/rspec-rails-RSpec-Rails-RequestExampleGroup.html.current
@@ -7728,10 +1950,9 @@ index 623eb24..e151748 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers/RouteHelpers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers/RouteHelpers.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers-RouteHelpers.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers/RouteHelpers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers/RouteHelpers.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers-RouteHelpers.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers-RouteHelpers.html.current b/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers-RouteHelpers.html.new
 index c0488ad..a0b522a 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers-RouteHelpers.html.current
@@ -7761,10 +1982,9 @@ index c0488ad..a0b522a 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/RoutingExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.new
 index 29603a6..93dd39c 100644
 --- a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.current
@@ -7809,10 +2029,9 @@ index 29603a6..93dd39c 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/RoutingMatchers.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers.html.current b/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers.html.new
 index 3799310..394f52e 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-RoutingMatchers.html.current
@@ -7853,12 +2072,11 @@ index 3799310..394f52e 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/SymbolicStatus.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/SymbolicStatus.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/SymbolicStatus.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Matchers/HaveHttpStatus/SymbolicStatus.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new
-index d2756c4..5ef6d2b 100644
+index 98299c3..5ef6d2b 100644
 --- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current
 +++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new
 @@ -46,6 +46,24 @@ Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
@@ -7921,186 +2139,15 @@ index d2756c4..5ef6d2b 100644
 
 
    Constant SummaryConstant Summary
-@@ -523,7 +554,7 @@ true if Rack's associated numeric HTTP code matched the response code.
+@@ -1468,8 +1499,8 @@ end
    This method is part of a private API.
    You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns a new instance of SymbolicStatusReturns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.Returns a new instance of SymbolicStatus.
-
-
-
-@@ -531,7 +562,7 @@ Returns a new instance of SymbolicStatusReturns a new instance of SymbolicStatus
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.
-
-
-
-@@ -541,7 +572,7 @@ Returns a new instance of SymbolicStatus
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.
-
-
-
-@@ -664,7 +695,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.
-
-
-
-@@ -709,7 +740,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.
-
-
-
-@@ -964,7 +995,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -972,7 +1003,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -982,7 +1013,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1156,7 +1187,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1216,7 +1247,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failedReturns explaining why the match failed
-+Returns explaining why the match failed.Returns explaining why the match failed.
-
-
-
-@@ -1224,7 +1255,7 @@ Returns explaining why the match failedReturns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1234,7 +1265,7 @@ Returns explaining why the match failed
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1408,7 +1439,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1469,8 +1500,8 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns truetrue if Rack's associated numeric HTTP code matched
--the responseresponse codeReturns true if Rack's associated numeric HTTP code matched
--the response code
+-Returns true if Rack's associated numeric HTTP code matched
+-the response code.Returns true if Rack's associated numeric HTTP code matched
++Returns truetrue if Rack's associated numeric HTTP code matched
 +the responseresponse code.Returns true if Rack's associated numeric HTTP code matched
-+the response code.
-
-
-
-@@ -1479,7 +1510,7 @@ the response code
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code
-+the response code.
-
-
-
-@@ -1490,7 +1521,7 @@ the response code
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code
-+the response code.
-
-
-
-@@ -1770,7 +1801,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code
-+the response code.
-
-
-
-@@ -1905,7 +1936,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -1962,7 +1993,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2020,7 +2051,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code
-+the response code.
-
+ the response code.
 
 
 @@ -2175,9 +2211,6 @@ Not intended to be instantiated directly.
@@ -8113,49 +2160,12 @@ index d2756c4..5ef6d2b 100644
 
 
    Constant Summary
-@@ -2332,7 +2365,7 @@ Not intended to be instantiated directly.
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
--Returns a new instance of SymbolicStatus
-+Returns a new instance of SymbolicStatus.
-
-
-
-@@ -2429,7 +2462,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2486,7 +2519,7 @@ end
-   This method is part of a private API.
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
--Returns explaining why the match failed
-+Returns explaining why the match failed.
-
-
-
-@@ -2544,7 +2577,7 @@ end
-   You should avoid using this method if possible, as it may be removed or be changed in the future.
-
- Returns true if Rack's associated numeric HTTP code matched
--the response code
-+the response code.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/SystemExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/SystemExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-SystemExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/SystemExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/SystemExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-SystemExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-SystemExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-SystemExampleGroup.html.new
-index b234801..cecad7f 100644
+index 5039d09..6cd92c6 100644
 --- a/export/rspec-rails-RSpec-Rails-SystemExampleGroup.html.current
 +++ b/export/rspec-rails-RSpec-Rails-SystemExampleGroup.html.new
 @@ -15,12 +16,22 @@ Module: RSpec::Rails::SystemExampleGroup
@@ -8211,10 +2221,9 @@ index b234801..cecad7f 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Version.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Version.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-Version.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/Version.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/Version.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-Version.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-Version.html.current b/export/rspec-rails-RSpec-Rails-Version.html.new
 index f551d87..772ee85 100644
 --- a/export/rspec-rails-RSpec-Rails-Version.html.current
@@ -8251,12 +2260,11 @@ index f551d87..772ee85 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewAssigns.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewAssigns.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewAssigns.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewAssigns.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewAssigns.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewAssigns.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewAssigns.html.current b/export/rspec-rails-RSpec-Rails-ViewAssigns.html.new
-index 867fa77..991a3d6 100644
+index 140c0b7..0159f77 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewAssigns.html.current
 +++ b/export/rspec-rails-RSpec-Rails-ViewAssigns.html.new
 @@ -19,11 +21,23 @@ Module: RSpec::Rails::ViewAssigns
@@ -8284,10 +2292,9 @@ index 867fa77..991a3d6 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewExampleGroup.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewExampleGroup.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewExampleGroup.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-ViewExampleGroup.html.new
 index eefc4f9..6f01363 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewExampleGroup.html.current
@@ -8329,12 +2336,11 @@ index eefc4f9..6f01363 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewPathBuilder.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewPathBuilder.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewPathBuilder.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewPathBuilder.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewPathBuilder.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewPathBuilder.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new
-index 368e7f1..5b5bde9 100644
+index bdb92f9..5b5bde9 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current
 +++ b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new
 @@ -40,6 +40,24 @@ Class: RSpec::Rails::ViewPathBuilder
@@ -8374,59 +2380,10 @@ index 368e7f1..5b5bde9 100644
 
 
      Inherits:
-@@ -239,17 +266,17 @@ Given a hash of parameters, build a view path, if possible.
 
-
-
--    Returns a new instance of ViewPathBuilderReturns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.Returns a new instance of ViewPathBuilder.
-
-
-
--    Returns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.
-
-
-
-
-
--    Returns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.
-
-
-
-@@ -338,7 +365,7 @@ end
-
-
-
--    Returns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.
-
-
-
-@@ -373,7 +400,7 @@ end
-
-
-
--    Returns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.
-
-
-
-@@ -808,7 +839,7 @@ Overview
-
-
-
--    Returns a new instance of ViewPathBuilder
-+    Returns a new instance of ViewPathBuilder.
-
-
-
-
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewRendering.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewRendering.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewRendering.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewRendering.html.current b/export/rspec-rails-RSpec-Rails-ViewRendering.html.new
 index 6cf7e0d..d690909 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewRendering.html.current
@@ -8487,10 +2444,9 @@ index 6cf7e0d..d690909 100644
 
 
 
-🧪>> Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewSpecMethods.html
-🧪>> Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewSpecMethods.html
-
-🏆>> Diff done: export/diff/rspec-rails-RSpec-Rails-ViewSpecMethods.html.diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/RSpec/Rails/ViewSpecMethods.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-rails/RSpec/Rails/ViewSpecMethods.html
+🏆 Diff done: export/diff/rspec-rails-RSpec-Rails-ViewSpecMethods.html.diff
 diff --git a/export/rspec-rails-RSpec-Rails-ViewSpecMethods.html.current b/export/rspec-rails-RSpec-Rails-ViewSpecMethods.html.new
 index 52957ae..61a83cb 100644
 --- a/export/rspec-rails-RSpec-Rails-ViewSpecMethods.html.current
@@ -8507,4 +2463,5 @@ index 52957ae..61a83cb 100644
 +
 +
 +
+
 ```

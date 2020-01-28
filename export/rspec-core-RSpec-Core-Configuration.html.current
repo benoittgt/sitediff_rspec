@@ -130,8 +130,8 @@ with command-line switches and the SPEC_OPTSSPEC_OPTS environment variable.Confi
 with command-line switches and the SPEC_OPTS environment variable.
 
 Precedence order (where later entries overwrite earlier entries on
-conflicts):Precedence order (where later entries overwrite earlier entries on
-conflicts):
+conflicts):.Precedence order (where later entries overwrite earlier entries on
+conflicts):.
 
 
 Global ($XDG_CONFIG_HOME/rspec/options$XDG_CONFIG_HOME/rspec/options, or ~/.rspec~/.rspec if it does
@@ -166,7 +166,7 @@ Configuration options are loaded from multiple files and joined together
 with command-line switches and the SPEC_OPTS environment variable.
 
 Precedence order (where later entries overwrite earlier entries on
-conflicts):
+conflicts):.
 
 
 Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does
@@ -193,7 +193,7 @@ Configuration options are loaded from multiple files and joined together
 with command-line switches and the SPEC_OPTS environment variable.
 
 Precedence order (where later entries overwrite earlier entries on
-conflicts):
+conflicts):.
 
 
 Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does
@@ -5425,17 +5425,17 @@ a no-op.
     
   
   
-    Build an object to store runtime configuration options and set defaultsBuild an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.Build an object to store runtime configuration options and set defaults.
 
 
   
-    Build an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.
 
 
   
 
   
-    Build an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.
 
 
   
@@ -6046,7 +6046,7 @@ end
 
   
   
-    Build an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.
 
 
   
@@ -6185,7 +6185,7 @@ end
     
   
   
-    Build an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.
 
 
   
@@ -6345,8 +6345,8 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.Determines which bisect runner implementation gets used to run subsets
+of the suite during a bisection. Your choices are:.
 
 
 :shell:shell: Performs a spec run by shelling out, booting RSpec and your
@@ -6394,7 +6394,7 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.
 
 
 :shell: Performs a spec run by shelling out, booting RSpec and your
@@ -6423,7 +6423,7 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.
 
 
 :shell: Performs a spec run by shelling out, booting RSpec and your
@@ -6579,7 +6579,7 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.
 
 
 :shell: Performs a spec run by shelling out, booting RSpec and your
@@ -6897,7 +6897,7 @@ end
       
   
   
-    The mode for determining whether to display output in color. One of:The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -6914,7 +6914,7 @@ default)
 
 
   
-    The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -6927,7 +6927,7 @@ default)
   
 
   
-    The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -7085,7 +7085,7 @@ end
 
   
   
-    The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -7146,18 +7146,17 @@ end
       
   
   
-    The default output color. Defaults to :white:white but can be set to one of
+    The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan][:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]The default output color. Defaults to :white but can be set to one of
+:magenta, :cyan].The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
     The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -7165,7 +7164,7 @@ the following: [:black, :white, :red, :green, :yellow, :blue,
   
     The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -7280,7 +7279,7 @@ add_setting :default_color
   
     The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -7539,18 +7538,17 @@ add_read_only_setting :default_path
       
   
   
-    Color used to print details.  Defaults to :cyan:cyan but can be set to one
+    Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan][:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]Color used to print details.  Defaults to :cyan but can be set to one
+:magenta, :cyan].Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
     Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -7558,7 +7556,7 @@ of the following: [:black, :white, :red, :green, :yellow, :blue,
   
     Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -7673,7 +7671,7 @@ add_setting :detail_color
   
     Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -8248,17 +8246,17 @@ add_setting :error_stream
         
         
   
-    Returns the file pathReturns the file path
+    Returns the file path.Returns the file path.
 
 
   
-    Returns the file path
+    Returns the file path.
 
 
   
 
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -8335,7 +8333,7 @@ Returns:
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -8496,7 +8494,7 @@ the file path
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -8571,7 +8569,7 @@ Returns:
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -8710,7 +8708,7 @@ define_reader :example_status_persistence_file_path
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -8964,16 +8962,16 @@ define_reader :exclude_pattern
   
   
     If specified, indicates the number of failures required before cleaning
-up and exit (default: nilnil). Can also be truetrue to fail and exit on first
-failureIf specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.If specified, indicates the number of failures required before cleaning
+up and exit (default: nil). Can also be true to fail and exit on first
+failure.
 
 
   
     If specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.
 
 
   
@@ -8981,7 +8979,7 @@ failure
   
     If specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.
 
 
   
@@ -9052,7 +9050,7 @@ define_reader :fail_fast
   
     If specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.
 
 
   
@@ -9248,18 +9246,17 @@ add_setting :fail_if_no_examples
       
   
   
-    Color to use to indicate failure.  Defaults to :red:red but can be set to
+    Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan][:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]Color to use to indicate failure.  Defaults to :red but can be set to
+:magenta, :cyan].Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
     Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -9267,7 +9264,7 @@ one of the following: [:black, :white, :red, :green, :yellow, :blue,
   
     Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -9382,7 +9379,7 @@ add_setting :failure_color
   
     Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -9802,18 +9799,17 @@ end
       
   
   
-    Color used when a pending example is fixed. Defaults to :blue:blue but can
+    Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan][:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]Color used when a pending example is fixed. Defaults to :blue but can
+:yellow, :blue, :magenta, :cyan].Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
     Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -9821,7 +9817,7 @@ be set to one of the following: [:black, :white, :red, :green,
   
     Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -9936,7 +9932,7 @@ add_setting :fixed_color
   
     Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -10151,16 +10147,16 @@ define_reader :libs
   
   
     Maximum count of failed source lines to display in the failure reports.
-(default 1010).
-return [Integer]Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].Maximum count of failed source lines to display in the failure reports.
+(default 10).
+return [Integer].
 
 
   
     Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].
 
 
   
@@ -10168,7 +10164,7 @@ return [Integer]
   
     Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].
 
 
   
@@ -10239,7 +10235,7 @@ add_setting :max_displayed_failure_line_count
   
     Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].
 
 
   
@@ -10715,18 +10711,17 @@ define_reader :pattern
       
   
   
-    Color to use to print pending examples.  Defaults to :yellow:yellow but can
+    Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan][:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]Color to use to print pending examples.  Defaults to :yellow but can
+:yellow, :blue, :magenta, :cyan].Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
     Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -10734,7 +10729,7 @@ be set to one of the following: [:black, :white, :red, :green,
   
     Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -10849,7 +10844,7 @@ add_setting :pending_color
   
     Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -11514,8 +11509,8 @@ add_setting :run_all_when_everything_filtered
   
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.Configures how RSpec treats metadata passed as part of a shared example
+group definition. For example, given this shared example group definition:.
 
 RSpecRSpec..shared_contextshared_context ""uses DBuses DB"""uses DB",, :db:db =>=> truetrue dodo
   aroundaround((:example:example)) dodo ||exex||
@@ -11534,9 +11529,9 @@ RSpec.shared_context "uses DB", :db => true do
 end
 
 
-...there are two ways RSpec can treat the :db => true:db => true metadata, each
-of which has a corresponding config option:...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+...there are two ways RSpec can treat the :db => true metadata, each
+of which has a corresponding config option:....there are two ways RSpec can treat the :db => true metadata, each
+of which has a corresponding config option:.
 
 
 :trigger_inclusion:trigger_inclusion: this shared context will be implicitly included
@@ -11552,11 +11547,11 @@ in any groups (or examples) that have :db => true metadata.
 hash of all host groups and examples.
 
 
-:trigger_inclusion:trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
+:trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_contextinclude_context::trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
+include_context:.:trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpecRSpec..describedescribe ""My modelMy model"""My model" dodo
   include_contextinclude_context ""uses DBuses DB"""uses DB"
@@ -11570,8 +11565,8 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:....or you can configure RSpec to include the context based on matching metadata
+using an API that mirrors configured module inclusion:.
 
 RSpecRSpec..configureconfigure dodo ||rspecrspec||
   rspecrspec..include_contextinclude_context ""uses DBuses DB"""uses DB",, :db:db =>=> truetrue
@@ -11591,7 +11586,7 @@ supported behavior in RSpec 4.
 
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.
 
 RSpec.shared_context "uses DB", :db => true do
   around(:example) do |ex|
@@ -11601,7 +11596,7 @@ end
 
 
 ...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+of which has a corresponding config option:.
 
 
 :trigger_inclusion: this shared context will be implicitly included
@@ -11612,7 +11607,7 @@ hash of all host groups and examples.
 
 :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpec.describe "My model" do
   include_context "uses DB"
@@ -11620,7 +11615,7 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:.
 
 RSpec.configure do |rspec|
   rspec.include_context "uses DB", :db => true
@@ -11635,7 +11630,7 @@ supported behavior in RSpec 4.
 
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.
 
 RSpec.shared_context "uses DB", :db => true do
   around(:example) do |ex|
@@ -11645,7 +11640,7 @@ end
 
 
 ...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+of which has a corresponding config option:.
 
 
 :trigger_inclusion: this shared context will be implicitly included
@@ -11656,7 +11651,7 @@ hash of all host groups and examples.
 
 :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpec.describe "My model" do
   include_context "uses DB"
@@ -11664,7 +11659,7 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:.
 
 RSpec.configure do |rspec|
   rspec.include_context "uses DB", :db => true
@@ -11687,17 +11682,17 @@ supported behavior in RSpec 4.
         
         
   
-    Returns the configured behaviorReturns the configured behavior
+    Returns the configured behavior.Returns the configured behavior.
 
 
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
 
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -11774,7 +11769,7 @@ Returns:
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -11935,7 +11930,7 @@ sets the configured behavior
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -12010,7 +12005,7 @@ Returns:
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -12134,7 +12129,7 @@ define_reader :shared_context_metadata_behavior
   
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.
 
 RSpec.shared_context "uses DB", :db => true do
   around(:example) do |ex|
@@ -12144,7 +12139,7 @@ end
 
 
 ...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+of which has a corresponding config option:.
 
 
 :trigger_inclusion: this shared context will be implicitly included
@@ -12155,7 +12150,7 @@ hash of all host groups and examples.
 
 :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpec.describe "My model" do
   include_context "uses DB"
@@ -12163,7 +12158,7 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:.
 
 RSpec.configure do |rspec|
   rspec.include_context "uses DB", :db => true
@@ -12186,7 +12181,7 @@ supported behavior in RSpec 4.
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -12274,16 +12269,16 @@ define_reader :shared_context_metadata_behavior
   
   
     Don't print filter info i.e. "Run options: include :focus=>true"
-(default falsefalse).
-return [Boolean]Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].Don't print filter info i.e. "Run options: include :focus=>true"
+(default false).
+return [Boolean].
 
 
   
     Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12291,7 +12286,7 @@ return [Boolean]
   
     Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12362,7 +12357,7 @@ add_setting :silence_filter_announcements
   
     Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12392,18 +12387,17 @@ add_setting :silence_filter_announcements
       
   
   
-    Color to use to indicate success.  Defaults to :green:green but can be set
+    Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan][:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]Color to use to indicate success.  Defaults to :green but can be set
+:blue, :magenta, :cyan].Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
     Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
@@ -12411,7 +12405,7 @@ to one of the following: [:black, :white, :red, :green, :yellow,
   
     Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
@@ -12526,7 +12520,7 @@ add_setting :success_color
   
     Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
@@ -12571,15 +12565,15 @@ add_setting :success_color
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]Use threadsafe options where available.
+return [Boolean].Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12587,7 +12581,7 @@ return [Boolean]
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12658,7 +12652,7 @@ add_setting :threadsafe
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
@@ -12700,7 +12694,7 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.
 
 
 :shell: Performs a spec run by shelling out, booting RSpec and your
@@ -12823,7 +12817,7 @@ end
       
   
   
-    The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -12886,7 +12880,7 @@ end
   
     The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -12984,7 +12978,7 @@ add_read_only_setting :default_path
   
     Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -13178,7 +13172,7 @@ add_setting :error_stream
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -13310,7 +13304,7 @@ define_reader :exclude_pattern
   
     If specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.
 
 
   
@@ -13385,7 +13379,7 @@ add_setting :fail_if_no_examples
   
     Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -13524,7 +13518,7 @@ end
   
     Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -13613,7 +13607,7 @@ define_reader :libs
   
     Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].
 
 
   
@@ -13762,7 +13756,7 @@ define_reader :pattern
   
     Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -13966,7 +13960,7 @@ add_setting :run_all_when_everything_filtered
   
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.
 
 RSpec.shared_context "uses DB", :db => true do
   around(:example) do |ex|
@@ -13976,7 +13970,7 @@ end
 
 
 ...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+of which has a corresponding config option:.
 
 
 :trigger_inclusion: this shared context will be implicitly included
@@ -13987,7 +13981,7 @@ hash of all host groups and examples.
 
 :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpec.describe "My model" do
   include_context "uses DB"
@@ -13995,7 +13989,7 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:.
 
 RSpec.configure do |rspec|
   rspec.include_context "uses DB", :db => true
@@ -14018,7 +14012,7 @@ supported behavior in RSpec 4.
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -14107,7 +14101,7 @@ define_reader :shared_context_metadata_behavior
   
     Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].
 
 
   
@@ -14139,7 +14133,7 @@ add_setting :silence_filter_announcements
   
     Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
@@ -14184,7 +14178,7 @@ add_setting :success_color
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
@@ -14597,8 +14591,8 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.Used internally and by extension frameworks like rspec-rails, so they
+can add config settings that are domain specific. For example:.
 
 RSpecRSpec..configureconfigure dodo ||cc||
   cc..add_settingadd_setting :use_transactional_fixtures:use_transactional_fixtures,,
@@ -14617,9 +14611,9 @@ RSpec.configure do |c|
 end
 
 
-add_settingadd_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+add_setting creates three methods on the configuration object, a
+setter, a getter, and a predicate:.add_setting creates three methods on the configuration object, a
+setter, a getter, and a predicate:.
 
 RSpecRSpec..configurationconfiguration..foofoo==((valuevalue))
 RSpecRSpec..configurationconfiguration..foofoo
@@ -14641,7 +14635,7 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.
 
 RSpec.configure do |c|
   c.add_setting :use_transactional_fixtures,
@@ -14651,7 +14645,7 @@ end
 
 
 add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+setter, a getter, and a predicate:.
 
 RSpec.configuration.foo=(value)
 RSpec.configuration.foo
@@ -14668,7 +14662,7 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.
 
 RSpec.configure do |c|
   c.add_setting :use_transactional_fixtures,
@@ -14678,7 +14672,7 @@ end
 
 
 add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+setter, a getter, and a predicate:.
 
 RSpec.configuration.foo=(value)
 RSpec.configuration.foo
@@ -15064,7 +15058,7 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.
 
 RSpec.configure do |c|
   c.add_setting :use_transactional_fixtures,
@@ -15074,7 +15068,7 @@ end
 
 
 add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+setter, a getter, and a predicate:.
 
 RSpec.configuration.foo=(value)
 RSpec.configuration.foo
@@ -15905,9 +15899,9 @@ docs for those methods.
 
   
 
-Creates a method that delegates to exampleexample including the submitted
-argsargs. Used internally to add variants of exampleexample like pendingpending:Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+Creates a method that delegates to example including the submitted
+args. Used internally to add variants of example like pending:.Creates a method that delegates to example including the submitted
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -15929,7 +15923,7 @@ docs for those methods.
   
 
 Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -15953,7 +15947,7 @@ docs for those methods.
   
 
 Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -16312,7 +16306,7 @@ docs for those methods.
   
 
 Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -20746,9 +20740,9 @@ end
 group.Sets the expectation framework module(s) to be included in each example
 group.
 
-frameworksframeworks can be :rspec:rspec, :test_unit:test_unit, :minitest:minitest, a custom
-module, or any combination thereof:frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+frameworks can be :rspec, :test_unit, :minitest, a custom
+module, or any combination thereof:.frameworks can be :rspec, :test_unit, :minitest, a custom
+module, or any combination thereof:.
 
 configconfig..expect_withexpect_with :rspec:rspec
 configconfig..expect_withexpect_with :test_unit:test_unit
@@ -20773,9 +20767,9 @@ appropriate modules.
 
 ConfigurationConfiguration
 
-If the module responds to configurationconfiguration, expect_withexpect_with will
-yield the configurationconfiguration object if given a block:If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+If the module responds to configuration, expect_with will
+yield the configuration object if given a block:.If the module responds to configuration, expect_with will
+yield the configuration object if given a block:.
 
 configconfig..expect_withexpect_with OtherExpectationFrameworkOtherExpectationFramework dodo ||custom_configcustom_config||
   custom_configcustom_config..custom_settingcustom_setting == truetrue
@@ -20794,7 +20788,7 @@ end
 group.
 
 frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+module, or any combination thereof:.
 
 config.expect_with :rspec
 config.expect_with :test_unit
@@ -20809,7 +20803,7 @@ appropriate modules.
 Configuration
 
 If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+yield the configuration object if given a block:.
 
 config.expect_with OtherExpectationFramework do |custom_config|
   custom_config.custom_setting = true
@@ -20824,7 +20818,7 @@ end
 group.
 
 frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+module, or any combination thereof:.
 
 config.expect_with :rspec
 config.expect_with :test_unit
@@ -20839,7 +20833,7 @@ appropriate modules.
 Configuration
 
 If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+yield the configuration object if given a block:.
 
 config.expect_with OtherExpectationFramework do |custom_config|
   custom_config.custom_setting = true
@@ -21319,7 +21313,7 @@ end
 group.
 
 frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+module, or any combination thereof:.
 
 config.expect_with :rspec
 config.expect_with :test_unit
@@ -21334,7 +21328,7 @@ appropriate modules.
 Configuration
 
 If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+yield the configuration object if given a block:.
 
 config.expect_with OtherExpectationFramework do |custom_config|
   custom_config.custom_setting = true
@@ -21578,17 +21572,17 @@ end
       
   
   
-    Returns the configured expectation framework adapter module(s)Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).Returns the configured expectation framework adapter module(s).
 
 
   
-    Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).
 
 
   
 
   
-    Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).
 
 
   
@@ -21747,7 +21741,7 @@ end
 
   
   
-    Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).
 
 
   
@@ -22193,20 +22187,20 @@ end
       
   
   
-    Use this to expose the core RSpec DSL via ModuleModule and the mainmain
+    Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: trueUse this to expose the core RSpec DSL via Module and the main
+Default: true.Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
     Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
@@ -22215,7 +22209,7 @@ Default: true
     Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
@@ -22367,7 +22361,7 @@ end
     Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
@@ -22411,21 +22405,21 @@ end
       
   
   
-    Indicates if the DSL has been exposed off of modules and mainmain.
-Default: trueIndicates if the DSL has been exposed off of modules and main.
-Default: true
+    Indicates if the DSL has been exposed off of modules and main.
+Default: true.Indicates if the DSL has been exposed off of modules and main.
+Default: true.
 
 
   
     Indicates if the DSL has been exposed off of modules and main.
-Default: true
+Default: true.
 
 
   
 
   
     Indicates if the DSL has been exposed off of modules and main.
-Default: true
+Default: true.
 
 
   
@@ -22559,7 +22553,7 @@ end
   
   
     Indicates if the DSL has been exposed off of modules and main.
-Default: true
+Default: true.
 
 
   
@@ -24930,17 +24924,17 @@ end
       
   
   
-    Returns full description filterReturns full description filter
+    Returns full description filter.Returns full description filter.
 
 
   
-    Returns full description filter
+    Returns full description filter.
 
 
   
 
   
-    Returns full description filter
+    Returns full description filter.
 
 
   
@@ -25090,7 +25084,7 @@ end
 
   
   
-    Returns full description filter
+    Returns full description filter.
 
 
   
@@ -26938,8 +26932,8 @@ any mocking framework to save a little bit of overhead.Given :nothing, configure
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.Given a Module, includes that module in every example group. The module
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -26998,7 +26992,7 @@ Given :nothing, configures no framework. Use this if you don't use
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -27034,7 +27028,7 @@ Given :nothing, configures no framework. Use this if you don't use
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -27433,7 +27427,7 @@ Given :nothing, configures no framework. Use this if you don't use
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -27540,17 +27534,17 @@ end
       
   
   
-    Invokes block before defining an example groupInvokes block before defining an example group
+    Invokes block before defining an example group.Invokes block before defining an example group.
 
 
   
-    Invokes block before defining an example group
+    Invokes block before defining an example group.
 
 
   
 
   
-    Invokes block before defining an example group
+    Invokes block before defining an example group.
 
 
   
@@ -27639,7 +27633,7 @@ end
 
   
   
-    Invokes block before defining an example group
+    Invokes block before defining an example group.
 
 
   
@@ -27678,7 +27672,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example groupReturns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.Returns an array of blocks to call before defining an example group.
 
 
   
@@ -27686,7 +27680,7 @@ Returns an array of blocks to call before defining an example groupReturns an ar
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.
 
 
   
@@ -27696,7 +27690,7 @@ Returns an array of blocks to call before defining an example group
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.
 
 
   
@@ -27789,7 +27783,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.
 
 
   
@@ -29780,17 +29774,17 @@ delegate_to_ordering_manager :register_ordering
       
   
   
-    Returns the currently configured reporterReturns the currently configured reporter
+    Returns the currently configured reporter.Returns the currently configured reporter.
 
 
   
-    Returns the currently configured reporter
+    Returns the currently configured reporter.
 
 
   
 
   
-    Returns the currently configured reporter
+    Returns the currently configured reporter.
 
 
   
@@ -30032,7 +30026,7 @@ end
 
   
   
-    Returns the currently configured reporter
+    Returns the currently configured reporter.
 
 
   
@@ -31399,7 +31393,7 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.
 
 RSpec.configure do |c|
   c.add_setting :use_transactional_fixtures,
@@ -31409,7 +31403,7 @@ end
 
 
 add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+setter, a getter, and a predicate:.
 
 RSpec.configuration.foo=(value)
 RSpec.configuration.foo
@@ -31682,7 +31676,7 @@ docs for those methods.
   
 
 Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -32743,7 +32737,7 @@ end
 group.
 
 frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+module, or any combination thereof:.
 
 config.expect_with :rspec
 config.expect_with :test_unit
@@ -32758,7 +32752,7 @@ appropriate modules.
 Configuration
 
 If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+yield the configuration object if given a block:.
 
 config.expect_with OtherExpectationFramework do |custom_config|
   custom_config.custom_setting = true
@@ -32903,7 +32897,7 @@ end
       
   
   
-    Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).
 
 
   
@@ -33037,7 +33031,7 @@ end
     Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
@@ -33082,7 +33076,7 @@ end
   
   
     Indicates if the DSL has been exposed off of modules and main.
-Default: true
+Default: true.
 
 
   
@@ -33642,7 +33636,7 @@ end
       
   
   
-    Returns full description filter
+    Returns full description filter.
 
 
   
@@ -34095,7 +34089,7 @@ Given :nothing, configures no framework. Use this if you don't use
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -34202,7 +34196,7 @@ end
       
   
   
-    Invokes block before defining an example group
+    Invokes block before defining an example group.
 
 
   
@@ -34238,7 +34232,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.
 
 
   
@@ -34702,7 +34696,7 @@ delegate_to_ordering_manager :register_ordering
       
   
   
-    Returns the currently configured reporter
+    Returns the currently configured reporter.
 
 
   
@@ -35093,7 +35087,7 @@ Configuration options are loaded from multiple files and joined together
 with command-line switches and the SPEC_OPTS environment variable.
 
 Precedence order (where later entries overwrite earlier entries on
-conflicts):
+conflicts):.
 
 
 Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does
@@ -36895,7 +36889,7 @@ a no-op.
     
   
   
-    Build an object to store runtime configuration options and set defaults
+    Build an object to store runtime configuration options and set defaults.
 
 
   
@@ -37047,7 +37041,7 @@ loaded via --require.
   
 
 Determines which bisect runner implementation gets used to run subsets
-of the suite during a bisection. Your choices are:
+of the suite during a bisection. Your choices are:.
 
 
 :shell: Performs a spec run by shelling out, booting RSpec and your
@@ -37170,7 +37164,7 @@ end
       
   
   
-    The mode for determining whether to display output in color. One of:
+    The mode for determining whether to display output in color. One of:.
 
 
 :automatic - the output will be in color if the output is a TTY (the
@@ -37233,7 +37227,7 @@ end
   
     The default output color. Defaults to :white but can be set to one of
 the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -37331,7 +37325,7 @@ add_read_only_setting :default_path
   
     Color used to print details.  Defaults to :cyan but can be set to one
 of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -37525,7 +37519,7 @@ add_setting :error_stream
         
         
   
-    Returns the file path
+    Returns the file path.
 
 
   
@@ -37657,7 +37651,7 @@ define_reader :exclude_pattern
   
     If specified, indicates the number of failures required before cleaning
 up and exit (default: nil). Can also be true to fail and exit on first
-failure
+failure.
 
 
   
@@ -37732,7 +37726,7 @@ add_setting :fail_if_no_examples
   
     Color to use to indicate failure.  Defaults to :red but can be set to
 one of the following: [:black, :white, :red, :green, :yellow, :blue,
-:magenta, :cyan]
+:magenta, :cyan].
 
 
   
@@ -37871,7 +37865,7 @@ end
   
     Color used when a pending example is fixed. Defaults to :blue but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -37960,7 +37954,7 @@ define_reader :libs
   
     Maximum count of failed source lines to display in the failure reports.
 (default 10).
-return [Integer]
+return [Integer].
 
 
   
@@ -38109,7 +38103,7 @@ define_reader :pattern
   
     Color to use to print pending examples.  Defaults to :yellow but can
 be set to one of the following: [:black, :white, :red, :green,
-:yellow, :blue, :magenta, :cyan]
+:yellow, :blue, :magenta, :cyan].
 
 
   
@@ -38313,7 +38307,7 @@ add_setting :run_all_when_everything_filtered
   
   
     Configures how RSpec treats metadata passed as part of a shared example
-group definition. For example, given this shared example group definition:
+group definition. For example, given this shared example group definition:.
 
 RSpec.shared_context "uses DB", :db => true do
   around(:example) do |ex|
@@ -38323,7 +38317,7 @@ end
 
 
 ...there are two ways RSpec can treat the :db => true metadata, each
-of which has a corresponding config option:
+of which has a corresponding config option:.
 
 
 :trigger_inclusion: this shared context will be implicitly included
@@ -38334,7 +38328,7 @@ hash of all host groups and examples.
 
 :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should
 be considered deprecated. Instead, you can explicitly include a group with
-include_context:
+include_context:.
 
 RSpec.describe "My model" do
   include_context "uses DB"
@@ -38342,7 +38336,7 @@ end
 
 
 ...or you can configure RSpec to include the context based on matching metadata
-using an API that mirrors configured module inclusion:
+using an API that mirrors configured module inclusion:.
 
 RSpec.configure do |rspec|
   rspec.include_context "uses DB", :db => true
@@ -38365,7 +38359,7 @@ supported behavior in RSpec 4.
         
         
   
-    Returns the configured behavior
+    Returns the configured behavior.
 
 
   
@@ -38454,7 +38448,7 @@ define_reader :shared_context_metadata_behavior
   
     Don't print filter info i.e. "Run options: include :focus=>true"
 (default false).
-return [Boolean]
+return [Boolean].
 
 
   
@@ -38486,7 +38480,7 @@ add_setting :silence_filter_announcements
   
     Color to use to indicate success.  Defaults to :green but can be set
 to one of the following: [:black, :white, :red, :green, :yellow,
-:blue, :magenta, :cyan]
+:blue, :magenta, :cyan].
 
 
   
@@ -38531,7 +38525,7 @@ add_setting :success_color
   
     Use threadsafe options where available.
 Currently this will place a mutex around memoized values such as let blocks.
-return [Boolean]
+return [Boolean].
 
 
   
@@ -38653,7 +38647,7 @@ RSpec.configuration.add_setting :foo
 
 
 Used internally and by extension frameworks like rspec-rails, so they
-can add config settings that are domain specific. For example:
+can add config settings that are domain specific. For example:.
 
 RSpec.configure do |c|
   c.add_setting :use_transactional_fixtures,
@@ -38663,7 +38657,7 @@ end
 
 
 add_setting creates three methods on the configuration object, a
-setter, a getter, and a predicate:
+setter, a getter, and a predicate:.
 
 RSpec.configuration.foo=(value)
 RSpec.configuration.foo
@@ -38936,7 +38930,7 @@ docs for those methods.
   
 
 Creates a method that delegates to example including the submitted
-args. Used internally to add variants of example like pending:
+args. Used internally to add variants of example like pending:.
 
 
   
@@ -39997,7 +39991,7 @@ end
 group.
 
 frameworks can be :rspec, :test_unit, :minitest, a custom
-module, or any combination thereof:
+module, or any combination thereof:.
 
 config.expect_with :rspec
 config.expect_with :test_unit
@@ -40012,7 +40006,7 @@ appropriate modules.
 Configuration
 
 If the module responds to configuration, expect_with will
-yield the configuration object if given a block:
+yield the configuration object if given a block:.
 
 config.expect_with OtherExpectationFramework do |custom_config|
   custom_config.custom_setting = true
@@ -40157,7 +40151,7 @@ end
       
   
   
-    Returns the configured expectation framework adapter module(s)
+    Returns the configured expectation framework adapter module(s).
 
 
   
@@ -40291,7 +40285,7 @@ end
     Use this to expose the core RSpec DSL via Module and the main
 object. It will be set automatically but you can override it to
 remove the DSL.
-Default: true
+Default: true.
 
 
   
@@ -40336,7 +40330,7 @@ end
   
   
     Indicates if the DSL has been exposed off of modules and main.
-Default: true
+Default: true.
 
 
   
@@ -40896,7 +40890,7 @@ end
       
   
   
-    Returns full description filter
+    Returns full description filter.
 
 
   
@@ -41349,7 +41343,7 @@ Given :nothing, configures no framework. Use this if you don't use
 any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module
-should adhere to RSpec's mock framework adapter API:
+should adhere to RSpec's mock framework adapter API:.
 
 setup_mocks_for_rspec
   - called before each example
@@ -41456,7 +41450,7 @@ end
       
   
   
-    Invokes block before defining an example group
+    Invokes block before defining an example group.
 
 
   
@@ -41492,7 +41486,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns an array of blocks to call before defining an example group
+Returns an array of blocks to call before defining an example group.
 
 
   
@@ -41956,7 +41950,7 @@ delegate_to_ordering_manager :register_ordering
       
   
   
-    Returns the currently configured reporter
+    Returns the currently configured reporter.
 
 
   

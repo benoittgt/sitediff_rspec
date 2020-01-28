@@ -118,8 +118,8 @@ OverviewOverview
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Formatter for providing message output as a fallback when no other
-profiler implements #messageFormatter for providing message output as a fallback when no other
-profiler implements #message
+profiler implements #message.Formatter for providing message output as a fallback when no other
+profiler implements #message.
 
 
   
@@ -128,7 +128,7 @@ profiler implements #message
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Formatter for providing message output as a fallback when no other
-profiler implements #message
+profiler implements #message.
 
 
   
@@ -139,7 +139,7 @@ profiler implements #message
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Formatter for providing message output as a fallback when no other
-profiler implements #message
+profiler implements #message.
 
 
   
@@ -292,7 +292,7 @@ Used by the reporter to send messages to the output stream.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatterReturns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.Returns a new instance of FallbackMessageFormatter.
 
 
   
@@ -300,7 +300,7 @@ Returns a new instance of FallbackMessageFormatterReturns a new instance of Fall
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.
 
 
   
@@ -310,7 +310,7 @@ Returns a new instance of FallbackMessageFormatter
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.
 
 
   
@@ -403,7 +403,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.
 
 
   
@@ -442,7 +442,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.
 
 
   
@@ -801,7 +801,7 @@ Overview
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Formatter for providing message output as a fallback when no other
-profiler implements #message
+profiler implements #message.
 
 
   
@@ -873,7 +873,7 @@ profiler implements #message
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of FallbackMessageFormatter
+Returns a new instance of FallbackMessageFormatter.
 
 
   

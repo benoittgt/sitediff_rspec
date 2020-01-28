@@ -96,11 +96,11 @@ A Ruby predicate is a method that ends with a "?" and returns true or false.
 Common examples are empty?empty?, nil?nil?, and instance_of?instance_of?.A Ruby predicate is a method that ends with a "?" and returns true or false.
 Common examples are empty?, nil?, and instance_of?.
 
-All you need to do is write expect(..).to be_expect(..).to be_ followed by the predicate
+All you need to do is write expect(..).to be_ followed by the predicate
 without the question mark, and RSpec will figure it out from there.
-For example:All you need to do is write expect(..).to be_ followed by the predicate
+For example:.All you need to do is write expect(..).to be_ followed by the predicate
 without the question mark, and RSpec will figure it out from there.
-For example:
+For example:.
 
 expectexpect(([[]]))..toto be_emptybe_empty     # => [].empty?() | passes
 # => [].empty?() | passes
@@ -112,9 +112,9 @@ expect([]).to be_empty     # => [].empty?() | passes
 expect([]).not_to be_empty # => [].empty?() | fails
 
 
-In addtion to prefixing the predicate matchers with "be", you can also use "be_a", you can also use "be_a"
-and "beanan", making your specs read much more naturally:In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
-and "bean", making your specs read much more naturally:
+In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
+and "bean", making your specs read much more naturally:.In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
+and "bean", making your specs read much more naturally:.
 
 expectexpect((""a stringa string"""a string"))..toto be_an_instance_ofbe_an_instance_of((StringString)) # =>"a string".instance_of?(String) # passes
 # =>"a string".instance_of?(String) # passes
@@ -141,11 +141,11 @@ expect(3).to be_an_instance_of(Integer)     # => 3.instance_of?(Integer) | passe
 expect(3).not_to be_an_instance_of(Numeric) # => 3.instance_of?(Numeric) | fails
 
 
-RSpec will also create custom matchers for predicates like has_key?has_key?. To
+RSpec will also create custom matchers for predicates like has_key?. To
 use this feature, just state that the object should have_key(:key) and RSpec will
-call has_key?(:key) on the target. For example:RSpec will also create custom matchers for predicates like has_key?. To
+call has_key?(:key) on the target. For example:.RSpec will also create custom matchers for predicates like has_key?. To
 use this feature, just state that the object should have_key(:key) and RSpec will
-call has_key?(:key) on the target. For example:
+call has_key?(:key) on the target. For example:.
 
 expectexpect((:a:a =>=> ""AA"""A"))..toto have_keyhave_key((:a:a))
 expectexpect((:a:a =>=> ""AA"""A"))..toto have_keyhave_key((:b:b)) # fails
@@ -161,8 +161,8 @@ part of the Ruby libraries (like Hash#has_key?Hash#has_key?) or a method you wro
 part of the Ruby libraries (like Hash#has_key?) or a method you wrote on your own class.
 
 Note that RSpec does not provide composable aliases for these dynamic predicate
-matchers. You can easily define your own aliases, though:Note that RSpec does not provide composable aliases for these dynamic predicate
-matchers. You can easily define your own aliases, though:
+matchers. You can easily define your own aliases, though:.Note that RSpec does not provide composable aliases for these dynamic predicate
+matchers. You can easily define your own aliases, though:.
 
 RSpecRSpec::::MatchersMatchers..alias_matcheralias_matcher :a_user_who_is_an_admin:a_user_who_is_an_admin,, :be_an_admin:be_an_admin
 expectexpect((user_listuser_list))..toto includeinclude((a_user_who_is_an_admina_user_who_is_an_admin))
@@ -178,7 +178,7 @@ With Matchers.alias_matcher, you can easily create an
 alternate name for a given matcher.With Matchers.alias_matcher, you can easily create an
 alternate name for a given matcher.
 
-The description will also change according to the new name:The description will also change according to the new name:
+The description will also change according to the new name:.The description will also change according to the new name:.
 
 RSpecRSpec::::MatchersMatchers..alias_matcheralias_matcher :a_list_that_sums_to:a_list_that_sums_to,, :sum_to:sum_to
 sum_tosum_to((33))..descriptiondescription # => "sum to 3"
@@ -193,7 +193,7 @@ sum_to(3).description # => "sum to 3"
 a_list_that_sums_to(3).description # => "a list that sums to 3"
 
 
-or you can specify a custom description like this:or you can specify a custom description like this:
+or you can specify a custom description like this:.or you can specify a custom description like this:.
 
 RSpecRSpec::::MatchersMatchers..alias_matcheralias_matcher :a_list_sorted_by:a_list_sorted_by,, :be_sorted_by:be_sorted_by dodo ||descriptiondescription||
   descriptiondescription..subsub((""be sorted bybe sorted by"""be sorted by",, ""a list sorted bya list sorted by"""a list sorted by"))
@@ -229,30 +229,30 @@ Matcher DSLMatcher DSL
 
 Imagine that you are writing a game in which players can be in various
 zones on a virtual board. To specify that bob should be in zone 4, you
-could say:Imagine that you are writing a game in which players can be in various
+could say:.Imagine that you are writing a game in which players can be in various
 zones on a virtual board. To specify that bob should be in zone 4, you
-could say:
+could say:.
 
 expectexpect((bobbob..current_zonecurrent_zone))..toto eqleql((ZoneZone..newnew((""44"""4"))))
 expect(bob.current_zone).to eql(Zone.new("4"))
 expect(bob.current_zone).to eql(Zone.new("4"))
 
 
-But you might find it more expressive to say:But you might find it more expressive to say:
+But you might find it more expressive to say:.But you might find it more expressive to say:.
 
 expectexpect((bobbob))..toto be_in_zonebe_in_zone((""44"""4"))
 expect(bob).to be_in_zone("4")
 expect(bob).to be_in_zone("4")
 
 
-and/orand/or
+and/or.and/or.
 
 expectexpect((bobbob))..not_tonot_to be_in_zonebe_in_zone((""33"""3"))
 expect(bob).not_to be_in_zone("3")
 expect(bob).not_to be_in_zone("3")
 
 
-You can create such a matcher like so:You can create such a matcher like so:
+You can create such a matcher like so:.You can create such a matcher like so:.
 
 RSpecRSpec::::MatchersMatchers..definedefine :be_in_zone:be_in_zone dodo ||zonezone||
   matchmatch dodo ||playerplayer||
@@ -271,11 +271,11 @@ RSpec::Matchers.define :be_in_zone do |zone|
 end
 
 
-This will generate a be_in_zonebe_in_zone method that returns a matcher
+This will generate a be_in_zone method that returns a matcher
 with logical default messages for failures. You can override the failure
-messages and the generated description as follows:This will generate a be_in_zone method that returns a matcher
+messages and the generated description as follows:.This will generate a be_in_zone method that returns a matcher
 with logical default messages for failures. You can override the failure
-messages and the generated description as follows:
+messages and the generated description as follows:.
 
 RSpecRSpec::::MatchersMatchers..definedefine :be_in_zone:be_in_zone dodo ||zonezone||
   matchmatch dodo ||playerplayer||
@@ -345,7 +345,7 @@ receiver of expect(..) or expect(..).not_to).
 
 Custom Matcher from scratchCustom Matcher from scratch
 
-You could also write a custom matcher from scratch, as follows:You could also write a custom matcher from scratch, as follows:
+You could also write a custom matcher from scratch, as follows:.You could also write a custom matcher from scratch, as follows:.
 
 classclass BeInZoneBeInZone
   defdef initializeinitialize((expectedexpected))
@@ -403,7 +403,7 @@ class BeInZone
 end
 
 
-... and a method like this:... and a method like this:
+... and a method like this:.... and a method like this:.
 
 defdef be_in_zonebe_in_zone((expectedexpected))
   BeInZoneBeInZone..newnew((expectedexpected))
@@ -418,9 +418,9 @@ end
 
 And then expose the method to your specs. This is normally done
 by including the method and the class in a module, which is then
-included in your spec:And then expose the method to your specs. This is normally done
+included in your spec:.And then expose the method to your specs. This is normally done
 by including the method and the class in a module, which is then
-included in your spec:
+included in your spec:.
 
 modulemodule CustomGameMatchersCustomGameMatchers
   classclass BeInZoneBeInZone
@@ -469,9 +469,9 @@ describe "Player behaviour" do
 end
 
 
-or you can include in globally in a spec_helper.rb file requirerequired
-from your spec file(s):or you can include in globally in a spec_helper.rb file required
-from your spec file(s):
+or you can include in globally in a spec_helper.rb file required
+from your spec file(s):.or you can include in globally in a spec_helper.rb file required
+from your spec file(s):.
 
 RSpecRSpec::::configureconfigure dodo ||configconfig||
   configconfig..includeinclude((CustomGameMatchersCustomGameMatchers))
@@ -486,7 +486,7 @@ end
 
 Making custom matchers composableMaking custom matchers composable
 
-RSpec's built-in matchers are designed to be composed, in expressions like:RSpec's built-in matchers are designed to be composed, in expressions like:
+RSpec's built-in matchers are designed to be composed, in expressions like:.RSpec's built-in matchers are designed to be composed, in expressions like:.
 
 expectexpect(([[""barnbarn"""barn",, 2.452.45]]))..toto contain_exactlycontain_exactly((
   a_value_withina_value_within((0.10.1))..ofof((2.52.5)),,
@@ -539,8 +539,8 @@ using Matchers.alias_matcher.
 Negated MatchersNegated Matchers
 
 Sometimes if you want to test for the opposite using a more descriptive name
-instead of using not_tonot_to, you can use Matchers.define_negated_matcher:Sometimes if you want to test for the opposite using a more descriptive name
-instead of using not_to, you can use Matchers.define_negated_matcher:
+instead of using not_to, you can use Matchers.define_negated_matcher:.Sometimes if you want to test for the opposite using a more descriptive name
+instead of using not_to, you can use Matchers.define_negated_matcher:.
 
 RSpecRSpec::::MatchersMatchers..define_negated_matcherdefine_negated_matcher :exclude:exclude,, :include:include
 includeinclude((11,, 22))..descriptiondescription # => "include 1 and 2"
@@ -582,14 +582,14 @@ Common examples are empty?, nil?, and instance_of?.
 
 All you need to do is write expect(..).to be_ followed by the predicate
 without the question mark, and RSpec will figure it out from there.
-For example:
+For example:.
 
 expect([]).to be_empty     # => [].empty?() | passes
 expect([]).not_to be_empty # => [].empty?() | fails
 
 
 In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
-and "bean", making your specs read much more naturally:
+and "bean", making your specs read much more naturally:.
 
 expect("a string").to be_an_instance_of(String) # =>"a string".instance_of?(String) # passes
 
@@ -601,7 +601,7 @@ expect(3).not_to be_an_instance_of(Numeric) # => 3.instance_of?(Numeric) | fails
 
 RSpec will also create custom matchers for predicates like has_key?. To
 use this feature, just state that the object should have_key(:key) and RSpec will
-call has_key?(:key) on the target. For example:
+call has_key?(:key) on the target. For example:.
 
 expect(:a => "A").to have_key(:a)
 expect(:a => "A").to have_key(:b) # fails
@@ -611,7 +611,7 @@ You can use this feature to invoke any predicate that begins with "has_", whethe
 part of the Ruby libraries (like Hash#has_key?) or a method you wrote on your own class.
 
 Note that RSpec does not provide composable aliases for these dynamic predicate
-matchers. You can easily define your own aliases, though:
+matchers. You can easily define your own aliases, though:.
 
 RSpec::Matchers.alias_matcher :a_user_who_is_an_admin, :be_an_admin
 expect(user_list).to include(a_user_who_is_an_admin)
@@ -622,14 +622,14 @@ Alias Matchers
 With Matchers.alias_matcher, you can easily create an
 alternate name for a given matcher.
 
-The description will also change according to the new name:
+The description will also change according to the new name:.
 
 RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
 sum_to(3).description # => "sum to 3"
 a_list_that_sums_to(3).description # => "a list that sums to 3"
 
 
-or you can specify a custom description like this:
+or you can specify a custom description like this:.
 
 RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
   description.sub("be sorted by", "a list sorted by")
@@ -649,22 +649,22 @@ Matcher DSL
 
 Imagine that you are writing a game in which players can be in various
 zones on a virtual board. To specify that bob should be in zone 4, you
-could say:
+could say:.
 
 expect(bob.current_zone).to eql(Zone.new("4"))
 
 
-But you might find it more expressive to say:
+But you might find it more expressive to say:.
 
 expect(bob).to be_in_zone("4")
 
 
-and/or
+and/or.
 
 expect(bob).not_to be_in_zone("3")
 
 
-You can create such a matcher like so:
+You can create such a matcher like so:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -675,7 +675,7 @@ end
 
 This will generate a be_in_zone method that returns a matcher
 with logical default messages for failures. You can override the failure
-messages and the generated description as follows:
+messages and the generated description as follows:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -704,7 +704,7 @@ receiver of expect(..) or expect(..).not_to).
 
 Custom Matcher from scratch
 
-You could also write a custom matcher from scratch, as follows:
+You could also write a custom matcher from scratch, as follows:.
 
 class BeInZone
   def initialize(expected)
@@ -726,7 +726,7 @@ class BeInZone
 end
 
 
-... and a method like this:
+... and a method like this:.
 
 def be_in_zone(expected)
   BeInZone.new(expected)
@@ -735,7 +735,7 @@ end
 
 And then expose the method to your specs. This is normally done
 by including the method and the class in a module, which is then
-included in your spec:
+included in your spec:.
 
 module CustomGameMatchers
   class BeInZone
@@ -754,7 +754,7 @@ end
 
 
 or you can include in globally in a spec_helper.rb file required
-from your spec file(s):
+from your spec file(s):.
 
 RSpec::configure do |config|
   config.include(CustomGameMatchers)
@@ -763,7 +763,7 @@ end
 
 Making custom matchers composable
 
-RSpec's built-in matchers are designed to be composed, in expressions like:
+RSpec's built-in matchers are designed to be composed, in expressions like:.
 
 expect(["barn", 2.45]).to contain_exactly(
   a_value_within(0.1).of(2.5),
@@ -793,7 +793,7 @@ using Matchers.alias_matcher.
 Negated Matchers
 
 Sometimes if you want to test for the opposite using a more descriptive name
-instead of using not_to, you can use Matchers.define_negated_matcher:
+instead of using not_to, you can use Matchers.define_negated_matcher:.
 
 RSpec::Matchers.define_negated_matcher :exclude, :include
 include(1, 2).description # => "include 1 and 2"
@@ -825,14 +825,14 @@ Common examples are empty?, nil?, and instance_of?.
 
 All you need to do is write expect(..).to be_ followed by the predicate
 without the question mark, and RSpec will figure it out from there.
-For example:
+For example:.
 
 expect([]).to be_empty     # => [].empty?() | passes
 expect([]).not_to be_empty # => [].empty?() | fails
 
 
 In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
-and "bean", making your specs read much more naturally:
+and "bean", making your specs read much more naturally:.
 
 expect("a string").to be_an_instance_of(String) # =>"a string".instance_of?(String) # passes
 
@@ -844,7 +844,7 @@ expect(3).not_to be_an_instance_of(Numeric) # => 3.instance_of?(Numeric) | fails
 
 RSpec will also create custom matchers for predicates like has_key?. To
 use this feature, just state that the object should have_key(:key) and RSpec will
-call has_key?(:key) on the target. For example:
+call has_key?(:key) on the target. For example:.
 
 expect(:a => "A").to have_key(:a)
 expect(:a => "A").to have_key(:b) # fails
@@ -854,7 +854,7 @@ You can use this feature to invoke any predicate that begins with "has_", whethe
 part of the Ruby libraries (like Hash#has_key?) or a method you wrote on your own class.
 
 Note that RSpec does not provide composable aliases for these dynamic predicate
-matchers. You can easily define your own aliases, though:
+matchers. You can easily define your own aliases, though:.
 
 RSpec::Matchers.alias_matcher :a_user_who_is_an_admin, :be_an_admin
 expect(user_list).to include(a_user_who_is_an_admin)
@@ -865,14 +865,14 @@ Alias Matchers
 With Matchers.alias_matcher, you can easily create an
 alternate name for a given matcher.
 
-The description will also change according to the new name:
+The description will also change according to the new name:.
 
 RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
 sum_to(3).description # => "sum to 3"
 a_list_that_sums_to(3).description # => "a list that sums to 3"
 
 
-or you can specify a custom description like this:
+or you can specify a custom description like this:.
 
 RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
   description.sub("be sorted by", "a list sorted by")
@@ -892,22 +892,22 @@ Matcher DSL
 
 Imagine that you are writing a game in which players can be in various
 zones on a virtual board. To specify that bob should be in zone 4, you
-could say:
+could say:.
 
 expect(bob.current_zone).to eql(Zone.new("4"))
 
 
-But you might find it more expressive to say:
+But you might find it more expressive to say:.
 
 expect(bob).to be_in_zone("4")
 
 
-and/or
+and/or.
 
 expect(bob).not_to be_in_zone("3")
 
 
-You can create such a matcher like so:
+You can create such a matcher like so:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -918,7 +918,7 @@ end
 
 This will generate a be_in_zone method that returns a matcher
 with logical default messages for failures. You can override the failure
-messages and the generated description as follows:
+messages and the generated description as follows:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -947,7 +947,7 @@ receiver of expect(..) or expect(..).not_to).
 
 Custom Matcher from scratch
 
-You could also write a custom matcher from scratch, as follows:
+You could also write a custom matcher from scratch, as follows:.
 
 class BeInZone
   def initialize(expected)
@@ -969,7 +969,7 @@ class BeInZone
 end
 
 
-... and a method like this:
+... and a method like this:.
 
 def be_in_zone(expected)
   BeInZone.new(expected)
@@ -978,7 +978,7 @@ end
 
 And then expose the method to your specs. This is normally done
 by including the method and the class in a module, which is then
-included in your spec:
+included in your spec:.
 
 module CustomGameMatchers
   class BeInZone
@@ -997,7 +997,7 @@ end
 
 
 or you can include in globally in a spec_helper.rb file required
-from your spec file(s):
+from your spec file(s):.
 
 RSpec::configure do |config|
   config.include(CustomGameMatchers)
@@ -1006,7 +1006,7 @@ end
 
 Making custom matchers composable
 
-RSpec's built-in matchers are designed to be composed, in expressions like:
+RSpec's built-in matchers are designed to be composed, in expressions like:.
 
 expect(["barn", 2.45]).to contain_exactly(
   a_value_within(0.1).of(2.5),
@@ -1036,7 +1036,7 @@ using Matchers.alias_matcher.
 Negated Matchers
 
 Sometimes if you want to test for the opposite using a more descriptive name
-instead of using not_to, you can use Matchers.define_negated_matcher:
+instead of using not_to, you can use Matchers.define_negated_matcher:.
 
 RSpec::Matchers.define_negated_matcher :exclude, :include
 include(1, 2).description # => "include 1 and 2"
@@ -5836,17 +5836,17 @@ end
       
   
   
-    passes if target.kind_of?(klass)passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).passes if target.kind_of?(klass).
 
 
   
-    passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).
 
 
   
 
   
-    passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).
 
 
   
@@ -5935,7 +5935,7 @@ end
 
   
   
-    passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).
 
 
   
@@ -5967,17 +5967,17 @@ end
       
   
   
-    Passes if actual.kind_of?(expected)Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).Passes if actual.kind_of?(expected).
 
 
   
-    Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).
 
 
   
 
   
-    Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).
 
 
   
@@ -6098,7 +6098,7 @@ end
 
   
   
-    Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).
 
 
   
@@ -6140,17 +6140,17 @@ end
       
   
   
-    Passes if actual.instance_of?(expected)Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).Passes if actual.instance_of?(expected).
 
 
   
-    Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).
 
 
   
 
   
-    Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).
 
 
   
@@ -6271,7 +6271,7 @@ end
 
   
   
-    Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).
 
 
   
@@ -6509,17 +6509,17 @@ end
       
   
   
-    Passes if actual is falsey (false or nil)Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).Passes if actual is falsey (false or nil).
 
 
   
-    Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).
 
 
   
 
   
-    Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).
 
 
   
@@ -6608,7 +6608,7 @@ end
 
   
   
-    Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).
 
 
   
@@ -6640,17 +6640,17 @@ end
       
   
   
-    Passes if actual is nilPasses if actual is nil
+    Passes if actual is nil.Passes if actual is nil.
 
 
   
-    Passes if actual is nil
+    Passes if actual is nil.
 
 
   
 
   
-    Passes if actual is nil
+    Passes if actual is nil.
 
 
   
@@ -6739,7 +6739,7 @@ end
 
   
   
-    Passes if actual is nil
+    Passes if actual is nil.
 
 
   
@@ -6771,17 +6771,17 @@ end
       
   
   
-    Passes if actual is truthy (anything but false or nil)Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).Passes if actual is truthy (anything but false or nil).
 
 
   
-    Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).
 
 
   
 
   
-    Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).
 
 
   
@@ -6870,7 +6870,7 @@ end
 
   
   
-    Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).
 
 
   
@@ -6902,17 +6902,17 @@ end
       
   
   
-    Passes if actual == expected +/- deltaPasses if actual == expected +/- delta
+    Passes if actual == expected +/- delta.Passes if actual == expected +/- delta.
 
 
   
-    Passes if actual == expected +/- delta
+    Passes if actual == expected +/- delta.
 
 
   
 
   
-    Passes if actual == expected +/- delta
+    Passes if actual == expected +/- delta.
 
 
   
@@ -7028,7 +7028,7 @@ end
 
   
   
-    Passes if actual == expected +/- delta
+    Passes if actual == expected +/- delta.
 
 
   
@@ -7084,8 +7084,8 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:You can chain any of the following off of the end to specify details
-about the change:
+about the change:.You can chain any of the following off of the end to specify details
+about the change:.
 
 
 fromfromfrom
@@ -7095,7 +7095,7 @@ from
 to
 
 
-or any one of:or any one of:
+or any one of:.or any one of:.
 
 
 bybyby
@@ -7107,7 +7107,7 @@ by_at_least
 by_at_most
 
 
-== Notes== Notes
+== Notes.== Notes.
 
 Evaluates receiver.messagereceiver.message or blockblock before and after it
 evaluates the block passed to expectexpect. If the value is the same
@@ -7140,14 +7140,14 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:
+about the change:.
 
 
 from
 to
 
 
-or any one of:
+or any one of:.
 
 
 by
@@ -7155,7 +7155,7 @@ by_at_least
 by_at_most
 
 
-== Notes
+== Notes.
 
 Evaluates receiver.message or block before and after it
 evaluates the block passed to expect. If the value is the same
@@ -7183,14 +7183,14 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:
+about the change:.
 
 
 from
 to
 
 
-or any one of:
+or any one of:.
 
 
 by
@@ -7198,7 +7198,7 @@ by_at_least
 by_at_most
 
 
-== Notes
+== Notes.
 
 Evaluates receiver.message or block before and after it
 evaluates the block passed to expect. If the value is the same
@@ -7663,14 +7663,14 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:
+about the change:.
 
 
 from
 to
 
 
-or any one of:
+or any one of:.
 
 
 by
@@ -7678,7 +7678,7 @@ by_at_least
 by_at_most
 
 
-== Notes
+== Notes.
 
 Evaluates receiver.message or block before and after it
 evaluates the block passed to expect. If the value is the same
@@ -8618,7 +8618,7 @@ end
       
   
   
-    Passes if actual.eql?(expected)actual.eql?(expected)Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
@@ -8626,7 +8626,7 @@ information about equality in Ruby.
 
 
   
-    Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.
@@ -8635,7 +8635,7 @@ information about equality in Ruby.
   
 
   
-    Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.
@@ -8754,7 +8754,7 @@ end
 
   
   
-    Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.
@@ -8979,17 +8979,17 @@ end
       
   
   
-    Passes if actual.exist?actual.exist? or actual.exists?actual.exists?Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.Passes if actual.exist? or actual.exists?.
 
 
   
-    Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.
 
 
   
 
   
-    Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.
 
 
   
@@ -9100,7 +9100,7 @@ end
 
   
   
-    Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.
 
 
   
@@ -10760,11 +10760,11 @@ end
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matchedWith no args, matches if any error is raised.
+Pass an optional block to perform extra verifications on the exception matched.With no args, matches if any error is raised.
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -10772,7 +10772,7 @@ Pass an optional block to perform extra verifications on the exception matched
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -10782,7 +10782,7 @@ Pass an optional block to perform extra verifications on the exception matched
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -10927,7 +10927,7 @@ end
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -11139,17 +11139,17 @@ end
       
   
   
-    :nocov::nocov:
+    :nocov:.:nocov:.
 
 
   
-    :nocov:
+    :nocov:.
 
 
   
 
   
-    :nocov:
+    :nocov:.
 
 
   
@@ -11292,7 +11292,7 @@ end
 
   
   
-    :nocov:
+    :nocov:.
 
 
   
@@ -13357,7 +13357,7 @@ end
       
   
   
-    passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).
 
 
   
@@ -13389,7 +13389,7 @@ end
       
   
   
-    Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).
 
 
   
@@ -13431,7 +13431,7 @@ end
       
   
   
-    Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).
 
 
   
@@ -13520,7 +13520,7 @@ end
       
   
   
-    Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).
 
 
   
@@ -13552,7 +13552,7 @@ end
       
   
   
-    Passes if actual is nil
+    Passes if actual is nil.
 
 
   
@@ -13584,7 +13584,7 @@ end
       
   
   
-    Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).
 
 
   
@@ -13616,7 +13616,7 @@ end
       
   
   
-    Passes if actual == expected +/- delta
+    Passes if actual == expected +/- delta.
 
 
   
@@ -13668,14 +13668,14 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:
+about the change:.
 
 
 from
 to
 
 
-or any one of:
+or any one of:.
 
 
 by
@@ -13683,7 +13683,7 @@ by_at_least
 by_at_most
 
 
-== Notes
+== Notes.
 
 Evaluates receiver.message or block before and after it
 evaluates the block passed to expect. If the value is the same
@@ -14004,7 +14004,7 @@ end
       
   
   
-    Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.
@@ -14092,7 +14092,7 @@ end
       
   
   
-    Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.
 
 
   
@@ -14503,7 +14503,7 @@ end
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -14590,7 +14590,7 @@ end
       
   
   
-    :nocov:
+    :nocov:.
 
 
   
@@ -15088,14 +15088,14 @@ Common examples are empty?, nil?, and instance_of?.
 
 All you need to do is write expect(..).to be_ followed by the predicate
 without the question mark, and RSpec will figure it out from there.
-For example:
+For example:.
 
 expect([]).to be_empty     # => [].empty?() | passes
 expect([]).not_to be_empty # => [].empty?() | fails
 
 
 In addtion to prefixing the predicate matchers with "be", you can also use "be_a"
-and "bean", making your specs read much more naturally:
+and "bean", making your specs read much more naturally:.
 
 expect("a string").to be_an_instance_of(String) # =>"a string".instance_of?(String) # passes
 
@@ -15107,7 +15107,7 @@ expect(3).not_to be_an_instance_of(Numeric) # => 3.instance_of?(Numeric) | fails
 
 RSpec will also create custom matchers for predicates like has_key?. To
 use this feature, just state that the object should have_key(:key) and RSpec will
-call has_key?(:key) on the target. For example:
+call has_key?(:key) on the target. For example:.
 
 expect(:a => "A").to have_key(:a)
 expect(:a => "A").to have_key(:b) # fails
@@ -15117,7 +15117,7 @@ You can use this feature to invoke any predicate that begins with "has_", whethe
 part of the Ruby libraries (like Hash#has_key?) or a method you wrote on your own class.
 
 Note that RSpec does not provide composable aliases for these dynamic predicate
-matchers. You can easily define your own aliases, though:
+matchers. You can easily define your own aliases, though:.
 
 RSpec::Matchers.alias_matcher :a_user_who_is_an_admin, :be_an_admin
 expect(user_list).to include(a_user_who_is_an_admin)
@@ -15128,14 +15128,14 @@ Alias Matchers
 With Matchers.alias_matcher, you can easily create an
 alternate name for a given matcher.
 
-The description will also change according to the new name:
+The description will also change according to the new name:.
 
 RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
 sum_to(3).description # => "sum to 3"
 a_list_that_sums_to(3).description # => "a list that sums to 3"
 
 
-or you can specify a custom description like this:
+or you can specify a custom description like this:.
 
 RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
   description.sub("be sorted by", "a list sorted by")
@@ -15155,22 +15155,22 @@ Matcher DSL
 
 Imagine that you are writing a game in which players can be in various
 zones on a virtual board. To specify that bob should be in zone 4, you
-could say:
+could say:.
 
 expect(bob.current_zone).to eql(Zone.new("4"))
 
 
-But you might find it more expressive to say:
+But you might find it more expressive to say:.
 
 expect(bob).to be_in_zone("4")
 
 
-and/or
+and/or.
 
 expect(bob).not_to be_in_zone("3")
 
 
-You can create such a matcher like so:
+You can create such a matcher like so:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -15181,7 +15181,7 @@ end
 
 This will generate a be_in_zone method that returns a matcher
 with logical default messages for failures. You can override the failure
-messages and the generated description as follows:
+messages and the generated description as follows:.
 
 RSpec::Matchers.define :be_in_zone do |zone|
   match do |player|
@@ -15210,7 +15210,7 @@ receiver of expect(..) or expect(..).not_to).
 
 Custom Matcher from scratch
 
-You could also write a custom matcher from scratch, as follows:
+You could also write a custom matcher from scratch, as follows:.
 
 class BeInZone
   def initialize(expected)
@@ -15232,7 +15232,7 @@ class BeInZone
 end
 
 
-... and a method like this:
+... and a method like this:.
 
 def be_in_zone(expected)
   BeInZone.new(expected)
@@ -15241,7 +15241,7 @@ end
 
 And then expose the method to your specs. This is normally done
 by including the method and the class in a module, which is then
-included in your spec:
+included in your spec:.
 
 module CustomGameMatchers
   class BeInZone
@@ -15260,7 +15260,7 @@ end
 
 
 or you can include in globally in a spec_helper.rb file required
-from your spec file(s):
+from your spec file(s):.
 
 RSpec::configure do |config|
   config.include(CustomGameMatchers)
@@ -15269,7 +15269,7 @@ end
 
 Making custom matchers composable
 
-RSpec's built-in matchers are designed to be composed, in expressions like:
+RSpec's built-in matchers are designed to be composed, in expressions like:.
 
 expect(["barn", 2.45]).to contain_exactly(
   a_value_within(0.1).of(2.5),
@@ -15299,7 +15299,7 @@ using Matchers.alias_matcher.
 Negated Matchers
 
 Sometimes if you want to test for the opposite using a more descriptive name
-instead of using not_to, you can use Matchers.define_negated_matcher:
+instead of using not_to, you can use Matchers.define_negated_matcher:.
 
 RSpec::Matchers.define_negated_matcher :exclude, :include
 include(1, 2).description # => "include 1 and 2"
@@ -16622,7 +16622,7 @@ end
       
   
   
-    passes if target.kind_of?(klass)
+    passes if target.kind_of?(klass).
 
 
   
@@ -16654,7 +16654,7 @@ end
       
   
   
-    Passes if actual.kind_of?(expected)
+    Passes if actual.kind_of?(expected).
 
 
   
@@ -16696,7 +16696,7 @@ end
       
   
   
-    Passes if actual.instance_of?(expected)
+    Passes if actual.instance_of?(expected).
 
 
   
@@ -16785,7 +16785,7 @@ end
       
   
   
-    Passes if actual is falsey (false or nil)
+    Passes if actual is falsey (false or nil).
 
 
   
@@ -16817,7 +16817,7 @@ end
       
   
   
-    Passes if actual is nil
+    Passes if actual is nil.
 
 
   
@@ -16849,7 +16849,7 @@ end
       
   
   
-    Passes if actual is truthy (anything but false or nil)
+    Passes if actual is truthy (anything but false or nil).
 
 
   
@@ -16881,7 +16881,7 @@ end
       
   
   
-    Passes if actual == expected +/- delta
+    Passes if actual == expected +/- delta.
 
 
   
@@ -16933,14 +16933,14 @@ do/end, as { ... } binds to the change method, whereas do/end
 would errantly bind to the expect(..).to or expect(...).not_to method.
 
 You can chain any of the following off of the end to specify details
-about the change:
+about the change:.
 
 
 from
 to
 
 
-or any one of:
+or any one of:.
 
 
 by
@@ -16948,7 +16948,7 @@ by_at_least
 by_at_most
 
 
-== Notes
+== Notes.
 
 Evaluates receiver.message or block before and after it
 evaluates the block passed to expect. If the value is the same
@@ -17269,7 +17269,7 @@ end
       
   
   
-    Passes if actual.eql?(expected)
+    Passes if actual.eql?(expected).
 
 See http://www.ruby-doc.org/core/classes/Object.html#M001057 for more
 information about equality in Ruby.
@@ -17357,7 +17357,7 @@ end
       
   
   
-    Passes if actual.exist? or actual.exists?
+    Passes if actual.exist? or actual.exists?.
 
 
   
@@ -17768,7 +17768,7 @@ end
 With a named error, matches only if that specific error is raised.
 With a named error and messsage specified as a String, matches only if both match.
 With a named error and messsage specified as a Regexp, matches only if both match.
-Pass an optional block to perform extra verifications on the exception matched
+Pass an optional block to perform extra verifications on the exception matched.
 
 
   
@@ -17855,7 +17855,7 @@ end
       
   
   
-    :nocov:
+    :nocov:.
 
 
   

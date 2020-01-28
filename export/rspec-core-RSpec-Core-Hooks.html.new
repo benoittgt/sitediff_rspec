@@ -437,13 +437,13 @@ after blocks are run.
 
 OrderOrder
 
-afterafter hooks are stored in three scopes, which are run in order:
-:example:example, :context:context, and :suite:suite. They can also be declared in
-several different places: RSpec.configureRSpec.configure, a parent group, the current
-group. They are run in the following order:after hooks are stored in three scopes, which are run in order:
+after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:.
 
 afterafter((:example:example)) # Declared in the current group.
 # Declared in the current group.
@@ -517,7 +517,7 @@ Order
 after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 after(:example) # Declared in the current group.
 after(:example) # Declared in a parent group.
@@ -569,7 +569,7 @@ Order
 after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 after(:example) # Declared in the current group.
 after(:example) # Declared in a parent group.
@@ -1507,7 +1507,7 @@ Order
 after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 after(:example) # Declared in the current group.
 after(:example) # Declared in a parent group.
@@ -1891,8 +1891,8 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:.
 
 aroundaround((:example:example)) dodo ||exex||
   # Do some stuff before.
@@ -1959,7 +1959,7 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.
 
 around(:example) do |ex|
   # Do some stuff before.
@@ -2008,7 +2008,7 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.
 
 around(:example) do |ex|
   # Do some stuff before.
@@ -2974,7 +2974,7 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.
 
 around(:example) do |ex|
   # Do some stuff before.
@@ -3230,13 +3230,13 @@ are accessible within each example.
 
 OrderOrder
 
-beforebefore hooks are stored in three scopes, which are run in order:
-:suite:suite, :context:context, and :example:example. They can also be declared in
-several different places: RSpec.configureRSpec.configure, a parent group, the current
-group. They are run in the following order:before hooks are stored in three scopes, which are run in order:
+before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:.
 
 beforebefore((:suite:suite))    # Declared in RSpec.configure.
 # Declared in RSpec.configure.
@@ -3414,9 +3414,9 @@ Unsupported RSpec constructsUnsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context)before(:context):RSpec has several constructs that reset state between each example
+before(:context):.RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 letlet declarationslet declarations
@@ -3482,7 +3482,7 @@ Order
 before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 before(:suite)    # Declared in RSpec.configure.
 before(:context)  # Declared in RSpec.configure.
@@ -3574,7 +3574,7 @@ Unsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 let declarations
@@ -3631,7 +3631,7 @@ Order
 before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 before(:suite)    # Declared in RSpec.configure.
 before(:context)  # Declared in RSpec.configure.
@@ -3723,7 +3723,7 @@ Unsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 let declarations
@@ -4850,7 +4850,7 @@ Order
 before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 before(:suite)    # Declared in RSpec.configure.
 before(:context)  # Declared in RSpec.configure.
@@ -4942,7 +4942,7 @@ Unsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 let declarations
@@ -5362,7 +5362,7 @@ Order
 after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 after(:example) # Declared in the current group.
 after(:example) # Declared in a parent group.
@@ -5609,7 +5609,7 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.
 
 around(:example) do |ex|
   # Do some stuff before.
@@ -5844,7 +5844,7 @@ Order
 before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 before(:suite)    # Declared in RSpec.configure.
 before(:context)  # Declared in RSpec.configure.
@@ -5936,7 +5936,7 @@ Unsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 let declarations
@@ -6398,7 +6398,7 @@ Order
 after hooks are stored in three scopes, which are run in order:
 :example, :context, and :suite. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 after(:example) # Declared in the current group.
 after(:example) # Declared in a parent group.
@@ -6645,7 +6645,7 @@ associated before and after hooks.
   
 
 Declare a block of code, parts of which will be run before and parts
-after the example. It is your responsibility to run the example:
+after the example. It is your responsibility to run the example:.
 
 around(:example) do |ex|
   # Do some stuff before.
@@ -6880,7 +6880,7 @@ Order
 before hooks are stored in three scopes, which are run in order:
 :suite, :context, and :example. They can also be declared in
 several different places: RSpec.configure, a parent group, the current
-group. They are run in the following order:
+group. They are run in the following order:.
 
 before(:suite)    # Declared in RSpec.configure.
 before(:context)  # Declared in RSpec.configure.
@@ -6972,7 +6972,7 @@ Unsupported RSpec constructs
 
 RSpec has several constructs that reset state between each example
 automatically. These are not intended for use from within
-before(:context):
+before(:context):.
 
 
 let declarations

@@ -239,13 +239,13 @@ Marks an example as pending and skips execution.
     
   
     Note:Note:
-    before(:example)before(:example) hooks are eval'd when you use the pendingpending
-method within an example. If you want to declare an example pendingpending
-and bypass the beforebefore hooks as well, you can pass :pending => true:pending => true
-to the itit method:before(:example) hooks are eval'd when you use the pending
+    before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.before(:example) hooks are eval'd when you use the pending
+method within an example. If you want to declare an example pending
+and bypass the before hooks as well, you can pass :pending => true
+to the it method:.
 
 itit ""does somethingdoes something"""does something",, :pending:pending =>=> truetrue dodo
   # ...
@@ -259,9 +259,9 @@ it "does something", :pending => true do
 end
 
 
-or pass :pending => "something else getting finished":pending => "something else getting finished" to add a
-message to the summary report:or pass :pending => "something else getting finished" to add a
-message to the summary report:
+or pass :pending => "something else getting finished" to add a
+message to the summary report:.or pass :pending => "something else getting finished" to add a
+message to the summary report:.
 
 itit ""does somethingdoes something"""does something",, :pending:pending =>=> ""something else getting finishedsomething else getting finished"""something else getting finished" dodo
   # ...
@@ -277,7 +277,7 @@ end
 before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -285,7 +285,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -297,7 +297,7 @@ end
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -305,7 +305,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -328,7 +328,7 @@ pending can be removed.
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -336,7 +336,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -359,7 +359,7 @@ pending can be removed.
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -367,7 +367,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -900,7 +900,7 @@ end
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -908,7 +908,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -1478,7 +1478,7 @@ end
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -1486,7 +1486,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...
@@ -1828,7 +1828,7 @@ Defined Under Namespace
     before(:example) hooks are eval'd when you use the pending
 method within an example. If you want to declare an example pending
 and bypass the before hooks as well, you can pass :pending => true
-to the it method:
+to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -1836,7 +1836,7 @@ end
 
 
 or pass :pending => "something else getting finished" to add a
-message to the summary report:
+message to the summary report:.
 
 it "does something", :pending => "something else getting finished" do
   # ...

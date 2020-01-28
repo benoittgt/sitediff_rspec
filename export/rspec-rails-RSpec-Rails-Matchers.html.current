@@ -465,11 +465,11 @@ Passes if response has a matching HTTP status code.
       
   
   
-    Passes if actual is an instance of model_classmodel_class and returns truetrue for
-new_record?new_record?. Typically used to specify instance variables assigned to
-views by controller actionsPasses if actual is an instance of model_class and returns true for
+    Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions.
 
 Use the withwith method to specify the specific attributes to match on the
 new record.Use the with method to specify the specific attributes to match on the
@@ -479,7 +479,7 @@ new record.
   
     Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.
 
 Use the with method to specify the specific attributes to match on the
 new record.
@@ -490,7 +490,7 @@ new record.
   
     Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.
 
 Use the with method to specify the specific attributes to match on the
 new record.
@@ -626,7 +626,7 @@ end
   
     Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.
 
 Use the with method to specify the specific attributes to match on the
 new record.
@@ -2101,7 +2101,7 @@ end
   
     Passes if responseresponse has a matching HTTP status code.Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODERack::Utils::SYMBOL_TO_STATUS_CODERack::Utils::SYMBOL_TO_STATUS_CODE
@@ -2141,7 +2141,7 @@ One of the defined ActionDispatch::TestResponse aliases:
   
     Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODE
@@ -2161,7 +2161,7 @@ One of the defined ActionDispatch::TestResponse aliases:
   
     Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODE
@@ -2423,7 +2423,7 @@ end
   
     Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODE
@@ -2520,7 +2520,7 @@ end
   
     Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.
 
 Use the with method to specify the specific attributes to match on the
 new record.
@@ -2873,7 +2873,7 @@ end
   
     Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODE
@@ -3155,7 +3155,7 @@ Defined Under Namespace
   
     Passes if actual is an instance of model_class and returns true for
 new_record?. Typically used to specify instance variables assigned to
-views by controller actions
+views by controller actions.
 
 Use the with method to specify the specific attributes to match on the
 new record.
@@ -3508,7 +3508,7 @@ end
   
     Passes if response has a matching HTTP status code.
 
-The following symbolic status codes are allowed:
+The following symbolic status codes are allowed:.
 
 
 Rack::Utils::SYMBOL_TO_STATUS_CODE

@@ -24,7 +24,7 @@ module Utils
   WIDTH = IO.console_size[1]
 
   def get_html(base_url:, page_link:)
-    puts "🧪>> Get html for: #{base_url}/#{page_link}"
+    puts "🧪 Get html for: #{base_url}/#{page_link}"
     Nokogiri::HTML(URI.open("#{base_url}/#{page_link}"))
   end
 
@@ -207,7 +207,7 @@ class DiffPage
           #{current_web_page_file_name} #{new_web_page_file_name} > #{diff_filename}.diff
       SHELL
     )
-    puts "\n🏆>> Diff done: #{diff_filename}.diff\n"
+    puts "🏆 Diff done: #{diff_filename}.diff\n"
     system("cat #{diff_filename}.diff") if VerboseMode[:diff]
     puts
   end

@@ -111,8 +111,8 @@ Class: RSpec::Mocks::ArgumentListMatcher
 OverviewOverview
   
     Wrapper for matching arguments against a list of expected values. Used by
-the withwith method on a MessageExpectationMessageExpectation:Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:
+the with method on a MessageExpectation:.Wrapper for matching arguments against a list of expected values. Used by
+the with method on a MessageExpectation:.
 
 expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((:a:a,, ''bb'''b',, 33))
 objectobject..messagemessage((:a:a,, ''bb'''b',, 33))
@@ -159,7 +159,7 @@ This class is immutable.This class is immutable.
 
   
     Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:
+the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
@@ -189,7 +189,7 @@ This class is immutable.
 
   
     Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:
+the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
@@ -1117,7 +1117,7 @@ Class: RSpec::Mocks::ArgumentListMatcher
 Overview
   
     Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:
+the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)

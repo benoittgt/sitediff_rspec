@@ -118,22 +118,22 @@ OverviewOverview
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Normally, we evaluate the matching sequentially. For an expression like
-expect(x).to foo.and barexpect(x).to foo.and bar, this becomes:Normally, we evaluate the matching sequentially. For an expression like
-expect(x).to foo.and bar, this becomes:
+expect(x).to foo.and bar, this becomes:.Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and bar, this becomes:.
 
 expect(x).to foo
-  expect(x).to barexpect(x).to foo
-  expect(x).to bar
+  expect(x).to bar.expect(x).to foo
+  expect(x).to bar.
 
 For block expectations, we need to nest them instead, so that
-expect { x }.to foo.and barexpect { x }.to foo.and bar becomes:For block expectations, we need to nest them instead, so that
-expect { x }.to foo.and bar becomes:
+expect { x }.to foo.and bar becomes:.For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and bar becomes:.
 
 expect {
     expect { x }.to foo
-  }.to barexpect {
+  }.to bar.expect {
     expect { x }.to foo
-  }.to bar
+  }.to bar.
 
 This is necessary so that the expectexpect block is only executed once.This is necessary so that the expect block is only executed once.
 
@@ -144,17 +144,17 @@ This is necessary so that the expectexpect block is only executed once.This is n
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Normally, we evaluate the matching sequentially. For an expression like
-expect(x).to foo.and bar, this becomes:
+expect(x).to foo.and bar, this becomes:.
 
 expect(x).to foo
-  expect(x).to bar
+  expect(x).to bar.
 
 For block expectations, we need to nest them instead, so that
-expect { x }.to foo.and bar becomes:
+expect { x }.to foo.and bar becomes:.
 
 expect {
     expect { x }.to foo
-  }.to bar
+  }.to bar.
 
 This is necessary so that the expect block is only executed once.
 
@@ -167,17 +167,17 @@ This is necessary so that the expect block is only executed once.
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Normally, we evaluate the matching sequentially. For an expression like
-expect(x).to foo.and bar, this becomes:
+expect(x).to foo.and bar, this becomes:.
 
 expect(x).to foo
-  expect(x).to bar
+  expect(x).to bar.
 
 For block expectations, we need to nest them instead, so that
-expect { x }.to foo.and bar becomes:
+expect { x }.to foo.and bar becomes:.
 
 expect {
     expect { x }.to foo
-  }.to bar
+  }.to bar.
 
 This is necessary so that the expect block is only executed once.
 
@@ -327,7 +327,7 @@ A new instance of NestedEvaluator.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluatorReturns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.Returns a new instance of NestedEvaluator.
 
 
   
@@ -335,7 +335,7 @@ Returns a new instance of NestedEvaluatorReturns a new instance of NestedEvaluat
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.
 
 
   
@@ -345,7 +345,7 @@ Returns a new instance of NestedEvaluator
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.
 
 
   
@@ -528,7 +528,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.
 
 
   
@@ -585,7 +585,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.
 
 
   
@@ -1013,17 +1013,17 @@ Overview
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
 Normally, we evaluate the matching sequentially. For an expression like
-expect(x).to foo.and bar, this becomes:
+expect(x).to foo.and bar, this becomes:.
 
 expect(x).to foo
-  expect(x).to bar
+  expect(x).to bar.
 
 For block expectations, we need to nest them instead, so that
-expect { x }.to foo.and bar becomes:
+expect { x }.to foo.and bar becomes:.
 
 expect {
     expect { x }.to foo
-  }.to bar
+  }.to bar.
 
 This is necessary so that the expect block is only executed once.
 
@@ -1096,7 +1096,7 @@ This is necessary so that the expect block is only executed once.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a new instance of NestedEvaluator
+Returns a new instance of NestedEvaluator.
 
 
   

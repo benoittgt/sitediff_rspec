@@ -54,11 +54,11 @@ OverviewOverview
   
     RSpec::Expectations provides a simple, readable API to express
 the expected outcomes in a code example. To express an expected
-outcome, wrap an object or block in expectexpect, call toto or to_notto_not
-(aliased as not_tonot_to) and pass it a matcher object:RSpec::Expectations provides a simple, readable API to express
+outcome, wrap an object or block in expect, call to or to_not
+(aliased as not_to) and pass it a matcher object:.RSpec::Expectations provides a simple, readable API to express
 the expected outcomes in a code example. To express an expected
 outcome, wrap an object or block in expect, call to or to_not
-(aliased as not_to) and pass it a matcher object:
+(aliased as not_to) and pass it a matcher object:.
 
 expectexpect((orderorder..totaltotal))..toto eqeq((MoneyMoney..newnew((5.555.55,, :USD:USD))))
 expectexpect((listlist))..toto includeinclude((useruser))
@@ -82,11 +82,11 @@ that are not objects, but can only be observed when executing a block
 of code. This includes raising errors, throwing symbols, yielding,
 and changing values.
 
-When expect(...).toexpect(...).to is invoked with a matcher, it turns around
-and calls matcher.matches?(<object wrapped by expect>)matcher.matches?(<object wrapped by expect>).  For example,
-in the expression:When expect(...).to is invoked with a matcher, it turns around
+When expect(...).to is invoked with a matcher, it turns around
 and calls matcher.matches?(<object wrapped by expect>).  For example,
-in the expression:
+in the expression:.When expect(...).to is invoked with a matcher, it turns around
+and calls matcher.matches?(<object wrapped by expect>).  For example,
+in the expression:.
 
 expectexpect((orderorder..totaltotal))..toto eqeq((MoneyMoney..newnew((5.555.55,, :USD:USD))))
 expect(order.total).to eq(Money.new(5.55, :USD))
@@ -101,7 +101,7 @@ in the equivalent of eq.matches?(order.total). If matches? returns
 true, the expectation is met and execution continues. If false, then
 the spec fails with the message returned by eq.failure_message.
 
-Given the expression:Given the expression:
+Given the expression:.Given the expression:.
 
 expectexpect((orderorder..entriesentries))..not_tonot_to includeinclude((entryentry))
 expect(order.entries).not_to include(entry)
@@ -131,7 +131,7 @@ own custom matchers.
     RSpec::Expectations provides a simple, readable API to express
 the expected outcomes in a code example. To express an expected
 outcome, wrap an object or block in expect, call to or to_not
-(aliased as not_to) and pass it a matcher object:
+(aliased as not_to) and pass it a matcher object:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 expect(list).to include(user)
@@ -146,7 +146,7 @@ and changing values.
 
 When expect(...).to is invoked with a matcher, it turns around
 and calls matcher.matches?(<object wrapped by expect>).  For example,
-in the expression:
+in the expression:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 
@@ -156,7 +156,7 @@ in the equivalent of eq.matches?(order.total). If matches? returns
 true, the expectation is met and execution continues. If false, then
 the spec fails with the message returned by eq.failure_message.
 
-Given the expression:
+Given the expression:.
 
 expect(order.entries).not_to include(entry)
 
@@ -180,7 +180,7 @@ own custom matchers.
     RSpec::Expectations provides a simple, readable API to express
 the expected outcomes in a code example. To express an expected
 outcome, wrap an object or block in expect, call to or to_not
-(aliased as not_to) and pass it a matcher object:
+(aliased as not_to) and pass it a matcher object:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 expect(list).to include(user)
@@ -195,7 +195,7 @@ and changing values.
 
 When expect(...).to is invoked with a matcher, it turns around
 and calls matcher.matches?(<object wrapped by expect>).  For example,
-in the expression:
+in the expression:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 
@@ -205,7 +205,7 @@ in the equivalent of eq.matches?(order.total). If matches? returns
 true, the expectation is met and execution continues. If false, then
 the spec fails with the message returned by eq.failure_message.
 
-Given the expression:
+Given the expression:.
 
 expect(order.entries).not_to include(entry)
 
@@ -1183,7 +1183,7 @@ Overview
     RSpec::Expectations provides a simple, readable API to express
 the expected outcomes in a code example. To express an expected
 outcome, wrap an object or block in expect, call to or to_not
-(aliased as not_to) and pass it a matcher object:
+(aliased as not_to) and pass it a matcher object:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 expect(list).to include(user)
@@ -1198,7 +1198,7 @@ and changing values.
 
 When expect(...).to is invoked with a matcher, it turns around
 and calls matcher.matches?(<object wrapped by expect>).  For example,
-in the expression:
+in the expression:.
 
 expect(order.total).to eq(Money.new(5.55, :USD))
 
@@ -1208,7 +1208,7 @@ in the equivalent of eq.matches?(order.total). If matches? returns
 true, the expectation is met and execution continues. If false, then
 the spec fails with the message returned by eq.failure_message.
 
-Given the expression:
+Given the expression:.
 
 expect(order.entries).not_to include(entry)
 
