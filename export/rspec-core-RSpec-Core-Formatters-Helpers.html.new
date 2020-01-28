@@ -1,0 +1,2734 @@
+Module: RSpec::Core::Formatters::Helpers
+  
+  
+  
+Module: RSpec::Core::Formatters::Helpers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/helpers.rblib/rspec/core/formatters/helpers.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/helpers.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/helpers.rb
+  
+  
+
+
+OverviewOverview
+  
+    Formatters helpers.Formatters helpers.
+
+
+  
+    Formatters helpers.
+
+
+  
+
+  
+    Formatters helpers.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Formats seconds into a human-readable string.Formats seconds into a human-readable string.
+Formats seconds into a human-readable string.
+Formats seconds into a human-readable string.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds into a human-readable string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Given a list of example ids, organizes them into a compact, ordered list.Given a list of example ids, organizes them into a compact, ordered list.
+Given a list of example ids, organizes them into a compact, ordered list.
+Given a list of example ids, organizes them into a compact, ordered list.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Given a list of example ids, organizes them into a compact, ordered list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Pluralize a word based on a count.Pluralize a word based on a count.
+Pluralize a word based on a count.
+Pluralize a word based on a count.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Pluralize a word based on a count.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds into a human-readable string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Given a list of example ids, organizes them into a compact, ordered list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Pluralize a word based on a count.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.Formats seconds into a human-readable string.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      format_durationformat_duration((11)) #=>  "1 minute 1 second"
+#=>  "1 minute 1 second"
+format_durationformat_duration((135.14135.14)) #=> "2 minutes 15.14 seconds"#=> "2 minutes 15.14 seconds"format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+    Examples:
+    
+      
+      format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        durationduration
+      
+      
+        (FloatFloat, FixnumFixnum)(Float, Fixnum)
+      
+      
+      
+        —
+        in secondsin seconds
+in seconds
+
+      
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+  
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        human-readable timehuman-readable time
+human-readable time
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+Parameters:
+
+  
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24# File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+defdef selfself..format_durationformat_duration((durationduration))
+  precisionprecision == casecase
+              whenwhen durationduration << 11 thenthen    SUB_SECOND_PRECISIONSUB_SECOND_PRECISION
+              whenwhen durationduration << 120120 thenthen  DEFAULT_PRECISIONDEFAULT_PRECISION
+              whenwhen durationduration << 300300 thenthen  11
+              elseelse                  00
+              endend
+
+  ifif durationduration >> 6060
+    minutesminutes == ((durationduration..roundround // 6060))..to_ito_i
+    secondsseconds == ((durationduration -- minutesminutes ** 6060))
+
+    ""#{#{pluralizepluralize((minutesminutes,, ''minuteminute'''minute'))}}  #{#{pluralizepluralize((format_secondsformat_seconds((secondsseconds,, precisionprecision)),, ''secondsecond'''second'))}}"""#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  elseelse
+    pluralizepluralize((format_secondsformat_seconds((durationduration,, precisionprecision)),, ''secondsecond'''second'))
+  endend
+endend# File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+Parameters:
+
+  
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in  and
+.The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      format_secondsformat_seconds((0.0000060.000006)) #=> "0.00001"
+#=> "0.00001"
+format_secondsformat_seconds((0.0200000.020000)) #=> "0.02"
+#=> "0.02"
+format_secondsformat_seconds((1.000000000011.00000000001)) #=> "1"#=> "1"format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+    Examples:
+    
+      
+      format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        floatfloat
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        formatted floatformatted float
+formatted float
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #strip_trailing_zeroes#strip_trailing_zeroes
+    
+  
+    
+      #strip_trailing_zeroes
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+Parameters:
+
+  
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #strip_trailing_zeroes
+    
+  
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+
+
+60
+61
+62
+63
+64
+65
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60# File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+defdef selfself..format_secondsformat_seconds((floatfloat,, precisionprecision==nilnil))
+  returnreturn ''00'''0' ifif floatfloat << 00
+  precisionprecision ||=||= ((floatfloat << 11)) ?? SUB_SECOND_PRECISIONSUB_SECOND_PRECISION :: DEFAULT_PRECISIONDEFAULT_PRECISION
+  formattedformatted == ""%.%.#{#{precisionprecision}}ff"""%.#{precision}f" %% floatfloat
+  strip_trailing_zeroesstrip_trailing_zeroes((formattedformatted))
+endend# File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+Parameters:
+
+  
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #strip_trailing_zeroes
+    
+  
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94# File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+defdef selfself..organize_idsorganize_ids((idsids))
+  groupedgrouped == idsids..injectinject((HashHash..newnew {{ ||hh,, kk|| hh[[kk]] == [[]] }})) dodo ||hashhash,, idid||
+    filefile,, idid == ExampleExample..parse_idparse_id((idid))
+    hashhash[[filefile]] <<<< idid
+    hashhash
+  endend
+
+  groupedgrouped..sort_bysort_by((&&:first:first))..mapmap dodo ||filefile,, grouped_idsgrouped_ids||
+    grouped_idsgrouped_ids == grouped_idsgrouped_ids..sort_bysort_by {{ ||idid|| idid..splitsplit((''::''':'))..mapmap((&&:to_i:to_i)) }}
+    idid == MetadataMetadata..id_fromid_from((:rerun_file_path:rerun_file_path =>=> filefile,, :scoped_id:scoped_id =>=> grouped_idsgrouped_ids..joinjoin(('',,''','))))
+    ShellEscapeShellEscape..conditionally_quoteconditionally_quote((idid))
+  endend
+endend# File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.Pluralize a word based on a count.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        countcount
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        number of objectsnumber of objects
+number of objects
+
+      
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        stringstring
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        word to be pluralizedword to be pluralized
+word to be pluralized
+
+      
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+  
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        pluralized wordpluralized word
+pluralized word
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+88
+89
+90
+
+
+88
+89
+90
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88# File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+defdef selfself..pluralizepluralize((countcount,, stringstring))
+  ""#{#{countcount}}  #{#{stringstring}}#{#{''ss'''s' unlessunless countcount..to_fto_f ==== 11}}"""#{count} #{string}#{'s' unless count.to_f == 1}"
+endend# File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+
+  
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+Parameters:
+
+  
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+Parameters:
+
+  
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #strip_trailing_zeroes
+    
+  
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::Formatters::Helpers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/helpers.rb
+  
+  
+
+
+Overview
+  
+    Formatters helpers.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds into a human-readable string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Given a list of example ids, organizes them into a compact, ordered list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Pluralize a word based on a count.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds into a human-readable string.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_duration(1) #=>  "1 minute 1 second"
+format_duration(135.14) #=> "2 minutes 15.14 seconds"
+    
+  
+Parameters:
+
+  
+    
+      
+        duration
+      
+      
+        (Float, Fixnum)
+      
+      
+      
+        —
+        in seconds
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        human-readable time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 24
+
+def self.format_duration(duration)
+  precision = case
+              when duration < 1 then    SUB_SECOND_PRECISION
+              when duration < 120 then  DEFAULT_PRECISION
+              when duration < 300 then  1
+              else                  0
+              end
+
+  if duration > 60
+    minutes = (duration.round / 60).to_i
+    seconds = (duration - minutes * 60)
+
+    "#{pluralize(minutes, 'minute')} #{pluralize(format_seconds(seconds, precision), 'second')}"
+  else
+    pluralize(format_seconds(duration, precision), 'second')
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Formats seconds to have 5 digits of precision with trailing zeros
+removed if the number is less than 1 or with 2 digits of precision if
+the number is greater than zero.
+
+The precision used is set in SUB_SECOND_PRECISION and
+DEFAULT_PRECISION.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      format_seconds(0.000006) #=> "0.00001"
+format_seconds(0.020000) #=> "0.02"
+format_seconds(1.00000000001) #=> "1"
+    
+  
+Parameters:
+
+  
+    
+      
+        float
+      
+      
+        (Float)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        formatted float
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #strip_trailing_zeroes
+    
+  
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+65
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 60
+
+def self.format_seconds(float, precision=nil)
+  return '0' if float < 0
+  precision ||= (float < 1) ? SUB_SECOND_PRECISION : DEFAULT_PRECISION
+  formatted = "%.#{precision}f" % float
+  strip_trailing_zeroes(formatted)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Given a list of example ids, organizes them into a compact, ordered list.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 94
+
+def self.organize_ids(ids)
+  grouped = ids.inject(Hash.new { |h, k| h[k] = [] }) do |hash, id|
+    file, id = Example.parse_id(id)
+    hash[file] << id
+    hash
+  end
+
+  grouped.sort_by(&:first).map do |file, grouped_ids|
+    grouped_ids = grouped_ids.sort_by { |id| id.split(':').map(&:to_i) }
+    id = Metadata.id_from(:rerun_file_path => file, :scoped_id => grouped_ids.join(','))
+    ShellEscape.conditionally_quote(id)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Pluralize a word based on a count.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        count
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        number of objects
+
+      
+    
+  
+    
+      
+        string
+      
+      
+        (String)
+      
+      
+      
+        —
+        word to be pluralized
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        pluralized word
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+88
+89
+90
+    
+    
+      # File 'lib/rspec/core/formatters/helpers.rb', line 88
+
+def self.pluralize(count, string)
+  "#{count} #{string}#{'s' unless count.to_f == 1}"
+end
+    
+  
+
+
+    
+  
+

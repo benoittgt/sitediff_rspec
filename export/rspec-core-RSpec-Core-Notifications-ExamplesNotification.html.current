@@ -1,0 +1,3768 @@
+Class: RSpec::Core::Notifications::ExamplesNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::ExamplesNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Notifications::ExamplesNotificationRSpec::Core::Notifications::ExamplesNotification
+          
+        
+          Object
+          
+            RSpec::Core::Notifications::ExamplesNotification
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ExamplesNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ExamplesNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ExamplesNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    The ExamplesNotificationExamplesNotification represents notifications sent by the reporter
+which contain information about the suites examples.The ExamplesNotification represents notifications sent by the reporter
+which contain information about the suites examples.
+
+
+  
+    The ExamplesNotification represents notifications sent by the reporter
+which contain information about the suites examples.
+
+
+  
+
+  
+    The ExamplesNotification represents notifications sent by the reporter
+which contain information about the suites examples.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      defdef stopstop((notificationnotification))
+  putsputs ""Hey I ran Hey I ran #{#{notificationnotification..examplesexamples..sizesize}}"""Hey I ran #{notification.examples.size}"
+endenddef stop(notification)
+  puts "Hey I ran #{notification.examples.size}"
+enddef stop(notification)
+  puts "Hey I ran #{notification.examples.size}"
+end
+    
+  
+    Examples:
+    
+      
+      def stop(notification)
+  puts "Hey I ran #{notification.examples.size}"
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      def stop(notification)
+  puts "Hey I ran #{notification.examples.size}"
+end
+    
+  
+
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of examples.List of examples.
+List of examples.
+List of examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of failed examples.List of failed examples.
+List of failed examples.
+List of failed examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns failed examples as notifications.Returns failed examples as notifications.
+Returns failed examples as notifications.
+Returns failed examples as notifications.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns failed examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ExamplesNotification.A new instance of ExamplesNotification.
+A new instance of ExamplesNotification.
+A new instance of ExamplesNotification.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ExamplesNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns examples as notifications.Returns examples as notifications.
+Returns examples as notifications.
+Returns examples as notifications.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of pending examples.List of pending examples.
+List of pending examples.
+List of pending examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    returns pending examples as notifications.returns pending examples as notifications.
+returns pending examples as notifications.
+returns pending examples as notifications.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    returns pending examples as notifications.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns failed examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ExamplesNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    returns pending examples as notifications.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ExamplesNotificationReturns a new instance of ExamplesNotification
+
+
+  
+    Returns a new instance of ExamplesNotification
+
+
+  
+
+  
+    Returns a new instance of ExamplesNotification
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+
+
+70
+71
+72
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70# File 'lib/rspec/core/notifications.rb', line 70
+
+defdef initializeinitialize((reporterreporter))
+  @reporter@reporter == reporterreporter
+endend# File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of ExamplesNotification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ExamplesNotification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns list of examplesReturns list of examples
+
+
+  
+    Returns list of examples
+
+
+  
+
+  
+    Returns list of examples
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of exampleslist of examples
+list of examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+75
+76
+77
+
+
+75
+76
+77
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75# File 'lib/rspec/core/notifications.rb', line 75
+
+defdef examplesexamples
+  @reporter@reporter..examplesexamples
+endend# File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+
+
+  
+  
+    Returns list of examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of failed examplesReturns list of failed examples
+
+
+  
+    Returns list of failed examples
+
+
+  
+
+  
+    Returns list of failed examples
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed exampleslist of failed examples
+list of failed examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+
+
+80
+81
+82
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80# File 'lib/rspec/core/notifications.rb', line 80
+
+defdef failed_examplesfailed_examples
+  @reporter@reporter..failed_examplesfailed_examples
+endend# File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+
+
+  
+  
+    Returns list of failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns failed examples as notificationsReturns failed examples as notifications
+
+
+  
+    Returns failed examples as notifications
+
+
+  
+
+  
+    Returns failed examples as notifications
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>Array<RSpec::Core::Notifications::FailedExampleNotification>)(Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notificationsreturns failed examples as notifications
+returns failed examples as notifications
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+
+
+97
+98
+99
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97# File 'lib/rspec/core/notifications.rb', line 97
+
+defdef failure_notificationsfailure_notifications
+  @failed_notifications@failed_notifications ||=||= format_examplesformat_examples((failed_examplesfailed_examples))
+endend# File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+
+
+  
+  
+    Returns failed examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110# File 'lib/rspec/core/notifications.rb', line 110
+
+defdef fully_formatted_failed_examplesfully_formatted_failed_examples((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  formattedformatted == ""\nFailures:\n\nFailures:\n"""\nFailures:\n"
+
+  failure_notificationsfailure_notifications..each_with_indexeach_with_index dodo ||failurefailure,, indexindex||
+    formattedformatted +=+= failurefailure..fully_formattedfully_formatted((indexindex..nextnext,, colorizercolorizer))
+  endend
+
+  formattedformatted
+endend# File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+  
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122# File 'lib/rspec/core/notifications.rb', line 122
+
+defdef fully_formatted_pending_examplesfully_formatted_pending_examples((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  formattedformatted == ""\nPending: (Failures listed here are expected and do not affect your suite's status)\n\nPending: (Failures listed here are expected and do not affect your suite's status)\n"""\nPending: (Failures listed here are expected and do not affect your suite's status)\n"..dupdup
+
+  pending_notificationspending_notifications..each_with_indexeach_with_index dodo ||notificationnotification,, indexindex||
+    formattedformatted <<<< notificationnotification..fully_formattedfully_formatted((indexindex..nextnext,, colorizercolorizer))
+  endend
+
+  formattedformatted
+endend# File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+  
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns examples as notificationsReturns examples as notifications
+
+
+  
+    Returns examples as notifications
+
+
+  
+
+  
+    Returns examples as notifications
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>Array<RSpec::Core::Notifications::ExampleNotification>)(Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notificationsreturns examples as notifications
+returns examples as notifications
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+
+
+91
+92
+93
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91# File 'lib/rspec/core/notifications.rb', line 91
+
+defdef notificationsnotifications
+  @notifications@notifications ||=||= format_examplesformat_examples((examplesexamples))
+endend# File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+
+
+  
+  
+    Returns examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of pending examplesReturns list of pending examples
+
+
+  
+    Returns list of pending examples
+
+
+  
+
+  
+    Returns list of pending examples
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending exampleslist of pending examples
+list of pending examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+
+
+85
+86
+87
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85# File 'lib/rspec/core/notifications.rb', line 85
+
+defdef pending_examplespending_examples
+  @reporter@reporter..pending_examplespending_examples
+endend# File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+
+
+  
+  
+    Returns list of pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    returns pending examples as notificationsreturns pending examples as notifications
+
+
+  
+    returns pending examples as notifications
+
+
+  
+
+  
+    returns pending examples as notifications
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)(Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+
+
+104
+105
+106
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104# File 'lib/rspec/core/notifications.rb', line 104
+
+defdef pending_notificationspending_notifications
+  @pending_notifications@pending_notifications ||=||= format_examplesformat_examples((pending_examplespending_examples))
+endend# File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+
+
+  
+  
+    returns pending examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns list of examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns failed examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    returns pending examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::ExamplesNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ExamplesNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    The ExamplesNotification represents notifications sent by the reporter
+which contain information about the suites examples.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      def stop(notification)
+  puts "Hey I ran #{notification.examples.size}"
+end
+    
+  
+
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns failed examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ExamplesNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns examples as notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    List of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    returns pending examples as notifications.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ExamplesNotification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 70
+
+def initialize(reporter)
+  @reporter = reporter
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns list of examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 75
+
+def examples
+  @reporter.examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 80
+
+def failed_examples
+  @reporter.failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns failed examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::FailedExampleNotification>)
+      
+      
+      
+        —
+        returns failed examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 97
+
+def failure_notifications
+  @failed_notifications ||= format_examples(failed_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of failed examples, fully formatted in the way
+that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 110
+
+def fully_formatted_failed_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFailures:\n"
+
+  failure_notifications.each_with_index do |failure, index|
+    formatted += failure.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The list of pending examples, fully formatted in the
+way that RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+125
+126
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 122
+
+def fully_formatted_pending_examples(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nPending: (Failures listed here are expected and do not affect your suite's status)\n".dup
+
+  pending_notifications.each_with_index do |notification, index|
+    formatted << notification.fully_formatted(index.next, colorizer)
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::ExampleNotification>)
+      
+      
+      
+        —
+        returns examples as notifications
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 91
+
+def notifications
+  @notifications ||= format_examples(examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns list of pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        list of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 85
+
+def pending_examples
+  @reporter.pending_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    returns pending examples as notifications
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Notifications::SkippedExampleNotification,
+RSpec::Core::Notifications::PendingExampleFailedAsExpectedNotification>)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 104
+
+def pending_notifications
+  @pending_notifications ||= format_examples(pending_examples)
+end
+    
+  
+
+
+    
+  
+

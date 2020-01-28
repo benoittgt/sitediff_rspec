@@ -1,0 +1,506 @@
+Module: RSpec::Rails::RoutingExampleGroup
+  
+  
+  
+Module: RSpec::Rails::RoutingExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+      
+    
+  
+    
+      Includes:Includes:
+      AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroupAssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/routing_example_group.rblib/rspec/rails/example/routing_example_group.rb
+  
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/routing_example_group.rb
+  
+
+
+
+OverviewOverview
+  
+    Container module for routing spec functionality.Container module for routing spec functionality.
+
+
+  
+    Container module for routing spec functionality.
+
+
+  
+
+  
+    Container module for routing spec functionality.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ClassMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Method SummaryMethod Summary
+  
+  Methods included from Matchers::RoutingMatchers::RouteHelpersMethods included from Matchers::RoutingMatchers::RouteHelpers
+  #delete, #get, #head, #options, #patch, #post, #put#delete, #get, #head, #options, #patch, #post, #put
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RoutingMatchersMethods included from Matchers::RoutingMatchers
+  #be_routable, #route_to#be_routable, #route_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Dynamic Method HandlingDynamic Method Handling
+  
+    This class handles dynamic methods through the method_missingmethod_missing method
+    
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+
+
+58
+59
+60
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58# File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+defdef method_missingmethod_missing((mm,, **argsargs,, &&blockblock))
+  routesroutes..url_helpersurl_helpers..respond_to?respond_to?((mm)) ?? routesroutes..url_helpersurl_helpers..sendsend((mm,, **argsargs)) :: supersuper
+endend# File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+
+
+  
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+
+
+  
+
+
+
+Module: RSpec::Rails::RoutingExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/routing_example_group.rb
+  
+
+
+
+Overview
+  
+    Container module for routing spec functionality.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Method Summary
+  
+  Methods included from Matchers::RoutingMatchers::RouteHelpers
+  #delete, #get, #head, #options, #patch, #post, #put
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RoutingMatchers
+  #be_routable, #route_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 58
+
+def method_missing(m, *args, &block)
+  routes.url_helpers.respond_to?(m) ? routes.url_helpers.send(m, *args) : super
+end
+    
+  
+
+
+  
+
+
+

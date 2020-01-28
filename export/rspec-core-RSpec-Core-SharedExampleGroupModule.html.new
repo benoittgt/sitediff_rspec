@@ -1,0 +1,1140 @@
+Class: RSpec::Core::SharedExampleGroupModule
+  
+  
+  
+Class: RSpec::Core::SharedExampleGroupModule
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ModuleModule
+      
+        
+          ObjectObject
+          
+            ModuleModule
+          
+            RSpec::Core::SharedExampleGroupModuleRSpec::Core::SharedExampleGroupModule
+          
+        
+          Object
+          
+            Module
+          
+            RSpec::Core::SharedExampleGroupModule
+          
+        
+        show allshow all
+      
+    
+      Module
+      
+        
+          Object
+          
+            Module
+          
+            RSpec::Core::SharedExampleGroupModule
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Module
+      
+        
+          Object
+          
+            Module
+          
+            RSpec::Core::SharedExampleGroupModule
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/shared_example_group.rblib/rspec/core/shared_example_group.rb
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Module
+      
+        
+          Object
+          
+            Module
+          
+            RSpec::Core::SharedExampleGroupModule
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Represents some functionality that is shared with multiple example groups.
+The functionality is defined by the provided block, which is lazily
+eval'd when the SharedExampleGroupModuleSharedExampleGroupModule instance is included in an example
+group.Represents some functionality that is shared with multiple example groups.
+The functionality is defined by the provided block, which is lazily
+eval'd when the SharedExampleGroupModule instance is included in an example
+group.
+
+
+  
+    Represents some functionality that is shared with multiple example groups.
+The functionality is defined by the provided block, which is lazily
+eval'd when the SharedExampleGroupModule instance is included in an example
+group.
+
+
+  
+
+  
+    Represents some functionality that is shared with multiple example groups.
+The functionality is defined by the provided block, which is lazily
+eval'd when the SharedExampleGroupModule instance is included in an example
+group.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Ruby callback for when a module is included in another module is class.Ruby callback for when a module is included in another module is class.
+Ruby callback for when a module is included in another module is class.
+Ruby callback for when a module is included in another module is class.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Ruby callback for when a module is included in another module is class.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SharedExampleGroupModule.A new instance of SharedExampleGroupModule.
+A new instance of SharedExampleGroupModule.
+A new instance of SharedExampleGroupModule.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SharedExampleGroupModule.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a human-readable representation of this module.Provides a human-readable representation of this module.
+Provides a human-readable representation of this module.
+Provides a human-readable representation of this module.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a human-readable representation of this module.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Ruby callback for when a module is included in another module is class.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SharedExampleGroupModule.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a human-readable representation of this module.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of SharedExampleGroupModule.Returns a new instance of SharedExampleGroupModule.
+
+
+  
+    Returns a new instance of SharedExampleGroupModule.
+
+
+  
+
+  
+    Returns a new instance of SharedExampleGroupModule.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+
+
+11
+12
+13
+14
+15
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11# File 'lib/rspec/core/shared_example_group.rb', line 11
+
+defdef initializeinitialize((descriptiondescription,, definitiondefinition,, metadatametadata))
+  @description@description == descriptiondescription
+  @definition@definition  == definitiondefinition
+  @metadata@metadata    == metadatametadata
+endend# File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of SharedExampleGroupModule.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of SharedExampleGroupModule.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+
+
+26
+27
+28
+29
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26# File 'lib/rspec/core/shared_example_group.rb', line 26
+
+defdef includedincluded((klassklass))
+  inclusion_lineinclusion_line == klassklass..metadatametadata[[:location:location]]
+  include_ininclude_in klassklass,, inclusion_lineinclusion_line,, [[]],, nilnil
+endend# File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+
+
+  
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a human-readable representation of this module.Provides a human-readable representation of this module.
+
+
+  
+    Provides a human-readable representation of this module.
+
+
+  
+
+  
+    Provides a human-readable representation of this module.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+
+
+18
+19
+20
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18# File 'lib/rspec/core/shared_example_group.rb', line 18
+
+defdef inspectinspect
+  ""#<#<#{#{selfself..classclass..namename}}  #{#{@description@description..inspectinspect}}>>"""#<#{self.class.name} #{@description.inspect}>"
+endend# File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+
+
+  
+  
+    Provides a human-readable representation of this module.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a human-readable representation of this module.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::SharedExampleGroupModule
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Module
+      
+        
+          Object
+          
+            Module
+          
+            RSpec::Core::SharedExampleGroupModule
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+Overview
+  
+    Represents some functionality that is shared with multiple example groups.
+The functionality is defined by the provided block, which is lazily
+eval'd when the SharedExampleGroupModule instance is included in an example
+group.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Ruby callback for when a module is included in another module is class.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SharedExampleGroupModule.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a human-readable representation of this module.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of SharedExampleGroupModule.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 11
+
+def initialize(description, definition, metadata)
+  @description = description
+  @definition  = definition
+  @metadata    = metadata
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Ruby callback for when a module is included in another module is class.
+Our definition evaluates the shared group block in the context of the
+including example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 26
+
+def included(klass)
+  inclusion_line = klass.metadata[:location]
+  include_in klass, inclusion_line, [], nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a human-readable representation of this module.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 18
+
+def inspect
+  "#<#{self.class.name} #{@description.inspect}>"
+end
+    
+  
+
+
+    
+  
+

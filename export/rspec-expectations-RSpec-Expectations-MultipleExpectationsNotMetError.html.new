@@ -1,0 +1,3282 @@
+Exception: RSpec::Expectations::MultipleExpectationsNotMetError
+  
+  
+  
+Exception: RSpec::Expectations::MultipleExpectationsNotMetError
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ExpectationNotMetErrorExpectationNotMetError
+      
+        
+          ObjectObject
+          
+            ExceptionException
+          
+            ExpectationNotMetErrorExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+          Object
+          
+            Exception
+          
+            ExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+        show allshow all
+      
+    
+      ExpectationNotMetError
+      
+        
+          Object
+          
+            Exception
+          
+            ExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      ExpectationNotMetError
+      
+        
+          Object
+          
+            Exception
+          
+            ExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations.rb
+lib/rspec/expectations.rb
+
+  
+    Defined in:
+    lib/rspec/expectations.rb
+
+  
+  
+
+  
+  
+    Inherits:
+    
+      ExpectationNotMetError
+      
+        
+          Object
+          
+            Exception
+          
+            ExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    Exception raised from aggregate_failuresaggregate_failures when multiple expectations fail.Exception raised from aggregate_failures when multiple expectations fail.
+
+
+  
+    Exception raised from aggregate_failures when multiple expectations fail.
+
+
+  
+
+  
+    Exception raised from aggregate_failures when multiple expectations fail.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures and other exceptions, combined.The list of expectation failures and other exceptions, combined.
+The list of expectation failures and other exceptions, combined.
+The list of expectation failures and other exceptions, combined.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures and other exceptions, combined.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures and other exceptions, combined.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The user-assigned label for the aggregation block.The user-assigned label for the aggregation block.
+The user-assigned label for the aggregation block.
+The user-assigned label for the aggregation block.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The user-assigned label for the aggregation block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The metadata hash passed to aggregate_failuresaggregate_failures.The metadata hash passed to aggregate_failures.
+The metadata hash passed to aggregate_failures.
+The metadata hash passed to aggregate_failures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The metadata hash passed to aggregate_failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.return [String] A description of the failure/error counts.
+return [String] A description of the failure/error counts.
+return [String] A description of the failure/error counts.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures.The list of expectation failures.
+The list of expectation failures.
+The list of expectation failures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The fully formatted exception message.The fully formatted exception message.
+The fully formatted exception message.
+The fully formatted exception message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The fully formatted exception message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of other exceptions.The list of other exceptions.
+The list of other exceptions.
+The list of other exceptions.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of other exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The user-assigned label for the aggregation block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The metadata hash passed to aggregate_failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The fully formatted exception message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of other exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The list of expectation failures and other exceptions, combined.Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+    Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+
+  
+    Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.The list of expectation failures and other exceptions, combined.
+The list of expectation failures and other exceptions, combined.
+
+      
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+
+
+108
+109
+110
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108# File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+defdef all_exceptionsall_exceptions
+  @all_exceptions@all_exceptions
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+  
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+  
+  
+    Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns The user-assigned label for the aggregation block.Returns The user-assigned label for the aggregation block.
+
+
+  
+    Returns The user-assigned label for the aggregation block.
+
+
+  
+
+  
+    Returns The user-assigned label for the aggregation block.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.The user-assigned label for the aggregation block.
+The user-assigned label for the aggregation block.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111# File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+defdef aggregation_block_labelaggregation_block_label
+  @failure_aggregator@failure_aggregator..block_labelblock_label
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+
+
+  
+  
+    Returns The user-assigned label for the aggregation block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The metadata hash passed to aggregate_failuresaggregate_failures.Returns The metadata hash passed to aggregate_failures.
+
+
+  
+    Returns The metadata hash passed to aggregate_failures.
+
+
+  
+
+  
+    Returns The metadata hash passed to aggregate_failures.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failuresaggregate_failures.The metadata hash passed to aggregate_failures.
+The metadata hash passed to aggregate_failures.
+
+      
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+
+
+116
+117
+118
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116# File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+defdef aggregation_metadataaggregation_metadata
+  @failure_aggregator@failure_aggregator..metadatametadata
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+
+
+  
+  
+    Returns The metadata hash passed to aggregate_failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.return [String] A description of the failure/error counts.
+
+
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+
+
+127
+128
+129
+130
+131
+132
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127# File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+defdef exception_count_descriptionexception_count_description
+  failure_countfailure_count == pluralizepluralize((""failurefailure"""failure",, failuresfailures..sizesize))
+  returnreturn failure_countfailure_count ifif other_errorsother_errors..empty?empty?
+  error_counterror_count == pluralizepluralize((""other errorother error"""other error",, other_errorsother_errors..sizesize))
+  ""#{#{failure_countfailure_count}} and  and #{#{error_counterror_count}}"""#{failure_count} and #{error_count}"
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of expectation failures.Returns The list of expectation failures.
+
+
+  
+    Returns The list of expectation failures.
+
+
+  
+
+  
+    Returns The list of expectation failures.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>Array<RSpec::Expectations::ExpectationNotMetError>)(Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.The list of expectation failures.
+The list of expectation failures.
+
+      
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+
+
+98
+99
+100
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98# File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+defdef failuresfailures
+  @failure_aggregator@failure_aggregator..failuresfailures
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+
+  
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+
+
+  
+  
+    Returns The list of expectation failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The fully formatted exception message.Returns The fully formatted exception message.
+
+
+  
+    Returns The fully formatted exception message.
+
+
+  
+
+  
+    Returns The fully formatted exception message.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The fully formatted exception message.The fully formatted exception message.
+The fully formatted exception message.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+
+
+93
+94
+95
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93# File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+defdef messagemessage
+  @message@message ||=||= (([[""#{#{summarysummary}}::"""#{summary}:"]] ++ enumerated_failuresenumerated_failures ++ enumerated_errorsenumerated_errors))..joinjoin((""\n\n\n\n"""\n\n"))
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+
+
+  
+  
+    Returns The fully formatted exception message.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of other exceptions.Returns The list of other exceptions.
+
+
+  
+    Returns The list of other exceptions.
+
+
+  
+
+  
+    Returns The list of other exceptions.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.The list of other exceptions.
+The list of other exceptions.
+
+      
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+103
+104
+105
+
+
+103
+104
+105
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103# File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+defdef other_errorsother_errors
+  @failure_aggregator@failure_aggregator..other_errorsother_errors
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+
+  
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+
+
+  
+  
+    Returns The list of other exceptions.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+124
+
+
+121
+122
+123
+124
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121# File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+defdef summarysummary
+  ""Got Got #{#{exception_count_descriptionexception_count_description}} from failure aggregation  from failure aggregation """Got #{exception_count_description} from failure aggregation " \
+  ""blockblock#{#{block_descriptionblock_description}}"""block#{block_description}"
+endend# File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+
+  
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+
+
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns The user-assigned label for the aggregation block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The metadata hash passed to aggregate_failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of expectation failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The fully formatted exception message.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of other exceptions.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+
+
+    
+  
+
+Exception: RSpec::Expectations::MultipleExpectationsNotMetError
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      ExpectationNotMetError
+      
+        
+          Object
+          
+            Exception
+          
+            ExpectationNotMetError
+          
+            RSpec::Expectations::MultipleExpectationsNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations.rb
+
+  
+  
+
+
+Overview
+  
+    Exception raised from aggregate_failures when multiple expectations fail.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures and other exceptions, combined.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The user-assigned label for the aggregation block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The metadata hash passed to aggregate_failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of expectation failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The fully formatted exception message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of other exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The list of expectation failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of expectation failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 108
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns The user-assigned label for the aggregation block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The user-assigned label for the aggregation block.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 111
+
+def aggregation_block_label
+  @failure_aggregator.block_label
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The metadata hash passed to aggregate_failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        The metadata hash passed to aggregate_failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 116
+
+def aggregation_metadata
+  @failure_aggregator.metadata
+end
+    
+  
+
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+131
+132
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 127
+
+def exception_count_description
+  failure_count = pluralize("failure", failures.size)
+  return failure_count if other_errors.empty?
+  error_count = pluralize("other error", other_errors.size)
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of expectation failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Expectations::ExpectationNotMetError>)
+      
+      
+      
+        —
+        The list of expectation failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 98
+
+def failures
+  @failure_aggregator.failures
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The fully formatted exception message.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully formatted exception message.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 93
+
+def message
+  @message ||= (["#{summary}:"] + enumerated_failures + enumerated_errors).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The list of other exceptions.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other exceptions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+103
+104
+105
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 103
+
+def other_errors
+  @failure_aggregator.other_errors
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+124
+    
+    
+      # File 'lib/rspec/expectations/failure_aggregator.rb', line 121
+
+def summary
+  "Got #{exception_count_description} from failure aggregation " \
+  "block#{block_description}"
+end
+    
+  
+
+
+    
+  
+

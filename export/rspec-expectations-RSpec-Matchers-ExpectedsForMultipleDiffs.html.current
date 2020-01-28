@@ -1,0 +1,2364 @@
+Class: RSpec::Matchers::ExpectedsForMultipleDiffs
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::ExpectedsForMultipleDiffs
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffsRSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+          Object
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/expecteds_for_multiple_diffs.rblib/rspec/matchers/expecteds_for_multiple_diffs.rb
+  
+    Defined in:
+    lib/rspec/matchers/expecteds_for_multiple_diffs.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/expecteds_for_multiple_diffs.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Handles list of expected values when there is a need to render
+multiple diffs. Also can handle one value.Handles list of expected values when there is a need to render
+multiple diffs. Also can handle one value.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Handles list of expected values when there is a need to render
+multiple diffs. Also can handle one value.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Handles list of expected values when there is a need to render
+multiple diffs. Also can handle one value.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Wraps provided matcher list in instance of ExpectedForMultipleDiffs.Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Wraps provided expected value in instance of ExpectedForMultipleDiffs.Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ExpectedsForMultipleDiffs.A new instance of ExpectedsForMultipleDiffs.
+A new instance of ExpectedsForMultipleDiffs.
+A new instance of ExpectedsForMultipleDiffs.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectedsForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Returns message with diff(s) appended for provided differ factory and actual value if there are any.Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectedsForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffsReturns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+
+
+16
+17
+18
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+defdef initializeinitialize((expected_listexpected_list))
+  @expected_list@expected_list == expected_listexpected_list
+endend# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+
+
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        matchersmatchers
+      
+      
+        (Array<Any>Array<Any>)(Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wraplist of matchers to wrap
+list of matchers to wrap
+
+      
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+  
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffsRSpec::Matchers::ExpectedsForMultipleDiffs)(RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+
+
+36
+37
+38
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+defdef selfself..for_many_matchersfor_many_matchers((matchersmatchers))
+  newnew((matchersmatchers..mapmap {{ ||mm|| [[mm..expectedexpected,, diff_label_fordiff_label_for((mm))]] }}))
+endend# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        expectedexpected
+      
+      
+        (AnyAny)(Any)
+      
+      
+      
+        —
+        value to be wrappedvalue to be wrapped
+value to be wrapped
+
+      
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+  
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffsRSpec::Matchers::ExpectedsForMultipleDiffs)(RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+
+
+26
+27
+28
+29
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+defdef selfself..fromfrom((expectedexpected))
+  returnreturn expectedexpected ifif selfself ====== expectedexpected
+  newnew(([[[[expectedexpected,, DEFAULT_DIFF_LABELDEFAULT_DIFF_LABEL]]]]))
+endend# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are anyReturns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        messagemessage
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        original failure messageoriginal failure message
+original failure message
+
+      
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differdiffer
+      
+      
+        (ProcProc)(Proc)
+      
+      
+      
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actualactual
+      
+      
+        (AnyAny)(Any)
+      
+      
+      
+        —
+        valuevalue
+value
+
+      
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+
+
+47
+48
+49
+50
+51
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+defdef message_with_diffmessage_with_diff((messagemessage,, differdiffer,, actualactual))
+  diffdiff == diffsdiffs((differdiffer,, actualactual))
+  messagemessage == ""#{#{messagemessage}}\n\n#{#{diffdiff}}"""#{message}\n#{diff}" unlessunless diffdiff..empty?empty?
+  messagemessage
+endend# File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::ExpectedsForMultipleDiffs
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::ExpectedsForMultipleDiffs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/expecteds_for_multiple_diffs.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Handles list of expected values when there is a need to render
+multiple diffs. Also can handle one value.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided matcher list in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Wraps provided expected value in instance of ExpectedForMultipleDiffs.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectedsForMultipleDiffs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns message with diff(s) appended for provided differ factory and actual value if there are any.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectedsForMultipleDiffs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 16
+
+def initialize(expected_list)
+  @expected_list = expected_list
+end
+    
+  
+
+
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided matcher list in instance of
+ExpectedForMultipleDiffs.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        matchers
+      
+      
+        (Array<Any>)
+      
+      
+      
+        —
+        list of matchers to wrap
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 36
+
+def self.for_many_matchers(matchers)
+  new(matchers.map { |m| [m.expected, diff_label_for(m)] })
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Wraps provided expected value in instance of
+ExpectedForMultipleDiffs. If provided value is already an
+ExpectedForMultipleDiffs then it just returns it.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value to be wrapped
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Matchers::ExpectedsForMultipleDiffs)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 26
+
+def self.from(expected)
+  return expected if self === expected
+  new([[expected, DEFAULT_DIFF_LABEL]])
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns message with diff(s) appended for provided differ
+factory and actual value if there are any
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        original failure message
+
+      
+    
+  
+    
+      
+        differ
+      
+      
+        (Proc)
+      
+      
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Any)
+      
+      
+      
+        —
+        value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/expecteds_for_multiple_diffs.rb', line 47
+
+def message_with_diff(message, differ, actual)
+  diff = diffs(differ, actual)
+  message = "#{message}\n#{diff}" unless diff.empty?
+  message
+end
+    
+  
+
+
+    
+  
+

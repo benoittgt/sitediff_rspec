@@ -1,0 +1,3188 @@
+Class: RSpec::Matchers::BuiltIn::BaseMatcher
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::BaseMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::BuiltIn::BaseMatcherRSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:Includes:
+      DefaultFailureMessages, ComposableDefaultFailureMessages, Composable
+  
+      Includes:
+      DefaultFailureMessages, Composable
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/base_matcher.rblib/rspec/matchers/built_in/base_matcher.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/base_matcher.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      DefaultFailureMessages, Composable
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/base_matcher.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used internallyinternally as a base class for matchers that ship with
+rspec-expectations and rspec-rails.Used internally as a base class for matchers that ship with
+rspec-expectations and rspec-rails.
+
+Warning:Warning:
+
+This class is for internal use, and subject to change without notice.
+We strongly recommend that you do not base your custom matchers on this
+class. If/when this changes, we will announce it and remove this warning.This class is for internal use, and subject to change without notice.
+We strongly recommend that you do not base your custom matchers on this
+class. If/when this changes, we will announce it and remove this warning.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used internally as a base class for matchers that ship with
+rspec-expectations and rspec-rails.
+
+Warning:
+
+This class is for internal use, and subject to change without notice.
+We strongly recommend that you do not base your custom matchers on this
+class. If/when this changes, we will announce it and remove this warning.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used internally as a base class for matchers that ship with
+rspec-expectations and rspec-rails.
+
+Warning:
+
+This class is for internal use, and subject to change without notice.
+We strongly recommend that you do not base your custom matchers on this
+class. If/when this changes, we will announce it and remove this warning.
+
+
+  
+
+
+  
+
+
+  
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  All, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeRelatively, Compound, ContainExactly, Cover, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, Output, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgsAll, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeRelatively, Compound, ContainExactly, Cover, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, Output, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+
+  Direct Known Subclasses
+  All, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeRelatively, Compound, ContainExactly, Cover, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, Output, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: DefaultFailureMessages
+    
+  
+    
+  
+
+  
+    
+      Modules: DefaultFailureMessages
+    
+  
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        UNDEFINED =
+          
+  
+    
+  This constant is part of a private API.This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initializeinitialize.
+nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+
+
+  
+
+
+  
+
+
+        UNDEFINED =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+
+
+  
+
+
+        
+        ObjectObject..newnew..freezefreezeObject.new.freezeObject.new.freeze
+      
+    
+      
+        UNDEFINED =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+
+
+  
+
+
+        
+        Object.new.freeze
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Generates a description using EnglishPhrasing.Generates a description using EnglishPhrasing.
+Generates a description using EnglishPhrasing.
+Generates a description using EnglishPhrasing.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a description using EnglishPhrasing.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Matchers are not diffable by default.Matchers are not diffable by default.
+Matchers are not diffable by default.
+Matchers are not diffable by default.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Matchers are not diffable by default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of BaseMatcher.A new instance of BaseMatcher.
+A new instance of BaseMatcher.
+A new instance of BaseMatcher.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BaseMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates if the match is successful.Indicates if the match is successful.
+Indicates if the match is successful.
+Indicates if the match is successful.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates if the match is successful.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Most matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a description using EnglishPhrasing.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Matchers are not diffable by default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BaseMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates if the match is successful.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from DefaultFailureMessagesMethods included from DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcherReturns a new instance of BaseMatcher
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcher
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcher
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+28
+29
+30
+
+
+28
+29
+30
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+defdef initializeinitialize((expectedexpected==UNDEFINEDUNDEFINED))
+  @expected@expected == expectedexpected unlessunless UNDEFINEDUNDEFINED..equal?equal?((expectedexpected))
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.Generates a description using EnglishPhrasing.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+
+
+60
+61
+62
+63
+64
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+defdef descriptiondescription
+  descdesc == EnglishPhrasingEnglishPhrasing..split_wordssplit_words((selfself..classclass..matcher_namematcher_name))
+  descdesc <<<< EnglishPhrasingEnglishPhrasing..listlist((@expected@expected)) ifif defined?defined?((@expected@expected))
+  descdesc
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+
+
+69
+70
+71
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+defdef diffable?diffable?
+  falsefalse
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+82
+83
+84
+
+
+82
+83
+84
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+defdef expects_call_stack_jump?expects_call_stack_jump?
+  falsefalse
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+defdef match_unless_raisesmatch_unless_raises((**exceptionsexceptions))
+  exceptionsexceptions..unshiftunshift ExceptionException ifif exceptionsexceptions..empty?empty?
+  beginbegin
+    yieldyield
+    truetrue
+  rescuerescue **exceptionsexceptions =>=> @rescued_exception@rescued_exception
+    falsefalse
+  endend
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to matchmatch, which
+should be defined on a subclass. Takes care of consistently
+initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+39
+
+
+36
+37
+38
+39
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+defdef matches?matches?((actualactual))
+  @actual@actual == actualactual
+  matchmatch((expectedexpected,, actualactual))
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+
+  
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)expect(value))
+rather than block matchers (i.e. meant to work with expect { }expect { }), so
+this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+77
+78
+79
+
+
+77
+78
+79
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+defdef supports_block_expectations?supports_block_expectations?
+  falsefalse
+endend# File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::BaseMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::BaseMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      DefaultFailureMessages, Composable
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/base_matcher.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used internally as a base class for matchers that ship with
+rspec-expectations and rspec-rails.
+
+Warning:
+
+This class is for internal use, and subject to change without notice.
+We strongly recommend that you do not base your custom matchers on this
+class. If/when this changes, we will announce it and remove this warning.
+
+
+  
+
+
+  
+
+
+  Direct Known Subclasses
+  All, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeRelatively, Compound, ContainExactly, Cover, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, Output, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+
+Defined Under Namespace
+
+  
+    
+      Modules: DefaultFailureMessages
+    
+  
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        UNDEFINED =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Used to detect when no arg is passed to initialize.
+nil cannot be used because it's a valid value to pass.
+
+
+  
+
+
+  
+
+
+        
+        Object.new.freeze
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a description using EnglishPhrasing.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Matchers are not diffable by default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BaseMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates if the match is successful.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BaseMatcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 28
+
+def initialize(expected=UNDEFINED)
+  @expected = expected unless UNDEFINED.equal?(expected)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a description using EnglishPhrasing.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 60
+
+def description
+  desc = EnglishPhrasing.split_words(self.class.matcher_name)
+  desc << EnglishPhrasing.list(@expected) if defined?(@expected)
+  desc
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Matchers are not diffable by default. Override this to make your
+subclass diffable.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 69
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 82
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to wrap a block of code that will indicate failure by
+raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that
+wrap rails' assertions.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 47
+
+def match_unless_raises(*exceptions)
+  exceptions.unshift Exception if exceptions.empty?
+  begin
+    yield
+    true
+  rescue *exceptions => @rescued_exception
+    false
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates if the match is successful. Delegates to match, which
+should be defined on a subclass. Takes care of consistently
+initializing the actual attribute.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 36
+
+def matches?(actual)
+  @actual = actual
+  match(expected, actual)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Most matchers are value matchers (i.e. meant to work with expect(value))
+rather than block matchers (i.e. meant to work with expect { }), so
+this defaults to false. Block matchers must override this to return true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+77
+78
+79
+    
+    
+      # File 'lib/rspec/matchers/built_in/base_matcher.rb', line 77
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+

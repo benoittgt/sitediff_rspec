@@ -1,0 +1,3975 @@
+Exception: RSpec::Core::MultipleExceptionError
+  
+  
+  
+Exception: RSpec::Core::MultipleExceptionError
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StandardErrorStandardError
+      
+        
+          ObjectObject
+          
+            StandardErrorStandardError
+          
+            RSpec::Core::MultipleExceptionErrorRSpec::Core::MultipleExceptionError
+          
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::MultipleExceptionError
+          
+        
+        show allshow all
+      
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::MultipleExceptionError
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::MultipleExceptionError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/exception_presenter.rblib/rspec/core/formatters/exception_presenter.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/exception_presenter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::MultipleExceptionError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/exception_presenter.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides a single exception instance that provides access to
+multiple sub-exceptions. This is used in situations where a single
+individual spec has multiple exceptions, such as one in the itit block
+and one in an afterafter block.Provides a single exception instance that provides access to
+multiple sub-exceptions. This is used in situations where a single
+individual spec has multiple exceptions, such as one in the it block
+and one in an after block.
+
+
+  
+    Provides a single exception instance that provides access to
+multiple sub-exceptions. This is used in situations where a single
+individual spec has multiple exceptions, such as one in the it block
+and one in an after block.
+
+
+  
+
+  
+    Provides a single exception instance that provides access to
+multiple sub-exceptions. This is used in situations where a single
+individual spec has multiple exceptions, such as one in the it block
+and one in an after block.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Metadata used by RSpec for formatting purposes.Metadata used by RSpec for formatting purposes.
+Metadata used by RSpec for formatting purposes.
+Metadata used by RSpec for formatting purposes.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Metadata used by RSpec for formatting purposes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures and other exceptions, combined.The list of failures and other exceptions, combined.
+The list of failures and other exceptions, combined.
+The list of failures and other exceptions, combined.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures and other exceptions, combined.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures.The list of failures.
+The list of failures.
+The list of failures.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of other errors.The list of other errors.
+The list of other errors.
+The list of other errors.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of other errors.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Metadata used by RSpec for formatting purposes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures and other exceptions, combined.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of other errors.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.return [String] A description of the failure/error counts.
+return [String] A description of the failure/error counts.
+return [String] A description of the failure/error counts.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of MultipleExceptionError.A new instance of MultipleExceptionError.
+A new instance of MultipleExceptionError.
+A new instance of MultipleExceptionError.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of MultipleExceptionError.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Combines all the exception messages into a single string.Combines all the exception messages into a single string.
+Combines all the exception messages into a single string.
+Combines all the exception messages into a single string.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Combines all the exception messages into a single string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of MultipleExceptionError.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Combines all the exception messages into a single string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of MultipleExceptionError.Returns a new instance of MultipleExceptionError.
+
+
+  
+    Returns a new instance of MultipleExceptionError.
+
+
+  
+
+  
+    Returns a new instance of MultipleExceptionError.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        exceptionsexceptions
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.The initial list of exceptions.
+The initial list of exceptions.
+
+      
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+  
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475# File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+defdef initializeinitialize((**exceptionsexceptions))
+  supersuper(())
+
+  @failures@failures                == [[]]
+  @other_errors@other_errors            == [[]]
+  @all_exceptions@all_exceptions          == [[]]
+  @aggregation_metadata@aggregation_metadata    == {{ :hide_backtrace:hide_backtrace =>=> truetrue }}
+  @aggregation_block_label@aggregation_block_label == nilnil
+
+  exceptionsexceptions..eacheach {{ ||ee|| addadd ee }}
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of MultipleExceptionError.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of MultipleExceptionError.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (nilnil)(nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+472
+473
+474
+
+
+472
+473
+474
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472# File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+defdef aggregation_block_labelaggregation_block_label
+  @aggregation_block_label@aggregation_block_label
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+
+  
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+
+
+  
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns Metadata used by RSpec for formatting purposes.Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+    Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+
+  
+    Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.Metadata used by RSpec for formatting purposes.
+Metadata used by RSpec for formatting purposes.
+
+      
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+468
+469
+470
+
+
+468
+469
+470
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468# File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+defdef aggregation_metadataaggregation_metadata
+  @aggregation_metadata@aggregation_metadata
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+
+  
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+
+
+  
+  
+    Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures and other exceptions, combined.Returns The list of failures and other exceptions, combined.
+
+
+  
+    Returns The list of failures and other exceptions, combined.
+
+
+  
+
+  
+    Returns The list of failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.The list of failures and other exceptions, combined.
+The list of failures and other exceptions, combined.
+
+      
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+465
+466
+467
+
+
+465
+466
+467
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465# File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+defdef all_exceptionsall_exceptions
+  @all_exceptions@all_exceptions
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+  
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+  
+  
+    Returns The list of failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures.Returns The list of failures.
+
+
+  
+    Returns The list of failures.
+
+
+  
+
+  
+    Returns The list of failures.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.The list of failures.
+The list of failures.
+
+      
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+459
+460
+461
+
+
+459
+460
+461
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459# File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+defdef failuresfailures
+  @failures@failures
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+
+  
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+
+
+  
+  
+    Returns The list of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of other errors.Returns The list of other errors.
+
+
+  
+    Returns The list of other errors.
+
+
+  
+
+  
+    Returns The list of other errors.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Exception>Array<Exception>)(Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.The list of other errors.
+The list of other errors.
+
+      
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+
+
+462
+463
+464
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462# File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+defdef other_errorsother_errors
+  @other_errors@other_errors
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+
+
+  
+  
+    Returns The list of other errors.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of other errors.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.return [String] A description of the failure/error counts.
+
+
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+
+
+500
+501
+502
+503
+504
+505
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500# File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+defdef exception_count_descriptionexception_count_description
+  failure_countfailure_count == FormattersFormatters::::HelpersHelpers..pluralizepluralize((failuresfailures..sizesize,, ""failurefailure"""failure"))
+  returnreturn failure_countfailure_count ifif other_errorsother_errors..empty?empty?
+  error_counterror_count == FormattersFormatters::::HelpersHelpers..pluralizepluralize((other_errorsother_errors..sizesize,, ""other errorother error"""other error"))
+  ""#{#{failure_countfailure_count}} and  and #{#{error_counterror_count}}"""#{failure_count} and #{error_count}"
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.RSpec does not actually use this -- instead it formats each exception
+individually.
+RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.Returns Combines all the exception messages into a single string.
+
+
+  
+    
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.
+
+
+  
+
+  
+    
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.Combines all the exception messages into a single string.
+Combines all the exception messages into a single string.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+490
+491
+492
+
+
+490
+491
+492
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490# File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+defdef messagemessage
+  all_exceptionsall_exceptions..mapmap((&&:message:message))..joinjoin((""\n\n\n\n"""\n\n"))
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+
+  
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.A summary of the failure, including the block label and a count of failures.
+A summary of the failure, including the block label and a count of failures.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+495
+496
+497
+
+
+495
+496
+497
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495# File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+defdef summarysummary
+  ""Got Got #{#{exception_count_descriptionexception_count_description}}"""Got #{exception_count_description}"
+endend# File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+
+  
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+
+
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+
+
+    
+  
+
+Exception: RSpec::Core::MultipleExceptionError
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::MultipleExceptionError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/exception_presenter.rb
+  
+  
+
+
+Overview
+  
+    Provides a single exception instance that provides access to
+multiple sub-exceptions. This is used in situations where a single
+individual spec has multiple exceptions, such as one in the it block
+and one in an after block.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Metadata used by RSpec for formatting purposes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures and other exceptions, combined.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The list of other errors.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    return [String] A description of the failure/error counts.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of MultipleExceptionError.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Combines all the exception messages into a single string.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A summary of the failure, including the block label and a count of failures.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of MultipleExceptionError.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exceptions
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The initial list of exceptions.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 475
+
+def initialize(*exceptions)
+  super()
+
+  @failures                = []
+  @other_errors            = []
+  @all_exceptions          = []
+  @aggregation_metadata    = { :hide_backtrace => true }
+  @aggregation_block_label = nil
+
+  exceptions.each { |e| add e }
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (nil)
+      
+      
+      
+        —
+        Provided only for interface compatibility with
+RSpec::Expectations::MultipleExpectationsNotMetError.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+472
+473
+474
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 472
+
+def aggregation_block_label
+  @aggregation_block_label
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns Metadata used by RSpec for formatting purposes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        Metadata used by RSpec for formatting purposes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+468
+469
+470
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 468
+
+def aggregation_metadata
+  @aggregation_metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures and other exceptions, combined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures and other exceptions, combined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+465
+466
+467
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 465
+
+def all_exceptions
+  @all_exceptions
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+459
+460
+461
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 459
+
+def failures
+  @failures
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The list of other errors.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<Exception>)
+      
+      
+      
+        —
+        The list of other errors.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 462
+
+def other_errors
+  @other_errors
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    return [String] A description of the failure/error counts.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+500
+501
+502
+503
+504
+505
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 500
+
+def exception_count_description
+  failure_count = Formatters::Helpers.pluralize(failures.size, "failure")
+  return failure_count if other_errors.empty?
+  error_count = Formatters::Helpers.pluralize(other_errors.size, "other error")
+  "#{failure_count} and #{error_count}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    RSpec does not actually use this -- instead it formats each exception
+individually.
+
+  
+
+Returns Combines all the exception messages into a single string.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Combines all the exception messages into a single string.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+490
+491
+492
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 490
+
+def message
+  all_exceptions.map(&:message).join("\n\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A summary of the failure, including the block label and a count of failures.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A summary of the failure, including the block label and a count of failures.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+495
+496
+497
+    
+    
+      # File 'lib/rspec/core/formatters/exception_presenter.rb', line 495
+
+def summary
+  "Got #{exception_count_description}"
+end
+    
+  
+
+
+    
+  
+

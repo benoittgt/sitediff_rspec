@@ -1,0 +1,3777 @@
+Module: RSpec::Mocks
+  
+  
+  
+Module: RSpec::Mocks
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks.rb
+lib/rspec/mocks.rb
+
+  
+    Defined in:
+    lib/rspec/mocks.rb
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    Contains top-level utility methods. While this contains a few
+public methods, these are not generally meant to be called from
+a test or example. They exist primarily for integration with
+test frameworks (such as rspec-core).Contains top-level utility methods. While this contains a few
+public methods, these are not generally meant to be called from
+a test or example. They exist primarily for integration with
+test frameworks (such as rspec-core).
+
+
+  
+    Contains top-level utility methods. While this contains a few
+public methods, these are not generally meant to be called from
+a test or example. They exist primarily for integration with
+test frameworks (such as rspec-core).
+
+
+  
+
+  
+    Contains top-level utility methods. While this contains a few
+public methods, these are not generally meant to be called from
+a test or example. They exist primarily for integration with
+test frameworks (such as rspec-core).
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ArgumentMatchers, ExampleMethods, Matchers, Syntax, TestDouble, Version
+    
+  
+    
+      Classes:Classes: ArgumentListMatcher, Configuration, Constant, ConstantMutator, DirectObjectReference, Double, MessageExpectation, NamedObjectReference, VerifyingMessageExpectation
+    
+  
+
+  
+    
+      Modules: ArgumentMatchers, ExampleMethods, Matchers, Syntax, TestDouble, Version
+    
+  
+    
+      Classes: ArgumentListMatcher, Configuration, Constant, ConstantMutator, DirectObjectReference, Double, MessageExpectation, NamedObjectReference, VerifyingMessageExpectation
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        MockExpectationError =
+          
+  
+    Raised when a message expectation is not satisfied.Raised when a message expectation is not satisfied.
+
+
+  
+    Raised when a message expectation is not satisfied.
+
+
+  
+
+  
+    Raised when a message expectation is not satisfied.
+
+
+  
+
+
+  
+
+
+  
+
+
+        MockExpectationError =
+          
+  
+    Raised when a message expectation is not satisfied.
+
+
+  
+
+
+  
+
+
+        
+        ::::MinitestMinitest::::AssertionAssertion::Minitest::Assertion::Minitest::Assertion
+      
+        ExpiredTestDoubleError =
+          
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+
+
+  
+
+
+  
+
+
+        ExpiredTestDoubleError =
+          
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+
+
+  
+
+
+        
+        ClassClass..newnew((MockExpectationErrorMockExpectationError))Class.new(MockExpectationError)Class.new(MockExpectationError)
+      
+        OutsideOfExampleError =
+          
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+
+
+  
+
+
+  
+
+
+        OutsideOfExampleError =
+          
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+
+
+  
+
+
+        
+        ClassClass..newnew((StandardErrorStandardError))Class.new(StandardError)Class.new(StandardError)
+      
+        MockExpectationAlreadyInvokedError =
+          
+  
+    Raised when an expectation customization method (e.g. withwith,
+and_returnand_return) is called on a message expectation which has already been
+invoked.Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+    Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+
+  
+    Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+
+
+  
+
+
+  
+
+
+        MockExpectationAlreadyInvokedError =
+          
+  
+    Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+
+
+  
+
+
+        
+        ClassClass..newnew((ExceptionException))Class.new(Exception)Class.new(Exception)
+      
+        CannotSupportArgMutationsError =
+          
+  
+    Deprecated.Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+    Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+
+  
+    Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+
+
+  
+
+
+  
+
+
+        CannotSupportArgMutationsError =
+          
+  
+    Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+
+
+  
+
+
+        
+        ClassClass..newnew((StandardErrorStandardError))Class.new(StandardError)Class.new(StandardError)
+      
+    
+      
+        MockExpectationError =
+          
+  
+    Raised when a message expectation is not satisfied.
+
+
+  
+
+
+  
+
+
+        
+        ::Minitest::Assertion
+      
+        ExpiredTestDoubleError =
+          
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+
+
+  
+
+
+        
+        Class.new(MockExpectationError)
+      
+        OutsideOfExampleError =
+          
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(StandardError)
+      
+        MockExpectationAlreadyInvokedError =
+          
+  
+    Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(Exception)
+      
+        CannotSupportArgMutationsError =
+          
+  
+    Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(StandardError)
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds an allowance (stub) on subjectsubject.Adds an allowance (stub) on subject.
+Adds an allowance (stub) on subject.
+Adds an allowance (stub) on subject.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds an allowance (stub) on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Mocks specific configuration, as distinct from RSpec.configurationRSpec.configuration which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Sets a message expectation on subjectsubject.Sets a message expectation on subject.
+Sets a message expectation on subject.
+Sets a message expectation on subject.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Sets a message expectation on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Performs per-test/example setup.Performs per-test/example setup.
+Performs per-test/example setup.
+Performs per-test/example setup.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Performs per-test/example setup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Cleans up all test double state (including any methods that were redefined on partial doubles).Cleans up all test double state (including any methods that were redefined on partial doubles).
+Cleans up all test double state (including any methods that were redefined on partial doubles).
+Cleans up all test double state (including any methods that were redefined on partial doubles).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Cleans up all test double state (including any methods that were redefined on partial doubles).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Verifies any message expectations that were set during the test or example.Verifies any message expectations that were set during the test or example.
+Verifies any message expectations that were set during the test or example.
+Verifies any message expectations that were set during the test or example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Verifies any message expectations that were set during the test or example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Call the passed block and verify mocks after it has executed.Call the passed block and verify mocks after it has executed.
+Call the passed block and verify mocks after it has executed.
+Call the passed block and verify mocks after it has executed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Call the passed block and verify mocks after it has executed.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds an allowance (stub) on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Sets a message expectation on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Performs per-test/example setup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Cleans up all test double state (including any methods that were redefined on partial doubles).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Verifies any message expectations that were set during the test or example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Call the passed block and verify mocks after it has executed.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Adds an allowance (stub) on subjectsubjectAdds an allowance (stub) on subject
+
+
+  
+    Adds an allowance (stub) on subject
+
+
+  
+
+  
+    Adds an allowance (stub) on subject
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+        Defines the implementation of foofoo on barbar, using the passed blockDefines the implementation of foo on bar, using the passed block
+Defines the implementation of foo on bar, using the passed block
+
+      
+      xx == 00
+RSpecRSpec::::MocksMocks..allow_messageallow_message((barbar,, :foo:foo)) {{ xx +=+= 11 }}x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+    Examples:
+    
+      
+        Defines the implementation of foo on bar, using the passed block
+
+      
+      x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        subjectsubject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be addedthe subject to which the message will be added
+the subject to which the message will be added
+
+      
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.a symbol, representing the message that will be
+added.
+a symbol, representing the message that will be
+added.
+
+      
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        optsopts
+      
+      
+        
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call sitea hash of options, :expected_from is used to set the
+original call site
+a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowancean optional implementation for the allowance
+an optional implementation for the allowance
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+        Defines the implementation of foo on bar, using the passed block
+
+      
+      x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+
+
+69
+70
+71
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69# File 'lib/rspec/mocks.rb', line 69
+
+defdef selfself..allow_messageallow_message((subjectsubject,, messagemessage,, optsopts=={{}},, &&blockblock))
+  spacespace..proxy_forproxy_for((subjectsubject))..add_stubadd_stub((messagemessage,, optsopts,, &&blockblock))
+endend# File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+
+
+  
+  
+    Adds an allowance (stub) on subject
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Defines the implementation of foo on bar, using the passed block
+
+      
+      x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Mocks specific configuration, as distinct from RSpec.configurationRSpec.configuration
+which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+    Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+
+  
+    Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+206
+207
+208
+
+
+206
+207
+208
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206# File 'lib/rspec/mocks/configuration.rb', line 206
+
+defdef selfself..configurationconfiguration
+  @configuration@configuration ||=||= ConfigurationConfiguration..newnew
+endend# File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+
+  
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+
+
+  
+  
+    Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Sets a message expectation on subjectsubject.Sets a message expectation on subject.
+
+
+  
+    Sets a message expectation on subject.
+
+
+  
+
+  
+    Sets a message expectation on subject.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+        Expect the message foofoo to receive barbar, then call itExpect the message foo to receive bar, then call it
+Expect the message foo to receive bar, then call it
+
+      
+      RSpecRSpec::::MocksMocks..expect_messageexpect_message((barbar,, :foo:foo))
+barbar..foofooRSpec::Mocks.expect_message(bar, :foo)
+bar.fooRSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+    Examples:
+    
+      
+        Expect the message foo to receive bar, then call it
+
+      
+      RSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        subjectsubject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expectedthe subject on which the message will be expected
+the subject on which the message will be expected
+
+      
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.a symbol, representing the message that will be
+expected.
+a symbol, representing the message that will be
+expected.
+
+      
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        optsopts
+      
+      
+        
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call sitea hash of options, :expected_from is used to set the
+original call site
+a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectationan optional implementation for the expectation
+an optional implementation for the expectation
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+        Expect the message foo to receive bar, then call it
+
+      
+      RSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+
+
+84
+85
+86
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84# File 'lib/rspec/mocks.rb', line 84
+
+defdef selfself..expect_messageexpect_message((subjectsubject,, messagemessage,, optsopts=={{}},, &&blockblock))
+  spacespace..proxy_forproxy_for((subjectsubject))..add_message_expectationadd_message_expectation((messagemessage,, optsopts,, &&blockblock))
+endend# File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+
+
+  
+  
+    Sets a message expectation on subject.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Expect the message foo to receive bar, then call it
+
+      
+      RSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+
+
+38
+39
+40
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38# File 'lib/rspec/mocks.rb', line 38
+
+defdef selfself..setupsetup
+  @space_stack@space_stack <<<< ((@space@space == spacespace..new_scopenew_scope))
+endend# File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+
+
+  
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This mustmust be called after
+each example, even if an error was raised during the example.Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+
+
+51
+52
+53
+54
+55
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51# File 'lib/rspec/mocks.rb', line 51
+
+defdef selfself..teardownteardown
+  spacespace..reset_allreset_all
+  @space_stack@space_stack..poppop
+  @space@space == @space_stack@space_stack..lastlast |||| @root_space@root_space
+endend# File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+
+
+  
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+
+
+    
+      
+  
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+
+
+44
+45
+46
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44# File 'lib/rspec/mocks.rb', line 44
+
+defdef selfself..verifyverify
+  spacespace..verify_allverify_all
+endend# File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+
+
+  
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+
+
+    
+      
+  
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all)before(:all) hook.Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90# File 'lib/rspec/mocks.rb', line 90
+
+defdef selfself..with_temporary_scopewith_temporary_scope
+  setupsetup
+
+  beginbegin
+    yieldyield
+    verifyverify
+  ensureensure
+    teardownteardown
+  endend
+endend# File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+
+
+  
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Adds an allowance (stub) on subject
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Defines the implementation of foo on bar, using the passed block
+
+      
+      x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Sets a message expectation on subject.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Expect the message foo to receive bar, then call it
+
+      
+      RSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+
+
+    
+      
+  
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+
+
+    
+      
+  
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Mocks
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks.rb
+
+  
+  
+
+
+Overview
+  
+    Contains top-level utility methods. While this contains a few
+public methods, these are not generally meant to be called from
+a test or example. They exist primarily for integration with
+test frameworks (such as rspec-core).
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ArgumentMatchers, ExampleMethods, Matchers, Syntax, TestDouble, Version
+    
+  
+    
+      Classes: ArgumentListMatcher, Configuration, Constant, ConstantMutator, DirectObjectReference, Double, MessageExpectation, NamedObjectReference, VerifyingMessageExpectation
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        MockExpectationError =
+          
+  
+    Raised when a message expectation is not satisfied.
+
+
+  
+
+
+  
+
+
+        
+        ::Minitest::Assertion
+      
+        ExpiredTestDoubleError =
+          
+  
+    Raised when a test double is used after it has been torn
+down (typically at the end of an rspec-core example).
+
+
+  
+
+
+  
+
+
+        
+        Class.new(MockExpectationError)
+      
+        OutsideOfExampleError =
+          
+  
+    Raised when doubles or partial doubles are used outside of the per-test lifecycle.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(StandardError)
+      
+        MockExpectationAlreadyInvokedError =
+          
+  
+    Raised when an expectation customization method (e.g. with,
+and_return) is called on a message expectation which has already been
+invoked.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(Exception)
+      
+        CannotSupportArgMutationsError =
+          
+  
+    Deprecated. We no longer raise this error but the constant remains until
+RSpec 4 for SemVer reasons.
+
+Raised for situations that RSpec cannot support due to mutations made
+externally on arguments that RSpec is holding onto to use for later
+comparisons.
+
+
+  
+
+
+  
+
+
+        
+        Class.new(StandardError)
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds an allowance (stub) on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Sets a message expectation on subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Performs per-test/example setup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Cleans up all test double state (including any methods that were redefined on partial doubles).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Verifies any message expectations that were set during the test or example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Call the passed block and verify mocks after it has executed.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Adds an allowance (stub) on subject
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Defines the implementation of foo on bar, using the passed block
+
+      
+      x = 0
+RSpec::Mocks.allow_message(bar, :foo) { x += 1 }
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject to which the message will be added
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+added.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the allowance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/mocks.rb', line 69
+
+def self.allow_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_stub(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Mocks specific configuration, as distinct from RSpec.configuration
+which is core RSpec configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+206
+207
+208
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 206
+
+def self.configuration
+  @configuration ||= Configuration.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Sets a message expectation on subject.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Expect the message foo to receive bar, then call it
+
+      
+      RSpec::Mocks.expect_message(bar, :foo)
+bar.foo
+    
+  
+Parameters:
+
+  
+    
+      
+        subject
+      
+      
+        
+      
+      
+      
+        —
+        the subject on which the message will be expected
+
+      
+    
+  
+    
+      
+        message
+      
+      
+        
+      
+      
+      
+        —
+        a symbol, representing the message that will be
+expected.
+
+      
+    
+  
+    
+      
+        opts
+      
+      
+        
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        a hash of options, :expected_from is used to set the
+original call site
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        an optional implementation for the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/mocks.rb', line 84
+
+def self.expect_message(subject, message, opts={}, &block)
+  space.proxy_for(subject).add_message_expectation(message, opts, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Performs per-test/example setup. This should be called before
+an test or example begins.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/mocks.rb', line 38
+
+def self.setup
+  @space_stack << (@space = space.new_scope)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Cleans up all test double state (including any methods that were
+redefined on partial doubles). This must be called after
+each example, even if an error was raised during the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/mocks.rb', line 51
+
+def self.teardown
+  space.reset_all
+  @space_stack.pop
+  @space = @space_stack.last || @root_space
+end
+    
+  
+
+
+    
+      
+  
+  
+    Verifies any message expectations that were set during the
+test or example. This should be called at the end of an example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/mocks.rb', line 44
+
+def self.verify
+  space.verify_all
+end
+    
+  
+
+
+    
+      
+  
+  
+    Call the passed block and verify mocks after it has executed. This allows
+mock usage in arbitrary places, such as a before(:all) hook.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks.rb', line 90
+
+def self.with_temporary_scope
+  setup
+
+  begin
+    yield
+    verify
+  ensure
+    teardown
+  end
+end
+    
+  
+
+
+    
+  
+

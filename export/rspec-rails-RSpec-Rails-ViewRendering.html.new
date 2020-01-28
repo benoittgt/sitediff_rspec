@@ -1,0 +1,905 @@
+Module: RSpec::Rails::ViewRendering
+  
+  
+  
+Module: RSpec::Rails::ViewRendering
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ControllerExampleGroupControllerExampleGroup
+  
+    Included in:
+    ControllerExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/view_rendering.rblib/rspec/rails/view_rendering.rb
+  
+    Defined in:
+    lib/rspec/rails/view_rendering.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_rendering.rb
+  
+  
+
+
+OverviewOverview
+  
+    Helpers for optionally rendering views in controller specs.Helpers for optionally rendering views in controller specs.
+
+
+  
+    Helpers for optionally rendering views in controller specs.
+
+
+  
+
+  
+    Helpers for optionally rendering views in controller specs.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ClassMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.Returns the controller object instance under test.
+Returns the controller object instance under test.
+Returns the controller object instance under test.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.Returns the controller object instance under test.
+
+
+  
+    Returns the controller object instance under test.
+
+
+  
+
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+12
+13
+14
+
+
+12
+13
+14
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12# File 'lib/rspec/rails/view_rendering.rb', line 12
+
+defdef controllercontroller
+  @controller@controller
+endend# File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+
+  
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+
+
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+
+
+38
+39
+40
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38# File 'lib/rspec/rails/view_rendering.rb', line 38
+
+defdef render_views?render_views?
+  selfself..classclass..render_views?render_views? |||| !!controllercontroller..classclass..respond_to?respond_to?((:view_paths:view_paths))
+endend# File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ViewRendering
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_rendering.rb
+  
+  
+
+
+Overview
+  
+    Helpers for optionally rendering views in controller specs.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+12
+13
+14
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 12
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 38
+
+def render_views?
+  self.class.render_views? || !controller.class.respond_to?(:view_paths)
+end
+    
+  
+
+
+    
+  
+

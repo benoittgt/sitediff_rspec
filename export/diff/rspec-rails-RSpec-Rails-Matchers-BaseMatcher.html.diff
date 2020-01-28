@@ -1,0 +1,116 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new[m
+[1mindex 7ac429d..2fa3f42 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new[m
+[36m@@ -40,6 +40,22 @@[m [mClass: RSpec::Rails::Matchers::BaseMatcher[m
+       [m
+     [m
+   [m
+[32m+[m[32m    Inherits:[m
+[32m+[m[41m    [m
+[32m+[m[32m      Object[m
+[32m+[m[41m      [m
+[32m+[m[41m        [m
+[32m+[m[32m          Object[m
+[32m+[m[41m          [m
+[32m+[m[32m            RSpec::Rails::Matchers::BaseMatcher[m
+[32m+[m[41m          [m
+[32m+[m[41m        [m
+[32m+[m[32m        show all[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+   [m
+[36m@@ -48,6 +64,12 @@[m [mClass: RSpec::Rails::Matchers::BaseMatcher[m
+       Includes:Includes:[m
+       Matchers::Composable, DefaultFailureMessagesMatchers::Composable, DefaultFailureMessages[m
+   [m
+[32m+[m[32m      Includes:[m
+[32m+[m[32m      Matchers::Composable, DefaultFailureMessages[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+ [m
+   [m
+[36m@@ -55,6 +77,11 @@[m [mClass: RSpec::Rails::Matchers::BaseMatcher[m
+     Defined in:Defined in:[m
+     lib/rspec/rails/matchers/base_matcher.rblib/rspec/rails/matchers/base_matcher.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/matchers/base_matcher.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+     Inherits:[m
+[36m@@ -138,7 +170,14 @@[m [mDefined Under NamespaceDefined Under Namespace[m
+   [m
+ [m
+ [m
+[31m-  Constant SummaryConstant Summary[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32m      Constant Summary[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+[32m+[m[32m      Constant Summary[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+ [m
+     [m
+       [m
+[36m@@ -628,17 +667,17 @@[m [mMost matchers are value matchers (i.e. meant to work with expect(value)) rather[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of BaseMatcherReturns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m
+[31m-    Returns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m
+[36m@@ -727,7 +766,7 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m
+[36m@@ -762,7 +801,7 @@[m [mend[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m
+[36m@@ -2696,7 +2744,7 @@[m [mnil cannot be used because it's a valid value to pass.[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of BaseMatcher[m
+[32m+[m[32m    Returns a new instance of BaseMatcher.[m
+ [m
+ [m
+   [m

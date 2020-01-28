@@ -1,0 +1,6931 @@
+Class: RSpec::Mocks::Configuration
+  
+  
+  
+Class: RSpec::Mocks::Configuration
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::ConfigurationRSpec::Mocks::Configuration
+          
+        
+          Object
+          
+            RSpec::Mocks::Configuration
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Configuration
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/configuration.rblib/rspec/mocks/configuration.rb
+  
+    Defined in:
+    lib/rspec/mocks/configuration.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/configuration.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides configuration options for rspec-mocks.Provides configuration options for rspec-mocks.
+
+
+  
+    Provides configuration options for rspec-mocks.
+
+
+  
+
+  
+    Provides configuration options for rspec-mocks.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets the default for the transfer_nested_constantstransfer_nested_constants option when stubbing constants.Sets the default for the transfer_nested_constants option when stubbing constants.
+Sets the default for the transfer_nested_constants option when stubbing constants.
+Sets the default for the transfer_nested_constants option when stubbing constants.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets the default for the transfer_nested_constants option when stubbing constants.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    When this is set to true, an error will be raised when instance_doubleinstance_double or class_doubleclass_double is given the name of an undefined constant.When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets the default for the transfer_nested_constants option when stubbing constants.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds stubstub and should_receiveshould_receive to the given modules or classes.Adds stub and should_receive to the given modules or classes.
+Adds stub and should_receive to the given modules or classes.
+Adds stub and should_receive to the given modules or classes.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds stub and should_receive to the given modules or classes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a way to perform customisations when verifying doubles.Provides a way to perform customisations when verifying doubles.
+Provides a way to perform customisations when verifying doubles.
+Provides a way to perform customisations when verifying doubles.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a way to perform customisations when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.A new instance of Configuration.
+A new instance of Configuration.
+A new instance of Configuration.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Monkey-patch Marshal.dumpMarshal.dump to enable dumping of mocked or stubbed objects.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Resets the configured syntax to the default.Resets the configured syntax to the default.
+Resets the configured syntax to the default.
+Resets the configured syntax to the default.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Resets the configured syntax to the default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an array with a list of syntaxes that are enabled.Returns an array with a list of syntaxes that are enabled.
+Returns an array with a list of syntaxes that are enabled.
+Returns an array with a list of syntaxes that are enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an array with a list of syntaxes that are enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the ability to set either expectexpect, shouldshould or both syntaxes.Provides the ability to set either expect, should or both syntaxes.
+Provides the ability to set either expect, should or both syntaxes.
+Provides the ability to set either expect, should or both syntaxes.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the ability to set either expect, should or both syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When set to true, partial mocks will be verified the same as object doubles.When set to true, partial mocks will be verified the same as object doubles.
+When set to true, partial mocks will be verified the same as object doubles.
+When set to true, partial mocks will be verified the same as object doubles.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When set to true, partial mocks will be verified the same as object doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Returns an array of blocks to call when verifying doubles.Returns an array of blocks to call when verifying doubles.
+Returns an array of blocks to call when verifying doubles.
+Returns an array of blocks to call when verifying doubles.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns an array of blocks to call when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds stub and should_receive to the given modules or classes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a way to perform customisations when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Resets the configured syntax to the default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an array with a list of syntaxes that are enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the ability to set either expect, should or both syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When set to true, partial mocks will be verified the same as object doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns an array of blocks to call when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of Configuration.Returns a new instance of Configuration.
+
+
+  
+    Returns a new instance of Configuration.
+
+
+  
+
+  
+    Returns a new instance of Configuration.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5# File 'lib/rspec/mocks/configuration.rb', line 5
+
+defdef initializeinitialize
+  @allow_message_expectations_on_nil@allow_message_expectations_on_nil == nilnil
+  @yield_receiver_to_any_instance_implementation_blocks@yield_receiver_to_any_instance_implementation_blocks == truetrue
+  @verify_doubled_constant_names@verify_doubled_constant_names == falsefalse
+  @transfer_nested_constants@transfer_nested_constants == falsefalse
+  @verify_partial_doubles@verify_partial_doubles == falsefalse
+  @temporarily_suppress_partial_double_verification@temporarily_suppress_partial_double_verification == falsefalse
+  @color@color == falsefalse
+endend# File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of Configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to truetrue, warning messages are suppressed.
+When set to falsefalse, it will raise an error.Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||configconfig||
+  configconfig..mock_withmock_with :rspec:rspec dodo ||mocksmocks||
+    mocksmocks..allow_message_expectations_on_nilallow_message_expectations_on_nil == falsefalse
+  endend
+endendRSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+endRSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+
+
+29
+30
+31
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29# File 'lib/rspec/mocks/configuration.rb', line 29
+
+defdef allow_message_expectations_on_nilallow_message_expectations_on_nil
+  @allow_message_expectations_on_nil@allow_message_expectations_on_nil
+endend# File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+
+
+  
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+171
+172
+173
+
+
+171
+172
+173
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171# File 'lib/rspec/mocks/configuration.rb', line 171
+
+defdef color=color=((valuevalue))
+  @color@color == valuevalue
+endend# File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+  
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets the default for the transfer_nested_constantstransfer_nested_constants option when
+stubbing constants.Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+    Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+
+  
+    Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+145
+146
+147
+
+
+145
+146
+147
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145# File 'lib/rspec/mocks/configuration.rb', line 145
+
+defdef transfer_nested_constants=transfer_nested_constants=((valuevalue))
+  @transfer_nested_constants@transfer_nested_constants == valuevalue
+endend# File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+
+  
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+
+
+  
+  
+    Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    When this is set to true, an error will be raised when
+instance_doubleinstance_double or class_doubleclass_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+    When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+
+  
+    When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+
+
+120
+121
+122
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120# File 'lib/rspec/mocks/configuration.rb', line 120
+
+defdef verify_doubled_constant_names=verify_doubled_constant_names=((valuevalue))
+  @verify_doubled_constant_names@verify_doubled_constant_names == valuevalue
+endend# File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+
+  
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+
+
+  
+  
+    When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to truetrue.Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||rspecrspec||
+  rspecrspec..mock_withmock_with :rspec:rspec dodo ||mocksmocks||
+    mocksmocks..yield_receiver_to_any_instance_implementation_blocksyield_receiver_to_any_instance_implementation_blocks == falsefalse
+  endend
+endendRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+endRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+
+
+46
+47
+48
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46# File 'lib/rspec/mocks/configuration.rb', line 46
+
+defdef yield_receiver_to_any_instance_implementation_blocks=yield_receiver_to_any_instance_implementation_blocks=((valuevalue))
+  @yield_receiver_to_any_instance_implementation_blocks@yield_receiver_to_any_instance_implementation_blocks == valuevalue
+endend# File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+
+
+  
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Adds stubstub and should_receiveshould_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stubstub and should_receiveshould_receive in
+the process.Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+    Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+
+  
+    Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||rspecrspec||
+  rspecrspec..mock_withmock_with :rspec:rspec dodo ||mocksmocks||
+    mocksmocks..add_stub_and_should_receive_toadd_stub_and_should_receive_to DelegatorDelegator
+  endend
+endendRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+endRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+
+
+62
+63
+64
+65
+66
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62# File 'lib/rspec/mocks/configuration.rb', line 62
+
+defdef add_stub_and_should_receive_toadd_stub_and_should_receive_to((**modulesmodules))
+  modulesmodules..eacheach dodo ||modmod||
+    SyntaxSyntax..enable_shouldenable_should((modmod))
+  endend
+endend# File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+  
+  
+    Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a way to perform customisations when verifying doubles.Provides a way to perform customisations when verifying doubles.
+
+
+  
+    Provides a way to perform customisations when verifying doubles.
+
+
+  
+
+  
+    Provides a way to perform customisations when verifying doubles.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec::::MocksMocks..configurationconfiguration..before_verifying_doublesbefore_verifying_doubles dodo ||refref||
+  refref..some_method!some_method!
+endendRSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+endRSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+    Examples:
+    
+      
+      RSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+
+
+128
+129
+130
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128# File 'lib/rspec/mocks/configuration.rb', line 128
+
+defdef before_verifying_doublesbefore_verifying_doubles((&&blockblock))
+  verifying_double_callbacksverifying_double_callbacks <<<< blockblock
+endend# File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+
+
+  
+  
+    Provides a way to perform customisations when verifying doubles.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+176
+177
+178
+
+
+176
+177
+178
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176# File 'lib/rspec/mocks/configuration.rb', line 176
+
+defdef color?color?
+  ::::RSpecRSpec..configurationconfiguration..color_enabled?color_enabled?
+endend# File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+  
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Monkey-patch Marshal.dumpMarshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.This method is idempotent.
+
+
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.
+
+
+  
+
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188# File 'lib/rspec/mocks/configuration.rb', line 188
+
+defdef patch_marshal_to_support_partial_doubles=patch_marshal_to_support_partial_doubles=((valval))
+  ifif valval
+    RSpecRSpec::::MocksMocks::::MarshalExtensionMarshalExtension..patch!patch!
+  elseelse
+    RSpecRSpec::::MocksMocks::::MarshalExtensionMarshalExtension..unpatch!unpatch!
+  endend
+endend# File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+
+
+  
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.Resets the configured syntax to the default.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+201
+
+
+198
+199
+200
+201
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198# File 'lib/rspec/mocks/configuration.rb', line 198
+
+defdef reset_syntaxes_to_defaultreset_syntaxes_to_default
+  selfself..syntaxsyntax == [[:should:should,, :expect:expect]]
+  RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_about_should!warn_about_should!
+endend# File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+
+  
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns an array with a list of syntaxes
+that are enabled.Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+    Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+
+  
+    Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      unlessunless RSpecRSpec::::MocksMocks..configurationconfiguration..syntaxsyntax..include?include?((:expect:expect))
+  raiseraise ""this RSpec extension gem requires the rspec-mocks `:expect` syntaxthis RSpec extension gem requires the rspec-mocks `:expect` syntax"""this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+endendunless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+endunless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+    Examples:
+    
+      
+      unless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+
+
+104
+105
+106
+107
+108
+109
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104# File 'lib/rspec/mocks/configuration.rb', line 104
+
+defdef syntaxsyntax
+  syntaxessyntaxes == [[]]
+  syntaxessyntaxes <<<< :should:should  ifif SyntaxSyntax..should_enabled?should_enabled?
+  syntaxessyntaxes <<<< :expect:expect ifif SyntaxSyntax..expect_enabled?expect_enabled?
+  syntaxessyntaxes
+endend# File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+  
+  
+    Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides the ability to set either expectexpect,
+shouldshould or both syntaxes. RSpec uses expectexpect
+syntax by default. This is needed if you want to
+explicitly enable shouldshould syntax and/or explicitly
+disable expectexpect syntax.Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+endend
+
+
+  
+    Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+end
+
+
+  
+
+  
+    Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+end
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  endRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  endRSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81# File 'lib/rspec/mocks/configuration.rb', line 81
+
+defdef syntax=syntax=((**valuesvalues))
+  syntaxessyntaxes == valuesvalues..flattenflatten
+  ifif syntaxessyntaxes..include?include?((:expect:expect))
+    SyntaxSyntax..enable_expectenable_expect
+  elseelse
+    SyntaxSyntax..disable_expectdisable_expect
+  endend
+
+  ifif syntaxessyntaxes..include?include?((:should:should))
+    SyntaxSyntax..enable_shouldenable_should
+  elseelse
+    SyntaxSyntax..disable_shoulddisable_should
+  endend
+endend# File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+
+
+  
+  
+    Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+end
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+
+
+139
+140
+141
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139# File 'lib/rspec/mocks/configuration.rb', line 139
+
+defdef transfer_nested_constants?transfer_nested_constants?
+  !!!!@transfer_nested_constants@transfer_nested_constants
+endend# File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111# File 'lib/rspec/mocks/configuration.rb', line 111
+
+defdef verify_doubled_constant_names?verify_doubled_constant_names?
+  !!!!@verify_doubled_constant_names@verify_doubled_constant_names
+endend# File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+
+
+    
+      
+  
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+
+
+150
+151
+152
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150# File 'lib/rspec/mocks/configuration.rb', line 150
+
+defdef verify_partial_doubles=verify_partial_doubles=((valval))
+  @verify_partial_doubles@verify_partial_doubles == !!!!valval
+endend# File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+
+
+  
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+
+
+154
+155
+156
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154# File 'lib/rspec/mocks/configuration.rb', line 154
+
+defdef verify_partial_doubles?verify_partial_doubles?
+  @verify_partial_doubles@verify_partial_doubles
+endend# File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doublesReturns an array of blocks to call when verifying doubles
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doubles
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doubles
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+135
+136
+137
+
+
+135
+136
+137
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135# File 'lib/rspec/mocks/configuration.rb', line 135
+
+defdef verifying_double_callbacksverifying_double_callbacks
+  @verifying_double_callbacks@verifying_double_callbacks ||=||= [[]]
+endend# File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+
+  
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doubles
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+
+
+31
+32
+33
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31# File 'lib/rspec/mocks/configuration.rb', line 31
+
+defdef yield_receiver_to_any_instance_implementation_blocks?yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks@yield_receiver_to_any_instance_implementation_blocks
+endend# File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a way to perform customisations when verifying doubles.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+end
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+
+
+    
+      
+  
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doubles
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::Configuration
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/configuration.rb
+  
+  
+
+
+Overview
+  
+    Provides configuration options for rspec-mocks.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets the default for the transfer_nested_constants option when stubbing constants.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds stub and should_receive to the given modules or classes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a way to perform customisations when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Resets the configured syntax to the default.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an array with a list of syntaxes that are enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the ability to set either expect, should or both syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When set to true, partial mocks will be verified the same as object doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns an array of blocks to call when verifying doubles.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Configuration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 5
+
+def initialize
+  @allow_message_expectations_on_nil = nil
+  @yield_receiver_to_any_instance_implementation_blocks = true
+  @verify_doubled_constant_names = false
+  @transfer_nested_constants = false
+  @verify_partial_doubles = false
+  @temporarily_suppress_partial_double_verification = false
+  @color = false
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets whether RSpec will warn, ignore, or fail a test when
+expectations are set on nil.
+By default, when this flag is not set, warning messages are issued when
+expectations are set on nil. This is to prevent false-positives and to
+catch potential bugs early on.
+When set to true, warning messages are suppressed.
+When set to false, it will raise an error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.mock_with :rspec do |mocks|
+    mocks.allow_message_expectations_on_nil = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 29
+
+def allow_message_expectations_on_nil
+  @allow_message_expectations_on_nil
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+171
+172
+173
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 171
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets the default for the transfer_nested_constants option when
+stubbing constants.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+145
+146
+147
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 145
+
+def transfer_nested_constants=(value)
+  @transfer_nested_constants = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    When this is set to true, an error will be raised when
+instance_double or class_double is given the name of an undefined
+constant. You probably only want to set this when running your entire
+test suite, with all production code loaded. Setting this for an
+isolated unit test will prevent you from being able to isolate it!
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 120
+
+def verify_doubled_constant_names=(value)
+  @verify_doubled_constant_names = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets whether or not RSpec will yield the receiving instance of a
+message to blocks that are used for any_instance stub implementations.
+When set, the first yielded argument will be the receiving instance.
+Defaults to true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.yield_receiver_to_any_instance_implementation_blocks = false
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 46
+
+def yield_receiver_to_any_instance_implementation_blocks=(value)
+  @yield_receiver_to_any_instance_implementation_blocks = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Adds stub and should_receive to the given
+modules or classes. This is usually only necessary
+if you application uses some proxy classes that
+"strip themselves down" to a bare minimum set of
+methods and remove stub and should_receive in
+the process.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.add_stub_and_should_receive_to Delegator
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 62
+
+def add_stub_and_should_receive_to(*modules)
+  modules.each do |mod|
+    Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a way to perform customisations when verifying doubles.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Mocks.configuration.before_verifying_doubles do |ref|
+  ref.some_method!
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 128
+
+def before_verifying_doubles(&block)
+  verifying_double_callbacks << block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+176
+177
+178
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 176
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
+objects. By default this will not work since RSpec mocks works by
+adding singleton methods that cannot be serialized. This patch removes
+these singleton methods before serialization. Setting to falsey removes
+the patch.
+
+This method is idempotent.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+188
+189
+190
+191
+192
+193
+194
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 188
+
+def patch_marshal_to_support_partial_doubles=(val)
+  if val
+    RSpec::Mocks::MarshalExtension.patch!
+  else
+    RSpec::Mocks::MarshalExtension.unpatch!
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Resets the configured syntax to the default.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+201
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 198
+
+def reset_syntaxes_to_default
+  self.syntax = [:should, :expect]
+  RSpec::Mocks::Syntax.warn_about_should!
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns an array with a list of syntaxes
+that are enabled.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Mocks.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-mocks `:expect` syntax"
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 104
+
+def syntax
+  syntaxes = []
+  syntaxes << :should  if Syntax.should_enabled?
+  syntaxes << :expect if Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides the ability to set either expect,
+should or both syntaxes. RSpec uses expect
+syntax by default. This is needed if you want to
+explicitly enable should syntax and/or explicitly
+disable expect syntax.
+
+end
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.mock_with :rspec do |mocks|
+    mocks.syntax = [:expect, :should]
+  end
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 81
+
+def syntax=(*values)
+  syntaxes = values.flatten
+  if syntaxes.include?(:expect)
+    Syntax.enable_expect
+  else
+    Syntax.disable_expect
+  end
+
+  if syntaxes.include?(:should)
+    Syntax.enable_should
+  else
+    Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 139
+
+def transfer_nested_constants?
+  !!@transfer_nested_constants
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 111
+
+def verify_doubled_constant_names?
+  !!@verify_doubled_constant_names
+end
+    
+  
+
+
+    
+      
+  
+  
+    When set to true, partial mocks will be verified the same as object
+doubles. Any stubs will have their arguments checked against the original
+method, and methods that do not exist cannot be stubbed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 150
+
+def verify_partial_doubles=(val)
+  @verify_partial_doubles = !!val
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 154
+
+def verify_partial_doubles?
+  @verify_partial_doubles
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns an array of blocks to call when verifying doubles
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+135
+136
+137
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 135
+
+def verifying_double_callbacks
+  @verifying_double_callbacks ||= []
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/mocks/configuration.rb', line 31
+
+def yield_receiver_to_any_instance_implementation_blocks?
+  @yield_receiver_to_any_instance_implementation_blocks
+end
+    
+  
+
+
+    
+  
+

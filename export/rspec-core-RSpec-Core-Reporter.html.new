@@ -1,0 +1,3288 @@
+Class: RSpec::Core::Reporter
+  
+  
+  
+Class: RSpec::Core::Reporter
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::ReporterRSpec::Core::Reporter
+          
+        
+          Object
+          
+            RSpec::Core::Reporter
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Reporter
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Reporter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/reporter.rblib/rspec/core/reporter.rb
+  
+    Defined in:
+    lib/rspec/core/reporter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Reporter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/reporter.rb
+  
+  
+
+
+OverviewOverview
+  
+    A reporter will send notifications to listeners, usually formatters for the
+spec suite run.A reporter will send notifications to listeners, usually formatters for the
+spec suite run.
+
+
+  
+    A reporter will send notifications to listeners, usually formatters for the
+spec suite run.
+
+
+  
+
+  
+    A reporter will send notifications to listeners, usually formatters for the
+spec suite run.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Reports a run that exited early without having run any examples.Reports a run that exited early without having run any examples.
+Reports a run that exited early without having run any examples.
+Reports a run that exited early without having run any examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Reports a run that exited early without having run any examples.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Reporter.A new instance of Reporter.
+A new instance of Reporter.
+A new instance of Reporter.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Reporter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Send a custom message to supporting formatters.Send a custom message to supporting formatters.
+Send a custom message to supporting formatters.
+Send a custom message to supporting formatters.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Send a custom message to supporting formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Publish a custom event to supporting registered formatters.Publish a custom event to supporting registered formatters.
+Publish a custom event to supporting registered formatters.
+Publish a custom event to supporting registered formatters.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Publish a custom event to supporting registered formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Registers a listener to a list of notifications.Registers a listener to a list of notifications.
+Registers a listener to a list of notifications.
+Registers a listener to a list of notifications.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Registers a listener to a list of notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes the report run and yields itself for further reporting.Initializes the report run and yields itself for further reporting.
+Initializes the report run and yields itself for further reporting.
+Initializes the report run and yields itself for further reporting.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes the report run and yields itself for further reporting.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Reports a run that exited early without having run any examples.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Reporter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Send a custom message to supporting formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Publish a custom event to supporting registered formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Registers a listener to a list of notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes the report run and yields itself for further reporting.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of Reporter.Returns a new instance of Reporter.
+
+
+  
+    Returns a new instance of Reporter.
+
+
+  
+
+  
+    Returns a new instance of Reporter.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14# File 'lib/rspec/core/reporter.rb', line 14
+
+defdef initializeinitialize((configurationconfiguration))
+  @configuration@configuration == configurationconfiguration
+  @listeners@listeners == HashHash..newnew {{ ||hh,, kk|| hh[[kk]] == SetSet..newnew }}
+  @examples@examples == [[]]
+  @failed_examples@failed_examples == [[]]
+  @pending_examples@pending_examples == [[]]
+  @duration@duration == @start@start == @load_time@load_time == nilnil
+  @non_example_exception_count@non_example_exception_count == 00
+  @setup_default@setup_default == lambdalambda {{}}
+  @setup@setup == falsefalse
+  @profiler@profiler == nilnil
+endend# File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of Reporter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Reporter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Reports a run that exited early without having run any examples.Reports a run that exited early without having run any examples.
+
+
+  
+    Reports a run that exited early without having run any examples.
+
+
+  
+
+  
+    Reports a run that exited early without having run any examples.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        exit_codeexit_code
+      
+      
+        (IntegerInteger)(Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporterthe exit_code to be return by the reporter
+the exit_code to be return by the reporter
+
+      
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+  
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+
+
+84
+85
+86
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84# File 'lib/rspec/core/reporter.rb', line 84
+
+defdef exit_earlyexit_early((exit_codeexit_code))
+  reportreport((00)) {{ exit_codeexit_code }}
+endend# File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+
+
+  
+  
+    Reports a run that exited early without having run any examples.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Send a custom message to supporting formatters.Send a custom message to supporting formatters.
+
+
+  
+    Send a custom message to supporting formatters.
+
+
+  
+
+  
+    Send a custom message to supporting formatters.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        messagemessage
+      
+      
+        (#to_s#to_s)(#to_s)
+      
+      
+      
+        —
+        A message object to send to formattersA message object to send to formatters
+A message object to send to formatters
+
+      
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+  
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+
+
+99
+100
+101
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99# File 'lib/rspec/core/reporter.rb', line 99
+
+defdef messagemessage((messagemessage))
+  notifynotify :message:message,, NotificationsNotifications::::MessageNotificationMessageNotification..newnew((messagemessage))
+endend# File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+
+
+  
+  
+    Send a custom message to supporting formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Publish a custom event to supporting registered formatters.Publish a custom event to supporting registered formatters.
+
+
+  
+    Publish a custom event to supporting registered formatters.
+
+
+  
+
+  
+    Publish a custom event to supporting registered formatters.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        eventevent
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formattersName of the custom event to trigger on formatters
+Name of the custom event to trigger on formatters
+
+      
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotificationCustomNotificationHash of arguments to provide via CustomNotification
+Hash of arguments to provide via CustomNotification
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+  
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      Notifications::CustomNotificationNotifications::CustomNotification
+    
+  
+    
+      Notifications::CustomNotification
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Notifications::CustomNotification
+    
+  
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108# File 'lib/rspec/core/reporter.rb', line 108
+
+defdef publishpublish((eventevent,, optionsoptions=={{}}))
+  ifif RSPEC_NOTIFICATIONSRSPEC_NOTIFICATIONS..include?include? eventevent
+    raiseraise ""RSpec::Core::Reporter#publish is intended for sending custom RSpec::Core::Reporter#publish is intended for sending custom """RSpec::Core::Reporter#publish is intended for sending custom " \
+          ""events not internal RSpec ones, please rename your custom event.events not internal RSpec ones, please rename your custom event."""events not internal RSpec ones, please rename your custom event."
+  endend
+  notifynotify eventevent,, NotificationsNotifications::::CustomNotificationCustomNotification..forfor((optionsoptions))
+endend# File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+
+
+  
+  
+    Publish a custom event to supporting registered formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Notifications::CustomNotification
+    
+  
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        listenerlistener
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+eventsAn obect that wishes to be notified of reporter
+events
+An obect that wishes to be notified of reporter
+events
+
+      
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notificationsnotifications
+      
+      
+        (ArrayArray)(Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe tooArray of symbols represents the events a
+listener wishes to subscribe too
+Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+  
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+
+
+37
+38
+39
+40
+41
+42
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37# File 'lib/rspec/core/reporter.rb', line 37
+
+defdef register_listenerregister_listener((listenerlistener,, **notificationsnotifications))
+  notificationsnotifications..eacheach dodo ||notificationnotification||
+    @listeners@listeners[[notificationnotification..to_symto_sym]] <<<< listenerlistener
+  endend
+  truetrue
+endend# File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+
+
+  
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+reporterreporter..reportreport((groupgroup..examplesexamples..sizesize)) dodo ||rr||
+  example_groupsexample_groups..mapmap {{||gg|| gg..runrun((rr)) }}
+endend
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+    Examples:
+    
+      
+      
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        expected_example_countexpected_example_count
+      
+      
+        (IntegerInteger)(Integer)
+      
+      
+      
+        —
+        the number of examples being runthe number of examples being run
+the number of examples being run
+
+      
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+  
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (BlockBlock)(Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.block yields itself for further reporting.
+block yields itself for further reporting.
+
+      
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71# File 'lib/rspec/core/reporter.rb', line 71
+
+defdef reportreport((expected_example_countexpected_example_count))
+  startstart((expected_example_countexpected_example_count))
+  beginbegin
+    yieldyield selfself
+  ensureensure
+    finishfinish
+  endend
+endend# File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+
+
+  
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Reports a run that exited early without having run any examples.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Send a custom message to supporting formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Publish a custom event to supporting registered formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Notifications::CustomNotification
+    
+  
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Reporter
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Reporter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/reporter.rb
+  
+  
+
+
+Overview
+  
+    A reporter will send notifications to listeners, usually formatters for the
+spec suite run.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Reports a run that exited early without having run any examples.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Reporter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Send a custom message to supporting formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Publish a custom event to supporting registered formatters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Registers a listener to a list of notifications.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes the report run and yields itself for further reporting.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Reporter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 14
+
+def initialize(configuration)
+  @configuration = configuration
+  @listeners = Hash.new { |h, k| h[k] = Set.new }
+  @examples = []
+  @failed_examples = []
+  @pending_examples = []
+  @duration = @start = @load_time = nil
+  @non_example_exception_count = 0
+  @setup_default = lambda {}
+  @setup = false
+  @profiler = nil
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Reports a run that exited early without having run any examples.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        exit_code
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the exit_code to be return by the reporter
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 84
+
+def exit_early(exit_code)
+  report(0) { exit_code }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Send a custom message to supporting formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        message
+      
+      
+        (#to_s)
+      
+      
+      
+        —
+        A message object to send to formatters
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 99
+
+def message(message)
+  notify :message, Notifications::MessageNotification.new(message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Publish a custom event to supporting registered formatters.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        event
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        Name of the custom event to trigger on formatters
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Hash of arguments to provide via CustomNotification
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Notifications::CustomNotification
+    
+  
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 108
+
+def publish(event, options={})
+  if RSPEC_NOTIFICATIONS.include? event
+    raise "RSpec::Core::Reporter#publish is intended for sending custom " \
+          "events not internal RSpec ones, please rename your custom event."
+  end
+  notify event, Notifications::CustomNotification.for(options)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Registers a listener to a list of notifications. The reporter will send
+notification of events to all registered listeners.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        listener
+      
+      
+        (Object)
+      
+      
+      
+        —
+        An obect that wishes to be notified of reporter
+events
+
+      
+    
+  
+    
+      
+        notifications
+      
+      
+        (Array)
+      
+      
+      
+        —
+        Array of symbols represents the events a
+listener wishes to subscribe too
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 37
+
+def register_listener(listener, *notifications)
+  notifications.each do |notification|
+    @listeners[notification.to_sym] << listener
+  end
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Initializes the report run and yields itself for further reporting. The
+block is required, so that the reporter can manage cleaning up after the
+run.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+reporter.report(group.examples.size) do |r|
+  example_groups.map {|g| g.run(r) }
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        expected_example_count
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the number of examples being run
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Block)
+      
+      
+      
+        —
+        block yields itself for further reporting.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+75
+76
+77
+78
+    
+    
+      # File 'lib/rspec/core/reporter.rb', line 71
+
+def report(expected_example_count)
+  start(expected_example_count)
+  begin
+    yield self
+  ensure
+    finish
+  end
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,43 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.new[m
+[1mindex 29603a6..93dd39c 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-RoutingExampleGroup.html.new[m
+[36m@@ -15,6 +16,10 @@[m [mModule: RSpec::Rails::RoutingExampleGroup[m
+       Extended by:Extended by:[m
+       ActiveSupport::ConcernActiveSupport::Concern[m
+   [m
+[32m+[m[32m      Extended by:[m
+[32m+[m[32m      ActiveSupport::Concern[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+   [m
+   [m
+   [m
+[36m@@ -25,6 +30,14 @@[m [mModule: RSpec::Rails::RoutingExampleGroup[m
+   ActionDispatch::Assertions::RoutingAssertions[m
+ ), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroup[m
+   [m
+[32m+[m[32m      Includes:[m
+[32m+[m[32m      AssertionDelegator.new([m
+[32m+[m[32m  ActionDispatch::Assertions::RoutingAssertions[m
+[32m+[m[32m), Matchers::RoutingMatchers, Matchers::RoutingMatchers::RouteHelpers, RailsExampleGroup[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+ [m
+   [m
+[36m@@ -32,6 +45,12 @@[m [mModule: RSpec::Rails::RoutingExampleGroup[m
+     Defined in:Defined in:[m
+     lib/rspec/rails/example/routing_example_group.rblib/rspec/rails/example/routing_example_group.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/example/routing_example_group.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+[32m+[m[41m  [m
+ [m
+   [m
+   [m

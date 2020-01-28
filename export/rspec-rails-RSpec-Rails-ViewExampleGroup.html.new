@@ -1,0 +1,307 @@
+Module: RSpec::Rails::ViewExampleGroup
+  
+  
+  
+Module: RSpec::Rails::ViewExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:Includes:
+      ActionView::TestCase::Behavior, Matchers::RenderTemplate, RailsExampleGroup, ViewAssignsActionView::TestCase::Behavior, Matchers::RenderTemplate, RailsExampleGroup, ViewAssigns
+  
+      Includes:
+      ActionView::TestCase::Behavior, Matchers::RenderTemplate, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/view_example_group.rblib/rspec/rails/example/view_example_group.rb
+  
+    Defined in:
+    lib/rspec/rails/example/view_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionView::TestCase::Behavior, Matchers::RenderTemplate, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/view_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Container class for view spec functionality.Container class for view spec functionality.
+
+
+  
+    Container class for view spec functionality.
+
+
+  
+
+  
+    Container class for view spec functionality.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ExampleMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: ExampleMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  Method SummaryMethod Summary
+  
+  Methods included from Matchers::RenderTemplateMethods included from Matchers::RenderTemplate
+  #have_rendered#have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewAssignsMethods included from ViewAssigns
+  #assign, #view_assigns#assign, #view_assigns
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Module: RSpec::Rails::ViewExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionView::TestCase::Behavior, Matchers::RenderTemplate, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/view_example_group.rb
+  
+  
+
+
+Overview
+  
+    Container class for view spec functionality.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ExampleMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  Method Summary
+  
+  Methods included from Matchers::RenderTemplate
+  #have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewAssigns
+  #assign, #view_assigns
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

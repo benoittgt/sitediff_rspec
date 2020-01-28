@@ -1,0 +1,1354 @@
+Class: RSpec::Mocks::ArgumentListMatcher
+  
+  
+  
+Class: RSpec::Mocks::ArgumentListMatcher
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::ArgumentListMatcherRSpec::Mocks::ArgumentListMatcher
+          
+        
+          Object
+          
+            RSpec::Mocks::ArgumentListMatcher
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ArgumentListMatcher
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ArgumentListMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/argument_list_matcher.rblib/rspec/mocks/argument_list_matcher.rb
+  
+    Defined in:
+    lib/rspec/mocks/argument_list_matcher.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ArgumentListMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/argument_list_matcher.rb
+  
+  
+
+
+OverviewOverview
+  
+    Wrapper for matching arguments against a list of expected values. Used by
+the withwith method on a MessageExpectationMessageExpectation:Wrapper for matching arguments against a list of expected values. Used by
+the with method on a MessageExpectation:
+
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((:a:a,, ''bb'''b',, 33))
+objectobject..messagemessage((:a:a,, ''bb'''b',, 33))
+expect(object).to receive(:message).with(:a, 'b', 3)
+object.message(:a, 'b', 3)
+expect(object).to receive(:message).with(:a, 'b', 3)
+object.message(:a, 'b', 3)
+
+
+Values passed to withwith can be literal values or argument matchers that
+match against the real objects .e.g.Values passed to with can be literal values or argument matchers that
+match against the real objects .e.g.
+
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_includinghash_including((:a:a =>=> ''bb'''b'))))
+expect(object).to receive(:message).with(hash_including(:a => 'b'))
+expect(object).to receive(:message).with(hash_including(:a => 'b'))
+
+
+Can also be used directly to match the contents of any ArrayArray. This
+enables 3rd party mocking libs to take advantage of rspec's argument
+matching without using the rest of rspec-mocks.Can also be used directly to match the contents of any Array. This
+enables 3rd party mocking libs to take advantage of rspec's argument
+matching without using the rest of rspec-mocks.
+
+requirerequire ''rspec/mocks/argument_list_matcherrspec/mocks/argument_list_matcher'''rspec/mocks/argument_list_matcher'
+includeinclude RSpecRSpec::::MocksMocks::::ArgumentMatchersArgumentMatchers
+
+arg_list_matcherarg_list_matcher == RSpecRSpec::::MocksMocks::::ArgumentListMatcherArgumentListMatcher..newnew((123123,, hash_includinghash_including((:a:a =>=> ''bb'''b'))))
+arg_list_matcherarg_list_matcher..args_match?args_match?((123123,, :a:a =>=> ''bb'''b'))
+require 'rspec/mocks/argument_list_matcher'
+include RSpec::Mocks::ArgumentMatchers
+
+arg_list_matcher = RSpec::Mocks::ArgumentListMatcher.new(123, hash_including(:a => 'b'))
+arg_list_matcher.args_match?(123, :a => 'b')
+require 'rspec/mocks/argument_list_matcher'
+include RSpec::Mocks::ArgumentMatchers
+
+arg_list_matcher = RSpec::Mocks::ArgumentListMatcher.new(123, hash_including(:a => 'b'))
+arg_list_matcher.args_match?(123, :a => 'b')
+
+
+This class is immutable.This class is immutable.
+
+
+  
+    Wrapper for matching arguments against a list of expected values. Used by
+the with method on a MessageExpectation:
+
+expect(object).to receive(:message).with(:a, 'b', 3)
+object.message(:a, 'b', 3)
+
+
+Values passed to with can be literal values or argument matchers that
+match against the real objects .e.g.
+
+expect(object).to receive(:message).with(hash_including(:a => 'b'))
+
+
+Can also be used directly to match the contents of any Array. This
+enables 3rd party mocking libs to take advantage of rspec's argument
+matching without using the rest of rspec-mocks.
+
+require 'rspec/mocks/argument_list_matcher'
+include RSpec::Mocks::ArgumentMatchers
+
+arg_list_matcher = RSpec::Mocks::ArgumentListMatcher.new(123, hash_including(:a => 'b'))
+arg_list_matcher.args_match?(123, :a => 'b')
+
+
+This class is immutable.
+
+
+  
+
+  
+    Wrapper for matching arguments against a list of expected values. Used by
+the with method on a MessageExpectation:
+
+expect(object).to receive(:message).with(:a, 'b', 3)
+object.message(:a, 'b', 3)
+
+
+Values passed to with can be literal values or argument matchers that
+match against the real objects .e.g.
+
+expect(object).to receive(:message).with(hash_including(:a => 'b'))
+
+
+Can also be used directly to match the contents of any Array. This
+enables 3rd party mocking libs to take advantage of rspec's argument
+matching without using the rest of rspec-mocks.
+
+require 'rspec/mocks/argument_list_matcher'
+include RSpec::Mocks::ArgumentMatchers
+
+arg_list_matcher = RSpec::Mocks::ArgumentListMatcher.new(123, hash_including(:a => 'b'))
+arg_list_matcher.args_match?(123, :a => 'b')
+
+
+This class is immutable.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      ArgumentMatchersArgumentMatchers
+    
+  
+    
+      ArgumentMatchers
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      ArgumentMatchers
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches each element in the expected_argsexpected_args against the element in the same position of the arguments passed to newnew.Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes an ArgumentListMatcherArgumentListMatcher with a collection of literal values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Initializes an ArgumentListMatcherArgumentListMatcher with a collection of literal
+values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+    Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+
+  
+    Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        expected_argsexpected_args
+      
+      
+        (ArrayArray)(Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchersa list of expected literals and/or argument matchers
+a list of expected literals and/or argument matchers
+
+      
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+  
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      RSpec::Mocks::ArgumentMatchersRSpec::Mocks::ArgumentMatchers
+    
+      #args_match?#args_match?
+    
+  
+    
+      RSpec::Mocks::ArgumentMatchers
+    
+      #args_match?
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Mocks::ArgumentMatchers
+    
+      #args_match?
+    
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+
+
+45
+46
+47
+48
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45# File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+defdef initializeinitialize((**expected_argsexpected_args))
+  @expected_args@expected_args == expected_argsexpected_args
+  ensure_expected_args_valid!ensure_expected_args_valid!
+endend# File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+
+  
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+
+
+  
+  
+    Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Mocks::ArgumentMatchers
+    
+      #args_match?
+    
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Mocks::ArgumentMatchers
+    
+      #args_match?
+    
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Matches each element in the expected_argsexpected_args against the element in the same
+position of the arguments passed to newnew.Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+    Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+
+  
+    Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        argsargs
+      
+      
+        (ArrayArray)(Array)
+      
+      
+      
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #initialize#initialize
+    
+  
+    
+      #initialize
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #initialize
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+
+
+57
+58
+59
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57# File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+defdef args_match?args_match?((**argsargs))
+  SupportSupport::::FuzzyMatcherFuzzyMatcher..values_match?values_match?((resolve_expected_args_based_onresolve_expected_args_based_on((argsargs)),, argsargs))
+endend# File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+
+
+  
+  
+    Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #initialize
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #initialize
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::ArgumentListMatcher
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ArgumentListMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/argument_list_matcher.rb
+  
+  
+
+
+Overview
+  
+    Wrapper for matching arguments against a list of expected values. Used by
+the with method on a MessageExpectation:
+
+expect(object).to receive(:message).with(:a, 'b', 3)
+object.message(:a, 'b', 3)
+
+
+Values passed to with can be literal values or argument matchers that
+match against the real objects .e.g.
+
+expect(object).to receive(:message).with(hash_including(:a => 'b'))
+
+
+Can also be used directly to match the contents of any Array. This
+enables 3rd party mocking libs to take advantage of rspec's argument
+matching without using the rest of rspec-mocks.
+
+require 'rspec/mocks/argument_list_matcher'
+include RSpec::Mocks::ArgumentMatchers
+
+arg_list_matcher = RSpec::Mocks::ArgumentListMatcher.new(123, hash_including(:a => 'b'))
+arg_list_matcher.args_match?(123, :a => 'b')
+
+
+This class is immutable.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ArgumentMatchers
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Initializes an ArgumentListMatcher with a collection of literal
+values and/or argument matchers.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected_args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        a list of expected literals and/or argument matchers
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Mocks::ArgumentMatchers
+    
+      #args_match?
+    
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 45
+
+def initialize(*expected_args)
+  @expected_args = expected_args
+  ensure_expected_args_valid!
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Matches each element in the expected_args against the element in the same
+position of the arguments passed to new.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #initialize
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/argument_list_matcher.rb', line 57
+
+def args_match?(*args)
+  Support::FuzzyMatcher.values_match?(resolve_expected_args_based_on(args), args)
+end
+    
+  
+
+
+    
+  
+

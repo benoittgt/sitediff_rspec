@@ -1,0 +1,897 @@
+Module: RSpec::Rails::ViewRendering::ClassMethods
+  
+  
+  
+Module: RSpec::Rails::ViewRendering::ClassMethods
+  
+  
+  
+
+
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/view_rendering.rblib/rspec/rails/view_rendering.rb
+  
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/view_rendering.rb
+  
+
+
+
+OverviewOverview
+  
+    DSL methodsDSL methods
+
+
+  
+    DSL methods
+
+
+  
+
+  
+    DSL methods
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      ControllerExampleGroupControllerExampleGroup
+    
+  
+    
+      ControllerExampleGroup
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      ControllerExampleGroup
+    
+  
+
+
+  
+    
+      
+
+
+21
+22
+23
+
+
+21
+22
+23
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21# File 'lib/rspec/rails/view_rendering.rb', line 21
+
+defdef render_viewsrender_views((true_or_falsetrue_or_false == truetrue))
+  @render_views@render_views == true_or_falsetrue_or_false
+endend# File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ControllerExampleGroup
+    
+  
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26# File 'lib/rspec/rails/view_rendering.rb', line 26
+
+defdef render_views?render_views?
+  returnreturn @render_views@render_views ifif defined?defined?((@render_views@render_views))
+
+  ifif superclasssuperclass..respond_to?respond_to?((:render_views?:render_views?))
+    superclasssuperclass..render_views?render_views?
+  elseelse
+    RSpecRSpec..configurationconfiguration..render_views?render_views?
+  endend
+endend# File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ControllerExampleGroup
+    
+  
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ViewRendering::ClassMethods
+  
+  
+  
+
+
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/view_rendering.rb
+  
+
+
+
+Overview
+  
+    DSL methods
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ControllerExampleGroup
+    
+  
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 21
+
+def render_views(true_or_false = true)
+  @render_views = true_or_false
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/view_rendering.rb', line 26
+
+def render_views?
+  return @render_views if defined?(@render_views)
+
+  if superclass.respond_to?(:render_views?)
+    superclass.render_views?
+  else
+    RSpec.configuration.render_views?
+  end
+end
+    
+  
+
+
+    
+  
+

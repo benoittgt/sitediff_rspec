@@ -1,0 +1,617 @@
+Module: RSpec::Rails::HelperExampleGroup
+  
+  
+  
+Module: RSpec::Rails::HelperExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:Includes:
+      ActionView::TestCase::Behavior, RailsExampleGroup, ViewAssignsActionView::TestCase::Behavior, RailsExampleGroup, ViewAssigns
+  
+      Includes:
+      ActionView::TestCase::Behavior, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/helper_example_group.rblib/rspec/rails/example/helper_example_group.rb
+  
+    Defined in:
+    lib/rspec/rails/example/helper_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionView::TestCase::Behavior, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/helper_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Container module for helper specs.Container module for helper specs.
+
+
+  
+    Container module for helper specs.
+
+
+  
+
+  
+    Container module for helper specs.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewAssignsMethods included from ViewAssigns
+  #assign, #view_assigns#assign, #view_assigns
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+
+
+29
+30
+31
+32
+33
+34
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29# File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+defdef helperhelper
+  _view_view..taptap dodo ||vv||
+    vv..extendextend((ApplicationHelperApplicationHelper)) ifif defined?defined?((ApplicationHelperApplicationHelper))
+    vv..assignassign((view_assignsview_assigns))
+  endend
+endend# File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+
+
+  
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::HelperExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionView::TestCase::Behavior, RailsExampleGroup, ViewAssigns
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/helper_example_group.rb
+  
+  
+
+
+Overview
+  
+    Container module for helper specs.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns an instance of ActionView::Base with the helper being specified mixed in, along with any of the built-in rails helpers.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewAssigns
+  #assign, #view_assigns
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns an instance of ActionView::Base with the helper being specified
+mixed in, along with any of the built-in rails helpers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/example/helper_example_group.rb', line 29
+
+def helper
+  _view.tap do |v|
+    v.extend(ApplicationHelper) if defined?(ApplicationHelper)
+    v.assign(view_assigns)
+  end
+end
+    
+  
+
+
+    
+  
+

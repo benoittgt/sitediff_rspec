@@ -1,0 +1,1286 @@
+Module: RSpec::Rails::ViewSpecMethods
+  
+  
+  
+Module: RSpec::Rails::ViewSpecMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/view_spec_methods.rblib/rspec/rails/view_spec_methods.rb
+  
+    Defined in:
+    lib/rspec/rails/view_spec_methods.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_spec_methods.rb
+  
+  
+
+
+OverviewOverview
+  
+    Adds methods (generally to ActionView::TestCase::TestController).
+Intended for use in view specs.Adds methods (generally to ActionView::TestCase::TestController).
+Intended for use in view specs.
+
+
+  
+    Adds methods (generally to ActionView::TestCase::TestController).
+Intended for use in view specs.
+
+
+  
+
+  
+    Adds methods (generally to ActionView::TestCase::TestController).
+Intended for use in view specs.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds methods extra_params=extra_params= and extra_paramsextra_params to the indicated class.Adds methods extra_params= and extra_params to the indicated class.
+Adds methods extra_params= and extra_params to the indicated class.
+Adds methods extra_params= and extra_params to the indicated class.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Removes methods extra_params=extra_params= and extra_paramsextra_params from the indicated class.Removes methods extra_params= and extra_params from the indicated class.
+Removes methods extra_params= and extra_params from the indicated class.
+Removes methods extra_params= and extra_params from the indicated class.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Adds methods extra_params=extra_params= and extra_paramsextra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controllercontroller object.Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11# File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+defdef add_toadd_to((klassklass))
+  returnreturn ifif klassklass..method_defined?method_defined?((:extra_params:extra_params)) &&&& klassklass..method_defined?method_defined?((:extra_params=:extra_params=))
+
+  klassklass..module_execmodule_exec dodo
+    # Set any extra parameters that rendering a URL for this view
+# Set any extra parameters that rendering a URL for this view
+    # would require.
+# would require.
+    #
+#
+    # @example
+# @example
+    #
+#
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+#     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+#     before do
+    #       widget = Widget.create!(:name => "slicer")
+#       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+#       controller.extra_params = { :id => widget.id }
+    #     end
+#     end
+    defdef extra_params=extra_params=((hashhash))
+      @extra_params@extra_params == hashhash
+      requestrequest..pathpath ==
+        ViewPathBuilderViewPathBuilder..newnew((::::RailsRails..applicationapplication..routesroutes))..path_forpath_for((
+          extra_paramsextra_params..mergemerge((requestrequest..path_parameterspath_parameters))
+        ))
+    endend
+
+    # Use to read extra parameters that are set in the view spec.
+# Use to read extra parameters that are set in the view spec.
+    #
+#
+    # @example
+# @example
+    #
+#
+    #     # After the before in the above example:
+#     # After the before in the above example:
+    #     controller.extra_params
+#     controller.extra_params
+    #     # => { :id => 4 }
+#     # => { :id => 4 }
+    defdef extra_paramsextra_params
+      @extra_params@extra_params ||=||= {{}}
+      @extra_params@extra_params..dupdup..freezefreeze
+    endend
+  endend
+endend# File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Removes methods extra_params=extra_params= and extra_paramsextra_params from the indicated class.Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+
+
+48
+49
+50
+51
+52
+53
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48# File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+defdef remove_fromremove_from((klassklass))
+  klassklass..module_execmodule_exec dodo
+    undefundef extra_params=extra_params= ifif klassklass..method_defined?method_defined?((:extra_params=:extra_params=))
+    undefundef extra_paramsextra_params  ifif klassklass..method_defined?method_defined?((:extra_params:extra_params))
+  endend
+endend# File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+
+
+  
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ViewSpecMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_spec_methods.rb
+  
+  
+
+
+Overview
+  
+    Adds methods (generally to ActionView::TestCase::TestController).
+Intended for use in view specs.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Adds methods extra_params= and extra_params to the indicated class.
+When class is ::ActionView::TestCase::TestController, these methods
+are exposed in view specs on the controller object.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 11
+
+def add_to(klass)
+  return if klass.method_defined?(:extra_params) && klass.method_defined?(:extra_params=)
+
+  klass.module_exec do
+    # Set any extra parameters that rendering a URL for this view
+    # would require.
+    #
+    # @example
+    #
+    #     # In "spec/views/widgets/show.html.erb_spec.rb":
+    #     before do
+    #       widget = Widget.create!(:name => "slicer")
+    #       controller.extra_params = { :id => widget.id }
+    #     end
+    def extra_params=(hash)
+      @extra_params = hash
+      request.path =
+        ViewPathBuilder.new(::Rails.application.routes).path_for(
+          extra_params.merge(request.path_parameters)
+        )
+    end
+
+    # Use to read extra parameters that are set in the view spec.
+    #
+    # @example
+    #
+    #     # After the before in the above example:
+    #     controller.extra_params
+    #     # => { :id => 4 }
+    def extra_params
+      @extra_params ||= {}
+      @extra_params.dup.freeze
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Removes methods extra_params= and extra_params from the indicated class.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/view_spec_methods.rb', line 48
+
+def remove_from(klass)
+  klass.module_exec do
+    undef extra_params= if klass.method_defined?(:extra_params=)
+    undef extra_params  if klass.method_defined?(:extra_params)
+  end
+end
+    
+  
+
+
+    
+  
+

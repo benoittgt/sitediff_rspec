@@ -1,0 +1,2502 @@
+Module: RSpec::Core::MemoizedHelpers
+  
+  
+  
+Module: RSpec::Core::MemoizedHelpers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ExampleGroupExampleGroup
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/memoized_helpers.rblib/rspec/core/memoized_helpers.rb
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+
+OverviewOverview
+  
+    This module is included in ExampleGroup, making the methods
+available to be called from within example blocks.This module is included in ExampleGroup, making the methods
+available to be called from within example blocks.
+
+
+  
+    This module is included in ExampleGroup, making the methods
+available to be called from within example blocks.
+
+
+  
+
+  
+    This module is included in ExampleGroup, making the methods
+available to be called from within example blocks.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      ClassMethodsClassMethods
+    
+  
+    
+      ClassMethods
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      ClassMethods
+    
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ClassMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the subjectsubject in expectexpect to make it the target of an expectation.Wraps the subject in expect to make it the target of an expectation.
+Wraps the subject in expect to make it the target of an expectation.
+Wraps the subject in expect to make it the target of an expectation.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the subject in expect to make it the target of an expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When shouldshould is called with no explicit receiver, the call is delegated to the object returned by subjectsubject.When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like shouldshould, should_notshould_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the subject in expect to make it the target of an expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This only works if you are using rspec-expectations.This only works if you are using rspec-expectations.
+This only works if you are using rspec-expectations.
+
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subjectsubject in expectexpect to make it the target of an expectation.
+Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+describedescribe [[11,, 22,, 33]] dodo
+  itit {{ is_expectedis_expected..toto be_anbe_an ArrayArray }}
+  itit {{ is_expectedis_expected..not_tonot_to includeinclude 44 }}
+endend
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+    Examples:
+    
+      
+      
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #subject#subject
+    
+      #should#should
+    
+      #should_not#should_not
+    
+  
+    
+      #subject
+    
+      #should
+    
+      #should_not
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #should
+    
+      #should_not
+    
+  
+
+
+  
+    
+      
+
+
+118
+119
+120
+
+
+118
+119
+120
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118# File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+defdef is_expectedis_expected
+  expectexpect((subjectsubject))
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+
+  
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #should
+    
+      #should_not
+    
+  
+
+
+  
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This only works if you are using rspec-expectations.This only works if you are using rspec-expectations.
+This only works if you are using rspec-expectations.
+
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.tois_expected.to instead of shouldshould.If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When shouldshould is called with no explicit receiver, the call is
+delegated to the object returned by subjectsubject. Combined with an
+implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..describedescribe PersonPerson dodo
+  itit {{ shouldshould be_eligible_to_votebe_eligible_to_vote }}
+endend
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #subject#subject
+    
+      #is_expected#is_expected
+    
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+
+
+80
+81
+82
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80# File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+defdef shouldshould((matchermatcher==nilnil,, messagemessage==nilnil))
+  RSpecRSpec::::ExpectationsExpectations::::PositiveExpectationHandlerPositiveExpectationHandler..handle_matcherhandle_matcher((subjectsubject,, matchermatcher,, messagemessage))
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This only works if you are using rspec-expectations.This only works if you are using rspec-expectations.
+This only works if you are using rspec-expectations.
+
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_notis_expected.to_not instead of should_notshould_not.If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like shouldshould, should_notshould_not delegates to the subject (implicit or
+explicit) of the example group.Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..describedescribe PersonPerson dodo
+  itit {{ should_notshould_not be_eligible_to_votebe_eligible_to_vote }}
+endend
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #subject#subject
+    
+      #is_expected#is_expected
+    
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+
+
+99
+100
+101
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99# File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+defdef should_notshould_not((matchermatcher==nilnil,, messagemessage==nilnil))
+  RSpecRSpec::::ExpectationsExpectations::::NegativeExpectationHandlerNegativeExpectationHandler..handle_matcherhandle_matcher((subjectsubject,, matchermatcher,, messagemessage))
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    subjectsubject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpecRSpec..describedescribe WidgetWidget dodo
+  itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}
+  # or
+# or
+  itit {{ shouldshould validate_presence_ofvalidate_presence_of((:name:name)) }}
+endend
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subjectsubject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:Note:
+    Because subjectsubject is designed to create state that is reset
+between each example, and before(:context)before(:context) is designed to setup
+state that is shared across allall examples in an example group,
+subjectsubject is notnot intended to be used in a before(:context)before(:context) hook.Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+    
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+
+  
+    
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+# Explicit declaration of subject.
+# Explicit declaration of subject.
+RSpecRSpec..describedescribe PersonPerson dodo
+  subjectsubject {{ PersonPerson..newnew((:birthdate:birthdate =>=> 1919..yearsyears..agoago)) }}
+  itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo
+    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+# ^ ^ explicit reference to subject not recommended
+  endend
+endend
+
+# Implicit subject => { Person.new }.
+# Implicit subject => { Person.new }.
+RSpecRSpec..describedescribe PersonPerson dodo
+  itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo
+    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+# ^ ^ explicit reference to subject not recommended
+  endend
+endend
+
+# One-liner syntax - expectation is set on the subject.
+# One-liner syntax - expectation is set on the subject.
+RSpecRSpec..describedescribe PersonPerson dodo
+  itit {{ is_expectedis_expected..toto be_eligible_to_votebe_eligible_to_vote }}
+  # or
+# or
+  itit {{ shouldshould be_eligible_to_votebe_eligible_to_vote }}
+endend
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+    Examples:
+    
+      
+      
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #should#should
+    
+      #should_not#should_not
+    
+      #is_expected#is_expected
+    
+  
+    
+      #should
+    
+      #should_not
+    
+      #is_expected
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #should
+    
+      #should_not
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+
+
+57
+58
+59
+60
+61
+62
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57# File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+defdef subjectsubject
+  __memoized__memoized..fetch_or_storefetch_or_store((:subject:subject)) dodo
+    describeddescribed == described_classdescribed_class |||| selfself..classclass..metadatametadata..fetchfetch((:description_args:description_args))..firstfirst
+    ClassClass ====== describeddescribed ?? describeddescribed..newnew :: describeddescribed
+  endend
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #should
+    
+      #should_not
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #should
+    
+      #should_not
+    
+  
+
+
+  
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #should
+    
+      #should_not
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::MemoizedHelpers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+
+Overview
+  
+    This module is included in ExampleGroup, making the methods
+available to be called from within example blocks.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ClassMethods
+    
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the subject in expect to make it the target of an expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+Wraps the subject in expect to make it the target of an expectation.
+Designed to read nicely for one-liners.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+describe [1, 2, 3] do
+  it { is_expected.to be_an Array }
+  it { is_expected.not_to include 4 }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #should
+    
+      #should_not
+    
+  
+
+
+  
+    
+      
+
+
+118
+119
+120
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 118
+
+def is_expected
+  expect(subject)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to instead of should.
+
+  
+
+When should is called with no explicit receiver, the call is
+delegated to the object returned by subject. Combined with an
+implicit subject this supports very concise expressions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 80
+
+def should(matcher=nil, message=nil)
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This only works if you are using rspec-expectations.
+
+  
+
+  
+    Note:
+    If you are using RSpec's newer expect-based syntax you may
+want to use is_expected.to_not instead of should_not.
+
+  
+
+Just like should, should_not delegates to the subject (implicit or
+explicit) of the example group.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Person do
+  it { should_not be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #subject
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 99
+
+def should_not(matcher=nil, message=nil)
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(subject, matcher, message)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    subject was contributed by Joe Ferris to support the one-liner
+syntax embraced by shoulda matchers:
+
+RSpec.describe Widget do
+  it { is_expected.to validate_presence_of(:name) }
+  # or
+  it { should validate_presence_of(:name) }
+end
+
+
+While the examples below demonstrate how to use subject
+explicitly in examples, we recommend that you define a method with
+an intention revealing name instead.
+
+  
+
+  
+    Note:
+    Because subject is designed to create state that is reset
+between each example, and before(:context) is designed to setup
+state that is shared across all examples in an example group,
+subject is not intended to be used in a before(:context) hook.
+
+  
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+# Explicit declaration of subject.
+RSpec.describe Person do
+  subject { Person.new(:birthdate => 19.years.ago) }
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# Implicit subject => { Person.new }.
+RSpec.describe Person do
+  it "should be eligible to vote" do
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
+  end
+end
+
+# One-liner syntax - expectation is set on the subject.
+RSpec.describe Person do
+  it { is_expected.to be_eligible_to_vote }
+  # or
+  it { should be_eligible_to_vote }
+end
+    
+  
+
+
+  See Also:
+  
+    
+      #should
+    
+      #should_not
+    
+      #is_expected
+    
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 57
+
+def subject
+  __memoized.fetch_or_store(:subject) do
+    described = described_class || self.class.metadata.fetch(:description_args).first
+    Class === described ? described.new : described
+  end
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,706 @@
+Class: RSpec::Matchers::BuiltIn::ChangeRelatively
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::ChangeRelatively
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelativelyRSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/change.rblib/rspec/matchers/built_in/change.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a relative change.Used to specify a relative change.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a relative change.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a relative change.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ChangeRelatively.A new instance of ChangeRelatively.
+A new instance of ChangeRelatively.
+A new instance of ChangeRelatively.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeRelatively.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeRelatively.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises#diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated#failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelativelyReturns a new instance of ChangeRelatively
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelatively
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelatively
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+
+
+124
+125
+126
+127
+128
+129
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124# File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+defdef initializeinitialize((change_detailschange_details,, expected_deltaexpected_delta,, relativityrelativity,, &&comparercomparer))
+  @change_details@change_details == change_detailschange_details
+  @expected_delta@expected_delta == expected_deltaexpected_delta
+  @relativity@relativity     == relativityrelativity
+  @comparer@comparer       == comparercomparer
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelatively
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelatively
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+
+
+  
+
+
+
+Class: RSpec::Matchers::BuiltIn::ChangeRelatively
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRelatively
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a relative change.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeRelatively.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeRelatively
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+129
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 124
+
+def initialize(change_details, expected_delta, relativity, &comparer)
+  @change_details = change_details
+  @expected_delta = expected_delta
+  @relativity     = relativity
+  @comparer       = comparer
+end
+    
+  
+
+
+  
+
+
+

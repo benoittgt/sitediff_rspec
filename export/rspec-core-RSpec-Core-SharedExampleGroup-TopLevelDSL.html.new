@@ -1,0 +1,923 @@
+Module: RSpec::Core::SharedExampleGroup::TopLevelDSL
+  
+  
+  PrivatePrivate
+Module: RSpec::Core::SharedExampleGroup::TopLevelDSL
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/shared_example_group.rblib/rspec/core/shared_example_group.rb
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This module is part of a private API.This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Shared examples top level DSL.Shared examples top level DSL.
+
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Shared examples top level DSL.
+
+
+  
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Shared examples top level DSL.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Adds the top level DSL methods to Module and the top level binding.Adds the top level DSL methods to Module and the top level binding.
+Adds the top level DSL methods to Module and the top level binding.
+Adds the top level DSL methods to Module and the top level binding.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Removes the top level DSL methods to Module and the top level binding.Removes the top level DSL methods to Module and the top level binding.
+Removes the top level DSL methods to Module and the top level binding.
+Removes the top level DSL methods to Module and the top level binding.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Removes the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Removes the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+
+
+124
+125
+126
+127
+128
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124# File 'lib/rspec/core/shared_example_group.rb', line 124
+
+defdef selfself..expose_globally!expose_globally!
+  returnreturn ifif exposed_globally?exposed_globally?
+  CoreCore::::DSLDSL..change_global_dslchange_global_dsl((&&definitionsdefinitions))
+  @exposed_globally@exposed_globally == truetrue
+endend# File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133# File 'lib/rspec/core/shared_example_group.rb', line 133
+
+defdef selfself..remove_globally!remove_globally!
+  returnreturn unlessunless exposed_globally?exposed_globally?
+
+  CoreCore::::DSLDSL..change_global_dslchange_global_dsl dodo
+    undefundef shared_examplesshared_examples
+    undefundef shared_contextshared_context
+    undefundef shared_examples_forshared_examples_for
+  endend
+
+  @exposed_globally@exposed_globally == falsefalse
+endend# File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::SharedExampleGroup::TopLevelDSL
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+Overview
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Shared examples top level DSL.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Removes the top level DSL methods to Module and the top level binding.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+124
+125
+126
+127
+128
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 124
+
+def self.expose_globally!
+  return if exposed_globally?
+  Core::DSL.change_global_dsl(&definitions)
+  @exposed_globally = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Removes the top level DSL methods to Module and the top level binding.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 133
+
+def self.remove_globally!
+  return unless exposed_globally?
+
+  Core::DSL.change_global_dsl do
+    undef shared_examples
+    undef shared_context
+    undef shared_examples_for
+  end
+
+  @exposed_globally = false
+end
+    
+  
+
+
+    
+  
+

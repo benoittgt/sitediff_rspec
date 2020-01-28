@@ -1,0 +1,1975 @@
+Class: RSpec::Core::Notifications::SeedNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::SeedNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::SeedNotificationRSpec::Core::Notifications::SeedNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SeedNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SeedNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SeedNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rb
+lib/rspec/core/notifications.rb
+
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SeedNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    The SeedNotificationSeedNotification holds the seed used to randomize examples and
+whether that seed has been used or not.The SeedNotification holds the seed used to randomize examples and
+whether that seed has been used or not.
+
+
+  
+    The SeedNotification holds the seed used to randomize examples and
+whether that seed has been used or not.
+
+
+  
+
+  
+    The SeedNotification holds the seed used to randomize examples and
+whether that seed has been used or not.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the seed used to randomize ordering.the seed used to randomize ordering.
+the seed used to randomize ordering.
+the seed used to randomize ordering.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the seed used to randomize ordering.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    whether the seed has been used or not.whether the seed has been used or not.
+whether the seed has been used or not.
+whether the seed has been used or not.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    whether the seed has been used or not.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the seed used to randomize ordering.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    whether the seed has been used or not.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The seed information fully formatted in the way that RSpec's built-in formatters emit.The seed information fully formatted in the way that RSpec's built-in formatters emit.
+The seed information fully formatted in the way that RSpec's built-in formatters emit.
+The seed information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The seed information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Has the seed been used?.Has the seed been used?.
+Has the seed been used?.
+Has the seed been used?.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Has the seed been used?.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The seed information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Has the seed been used?.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the seed used to randomize orderingthe seed used to randomize ordering
+
+
+  
+    the seed used to randomize ordering
+
+
+  
+
+  
+    the seed used to randomize ordering
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the current value of seedthe current value of seed
+the current value of seed
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+
+
+269
+270
+271
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269# File 'lib/rspec/core/notifications.rb', line 269
+
+defdef seedseed
+  @seed@seed
+endend# File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+
+
+  
+  
+    the seed used to randomize ordering
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    whether the seed has been used or notwhether the seed has been used or not
+
+
+  
+    whether the seed has been used or not
+
+
+  
+
+  
+    whether the seed has been used or not
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        valuevalue
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.the value to set the attribute used to.
+the value to set the attribute used to.
+
+      
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        the newly set valuethe newly set value
+the newly set value
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+
+
+269
+270
+271
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269# File 'lib/rspec/core/notifications.rb', line 269
+
+defdef used=used=((valuevalue))
+  @used@used == valuevalue
+endend# File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+
+
+  
+  
+    whether the seed has been used or not
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the seed used to randomize ordering
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    whether the seed has been used or not
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+280
+281
+282
+
+
+280
+281
+282
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280# File 'lib/rspec/core/notifications.rb', line 280
+
+defdef fully_formattedfully_formatted
+  ""\nRandomized with seed \nRandomized with seed #{#{seedseed}}\n\n"""\nRandomized with seed #{seed}\n"
+endend# File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+
+  
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+
+
+  
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns has the seed been used?.Returns has the seed been used?.
+
+
+  
+    Returns has the seed been used?.
+
+
+  
+
+  
+    Returns has the seed been used?.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        has the seed been used?has the seed been used?
+has the seed been used?
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+273
+274
+275
+
+
+273
+274
+275
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273# File 'lib/rspec/core/notifications.rb', line 273
+
+defdef seed_used?seed_used?
+  !!!!usedused
+endend# File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+
+
+  
+  
+    Returns has the seed been used?.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns has the seed been used?.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::SeedNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SeedNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+Overview
+  
+    The SeedNotification holds the seed used to randomize examples and
+whether that seed has been used or not.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the seed used to randomize ordering.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    whether the seed has been used or not.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The seed information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Has the seed been used?.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the seed used to randomize ordering
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of seed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def seed
+  @seed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    whether the seed has been used or not
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the value to set the attribute used to.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        the newly set value
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+269
+270
+271
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 269
+
+def used=(value)
+  @used = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The seed information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+280
+281
+282
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 280
+
+def fully_formatted
+  "\nRandomized with seed #{seed}\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns has the seed been used?.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        has the seed been used?
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 273
+
+def seed_used?
+  !!used
+end
+    
+  
+
+
+    
+  
+

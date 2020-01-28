@@ -1,0 +1,3615 @@
+Module: RSpec::Rails::Matchers
+  
+  
+  
+Module: RSpec::Rails::Matchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers.rb
+lib/rspec/rails/matchers.rb
+
+  
+    Defined in:
+    lib/rspec/rails/matchers.rb
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    Container module for Rails specific matchers.Container module for Rails specific matchers.
+
+
+  
+    Container module for Rails specific matchers.
+
+
+  
+
+  
+    Container module for Rails specific matchers.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ActiveJob, HaveHttpStatus, RedirectTo, RenderTemplate, RoutingMatchers
+    
+  
+    
+      Classes:Classes: BaseMatcher, BeANew
+    
+  
+
+  
+    
+      Modules: ActiveJob, HaveHttpStatus, RedirectTo, RenderTemplate, RoutingMatchers
+    
+  
+    
+      Classes: BaseMatcher, BeANew
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual is an instance of model_classmodel_class and returns truetrue for new_record?new_record?.Passes if actual is an instance of model_class and returns true for new_record?.
+Passes if actual is an instance of model_class and returns true for new_record?.
+Passes if actual is an instance of model_class and returns true for new_record?.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual is an instance of model_class and returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual returns truetrue for new_record?new_record?.Passes if actual returns true for new_record?.
+Passes if actual returns true for new_record?.
+Passes if actual returns true for new_record?.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the given model instance's valid?valid? method is true, meaning all of the ActiveModel::ValidationsActiveModel::Validations passed and no errors exist.Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued.Passes if a job has been enqueued.
+Passes if a job has been enqueued.
+Passes if a job has been enqueued.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued inside block.Passes if a job has been enqueued inside block.
+Passes if a job has been enqueued inside block.
+Passes if a job has been enqueued inside block.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if an email has been enqueued inside block.Passes if an email has been enqueued inside block.
+Passes if an email has been enqueued inside block.
+Passes if an email has been enqueued inside block.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if an email has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if responseresponse has a matching HTTP status code.Passes if response has a matching HTTP status code.
+Passes if response has a matching HTTP status code.
+Passes if response has a matching HTTP status code.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if response has a matching HTTP status code.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual is an instance of model_class and returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if an email has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if response has a matching HTTP status code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Passes if actual is an instance of model_classmodel_class and returns truetrue for
+new_record?new_record?. Typically used to specify instance variables assigned to
+views by controller actionsPasses if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the withwith method to specify the specific attributes to match on the
+new record.Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+    Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+
+  
+    Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      getget :new:new
+assignsassigns((:thing:thing))..shouldshould be_a_newbe_a_new((ThingThing))
+
+postpost :create:create,, :thing:thing =>=> {{ :name:name =>=> ""Illegal ValueIllegal Value"""Illegal Value" }}
+assignsassigns((:thing:thing))..shouldshould be_a_newbe_a_new((ThingThing))..withwith((:name:name =>=> nilnil))get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+    Examples:
+    
+      
+      get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+
+
+78
+79
+80
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78# File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+defdef be_a_newbe_a_new((model_classmodel_class))
+  BeANewBeANew..newnew((model_classmodel_class))
+endend# File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+
+
+  
+  
+    Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if actual returns truetrue for new_record?new_record?.Passes if actual returns true for new_record?.
+
+
+  
+    Passes if actual returns true for new_record?.
+
+
+  
+
+  
+    Passes if actual returns true for new_record?.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      getget :new:new
+expectexpect((assignsassigns((:thing:thing))))..toto be_new_recordbe_new_recordget :new
+expect(assigns(:thing)).to be_new_recordget :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+    Examples:
+    
+      
+      get :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+
+
+25
+26
+27
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25# File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+defdef be_new_recordbe_new_record
+  BeANewRecordBeANewRecord..newnew
+endend# File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+
+
+  
+  
+    Passes if actual returns true for new_record?.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if the given model instance's valid?valid? method is true, meaning
+all of the ActiveModel::ValidationsActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+    Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+
+  
+    Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      thingthing == ThingThing..newnew
+expectexpect((thingthing))..toto be_validbe_validthing = Thing.new
+expect(thing).to be_validthing = Thing.new
+expect(thing).to be_valid
+    
+  
+    Examples:
+    
+      
+      thing = Thing.new
+expect(thing).to be_valid
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      thing = Thing.new
+expect(thing).to be_valid
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+
+
+44
+45
+46
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44# File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+defdef be_validbe_valid((**argsargs))
+  BeValidBeValid..newnew((**argsargs))
+endend# File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+
+
+  
+  
+    Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      thing = Thing.new
+expect(thing).to be_valid
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      beforebefore {{ ActiveJobActiveJob::::BaseBase..queue_adapterqueue_adapter..enqueued_jobsenqueued_jobs..clearclear }}
+
+HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+expectexpect((HeavyLiftingJobHeavyLiftingJob))..toto have_been_enqueuedhave_been_enqueued
+
+HelloJobHelloJob..perform_laterperform_later
+HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+expectexpect((HeavyLiftingJobHeavyLiftingJob))..toto have_been_enqueuedhave_been_enqueued..exactlyexactly((:once:once))
+
+33..timestimes {{ HelloJobHelloJob..perform_laterperform_later }}
+expectexpect((HelloJobHelloJob))..toto have_been_enqueuedhave_been_enqueued..at_leastat_least((22))..timestimes
+
+HelloJobHelloJob..perform_laterperform_later
+expectexpect((HelloJobHelloJob))..toto enqueue_jobenqueue_job((HelloJobHelloJob))..at_mostat_most((:twice:twice))
+
+HelloJobHelloJob..perform_laterperform_later
+HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+expectexpect((HelloJobHelloJob))..toto have_been_enqueuedhave_been_enqueued
+expectexpect((HeavyLiftingJobHeavyLiftingJob))..toto have_been_enqueuedhave_been_enqueued
+
+HelloJobHelloJob..setset((wait_until:wait_until: DateDate..tomorrowtomorrow..noonnoon,, queue:queue: ""lowlow"""low"))..perform_laterperform_later((4242))
+expectexpect((HelloJobHelloJob))..toto have_been_enqueuedhave_been_enqueued..withwith((4242))..on_queueon_queue((""lowlow"""low"))..atat((DateDate..tomorrowtomorrow..noonnoon))
+
+HelloJobHelloJob..setset((queue:queue: ""lowlow"""low"))..perform_laterperform_later((4242))
+expectexpect((HelloJobHelloJob))..toto have_been_enqueuedhave_been_enqueued..withwith((4242))..on_queueon_queue((""lowlow"""low"))..atat((:no_wait:no_wait))before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+    Examples:
+    
+      
+      before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+
+
+
+  
+    
+      
+
+
+303
+304
+305
+306
+
+
+303
+304
+305
+306
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303# File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+defdef have_been_enqueuedhave_been_enqueued
+  check_active_job_adaptercheck_active_job_adapter
+  ActiveJobActiveJob::::HaveBeenEnqueuedHaveBeenEnqueued..newnew
+endend# File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+
+  
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+
+
+  
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+
+
+
+  
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect {{
+  HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+}}..toto have_enqueued_jobhave_enqueued_job
+
+# Using alias
+# Using alias
+expectexpect {{
+  HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+}}..toto enqueue_jobenqueue_job
+
+expectexpect {{
+  HelloJobHelloJob..perform_laterperform_later
+  HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+}}..toto have_enqueued_jobhave_enqueued_job((HelloJobHelloJob))..exactlyexactly((:once:once))
+
+expectexpect {{
+  33..timestimes {{ HelloJobHelloJob..perform_laterperform_later }}
+}}..toto have_enqueued_jobhave_enqueued_job((HelloJobHelloJob))..at_leastat_least((22))..timestimes
+
+expectexpect {{
+  HelloJobHelloJob..perform_laterperform_later
+}}..toto have_enqueued_jobhave_enqueued_job((HelloJobHelloJob))..at_mostat_most((:twice:twice))
+
+expectexpect {{
+  HelloJobHelloJob..perform_laterperform_later
+  HeavyLiftingJobHeavyLiftingJob..perform_laterperform_later
+}}..toto have_enqueued_jobhave_enqueued_job((HelloJobHelloJob))..andand have_enqueued_jobhave_enqueued_job((HeavyLiftingJobHeavyLiftingJob))
+
+expectexpect {{
+  HelloJobHelloJob..setset((wait_until:wait_until: DateDate..tomorrowtomorrow..noonnoon,, queue:queue: ""lowlow"""low"))..perform_laterperform_later((4242))
+}}..toto have_enqueued_jobhave_enqueued_job..withwith((4242))..on_queueon_queue((""lowlow"""low"))..atat((DateDate..tomorrowtomorrow..noonnoon))
+
+expectexpect {{
+  HelloJobHelloJob..setset((queue:queue: ""lowlow"""low"))..perform_laterperform_later((4242))
+}}..toto have_enqueued_jobhave_enqueued_job..withwith((4242))..on_queueon_queue((""lowlow"""low"))..atat((:no_wait:no_wait))
+
+expectexpect {{
+  HelloJobHelloJob..perform_laterperform_later((''rspec_railsrspec_rails'''rspec_rails',, ''railsrails'''rails',, 4242))
+}}..toto have_enqueued_jobhave_enqueued_job..withwith {{ ||fromfrom,, toto,, timestimes||
+  # Perform more complex argument matching using dynamic arguments
+# Perform more complex argument matching using dynamic arguments
+  expectexpect((fromfrom))..toto includeinclude ""__#{#{toto}}"""_#{to}"
+}}expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+    Examples:
+    
+      
+      expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+
+
+
+  
+    
+      
+
+
+268
+269
+270
+271
+
+
+268
+269
+270
+271
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268# File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+defdef have_enqueued_jobhave_enqueued_job((jobjob == nilnil))
+  check_active_job_adaptercheck_active_job_adapter
+  ActiveJobActiveJob::::HaveEnqueuedJobHaveEnqueuedJob..newnew((jobjob))
+endend# File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+
+  
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+
+
+  
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+
+
+
+  
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))
+
+# Using alias
+# Using alias
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+}}..toto enqueue_mailenqueue_mail((MyMailerMyMailer,, :welcome:welcome))
+
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))..withwith((useruser))
+
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))..at_leastat_least((:once:once))
+
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))..at_mostat_most((:twice:twice))
+
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later((wait_until:wait_until: DateDate..tomorrowtomorrow..noonnoon))
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))..atat((DateDate..tomorrowtomorrow..noonnoon))
+
+expectexpect {{
+  MyMailerMyMailer..welcomewelcome((useruser))..deliver_laterdeliver_later((queue:queue: :urgent_mail:urgent_mail))
+}}..toto have_enqueued_mailhave_enqueued_mail((MyMailerMyMailer,, :welcome:welcome))..on_queueon_queue((:urgent_mail:urgent_mail))expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+    Examples:
+    
+      
+      expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+
+
+166
+167
+168
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166# File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+defdef have_enqueued_mailhave_enqueued_mail((mailer_classmailer_class,, mail_method_namemail_method_name))
+  HaveEnqueuedMailHaveEnqueuedMail..newnew((mailer_classmailer_class,, mail_method_namemail_method_name))
+endend# File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+
+
+  
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if responseresponse has a matching HTTP status code.Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODERack::Utils::SYMBOL_TO_STATUS_CODERack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponseActionDispatch::TestResponse aliases:
+
+
+:error:error:error
+:missing:missing:missing
+:redirect:redirect:redirect
+:success:success:success
+
+:error
+:missing
+:redirect
+:success
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+    Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+
+  
+    Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+        Accepts numeric and symbol statusesAccepts numeric and symbol statuses
+Accepts numeric and symbol statuses
+
+      
+      expectexpect((responseresponse))..toto have_http_statushave_http_status((404404))
+expectexpect((responseresponse))..toto have_http_statushave_http_status((:created:created))
+expectexpect((responseresponse))..toto have_http_statushave_http_status((:success:success))
+expectexpect((responseresponse))..toto have_http_statushave_http_status((:error:error))
+expectexpect((responseresponse))..toto have_http_statushave_http_status((:missing:missing))
+expectexpect((responseresponse))..toto have_http_statushave_http_status((:redirect:redirect))expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard responseresponse objects and Capybara's pagepageWorks with standard response objects and Capybara's page
+Works with standard response objects and Capybara's page
+
+      
+      expectexpect((responseresponse))..toto have_http_statushave_http_status((404404))
+expectexpect((pagepage))..toto     have_http_statushave_http_status((:created:created))expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+    Examples:
+    
+      
+        Accepts numeric and symbol statuses
+
+      
+      expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard response objects and Capybara's page
+
+      
+      expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+
+Raises:Raises:
+
+  
+    
+      
+      
+        (ArgumentErrorArgumentError)(ArgumentError)
+      
+      
+      
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      `ActionDispatch::TestResponse``ActionDispatch::TestResponse``ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE``Rack::Utils::SYMBOL_TO_STATUS_CODE``Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+    
+      `ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Accepts numeric and symbol statuses
+
+      
+      expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard response objects and Capybara's page
+
+      
+      expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      `ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+    
+      
+
+
+375
+376
+377
+378
+
+
+375
+376
+377
+378
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375# File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+defdef have_http_statushave_http_status((targettarget))
+  raiseraise ArgumentErrorArgumentError,, ""Invalid HTTP status: nilInvalid HTTP status: nil"""Invalid HTTP status: nil" unlessunless targettarget
+  HaveHttpStatusHaveHttpStatus..matcher_for_statusmatcher_for_status((targettarget))
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+
+  
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+
+
+  
+  
+    Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Accepts numeric and symbol statuses
+
+      
+      expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard response objects and Capybara's page
+
+      
+      expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      `ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if actual returns true for new_record?.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      thing = Thing.new
+expect(thing).to be_valid
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+
+
+
+  
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+
+
+
+  
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Accepts numeric and symbol statuses
+
+      
+      expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard response objects and Capybara's page
+
+      
+      expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      `ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::Matchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers.rb
+
+  
+  
+
+
+Overview
+  
+    Container module for Rails specific matchers.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ActiveJob, HaveHttpStatus, RedirectTo, RenderTemplate, RoutingMatchers
+    
+  
+    
+      Classes: BaseMatcher, BeANew
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual is an instance of model_class and returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if actual returns true for new_record?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if a job has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if an email has been enqueued inside block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if response has a matching HTTP status code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Passes if actual is an instance of model_class and returns true for
+new_record?. Typically used to specify instance variables assigned to
+views by controller actions
+
+Use the with method to specify the specific attributes to match on the
+new record.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+assigns(:thing).should be_a_new(Thing)
+
+post :create, :thing => { :name => "Illegal Value" }
+assigns(:thing).should be_a_new(Thing).with(:name => nil)
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 78
+
+def be_a_new(model_class)
+  BeANew.new(model_class)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if actual returns true for new_record?.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      get :new
+expect(assigns(:thing)).to be_new_record
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/be_new_record.rb', line 25
+
+def be_new_record
+  BeANewRecord.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if the given model instance's valid? method is true, meaning
+all of the ActiveModel::Validations passed and no errors exist. If a
+message is not given, a default message is shown listing each error.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      thing = Thing.new
+expect(thing).to be_valid
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/matchers/be_valid.rb', line 44
+
+def be_valid(*args)
+  BeValid.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      before { ActiveJob::Base.queue_adapter.enqueued_jobs.clear }
+
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HeavyLiftingJob).to have_been_enqueued.exactly(:once)
+
+3.times { HelloJob.perform_later }
+expect(HelloJob).to have_been_enqueued.at_least(2).times
+
+HelloJob.perform_later
+expect(HelloJob).to enqueue_job(HelloJob).at_most(:twice)
+
+HelloJob.perform_later
+HeavyLiftingJob.perform_later
+expect(HelloJob).to have_been_enqueued
+expect(HeavyLiftingJob).to have_been_enqueued
+
+HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+HelloJob.set(queue: "low").perform_later(42)
+expect(HelloJob).to have_been_enqueued.with(42).on_queue("low").at(:no_wait)
+    
+  
+
+
+
+  
+    
+      
+
+
+303
+304
+305
+306
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 303
+
+def have_been_enqueued
+  check_active_job_adapter
+  ActiveJob::HaveBeenEnqueued.new
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if a job has been enqueued inside block. May chain at_least, at_most or exactly to specify a number of times.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job
+
+# Using alias
+expect {
+  HeavyLiftingJob.perform_later
+}.to enqueue_job
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).exactly(:once)
+
+expect {
+  3.times { HelloJob.perform_later }
+}.to have_enqueued_job(HelloJob).at_least(2).times
+
+expect {
+  HelloJob.perform_later
+}.to have_enqueued_job(HelloJob).at_most(:twice)
+
+expect {
+  HelloJob.perform_later
+  HeavyLiftingJob.perform_later
+}.to have_enqueued_job(HelloJob).and have_enqueued_job(HeavyLiftingJob)
+
+expect {
+  HelloJob.set(wait_until: Date.tomorrow.noon, queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(Date.tomorrow.noon)
+
+expect {
+  HelloJob.set(queue: "low").perform_later(42)
+}.to have_enqueued_job.with(42).on_queue("low").at(:no_wait)
+
+expect {
+  HelloJob.perform_later('rspec_rails', 'rails', 42)
+}.to have_enqueued_job.with { |from, to, times|
+  # Perform more complex argument matching using dynamic arguments
+  expect(from).to include "_#{to}"
+}
+    
+  
+
+
+
+  
+    
+      
+
+
+268
+269
+270
+271
+    
+    
+      # File 'lib/rspec/rails/matchers/active_job.rb', line 268
+
+def have_enqueued_job(job = nil)
+  check_active_job_adapter
+  ActiveJob::HaveEnqueuedJob.new(job)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if an email has been enqueued inside block.
+May chain with to specify expected arguments.
+May chain at_least, at_most or exactly to specify a number of times.
+May chain at to specify a send time.
+May chain on_queue to specify a queue.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome)
+
+# Using alias
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to enqueue_mail(MyMailer, :welcome)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).with(user)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_least(:once)
+
+expect {
+  MyMailer.welcome(user).deliver_later
+}.to have_enqueued_mail(MyMailer, :welcome).at_most(:twice)
+
+expect {
+  MyMailer.welcome(user).deliver_later(wait_until: Date.tomorrow.noon)
+}.to have_enqueued_mail(MyMailer, :welcome).at(Date.tomorrow.noon)
+
+expect {
+  MyMailer.welcome(user).deliver_later(queue: :urgent_mail)
+}.to have_enqueued_mail(MyMailer, :welcome).on_queue(:urgent_mail)
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/matchers/have_enqueued_mail.rb', line 166
+
+def have_enqueued_mail(mailer_class, mail_method_name)
+  HaveEnqueuedMail.new(mailer_class, mail_method_name)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Passes if response has a matching HTTP status code.
+
+The following symbolic status codes are allowed:
+
+
+Rack::Utils::SYMBOL_TO_STATUS_CODE
+One of the defined ActionDispatch::TestResponse aliases:
+
+
+:error
+:missing
+:redirect
+:success
+
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        Accepts numeric and symbol statuses
+
+      
+      expect(response).to have_http_status(404)
+expect(response).to have_http_status(:created)
+expect(response).to have_http_status(:success)
+expect(response).to have_http_status(:error)
+expect(response).to have_http_status(:missing)
+expect(response).to have_http_status(:redirect)
+    
+      
+        Works with standard response objects and Capybara's page
+
+      
+      expect(response).to have_http_status(404)
+expect(page).to     have_http_status(:created)
+    
+  
+
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+  See Also:
+  
+    
+      `ActionDispatch::TestResponse`
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+    
+      
+
+
+375
+376
+377
+378
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 375
+
+def have_http_status(target)
+  raise ArgumentError, "Invalid HTTP status: nil" unless target
+  HaveHttpStatus.matcher_for_status(target)
+end
+    
+  
+
+
+    
+  
+

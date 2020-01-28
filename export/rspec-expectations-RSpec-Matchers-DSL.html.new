@@ -1,0 +1,2781 @@
+Module: RSpec::Matchers::DSL
+  
+  
+  
+Module: RSpec::Matchers::DSL
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    RSpec::MatchersRSpec::Matchers
+  
+    Included in:
+    RSpec::Matchers
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/dsl.rblib/rspec/matchers/dsl.rb
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Matchers
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+OverviewOverview
+  
+    Defines the custom matcher DSL.Defines the custom matcher DSL.
+
+
+  
+    Defines the custom matcher DSL.
+
+
+  
+
+  
+    Defines the custom matcher DSL.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: DefaultImplementations, Macros
+    
+  
+    
+      Classes:Classes: Matcher
+    
+  
+
+  
+    
+      Modules: DefaultImplementations, Macros
+    
+  
+    
+      Classes: Matcher
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a matcher alias.Defines a matcher alias.
+Defines a matcher alias.
+Defines a matcher alias.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a matcher alias.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a custom matcher.Defines a custom matcher.
+Defines a custom matcher.
+Defines a custom matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a custom matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a negated matcher.Defines a negated matcher.
+Defines a negated matcher.
+Defines a negated matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a negated matcher.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a matcher alias.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a custom matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a negated matcher.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Defines a matcher alias. The returned matcher's descriptiondescription will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+    Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+
+  
+    Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec::::MatchersMatchers..alias_matcheralias_matcher :a_list_that_sums_to:a_list_that_sums_to,, :sum_to:sum_to
+sum_tosum_to((33))..descriptiondescription # => "sum to 3"
+# => "sum to 3"
+a_list_that_sums_toa_list_that_sums_to((33))..descriptiondescription # => "a list that sums to 3"# => "a list that sums to 3"RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpecRSpec::::MatchersMatchers..alias_matcheralias_matcher :a_list_sorted_by:a_list_sorted_by,, :be_sorted_by:be_sorted_by dodo ||descriptiondescription||
+  descriptiondescription..subsub((""be sorted bybe sorted by"""be sorted by",, ""a list sorted bya list sorted by"""a list sorted by"))
+endend
+
+be_sorted_bybe_sorted_by((:age:age))..descriptiondescription # => "be sorted by age"
+# => "be sorted by age"
+a_list_sorted_bya_list_sorted_by((:age:age))..descriptiondescription # => "a list sorted by age"# => "a list sorted by age"RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+    Examples:
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        new_namenew_name
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        the new name for the matcherthe new name for the matcher
+the new name for the matcher
+
+      
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_nameold_name
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        the original name for the matcherthe original name for the matcher
+the original name for the matcher
+
+      
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        options for the aliased matcheroptions for the aliased matcher
+options for the aliased matcher
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+  
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (optionsoptions):Options Hash (options):
+    
+      
+        
+          :klass:klass
+          (ClassClass)(Class)
+          
+            
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).the ruby class to use as the decorator. (Not normally used).
+the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+      
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::MatchersRSpec::Matchers
+    
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+Parameters:
+
+  
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30# File 'lib/rspec/matchers/dsl.rb', line 30
+
+defdef alias_matcheralias_matcher((new_namenew_name,, old_nameold_name,, optionsoptions=={{}},, &&description_overridedescription_override))
+  description_overridedescription_override ||=||= lambdalambda dodo ||old_descold_desc||
+    old_descold_desc..gsubgsub((EnglishPhrasingEnglishPhrasing..split_wordssplit_words((old_nameold_name)),, EnglishPhrasingEnglishPhrasing..split_wordssplit_words((new_namenew_name))))
+  endend
+  klassklass == optionsoptions..fetchfetch((:klass:klass)) {{ AliasedMatcherAliasedMatcher }}
+
+  define_methoddefine_method((new_namenew_name)) dodo ||**argsargs,, &&blockblock||
+    matchermatcher == __send____send__((old_nameold_name,, **argsargs,, &&blockblock))
+    matchermatcher..matcher_namematcher_name == new_namenew_name ifif matchermatcher..respond_to?respond_to?((:matcher_name=:matcher_name=))
+    klassklass..newnew((matchermatcher,, description_overridedescription_override))
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+
+
+  
+  
+    Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+Parameters:
+
+  
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a custom matcher.Defines a custom matcher.
+
+
+  
+    Defines a custom matcher.
+
+
+  
+
+  
+    Defines a custom matcher.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        namename
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        the name for the matcherthe name for the matcher
+the name for the matcher
+
+      
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+  
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::MatchersRSpec::Matchers
+    
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+
+
+70
+71
+72
+73
+74
+75
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70# File 'lib/rspec/matchers/dsl.rb', line 70
+
+defdef definedefine((namename,, &&declarationsdeclarations))
+  warn_about_block_argswarn_about_block_args((namename,, declarationsdeclarations))
+  define_methoddefine_method namename dodo ||**expectedexpected,, &&block_argblock_arg||
+    RSpecRSpec::::MatchersMatchers::::DSLDSL::::MatcherMatcher..newnew((namename,, declarationsdeclarations,, selfself,, **expectedexpected,, &&block_argblock_arg))
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+
+
+  
+  
+    Defines a custom matcher.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a negated matcher. The returned matcher's descriptiondescription and failure_messagefailure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+    Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+
+  
+    Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec::::MatchersMatchers..define_negated_matcherdefine_negated_matcher :exclude:exclude,, :include:include
+includeinclude((11,, 22))..descriptiondescription # => "include 1 and 2"
+# => "include 1 and 2"
+excludeexclude((11,, 22))..descriptiondescription # => "exclude 1 and 2"# => "exclude 1 and 2"RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+    Examples:
+    
+      
+      RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        negated_namenegated_name
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        the name for the negated matcherthe name for the negated matcher
+the name for the negated matcher
+
+      
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_namebase_name
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negatedthe name of the original matcher that will be negated
+the name of the original matcher that will be negated
+
+      
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+  
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::MatchersRSpec::Matchers
+    
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+Parameters:
+
+  
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+
+
+58
+59
+60
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58# File 'lib/rspec/matchers/dsl.rb', line 58
+
+defdef define_negated_matcherdefine_negated_matcher((negated_namenegated_name,, base_namebase_name,, &&description_overridedescription_override))
+  alias_matcheralias_matcher((negated_namenegated_name,, base_namebase_name,, :klass:klass =>=> AliasedNegatedMatcherAliasedNegatedMatcher,, &&description_overridedescription_override))
+endend# File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+
+
+  
+  
+    Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+Parameters:
+
+  
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+Parameters:
+
+  
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a custom matcher.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+Parameters:
+
+  
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::DSL
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Matchers
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+Overview
+  
+    Defines the custom matcher DSL.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: DefaultImplementations, Macros
+    
+  
+    
+      Classes: Matcher
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a matcher alias.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a custom matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defines a negated matcher.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Defines a matcher alias. The returned matcher's description will be overriden
+to reflect the phrasing of the new name, which will be used in failure messages
+when passed as an argument to another matcher in a composed matcher expression.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_that_sums_to, :sum_to
+sum_to(3).description # => "sum to 3"
+a_list_that_sums_to(3).description # => "a list that sums to 3"
+    
+      
+      RSpec::Matchers.alias_matcher :a_list_sorted_by, :be_sorted_by do |description|
+  description.sub("be sorted by", "a list sorted by")
+end
+
+be_sorted_by(:age).description # => "be sorted by age"
+a_list_sorted_by(:age).description # => "a list sorted by age"
+    
+  
+Parameters:
+
+  
+    
+      
+        new_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the new name for the matcher
+
+      
+    
+  
+    
+      
+        old_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the original name for the matcher
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        options for the aliased matcher
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :klass
+          (Class)
+          
+            
+          
+          
+            — the ruby class to use as the decorator. (Not normally used).
+
+          
+        
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 30
+
+def alias_matcher(new_name, old_name, options={}, &description_override)
+  description_override ||= lambda do |old_desc|
+    old_desc.gsub(EnglishPhrasing.split_words(old_name), EnglishPhrasing.split_words(new_name))
+  end
+  klass = options.fetch(:klass) { AliasedMatcher }
+
+  define_method(new_name) do |*args, &block|
+    matcher = __send__(old_name, *args, &block)
+    matcher.matcher_name = new_name if matcher.respond_to?(:matcher_name=)
+    klass.new(matcher, description_override)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a custom matcher.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the matcher
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        block that is used to define the matcher.
+The block is evaluated in the context of your custom matcher class.
+When args are passed to your matcher, they will be yielded here,
+usually representing the expected value(s).
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 70
+
+def define(name, &declarations)
+  warn_about_block_args(name, declarations)
+  define_method name do |*expected, &block_arg|
+    RSpec::Matchers::DSL::Matcher.new(name, declarations, self, *expected, &block_arg)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Defines a negated matcher. The returned matcher's description and failure_message
+will be overriden to reflect the phrasing of the new name, and the match logic will
+be based on the original matcher but negated.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec::Matchers.define_negated_matcher :exclude, :include
+include(1, 2).description # => "include 1 and 2"
+exclude(1, 2).description # => "exclude 1 and 2"
+    
+  
+Parameters:
+
+  
+    
+      
+        negated_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name for the negated matcher
+
+      
+    
+  
+    
+      
+        base_name
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        the name of the original matcher that will be negated
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional block that, when given, is used to define the overriden
+logic. The yielded arg is the original description or failure message. If no
+block is provided, a default override is used based on the old and new names.
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 58
+
+def define_negated_matcher(negated_name, base_name, &description_override)
+  alias_matcher(negated_name, base_name, :klass => AliasedNegatedMatcher, &description_override)
+end
+    
+  
+
+
+    
+  
+

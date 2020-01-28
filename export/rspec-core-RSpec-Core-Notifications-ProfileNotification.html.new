@@ -1,0 +1,3832 @@
+Class: RSpec::Core::Notifications::ProfileNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::ProfileNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Notifications::ProfileNotificationRSpec::Core::Notifications::ProfileNotification
+          
+        
+          Object
+          
+            RSpec::Core::Notifications::ProfileNotification
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ProfileNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ProfileNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ProfileNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    The ProfileNotificationProfileNotification holds information about the results of running a
+test suite when profiling is enabled. It is used by formatters to provide
+information at the end of the test run for profiling information.The ProfileNotification holds information about the results of running a
+test suite when profiling is enabled. It is used by formatters to provide
+information at the end of the test run for profiling information.
+
+
+  
+    The ProfileNotification holds information about the results of running a
+test suite when profiling is enabled. It is used by formatters to provide
+information at the end of the test run for profiling information.
+
+
+  
+
+  
+    The ProfileNotification holds information about the results of running a
+test suite when profiling is enabled. It is used by formatters to provide
+information at the end of the test run for profiling information.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.the time taken (in seconds) to run the suite.
+the time taken (in seconds) to run the suite.
+the time taken (in seconds) to run the suite.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    example groups run.example groups run.
+example groups run.
+example groups run.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    example groups run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.the examples run.
+the examples run.
+the examples run.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of examples to profile.the number of examples to profile.
+the number of examples to profile.
+the number of examples to profile.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of examples to profile.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    example groups run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of examples to profile.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ProfileNotification.A new instance of ProfileNotification.
+A new instance of ProfileNotification.
+A new instance of ProfileNotification.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ProfileNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The percentage of total time taken.The percentage of total time taken.
+The percentage of total time taken.
+The percentage of total time taken.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The percentage of total time taken.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The time taken (in seconds) to run the slowest examples.The time taken (in seconds) to run the slowest examples.
+The time taken (in seconds) to run the slowest examples.
+The time taken (in seconds) to run the slowest examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The time taken (in seconds) to run the slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest examples.The slowest examples.
+The slowest examples.
+The slowest examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest example groups.The slowest example groups.
+The slowest example groups.
+The slowest example groups.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest example groups.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ProfileNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The percentage of total time taken.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The time taken (in seconds) to run the slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest example groups.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ProfileNotification.Returns a new instance of ProfileNotification.
+
+
+  
+    Returns a new instance of ProfileNotification.
+
+
+  
+
+  
+    Returns a new instance of ProfileNotification.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+
+
+428
+429
+430
+431
+432
+433
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428# File 'lib/rspec/core/notifications.rb', line 428
+
+defdef initializeinitialize((durationduration,, examplesexamples,, number_of_examplesnumber_of_examples,, example_groupsexample_groups))
+  @duration@duration == durationduration
+  @examples@examples == examplesexamples
+  @number_of_examples@number_of_examples == number_of_examplesnumber_of_examples
+  @example_groups@example_groups == example_groupsexample_groups
+endend# File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of ProfileNotification.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ProfileNotification.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suitethe time taken (in seconds) to run the suite
+
+
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        the current value of durationthe current value of duration
+the current value of duration
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+
+
+427
+428
+429
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427# File 'lib/rspec/core/notifications.rb', line 427
+
+defdef durationduration
+  @duration@duration
+endend# File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+
+
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    example groups runexample groups run
+
+
+  
+    example groups run
+
+
+  
+
+  
+    example groups run
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<>Array<RSpec::Core::Profiler>)(Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groupsthe current value of example_groups
+the current value of example_groups
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+
+
+427
+428
+429
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427# File 'lib/rspec/core/notifications.rb', line 427
+
+defdef example_groupsexample_groups
+  @example_groups@example_groups
+endend# File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+
+
+  
+  
+    example groups run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples runthe examples run
+
+
+  
+    the examples run
+
+
+  
+
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examplesthe current value of examples
+the current value of examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+
+
+427
+428
+429
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427# File 'lib/rspec/core/notifications.rb', line 427
+
+defdef examplesexamples
+  @examples@examples
+endend# File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+
+
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of examples to profilethe number of examples to profile
+
+
+  
+    the number of examples to profile
+
+
+  
+
+  
+    the number of examples to profile
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examplesthe current value of number_of_examples
+the current value of number_of_examples
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+
+
+427
+428
+429
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427# File 'lib/rspec/core/notifications.rb', line 427
+
+defdef number_of_examplesnumber_of_examples
+  @number_of_examples@number_of_examples
+endend# File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+
+
+  
+  
+    the number of examples to profile
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    example groups run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of examples to profile
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns the percentage of total time taken.Returns the percentage of total time taken.
+
+
+  
+    Returns the percentage of total time taken.
+
+
+  
+
+  
+    Returns the percentage of total time taken.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the percentage of total time takenthe percentage of total time taken
+the percentage of total time taken
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453# File 'lib/rspec/core/notifications.rb', line 453
+
+defdef percentagepercentage
+  @percentage@percentage ||=||=
+    beginbegin
+      time_takentime_taken == slow_durationslow_duration // durationduration
+      ''%.1f%.1f'''%.1f' %% ((((time_takentime_taken..nan?nan? ?? 0.00.0 :: time_takentime_taken)) ** 100100))
+    endend
+endend# File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+
+
+  
+  
+    Returns the percentage of total time taken.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the time taken (in seconds) to run the slowest examples.Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+    Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+
+  
+    Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examplesthe time taken (in seconds) to run the slowest examples
+the time taken (in seconds) to run the slowest examples
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+
+
+445
+446
+447
+448
+449
+450
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445# File 'lib/rspec/core/notifications.rb', line 445
+
+defdef slow_durationslow_duration
+  @slow_duration@slow_duration ||=||=
+    slowest_examplesslowest_examples..injectinject((0.00.0)) dodo ||ii,, ee||
+      ii ++ ee..execution_resultexecution_result..run_timerun_time
+    endend
+endend# File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+
+
+  
+  
+    Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest examples.Returns the slowest examples.
+
+
+  
+    Returns the slowest examples.
+
+
+  
+
+  
+    Returns the slowest examples.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examplesthe slowest examples
+the slowest examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+
+
+437
+438
+439
+440
+441
+442
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437# File 'lib/rspec/core/notifications.rb', line 437
+
+defdef slowest_examplesslowest_examples
+  @slowest_examples@slowest_examples ||=||=
+    examplesexamples..sort_bysort_by dodo ||exampleexample||
+      --exampleexample..execution_resultexecution_result..run_timerun_time
+    endend..firstfirst((number_of_examplesnumber_of_examples))
+endend# File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+
+
+  
+  
+    Returns the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest example groups.Returns the slowest example groups.
+
+
+  
+    Returns the slowest example groups.
+
+
+  
+
+  
+    Returns the slowest example groups.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groupsthe slowest example groups
+the slowest example groups
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+
+
+462
+463
+464
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462# File 'lib/rspec/core/notifications.rb', line 462
+
+defdef slowest_groupsslowest_groups
+  @slowest_groups@slowest_groups ||=||= calculate_slowest_groupscalculate_slowest_groups
+endend# File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+
+
+  
+  
+    Returns the slowest example groups.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the percentage of total time taken.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest example groups.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::ProfileNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Notifications::ProfileNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    The ProfileNotification holds information about the results of running a
+test suite when profiling is enabled. It is used by formatters to provide
+information at the end of the test run for profiling information.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    example groups run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of examples to profile.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ProfileNotification.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The percentage of total time taken.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The time taken (in seconds) to run the slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The slowest example groups.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ProfileNotification.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+428
+429
+430
+431
+432
+433
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 428
+
+def initialize(duration, examples, number_of_examples, example_groups)
+  @duration = duration
+  @examples = examples
+  @number_of_examples = number_of_examples
+  @example_groups = example_groups
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    example groups run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Profiler>)
+      
+      
+      
+        —
+        the current value of example_groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def example_groups
+  @example_groups
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of examples to profile
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of number_of_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 427
+
+def number_of_examples
+  @number_of_examples
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the percentage of total time taken.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the percentage of total time taken
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+453
+454
+455
+456
+457
+458
+459
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 453
+
+def percentage
+  @percentage ||=
+    begin
+      time_taken = slow_duration / duration
+      '%.1f' % ((time_taken.nan? ? 0.0 : time_taken) * 100)
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the time taken (in seconds) to run the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the time taken (in seconds) to run the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+445
+446
+447
+448
+449
+450
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 445
+
+def slow_duration
+  @slow_duration ||=
+    slowest_examples.inject(0.0) do |i, e|
+      i + e.execution_result.run_time
+    end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+437
+438
+439
+440
+441
+442
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 437
+
+def slowest_examples
+  @slowest_examples ||=
+    examples.sort_by do |example|
+      -example.execution_result.run_time
+    end.first(number_of_examples)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the slowest example groups.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the slowest example groups
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+462
+463
+464
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 462
+
+def slowest_groups
+  @slowest_groups ||= calculate_slowest_groups
+end
+    
+  
+
+
+    
+  
+

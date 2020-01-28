@@ -1,0 +1,713 @@
+Module: RSpec::Rails::FeatureExampleGroup
+  
+  
+  
+Module: RSpec::Rails::FeatureExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:Includes:
+      RailsExampleGroupRailsExampleGroup
+  
+      Includes:
+      RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/feature_example_group.rblib/rspec/rails/example/feature_example_group.rb
+  
+    Defined in:
+    lib/rspec/rails/example/feature_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/feature_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Container module for routing spec functionality.Container module for routing spec functionality.
+
+
+  
+    Container module for routing spec functionality.
+
+
+  
+
+  
+    Container module for routing spec functionality.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        DEFAULT_HOST =
+          
+  
+    Default host to be used in Rails route helpers if none is specified.Default host to be used in Rails route helpers if none is specified.
+
+
+  
+    Default host to be used in Rails route helpers if none is specified.
+
+
+  
+
+  
+    Default host to be used in Rails route helpers if none is specified.
+
+
+  
+
+
+  
+
+
+  
+
+
+        DEFAULT_HOST =
+          
+  
+    Default host to be used in Rails route helpers if none is specified.
+
+
+  
+
+
+  
+
+
+        
+        ""www.example.comwww.example.com"""www.example.com""www.example.com""www.example.com"
+      
+    
+      
+        DEFAULT_HOST =
+          
+  
+    Default host to be used in Rails route helpers if none is specified.
+
+
+  
+
+
+  
+
+
+        
+        "www.example.com"
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Shim to check for presence of Capybara.Shim to check for presence of Capybara.
+Shim to check for presence of Capybara.
+Shim to check for presence of Capybara.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Shim to check for presence of Capybara.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Shim to check for presence of Capybara.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visitvisit will be the first
+Capybara method called in a spec.Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27# File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+defdef visitvisit((**))
+  ifif defined?defined?((supersuper))
+    supersuper
+  elseelse
+    raiseraise ""Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\"Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""""Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  endend
+endend# File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+
+
+  
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::FeatureExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/feature_example_group.rb
+  
+  
+
+
+Overview
+  
+    Container module for routing spec functionality.
+
+
+  
+
+
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        DEFAULT_HOST =
+          
+  
+    Default host to be used in Rails route helpers if none is specified.
+
+
+  
+
+
+  
+
+
+        
+        "www.example.com"
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Shim to check for presence of Capybara.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Shim to check for presence of Capybara. Will delegate if present, raise
+if not. We assume here that in most cases visit will be the first
+Capybara method called in a spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/feature_example_group.rb', line 27
+
+def visit(*)
+  if defined?(super)
+    super
+  else
+    raise "Capybara not loaded, please add it to your Gemfile:\n\ngem \"capybara\""
+  end
+end
+    
+  
+
+
+    
+  
+

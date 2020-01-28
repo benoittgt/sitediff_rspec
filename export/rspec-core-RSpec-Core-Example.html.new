@@ -1,0 +1,9181 @@
+Class: RSpec::Core::Example
+  
+  
+  
+Class: RSpec::Core::Example
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::ExampleRSpec::Core::Example
+          
+        
+          Object
+          
+            RSpec::Core::Example
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/example.rblib/rspec/core/example.rb
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  
+    Note:Note:
+    Example blocks are evaluated in the context of an instance
+of an ExampleGroupExampleGroup, not in the context of an instance of ExampleExample.Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+
+  
+    Note:
+    Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+
+  
+
+Wrapper for an instance of a subclass of ExampleGroup. An instance of
+RSpec::Core::ExampleRSpec::Core::Example is returned by example definition methods
+such as it and is yielded to the it,
+before, after, around,
+let and
+subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of
+RSpec::Core::Example is returned by example definition methods
+such as it and is yielded to the it,
+before, after, around,
+let and
+subject blocks.
+
+This allows us to provide rich metadata about each individual
+example without adding tons of methods directly to the ExampleGroup
+that users may inadvertently redefine.This allows us to provide rich metadata about each individual
+example without adding tons of methods directly to the ExampleGroup
+that users may inadvertently redefine.
+
+Useful for configuring logging and/or taking some action based
+on the state of an example's metadata.Useful for configuring logging and/or taking some action based
+on the state of an example's metadata.
+
+
+  
+    
+  
+    Note:
+    Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+
+  
+
+Wrapper for an instance of a subclass of ExampleGroup. An instance of
+RSpec::Core::Example is returned by example definition methods
+such as it and is yielded to the it,
+before, after, around,
+let and
+subject blocks.
+
+This allows us to provide rich metadata about each individual
+example without adding tons of methods directly to the ExampleGroup
+that users may inadvertently redefine.
+
+Useful for configuring logging and/or taking some action based
+on the state of an example's metadata.
+
+
+  
+
+  
+    
+  
+    Note:
+    Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+
+  
+
+Wrapper for an instance of a subclass of ExampleGroup. An instance of
+RSpec::Core::Example is returned by example definition methods
+such as it and is yielded to the it,
+before, after, around,
+let and
+subject blocks.
+
+This allows us to provide rich metadata about each individual
+example without adding tons of methods directly to the ExampleGroup
+that users may inadvertently redefine.
+
+Useful for configuring logging and/or taking some action based
+on the state of an example's metadata.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..configureconfigure dodo ||configconfig||
+  configconfig..beforebefore dodo ||exampleexample||
+    loglog exampleexample..descriptiondescription
+  endend
+
+  configconfig..afterafter dodo ||exampleexample||
+    loglog exampleexample..descriptiondescription
+  endend
+
+  configconfig..aroundaround dodo ||exampleexample||
+    loglog exampleexample..descriptiondescription
+    exampleexample..runrun
+  endend
+endend
+
+shared_examplesshared_examples ""auditableauditable"""auditable" dodo
+  itit ""does somethingdoes something"""does something" dodo
+    loglog ""#{#{exampleexample..full_descriptionfull_description}}: : #{#{auditableauditable..inspectinspect}}"""#{example.full_description}: #{auditable.inspect}"
+    auditableauditable..shouldshould do_somethingdo_something
+  endend
+endend
+RSpec.configure do |config|
+  config.before do |example|
+    log example.description
+  end
+
+  config.after do |example|
+    log example.description
+  end
+
+  config.around do |example|
+    log example.description
+    example.run
+  end
+end
+
+shared_examples "auditable" do
+  it "does something" do
+    log "#{example.full_description}: #{auditable.inspect}"
+    auditable.should do_something
+  end
+end
+RSpec.configure do |config|
+  config.before do |example|
+    log example.description
+  end
+
+  config.after do |example|
+    log example.description
+  end
+
+  config.around do |example|
+    log example.description
+    example.run
+  end
+end
+
+shared_examples "auditable" do
+  it "does something" do
+    log "#{example.full_description}: #{auditable.inspect}"
+    auditable.should do_something
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |config|
+  config.before do |example|
+    log example.description
+  end
+
+  config.after do |example|
+    log example.description
+  end
+
+  config.around do |example|
+    log example.description
+    example.run
+  end
+end
+
+shared_examples "auditable" do
+  it "does something" do
+    log "#{example.full_description}: #{auditable.inspect}"
+    auditable.should do_something
+  end
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      ExampleGroupExampleGroup
+    
+  
+    
+      ExampleGroup
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |config|
+  config.before do |example|
+    log example.description
+  end
+
+  config.after do |example|
+    log example.description
+  end
+
+  config.around do |example|
+    log example.description
+    example.run
+  end
+end
+
+shared_examples "auditable" do
+  it "does something" do
+    log "#{example.full_description}: #{auditable.inspect}"
+    auditable.should do_something
+  end
+end
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup
+    
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+  
+    
+      Classes:Classes: ExecutionResult, Procsy
+    
+  
+
+  
+    
+  
+    
+      Classes: ExecutionResult, Procsy
+    
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).Returns the first exception raised in the context of running this example (nil if no exception is raised).
+Returns the first exception raised in the context of running this example (nil if no exception is raised).
+Returns the first exception raised in the context of running this example (nil if no exception is raised).
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the metadata object associated with this example.Returns the metadata object associated with this example.
+Returns the metadata object associated with this example.
+Returns the metadata object associated with this example.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the metadata object associated with this example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The current reporter for the example.The current reporter for the example.
+The current reporter for the example.
+The current reporter for the example.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The current reporter for the example.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the metadata object associated with this example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The current reporter for the example.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the string submitted to exampleexample or its aliases (e.g. specifyspecify, itit, etc).Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Duplicates the example and overrides metadata with the provided hash.Duplicates the example and overrides metadata with the provided hash.
+Duplicates the example and overrides metadata with the provided hash.
+Duplicates the example and overrides metadata with the provided hash.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Duplicates the example and overrides metadata with the provided hash.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the example group class that provides the context for running this example.Returns the example group class that provides the context for running this example.
+Returns the example group class that provides the context for running this example.
+Returns the example group class that provides the context for running this example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the example group class that provides the context for running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Represents the result of running this example.Represents the result of running this example.
+Represents the result of running this example.
+Represents the result of running this example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Represents the result of running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The relative path to the file where this example was defined.The relative path to the file where this example was defined.
+The relative path to the file where this example was defined.
+The relative path to the file where this example was defined.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The relative path to the file where this example was defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The full description (including the docstrings of all parent example groups).The full description (including the docstrings of all parent example groups).
+The full description (including the docstrings of all parent example groups).
+The full description (including the docstrings of all parent example groups).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The full description (including the docstrings of all parent example groups).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The unique id of this example.The unique id of this example.
+The unique id of this example.
+The unique id of this example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The unique id of this example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Creates a new instance of Example.Creates a new instance of Example.
+Creates a new instance of Example.
+Creates a new instance of Example.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    Creates a new instance of Example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provide a human-readable representation of this class.Provide a human-readable representation of this class.
+Provide a human-readable representation of this class.
+Provide a human-readable representation of this class.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provide a human-readable representation of this class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns a description of the example that always includes the location.Returns a description of the example that always includes the location.
+Returns a description of the example that always includes the location.
+Returns a description of the example that always includes the location.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns a description of the example that always includes the location.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17.The exact source location of this example in a form like ./path/to/spec.rb:17.
+The exact source location of this example in a form like ./path/to/spec.rb:17.
+The exact source location of this example in a form like ./path/to/spec.rb:17.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The exact source location of this example in a form like ./path/to/spec.rb:17.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that indicates that the example is not expected to pass.Flag that indicates that the example is not expected to pass.
+Flag that indicates that the example is not expected to pass.
+Flag that indicates that the example is not expected to pass.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that indicates that the example is not expected to pass.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.
+Use #location_rerun_argument instead.
+Deprecated. Use #location_rerun_argument instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that will cause the example to not run.Flag that will cause the example to not run.
+Flag that will cause the example to not run.
+Flag that will cause the example to not run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that will cause the example to not run.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Duplicates the example and overrides metadata with the provided hash.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the example group class that provides the context for running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Represents the result of running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The relative path to the file where this example was defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The full description (including the docstrings of all parent example groups).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The unique id of this example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    Creates a new instance of Example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provide a human-readable representation of this class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns a description of the example that always includes the location.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The exact source location of this example in a form like ./path/to/spec.rb:17.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that indicates that the example is not expected to pass.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that will cause the example to not run.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.Creates a new instance of Example.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        example_group_classexample_group_class
+      
+      
+        (ClassClass)(Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declaredthe subclass of ExampleGroup in which
+this Example is declared
+the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        descriptiondescription
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the String passed to the itit method (or
+alias)the String passed to the it method (or
+alias)
+the String passed to the it method (or
+alias)
+
+      
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadatauser_metadata
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        additional args passed to itit to be used as
+metadataadditional args passed to it to be used as
+metadata
+additional args passed to it to be used as
+metadata
+
+      
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_blockexample_block
+      
+      
+        (ProcProc)(Proc)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+examplethe block of code that represents the
+example
+the block of code that represents the
+example
+
+      
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+  
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186# File 'lib/rspec/core/example.rb', line 186
+
+defdef initializeinitialize((example_group_classexample_group_class,, descriptiondescription,, user_metadatauser_metadata,, example_blockexample_block==nilnil))
+  @example_group_class@example_group_class == example_group_classexample_group_class
+  @example_block@example_block       == example_blockexample_block
+
+  # Register the example with the group before creating the metadata hash.
+# Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+# This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+# `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+# load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+# examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+# support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+# Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+# not be applied where they should.
+  example_group_classexample_group_class..examplesexamples <<<< selfself
+
+  @metadata@metadata == MetadataMetadata::::ExampleHashExampleHash..createcreate((
+    @example_group_class@example_group_class..metadatametadata,, user_metadatauser_metadata,,
+    example_group_classexample_group_class..methodmethod((:next_runnable_index_for:next_runnable_index_for)),,
+    descriptiondescription,, example_blockexample_block
+  ))
+
+  configconfig == RSpecRSpec..configurationconfiguration
+  configconfig..apply_derived_metadata_toapply_derived_metadata_to((@metadata@metadata))
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+# This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+# but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+# want to keep it that way. It's easier to just assign it here.
+  @metadata@metadata[[:last_run_status:last_run_status]] == configconfig..last_run_statuseslast_run_statuses[[idid]]
+
+  @example_group_instance@example_group_instance == @exception@exception == nilnil
+  @clock@clock == RSpecRSpec::::CoreCore::::TimeTime
+  @reporter@reporter == RSpecRSpec::::CoreCore::::NullReporterNullReporter
+endend# File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+158
+159
+160
+
+
+158
+159
+160
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158# File 'lib/rspec/core/example.rb', line 158
+
+defdef exceptionexception
+  @exception@exception
+endend# File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+
+
+  
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the metadata object associated with this example.Returns the metadata object associated with this example.
+
+
+  
+    Returns the metadata object associated with this example.
+
+
+  
+
+  
+    Returns the metadata object associated with this example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+163
+164
+165
+
+
+163
+164
+165
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163# File 'lib/rspec/core/example.rb', line 163
+
+defdef metadatametadata
+  @metadata@metadata
+endend# File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+
+
+  
+  
+    Returns the metadata object associated with this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the current reporter for the example.Returns the current reporter for the example.
+
+
+  
+    Returns the current reporter for the example.
+
+
+  
+
+  
+    Returns the current reporter for the example.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ReporterRSpec::Core::Reporter)(RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the examplethe current reporter for the example
+the current reporter for the example
+
+      
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+226
+227
+228
+
+
+226
+227
+228
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226# File 'lib/rspec/core/example.rb', line 226
+
+defdef reporterreporter
+  @reporter@reporter
+endend# File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+
+  
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+  
+  
+    Returns the current reporter for the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the metadata object associated with this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the current reporter for the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns the string submitted to exampleexample or its aliases (e.g.
+specifyspecify, itit, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+    Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+
+  
+    Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76# File 'lib/rspec/core/example.rb', line 76
+
+defdef descriptiondescription
+  descriptiondescription == ifif metadatametadata[[:description:description]]..to_sto_s..empty?empty?
+                  location_descriptionlocation_description
+                elseelse
+                  metadatametadata[[:description:description]]
+                endend
+
+  RSpecRSpec..configurationconfiguration..format_docstrings_blockformat_docstrings_block..callcall((descriptiondescription))
+endend# File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+
+
+  
+  
+    Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Duplicates the example and overrides metadata with the provided
+hash.Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+    Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+
+  
+    Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        metadata_overridesmetadata_overrides
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        the hash to override the example metadatathe hash to override the example metadata
+the hash to override the example metadata
+
+      
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+  
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (ExampleExample)(Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadataa duplicate of the example with modified metadata
+a duplicate of the example with modified metadata
+
+      
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132# File 'lib/rspec/core/example.rb', line 132
+
+defdef duplicate_withduplicate_with((metadata_overridesmetadata_overrides=={{}}))
+  new_metadatanew_metadata == metadatametadata..cloneclone..mergemerge((metadata_overridesmetadata_overrides))
+
+  RSpecRSpec::::CoreCore::::MetadataMetadata::::RESERVED_KEYSRESERVED_KEYS..eacheach dodo ||reserved_keyreserved_key||
+    new_metadatanew_metadata..deletedelete reserved_keyreserved_key
+  endend
+
+  # don't clone the example group because the new example
+# don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+# must belong to the same example group (not a clone).
+  #
+#
+  # block is nil in new_metadata so we have to get it from metadata.
+# block is nil in new_metadata so we have to get it from metadata.
+  ExampleExample..newnew((example_groupexample_group,, descriptiondescription..cloneclone,,
+              new_metadatanew_metadata,, metadatametadata[[:block:block]]))
+endend# File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+
+
+  
+  
+    Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the example group class that provides the context for running
+this example.Returns the example group class that provides the context for running
+this example.
+
+
+  
+    Returns the example group class that provides the context for running
+this example.
+
+
+  
+
+  
+    Returns the example group class that provides the context for running
+this example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+230
+231
+232
+
+
+230
+231
+232
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230# File 'lib/rspec/core/example.rb', line 230
+
+defdef example_groupexample_group
+  @example_group_class@example_group_class
+endend# File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+
+  
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+
+
+  
+  
+    Returns the example group class that provides the context for running
+this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns represents the result of running this example.Returns represents the result of running this example.
+
+
+  
+    Returns represents the result of running this example.
+
+
+  
+
+  
+    Returns represents the result of running this example.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ExecutionResultExecutionResult)(ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.represents the result of running this example.
+represents the result of running this example.
+
+      
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+53
+
+
+53
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53# File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadatadelegate_to_metadata :execution_result:execution_result# File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+
+  
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+
+
+  
+  
+    Returns represents the result of running this example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+
+
+    
+      
+  
+  
+    Returns the relative path to the file where this example was
+defined.Returns the relative path to the file where this example was
+defined.
+
+
+  
+    Returns the relative path to the file where this example was
+defined.
+
+
+  
+
+  
+    Returns the relative path to the file where this example was
+defined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.the relative path to the file where this example was
+defined.
+the relative path to the file where this example was
+defined.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+56
+
+
+56
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56# File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadatadelegate_to_metadata :file_path:file_path# File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+
+  
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+
+
+  
+  
+    Returns the relative path to the file where this example was
+defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+
+
+    
+      
+  
+  
+    Returns the full description (including the docstrings of
+all parent example groups).Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+    Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+
+  
+    Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).the full description (including the docstrings of
+all parent example groups).
+the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+
+
+59
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59# File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadatadelegate_to_metadata :full_description:full_description# File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+
+  
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+
+
+  
+  
+    Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+
+
+    
+      
+  
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.the unique id of this example. Pass
+this at the command line to re-run this exact example.
+the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+
+
+117
+118
+119
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117# File 'lib/rspec/core/example.rb', line 117
+
+defdef idid
+  @id@id ||=||= MetadataMetadata..id_fromid_from((metadatametadata))
+endend# File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+
+
+  
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provide a human-readable representation of this classProvide a human-readable representation of this class
+
+
+  
+    Provide a human-readable representation of this class
+
+
+  
+
+  
+    Provide a human-readable representation of this class
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+220
+221
+222
+
+
+220
+221
+222
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220# File 'lib/rspec/core/example.rb', line 220
+
+defdef inspectinspect
+  ""#<#<#{#{selfself..classclass..namename}}  #{#{descriptiondescription..inspectinspect}}>>"""#<#{self.class.name} #{description.inspect}>"
+endend# File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+
+  
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+
+
+  
+  
+    Provide a human-readable representation of this class
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a description of the example that always includes the location.Returns a description of the example that always includes the location.
+
+
+  
+    Returns a description of the example that always includes the location.
+
+
+  
+
+  
+    Returns a description of the example that always includes the location.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87# File 'lib/rspec/core/example.rb', line 87
+
+defdef inspect_outputinspect_output
+  inspect_outputinspect_output == ""\"\"#{#{descriptiondescription}}\"\""""\"#{description}\""
+  unlessunless metadatametadata[[:description:description]]..to_sto_s..empty?empty?
+    inspect_outputinspect_output +=+= "" ( (#{#{locationlocation}}))""" (#{location})"
+  endend
+  inspect_outputinspect_output
+endend# File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+
+
+  
+  
+    Returns a description of the example that always includes the location.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17./path/to/spec.rb:17.Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17./path/to/spec.rb:17the exact source location of this example in a form
+like ./path/to/spec.rb:17
+the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+
+
+62
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62# File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadatadelegate_to_metadata :location:location# File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+
+  
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+
+
+  
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+
+
+    
+      
+  
+  
+    Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96# File 'lib/rspec/core/example.rb', line 96
+
+defdef location_rerun_argumentlocation_rerun_argument
+  @location_rerun_argument@location_rerun_argument ||=||= beginbegin
+    loaded_spec_filesloaded_spec_files == RSpecRSpec..configurationconfiguration..loaded_spec_filesloaded_spec_files
+
+    MetadataMetadata..ascendingascending((metadatametadata)) dodo ||metameta||
+      returnreturn metameta[[:location:location]] ifif loaded_spec_filesloaded_spec_files..include?include?((metameta[[:absolute_file_path:absolute_file_path]]))
+    endend
+  endend
+endend# File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+
+
+66
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66# File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadatadelegate_to_metadata :pending:pending# File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+
+  
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+
+
+  
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.
+Use #location_rerun_argument instead.
+Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111# File 'lib/rspec/core/example.rb', line 111
+
+defdef rerun_argumentrerun_argument
+  location_rerun_argumentlocation_rerun_argument
+endend# File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        example_group_instanceexample_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclassthe instance of an ExampleGroup subclass
+the instance of an ExampleGroup subclass
+
+      
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+  
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241# File 'lib/rspec/core/example.rb', line 241
+
+defdef runrun((example_group_instanceexample_group_instance,, reporterreporter))
+  @example_group_instance@example_group_instance == example_group_instanceexample_group_instance
+  @reporter@reporter == reporterreporter
+  RSpecRSpec..configurationconfiguration..configure_exampleconfigure_example((selfself,, hookshooks))
+  RSpecRSpec..current_examplecurrent_example == selfself
+
+  startstart((reporterreporter))
+  PendingPending..mark_pending!mark_pending!((selfself,, pendingpending)) ifif pending?pending?
+
+  beginbegin
+    ifif skipped?skipped?
+      PendingPending..mark_pending!mark_pending! selfself,, skipskip
+    elsifelsif !!RSpecRSpec..configurationconfiguration..dry_run?dry_run?
+      with_around_and_singleton_context_hookswith_around_and_singleton_context_hooks dodo
+        beginbegin
+          run_before_examplerun_before_example
+          @example_group_instance@example_group_instance..instance_execinstance_exec((selfself,, &&@example_block@example_block))
+
+          ifif pending?pending?
+            PendingPending..mark_fixed!mark_fixed! selfself
+
+            raiseraise PendingPending::::PendingExampleFixedErrorPendingExampleFixedError,,
+                  ''Expected example to fail since it is pending, but it passed.Expected example to fail since it is pending, but it passed.'''Expected example to fail since it is pending, but it passed.',,
+                  [[locationlocation]]
+          endend
+        rescuerescue PendingPending::::SkipDeclaredInExampleSkipDeclaredInExample =>=> __
+          # The "=> _" is normally useless but on JRuby it is a workaround
+# The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+# for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+# https://github.com/jruby/jruby/issues/4467
+          #
+#
+          # no-op, required metadata has already been set by the `skip`
+# no-op, required metadata has already been set by the `skip`
+          # method.
+# method.
+        rescuerescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowItAllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt =>=> ee
+          set_exceptionset_exception((ee))
+        ensureensure
+          run_after_examplerun_after_example
+        endend
+      endend
+    endend
+  rescuerescue SupportSupport::::AllExceptionsExceptOnesWeMustNotRescueAllExceptionsExceptOnesWeMustNotRescue =>=> ee
+    set_exceptionset_exception((ee))
+  ensureensure
+    @example_group_instance@example_group_instance == nilnil # if you love something... let it go
+# if you love something... let it go
+  endend
+
+  finishfinish((reporterreporter))
+ensureensure
+  execution_resultexecution_result..ensure_timing_setensure_timing_set((clockclock))
+  RSpecRSpec..current_examplecurrent_example == nilnil
+endend# File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending:pending.Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending:pending.flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+
+
+69
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69# File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadatadelegate_to_metadata :skip:skip# File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+
+  
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+
+
+  
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the example group class that provides the context for running
+this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns represents the result of running this example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+
+
+    
+      
+  
+  
+    Returns the relative path to the file where this example was
+defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+
+
+    
+      
+  
+  
+    Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+
+
+    
+      
+  
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provide a human-readable representation of this class
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a description of the example that always includes the location.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+
+
+    
+      
+  
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Example
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+Overview
+  
+    
+  
+    Note:
+    Example blocks are evaluated in the context of an instance
+of an ExampleGroup, not in the context of an instance of Example.
+
+  
+
+Wrapper for an instance of a subclass of ExampleGroup. An instance of
+RSpec::Core::Example is returned by example definition methods
+such as it and is yielded to the it,
+before, after, around,
+let and
+subject blocks.
+
+This allows us to provide rich metadata about each individual
+example without adding tons of methods directly to the ExampleGroup
+that users may inadvertently redefine.
+
+Useful for configuring logging and/or taking some action based
+on the state of an example's metadata.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |config|
+  config.before do |example|
+    log example.description
+  end
+
+  config.after do |example|
+    log example.description
+  end
+
+  config.around do |example|
+    log example.description
+    example.run
+  end
+end
+
+shared_examples "auditable" do
+  it "does something" do
+    log "#{example.full_description}: #{auditable.inspect}"
+    auditable.should do_something
+  end
+end
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup
+    
+  
+
+Defined Under Namespace
+
+  
+    
+  
+    
+      Classes: ExecutionResult, Procsy
+    
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the metadata object associated with this example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The current reporter for the example.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Duplicates the example and overrides metadata with the provided hash.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the example group class that provides the context for running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Represents the result of running this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The relative path to the file where this example was defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The full description (including the docstrings of all parent example groups).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The unique id of this example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    Creates a new instance of Example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provide a human-readable representation of this class.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns a description of the example that always includes the location.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The exact source location of this example in a form like ./path/to/spec.rb:17.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that indicates that the example is not expected to pass.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    instance_execs the block passed to the constructor in the context of the instance of ExampleGroup.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Flag that will cause the example to not run.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Creates a new instance of Example.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_class
+      
+      
+        (Class)
+      
+      
+      
+        —
+        the subclass of ExampleGroup in which
+this Example is declared
+
+      
+    
+  
+    
+      
+        description
+      
+      
+        (String)
+      
+      
+      
+        —
+        the String passed to the it method (or
+alias)
+
+      
+    
+  
+    
+      
+        user_metadata
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        additional args passed to it to be used as
+metadata
+
+      
+    
+  
+    
+      
+        example_block
+      
+      
+        (Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        the block of code that represents the
+example
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+    
+    
+      # File 'lib/rspec/core/example.rb', line 186
+
+def initialize(example_group_class, description, user_metadata, example_block=nil)
+  @example_group_class = example_group_class
+  @example_block       = example_block
+
+  # Register the example with the group before creating the metadata hash.
+  # This is necessary since creating the metadata hash triggers
+  # `when_first_matching_example_defined` callbacks, in which users can
+  # load RSpec support code which defines hooks. For that to work, the
+  # examples and example groups must be registered at the time the
+  # support code is called or be defined afterwards.
+  # Begin defined beforehand but registered afterwards causes hooks to
+  # not be applied where they should.
+  example_group_class.examples << self
+
+  @metadata = Metadata::ExampleHash.create(
+    @example_group_class.metadata, user_metadata,
+    example_group_class.method(:next_runnable_index_for),
+    description, example_block
+  )
+
+  config = RSpec.configuration
+  config.apply_derived_metadata_to(@metadata)
+
+  # This should perhaps be done in `Metadata::ExampleHash.create`,
+  # but the logic there has no knowledge of `RSpec.world` and we
+  # want to keep it that way. It's easier to just assign it here.
+  @metadata[:last_run_status] = config.last_run_statuses[id]
+
+  @example_group_instance = @exception = nil
+  @clock = RSpec::Core::Time
+  @reporter = RSpec::Core::NullReporter
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the first exception raised in the context of running this
+example (nil if no exception is raised).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/example.rb', line 158
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the metadata object associated with this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/example.rb', line 163
+
+def metadata
+  @metadata
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the current reporter for the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Reporter)
+      
+      
+      
+        —
+        the current reporter for the example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+226
+227
+228
+    
+    
+      # File 'lib/rspec/core/example.rb', line 226
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the string submitted to example or its aliases (e.g.
+specify, it, etc). If no string is submitted (e.g.
+it { is_expected.to do_something }) it returns the message generated
+by the matcher if there is one, otherwise returns a message including
+the location of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/core/example.rb', line 76
+
+def description
+  description = if metadata[:description].to_s.empty?
+                  location_description
+                else
+                  metadata[:description]
+                end
+
+  RSpec.configuration.format_docstrings_block.call(description)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Duplicates the example and overrides metadata with the provided
+hash.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        metadata_overrides
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        the hash to override the example metadata
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        a duplicate of the example with modified metadata
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+    
+    
+      # File 'lib/rspec/core/example.rb', line 132
+
+def duplicate_with(metadata_overrides={})
+  new_metadata = metadata.clone.merge(metadata_overrides)
+
+  RSpec::Core::Metadata::RESERVED_KEYS.each do |reserved_key|
+    new_metadata.delete reserved_key
+  end
+
+  # don't clone the example group because the new example
+  # must belong to the same example group (not a clone).
+  #
+  # block is nil in new_metadata so we have to get it from metadata.
+  Example.new(example_group, description.clone,
+              new_metadata, metadata[:block])
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the example group class that provides the context for running
+this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+230
+231
+232
+    
+    
+      # File 'lib/rspec/core/example.rb', line 230
+
+def example_group
+  @example_group_class
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns represents the result of running this example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (ExecutionResult)
+      
+      
+      
+        —
+        represents the result of running this example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+53
+    
+    
+      # File 'lib/rspec/core/example.rb', line 53
+
+delegate_to_metadata :execution_result
+    
+  
+
+
+    
+      
+  
+  
+    Returns the relative path to the file where this example was
+defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the relative path to the file where this example was
+defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+56
+    
+    
+      # File 'lib/rspec/core/example.rb', line 56
+
+delegate_to_metadata :file_path
+    
+  
+
+
+    
+      
+  
+  
+    Returns the full description (including the docstrings of
+all parent example groups).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the full description (including the docstrings of
+all parent example groups).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+    
+    
+      # File 'lib/rspec/core/example.rb', line 59
+
+delegate_to_metadata :full_description
+    
+  
+
+
+    
+      
+  
+  
+    Returns the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the unique id of this example. Pass
+this at the command line to re-run this exact example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/example.rb', line 117
+
+def id
+  @id ||= Metadata.id_from(metadata)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provide a human-readable representation of this class
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+220
+221
+222
+    
+    
+      # File 'lib/rspec/core/example.rb', line 220
+
+def inspect
+  "#<#{self.class.name} #{description.inspect}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a description of the example that always includes the location.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+87
+88
+89
+90
+91
+92
+93
+    
+    
+      # File 'lib/rspec/core/example.rb', line 87
+
+def inspect_output
+  inspect_output = "\"#{description}\""
+  unless metadata[:description].to_s.empty?
+    inspect_output += " (#{location})"
+  end
+  inspect_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the exact source location of this example in a form
+like ./path/to/spec.rb:17.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the exact source location of this example in a form
+like ./path/to/spec.rb:17
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+62
+    
+    
+      # File 'lib/rspec/core/example.rb', line 62
+
+delegate_to_metadata :location
+    
+  
+
+
+    
+      
+  
+  
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+    
+    
+      # File 'lib/rspec/core/example.rb', line 96
+
+def location_rerun_argument
+  @location_rerun_argument ||= begin
+    loaded_spec_files = RSpec.configuration.loaded_spec_files
+
+    Metadata.ascending(metadata) do |meta|
+      return meta[:location] if loaded_spec_files.include?(meta[:absolute_file_path])
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that indicates that the example is not expected
+to pass. It will be run and will either have a pending result (if a
+failure occurs) or a failed result (if no failure occurs).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+    
+    
+      # File 'lib/rspec/core/example.rb', line 66
+
+delegate_to_metadata :pending
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use #location_rerun_argument instead.
+
+
+  
+    Note:
+    If there are multiple examples identified by this location, they will use #id
+to rerun instead, but this method will still return the location (that's why it is deprecated!).
+
+  
+
+Returns the location-based argument that can be passed to the rspec command to rerun this example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/example.rb', line 111
+
+def rerun_argument
+  location_rerun_argument
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+instance_execs the block passed to the constructor in the context of
+the instance of RSpec::Core::ExampleGroup.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_group_instance
+      
+      
+        
+      
+      
+      
+        —
+        the instance of an ExampleGroup subclass
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+    
+    
+      # File 'lib/rspec/core/example.rb', line 241
+
+def run(example_group_instance, reporter)
+  @example_group_instance = example_group_instance
+  @reporter = reporter
+  RSpec.configuration.configure_example(self, hooks)
+  RSpec.current_example = self
+
+  start(reporter)
+  Pending.mark_pending!(self, pending) if pending?
+
+  begin
+    if skipped?
+      Pending.mark_pending! self, skip
+    elsif !RSpec.configuration.dry_run?
+      with_around_and_singleton_context_hooks do
+        begin
+          run_before_example
+          @example_group_instance.instance_exec(self, &@example_block)
+
+          if pending?
+            Pending.mark_fixed! self
+
+            raise Pending::PendingExampleFixedError,
+                  'Expected example to fail since it is pending, but it passed.',
+                  [location]
+          end
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
+          # for a bug that prevents us from getting backtraces:
+          # https://github.com/jruby/jruby/issues/4467
+          #
+          # no-op, required metadata has already been set by the `skip`
+          # method.
+        rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
+          set_exception(e)
+        ensure
+          run_after_example
+        end
+      end
+    end
+  rescue Support::AllExceptionsExceptOnesWeMustNotRescue => e
+    set_exception(e)
+  ensure
+    @example_group_instance = nil # if you love something... let it go
+  end
+
+  finish(reporter)
+ensure
+  execution_result.ensure_timing_set(clock)
+  RSpec.current_example = nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        flag that will cause the example to not run.
+The ExecutionResult status will be :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+69
+    
+    
+      # File 'lib/rspec/core/example.rb', line 69
+
+delegate_to_metadata :skip
+    
+  
+
+
+    
+  
+

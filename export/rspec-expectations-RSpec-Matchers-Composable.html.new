@@ -1,0 +1,3564 @@
+Module: RSpec::Matchers::Composable
+  
+  
+  
+Module: RSpec::Matchers::Composable
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    BuiltIn::BaseMatcher, BuiltIn::RaiseError, BuiltIn::ThrowSymbol, DSL::MatcherBuiltIn::BaseMatcher, BuiltIn::RaiseError, BuiltIn::ThrowSymbol, DSL::Matcher
+  
+    Included in:
+    BuiltIn::BaseMatcher, BuiltIn::RaiseError, BuiltIn::ThrowSymbol, DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/composable.rblib/rspec/matchers/composable.rb
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    BuiltIn::BaseMatcher, BuiltIn::RaiseError, BuiltIn::ThrowSymbol, DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+
+OverviewOverview
+  
+    Mixin designed to support the composable matcher features
+of RSpec 3+. Mix it into your custom matcher classes to
+allow them to be used in a composable fashion.Mixin designed to support the composable matcher features
+of RSpec 3+. Mix it into your custom matcher classes to
+allow them to be used in a composable fashion.
+
+
+  
+    Mixin designed to support the composable matcher features
+of RSpec 3+. Mix it into your custom matcher classes to
+allow them to be used in a composable fashion.
+
+
+  
+
+  
+    Mixin designed to support the composable matcher features
+of RSpec 3+. Mix it into your custom matcher classes to
+allow them to be used in a composable fashion.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+  
+    
+      Classes:Classes: DescribableItem
+    
+  
+
+  
+    
+  
+    
+      Classes: DescribableItem
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    We should enumerate arrays as long as they are not recursive.We should enumerate arrays as long as they are not recursive.
+We should enumerate arrays as long as they are not recursive.
+We should enumerate arrays as long as they are not recursive.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    We should enumerate arrays as long as they are not recursive.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect#inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect#inspect output.Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    We should enumerate arrays as long as they are not recursive.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to #matches?#matches?.Delegates to #matches?.
+Delegates to #matches?.
+Delegates to #matches?.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to #matches?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound andand expectation.Creates a compound and expectation.
+Creates a compound and expectation.
+Creates a compound and expectation.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound and expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the description of the given object in a way that is aware of composed matchers.Returns the description of the given object in a way that is aware of composed matchers.
+Returns the description of the given object in a way that is aware of composed matchers.
+Returns the description of the given object in a way that is aware of composed matchers.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the description of the given object in a way that is aware of composed matchers.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound oror expectation.Creates a compound or expectation.
+Creates a compound or expectation.
+Creates a compound or expectation.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound or expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This provides a generic way to fuzzy-match an expected value against an actual value.This provides a generic way to fuzzy-match an expected value against an actual value.
+This provides a generic way to fuzzy-match an expected value against an actual value.
+This provides a generic way to fuzzy-match an expected value against an actual value.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This provides a generic way to fuzzy-match an expected value against an actual value.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to #matches?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound and expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the description of the given object in a way that is aware of composed matchers.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound or expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This provides a generic way to fuzzy-match an expected value against an actual value.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.We should enumerate arrays as long as they are not recursive.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+142
+143
+144
+
+
+142
+143
+144
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142# File 'lib/rspec/matchers/composable.rb', line 142
+
+defdef should_enumerate?should_enumerate?((itemitem))
+  ArrayArray ====== itemitem &&&& itemitem..none?none? {{ ||subitemsubitem|| subitemsubitem..equal?equal?((itemitem)) }}
+endend# File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+
+  
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect#inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect#inspect output.Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+descriptiondescription, failure_messagefailure_message or
+failure_message_when_negatedfailure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98# File 'lib/rspec/matchers/composable.rb', line 98
+
+defdef surface_descriptions_insurface_descriptions_in((itemitem))
+  ifif MatchersMatchers..is_a_describable_matcher?is_a_describable_matcher?((itemitem))
+    DescribableItemDescribableItem..newnew((itemitem))
+  elsifelsif HashHash ====== itemitem
+    HashHash[[surface_descriptions_insurface_descriptions_in((itemitem..to_ato_a))]]
+  elsifelsif StructStruct ====== itemitem |||| unreadable_io?unreadable_io?((itemitem))
+    RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..formatformat((itemitem))
+  elsifelsif should_enumerate?should_enumerate?((itemitem))
+    itemitem..mapmap {{ ||subitemsubitem|| surface_descriptions_insurface_descriptions_in((subitemsubitem)) }}
+  elseelse
+    itemitem
+  endend
+endend# File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+
+
+  
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147# File 'lib/rspec/matchers/composable.rb', line 147
+
+defdef unreadable_io?unreadable_io?((objectobject))
+  returnreturn falsefalse unlessunless IOIO ====== objectobject
+  objectobject..eacheach {{}} # STDOUT is enumerable but raises an error
+# STDOUT is enumerable but raises an error
+  falsefalse
+rescuerescue IOErrorIOError
+  truetrue
+endend# File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Delegates to #matches?#matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+    Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+
+  
+    Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+
+
+45
+46
+47
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45# File 'lib/rspec/matchers/composable.rb', line 45
+
+defdef ======((valuevalue))
+  matches?matches?((valuevalue))
+endend# File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+
+
+  
+  
+    Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    The negative form (expect(...).not_to matcher.and otherexpect(...).not_to matcher.and other)
+is not supported at this time.The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound andand expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((alphabetalphabet))..toto start_withstart_with((""aa"""a"))..andand end_withend_with((""zz"""z"))
+expectexpect((alphabetalphabet))..toto start_withstart_with((""aa"""a")) && end_withend_with((""zz"""z"))expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+    Examples:
+    
+      
+      expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+
+
+22
+23
+24
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22# File 'lib/rspec/matchers/composable.rb', line 22
+
+defdef andand((matchermatcher))
+  BuiltInBuiltIn::::CompoundCompound::::AndAnd..newnew selfself,, matchermatcher
+endend# File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a descriptiondescription method, returns the description; otherwise
+returns object.inspectobject.inspect.Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+descriptiondescription, failure_messagefailure_message or
+failure_message_when_negatedfailure_message_when_negated implementation if you are
+supporting matcher arguments.You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+82
+83
+84
+
+
+82
+83
+84
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82# File 'lib/rspec/matchers/composable.rb', line 82
+
+defdef description_ofdescription_of((objectobject))
+  RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..formatformat((objectobject))
+endend# File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+
+
+  
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    The negative form (expect(...).not_to matcher.or otherexpect(...).not_to matcher.or other)
+is not supported at this time.The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound oror expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((stoplightstoplight..colorcolor))..toto eqeq((""redred"""red"))..oror eqeq((""greengreen"""green"))..oror eqeq((""yellowyellow"""yellow"))
+expectexpect((stoplightstoplight..colorcolor))..toto eqeq((""redred"""red")) || eqeq((""greengreen"""green")) || eqeq((""yellowyellow"""yellow"))expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+    Examples:
+    
+      
+      expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+
+
+38
+39
+40
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38# File 'lib/rspec/matchers/composable.rb', line 38
+
+defdef oror((matchermatcher))
+  BuiltInBuiltIn::::CompoundCompound::::OrOr..newnew selfself,, matchermatcher
+endend# File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eqeq matcher does notdoes not use this as it is meant to
+use ==== (and only ====) for matching.Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        expectedexpected
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        what is expectedwhat is expected
+what is expected
+
+      
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actualactual
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the actual valuethe actual value
+the actual value
+
+      
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+  
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+67
+68
+69
+
+
+66
+67
+68
+69
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66# File 'lib/rspec/matchers/composable.rb', line 66
+
+defdef values_match?values_match?((expectedexpected,, actualactual))
+  expectedexpected == with_matchers_clonedwith_matchers_cloned((expectedexpected))
+  SupportSupport::::FuzzyMatcherFuzzyMatcher..values_match?values_match?((expectedexpected,, actualactual))
+endend# File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+
+  
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+
+
+  
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::Composable
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    BuiltIn::BaseMatcher, BuiltIn::RaiseError, BuiltIn::ThrowSymbol, DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+
+Overview
+  
+    Mixin designed to support the composable matcher features
+of RSpec 3+. Mix it into your custom matcher classes to
+allow them to be used in a composable fashion.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+  
+    
+      Classes: DescribableItem
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    We should enumerate arrays as long as they are not recursive.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to #matches?.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound and expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the description of the given object in a way that is aware of composed matchers.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Creates a compound or expectation.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This provides a generic way to fuzzy-match an expected value against an actual value.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+We should enumerate arrays as long as they are not recursive.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 142
+
+def should_enumerate?(item)
+  Array === item && item.none? { |subitem| subitem.equal?(item) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Transforms the given data structue (typically a hash or array)
+into a new data structure that, when #inspect is called on it,
+will provide descriptions of any contained matchers rather than
+the normal #inspect output.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting any arguments which may be a data structure
+containing matchers.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 98
+
+def surface_descriptions_in(item)
+  if Matchers.is_a_describable_matcher?(item)
+    DescribableItem.new(item)
+  elsif Hash === item
+    Hash[surface_descriptions_in(item.to_a)]
+  elsif Struct === item || unreadable_io?(item)
+    RSpec::Support::ObjectFormatter.format(item)
+  elsif should_enumerate?(item)
+    item.map { |subitem| surface_descriptions_in(subitem) }
+  else
+    item
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+147
+148
+149
+150
+151
+152
+153
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 147
+
+def unreadable_io?(object)
+  return false unless IO === object
+  object.each {} # STDOUT is enumerable but raises an error
+  false
+rescue IOError
+  true
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to #matches?. Allows matchers to be used in composable
+fashion and also supports using matchers in case statements.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 45
+
+def ===(value)
+  matches?(value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.and other)
+is not supported at this time.
+
+  
+
+Creates a compound and expectation. The matcher will
+only pass if both sub-matchers pass.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(alphabet).to start_with("a").and end_with("z")
+expect(alphabet).to start_with("a") & end_with("z")
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 22
+
+def and(matcher)
+  BuiltIn::Compound::And.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the description of the given object in a way that is
+aware of composed matchers. If the object is a matcher with
+a description method, returns the description; otherwise
+returns object.inspect.
+
+You are encouraged to use this in your custom matcher's
+description, failure_message or
+failure_message_when_negated implementation if you are
+supporting matcher arguments.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+82
+83
+84
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 82
+
+def description_of(object)
+  RSpec::Support::ObjectFormatter.format(object)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The negative form (expect(...).not_to matcher.or other)
+is not supported at this time.
+
+  
+
+Creates a compound or expectation. The matcher will
+pass if either sub-matcher passes.
+This can be chained together to form an arbitrarily long
+chain of matchers.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(stoplight.color).to eq("red").or eq("green").or eq("yellow")
+expect(stoplight.color).to eq("red") | eq("green") | eq("yellow")
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 38
+
+def or(matcher)
+  BuiltIn::Compound::Or.new self, matcher
+end
+    
+  
+
+
+    
+      
+  
+  
+    This provides a generic way to fuzzy-match an expected value against
+an actual value. It understands nested data structures (e.g. hashes
+and arrays) and is able to match against a matcher being used as
+the expected value or within the expected value at any level of
+nesting.
+
+Within a custom matcher you are encouraged to use this whenever your
+matcher needs to match two values, unless it needs more precise semantics.
+For example, the eq matcher does not use this as it is meant to
+use == (and only ==) for matching.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        expected
+      
+      
+        (Object)
+      
+      
+      
+        —
+        what is expected
+
+      
+    
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the actual value
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+66
+67
+68
+69
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 66
+
+def values_match?(expected, actual)
+  expected = with_matchers_cloned(expected)
+  Support::FuzzyMatcher.values_match?(expected, actual)
+end
+    
+  
+
+
+    
+  
+

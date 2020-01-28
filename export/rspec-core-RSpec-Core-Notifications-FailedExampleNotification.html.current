@@ -1,0 +1,4103 @@
+Class: RSpec::Core::Notifications::FailedExampleNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::FailedExampleNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ExampleNotificationExampleNotification
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            ExampleNotificationExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotificationRSpec::Core::Notifications::FailedExampleNotification
+          
+        
+          Object
+          
+            Struct
+          
+            ExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotification
+          
+        
+        show allshow all
+      
+    
+      ExampleNotification
+      
+        
+          Object
+          
+            Struct
+          
+            ExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      ExampleNotification
+      
+        
+          Object
+          
+            Struct
+          
+            ExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      ExampleNotification
+      
+        
+          Object
+          
+            Struct
+          
+            ExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    The FailedExampleNotificationFailedExampleNotification extends ExampleNotificationExampleNotification with
+things useful for examples that have failure info -- typically a
+failed or pending spec.The FailedExampleNotification extends ExampleNotification with
+things useful for examples that have failure info -- typically a
+failed or pending spec.
+
+
+  
+    The FailedExampleNotification extends ExampleNotification with
+things useful for examples that have failure info -- typically a
+failed or pending spec.
+
+
+  
+
+  
+    The FailedExampleNotification extends ExampleNotification with
+things useful for examples that have failure info -- typically a
+failed or pending spec.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      defdef example_failedexample_failed((notificationnotification))
+  putsputs ""Hey I failed :(Hey I failed :("""Hey I failed :("
+  putsputs ""Here's my stack traceHere's my stack trace"""Here's my stack trace"
+  putsputs notificationnotification..exceptionexception..backtracebacktrace..joinjoin((""\n\n"""\n"))
+endenddef example_failed(notification)
+  puts "Hey I failed :("
+  puts "Here's my stack trace"
+  puts notification.exception.backtrace.join("\n")
+enddef example_failed(notification)
+  puts "Hey I failed :("
+  puts "Here's my stack trace"
+  puts notification.exception.backtrace.join("\n")
+end
+    
+  
+    Examples:
+    
+      
+      def example_failed(notification)
+  puts "Hey I failed :("
+  puts "Here's my stack trace"
+  puts notification.exception.backtrace.join("\n")
+end
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      ExampleNotificationExampleNotification
+    
+  
+    
+      ExampleNotification
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      def example_failed(notification)
+  puts "Hey I failed :("
+  puts "Here's my stack trace"
+  puts notification.exception.backtrace.join("\n")
+end
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleNotification
+    
+  
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  PendingExampleFailedAsExpectedNotification, PendingExampleFixedNotificationPendingExampleFailedAsExpectedNotification, PendingExampleFixedNotification
+
+  Direct Known Subclasses
+  PendingExampleFailedAsExpectedNotification, PendingExampleFixedNotification
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.the current example.
+the current example.
+the current example.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures colorized formatted backtrace.Returns the failures colorized formatted backtrace.
+Returns the failures colorized formatted backtrace.
+Returns the failures colorized formatted backtrace.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures colorized formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure colorized line by line.Returns the message generated for this failure colorized line by line.
+Returns the message generated for this failure colorized line by line.
+Returns the message generated for this failure colorized line by line.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure colorized line by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example description.The example description.
+The example description.
+The example description.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example failure.The example failure.
+The example failure.
+The example failure.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures formatted backtrace.Returns the failures formatted backtrace.
+Returns the failures formatted backtrace.
+Returns the failures formatted backtrace.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit.The failure information fully formatted in the way that RSpec's built-in formatters emit.
+The failure information fully formatted in the way that RSpec's built-in formatters emit.
+The failure information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure line by line.Returns the message generated for this failure line by line.
+Returns the message generated for this failure line by line.
+Returns the message generated for this failure line by line.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure line by line.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures colorized formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure colorized line by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure line by line.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current examplethe current example
+
+
+  
+    the current example
+
+
+  
+
+  
+    the current example
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleRSpec::Core::Example)(RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of examplethe current value of example
+the current value of example
+
+      
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+
+
+154
+155
+156
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154# File 'lib/rspec/core/notifications.rb', line 154
+
+defdef exampleexample
+  @example@example
+endend# File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+
+
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns the failures colorized formatted backtrace.Returns the failures colorized formatted backtrace.
+
+
+  
+    Returns the failures colorized formatted backtrace.
+
+
+  
+
+  
+    Returns the failures colorized formatted backtrace.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        colorizercolorizer
+      
+      
+        (#wrap#wrap)(#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes::RSpec::Core::Formatters::ConsoleCodes)(defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines byAn object to colorize the message_lines by
+An object to colorize the message_lines by
+
+      
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace linesthe examples colorized backtrace lines
+the examples colorized backtrace lines
+
+      
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+193
+194
+195
+
+
+193
+194
+195
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193# File 'lib/rspec/core/notifications.rb', line 193
+
+defdef colorized_formatted_backtracecolorized_formatted_backtrace((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  @exception_presenter@exception_presenter..colorized_formatted_backtracecolorized_formatted_backtrace((colorizercolorizer))
+endend# File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+
+  
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+
+
+  
+  
+    Returns the failures colorized formatted backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure colorized line by line.Returns the message generated for this failure colorized line by line.
+
+
+  
+    Returns the message generated for this failure colorized line by line.
+
+
+  
+
+  
+    Returns the message generated for this failure colorized line by line.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        colorizercolorizer
+      
+      
+        (#wrap#wrap)(#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes::RSpec::Core::Formatters::ConsoleCodes)(defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines byAn object to colorize the message_lines by
+An object to colorize the message_lines by
+
+      
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        The example failure message colorizedThe example failure message colorized
+The example failure message colorized
+
+      
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+178
+179
+180
+
+
+178
+179
+180
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178# File 'lib/rspec/core/notifications.rb', line 178
+
+defdef colorized_message_linescolorized_message_lines((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  @exception_presenter@exception_presenter..colorized_message_linescolorized_message_lines((colorizercolorizer))
+endend# File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+
+  
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+
+
+  
+  
+    Returns the message generated for this failure colorized line by line.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example descriptionReturns The example description
+
+
+  
+    Returns The example description
+
+
+  
+
+  
+    Returns The example description
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The example descriptionThe example description
+The example description
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+163
+164
+165
+
+
+163
+164
+165
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163# File 'lib/rspec/core/notifications.rb', line 163
+
+defdef descriptiondescription
+  @exception_presenter@exception_presenter..descriptiondescription
+endend# File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+
+
+  
+  
+    Returns The example description
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example failureReturns The example failure
+
+
+  
+    Returns The example failure
+
+
+  
+
+  
+    Returns The example failure
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ExceptionException)(Exception)
+      
+      
+      
+        —
+        The example failureThe example failure
+The example failure
+
+      
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+
+
+158
+159
+160
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158# File 'lib/rspec/core/notifications.rb', line 158
+
+defdef exceptionexception
+  @exception_presenter@exception_presenter..exceptionexception
+endend# File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+
+
+  
+  
+    Returns The example failure
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the failures formatted backtrace.Returns the failures formatted backtrace.
+
+
+  
+    Returns the failures formatted backtrace.
+
+
+  
+
+  
+    Returns the failures formatted backtrace.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        the examples backtrace linesthe examples backtrace lines
+the examples backtrace lines
+
+      
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+
+
+185
+186
+187
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185# File 'lib/rspec/core/notifications.rb', line 185
+
+defdef formatted_backtraceformatted_backtrace
+  @exception_presenter@exception_presenter..formatted_backtraceformatted_backtrace
+endend# File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+
+  
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+
+
+  
+  
+    Returns the failures formatted backtrace.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+199
+200
+201
+
+
+199
+200
+201
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199# File 'lib/rspec/core/notifications.rb', line 199
+
+defdef fully_formattedfully_formatted((failure_numberfailure_number,, colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  @exception_presenter@exception_presenter..fully_formattedfully_formatted((failure_numberfailure_number,, colorizercolorizer))
+endend# File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+
+  
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+
+
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<string>Array<string>)(Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+205
+206
+207
+
+
+205
+206
+207
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205# File 'lib/rspec/core/notifications.rb', line 205
+
+defdef fully_formatted_linesfully_formatted_lines((failure_numberfailure_number,, colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  @exception_presenter@exception_presenter..fully_formatted_linesfully_formatted_lines((failure_numberfailure_number,, colorizercolorizer))
+endend# File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+
+  
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+
+
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure line by line.Returns the message generated for this failure line by line.
+
+
+  
+    Returns the message generated for this failure line by line.
+
+
+  
+
+  
+    Returns the message generated for this failure line by line.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        The example failure messageThe example failure message
+The example failure message
+
+      
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+170
+171
+172
+
+
+170
+171
+172
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170# File 'lib/rspec/core/notifications.rb', line 170
+
+defdef message_linesmessage_lines
+  @exception_presenter@exception_presenter..message_linesmessage_lines
+endend# File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+
+  
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+
+
+  
+  
+    Returns the message generated for this failure line by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the failures colorized formatted backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure colorized line by line.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example description
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example failure
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the failures formatted backtrace.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure line by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::FailedExampleNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      ExampleNotification
+      
+        
+          Object
+          
+            Struct
+          
+            ExampleNotification
+          
+            RSpec::Core::Notifications::FailedExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    The FailedExampleNotification extends ExampleNotification with
+things useful for examples that have failure info -- typically a
+failed or pending spec.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      def example_failed(notification)
+  puts "Hey I failed :("
+  puts "Here's my stack trace"
+  puts notification.exception.backtrace.join("\n")
+end
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleNotification
+    
+  
+
+
+  Direct Known Subclasses
+  PendingExampleFailedAsExpectedNotification, PendingExampleFixedNotification
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures colorized formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure colorized line by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the failures formatted backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The failure information fully formatted in the way that RSpec's built-in formatters emit, split by line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Returns the message generated for this failure line by line.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 154
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the failures colorized formatted backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples colorized backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+193
+194
+195
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 193
+
+def colorized_formatted_backtrace(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_formatted_backtrace(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure colorized line by line.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object to colorize the message_lines by
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message colorized
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+178
+179
+180
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 178
+
+def colorized_message_lines(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.colorized_message_lines(colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example description
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The example description
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+163
+164
+165
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 163
+
+def description
+  @exception_presenter.description
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The example failure
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception)
+      
+      
+      
+        —
+        The example failure
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 158
+
+def exception
+  @exception_presenter.exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the failures formatted backtrace.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the examples backtrace lines
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 185
+
+def formatted_backtrace
+  @exception_presenter.formatted_backtrace
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+199
+200
+201
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 199
+
+def fully_formatted(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<string>)
+      
+      
+      
+        —
+        The failure information fully formatted in the way that
+RSpec's built-in formatters emit, split by line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+205
+206
+207
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 205
+
+def fully_formatted_lines(failure_number, colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  @exception_presenter.fully_formatted_lines(failure_number, colorizer)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the message generated for this failure line by line.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        The example failure message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+170
+171
+172
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 170
+
+def message_lines
+  @exception_presenter.message_lines
+end
+    
+  
+
+
+    
+  
+

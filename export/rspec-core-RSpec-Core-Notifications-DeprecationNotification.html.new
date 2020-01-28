@@ -1,0 +1,2142 @@
+Class: RSpec::Core::Notifications::DeprecationNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::DeprecationNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::DeprecationNotificationRSpec::Core::Notifications::DeprecationNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::DeprecationNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::DeprecationNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::DeprecationNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rb
+lib/rspec/core/notifications.rb
+
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::DeprecationNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    The DeprecationNotificationDeprecationNotification is issued by the reporter when a deprecated
+part of RSpec is encountered. It represents information about the
+deprecated call site.The DeprecationNotification is issued by the reporter when a deprecated
+part of RSpec is encountered. It represents information about the
+deprecated call site.
+
+
+  
+    The DeprecationNotification is issued by the reporter when a deprecated
+part of RSpec is encountered. It represents information about the
+deprecated call site.
+
+
+  
+
+  
+    The DeprecationNotification is issued by the reporter when a deprecated
+part of RSpec is encountered. It represents information about the
+deprecated call site.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional call site from which the deprecation was issued.An optional call site from which the deprecation was issued.
+An optional call site from which the deprecation was issued.
+An optional call site from which the deprecation was issued.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional call site from which the deprecation was issued.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation (alias of message).A custom message about the deprecation (alias of message).
+A custom message about the deprecation (alias of message).
+A custom message about the deprecation (alias of message).
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation (alias of message).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation.A custom message about the deprecation.
+A custom message about the deprecation.
+A custom message about the deprecation.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional replacement for the deprecation.An optional replacement for the deprecation.
+An optional replacement for the deprecation.
+An optional replacement for the deprecation.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional replacement for the deprecation.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional call site from which the deprecation was issued.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation (alias of message).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional replacement for the deprecation.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience way to initialize the notification.Convenience way to initialize the notification.
+Convenience way to initialize the notification.
+Convenience way to initialize the notification.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience way to initialize the notification.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience way to initialize the notification.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    An optional call site from which the deprecation
+was issuedAn optional call site from which the deprecation
+was issued
+
+
+  
+    An optional call site from which the deprecation
+was issued
+
+
+  
+
+  
+    An optional call site from which the deprecation
+was issued
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the current value of call_sitethe current value of call_site
+the current value of call_site
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+
+
+491
+492
+493
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491# File 'lib/rspec/core/notifications.rb', line 491
+
+defdef call_sitecall_site
+  @call_site@call_site
+endend# File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+
+
+  
+  
+    An optional call site from which the deprecation
+was issued
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecation (alias of
+message)A custom message about the deprecation (alias of
+message)
+
+
+  
+    A custom message about the deprecation (alias of
+message)
+
+
+  
+
+  
+    A custom message about the deprecation (alias of
+message)
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the current value of deprecatedthe current value of deprecated
+the current value of deprecated
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+
+
+491
+492
+493
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491# File 'lib/rspec/core/notifications.rb', line 491
+
+defdef deprecateddeprecated
+  @deprecated@deprecated
+endend# File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+
+
+  
+  
+    A custom message about the deprecation (alias of
+message)
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecationA custom message about the deprecation
+
+
+  
+    A custom message about the deprecation
+
+
+  
+
+  
+    A custom message about the deprecation
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the current value of messagethe current value of message
+the current value of message
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+
+
+491
+492
+493
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491# File 'lib/rspec/core/notifications.rb', line 491
+
+defdef messagemessage
+  @message@message
+endend# File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+
+
+  
+  
+    A custom message about the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    An optional replacement for the deprecationAn optional replacement for the deprecation
+
+
+  
+    An optional replacement for the deprecation
+
+
+  
+
+  
+    An optional replacement for the deprecation
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the current value of replacementthe current value of replacement
+the current value of replacement
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+
+
+491
+492
+493
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491# File 'lib/rspec/core/notifications.rb', line 491
+
+defdef replacementreplacement
+  @replacement@replacement
+endend# File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+
+
+  
+  
+    An optional replacement for the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    An optional call site from which the deprecation
+was issued
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecation (alias of
+message)
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    An optional replacement for the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Convenience way to initialize the notificationConvenience way to initialize the notification
+
+
+  
+    Convenience way to initialize the notification
+
+
+  
+
+  
+    Convenience way to initialize the notification
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+497
+498
+499
+
+
+497
+498
+499
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497# File 'lib/rspec/core/notifications.rb', line 497
+
+defdef selfself..from_hashfrom_hash((datadata))
+  newnew datadata[[:deprecated:deprecated]],, datadata[[:message:message]],, datadata[[:replacement:replacement]],, datadata[[:call_site:call_site]]
+endend# File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+
+  
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+
+
+  
+  
+    Convenience way to initialize the notification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Convenience way to initialize the notification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::DeprecationNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::DeprecationNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+Overview
+  
+    The DeprecationNotification is issued by the reporter when a deprecated
+part of RSpec is encountered. It represents information about the
+deprecated call site.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional call site from which the deprecation was issued.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation (alias of message).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A custom message about the deprecation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    An optional replacement for the deprecation.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience way to initialize the notification.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    An optional call site from which the deprecation
+was issued
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of call_site
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def call_site
+  @call_site
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecation (alias of
+message)
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of deprecated
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def deprecated
+  @deprecated
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A custom message about the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of message
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def message
+  @message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    An optional replacement for the deprecation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the current value of replacement
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 491
+
+def replacement
+  @replacement
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Convenience way to initialize the notification
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+497
+498
+499
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 497
+
+def self.from_hash(data)
+  new data[:deprecated], data[:message], data[:replacement], data[:call_site]
+end
+    
+  
+
+
+    
+  
+

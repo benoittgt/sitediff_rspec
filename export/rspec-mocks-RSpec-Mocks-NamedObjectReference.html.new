@@ -1,0 +1,2227 @@
+Class: RSpec::Mocks::NamedObjectReference
+  
+  
+  
+Class: RSpec::Mocks::NamedObjectReference
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::NamedObjectReferenceRSpec::Mocks::NamedObjectReference
+          
+        
+          Object
+          
+            RSpec::Mocks::NamedObjectReference
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::NamedObjectReference
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::NamedObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/object_reference.rblib/rspec/mocks/object_reference.rb
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::NamedObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+
+OverviewOverview
+  
+    An implementation of rspec-mocks' reference interface.
+Used when a string is passed to ExampleMethods#object_double,
+and when a string, named class or named module is passed to
+ExampleMethods#instance_double, or ExampleMethods#class_double.
+Represents a reference to the object named (via a constant lookup)
+by the string.An implementation of rspec-mocks' reference interface.
+Used when a string is passed to ExampleMethods#object_double,
+and when a string, named class or named module is passed to
+ExampleMethods#instance_double, or ExampleMethods#class_double.
+Represents a reference to the object named (via a constant lookup)
+by the string.
+
+
+  
+    An implementation of rspec-mocks' reference interface.
+Used when a string is passed to ExampleMethods#object_double,
+and when a string, named class or named module is passed to
+ExampleMethods#instance_double, or ExampleMethods#class_double.
+Represents a reference to the object named (via a constant lookup)
+by the string.
+
+
+  
+
+  
+    An implementation of rspec-mocks' reference interface.
+Used when a string is passed to ExampleMethods#object_double,
+and when a string, named class or named module is passed to
+ExampleMethods#instance_double, or ExampleMethods#class_double.
+Represents a reference to the object named (via a constant lookup)
+by the string.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      DirectObjectReferenceDirectObjectReference
+    
+  
+    
+      DirectObjectReference
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      DirectObjectReference
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The constant name to replace with a double.The constant name to replace with a double.
+The constant name to replace with a double.
+The constant name to replace with a double.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The constant name to replace with a double.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if the named constant is defined, false otherwise.True if the named constant is defined, false otherwise.
+True if the named constant is defined, false otherwise.
+True if the named constant is defined, false otherwise.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if the named constant is defined, false otherwise.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of NamedObjectReference.A new instance of NamedObjectReference.
+A new instance of NamedObjectReference.
+A new instance of NamedObjectReference.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of NamedObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the named object), or nil if it is not defined.The target of the verifying double (the named object), or nil if it is not defined.
+The target of the verifying double (the named object), or nil if it is not defined.
+The target of the verifying double (the named object), or nil if it is not defined.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the named object), or nil if it is not defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The constant name to replace with a double.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if the named constant is defined, false otherwise.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of NamedObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the named object), or nil if it is not defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of NamedObjectReference.Returns a new instance of NamedObjectReference.
+
+
+  
+    Returns a new instance of NamedObjectReference.
+
+
+  
+
+  
+    Returns a new instance of NamedObjectReference.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        const_nameconst_name
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        constant nameconstant name
+constant name
+
+      
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+  
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111# File 'lib/rspec/mocks/object_reference.rb', line 111
+
+defdef initializeinitialize((const_nameconst_name))
+  @const_name@const_name == const_nameconst_name
+endend# File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of NamedObjectReference.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of NamedObjectReference.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns the constant name to replace with a double.Returns the constant name to replace with a double.
+
+
+  
+    Returns the constant name to replace with a double.
+
+
+  
+
+  
+    Returns the constant name to replace with a double.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the constant name to replace with a double.the constant name to replace with a double.
+the constant name to replace with a double.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+
+
+121
+122
+123
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121# File 'lib/rspec/mocks/object_reference.rb', line 121
+
+defdef const_to_replaceconst_to_replace
+  @const_name@const_name
+endend# File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+
+  
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+
+
+  
+  
+    Returns the constant name to replace with a double.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if the named constant is defined, false otherwise.Returns true if the named constant is defined, false otherwise.
+
+
+  
+    Returns true if the named constant is defined, false otherwise.
+
+
+  
+
+  
+    Returns true if the named constant is defined, false otherwise.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.true if the named constant is defined, false otherwise.
+true if the named constant is defined, false otherwise.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+
+
+116
+117
+118
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116# File 'lib/rspec/mocks/object_reference.rb', line 116
+
+defdef defined?defined?
+  !!!!objectobject
+endend# File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+
+
+  
+  
+    Returns true if the named constant is defined, false otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject, nilnil)(Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.the target of the verifying double (the named object), or
+nil if it is not defined.
+the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+
+
+128
+129
+130
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128# File 'lib/rspec/mocks/object_reference.rb', line 128
+
+defdef targettarget
+  objectobject
+endend# File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+
+
+  
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+
+
+  
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the target objectthe target object
+the target object
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+137
+138
+139
+
+
+137
+138
+139
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137# File 'lib/rspec/mocks/object_reference.rb', line 137
+
+defdef when_loadedwhen_loaded
+  yieldyield objectobject ifif objectobject
+endend# File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+
+  
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+
+
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the constant name to replace with a double.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if the named constant is defined, false otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::NamedObjectReference
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::NamedObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+
+Overview
+  
+    An implementation of rspec-mocks' reference interface.
+Used when a string is passed to ExampleMethods#object_double,
+and when a string, named class or named module is passed to
+ExampleMethods#instance_double, or ExampleMethods#class_double.
+Represents a reference to the object named (via a constant lookup)
+by the string.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      DirectObjectReference
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The constant name to replace with a double.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if the named constant is defined, false otherwise.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of NamedObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the named object), or nil if it is not defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of NamedObjectReference.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        const_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        constant name
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 111
+
+def initialize(const_name)
+  @const_name = const_name
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns the constant name to replace with a double.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the constant name to replace with a double.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+121
+122
+123
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 121
+
+def const_to_replace
+  @const_name
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if the named constant is defined, false otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the named constant is defined, false otherwise.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 116
+
+def defined?
+  !!object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the target of the verifying double (the named object), or
+nil if it is not defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        the target of the verifying double (the named object), or
+nil if it is not defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 128
+
+def target
+  object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target object
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+137
+138
+139
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 137
+
+def when_loaded
+  yield object if object
+end
+    
+  
+
+
+    
+  
+

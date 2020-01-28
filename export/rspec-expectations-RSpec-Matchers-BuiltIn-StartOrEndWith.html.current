@@ -1,0 +1,1570 @@
+Class: RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWithRSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rblib/rspec/matchers/built_in/start_or_end_with.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Base class for the end_withend_with and start_withstart_with matchers.
+Not intended to be instantiated directly.Base class for the end_with and start_with matchers.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Base class for the end_with and start_with matchers.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Base class for the end_with and start_with matchers.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  EndWith, StartWithEndWith, StartWith
+
+  Direct Known Subclasses
+  EndWith, StartWith
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of StartOrEndWith.A new instance of StartOrEndWith.
+A new instance of StartOrEndWith.
+A new instance of StartOrEndWith.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of StartOrEndWith.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of StartOrEndWith.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated#failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWithReturns a new instance of StartOrEndWith
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWith
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWith
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+
+
+8
+9
+10
+11
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+defdef initializeinitialize((**expectedexpected))
+  @actual_does_not_have_ordered_elements@actual_does_not_have_ordered_elements == falsefalse
+  @expected@expected == expectedexpected..lengthlength ==== 11 ?? expectedexpected..firstfirst :: expectedexpected
+endend# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+
+  
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWith
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWith
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+
+
+27
+28
+29
+30
+31
+32
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+defdef descriptiondescription
+  returnreturn supersuper unlessunless HashHash ====== expectedexpected
+  english_nameenglish_name == EnglishPhrasingEnglishPhrasing..split_wordssplit_words((selfself..classclass..matcher_namematcher_name))
+  description_of_expecteddescription_of_expected == surface_descriptions_insurface_descriptions_in((expectedexpected))..inspectinspect
+  ""#{#{english_nameenglish_name}}  #{#{description_of_expecteddescription_of_expected}}"""#{english_name} #{description_of_expected}"
+endend# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+defdef failure_messagefailure_message
+  supersuper..taptap dodo ||msgmsg||
+    ifif @actual_does_not_have_ordered_elements@actual_does_not_have_ordered_elements
+      msgmsg <<<< "", but it does not have ordered elements, but it does not have ordered elements""", but it does not have ordered elements"
+    elsifelsif !!actualactual..respond_to?respond_to?((:[]:[]))
+      msgmsg <<<< "", but it cannot be indexed using #[], but it cannot be indexed using #[]""", but it cannot be indexed using #[]"
+    endend
+  endend
+endend# File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::StartOrEndWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Base class for the end_with and start_with matchers.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  Direct Known Subclasses
+  EndWith, StartWith
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of StartOrEndWith.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of StartOrEndWith
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 8
+
+def initialize(*expected)
+  @actual_does_not_have_ordered_elements = false
+  @expected = expected.length == 1 ? expected.first : expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+27
+28
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 27
+
+def description
+  return super unless Hash === expected
+  english_name = EnglishPhrasing.split_words(self.class.matcher_name)
+  description_of_expected = surface_descriptions_in(expected).inspect
+  "#{english_name} #{description_of_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+22
+23
+    
+    
+      # File 'lib/rspec/matchers/built_in/start_or_end_with.rb', line 15
+
+def failure_message
+  super.tap do |msg|
+    if @actual_does_not_have_ordered_elements
+      msg << ", but it does not have ordered elements"
+    elsif !actual.respond_to?(:[])
+      msg << ", but it cannot be indexed using #[]"
+    end
+  end
+end
+    
+  
+
+
+    
+  
+

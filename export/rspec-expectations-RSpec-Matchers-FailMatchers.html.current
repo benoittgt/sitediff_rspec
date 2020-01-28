@@ -1,0 +1,1178 @@
+Module: RSpec::Matchers::FailMatchers
+  
+  
+  
+Module: RSpec::Matchers::FailMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/fail_matchers.rblib/rspec/matchers/fail_matchers.rb
+  
+    Defined in:
+    lib/rspec/matchers/fail_matchers.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/fail_matchers.rb
+  
+  
+
+
+OverviewOverview
+  
+    Matchers for testing RSpec matchers. Include them with:Matchers for testing RSpec matchers. Include them with:
+
+requirerequire ''rspec/matchers/fail_matchersrspec/matchers/fail_matchers'''rspec/matchers/fail_matchers'
+RSpecRSpec..configureconfigure dodo ||configconfig||
+  configconfig..includeinclude RSpecRSpec::::MatchersMatchers::::FailMatchersFailMatchers
+endend
+require 'rspec/matchers/fail_matchers'
+RSpec.configure do |config|
+  config.include RSpec::Matchers::FailMatchers
+end
+require 'rspec/matchers/fail_matchers'
+RSpec.configure do |config|
+  config.include RSpec::Matchers::FailMatchers
+end
+
+
+
+  
+    Matchers for testing RSpec matchers. Include them with:
+
+require 'rspec/matchers/fail_matchers'
+RSpec.configure do |config|
+  config.include RSpec::Matchers::FailMatchers
+end
+
+
+
+  
+
+  
+    Matchers for testing RSpec matchers. Include them with:
+
+require 'rspec/matchers/fail_matchers'
+RSpec.configure do |config|
+  config.include RSpec::Matchers::FailMatchers
+end
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails.Matches if an expectation fails.
+Matches if an expectation fails.
+Matches if an expectation fails.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails including the provided message.Matches if an expectation fails including the provided message.
+Matches if an expectation fails including the provided message.
+Matches if an expectation fails including the provided message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails including the provided message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails with the provided message.Matches if an expectation fails with the provided message.
+Matches if an expectation fails with the provided message.
+Matches if an expectation fails with the provided message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails with the provided message.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails including the provided message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails with the provided message.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Matches if an expectation failsMatches if an expectation fails
+
+
+  
+    Matches if an expectation fails
+
+
+  
+
+  
+    Matches if an expectation fails
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect {{ some_expectationsome_expectation }}..toto failfailexpect { some_expectation }.to failexpect { some_expectation }.to fail
+    
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+
+
+17
+18
+19
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17# File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+defdef failfail((&&blockblock))
+  raise_errorraise_error((RSpecRSpec::::ExpectationsExpectations::::ExpectationNotMetErrorExpectationNotMetError,, &&blockblock))
+endend# File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+
+
+  
+  
+    Matches if an expectation fails
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails including the provided messageMatches if an expectation fails including the provided message
+
+
+  
+    Matches if an expectation fails including the provided message
+
+
+  
+
+  
+    Matches if an expectation fails including the provided message
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect {{ some_expectationsome_expectation }}..toto fail_includingfail_including((""portion of some failure messageportion of some failure message"""portion of some failure message"))expect { some_expectation }.to fail_including("portion of some failure message")expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+
+
+34
+35
+36
+37
+38
+39
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34# File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+defdef fail_includingfail_including((**snippetssnippets))
+  raise_errorraise_error((
+    RSpecRSpec::::ExpectationsExpectations::::ExpectationNotMetErrorExpectationNotMetError,,
+    a_string_includinga_string_including((**snippetssnippets))
+  ))
+endend# File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+
+
+  
+  
+    Matches if an expectation fails including the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails with the provided messageMatches if an expectation fails with the provided message
+
+
+  
+    Matches if an expectation fails with the provided message
+
+
+  
+
+  
+    Matches if an expectation fails with the provided message
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect {{ some_expectationsome_expectation }}..toto fail_withfail_with((""some failure messagesome failure message"""some failure message"))
+expectexpect {{ some_expectationsome_expectation }}..toto fail_withfail_with((//some failure messagesome failure message///some failure message/))expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+
+
+26
+27
+28
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26# File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+defdef fail_withfail_with((messagemessage))
+  raise_errorraise_error((RSpecRSpec::::ExpectationsExpectations::::ExpectationNotMetErrorExpectationNotMetError,, messagemessage))
+endend# File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+
+
+  
+  
+    Matches if an expectation fails with the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Matches if an expectation fails
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails including the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails with the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::FailMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/fail_matchers.rb
+  
+  
+
+
+Overview
+  
+    Matchers for testing RSpec matchers. Include them with:
+
+require 'rspec/matchers/fail_matchers'
+RSpec.configure do |config|
+  config.include RSpec::Matchers::FailMatchers
+end
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails including the provided message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if an expectation fails with the provided message.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Matches if an expectation fails
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 17
+
+def fail(&block)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails including the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_including("portion of some failure message")
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 34
+
+def fail_including(*snippets)
+  raise_error(
+    RSpec::Expectations::ExpectationNotMetError,
+    a_string_including(*snippets)
+  )
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if an expectation fails with the provided message
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect { some_expectation }.to fail_with("some failure message")
+expect { some_expectation }.to fail_with(/some failure message/)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/fail_matchers.rb', line 26
+
+def fail_with(message)
+  raise_error(RSpec::Expectations::ExpectationNotMetError, message)
+end
+    
+  
+
+
+    
+  
+

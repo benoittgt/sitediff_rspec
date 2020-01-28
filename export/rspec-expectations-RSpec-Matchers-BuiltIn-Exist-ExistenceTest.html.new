@@ -1,0 +1,2283 @@
+Class: RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTestRSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/exist.rblib/rspec/matchers/built_in/exist.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Simple class for memoizing actual/expected for this matcher
+and examining the matchSimple class for memoizing actual/expected for this matcher
+and examining the match
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Simple class for memoizing actual/expected for this matcher
+and examining the match
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Simple class for memoizing actual/expected for this matcher
+and examining the match
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute actual.Returns the value of attribute actual.
+Returns the value of attribute actual.
+Returns the value of attribute actual.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute actual.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute expected.Returns the value of attribute expected.
+Returns the value of attribute expected.
+Returns the value of attribute expected.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute expected.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute actual.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute expected.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute actualReturns the value of attribute actual
+
+
+  
+    Returns the value of attribute actual
+
+
+  
+
+  
+    Returns the value of attribute actual
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the current value of actualthe current value of actual
+the current value of actual
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+
+
+43
+44
+45
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43# File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+defdef actualactual
+  @actual@actual
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+
+
+  
+  
+    Returns the value of attribute actual
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute expectedReturns the value of attribute expected
+
+
+  
+    Returns the value of attribute expected
+
+
+  
+
+  
+    Returns the value of attribute expected
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the current value of expectedthe current value of expected
+the current value of expected
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+
+
+43
+44
+45
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43# File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+defdef expectedexpected
+  @expected@expected
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+
+
+  
+  
+    Returns the value of attribute expected
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute actual
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute expected
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+52
+53
+54
+
+
+52
+53
+54
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52# File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+defdef actual_exists?actual_exists?
+  existence_valuesexistence_values..firstfirst
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+
+  
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+
+
+46
+47
+48
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46# File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+defdef valid_test?valid_test?
+  uniq_truthy_valuesuniq_truthy_values..sizesize ==== 11
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58# File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+defdef validity_messagevalidity_message
+  casecase uniq_truthy_valuesuniq_truthy_values..sizesize
+  whenwhen 00
+    "" but it does not respond to either `exist?` or `exists?` but it does not respond to either `exist?` or `exists?`""" but it does not respond to either `exist?` or `exists?`"
+  whenwhen 22
+    "" but `exist?` and `exists?` returned different values:\n\n but `exist?` and `exists?` returned different values:\n\n""" but `exist?` and `exists?` returned different values:\n\n"\
+    "" exist?:  exist?: #{#{existence_valuesexistence_values..firstfirst}}\n\n""" exist?: #{existence_values.first}\n"\
+    ""exists?: exists?: #{#{existence_valuesexistence_values..lastlast}}"""exists?: #{existence_values.last}"
+  endend
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::BuiltIn::Exist::ExistenceTest
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Simple class for memoizing actual/expected for this matcher
+and examining the match
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute actual.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute expected.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute actual
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of actual
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute expected
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the current value of expected
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 43
+
+def expected
+  @expected
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+52
+53
+54
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 52
+
+def actual_exists?
+  existence_values.first
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 46
+
+def valid_test?
+  uniq_truthy_values.size == 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 58
+
+def validity_message
+  case uniq_truthy_values.size
+  when 0
+    " but it does not respond to either `exist?` or `exists?`"
+  when 2
+    " but `exist?` and `exists?` returned different values:\n\n"\
+    " exist?: #{existence_values.first}\n"\
+    "exists?: #{existence_values.last}"
+  end
+end
+    
+  
+
+
+    
+  
+

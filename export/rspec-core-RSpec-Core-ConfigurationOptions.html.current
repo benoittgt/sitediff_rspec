@@ -1,0 +1,2381 @@
+Class: RSpec::Core::ConfigurationOptions
+  
+  
+  
+Class: RSpec::Core::ConfigurationOptions
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::ConfigurationOptionsRSpec::Core::ConfigurationOptions
+          
+        
+          Object
+          
+            RSpec::Core::ConfigurationOptions
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::ConfigurationOptions
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::ConfigurationOptions
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/configuration_options.rblib/rspec/core/configuration_options.rb
+  
+    Defined in:
+    lib/rspec/core/configuration_options.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::ConfigurationOptions
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/configuration_options.rb
+  
+  
+
+
+OverviewOverview
+  
+    Responsible for utilizing externally provided configuration options,
+whether via the command line, .rspec.rspec, ~/.rspec~/.rspec,
+$XDG_CONFIG_HOME/rspec/options$XDG_CONFIG_HOME/rspec/options, .rspec-local.rspec-local or a custom options
+file.Responsible for utilizing externally provided configuration options,
+whether via the command line, .rspec, ~/.rspec,
+$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
+file.
+
+
+  
+    Responsible for utilizing externally provided configuration options,
+whether via the command line, .rspec, ~/.rspec,
+$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
+file.
+
+
+  
+
+  
+    Responsible for utilizing externally provided configuration options,
+whether via the command line, .rspec, ~/.rspec,
+$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
+file.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original command-line arguments.The original command-line arguments.
+The original command-line arguments.
+The original command-line arguments.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original command-line arguments.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The final merged options, drawn from all external sources.The final merged options, drawn from all external sources.
+The final merged options, drawn from all external sources.
+The final merged options, drawn from all external sources.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The final merged options, drawn from all external sources.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original command-line arguments.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The final merged options, drawn from all external sources.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Updates the provided Configuration instance based on the provided external configuration options.Updates the provided Configuration instance based on the provided external configuration options.
+Updates the provided Configuration instance based on the provided external configuration options.
+Updates the provided Configuration instance based on the provided external configuration options.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Updates the provided Configuration instance based on the provided external configuration options.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Updates the provided  based on the filter options.Updates the provided FilterManager based on the filter options.
+Updates the provided FilterManager based on the filter options.
+Updates the provided FilterManager based on the filter options.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Updates the provided FilterManager based on the filter options.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ConfigurationOptions.A new instance of ConfigurationOptions.
+A new instance of ConfigurationOptions.
+A new instance of ConfigurationOptions.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ConfigurationOptions.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Updates the provided Configuration instance based on the provided external configuration options.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Updates the provided FilterManager based on the filter options.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ConfigurationOptions.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ConfigurationOptionsReturns a new instance of ConfigurationOptions
+
+
+  
+    Returns a new instance of ConfigurationOptions
+
+
+  
+
+  
+    Returns a new instance of ConfigurationOptions
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        argsargs
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        command line argumentscommand line arguments
+command line arguments
+
+      
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+  
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+
+
+12
+13
+14
+15
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12# File 'lib/rspec/core/configuration_options.rb', line 12
+
+defdef initializeinitialize((argsargs))
+  @args@args == argsargs..dupdup
+  organize_optionsorganize_options
+endend# File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of ConfigurationOptions
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ConfigurationOptions
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the original command-line argumentsReturns the original command-line arguments
+
+
+  
+    Returns the original command-line arguments
+
+
+  
+
+  
+    Returns the original command-line arguments
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<String>Array<String>)(Array<String>)
+      
+      
+      
+        —
+        the original command-line argumentsthe original command-line arguments
+the original command-line arguments
+
+      
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+
+
+40
+41
+42
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40# File 'lib/rspec/core/configuration_options.rb', line 40
+
+defdef argsargs
+  @args@args
+endend# File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+
+
+  
+  
+    Returns the original command-line arguments
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the final merged options, drawn from all external sourcesReturns the final merged options, drawn from all external sources
+
+
+  
+    Returns the final merged options, drawn from all external sources
+
+
+  
+
+  
+    Returns the final merged options, drawn from all external sources
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sourcesthe final merged options, drawn from all external sources
+the final merged options, drawn from all external sources
+
+      
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+
+
+37
+38
+39
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37# File 'lib/rspec/core/configuration_options.rb', line 37
+
+defdef optionsoptions
+  @options@options
+endend# File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+
+
+  
+  
+    Returns the final merged options, drawn from all external sources
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the original command-line arguments
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the final merged options, drawn from all external sources
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        configconfig
+      
+      
+        (ConfigurationConfiguration)(Configuration)
+      
+      
+      
+        —
+        the configuration instance to updatethe configuration instance to update
+the configuration instance to update
+
+      
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+  
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+
+
+21
+22
+23
+24
+25
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21# File 'lib/rspec/core/configuration_options.rb', line 21
+
+defdef configureconfigure((configconfig))
+  process_options_intoprocess_options_into configconfig
+  configure_filter_managerconfigure_filter_manager configconfig..filter_managerfilter_manager
+  load_formatters_intoload_formatters_into configconfig
+endend# File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+
+
+  
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided  based on the filter options.Updates the provided FilterManager based on the filter options.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided FilterManager based on the filter options.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided FilterManager based on the filter options.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        filter_managerfilter_manager
+      
+      
+        (FilterManager)(FilterManager)
+      
+      
+      
+        —
+        instance to updateinstance to update
+instance to update
+
+      
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+  
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+
+
+30
+31
+32
+33
+34
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30# File 'lib/rspec/core/configuration_options.rb', line 30
+
+defdef configure_filter_managerconfigure_filter_manager((filter_managerfilter_manager))
+  @filter_manager_options@filter_manager_options..eacheach dodo ||commandcommand,, valuevalue||
+    filter_managerfilter_manager..__send____send__ commandcommand,, valuevalue
+  endend
+endend# File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided FilterManager based on the filter options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided FilterManager based on the filter options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::ConfigurationOptions
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::ConfigurationOptions
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/configuration_options.rb
+  
+  
+
+
+Overview
+  
+    Responsible for utilizing externally provided configuration options,
+whether via the command line, .rspec, ~/.rspec,
+$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
+file.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original command-line arguments.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The final merged options, drawn from all external sources.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Updates the provided Configuration instance based on the provided external configuration options.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Updates the provided FilterManager based on the filter options.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ConfigurationOptions.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ConfigurationOptions
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        command line arguments
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 12
+
+def initialize(args)
+  @args = args.dup
+  organize_options
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the original command-line arguments
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<String>)
+      
+      
+      
+        —
+        the original command-line arguments
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 40
+
+def args
+  @args
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the final merged options, drawn from all external sources
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        the final merged options, drawn from all external sources
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 37
+
+def options
+  @options
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Updates the provided RSpec::Core::Configuration instance based on the provided
+external configuration options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        config
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        the configuration instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 21
+
+def configure(config)
+  process_options_into config
+  configure_filter_manager config.filter_manager
+  load_formatters_into config
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Updates the provided FilterManager based on the filter options.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        filter_manager
+      
+      
+        (FilterManager)
+      
+      
+      
+        —
+        instance to update
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/core/configuration_options.rb', line 30
+
+def configure_filter_manager(filter_manager)
+  @filter_manager_options.each do |command, value|
+    filter_manager.__send__ command, value
+  end
+end
+    
+  
+
+
+    
+  
+

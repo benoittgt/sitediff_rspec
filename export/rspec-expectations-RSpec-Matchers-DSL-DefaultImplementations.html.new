@@ -1,0 +1,1602 @@
+Module: RSpec::Matchers::DSL::DefaultImplementations
+  
+  
+  
+Module: RSpec::Matchers::DSL::DefaultImplementations
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+      Includes:Includes:
+      BuiltIn::BaseMatcher::DefaultFailureMessagesBuiltIn::BaseMatcher::DefaultFailureMessages
+  
+      Includes:
+      BuiltIn::BaseMatcher::DefaultFailureMessages
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    MatcherMatcher
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/dsl.rblib/rspec/matchers/dsl.rb
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      BuiltIn::BaseMatcher::DefaultFailureMessages
+  
+  
+  
+
+  
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+OverviewOverview
+  
+    Defines default implementations of the matcher
+protocol methods for custom matchers. You can
+override any of these using the Macros methods
+from within an RSpec::Matchers.defineRSpec::Matchers.define block.Defines default implementations of the matcher
+protocol methods for custom matchers. You can
+override any of these using the Macros methods
+from within an RSpec::Matchers.define block.
+
+
+  
+    Defines default implementations of the matcher
+protocol methods for custom matchers. You can
+override any of these using the Macros methods
+from within an RSpec::Matchers.define block.
+
+
+  
+
+  
+    Defines default implementations of the matcher
+protocol methods for custom matchers. You can
+override any of these using the Macros methods
+from within an RSpec::Matchers.define block.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default description.The default description.
+The default description.
+The default description.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Used internally by objects returns by shouldshould and should_notshould_not.Used internally by objects returns by should and should_not.
+Used internally by objects returns by should and should_not.
+Used internally by objects returns by should and should_not.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by objects returns by should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Most matchers do not expect call stack jumps.Most matchers do not expect call stack jumps.
+Most matchers do not expect call stack jumps.
+Most matchers do not expect call stack jumps.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Most matchers do not expect call stack jumps.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matchers do not support block expectations by default.Matchers do not support block expectations by default.
+Matchers do not support block expectations by default.
+Matchers do not support block expectations by default.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matchers do not support block expectations by default.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by objects returns by should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Most matchers do not expect call stack jumps.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matchers do not support block expectations by default.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BuiltIn::BaseMatcher::DefaultFailureMessagesMethods included from BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    The default description.The default description.
+
+
+  
+    The default description.
+
+
+  
+
+  
+    The default description.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+
+
+392
+393
+394
+395
+396
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392# File 'lib/rspec/matchers/dsl.rb', line 392
+
+defdef descriptiondescription
+  english_nameenglish_name == EnglishPhrasingEnglishPhrasing..split_wordssplit_words((namename))
+  expected_listexpected_list == EnglishPhrasingEnglishPhrasing..listlist((expectedexpected))
+  ""#{#{english_nameenglish_name}}#{#{expected_listexpected_list}}#{#{chained_method_clause_sentenceschained_method_clause_sentences}}"""#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+endend# File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+
+
+  
+  
+    The default description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by shouldshould and should_notshould_not.Used internally by objects returns by should and should_not.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by should and should_not.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by should and should_not.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+387
+388
+389
+
+
+387
+388
+389
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387# File 'lib/rspec/matchers/dsl.rb', line 387
+
+defdef diffable?diffable?
+  falsefalse
+endend# File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by should and should_not.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Most matchers do not expect call stack jumps.Most matchers do not expect call stack jumps.
+
+
+  
+    Most matchers do not expect call stack jumps.
+
+
+  
+
+  
+    Most matchers do not expect call stack jumps.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+405
+406
+407
+
+
+405
+406
+407
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405# File 'lib/rspec/matchers/dsl.rb', line 405
+
+defdef expects_call_stack_jump?expects_call_stack_jump?
+  falsefalse
+endend# File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+  
+  
+    Most matchers do not expect call stack jumps.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matchers do not support block expectations by default. You
+must opt-in.Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+    Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+
+  
+    Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+400
+401
+402
+
+
+400
+401
+402
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400# File 'lib/rspec/matchers/dsl.rb', line 400
+
+defdef supports_block_expectations?supports_block_expectations?
+  falsefalse
+endend# File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+  
+  
+    Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    The default description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by should and should_not.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Most matchers do not expect call stack jumps.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::DSL::DefaultImplementations
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      BuiltIn::BaseMatcher::DefaultFailureMessages
+  
+  
+  
+
+  
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+Overview
+  
+    Defines default implementations of the matcher
+protocol methods for custom matchers. You can
+override any of these using the Macros methods
+from within an RSpec::Matchers.define block.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by objects returns by should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Most matchers do not expect call stack jumps.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matchers do not support block expectations by default.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    The default description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+392
+393
+394
+395
+396
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 392
+
+def description
+  english_name = EnglishPhrasing.split_words(name)
+  expected_list = EnglishPhrasing.list(expected)
+  "#{english_name}#{expected_list}#{chained_method_clause_sentences}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by objects returns by should and should_not.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+387
+388
+389
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 387
+
+def diffable?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Most matchers do not expect call stack jumps.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+405
+406
+407
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 405
+
+def expects_call_stack_jump?
+  false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matchers do not support block expectations by default. You
+must opt-in.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+400
+401
+402
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 400
+
+def supports_block_expectations?
+  false
+end
+    
+  
+
+
+    
+  
+

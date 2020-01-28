@@ -1,0 +1,2313 @@
+Class: RSpec::Matchers::BuiltIn::BeComparedTo
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::BeComparedTo
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedToRSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/be.rblib/rspec/matchers/built_in/be.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation of be <operator> valuebe <operator> value.
+Not intended to be instantiated directly.Provides the implementation of be <operator> value.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation of be <operator> value.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation of be <operator> value.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINEDRSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of BeComparedTo.A new instance of BeComparedTo.
+A new instance of BeComparedTo.
+A new instance of BeComparedTo.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BeComparedTo.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BeComparedTo.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedToReturns a new instance of BeComparedTo
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedTo
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedTo
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+
+
+139
+140
+141
+142
+143
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139# File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+defdef initializeinitialize((operandoperand,, operatoroperator))
+  @expected@expected == operandoperand
+  @operator@operator == operatoroperator
+  @args@args == [[]]
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedTo
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedTo
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+
+
+173
+174
+175
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173# File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+defdef descriptiondescription
+  ""be be #{#{@operator@operator}}  #{#{expected_to_sentenceexpected_to_sentence}}#{#{args_to_sentenceargs_to_sentence}}"""be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+157
+
+
+154
+155
+156
+157
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154# File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+defdef failure_messagefailure_message
+  ""expected: expected: #{#{@operator@operator}}  #{#{expected_formattedexpected_formatted}}\n\n"""expected: #{@operator} #{expected_formatted}\n" \
+  ""     got:      got: #{#{@operator@operator..to_sto_s..gsubgsub((//..///./,, ''  ''' '))}}  #{#{actual_formattedactual_formatted}}"""     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+
+  
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161# File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  messagemessage == ""`expect(`expect(#{#{actual_formattedactual_formatted}}).not_to ).not_to """`expect(#{actual_formatted}).not_to " \
+            ""be be #{#{@operator@operator}}  #{#{expected_formattedexpected_formatted}}``"""be #{@operator} #{expected_formatted}`"
+  ifif [[:<:<,, :>:>,, :<=:<=,, :>=:>=]]..include?include?((@operator@operator))
+    messagemessage ++ "" not only FAILED, it is a bit confusing. not only FAILED, it is a bit confusing.""" not only FAILED, it is a bit confusing."
+  elseelse
+    messagemessage
+  endend
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+
+
+145
+146
+147
+148
+149
+150
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145# File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+defdef matches?matches?((actualactual))
+  @actual@actual == actualactual
+  @actual@actual..__send____send__ @operator@operator,, @expected@expected
+rescuerescue ArgumentErrorArgumentError,, NoMethodErrorNoMethodError
+  falsefalse
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::BeComparedTo
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeComparedTo
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation of be <operator> value.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of BeComparedTo.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of BeComparedTo
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+139
+140
+141
+142
+143
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 139
+
+def initialize(operand, operator)
+  @expected = operand
+  @operator = operator
+  @args = []
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 173
+
+def description
+  "be #{@operator} #{expected_to_sentence}#{args_to_sentence}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+154
+155
+156
+157
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 154
+
+def failure_message
+  "expected: #{@operator} #{expected_formatted}\n" \
+  "     got: #{@operator.to_s.gsub(/./, ' ')} #{actual_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 161
+
+def failure_message_when_negated
+  message = "`expect(#{actual_formatted}).not_to " \
+            "be #{@operator} #{expected_formatted}`"
+  if [:<, :>, :<=, :>=].include?(@operator)
+    message + " not only FAILED, it is a bit confusing."
+  else
+    message
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+145
+146
+147
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 145
+
+def matches?(actual)
+  @actual = actual
+  @actual.__send__ @operator, @expected
+rescue ArgumentError, NoMethodError
+  false
+end
+    
+  
+
+
+    
+  
+

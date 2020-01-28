@@ -1,0 +1,2145 @@
+Module: RSpec::Rails::Matchers::HaveHttpStatus
+  
+  
+  PrivatePrivate
+Module: RSpec::Rails::Matchers::HaveHttpStatus
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    GenericStatus, NumericCode, SymbolicStatusGenericStatus, NumericCode, SymbolicStatus
+  
+    Included in:
+    GenericStatus, NumericCode, SymbolicStatus
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/have_http_status.rblib/rspec/rails/matchers/have_http_status.rb
+  
+    Defined in:
+    lib/rspec/rails/matchers/have_http_status.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    GenericStatus, NumericCode, SymbolicStatus
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/have_http_status.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This module is part of a private API.This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Namespace for various implementations of have_http_statushave_http_status.Namespace for various implementations of have_http_status.
+
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Namespace for various implementations of have_http_status.
+
+
+  
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Namespace for various implementations of have_http_status.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+  
+    
+      Classes:Classes: GenericStatus, NumericCode, SymbolicStatus
+    
+  
+
+  
+    
+  
+    
+      Classes: GenericStatus, NumericCode, SymbolicStatus
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Conversion function to coerce the provided object into an ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Instantiates an instance of the proper matcher based on the provided targettarget.Instantiates an instance of the proper matcher based on the provided target.
+Instantiates an instance of the proper matcher based on the provided target.
+Instantiates an instance of the proper matcher based on the provided target.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instantiates an instance of the proper matcher based on the provided target.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instantiates an instance of the proper matcher based on the provided target.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A formatted failure message if @invalid_response@invalid_response is present, nilnil otherwise.A formatted failure message if @invalid_response is present, nil otherwise.
+A formatted failure message if @invalid_response is present, nil otherwise.
+A formatted failure message if @invalid_response is present, nil otherwise.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A formatted failure message if @invalid_response is present, nil otherwise.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A formatted failure message if @invalid_response is present, nil otherwise.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        objobj
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        object to convert to a responseobject to convert to a response
+object to convert to a response
+
+      
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+  
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponseActionDispatch::TestResponse)(ActionDispatch::TestResponse)
+      
+      
+      
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35# File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+defdef as_test_responseas_test_response((objobj))
+  ifif ::::ActionDispatchActionDispatch::::ResponseResponse ====== objobj
+    ::::ActionDispatchActionDispatch::::TestResponseTestResponse..from_responsefrom_response((objobj))
+  elsifelsif ::::ActionDispatchActionDispatch::::TestResponseTestResponse ====== objobj
+    objobj
+  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))
+    # Acts As Capybara Session
+# Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+# Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+# Capybara or catch `NameError`s for the undefined constants
+    objobj == ActionDispatchActionDispatch::::ResponseResponse..newnew..taptap dodo ||respresp||
+      respresp..statusstatus  == objobj..status_codestatus_code
+      respresp..headersheaders..clearclear
+      respresp..headersheaders..merge!merge!((objobj..response_headersresponse_headers))
+      respresp..bodybody    == objobj..bodybody
+      respresp..requestrequest == ActionDispatchActionDispatch::::RequestRequest..newnew(({{}}))
+    endend
+    ::::ActionDispatchActionDispatch::::TestResponseTestResponse..from_responsefrom_response((objobj))
+  elseelse
+    raiseraise TypeErrorTypeError,, ""Invalid response type: Invalid response type: #{#{objobj}}"""Invalid response type: #{obj}"
+  endend
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+targettarget.Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        targettarget
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        expected http status or codeexpected http status or code
+expected http status or code
+
+      
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+  
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instanceresponse matcher instance
+response matcher instance
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19# File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+defdef selfself..matcher_for_statusmatcher_for_status((targettarget))
+  ifif GenericStatusGenericStatus..valid_statusesvalid_statuses..include?include?((targettarget))
+    GenericStatusGenericStatus..newnew((targettarget))
+  elsifelsif SymbolSymbol ====== targettarget
+    SymbolicStatusSymbolicStatus..newnew((targettarget))
+  elseelse
+    NumericCodeNumericCode..newnew((targettarget))
+  endend
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString, nilnil)(String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response@invalid_response is present, nilnil otherwisea formatted failure message if
+@invalid_response is present, nil otherwise
+a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+
+
+60
+61
+62
+63
+64
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60# File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+defdef invalid_response_type_messageinvalid_response_type_message
+  returnreturn unlessunless @invalid_response@invalid_response
+  ""expected a response object, but an instance of expected a response object, but an instance of """expected a response object, but an instance of " \
+  ""#{#{@invalid_response@invalid_response..classclass}} was received was received"""#{@invalid_response.class} was received"
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::Matchers::HaveHttpStatus
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    GenericStatus, NumericCode, SymbolicStatus
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/have_http_status.rb
+  
+  
+
+
+Overview
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Namespace for various implementations of have_http_status.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+  
+    
+      Classes: GenericStatus, NumericCode, SymbolicStatus
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instantiates an instance of the proper matcher based on the provided target.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A formatted failure message if @invalid_response is present, nil otherwise.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Conversion function to coerce the provided object into an
+ActionDispatch::TestResponse.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        obj
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object to convert to a response
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (ActionDispatch::TestResponse)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 35
+
+def as_test_response(obj)
+  if ::ActionDispatch::Response === obj
+    ::ActionDispatch::TestResponse.from_response(obj)
+  elsif ::ActionDispatch::TestResponse === obj
+    obj
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
+    # Hack to support `Capybara::Session` without having to load
+    # Capybara or catch `NameError`s for the undefined constants
+    obj = ActionDispatch::Response.new.tap do |resp|
+      resp.status  = obj.status_code
+      resp.headers.clear
+      resp.headers.merge!(obj.response_headers)
+      resp.body    = obj.body
+      resp.request = ActionDispatch::Request.new({})
+    end
+    ::ActionDispatch::TestResponse.from_response(obj)
+  else
+    raise TypeError, "Invalid response type: #{obj}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instantiates an instance of the proper matcher based on the provided
+target.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        target
+      
+      
+        (Object)
+      
+      
+      
+        —
+        expected http status or code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        response matcher instance
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+26
+27
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 19
+
+def self.matcher_for_status(target)
+  if GenericStatus.valid_statuses.include?(target)
+    GenericStatus.new(target)
+  elsif Symbol === target
+    SymbolicStatus.new(target)
+  else
+    NumericCode.new(target)
+  end
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a formatted failure message if
+@invalid_response is present, nil otherwise.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        a formatted failure message if
+@invalid_response is present, nil otherwise
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 60
+
+def invalid_response_type_message
+  return unless @invalid_response
+  "expected a response object, but an instance of " \
+  "#{@invalid_response.class} was received"
+end
+    
+  
+
+
+    
+  
+

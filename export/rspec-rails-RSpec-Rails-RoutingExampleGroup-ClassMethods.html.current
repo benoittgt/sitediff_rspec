@@ -1,0 +1,555 @@
+Module: RSpec::Rails::RoutingExampleGroup::ClassMethods
+  
+  
+  
+Module: RSpec::Rails::RoutingExampleGroup::ClassMethods
+  
+  
+  
+
+
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/routing_example_group.rblib/rspec/rails/example/routing_example_group.rb
+  
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/routing_example_group.rb
+  
+
+
+
+OverviewOverview
+  
+    Class-level DSL for route specs.Class-level DSL for route specs.
+
+
+  
+    Class-level DSL for route specs.
+
+
+  
+
+  
+    Class-level DSL for route specs.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.Specifies the routeset that will be used for the example group.
+Specifies the routeset that will be used for the example group.
+Specifies the routeset that will be used for the example group.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      describedescribe MyEngineMyEngine::::PostsControllerPostsController dodo
+  routesroutes {{ MyEngineMyEngine::::EngineEngine..routesroutes }}
+
+  itit ""routes posts#indexroutes posts#index"""routes posts#index" dodo
+    expectexpect((:get:get =>=> ""/posts/posts"""/posts"))..toto
+      route_toroute_to((:controller:controller =>=> ""my_engine/postsmy_engine/posts"""my_engine/posts",, :action:action =>=> ""indexindex"""index"))
+  endend
+endenddescribe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+enddescribe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+
+
+33
+34
+35
+36
+37
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33# File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+defdef routesroutes
+  beforebefore dodo
+    selfself..routesroutes == yieldyield
+  endend
+endend# File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::RoutingExampleGroup::ClassMethods
+  
+  
+  
+
+
+
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/routing_example_group.rb
+  
+
+
+
+Overview
+  
+    Class-level DSL for route specs.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  it "routes posts#index" do
+    expect(:get => "/posts").to
+      route_to(:controller => "my_engine/posts", :action => "index")
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+36
+37
+    
+    
+      # File 'lib/rspec/rails/example/routing_example_group.rb', line 33
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+

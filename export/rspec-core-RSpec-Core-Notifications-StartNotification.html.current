@@ -1,0 +1,1041 @@
+Class: RSpec::Core::Notifications::StartNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::StartNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::StartNotificationRSpec::Core::Notifications::StartNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::StartNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::StartNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::StartNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::StartNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    The StartNotificationStartNotification represents a notification sent by the reporter
+when the suite is started. It contains the expected amount of examples
+to be executed, and the load time of RSpec.The StartNotification represents a notification sent by the reporter
+when the suite is started. It contains the expected amount of examples
+to be executed, and the load time of RSpec.
+
+
+  
+    The StartNotification represents a notification sent by the reporter
+when the suite is started. It contains the expected amount of examples
+to be executed, and the load time of RSpec.
+
+
+  
+
+  
+    The StartNotification represents a notification sent by the reporter
+when the suite is started. It contains the expected amount of examples
+to be executed, and the load time of RSpec.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number counted.the number counted.
+the number counted.
+the number counted.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number counted.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.
+the number of seconds taken to boot RSpec and load the spec files.
+the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number counted.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the number countedthe number counted
+
+
+  
+    the number counted
+
+
+  
+
+  
+    the number counted
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the current value of countthe current value of count
+the current value of count
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+
+
+26
+27
+28
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26# File 'lib/rspec/core/notifications.rb', line 26
+
+defdef countcount
+  @count@count
+endend# File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+
+
+  
+  
+    the number counted
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec filesthe number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        the current value of load_timethe current value of load_time
+the current value of load_time
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+
+
+26
+27
+28
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26# File 'lib/rspec/core/notifications.rb', line 26
+
+defdef load_timeload_time
+  @load_time@load_time
+endend# File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the number counted
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Core::Notifications::StartNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::StartNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    The StartNotification represents a notification sent by the reporter
+when the suite is started. It contains the expected amount of examples
+to be executed, and the load time of RSpec.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number counted.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the number counted
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the current value of count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def count
+  @count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 26
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+  
+
+

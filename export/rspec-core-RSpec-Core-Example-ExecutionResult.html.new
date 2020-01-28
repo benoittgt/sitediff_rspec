@@ -1,0 +1,4534 @@
+Class: RSpec::Core::Example::ExecutionResult
+  
+  
+  
+Class: RSpec::Core::Example::ExecutionResult
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Example::ExecutionResultRSpec::Core::Example::ExecutionResult
+          
+        
+          Object
+          
+            RSpec::Core::Example::ExecutionResult
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::ExecutionResult
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::ExecutionResult
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/example.rblib/rspec/core/example.rb
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::ExecutionResult
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+OverviewOverview
+  
+    Represents the result of executing an example.
+Behaves like a hash for backwards compatibility.Represents the result of executing an example.
+Behaves like a hash for backwards compatibility.
+
+
+  
+    Represents the result of executing an example.
+Behaves like a hash for backwards compatibility.
+
+
+  
+
+  
+    Represents the result of executing an example.
+Behaves like a hash for backwards compatibility.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The failure, if there was one.The failure, if there was one.
+The failure, if there was one.
+The failure, if there was one.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The failure, if there was one.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example finished.When the example finished.
+When the example finished.
+When the example finished.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example finished.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The exception triggered while executing the pending example.The exception triggered while executing the pending example.
+The exception triggered while executing the pending example.
+The exception triggered while executing the pending example.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The exception triggered while executing the pending example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    For examples tagged with :pending:pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.
+For examples tagged with :pending, this indicates whether or not it now passes.
+For examples tagged with :pending, this indicates whether or not it now passes.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    For examples tagged with :pending, this indicates whether or not it now passes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The reason the example was pending, or nil if the example was not pending.The reason the example was pending, or nil if the example was not pending.
+The reason the example was pending, or nil if the example was not pending.
+The reason the example was pending, or nil if the example was not pending.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The reason the example was pending, or nil if the example was not pending.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    How long the example took in seconds.How long the example took in seconds.
+How long the example took in seconds.
+How long the example took in seconds.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    How long the example took in seconds.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example started.When the example started.
+When the example started.
+When the example started.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example started.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    :passed:passed, :failed:failed or :pending:pending.:passed, :failed or :pending.
+:passed, :failed or :pending.
+:passed, :failed or :pending.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    :passed, :failed or :pending.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The failure, if there was one.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example finished.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The exception triggered while executing the pending example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    For examples tagged with :pending, this indicates whether or not it now passes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The reason the example was pending, or nil if the example was not pending.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    How long the example took in seconds.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example started.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    :passed, :failed or :pending.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Populates finished_at and run_time if it has not yet been set.Populates finished_at and run_time if it has not yet been set.
+Populates finished_at and run_time if it has not yet been set.
+Populates finished_at and run_time if it has not yet been set.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Populates finished_at and run_time if it has not yet been set.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method).Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Records the finished status of the example.Records the finished status of the example.
+Records the finished status of the example.
+Records the finished status of the example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records the finished status of the example.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Populates finished_at and run_time if it has not yet been set.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records the finished status of the example.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The failure, if there was one.Returns The failure, if there was one.
+
+
+  
+    Returns The failure, if there was one.
+
+
+  
+
+  
+    Returns The failure, if there was one.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ExceptionException, nilnil)(Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.The failure, if there was one.
+The failure, if there was one.
+
+      
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+555
+556
+557
+
+
+555
+556
+557
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555# File 'lib/rspec/core/example.rb', line 555
+
+defdef exceptionexception
+  @exception@exception
+endend# File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+
+  
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+
+
+  
+  
+    Returns The failure, if there was one.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example finished.Returns When the example finished.
+
+
+  
+    Returns When the example finished.
+
+
+  
+
+  
+    Returns When the example finished.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Time)(Time)
+      
+      
+      
+        —
+        When the example finished.When the example finished.
+When the example finished.
+
+      
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+561
+562
+563
+
+
+561
+562
+563
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561# File 'lib/rspec/core/example.rb', line 561
+
+defdef finished_atfinished_at
+  @finished_at@finished_at
+endend# File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+
+  
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+
+
+  
+  
+    Returns When the example finished.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending:pending unless it was
+tagged with :skip:skip.Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ExceptionException, nilnil)(Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending:pending unless it was
+tagged with :skip:skip.The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+574
+575
+576
+
+
+574
+575
+576
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574# File 'lib/rspec/core/example.rb', line 574
+
+defdef pending_exceptionpending_exception
+  @pending_exception@pending_exception
+endend# File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+
+  
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+
+
+  
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns For examples tagged with :pending:pending,
+this indicates whether or not it now passes.Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+    Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+
+  
+    Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending:pending,
+this indicates whether or not it now passes.For examples tagged with :pending,
+this indicates whether or not it now passes.
+For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+578
+579
+580
+
+
+578
+579
+580
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578# File 'lib/rspec/core/example.rb', line 578
+
+defdef pending_fixedpending_fixed
+  @pending_fixed@pending_fixed
+endend# File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+
+  
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+
+
+  
+  
+    Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString, nilnil)(String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.The reason the example was pending,
+or nil if the example was not pending.
+The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+568
+569
+570
+
+
+568
+569
+570
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568# File 'lib/rspec/core/example.rb', line 568
+
+defdef pending_messagepending_message
+  @pending_message@pending_message
+endend# File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+
+  
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+
+
+  
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns How long the example took in seconds.Returns How long the example took in seconds.
+
+
+  
+    Returns How long the example took in seconds.
+
+
+  
+
+  
+    Returns How long the example took in seconds.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        How long the example took in seconds.How long the example took in seconds.
+How long the example took in seconds.
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+564
+565
+566
+
+
+564
+565
+566
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564# File 'lib/rspec/core/example.rb', line 564
+
+defdef run_timerun_time
+  @run_time@run_time
+endend# File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+
+  
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+
+
+  
+  
+    Returns How long the example took in seconds.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example started.Returns When the example started.
+
+
+  
+    Returns When the example started.
+
+
+  
+
+  
+    Returns When the example started.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Time)(Time)
+      
+      
+      
+        —
+        When the example started.When the example started.
+When the example started.
+
+      
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+558
+559
+560
+
+
+558
+559
+560
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558# File 'lib/rspec/core/example.rb', line 558
+
+defdef started_atstarted_at
+  @started_at@started_at
+endend# File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+
+  
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+
+
+  
+  
+    Returns When the example started.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns :passed:passed, :failed:failed or :pending:pending.Returns :passed, :failed or :pending.
+
+
+  
+    Returns :passed, :failed or :pending.
+
+
+  
+
+  
+    Returns :passed, :failed or :pending.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :passed:passed, :failed:failed or :pending:pending.:passed, :failed or :pending.
+:passed, :failed or :pending.
+
+      
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+552
+553
+554
+
+
+552
+553
+554
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552# File 'lib/rspec/core/example.rb', line 552
+
+defdef statusstatus
+  @status@status
+endend# File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+
+  
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+
+
+  
+  
+    Returns :passed, :failed or :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The failure, if there was one.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example finished.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns How long the example took in seconds.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example started.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns :passed, :failed or :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been setPopulates finished_at and run_time if it has not yet been set
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been set
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been set
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+600
+601
+602
+
+
+600
+601
+602
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600# File 'lib/rspec/core/example.rb', line 600
+
+defdef ensure_timing_setensure_timing_set((clockclock))
+  calculate_run_timecalculate_run_time((clockclock..nownow)) unlessunless finished_atfinished_at
+endend# File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+
+  
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been set
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip:skip metadata or the skipskip method). Skipped examples
+will have a :pending:pending result. A :pending:pending result can also come from examples
+that were marked as :pending:pending, which causes them to be run, and produces a
+:failed:failed result if the example passes.Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip:skip metadata or the skipskip method). Skipped examples
+will have a :pending:pending result. A :pending:pending result can also come from examples
+that were marked as :pending:pending, which causes them to be run, and produces a
+:failed:failed result if the example passes.Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+587
+588
+589
+
+
+587
+588
+589
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587# File 'lib/rspec/core/example.rb', line 587
+
+defdef example_skipped?example_skipped?
+  statusstatus ==== :pending:pending &&&& !!pending_exceptionpending_exception
+endend# File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+
+  
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+
+
+  
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.Records the finished status of the example.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+593
+594
+595
+596
+
+
+593
+594
+595
+596
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593# File 'lib/rspec/core/example.rb', line 593
+
+defdef record_finishedrecord_finished((statusstatus,, finished_atfinished_at))
+  selfself..statusstatus == statusstatus
+  calculate_run_timecalculate_run_time((finished_atfinished_at))
+endend# File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+
+  
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been set
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Example::ExecutionResult
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::ExecutionResult
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+Overview
+  
+    Represents the result of executing an example.
+Behaves like a hash for backwards compatibility.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The failure, if there was one.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example finished.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The exception triggered while executing the pending example.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    For examples tagged with :pending, this indicates whether or not it now passes.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The reason the example was pending, or nil if the example was not pending.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    How long the example took in seconds.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    When the example started.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    :passed, :failed or :pending.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Populates finished_at and run_time if it has not yet been set.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records the finished status of the example.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The failure, if there was one.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The failure, if there was one.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+555
+556
+557
+    
+    
+      # File 'lib/rspec/core/example.rb', line 555
+
+def exception
+  @exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example finished.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example finished.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+561
+562
+563
+    
+    
+      # File 'lib/rspec/core/example.rb', line 561
+
+def finished_at
+  @finished_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Exception, nil)
+      
+      
+      
+        —
+        The exception triggered while
+executing the pending example. If no exception was triggered
+it would no longer get a status of :pending unless it was
+tagged with :skip.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+574
+575
+576
+    
+    
+      # File 'lib/rspec/core/example.rb', line 574
+
+def pending_exception
+  @pending_exception
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        For examples tagged with :pending,
+this indicates whether or not it now passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+578
+579
+580
+    
+    
+      # File 'lib/rspec/core/example.rb', line 578
+
+def pending_fixed
+  @pending_fixed
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The reason the example was pending,
+or nil if the example was not pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, nil)
+      
+      
+      
+        —
+        The reason the example was pending,
+or nil if the example was not pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+568
+569
+570
+    
+    
+      # File 'lib/rspec/core/example.rb', line 568
+
+def pending_message
+  @pending_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns How long the example took in seconds.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        How long the example took in seconds.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+564
+565
+566
+    
+    
+      # File 'lib/rspec/core/example.rb', line 564
+
+def run_time
+  @run_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns When the example started.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Time)
+      
+      
+      
+        —
+        When the example started.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+558
+559
+560
+    
+    
+      # File 'lib/rspec/core/example.rb', line 558
+
+def started_at
+  @started_at
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns :passed, :failed or :pending.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :passed, :failed or :pending.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+552
+553
+554
+    
+    
+      # File 'lib/rspec/core/example.rb', line 552
+
+def status
+  @status
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Populates finished_at and run_time if it has not yet been set
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+600
+601
+602
+    
+    
+      # File 'lib/rspec/core/example.rb', line 600
+
+def ensure_timing_set(clock)
+  calculate_run_time(clock.now) unless finished_at
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Indicates if the example was completely skipped
+(typically done via :skip metadata or the skip method). Skipped examples
+will have a :pending result. A :pending result can also come from examples
+that were marked as :pending, which causes them to be run, and produces a
+:failed result if the example passes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+587
+588
+589
+    
+    
+      # File 'lib/rspec/core/example.rb', line 587
+
+def example_skipped?
+  status == :pending && !pending_exception
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records the finished status of the example.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+593
+594
+595
+596
+    
+    
+      # File 'lib/rspec/core/example.rb', line 593
+
+def record_finished(status, finished_at)
+  self.status = status
+  calculate_run_time(finished_at)
+end
+    
+  
+
+
+    
+  
+

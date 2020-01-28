@@ -1,0 +1,3112 @@
+Class: RSpec::Core::Formatters::HtmlSnippetExtractor
+  
+  
+  PrivatePrivate
+Class: RSpec::Core::Formatters::HtmlSnippetExtractor
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractorRSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+          Object
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/html_snippet_extractor.rblib/rspec/core/formatters/html_snippet_extractor.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/html_snippet_extractor.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/html_snippet_extractor.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Extracts code snippets by looking at the backtrace of the passed error
+and applies synax highlighting and line numbers using html.Extracts code snippets by looking at the backtrace of the passed error
+and applies synax highlighting and line numbers using html.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Extracts code snippets by looking at the backtrace of the passed error
+and applies synax highlighting and line numbers using html.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Extracts code snippets by looking at the backtrace of the passed error
+and applies synax highlighting and line numbers using html.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Extract lines of code centered around a particular line within a source file.Extract lines of code centered around a particular line within a source file.
+Extract lines of code centered around a particular line within a source file.
+Extract lines of code centered around a particular line within a source file.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code centered around a particular line within a source file.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Adds line numbers to all lines and highlights the line where the failure occurred using html spanspan tags.Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Extract lines of code corresponding to  a backtrace.Extract lines of code corresponding to  a backtrace.
+Extract lines of code corresponding to  a backtrace.
+Extract lines of code corresponding to  a backtrace.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code corresponding to  a backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Create a snippet from a line of code.Create a snippet from a line of code.
+Create a snippet from a line of code.
+Create a snippet from a line of code.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Create a snippet from a line of code.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code centered around a particular line within a source file.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code corresponding to  a backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Create a snippet from a line of code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        filefile
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        filenamefilename
+filename
+
+      
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        lineline
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        line numberline number
+line number
+
+      
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+  
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).lines around the target line within the file (2 above
+and 1 below).
+lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+defdef lines_aroundlines_around((filefile,, lineline))
+  ifif FileFile..file?file?((filefile))
+    lineslines == FileFile..readread((filefile))..splitsplit((""\n\n"""\n"))
+    minmin == [[00,, lineline -- 33]]..maxmax
+    maxmax == [[lineline ++ 11,, lineslines..lengthlength -- 11]]..minmin
+    selected_linesselected_lines == [[]]
+    selected_linesselected_lines..joinjoin((""\n\n"""\n"))
+    lineslines[[minmin....maxmax]]..joinjoin((""\n\n"""\n"))
+  elseelse
+    ""# Couldn't get snippet for # Couldn't get snippet for #{#{filefile}}"""# Couldn't get snippet for #{file}"
+  endend
+rescuerescue SecurityErrorSecurityError
+  ""# Couldn't get snippet for # Couldn't get snippet for #{#{filefile}}"""# Couldn't get snippet for #{file}"
+endend# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html spanspan tags.Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        highlightedhighlighted
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of codesyntax-highlighted snippet surrounding the
+offending line of code
+syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_lineoffending_line
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        line where failure occuredline where failure occured
+line where failure occured
+
+      
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+  
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        completed snippetcompleted snippet
+completed snippet
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+defdef post_processpost_process((highlightedhighlighted,, offending_lineoffending_line))
+  new_linesnew_lines == [[]]
+  highlightedhighlighted..splitsplit((""\n\n"""\n"))..each_with_indexeach_with_index dodo ||lineline,, ii||
+    new_linenew_line == ""<span class=\"linenum\"><span class=\"linenum\">#{#{offending_lineoffending_line ++ ii -- 22}}</span></span>#{#{lineline}}"""<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_linenew_line == ""<span class=\"offending\"><span class=\"offending\">#{#{new_linenew_line}}</span></span>"""<span class=\"offending\">#{new_line}</span>" ifif ii ==== 22
+    new_linesnew_lines <<<< new_linenew_line
+  endend
+  new_linesnew_lines..joinjoin((""\n\n"""\n"))
+endend# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.Extract lines of code corresponding to  a backtrace.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        backtracebacktrace
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the backtrace from a test failurethe backtrace from a test failure
+the backtrace from a test failure
+
+      
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+  
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occuredhighlighted code snippet indicating where the test
+failure occured
+highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #post_process#post_process
+    
+  
+    
+      #post_process
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #post_process
+    
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+
+
+49
+50
+51
+52
+53
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+defdef snippetsnippet((backtracebacktrace))
+  raw_coderaw_code,, lineline == snippet_forsnippet_for((backtracebacktrace[[00]]))
+  highlightedhighlighted == @@converter@@converter..convertconvert((raw_coderaw_code))
+  post_processpost_process((highlightedhighlighted,, lineline))
+endend# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #post_process
+    
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.Create a snippet from a line of code.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        error_lineerror_line
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')file name with line number (i.e.
+'foo_spec.rb:12')
+file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+  
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        lines around the target line within the filelines around the target line within the file
+lines around the target line within the file
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #lines_around#lines_around
+    
+  
+    
+      #lines_around
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #lines_around
+    
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+defdef snippet_forsnippet_for((error_lineerror_line))
+  ifif error_lineerror_line =~=~ //(.*):(\d+)(.*):(\d+)///(.*):(\d+)/
+    filefile == RegexpRegexp..last_matchlast_match[[11]]
+    lineline == RegexpRegexp..last_matchlast_match[[22]]..to_ito_i
+    [[lines_aroundlines_around((filefile,, lineline)),, lineline]]
+  elseelse
+    [[""# Couldn't get snippet for # Couldn't get snippet for #{#{error_lineerror_line}}"""# Couldn't get snippet for #{error_line}",, 11]]
+  endend
+endend# File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #lines_around
+    
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #post_process
+    
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #lines_around
+    
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::HtmlSnippetExtractor
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::HtmlSnippetExtractor
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/html_snippet_extractor.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Extracts code snippets by looking at the backtrace of the passed error
+and applies synax highlighting and line numbers using html.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code centered around a particular line within a source file.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Extract lines of code corresponding to  a backtrace.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Create a snippet from a line of code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code centered around a particular line within a
+source file.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        file
+      
+      
+        (String)
+      
+      
+      
+        —
+        filename
+
+      
+    
+  
+    
+      
+        line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line number
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file (2 above
+and 1 below).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 84
+
+def lines_around(file, line)
+  if File.file?(file)
+    lines = File.read(file).split("\n")
+    min = [0, line - 3].max
+    max = [line + 1, lines.length - 1].min
+    selected_lines = []
+    selected_lines.join("\n")
+    lines[min..max].join("\n")
+  else
+    "# Couldn't get snippet for #{file}"
+  end
+rescue SecurityError
+  "# Couldn't get snippet for #{file}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Adds line numbers to all lines and highlights the line where the
+failure occurred using html span tags.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        highlighted
+      
+      
+        (String)
+      
+      
+      
+        —
+        syntax-highlighted snippet surrounding the
+offending line of code
+
+      
+    
+  
+    
+      
+        offending_line
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        line where failure occured
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        completed snippet
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+108
+109
+110
+111
+112
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 108
+
+def post_process(highlighted, offending_line)
+  new_lines = []
+  highlighted.split("\n").each_with_index do |line, i|
+    new_line = "<span class=\"linenum\">#{offending_line + i - 2}</span>#{line}"
+    new_line = "<span class=\"offending\">#{new_line}</span>" if i == 2
+    new_lines << new_line
+  end
+  new_lines.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Extract lines of code corresponding to  a backtrace.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        backtrace
+      
+      
+        (String)
+      
+      
+      
+        —
+        the backtrace from a test failure
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        highlighted code snippet indicating where the test
+failure occured
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #post_process
+    
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 49
+
+def snippet(backtrace)
+  raw_code, line = snippet_for(backtrace[0])
+  highlighted = @@converter.convert(raw_code)
+  post_process(highlighted, line)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Create a snippet from a line of code.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        error_line
+      
+      
+        (String)
+      
+      
+      
+        —
+        file name with line number (i.e.
+'foo_spec.rb:12')
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        lines around the target line within the file
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #lines_around
+    
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/formatters/html_snippet_extractor.rb', line 65
+
+def snippet_for(error_line)
+  if error_line =~ /(.*):(\d+)/
+    file = Regexp.last_match[1]
+    line = Regexp.last_match[2].to_i
+    [lines_around(file, line), line]
+  else
+    ["# Couldn't get snippet for #{error_line}", 1]
+  end
+end
+    
+  
+
+
+    
+  
+

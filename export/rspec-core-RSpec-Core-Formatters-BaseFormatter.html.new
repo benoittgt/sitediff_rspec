@@ -1,0 +1,2597 @@
+Class: RSpec::Core::Formatters::BaseFormatter
+  
+  
+  
+Class: RSpec::Core::Formatters::BaseFormatter
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Formatters::BaseFormatterRSpec::Core::Formatters::BaseFormatter
+          
+        
+          Object
+          
+            RSpec::Core::Formatters::BaseFormatter
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::BaseFormatter
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::BaseFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/base_formatter.rblib/rspec/core/formatters/base_formatter.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/base_formatter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::BaseFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/base_formatter.rb
+  
+  
+
+
+OverviewOverview
+  
+    RSpec's built-in formatters are all subclasses of
+RSpec::Core::Formatters::BaseFormatter.RSpec's built-in formatters are all subclasses of
+RSpec::Core::Formatters::BaseFormatter.
+
+
+  
+    RSpec's built-in formatters are all subclasses of
+RSpec::Core::Formatters::BaseFormatter.
+
+
+  
+
+  
+    RSpec's built-in formatters are all subclasses of
+RSpec::Core::Formatters::BaseFormatter.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      BaseTextFormatterBaseTextFormatter
+    
+      ReporterReporter
+    
+      ProtocolProtocol
+    
+  
+    
+      BaseTextFormatter
+    
+      Reporter
+    
+      Protocol
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      BaseTextFormatter
+    
+      Reporter
+    
+      Protocol
+    
+  
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  BaseTextFormatterBaseTextFormatter
+
+  Direct Known Subclasses
+  BaseTextFormatter
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute example_group.Returns the value of attribute example_group.
+Returns the value of attribute example_group.
+Returns the value of attribute example_group.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute example_group.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute output.Returns the value of attribute output.
+Returns the value of attribute output.
+Returns the value of attribute output.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute output.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute example_group.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute output.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of BaseFormatter.A new instance of BaseFormatter.
+A new instance of BaseFormatter.
+A new instance of BaseFormatter.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of BaseFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of BaseFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of BaseFormatter.Returns a new instance of BaseFormatter.
+
+
+  
+    Returns a new instance of BaseFormatter.
+
+
+  
+
+  
+    Returns a new instance of BaseFormatter.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        outputoutput
+      
+      
+        (IOIO)(IO)
+      
+      
+      
+        —
+        the formatter outputthe formatter output
+the formatter output
+
+      
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+  
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      Protocol#initializeProtocol#initialize
+    
+  
+    
+      Protocol#initialize
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#initialize
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+
+
+23
+24
+25
+26
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23# File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+defdef initializeinitialize((outputoutput))
+  @output@output == outputoutput |||| StringIOStringIO..newnew
+  @example_group@example_group == nilnil
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of BaseFormatter.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#initialize
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of BaseFormatter.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#initialize
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute example_group.Returns the value of attribute example_group.
+
+
+  
+    Returns the value of attribute example_group.
+
+
+  
+
+  
+    Returns the value of attribute example_group.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+17
+18
+19
+
+
+17
+18
+19
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17# File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+defdef example_groupexample_group
+  @example_group@example_group
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+
+
+  
+  
+    Returns the value of attribute example_group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute output.Returns the value of attribute output.
+
+
+  
+    Returns the value of attribute output.
+
+
+  
+
+  
+    Returns the value of attribute output.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+
+
+18
+19
+20
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18# File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+defdef outputoutput
+  @output@output
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+
+
+  
+  
+    Returns the value of attribute output.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute example_group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute output.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        _notification_notification
+      
+      
+        (NullNotificationNullNotification)(NullNotification)
+      
+      
+      
+        —
+        (Ignored)(Ignored)
+(Ignored)
+
+      
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      Protocol#closeProtocol#close
+    
+  
+    
+      Protocol#close
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#close
+    
+  
+
+
+  
+    
+      
+
+
+50
+51
+52
+
+
+50
+51
+52
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50# File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+defdef closeclose((_notification_notification))
+  restore_sync_outputrestore_sync_output
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+
+  
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#close
+    
+  
+
+
+  
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        notificationnotification
+      
+      
+        (GroupNotificationGroupNotification)(GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroupRSpec::Core::ExampleGroupcontaining example_group
+subclass of RSpec::Core::ExampleGroup
+containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+  
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      Protocol#example_group_startedProtocol#example_group_started
+    
+  
+    
+      Protocol#example_group_started
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#example_group_started
+    
+  
+
+
+  
+    
+      
+
+
+42
+43
+44
+
+
+42
+43
+44
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42# File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+defdef example_group_startedexample_group_started((notificationnotification))
+  @example_group@example_group == notificationnotification..groupgroup
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#example_group_started
+    
+  
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        notificationnotification
+      
+      
+        (StartNotificationStartNotification)(StartNotification)
+      
+      
+      
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      Protocol#startProtocol#start
+    
+  
+    
+      Protocol#start
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#start
+    
+  
+
+
+  
+    
+      
+
+
+32
+33
+34
+35
+
+
+32
+33
+34
+35
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32# File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+defdef startstart((notificationnotification))
+  start_sync_outputstart_sync_output
+  @example_count@example_count == notificationnotification..countcount
+endend# File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+
+  
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#start
+    
+  
+
+
+  
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#close
+    
+  
+
+
+  
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#example_group_started
+    
+  
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#start
+    
+  
+
+
+  
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::BaseFormatter
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::BaseFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/base_formatter.rb
+  
+  
+
+
+Overview
+  
+    RSpec's built-in formatters are all subclasses of
+RSpec::Core::Formatters::BaseFormatter.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      BaseTextFormatter
+    
+      Reporter
+    
+      Protocol
+    
+  
+
+
+  Direct Known Subclasses
+  BaseTextFormatter
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute example_group.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute output.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of BaseFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of BaseFormatter.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        output
+      
+      
+        (IO)
+      
+      
+      
+        —
+        the formatter output
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#initialize
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 23
+
+def initialize(output)
+  @output = output || StringIO.new
+  @example_group = nil
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute example_group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+17
+18
+19
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 17
+
+def example_group
+  @example_group
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute output.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 18
+
+def output
+  @output
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#close
+    
+  
+
+
+  
+    
+      
+
+
+50
+51
+52
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 50
+
+def close(_notification)
+  restore_sync_output
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (GroupNotification)
+      
+      
+      
+        —
+        containing example_group
+subclass of RSpec::Core::ExampleGroup
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#example_group_started
+    
+  
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 42
+
+def example_group_started(notification)
+  @example_group = notification.group
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (StartNotification)
+      
+      
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      Protocol#start
+    
+  
+
+
+  
+    
+      
+
+
+32
+33
+34
+35
+    
+    
+      # File 'lib/rspec/core/formatters/base_formatter.rb', line 32
+
+def start(notification)
+  start_sync_output
+  @example_count = notification.count
+end
+    
+  
+
+
+    
+  
+

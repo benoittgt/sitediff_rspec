@@ -1,0 +1,941 @@
+Class: RSpec::Matchers::BuiltIn::OperatorMatcher
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::OperatorMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcherRSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/operators.rblib/rspec/matchers/built_in/operators.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/operators.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/operators.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for operator matchers.
+Not intended to be instantiated directly.
+Only available for use with shouldshould.Provides the implementation for operator matchers.
+Not intended to be instantiated directly.
+Only available for use with should.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for operator matchers.
+Not intended to be instantiated directly.
+Only available for use with should.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for operator matchers.
+Not intended to be instantiated directly.
+Only available for use with should.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of OperatorMatcher.A new instance of OperatorMatcher.
+A new instance of OperatorMatcher.
+A new instance of OperatorMatcher.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of OperatorMatcher.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of OperatorMatcher.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.Returns a new instance of OperatorMatcher.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+41
+42
+43
+
+
+41
+42
+43
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41# File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+defdef initializeinitialize((actualactual))
+  @actual@actual == actualactual
+endend# File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+
+  
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+
+
+76
+77
+78
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76# File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+defdef descriptiondescription
+  ""#{#{@operator@operator}}  #{#{RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..formatformat((@expected@expected))}}"""#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+endend# File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+
+  
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::OperatorMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::OperatorMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/operators.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for operator matchers.
+Not intended to be instantiated directly.
+Only available for use with should.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of OperatorMatcher.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OperatorMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+41
+42
+43
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 41
+
+def initialize(actual)
+  @actual = actual
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+    
+    
+      # File 'lib/rspec/matchers/built_in/operators.rb', line 76
+
+def description
+  "#{@operator} #{RSpec::Support::ObjectFormatter.format(@expected)}"
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,492 @@
+Module: RSpec::Rails::Matchers::RedirectTo
+  
+  
+  
+Module: RSpec::Rails::Matchers::RedirectTo
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ControllerExampleGroup, RequestExampleGroup, SystemExampleGroupControllerExampleGroup, RequestExampleGroup, SystemExampleGroup
+  
+    Included in:
+    ControllerExampleGroup, RequestExampleGroup, SystemExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/redirect_to.rblib/rspec/rails/matchers/redirect_to.rb
+  
+    Defined in:
+    lib/rspec/rails/matchers/redirect_to.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup, RequestExampleGroup, SystemExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/redirect_to.rb
+  
+  
+
+
+OverviewOverview
+  
+    Matcher for redirects.Matcher for redirects.
+
+
+  
+    Matcher for redirects.
+
+
+  
+
+  
+    Matcher for redirects.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_redirected_toassert_redirected_to.Delegates to assert_redirected_to.
+Delegates to assert_redirected_to.
+Delegates to assert_redirected_to.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_redirected_to.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_redirected_to.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Delegates to assert_redirected_toassert_redirected_to.Delegates to assert_redirected_to.
+
+
+  
+    Delegates to assert_redirected_to.
+
+
+  
+
+  
+    Delegates to assert_redirected_to.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((responseresponse))..toto redirect_toredirect_to((:action:action =>=> ""newnew"""new"))expect(response).to redirect_to(:action => "new")expect(response).to redirect_to(:action => "new")
+    
+  
+    Examples:
+    
+      
+      expect(response).to redirect_to(:action => "new")
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to redirect_to(:action => "new")
+    
+  
+
+
+
+  
+    
+      
+
+
+32
+33
+34
+
+
+32
+33
+34
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32# File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+defdef redirect_toredirect_to((targettarget))
+  RedirectToRedirectTo..newnew((selfself,, targettarget))
+endend# File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+
+  
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+
+
+  
+  
+    Delegates to assert_redirected_to.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to redirect_to(:action => "new")
+    
+  
+
+
+
+  
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to assert_redirected_to.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to redirect_to(:action => "new")
+    
+  
+
+
+
+  
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::Matchers::RedirectTo
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup, RequestExampleGroup, SystemExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/redirect_to.rb
+  
+  
+
+
+Overview
+  
+    Matcher for redirects.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_redirected_to.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to assert_redirected_to.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to redirect_to(:action => "new")
+    
+  
+
+
+
+  
+    
+      
+
+
+32
+33
+34
+    
+    
+      # File 'lib/rspec/rails/matchers/redirect_to.rb', line 32
+
+def redirect_to(target)
+  RedirectTo.new(self, target)
+end
+    
+  
+
+
+    
+  
+

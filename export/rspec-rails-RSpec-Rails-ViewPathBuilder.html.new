@@ -1,0 +1,932 @@
+Class: RSpec::Rails::ViewPathBuilder
+  
+  
+  
+Class: RSpec::Rails::ViewPathBuilder
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Rails::ViewPathBuilderRSpec::Rails::ViewPathBuilder
+          
+        
+          Object
+          
+            RSpec::Rails::ViewPathBuilder
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Rails::ViewPathBuilder
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Rails::ViewPathBuilder
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/view_path_builder.rblib/rspec/rails/view_path_builder.rb
+  
+    Defined in:
+    lib/rspec/rails/view_path_builder.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Rails::ViewPathBuilder
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_path_builder.rb
+  
+  
+
+
+OverviewOverview
+  
+    Builds paths for view specs using a particular route set.Builds paths for view specs using a particular route set.
+
+
+  
+    Builds paths for view specs using a particular route set.
+
+
+  
+
+  
+    Builds paths for view specs using a particular route set.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ViewPathBuilder.A new instance of ViewPathBuilder.
+A new instance of ViewPathBuilder.
+A new instance of ViewPathBuilder.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ViewPathBuilder.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Given a hash of parameters, build a view path, if possible.Given a hash of parameters, build a view path, if possible.
+Given a hash of parameters, build a view path, if possible.
+Given a hash of parameters, build a view path, if possible.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Given a hash of parameters, build a view path, if possible.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ViewPathBuilder.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Given a hash of parameters, build a view path, if possible.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ViewPathBuilder.Returns a new instance of ViewPathBuilder.
+
+
+  
+    Returns a new instance of ViewPathBuilder.
+
+
+  
+
+  
+    Returns a new instance of ViewPathBuilder.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+
+
+5
+6
+7
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5# File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+defdef initializeinitialize((route_setroute_set))
+  selfself..classclass..sendsend((:include:include,, route_setroute_set..url_helpersurl_helpers))
+endend# File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+
+  
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of ViewPathBuilder.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ViewPathBuilder.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+# path can be built because all required params are present in the hash
+view_path_builderview_path_builder == ViewPathBuilderViewPathBuilder..newnew((::::RailsRails..applicationapplication..routesroutes))
+view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''showshow'''show',, :id:id =>=> ''5454'''54' }}))
+# => "/post/54"# => "/post/54"# path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"# path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+# path cannot be built because the params are missing a required element (:id)
+view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''deletedelete'''delete' }}))
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+    Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+
+
+22
+23
+24
+25
+26
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22# File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+defdef path_forpath_for((path_paramspath_params))
+  url_forurl_for((path_paramspath_params..mergemerge((:only_path:only_path =>=> truetrue))))
+rescuerescue =>=> ee
+  ee..messagemessage
+endend# File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+
+
+  
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Rails::ViewPathBuilder
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Rails::ViewPathBuilder
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/view_path_builder.rb
+  
+  
+
+
+Overview
+  
+    Builds paths for view specs using a particular route set.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of ViewPathBuilder.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Given a hash of parameters, build a view path, if possible.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of ViewPathBuilder.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+5
+6
+7
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 5
+
+def initialize(route_set)
+  self.class.send(:include, route_set.url_helpers)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Given a hash of parameters, build a view path, if possible.
+Returns nil if no path can be built from the given params.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      # path can be built because all required params are present in the hash
+view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
+    
+      
+      # path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/view_path_builder.rb', line 22
+
+def path_for(path_params)
+  url_for(path_params.merge(:only_path => true))
+rescue => e
+  e.message
+end
+    
+  
+
+
+    
+  
+

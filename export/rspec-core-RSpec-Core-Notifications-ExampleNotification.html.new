@@ -1,0 +1,700 @@
+Class: RSpec::Core::Notifications::ExampleNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::ExampleNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::ExampleNotificationRSpec::Core::Notifications::ExampleNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::ExampleNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::ExampleNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::ExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rb
+lib/rspec/core/notifications.rb
+
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::ExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    The ExampleNotificationExampleNotification represents notifications sent by the reporter
+which contain information about the current (or soon to be) example.
+It is used by formatters to access information about that example.The ExampleNotification represents notifications sent by the reporter
+which contain information about the current (or soon to be) example.
+It is used by formatters to access information about that example.
+
+
+  
+    The ExampleNotification represents notifications sent by the reporter
+which contain information about the current (or soon to be) example.
+It is used by formatters to access information about that example.
+
+
+  
+
+  
+    The ExampleNotification represents notifications sent by the reporter
+which contain information about the current (or soon to be) example.
+It is used by formatters to access information about that example.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      defdef example_startedexample_started((notificationnotification))
+  putsputs ""Hey I started Hey I started #{#{notificationnotification..exampleexample..descriptiondescription}}"""Hey I started #{notification.example.description}"
+endenddef example_started(notification)
+  puts "Hey I started #{notification.example.description}"
+enddef example_started(notification)
+  puts "Hey I started #{notification.example.description}"
+end
+    
+  
+    Examples:
+    
+      
+      def example_started(notification)
+  puts "Hey I started #{notification.example.description}"
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      def example_started(notification)
+  puts "Hey I started #{notification.example.description}"
+end
+    
+  
+
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  FailedExampleNotification, SkippedExampleNotificationFailedExampleNotification, SkippedExampleNotification
+
+  Direct Known Subclasses
+  FailedExampleNotification, SkippedExampleNotification
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.the current example.
+the current example.
+the current example.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current examplethe current example
+
+
+  
+    the current example
+
+
+  
+
+  
+    the current example
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleRSpec::Core::Example)(RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of examplethe current value of example
+the current value of example
+
+      
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+
+
+38
+39
+40
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38# File 'lib/rspec/core/notifications.rb', line 38
+
+defdef exampleexample
+  @example@example
+endend# File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+
+
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Core::Notifications::ExampleNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::ExampleNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+Overview
+  
+    The ExampleNotification represents notifications sent by the reporter
+which contain information about the current (or soon to be) example.
+It is used by formatters to access information about that example.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      def example_started(notification)
+  puts "Hey I started #{notification.example.description}"
+end
+    
+  
+
+
+
+  Direct Known Subclasses
+  FailedExampleNotification, SkippedExampleNotification
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current example.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current example
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::Example)
+      
+      
+      
+        —
+        the current value of example
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+38
+39
+40
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 38
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+

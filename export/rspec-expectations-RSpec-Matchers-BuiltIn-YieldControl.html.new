@@ -1,0 +1,3319 @@
+Class: RSpec::Matchers::BuiltIn::YieldControl
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::YieldControl
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControlRSpec::Matchers::BuiltIn::YieldControl
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControl
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControl
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControl
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/yield.rblib/rspec/matchers/built_in/yield.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControl
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_controlyield_control.
+Not intended to be instantiated directly.Provides the implementation for yield_control.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_control.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_control.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the minimum number of times the method is expected to yield.Specifies the minimum number of times the method is expected to yield.
+Specifies the minimum number of times the method is expected to yield.
+Specifies the minimum number of times the method is expected to yield.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the minimum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the maximum number of times the method is expected to yield.Specifies the maximum number of times the method is expected to yield.
+Specifies the maximum number of times the method is expected to yield.
+Specifies the maximum number of times the method is expected to yield.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the maximum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield the given number of times.Specifies that the method is expected to yield the given number of times.
+Specifies that the method is expected to yield the given number of times.
+Specifies that the method is expected to yield the given number of times.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield the given number of times.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of YieldControl.A new instance of YieldControl.
+A new instance of YieldControl.
+A new instance of YieldControl.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldControl.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield once.Specifies that the method is expected to yield once.
+Specifies that the method is expected to yield once.
+Specifies that the method is expected to yield once.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield thrice.Specifies that the method is expected to yield thrice.
+Specifies that the method is expected to yield thrice.
+Specifies that the method is expected to yield thrice.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield thrice.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    No-op.No-op.
+No-op.
+No-op.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    No-op.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield twice.Specifies that the method is expected to yield twice.
+Specifies that the method is expected to yield twice.
+Specifies that the method is expected to yield twice.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield twice.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the minimum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the maximum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield the given number of times.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldControl.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield thrice.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    No-op.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield twice.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.Returns a new instance of YieldControl.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+100
+101
+102
+
+
+100
+101
+102
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100# File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+defdef initializeinitialize
+  at_leastat_least((:once:once))
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+
+  
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Specifies the minimum number of times the method is expected to yieldSpecifies the minimum number of times the method is expected to yield
+
+
+  
+    Specifies the minimum number of times the method is expected to yield
+
+
+  
+
+  
+    Specifies the minimum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+141
+142
+143
+144
+
+
+141
+142
+143
+144
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141# File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+defdef at_leastat_least((numbernumber))
+  set_expected_yields_countset_expected_yields_count((:>=:>=,, numbernumber))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies the minimum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the maximum number of times the method is expected to yieldSpecifies the maximum number of times the method is expected to yield
+
+
+  
+    Specifies the maximum number of times the method is expected to yield
+
+
+  
+
+  
+    Specifies the maximum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+134
+135
+136
+137
+
+
+134
+135
+136
+137
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134# File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+defdef at_mostat_most((numbernumber))
+  set_expected_yields_countset_expected_yields_count((:<=:<=,, numbernumber))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies the maximum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield the given number of times.Specifies that the method is expected to yield the given number of times.
+
+
+  
+    Specifies that the method is expected to yield the given number of times.
+
+
+  
+
+  
+    Specifies that the method is expected to yield the given number of times.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+
+
+127
+128
+129
+130
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127# File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+defdef exactlyexactly((numbernumber))
+  set_expected_yields_countset_expected_yields_count((:==:==,, numbernumber))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies that the method is expected to yield the given number of times.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+
+
+167
+168
+169
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167# File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+defdef failure_messagefailure_message
+  ''expected given block to yield controlexpected given block to yield control'''expected given block to yield control' ++ failure_reasonfailure_reason
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+
+
+173
+174
+175
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173# File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ''expected given block not to yield controlexpected given block not to yield control'''expected given block not to yield control' ++ failure_reasonfailure_reason
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield once.Specifies that the method is expected to yield once.
+
+
+  
+    Specifies that the method is expected to yield once.
+
+
+  
+
+  
+    Specifies that the method is expected to yield once.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+106
+107
+108
+109
+
+
+106
+107
+108
+109
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106# File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+defdef onceonce
+  exactlyexactly((11))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies that the method is expected to yield once.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield thrice.Specifies that the method is expected to yield thrice.
+
+
+  
+    Specifies that the method is expected to yield thrice.
+
+
+  
+
+  
+    Specifies that the method is expected to yield thrice.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+123
+
+
+120
+121
+122
+123
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120# File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+defdef thricethrice
+  exactlyexactly((33))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies that the method is expected to yield thrice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    No-op. Provides syntactic sugar.No-op. Provides syntactic sugar.
+
+
+  
+    No-op. Provides syntactic sugar.
+
+
+  
+
+  
+    No-op. Provides syntactic sugar.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+148
+149
+150
+
+
+148
+149
+150
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148# File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+defdef timestimes
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+
+
+  
+  
+    No-op. Provides syntactic sugar.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield twice.Specifies that the method is expected to yield twice.
+
+
+  
+    Specifies that the method is expected to yield twice.
+
+
+  
+
+  
+    Specifies that the method is expected to yield twice.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+
+
+113
+114
+115
+116
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113# File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+defdef twicetwice
+  exactlyexactly((22))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies that the method is expected to yield twice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the minimum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the maximum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield the given number of times.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield once.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield thrice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    No-op. Provides syntactic sugar.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield twice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::YieldControl
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldControl
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_control.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the minimum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the maximum number of times the method is expected to yield.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield the given number of times.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldControl.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield thrice.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    No-op.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies that the method is expected to yield twice.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldControl.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+100
+101
+102
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 100
+
+def initialize
+  at_least(:once)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the minimum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+141
+142
+143
+144
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 141
+
+def at_least(number)
+  set_expected_yields_count(:>=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the maximum number of times the method is expected to yield
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+134
+135
+136
+137
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 134
+
+def at_most(number)
+  set_expected_yields_count(:<=, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield the given number of times.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+128
+129
+130
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 127
+
+def exactly(number)
+  set_expected_yields_count(:==, number)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 167
+
+def failure_message
+  'expected given block to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+173
+174
+175
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 173
+
+def failure_message_when_negated
+  'expected given block not to yield control' + failure_reason
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield once.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+106
+107
+108
+109
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 106
+
+def once
+  exactly(1)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield thrice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 120
+
+def thrice
+  exactly(3)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    No-op. Provides syntactic sugar.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+148
+149
+150
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 148
+
+def times
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies that the method is expected to yield twice.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 113
+
+def twice
+  exactly(2)
+  self
+end
+    
+  
+
+
+    
+  
+

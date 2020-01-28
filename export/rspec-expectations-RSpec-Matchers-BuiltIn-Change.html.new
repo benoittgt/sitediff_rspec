@@ -1,0 +1,3255 @@
+Class: RSpec::Matchers::BuiltIn::Change
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Change
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ChangeRSpec::Matchers::BuiltIn::Change
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Change
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Change
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Change
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/change.rblib/rspec/matchers/built_in/change.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Change
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for changechange.
+Not intended to be instantiated directly.Provides the implementation for change.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for change.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for change.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the delta of the expected change.Specifies the delta of the expected change.
+Specifies the delta of the expected change.
+Specifies the delta of the expected change.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a minimum delta of the expected change.Specifies a minimum delta of the expected change.
+Specifies a minimum delta of the expected change.
+Specifies a minimum delta of the expected change.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a minimum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a maximum delta of the expected change.Specifies a maximum delta of the expected change.
+Specifies a maximum delta of the expected change.
+Specifies a maximum delta of the expected change.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a maximum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the original value.Specifies the original value.
+Specifies the original value.
+Specifies the original value.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the original value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.Specifies the new value you expect.
+Specifies the new value you expect.
+Specifies the new value you expect.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a minimum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a maximum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the original value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises#diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Specifies the delta of the expected change.Specifies the delta of the expected change.
+
+
+  
+    Specifies the delta of the expected change.
+
+
+  
+
+  
+    Specifies the delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+
+
+10
+11
+12
+13
+14
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10# File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+defdef byby((expected_deltaexpected_delta))
+  ChangeRelativelyChangeRelatively..newnew((change_detailschange_details,, expected_deltaexpected_delta,, :by:by)) dodo ||actual_deltaactual_delta||
+    values_match?values_match?((expected_deltaexpected_delta,, actual_deltaactual_delta))
+  endend
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+
+
+  
+  
+    Specifies the delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a minimum delta of the expected change.Specifies a minimum delta of the expected change.
+
+
+  
+    Specifies a minimum delta of the expected change.
+
+
+  
+
+  
+    Specifies a minimum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+
+
+18
+19
+20
+21
+22
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18# File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+defdef by_at_leastby_at_least((minimumminimum))
+  ChangeRelativelyChangeRelatively..newnew((change_detailschange_details,, minimumminimum,, :by_at_least:by_at_least)) dodo ||actual_deltaactual_delta||
+    actual_deltaactual_delta >=>= minimumminimum
+  endend
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+
+
+  
+  
+    Specifies a minimum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a maximum delta of the expected change.Specifies a maximum delta of the expected change.
+
+
+  
+    Specifies a maximum delta of the expected change.
+
+
+  
+
+  
+    Specifies a maximum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+
+
+26
+27
+28
+29
+30
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26# File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+defdef by_at_mostby_at_most((maximummaximum))
+  ChangeRelativelyChangeRelatively..newnew((change_detailschange_details,, maximummaximum,, :by_at_most:by_at_most)) dodo ||actual_deltaactual_delta||
+    actual_deltaactual_delta <=<= maximummaximum
+  endend
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+
+
+  
+  
+    Specifies a maximum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+
+
+71
+72
+73
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71# File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+defdef descriptiondescription
+  ""change change #{#{change_detailschange_details..value_representationvalue_representation}}"""change #{change_details.value_representation}"
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+
+  
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+50
+51
+52
+53
+
+
+50
+51
+52
+53
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50# File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+defdef does_not_match?does_not_match?((event_procevent_proc))
+  raise_block_syntax_errorraise_block_syntax_error ifif block_given?block_given?
+  perform_changeperform_change((event_procevent_proc)) &&&& !!change_detailschange_details..changed?changed?
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+
+  
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+
+
+57
+58
+59
+60
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57# File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+defdef failure_messagefailure_message
+  ""expected expected #{#{change_detailschange_details..value_representationvalue_representation}} to have changed,  to have changed, """expected #{change_details.value_representation} to have changed, " \
+  ""but but #{#{positive_failure_reasonpositive_failure_reason}}"""but #{positive_failure_reason}"
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+
+
+64
+65
+66
+67
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64# File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""expected expected #{#{change_detailschange_details..value_representationvalue_representation}} not to have changed,  not to have changed, """expected #{change_details.value_representation} not to have changed, " \
+  ""but but #{#{negative_failure_reasonnegative_failure_reason}}"""but #{negative_failure_reason}"
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+
+  
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the original value.Specifies the original value.
+
+
+  
+    Specifies the original value.
+
+
+  
+
+  
+    Specifies the original value.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+40
+41
+42
+
+
+40
+41
+42
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40# File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+defdef fromfrom((valuevalue))
+  ChangeFromValueChangeFromValue..newnew((change_detailschange_details,, valuevalue))
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+
+
+  
+  
+    Specifies the original value.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the new value you expect.Specifies the new value you expect.
+
+
+  
+    Specifies the new value you expect.
+
+
+  
+
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+
+
+34
+35
+36
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34# File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+defdef toto((valuevalue))
+  ChangeToValueChangeToValue..newnew((change_detailschange_details,, valuevalue))
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+
+
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a minimum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a maximum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the original value.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Change
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Change
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for change.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a minimum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies a maximum delta of the expected change.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the original value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 10
+
+def by(expected_delta)
+  ChangeRelatively.new(change_details, expected_delta, :by) do |actual_delta|
+    values_match?(expected_delta, actual_delta)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a minimum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 18
+
+def by_at_least(minimum)
+  ChangeRelatively.new(change_details, minimum, :by_at_least) do |actual_delta|
+    actual_delta >= minimum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies a maximum delta of the expected change.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 26
+
+def by_at_most(maximum)
+  ChangeRelatively.new(change_details, maximum, :by_at_most) do |actual_delta|
+    actual_delta <= maximum
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+71
+72
+73
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 71
+
+def description
+  "change #{change_details.value_representation}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 50
+
+def does_not_match?(event_proc)
+  raise_block_syntax_error if block_given?
+  perform_change(event_proc) && !change_details.changed?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 57
+
+def failure_message
+  "expected #{change_details.value_representation} to have changed, " \
+  "but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 64
+
+def failure_message_when_negated
+  "expected #{change_details.value_representation} not to have changed, " \
+  "but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the original value.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 40
+
+def from(value)
+  ChangeFromValue.new(change_details, value)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 34
+
+def to(value)
+  ChangeToValue.new(change_details, value)
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,1975 @@
+Class: RSpec::Matchers::AliasedMatcher
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::AliasedMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      MatcherDelegator
+      
+        
+          ObjectObject
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcherRSpec::Matchers::AliasedMatcher
+          
+        
+          Object
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcher
+          
+        
+        show allshow all
+      
+    
+      MatcherDelegator
+      
+        
+          Object
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcher
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      MatcherDelegator
+      
+        
+          Object
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/aliased_matcher.rblib/rspec/matchers/aliased_matcher.rb
+  
+    Defined in:
+    lib/rspec/matchers/aliased_matcher.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      MatcherDelegator
+      
+        
+          Object
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/aliased_matcher.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Decorator that wraps a matcher and overrides descriptiondescription
+using the provided block in order to support an alias
+of a matcher. This is intended for use when composing
+matchers, so that you can use an expression like
+include( a_value_within(0.1).of(3) )include( a_value_within(0.1).of(3) ) rather than
+include( be_within(0.1).of(3) )include( be_within(0.1).of(3) ), and have the corresponding
+description read naturally.Decorator that wraps a matcher and overrides description
+using the provided block in order to support an alias
+of a matcher. This is intended for use when composing
+matchers, so that you can use an expression like
+include( a_value_within(0.1).of(3) ) rather than
+include( be_within(0.1).of(3) ), and have the corresponding
+description read naturally.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Decorator that wraps a matcher and overrides description
+using the provided block in order to support an alias
+of a matcher. This is intended for use when composing
+matchers, so that you can use an expression like
+include( a_value_within(0.1).of(3) ) rather than
+include( be_within(0.1).of(3) ), and have the corresponding
+description read naturally.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Decorator that wraps a matcher and overrides description
+using the provided block in order to support an alias
+of a matcher. This is intended for use when composing
+matchers, so that you can use an expression like
+include( a_value_within(0.1).of(3) ) rather than
+include( be_within(0.1).of(3) ), and have the corresponding
+description read naturally.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Provides the description of the aliased matcher.Provides the description of the aliased matcher.
+Provides the description of the aliased matcher.
+Provides the description of the aliased matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the description of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Provides the failure_message of the aliased matcher.Provides the failure_message of the aliased matcher.
+Provides the failure_message of the aliased matcher.
+Provides the failure_message of the aliased matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Provides the failure_message_when_negated of the aliased matcher.Provides the failure_message_when_negated of the aliased matcher.
+Provides the failure_message_when_negated of the aliased matcher.
+Provides the failure_message_when_negated of the aliased matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message_when_negated of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of AliasedMatcher.A new instance of AliasedMatcher.
+A new instance of AliasedMatcher.
+A new instance of AliasedMatcher.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of AliasedMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Forward messages on to the wrapped matcher.Forward messages on to the wrapped matcher.
+Forward messages on to the wrapped matcher.
+Forward messages on to the wrapped matcher.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Forward messages on to the wrapped matcher.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the description of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message_when_negated of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of AliasedMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Forward messages on to the wrapped matcher.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.Returns a new instance of AliasedMatcher.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+13
+14
+15
+16
+
+
+13
+14
+15
+16
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13# File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+defdef initializeinitialize((base_matcherbase_matcher,, description_blockdescription_block))
+  @description_block@description_block == description_blockdescription_block
+  supersuper((base_matcherbase_matcher))
+endend# File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+
+  
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+
+
+  
+
+
+  Dynamic Method HandlingDynamic Method Handling
+  
+    This class handles dynamic methods through the method_missingmethod_missing method
+    
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to descriptiondescription,
+so that our override can be applied when it is eventually
+used.Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+
+
+24
+25
+26
+27
+28
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24# File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+defdef method_missingmethod_missing((**))
+  return_valreturn_val == supersuper
+  returnreturn return_valreturn_val unlessunless RSpecRSpec::::MatchersMatchers..is_a_matcher?is_a_matcher?((return_valreturn_val))
+  selfself..classclass..newnew((return_valreturn_val,, @description_block@description_block))
+endend# File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+
+
+  
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+
+
+36
+37
+38
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36# File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+defdef descriptiondescription
+  @description_block@description_block..callcall((supersuper))
+endend# File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+
+
+46
+47
+48
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46# File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+defdef failure_messagefailure_message
+  @description_block@description_block..callcall((supersuper))
+endend# File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+56
+57
+58
+
+
+56
+57
+58
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56# File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  @description_block@description_block..callcall((supersuper))
+endend# File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+
+  
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::AliasedMatcher
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      MatcherDelegator
+      
+        
+          Object
+          
+            MatcherDelegator
+          
+            RSpec::Matchers::AliasedMatcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/aliased_matcher.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Decorator that wraps a matcher and overrides description
+using the provided block in order to support an alias
+of a matcher. This is intended for use when composing
+matchers, so that you can use an expression like
+include( a_value_within(0.1).of(3) ) rather than
+include( be_within(0.1).of(3) ), and have the corresponding
+description read naturally.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the description of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides the failure_message_when_negated of the aliased matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of AliasedMatcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Forward messages on to the wrapped matcher.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of AliasedMatcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+13
+14
+15
+16
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 13
+
+def initialize(base_matcher, description_block)
+  @description_block = description_block
+  super(base_matcher)
+end
+    
+  
+
+
+  
+
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Forward messages on to the wrapped matcher.
+Since many matchers provide a fluent interface
+(e.g. a_value_within(0.1).of(3)), we need to wrap
+the returned value if it responds to description,
+so that our override can be applied when it is eventually
+used.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+24
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 24
+
+def method_missing(*)
+  return_val = super
+  return return_val unless RSpec::Matchers.is_a_matcher?(return_val)
+  self.class.new(return_val, @description_block)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the description of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The description is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 36
+
+def description
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 46
+
+def failure_message
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
+are designed to behave identically to the original matcher except
+for the description and failure messages. The failure_message_when_negated is different
+to reflect the aliased name.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+56
+57
+58
+    
+    
+      # File 'lib/rspec/matchers/aliased_matcher.rb', line 56
+
+def failure_message_when_negated
+  @description_block.call(super)
+end
+    
+  
+
+
+    
+  
+

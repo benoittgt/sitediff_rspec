@@ -1,0 +1,379 @@
+Class: RSpec::Matchers::BuiltIn::StartWith
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::StartWith
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StartOrEndWithStartOrEndWith
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            StartOrEndWithStartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWithRSpec::Matchers::BuiltIn::StartWith
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            StartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWith
+          
+        
+        show allshow all
+      
+    
+      StartOrEndWith
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            StartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWith
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      StartOrEndWith
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            StartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rblib/rspec/matchers/built_in/start_or_end_with.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      StartOrEndWith
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            StartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for start_withstart_with.
+Not intended to be instantiated directly.Provides the implementation for start_with.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for start_with.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for start_with.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  Method SummaryMethod Summary
+  
+  Methods inherited from StartOrEndWithMethods inherited from StartOrEndWith
+  #description, #failure_message, #initialize#description, #failure_message, #initialize
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::StartOrEndWithThis class inherits a constructor from RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+
+
+
+Class: RSpec::Matchers::BuiltIn::StartWith
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      StartOrEndWith
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            StartOrEndWith
+          
+            RSpec::Matchers::BuiltIn::StartWith
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/start_or_end_with.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for start_with.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  Method Summary
+  
+  Methods inherited from StartOrEndWith
+  #description, #failure_message, #initialize
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::StartOrEndWith
+  
+
+
+

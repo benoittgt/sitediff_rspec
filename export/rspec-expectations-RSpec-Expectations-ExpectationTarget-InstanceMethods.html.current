@@ -1,0 +1,1615 @@
+Module: RSpec::Expectations::ExpectationTarget::InstanceMethods
+  
+  
+  
+Module: RSpec::Expectations::ExpectationTarget::InstanceMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    RSpec::Expectations::ExpectationTargetRSpec::Expectations::ExpectationTarget
+  
+    Included in:
+    RSpec::Expectations::ExpectationTarget
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations/expectation_target.rblib/rspec/expectations/expectation_target.rb
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Expectations::ExpectationTarget
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+
+OverviewOverview
+  
+    Defines instance RSpec::Expectations::ExpectationTarget instance methods. These are defined
+in a module so we can include it in Minitest::ExpectationMinitest::Expectation when
+rspec/expectations/minitest_integrationrspec/expectations/minitest_integration is loaded in order to
+support usage with Minitest.Defines instance RSpec::Expectations::ExpectationTarget instance methods. These are defined
+in a module so we can include it in Minitest::Expectation when
+rspec/expectations/minitest_integration is loaded in order to
+support usage with Minitest.
+
+
+  
+    Defines instance RSpec::Expectations::ExpectationTarget instance methods. These are defined
+in a module so we can include it in Minitest::Expectation when
+rspec/expectations/minitest_integration is loaded in order to
+support usage with Minitest.
+
+
+  
+
+  
+    Defines instance RSpec::Expectations::ExpectationTarget instance methods. These are defined
+in a module so we can include it in Minitest::Expectation when
+rspec/expectations/minitest_integration is loaded in order to
+support usage with Minitest.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matchermatcher returns false.Runs the given expectation, passing if matcher returns false.
+Runs the given expectation, passing if matcher returns false.
+Runs the given expectation, passing if matcher returns false.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matchermatcher returns true.Runs the given expectation, passing if matcher returns true.
+Runs the given expectation, passing if matcher returns true.
+Runs the given expectation, passing if matcher returns true.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns true.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns true.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matchermatcher returns false.Runs the given expectation, passing if matcher returns false.
+
+
+  
+    Runs the given expectation, passing if matcher returns false.
+
+
+  
+
+  
+    Runs the given expectation, passing if matcher returns false.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((valuevalue))..not_tonot_to eqeq((55))expect(value).not_to eq(5)expect(value).not_to eq(5)
+    
+  
+    Examples:
+    
+      
+      expect(value).not_to eq(5)
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        matchermatcher
+      
+      
+        (MatcherMatcher)(Matcher)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        (String or ProcString or Proc)(String or Proc)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation failsoptional message to display when the expectation fails
+optional message to display when the expectation fails
+
+      
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)false if the negative expectation succeeds (else raises)
+false if the negative expectation succeeds (else raises)
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      MatchersMatchers
+    
+  
+    
+      Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).not_to eq(5)
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+
+
+76
+77
+78
+79
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76# File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+defdef not_tonot_to((matchermatcher==nilnil,, messagemessage==nilnil,, &&blockblock))
+  prevent_operator_matchersprevent_operator_matchers((:not_to:not_to)) unlessunless matchermatcher
+  RSpecRSpec::::ExpectationsExpectations::::NegativeExpectationHandlerNegativeExpectationHandler..handle_matcherhandle_matcher((targettarget,, matchermatcher,, messagemessage,, &&blockblock))
+endend# File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+  
+  
+    Runs the given expectation, passing if matcher returns false.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).not_to eq(5)
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matchermatcher returns true.Runs the given expectation, passing if matcher returns true.
+
+
+  
+    Runs the given expectation, passing if matcher returns true.
+
+
+  
+
+  
+    Runs the given expectation, passing if matcher returns true.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((valuevalue))..toto eqeq((55))
+expectexpect {{ performperform }}..toto raise_errorraise_errorexpect(value).to eq(5)
+expect { perform }.to raise_errorexpect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+    Examples:
+    
+      
+      expect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        matchermatcher
+      
+      
+        (MatcherMatcher)(Matcher)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        (String or ProcString or Proc)(String or Proc)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation failsoptional message to display when the expectation fails
+optional message to display when the expectation fails
+
+      
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)true if the expectation succeeds (else raises)
+true if the expectation succeeds (else raises)
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      MatchersMatchers
+    
+  
+    
+      Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+63
+64
+65
+66
+
+
+63
+64
+65
+66
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63# File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+defdef toto((matchermatcher==nilnil,, messagemessage==nilnil,, &&blockblock))
+  prevent_operator_matchersprevent_operator_matchers((:to:to)) unlessunless matchermatcher
+  RSpecRSpec::::ExpectationsExpectations::::PositiveExpectationHandlerPositiveExpectationHandler..handle_matcherhandle_matcher((targettarget,, matchermatcher,, messagemessage,, &&blockblock))
+endend# File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+  
+  
+    Runs the given expectation, passing if matcher returns true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matcher returns false.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).not_to eq(5)
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matcher returns true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Expectations::ExpectationTarget::InstanceMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Expectations::ExpectationTarget
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+
+Overview
+  
+    Defines instance RSpec::Expectations::ExpectationTarget instance methods. These are defined
+in a module so we can include it in Minitest::Expectation when
+rspec/expectations/minitest_integration is loaded in order to
+support usage with Minitest.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the given expectation, passing if matcher returns true.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matcher returns false.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).not_to eq(5)
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 76
+
+def not_to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:not_to) unless matcher
+  RSpec::Expectations::NegativeExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the given expectation, passing if matcher returns true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(value).to eq(5)
+expect { perform }.to raise_error
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+        (defaults to: nil)
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String or Proc)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      Matchers
+    
+  
+
+
+  
+    
+      
+
+
+63
+64
+65
+66
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 63
+
+def to(matcher=nil, message=nil, &block)
+  prevent_operator_matchers(:to) unless matcher
+  RSpec::Expectations::PositiveExpectationHandler.handle_matcher(target, matcher, message, &block)
+end
+    
+  
+
+
+    
+  
+

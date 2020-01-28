@@ -1,0 +1,4255 @@
+Class: RSpec::Core::World
+  
+  
+  PrivatePrivate
+Class: RSpec::Core::World
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::WorldRSpec::Core::World
+          
+        
+          Object
+          
+            RSpec::Core::World
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::World
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::World
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/world.rblib/rspec/core/world.rb
+  
+    Defined in:
+    lib/rspec/core/world.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::World
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/world.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Internal container for global non-configuration data.Internal container for global non-configuration data.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Internal container for global non-configuration data.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Internal container for global non-configuration data.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    Used internally to determine what to do when a SIGINT is received.Used internally to determine what to do when a SIGINT is received.
+Used internally to determine what to do when a SIGINT is received.
+Used internally to determine what to do when a SIGINT is received.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    Used internally to determine what to do when a SIGINT is received.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    Used internally to determine what to do when a SIGINT is received.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Add exclusion filters to announcement message.Add exclusion filters to announcement message.
+Add exclusion filters to announcement message.
+Add exclusion filters to announcement message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add exclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Notify reporter of filters.Notify reporter of filters.
+Notify reporter of filters.
+Notify reporter of filters.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Notify reporter of filters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Add inclusion filters to announcement message.Add inclusion filters to announcement message.
+Add inclusion filters to announcement message.
+Add inclusion filters to announcement message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add inclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Get count of examples to be run.Get count of examples to be run.
+Get count of examples to be run.
+Get count of examples to be run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Get count of examples to be run.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of World.A new instance of World.
+A new instance of World.
+A new instance of World.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of World.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Apply ordering strategy from configuration to example groups.Apply ordering strategy from configuration to example groups.
+Apply ordering strategy from configuration to example groups.
+Apply ordering strategy from configuration to example groups.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Apply ordering strategy from configuration to example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Find line number of previous declaration.Find line number of previous declaration.
+Find line number of previous declaration.
+Find line number of previous declaration.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Find line number of previous declaration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Prepares filters so that they apply to example groups when they run.Prepares filters so that they apply to example groups when they run.
+Prepares filters so that they apply to example groups when they run.
+Prepares filters so that they apply to example groups when they run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Prepares filters so that they apply to example groups when they run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Records an example group.Records an example group.
+Records an example group.
+Records an example group.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records an example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Reset world to 'scratch' before running suite.Reset world to 'scratch' before running suite.
+Reset world to 'scratch' before running suite.
+Reset world to 'scratch' before running suite.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Reset world to 'scratch' before running suite.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add exclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Notify reporter of filters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add inclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Get count of examples to be run.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of World.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Apply ordering strategy from configuration to example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Find line number of previous declaration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Prepares filters so that they apply to example groups when they run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records an example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Reset world to 'scratch' before running suite.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.Returns a new instance of World.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19# File 'lib/rspec/core/world.rb', line 19
+
+defdef initializeinitialize((configurationconfiguration==RSpecRSpec..configurationconfiguration))
+  @configuration@configuration == configurationconfiguration
+  configurationconfiguration..worldworld == selfself
+  @example_groups@example_groups == [[]]
+  @example_group_counts_by_spec_file@example_group_counts_by_spec_file == HashHash..newnew((00))
+  prepare_example_filteringprepare_example_filtering
+endend# File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.Used internally to determine what to do when a SIGINT is received.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+
+
+11
+12
+13
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11# File 'lib/rspec/core/world.rb', line 11
+
+defdef wants_to_quitwants_to_quit
+  @wants_to_quit@wants_to_quit
+endend# File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.Add exclusion filters to announcement message.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+
+
+214
+215
+216
+217
+218
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214# File 'lib/rspec/core/world.rb', line 214
+
+defdef announce_exclusion_filterannounce_exclusion_filter((announcementsannouncements))
+  returnreturn ifif exclusion_filterexclusion_filter..empty?empty?
+
+  announcementsannouncements <<<< ""exclude exclude #{#{exclusion_filterexclusion_filter..descriptiondescription}}"""exclude #{exclusion_filter.description}"
+endend# File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.Notify reporter of filters.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161# File 'lib/rspec/core/world.rb', line 161
+
+defdef announce_filtersannounce_filters
+  fail_if_config_and_cli_options_invalidfail_if_config_and_cli_options_invalid
+  filter_announcementsfilter_announcements == [[]]
+
+  announce_inclusion_filterannounce_inclusion_filter filter_announcementsfilter_announcements
+  announce_exclusion_filterannounce_exclusion_filter filter_announcementsfilter_announcements
+
+  unlessunless filter_managerfilter_manager..empty?empty?
+    ifif filter_announcementsfilter_announcements..lengthlength ==== 11
+      report_filter_messagereport_filter_message((""Run options: Run options: #{#{filter_announcementsfilter_announcements[[00]]}}"""Run options: #{filter_announcements[0]}"))
+    elseelse
+      report_filter_messagereport_filter_message((""Run options:\n  Run options:\n  #{#{filter_announcementsfilter_announcements..joinjoin((""\n  \n  """\n  "))}}"""Run options:\n  #{filter_announcements.join("\n  ")}"))
+    endend
+  endend
+
+  ifif @configuration@configuration..run_all_when_everything_filtered?run_all_when_everything_filtered? &&&& example_countexample_count..zero?zero? &&&& !!@configuration@configuration..only_failures?only_failures?
+    report_filter_messagereport_filter_message((""#{#{everything_filtered_messageeverything_filtered_message}}; ignoring ; ignoring #{#{inclusion_filterinclusion_filter..descriptiondescription}}"""#{everything_filtered_message}; ignoring #{inclusion_filter.description}"))
+    filtered_examplesfiltered_examples..clearclear
+    inclusion_filterinclusion_filter..clearclear
+  endend
+
+  returnreturn unlessunless example_countexample_count..zero?zero?
+
+  example_groupsexample_groups..clearclear
+  ifif filter_managerfilter_manager..empty?empty?
+    report_filter_messagereport_filter_message((""No examples found.No examples found."""No examples found."))
+  elsifelsif exclusion_filterexclusion_filter..empty?empty? |||| inclusion_filterinclusion_filter..empty?empty?
+    report_filter_messagereport_filter_message((everything_filtered_messageeverything_filtered_message))
+  endend
+endend# File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.Add inclusion filters to announcement message.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+
+
+205
+206
+207
+208
+209
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205# File 'lib/rspec/core/world.rb', line 205
+
+defdef announce_inclusion_filterannounce_inclusion_filter((announcementsannouncements))
+  returnreturn ifif inclusion_filterinclusion_filter..empty?empty?
+
+  announcementsannouncements <<<< ""include include #{#{inclusion_filterinclusion_filter..descriptiondescription}}"""include #{inclusion_filter.description}"
+endend# File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.Get count of examples to be run.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+102
+
+
+99
+100
+101
+102
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99# File 'lib/rspec/core/world.rb', line 99
+
+defdef example_countexample_count((groupsgroups==example_groupsexample_groups))
+  FlatMapFlatMap..flat_mapflat_map((groupsgroups)) {{ ||gg|| gg..descendantsdescendants }}..
+    injectinject((00)) {{ ||aa,, ee|| aa ++ ee..filtered_examplesfiltered_examples..sizesize }}
+endend# File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+
+  
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.Apply ordering strategy from configuration to example groups.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+
+
+43
+44
+45
+46
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43# File 'lib/rspec/core/world.rb', line 43
+
+defdef ordered_example_groupsordered_example_groups
+  ordering_strategyordering_strategy == @configuration@configuration..ordering_registryordering_registry..fetchfetch((:global:global))
+  ordering_strategyordering_strategy..orderorder((@example_groups@example_groups))
+endend# File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+
+  
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.Find line number of previous declaration.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130# File 'lib/rspec/core/world.rb', line 130
+
+defdef preceding_declaration_linepreceding_declaration_line((absolute_file_nameabsolute_file_name,, filter_linefilter_line))
+  line_numbersline_numbers == descending_declaration_line_numbers_by_filedescending_declaration_line_numbers_by_file..fetchfetch((absolute_file_nameabsolute_file_name)) dodo
+    returnreturn nilnil
+  endend
+
+  line_numbersline_numbers..findfind {{ ||numnum|| numnum <=<= filter_linefilter_line }}
+endend# File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Prepares filters so that they apply to example groups when they run.Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+    Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+
+  
+    Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+
+
+34
+35
+36
+37
+38
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34# File 'lib/rspec/core/world.rb', line 34
+
+defdef prepare_example_filteringprepare_example_filtering
+  @filtered_examples@filtered_examples == HashHash..newnew dodo ||hashhash,, groupgroup||
+    hashhash[[groupgroup]] == filter_managerfilter_manager..pruneprune((groupgroup..examplesexamples))
+  endend
+endend# File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+
+
+  
+  
+    Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.Records an example group.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+
+
+71
+72
+73
+74
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71# File 'lib/rspec/core/world.rb', line 71
+
+defdef recordrecord((example_groupexample_group))
+  @configuration@configuration..on_example_group_definition_callbackson_example_group_definition_callbacks..eacheach {{ ||blockblock|| blockblock..callcall((example_groupexample_group)) }}
+  @example_group_counts_by_spec_file@example_group_counts_by_spec_file[[example_groupexample_group..metadatametadata[[:absolute_file_path:absolute_file_path]]]] +=+= 11
+endend# File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+
+  
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.Reset world to 'scratch' before running suite.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+
+
+51
+52
+53
+54
+55
+56
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51# File 'lib/rspec/core/world.rb', line 51
+
+defdef resetreset
+  RSpecRSpec::::ExampleGroupsExampleGroups..remove_all_constantsremove_all_constants
+  example_groupsexample_groups..clearclear
+  @sources_by_path@sources_by_path..clearclear ifif defined?defined?((@sources_by_path@sources_by_path))
+  @syntax_highlighter@syntax_highlighter == nilnil
+endend# File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::World
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::World
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/world.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Internal container for global non-configuration data.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    Used internally to determine what to do when a SIGINT is received.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add exclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Notify reporter of filters.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Add inclusion filters to announcement message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Get count of examples to be run.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of World.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Apply ordering strategy from configuration to example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Find line number of previous declaration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Prepares filters so that they apply to example groups when they run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Records an example group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Reset world to 'scratch' before running suite.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of World.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/core/world.rb', line 19
+
+def initialize(configuration=RSpec.configuration)
+  @configuration = configuration
+  configuration.world = self
+  @example_groups = []
+  @example_group_counts_by_spec_file = Hash.new(0)
+  prepare_example_filtering
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally to determine what to do when a SIGINT is received.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/world.rb', line 11
+
+def wants_to_quit
+  @wants_to_quit
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add exclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+214
+215
+216
+217
+218
+    
+    
+      # File 'lib/rspec/core/world.rb', line 214
+
+def announce_exclusion_filter(announcements)
+  return if exclusion_filter.empty?
+
+  announcements << "exclude #{exclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Notify reporter of filters.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+    
+    
+      # File 'lib/rspec/core/world.rb', line 161
+
+def announce_filters
+  fail_if_config_and_cli_options_invalid
+  filter_announcements = []
+
+  announce_inclusion_filter filter_announcements
+  announce_exclusion_filter filter_announcements
+
+  unless filter_manager.empty?
+    if filter_announcements.length == 1
+      report_filter_message("Run options: #{filter_announcements[0]}")
+    else
+      report_filter_message("Run options:\n  #{filter_announcements.join("\n  ")}")
+    end
+  end
+
+  if @configuration.run_all_when_everything_filtered? && example_count.zero? && !@configuration.only_failures?
+    report_filter_message("#{everything_filtered_message}; ignoring #{inclusion_filter.description}")
+    filtered_examples.clear
+    inclusion_filter.clear
+  end
+
+  return unless example_count.zero?
+
+  example_groups.clear
+  if filter_manager.empty?
+    report_filter_message("No examples found.")
+  elsif exclusion_filter.empty? || inclusion_filter.empty?
+    report_filter_message(everything_filtered_message)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Add inclusion filters to announcement message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+205
+206
+207
+208
+209
+    
+    
+      # File 'lib/rspec/core/world.rb', line 205
+
+def announce_inclusion_filter(announcements)
+  return if inclusion_filter.empty?
+
+  announcements << "include #{inclusion_filter.description}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Get count of examples to be run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+102
+    
+    
+      # File 'lib/rspec/core/world.rb', line 99
+
+def example_count(groups=example_groups)
+  FlatMap.flat_map(groups) { |g| g.descendants }.
+    inject(0) { |a, e| a + e.filtered_examples.size }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Apply ordering strategy from configuration to example groups.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+    
+    
+      # File 'lib/rspec/core/world.rb', line 43
+
+def ordered_example_groups
+  ordering_strategy = @configuration.ordering_registry.fetch(:global)
+  ordering_strategy.order(@example_groups)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Find line number of previous declaration.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+136
+    
+    
+      # File 'lib/rspec/core/world.rb', line 130
+
+def preceding_declaration_line(absolute_file_name, filter_line)
+  line_numbers = descending_declaration_line_numbers_by_file.fetch(absolute_file_name) do
+    return nil
+  end
+
+  line_numbers.find { |num| num <= filter_line }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Prepares filters so that they apply to example groups when they run.
+
+This is a separate method so that filters can be modified/replaced and
+examples refiltered during a process's lifetime, which can be useful for
+a custom runner.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+34
+35
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/world.rb', line 34
+
+def prepare_example_filtering
+  @filtered_examples = Hash.new do |hash, group|
+    hash[group] = filter_manager.prune(group.examples)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Records an example group.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+71
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/world.rb', line 71
+
+def record(example_group)
+  @configuration.on_example_group_definition_callbacks.each { |block| block.call(example_group) }
+  @example_group_counts_by_spec_file[example_group.metadata[:absolute_file_path]] += 1
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Reset world to 'scratch' before running suite.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+51
+52
+53
+54
+55
+56
+    
+    
+      # File 'lib/rspec/core/world.rb', line 51
+
+def reset
+  RSpec::ExampleGroups.remove_all_constants
+  example_groups.clear
+  @sources_by_path.clear if defined?(@sources_by_path)
+  @syntax_highlighter = nil
+end
+    
+  
+
+
+    
+  
+

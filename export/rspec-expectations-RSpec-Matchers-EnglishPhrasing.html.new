@@ -1,0 +1,1015 @@
+Module: RSpec::Matchers::EnglishPhrasing
+  
+  
+  
+Module: RSpec::Matchers::EnglishPhrasing
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/english_phrasing.rblib/rspec/matchers/english_phrasing.rb
+  
+    Defined in:
+    lib/rspec/matchers/english_phrasing.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/english_phrasing.rb
+  
+  
+
+
+OverviewOverview
+  
+    Facilitates converting ruby objects to English phrases.Facilitates converting ruby objects to English phrases.
+
+
+  
+    Facilitates converting ruby objects to English phrases.
+
+
+  
+
+  
+    Facilitates converting ruby objects to English phrases.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    when given an empty list.when given an empty list.
+when given an empty list.
+when given an empty list.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    when given an empty list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Converts a symbol into an English expression.Converts a symbol into an English expression.
+Converts a symbol into an English expression.
+Converts a symbol into an English expression.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Converts a symbol into an English expression.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    when given an empty list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Converts a symbol into an English expression.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    The returned string has a leading space exceptThe returned string has a leading space except
+The returned string has a leading space except
+
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.Converts an object (often a collection of objects)
+into an English list.
+
+listlist(([[''bananabanana'''banana',, ''kiwikiwi'''kiwi',, ''mangomango'''mango']]))
+#=> " \"banana\", \"kiwi\", and \"mango\""
+#=> " \"banana\", \"kiwi\", and \"mango\""
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.Given an empty collection, returns the empty string.
+
+listlist(([[]])) #=> ""
+#=> ""
+list([]) #=> ""
+list([]) #=> ""
+
+
+
+  
+    
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.
+
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.
+
+list([]) #=> ""
+
+
+
+  
+
+  
+    
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.
+
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.
+
+list([]) #=> ""
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26# File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+defdef selfself..listlist((objobj))
+  returnreturn ""  #{#{RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..formatformat((objobj))}}""" #{RSpec::Support::ObjectFormatter.format(obj)}" ifif !!objobj |||| StructStruct ====== objobj
+  itemsitems == ArrayArray((objobj))..mapmap {{ ||ww|| RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..formatformat((ww)) }}
+  casecase itemsitems..lengthlength
+  whenwhen 00
+    """"""
+  whenwhen 11
+    ""  #{#{itemsitems[[00]]}}""" #{items[0]}"
+  whenwhen 22
+    ""  #{#{itemsitems[[00]]}} and  and #{#{itemsitems[[11]]}}""" #{items[0]} and #{items[1]}"
+  elseelse
+    ""  #{#{itemsitems[[00......--11]]..joinjoin(('', , ''', '))}}, and , and #{#{itemsitems[[--11]]}}""" #{items[0...-1].join(', ')}, and #{items[-1]}"
+  endend
+endend# File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.
+
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.
+
+list([]) #=> ""
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Converts a symbol into an English expression.Converts a symbol into an English expression.
+
+split_wordssplit_words((:banana_creme_pie:banana_creme_pie)) #=> "banana creme pie"
+#=> "banana creme pie"
+split_words(:banana_creme_pie) #=> "banana creme pie"
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+    Converts a symbol into an English expression.
+
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+
+  
+    Converts a symbol into an English expression.
+
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+
+
+9
+10
+11
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9# File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+defdef selfself..split_wordssplit_words((symsym))
+  symsym..to_sto_s..trtr((''__'''_',, ''  ''' '))
+endend# File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+
+
+  
+  
+    Converts a symbol into an English expression.
+
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.
+
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.
+
+list([]) #=> ""
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Converts a symbol into an English expression.
+
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::EnglishPhrasing
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/english_phrasing.rb
+  
+  
+
+
+Overview
+  
+    Facilitates converting ruby objects to English phrases.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    when given an empty list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Converts a symbol into an English expression.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The returned string has a leading space except
+
+  
+
+when given an empty list.
+
+Converts an object (often a collection of objects)
+into an English list.
+
+list(['banana', 'kiwi', 'mango'])
+#=> " \"banana\", \"kiwi\", and \"mango\""
+
+
+Given an empty collection, returns the empty string.
+
+list([]) #=> ""
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 26
+
+def self.list(obj)
+  return " #{RSpec::Support::ObjectFormatter.format(obj)}" if !obj || Struct === obj
+  items = Array(obj).map { |w| RSpec::Support::ObjectFormatter.format(w) }
+  case items.length
+  when 0
+    ""
+  when 1
+    " #{items[0]}"
+  when 2
+    " #{items[0]} and #{items[1]}"
+  else
+    " #{items[0...-1].join(', ')}, and #{items[-1]}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Converts a symbol into an English expression.
+
+split_words(:banana_creme_pie) #=> "banana creme pie"
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/matchers/english_phrasing.rb', line 9
+
+def self.split_words(sym)
+  sym.to_s.tr('_', ' ')
+end
+    
+  
+
+
+    
+  
+

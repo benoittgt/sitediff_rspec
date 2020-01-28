@@ -1,0 +1,5089 @@
+Module: RSpec::Matchers::DSL::Macros
+  
+  
+  
+Module: RSpec::Matchers::DSL::Macros
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    MatcherMatcher
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/dsl.rblib/rspec/matchers/dsl.rb
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+OverviewOverview
+  
+    Contains the methods that are available from within the
+RSpec::Matchers.defineRSpec::Matchers.define DSL for creating custom matchers.Contains the methods that are available from within the
+RSpec::Matchers.define DSL for creating custom matchers.
+
+
+  
+    Contains the methods that are available from within the
+RSpec::Matchers.define DSL for creating custom matchers.
+
+
+  
+
+  
+    Contains the methods that are available from within the
+RSpec::Matchers.define DSL for creating custom matchers.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: Deprecated
+    
+  
+    
+  
+
+  
+    
+      Modules: Deprecated
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience for defining methods on this matcher to create a fluent interface.Convenience for defining methods on this matcher to create a fluent interface.
+Convenience for defining methods on this matcher to create a fluent interface.
+Convenience for defining methods on this matcher to create a fluent interface.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience for defining methods on this matcher to create a fluent interface.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the description to use for one-liners.Customize the description to use for one-liners.
+Customize the description to use for one-liners.
+Customize the description to use for one-liners.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the description to use for one-liners.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to diff the actual and expected values in the failure message.Tells the matcher to diff the actual and expected values in the failure message.
+Tells the matcher to diff the actual and expected values in the failure message.
+Tells the matcher to diff the actual and expected values in the failure message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to diff the actual and expected values in the failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customizes the failure messsage to use when this matcher is asked to positively match.Customizes the failure messsage to use when this matcher is asked to positively match.
+Customizes the failure messsage to use when this matcher is asked to positively match.
+Customizes the failure messsage to use when this matcher is asked to positively match.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customizes the failure messsage to use when this matcher is asked to positively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the failure messsage to use when this matcher is asked to negatively match.Customize the failure messsage to use when this matcher is asked to negatively match.
+Customize the failure messsage to use when this matcher is asked to negatively match.
+Customize the failure messsage to use when this matcher is asked to negatively match.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the failure messsage to use when this matcher is asked to negatively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block that is used to determine whether this matcher passes or fails.Stores the block that is used to determine whether this matcher passes or fails.
+Stores the block that is used to determine whether this matcher passes or fails.
+Stores the block that is used to determine whether this matcher passes or fails.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block that is used to determine whether this matcher passes or fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this instead of matchmatch when the block will raise an exception rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_toexpect(...).not_to) when the positive and negative forms require different handling.Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares that the matcher can be used in a block expectation.Declares that the matcher can be used in a block expectation.
+Declares that the matcher can be used in a block expectation.
+Declares that the matcher can be used in a block expectation.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares that the matcher can be used in a block expectation.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience for defining methods on this matcher to create a fluent interface.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the description to use for one-liners.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to diff the actual and expected values in the failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customizes the failure messsage to use when this matcher is asked to positively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the failure messsage to use when this matcher is asked to negatively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block that is used to determine whether this matcher passes or fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares that the matcher can be used in a block expectation.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chainchain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptionsinclude_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in matchmatch), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :have_errors_on:have_errors_on dodo ||keykey||
+  chainchain :with:with dodo ||messagemessage||
+    @message@message == messagemessage
+  endend
+
+  matchmatch dodo ||actualactual||
+    actualactual..errorserrors[[keykey]] ==== @message@message
+  endend
+endend
+
+expectexpect((minorminor))..toto have_errors_onhave_errors_on((:age:age))..withwith((""Not old enough to participateNot old enough to participate"""Not old enough to participate"))
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+
+
+
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295# File 'lib/rspec/matchers/dsl.rb', line 295
+
+defdef chainchain((method_namemethod_name,, **attr_namesattr_names,, &&definitiondefinition))
+  unlessunless block_given?block_given? ^^ attr_namesattr_names..any?any?
+    raiseraise ArgumentErrorArgumentError,, ""You must pass either a block or some attribute names (but not both) to `chain`.You must pass either a block or some attribute names (but not both) to `chain`."""You must pass either a block or some attribute names (but not both) to `chain`."
+  endend
+
+  definitiondefinition == assign_attributesassign_attributes((attr_namesattr_names)) ifif attr_namesattr_names..any?any?
+
+  define_user_overridedefine_user_override((method_namemethod_name,, definitiondefinition)) dodo ||**argsargs,, &&blockblock||
+    supersuper((**argsargs,, &&blockblock))
+    @chained_method_clauses@chained_method_clauses..pushpush(([[method_namemethod_name,, argsargs]]))
+    selfself
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+
+
+  
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+
+
+
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :qualify_for:qualify_for dodo ||expectedexpected||
+  matchmatch {{ your_match_logicyour_match_logic }}
+
+  descriptiondescription dodo
+    ""qualify for qualify for #{#{expectedexpected}}"""qualify for #{expected}"
+  endend
+endend
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+250
+251
+252
+
+
+250
+251
+252
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250# File 'lib/rspec/matchers/dsl.rb', line 250
+
+defdef descriptiondescription((&&definitiondefinition))
+  define_user_overridedefine_user_override((__method____method__,, definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+  
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+  
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+
+
+256
+257
+258
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256# File 'lib/rspec/matchers/dsl.rb', line 256
+
+defdef diffablediffable
+  define_methoddefine_method((:diffable?:diffable?)) {{ truetrue }}
+endend# File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+
+
+  
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :have_strength:have_strength dodo ||expectedexpected||
+  matchmatch {{ your_match_logicyour_match_logic }}
+
+  failure_messagefailure_message dodo ||actualactual||
+    ""Expected strength of Expected strength of #{#{expectedexpected}}, but had , but had #{#{actualactual..strengthstrength}}"""Expected strength of #{expected}, but had #{actual.strength}"
+  endend
+endend
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+213
+214
+215
+
+
+213
+214
+215
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213# File 'lib/rspec/matchers/dsl.rb', line 213
+
+defdef failure_messagefailure_message((&&definitiondefinition))
+  define_user_overridedefine_user_override((__method____method__,, definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+  
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+  
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :have_strength:have_strength dodo ||expectedexpected||
+  matchmatch {{ your_match_logicyour_match_logic }}
+
+  failure_message_when_negatedfailure_message_when_negated dodo ||actualactual||
+    ""Expected not to have strength of Expected not to have strength of #{#{expectedexpected}}, but did, but did"""Expected not to have strength of #{expected}, but did"
+  endend
+endend
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+232
+233
+234
+
+
+232
+233
+234
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232# File 'lib/rspec/matchers/dsl.rb', line 232
+
+defdef failure_message_when_negatedfailure_message_when_negated((&&definitiondefinition))
+  define_user_overridedefine_user_override((__method____method__,, definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+  
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+  
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).toexpect(...).to and the block returns truetrue, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_toexpect(...).not_to and the
+block returns falsefalse, then the expectation passes.Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true:notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :be_even:be_even dodo
+  matchmatch dodo ||actualactual||
+    actualactual..even?even?
+  endend
+endend
+
+expectexpect((44))..toto be_evenbe_even     # passes
+# passes
+expectexpect((33))..not_tonot_to be_evenbe_even # passes
+# passes
+expectexpect((33))..toto be_evenbe_even     # fails
+# fails
+expectexpect((44))..not_tonot_to be_evenbe_even # fails# fails
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.for defining the behavior of the match block.
+for defining the behavior of the match block.
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expectexpect)actual the actual value (i.e. the value wrapped by expect)
+actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128# File 'lib/rspec/matchers/dsl.rb', line 128
+
+defdef matchmatch((optionsoptions=={{}},, &&match_blockmatch_block))
+  define_user_overridedefine_user_override((:matches?:matches?,, match_blockmatch_block)) dodo ||actualactual||
+    @actual@actual == actualactual
+    RSpecRSpec::::SupportSupport..with_failure_notifierwith_failure_notifier((RAISE_NOTIFIERRAISE_NOTIFIER)) dodo
+      beginbegin
+        supersuper((**actual_arg_foractual_arg_for((match_blockmatch_block))))
+      rescuerescue RSpecRSpec::::ExpectationsExpectations::::ExpectationNotMetErrorExpectationNotMetError
+        raiseraise ifif optionsoptions[[:notify_expectation_failures:notify_expectation_failures]]
+        falsefalse
+      endend
+    endend
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this instead of matchmatch when the block will raise an exception
+rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+    Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+
+  
+    Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec::::MatchersMatchers..definedefine :accept_as_valid:accept_as_valid dodo ||candidate_addresscandidate_address||
+  match_unless_raisesmatch_unless_raises ValidationExceptionValidationException dodo ||validatorvalidator||
+    validatorvalidator..validatevalidate((candidate_addresscandidate_address))
+  endend
+endend
+
+expectexpect((email_validatoremail_validator))..toto accept_as_validaccept_as_valid((""person@company.comperson@company.com"""person@company.com"))
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185# File 'lib/rspec/matchers/dsl.rb', line 185
+
+defdef match_unless_raisesmatch_unless_raises((expected_exceptionexpected_exception==ExceptionException,, &&match_blockmatch_block))
+  define_user_overridedefine_user_override((:matches?:matches?,, match_blockmatch_block)) dodo ||actualactual||
+    @actual@actual == actualactual
+    beginbegin
+      supersuper((**actual_arg_foractual_arg_for((match_blockmatch_block))))
+    rescuerescue expected_exceptionexpected_exception =>=> @rescued_exception@rescued_exception
+      falsefalse
+    elseelse
+      truetrue
+    endend
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this to define the block for a negative expectation (expect(...).not_toexpect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true:notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.for defining the behavior of the match block.
+for defining the behavior of the match block.
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expectexpect)actual the actual value (i.e. the value wrapped by expect)
+actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157# File 'lib/rspec/matchers/dsl.rb', line 157
+
+defdef match_when_negatedmatch_when_negated((optionsoptions=={{}},, &&match_blockmatch_block))
+  define_user_overridedefine_user_override((:does_not_match?:does_not_match?,, match_blockmatch_block)) dodo ||actualactual||
+    beginbegin
+      @actual@actual == actualactual
+      RSpecRSpec::::SupportSupport..with_failure_notifierwith_failure_notifier((RAISE_NOTIFIERRAISE_NOTIFIER)) dodo
+        supersuper((**actual_arg_foractual_arg_for((match_blockmatch_block))))
+      endend
+    rescuerescue RSpecRSpec::::ExpectationsExpectations::::ExpectationNotMetErrorExpectationNotMetError
+      raiseraise ifif optionsoptions[[:notify_expectation_failures:notify_expectation_failures]]
+      falsefalse
+    endend
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcherexpect { do_something }.to matcher).Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+264
+265
+266
+
+
+264
+265
+266
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264# File 'lib/rspec/matchers/dsl.rb', line 264
+
+defdef supports_block_expectationssupports_block_expectations
+  define_methoddefine_method((:supports_block_expectations?:supports_block_expectations?)) {{ truetrue }}
+endend# File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+
+  
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+
+
+  
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+
+
+
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::DSL::Macros
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+Overview
+  
+    Contains the methods that are available from within the
+RSpec::Matchers.define DSL for creating custom matchers.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: Deprecated
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Convenience for defining methods on this matcher to create a fluent interface.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the description to use for one-liners.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to diff the actual and expected values in the failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customizes the failure messsage to use when this matcher is asked to positively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Customize the failure messsage to use when this matcher is asked to negatively match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block that is used to determine whether this matcher passes or fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares that the matcher can be used in a block expectation.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Convenience for defining methods on this matcher to create a fluent
+interface. The trick about fluent interfaces is that each method must
+return self in order to chain methods together. chain handles that
+for you. If the method is invoked and the
+include_chain_clauses_in_custom_matcher_descriptions config option
+hash been enabled, the chained method name and args will be added to the
+default description and failure message.
+
+In the common case where you just want the chained method to store some
+value(s) for later use (e.g. in match), you can provide one or more
+attribute names instead of a block; the chained method will store its
+arguments in instance variables with those names, and the values will
+be exposed via getters.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_errors_on do |key|
+  chain :with do |message|
+    @message = message
+  end
+
+  match do |actual|
+    actual.errors[key] == @message
+  end
+end
+
+expect(minor).to have_errors_on(:age).with("Not old enough to participate")
+    
+  
+
+
+
+  
+    
+      
+
+
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 295
+
+def chain(method_name, *attr_names, &definition)
+  unless block_given? ^ attr_names.any?
+    raise ArgumentError, "You must pass either a block or some attribute names (but not both) to `chain`."
+  end
+
+  definition = assign_attributes(attr_names) if attr_names.any?
+
+  define_user_override(method_name, definition) do |*args, &block|
+    super(*args, &block)
+    @chained_method_clauses.push([method_name, args])
+    self
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the description to use for one-liners.  Only use this when
+the description generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :qualify_for do |expected|
+  match { your_match_logic }
+
+  description do
+    "qualify for #{expected}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+250
+251
+252
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 250
+
+def description(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to diff the actual and expected values in the failure
+message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 256
+
+def diffable
+  define_method(:diffable?) { true }
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customizes the failure messsage to use when this matcher is
+asked to positively match. Only use this when the message
+generated by default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message do |actual|
+    "Expected strength of #{expected}, but had #{actual.strength}"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+213
+214
+215
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 213
+
+def failure_message(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Customize the failure messsage to use when this matcher is asked
+to negatively match. Only use this when the message generated by
+default doesn't suit your needs.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :have_strength do |expected|
+  match { your_match_logic }
+
+  failure_message_when_negated do |actual|
+    "Expected not to have strength of #{expected}, but did"
+  end
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+232
+233
+234
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 232
+
+def failure_message_when_negated(&definition)
+  define_user_override(__method__, definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Stores the block that is used to determine whether this matcher passes
+or fails. The block should return a boolean value. When the matcher is
+passed to expect(...).to and the block returns true, then the expectation
+passes. Similarly, when the matcher is passed to expect(...).not_to and the
+block returns false, then the expectation passes.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :be_even do
+  match do |actual|
+    actual.even?
+  end
+end
+
+expect(4).to be_even     # passes
+expect(3).not_to be_even # passes
+expect(3).to be_even     # fails
+expect(4).not_to be_even # fails
+    
+  
+Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 128
+
+def match(options={}, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+      begin
+        super(*actual_arg_for(match_block))
+      rescue RSpec::Expectations::ExpectationNotMetError
+        raise if options[:notify_expectation_failures]
+        false
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this instead of match when the block will raise an exception
+rather than returning false to indicate a failure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec::Matchers.define :accept_as_valid do |candidate_address|
+  match_unless_raises ValidationException do |validator|
+    validator.validate(candidate_address)
+  end
+end
+
+expect(email_validator).to accept_as_valid("person@company.com")
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual object (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 185
+
+def match_unless_raises(expected_exception=Exception, &match_block)
+  define_user_override(:matches?, match_block) do |actual|
+    @actual = actual
+    begin
+      super(*actual_arg_for(match_block))
+    rescue expected_exception => @rescued_exception
+      false
+    else
+      true
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Use this to define the block for a negative expectation (expect(...).not_to)
+when the positive and negative forms require different handling. This
+is rarely necessary, but can be helpful, for example, when specifying
+asynchronous processes that require different timeouts.
+
+By default the match block will swallow expectation errors (e.g.
+caused by using an expectation such as expect(1).to eq 2), if you
+with to allow these to bubble up, pass in the option
+:notify_expectation_failures => true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        for defining the behavior of the match block.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        actual the actual value (i.e. the value wrapped by expect)
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 157
+
+def match_when_negated(options={}, &match_block)
+  define_user_override(:does_not_match?, match_block) do |actual|
+    begin
+      @actual = actual
+      RSpec::Support.with_failure_notifier(RAISE_NOTIFIER) do
+        super(*actual_arg_for(match_block))
+      end
+    rescue RSpec::Expectations::ExpectationNotMetError
+      raise if options[:notify_expectation_failures]
+      false
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Declares that the matcher can be used in a block expectation.
+Users will not be able to use your matcher in a block
+expectation without declaring this.
+(e.g. expect { do_something }.to matcher).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+264
+265
+266
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 264
+
+def supports_block_expectations
+  define_method(:supports_block_expectations?) { true }
+end
+    
+  
+
+
+    
+  
+

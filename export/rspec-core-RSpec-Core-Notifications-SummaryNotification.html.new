@@ -1,0 +1,6857 @@
+Class: RSpec::Core::Notifications::SummaryNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::SummaryNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::SummaryNotificationRSpec::Core::Notifications::SummaryNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SummaryNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SummaryNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SummaryNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rb
+lib/rspec/core/notifications.rb
+
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SummaryNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    The SummaryNotificationSummaryNotification holds information about the results of running
+a test suite. It is used by formatters to provide information at the end
+of the test run.The SummaryNotification holds information about the results of running
+a test suite. It is used by formatters to provide information at the end
+of the test run.
+
+
+  
+    The SummaryNotification holds information about the results of running
+a test suite. It is used by formatters to provide information at the end
+of the test run.
+
+
+  
+
+  
+    The SummaryNotification holds information about the results of running
+a test suite. It is used by formatters to provide information at the end
+of the test run.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.the time taken (in seconds) to run the suite.
+the time taken (in seconds) to run the suite.
+the time taken (in seconds) to run the suite.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of errors that have occurred processing the spec suite.the number of errors that have occurred processing the spec suite.
+the number of errors that have occurred processing the spec suite.
+the number of errors that have occurred processing the spec suite.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of errors that have occurred processing the spec suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.the examples run.
+the examples run.
+the examples run.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the failed examples.the failed examples.
+the failed examples.
+the failed examples.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the failed examples.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.
+the number of seconds taken to boot RSpec and load the spec files.
+the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the pending examples.the pending examples.
+the pending examples.
+the pending examples.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the pending examples.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of errors that have occurred processing the spec suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the failed examples.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the pending examples.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Formats failures into a rerunable command format.Formats failures into a rerunable command format.
+Formats failures into a rerunable command format.
+Formats failures into a rerunable command format.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Formats failures into a rerunable command format.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the results line with colors based on the configured colors for failure, pending, and success.Wraps the results line with colors based on the configured colors for failure, pending, and success.
+Wraps the results line with colors based on the configured colors for failure, pending, and success.
+Wraps the results line with colors based on the configured colors for failure, pending, and success.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the results line with colors based on the configured colors for failure, pending, and success.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of examples run.The number of examples run.
+The number of examples run.
+The number of examples run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of examples run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of failed examples.The number of failed examples.
+The number of failed examples.
+The number of failed examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to run the suite.A formatted version of the time it took to run the suite.
+A formatted version of the time it took to run the suite.
+A formatted version of the time it took to run the suite.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to run the suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to boot RSpec and load the spec files.A formatted version of the time it took to boot RSpec and load the spec files.
+A formatted version of the time it took to boot RSpec and load the spec files.
+A formatted version of the time it took to boot RSpec and load the spec files.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to boot RSpec and load the spec files.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The summary information fully formatted in the way that RSpec's built-in formatters emit.The summary information fully formatted in the way that RSpec's built-in formatters emit.
+The summary information fully formatted in the way that RSpec's built-in formatters emit.
+The summary information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The summary information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of pending examples.The number of pending examples.
+The number of pending examples.
+The number of pending examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A line summarising the result totals of the spec run.A line summarising the result totals of the spec run.
+A line summarising the result totals of the spec run.
+A line summarising the result totals of the spec run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A line summarising the result totals of the spec run.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Formats failures into a rerunable command format.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the results line with colors based on the configured colors for failure, pending, and success.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of examples run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to run the suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to boot RSpec and load the spec files.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The summary information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A line summarising the result totals of the spec run.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suitethe time taken (in seconds) to run the suite
+
+
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        the current value of durationthe current value of duration
+the current value of duration
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef durationduration
+  @duration@duration
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+
+
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of errors that
+have occurred processing
+the spec suitethe number of errors that
+have occurred processing
+the spec suite
+
+
+  
+    the number of errors that
+have occurred processing
+the spec suite
+
+
+  
+
+  
+    the number of errors that
+have occurred processing
+the spec suite
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (IntegerInteger)(Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_countthe current value of errors_outside_of_examples_count
+the current value of errors_outside_of_examples_count
+
+      
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef errors_outside_of_examples_counterrors_outside_of_examples_count
+  @errors_outside_of_examples_count@errors_outside_of_examples_count
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+
+
+  
+  
+    the number of errors that
+have occurred processing
+the spec suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples runthe examples run
+
+
+  
+    the examples run
+
+
+  
+
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examplesthe current value of examples
+the current value of examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef examplesexamples
+  @examples@examples
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+
+
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the failed examplesthe failed examples
+
+
+  
+    the failed examples
+
+
+  
+
+  
+    the failed examples
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examplesthe current value of failed_examples
+the current value of failed_examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef failed_examplesfailed_examples
+  @failed_examples@failed_examples
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+
+
+  
+  
+    the failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec filesthe number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FloatFloat)(Float)
+      
+      
+      
+        —
+        the current value of load_timethe current value of load_time
+the current value of load_time
+
+      
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef load_timeload_time
+  @load_time@load_time
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the pending examplesthe pending examples
+
+
+  
+    the pending examples
+
+
+  
+
+  
+    the pending examples
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>Array<RSpec::Core::Example>)(Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examplesthe current value of pending_examples
+the current value of pending_examples
+
+      
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+
+
+298
+299
+300
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298# File 'lib/rspec/core/notifications.rb', line 298
+
+defdef pending_examplespending_examples
+  @pending_examples@pending_examples
+endend# File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+
+
+  
+  
+    the pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of errors that
+have occurred processing
+the spec suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Formats failures into a rerunable command format.Formats failures into a rerunable command format.
+
+
+  
+    Formats failures into a rerunable command format.
+
+
+  
+
+  
+    Formats failures into a rerunable command format.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        colorizercolorizer
+      
+      
+        (#wrap#wrap)(#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes::RSpec::Core::Formatters::ConsoleCodes)(defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.An object which supports wrapping text with
+specific colors.
+An object which supports wrapping text with
+specific colors.
+
+      
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        A colorized summary line.A colorized summary line.
+A colorized summary line.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362# File 'lib/rspec/core/notifications.rb', line 362
+
+defdef colorized_rerun_commandscolorized_rerun_commands((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  ""\nFailed examples:\n\n\nFailed examples:\n\n"""\nFailed examples:\n\n" ++
+  failed_examplesfailed_examples..mapmap dodo ||exampleexample||
+    colorizercolorizer..wrapwrap((""rspec rspec #{#{rerun_argument_forrerun_argument_for((exampleexample))}}"""rspec #{rerun_argument_for(example)}",, RSpecRSpec..configurationconfiguration..failure_colorfailure_color)) ++ ""  """ " ++
+    colorizercolorizer..wrapwrap((""# # #{#{exampleexample..full_descriptionfull_description}}"""# #{example.full_description}",,   RSpecRSpec..configurationconfiguration..detail_colordetail_color))
+  endend..joinjoin((""\n\n"""\n"))
+endend# File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+
+
+  
+  
+    Formats failures into a rerunable command format.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        colorizercolorizer
+      
+      
+        (#wrap#wrap)(#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes::RSpec::Core::Formatters::ConsoleCodes)(defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.An object which supports wrapping text with
+specific colors.
+An object which supports wrapping text with
+specific colors.
+
+      
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        A colorized results line.A colorized results line.
+A colorized results line.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345# File 'lib/rspec/core/notifications.rb', line 345
+
+defdef colorized_totals_linecolorized_totals_line((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  ifif failure_countfailure_count >> 00 |||| errors_outside_of_examples_counterrors_outside_of_examples_count >> 00
+    colorizercolorizer..wrapwrap((totals_linetotals_line,, RSpecRSpec..configurationconfiguration..failure_colorfailure_color))
+  elsifelsif pending_countpending_count >> 00
+    colorizercolorizer..wrapwrap((totals_linetotals_line,, RSpecRSpec..configurationconfiguration..pending_colorpending_color))
+  elseelse
+    colorizercolorizer..wrapwrap((totals_linetotals_line,, RSpecRSpec..configurationconfiguration..success_colorsuccess_color))
+  endend
+endend# File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+
+
+  
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of examples run.Returns the number of examples run.
+
+
+  
+    Returns the number of examples run.
+
+
+  
+
+  
+    Returns the number of examples run.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the number of examples runthe number of examples run
+the number of examples run
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+304
+305
+306
+
+
+304
+305
+306
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304# File 'lib/rspec/core/notifications.rb', line 304
+
+defdef example_countexample_count
+  @example_count@example_count ||=||= examplesexamples..sizesize
+endend# File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+
+  
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+
+
+  
+  
+    Returns the number of examples run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of failed examples.Returns the number of failed examples.
+
+
+  
+    Returns the number of failed examples.
+
+
+  
+
+  
+    Returns the number of failed examples.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the number of failed examplesthe number of failed examples
+the number of failed examples
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+310
+311
+312
+
+
+310
+311
+312
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310# File 'lib/rspec/core/notifications.rb', line 310
+
+defdef failure_countfailure_count
+  @failure_count@failure_count ||=||= failed_examplesfailed_examples..sizesize
+endend# File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+
+  
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+
+
+  
+  
+    Returns the number of failed examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to run the
+suite.Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+    Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+
+  
+    Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suitea formatted version of the time it took to run the
+suite
+a formatted version of the time it took to run the
+suite
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+372
+373
+374
+
+
+372
+373
+374
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372# File 'lib/rspec/core/notifications.rb', line 372
+
+defdef formatted_durationformatted_duration
+  FormattersFormatters::::HelpersHelpers..format_durationformat_duration((durationduration))
+endend# File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+
+  
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+
+
+  
+  
+    Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec filesa formatted version of the time it took to boot RSpec
+and load the spec files
+a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+378
+379
+380
+
+
+378
+379
+380
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378# File 'lib/rspec/core/notifications.rb', line 378
+
+defdef formatted_load_timeformatted_load_time
+  FormattersFormatters::::HelpersHelpers..format_durationformat_duration((load_timeload_time))
+endend# File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+
+  
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+
+
+  
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384# File 'lib/rspec/core/notifications.rb', line 384
+
+defdef fully_formattedfully_formatted((colorizercolorizer==::::RSpecRSpec::::CoreCore::::FormattersFormatters::::ConsoleCodesConsoleCodes))
+  formattedformatted == ""\nFinished in \nFinished in #{#{formatted_durationformatted_duration}}  """\nFinished in #{formatted_duration} " \
+              ""(files took (files took #{#{formatted_load_timeformatted_load_time}} to load)\n to load)\n"""(files took #{formatted_load_time} to load)\n" \
+              ""#{#{colorized_totals_linecolorized_totals_line((colorizercolorizer))}}\n\n"""#{colorized_totals_line(colorizer)}\n"
+
+  unlessunless failed_examplesfailed_examples..empty?empty?
+    formattedformatted +=+= ((colorized_rerun_commandscolorized_rerun_commands((colorizercolorizer)) ++ ""\n\n"""\n"))
+  endend
+
+  formattedformatted
+endend# File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+
+
+  
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of pending examples.Returns the number of pending examples.
+
+
+  
+    Returns the number of pending examples.
+
+
+  
+
+  
+    Returns the number of pending examples.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the number of pending examplesthe number of pending examples
+the number of pending examples
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+316
+317
+318
+
+
+316
+317
+318
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316# File 'lib/rspec/core/notifications.rb', line 316
+
+defdef pending_countpending_count
+  @pending_count@pending_count ||=||= pending_examplespending_examples..sizesize
+endend# File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+
+  
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+
+
+  
+  
+    Returns the number of pending examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A line summarising the result totals of the spec run.Returns A line summarising the result totals of the spec run.
+
+
+  
+    Returns A line summarising the result totals of the spec run.
+
+
+  
+
+  
+    Returns A line summarising the result totals of the spec run.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.A line summarising the result totals of the spec run.
+A line summarising the result totals of the spec run.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322# File 'lib/rspec/core/notifications.rb', line 322
+
+defdef totals_linetotals_line
+  summarysummary == FormattersFormatters::::HelpersHelpers..pluralizepluralize((example_countexample_count,, ""exampleexample"""example")) ++
+    "", , """, " ++ FormattersFormatters::::HelpersHelpers..pluralizepluralize((failure_countfailure_count,, ""failurefailure"""failure"))
+  summarysummary +=+= "", , #{#{pending_countpending_count}} pending pending""", #{pending_count} pending" ifif pending_countpending_count >> 00
+  ifif errors_outside_of_examples_counterrors_outside_of_examples_count >> 00
+    summarysummary +=+= ((
+      "", , """, " ++
+      FormattersFormatters::::HelpersHelpers..pluralizepluralize((errors_outside_of_examples_counterrors_outside_of_examples_count,, ""errorerror"""error")) ++
+      "" occurred outside of examples occurred outside of examples""" occurred outside of examples"
+    ))
+  endend
+  summarysummary
+endend# File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+
+
+  
+  
+    Returns A line summarising the result totals of the spec run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Formats failures into a rerunable command format.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of examples run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of failed examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of pending examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A line summarising the result totals of the spec run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::SummaryNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::SummaryNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+
+  
+  
+
+
+Overview
+  
+    The SummaryNotification holds information about the results of running
+a test suite. It is used by formatters to provide information at the end
+of the test run.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the time taken (in seconds) to run the suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of errors that have occurred processing the spec suite.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the examples run.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the failed examples.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the number of seconds taken to boot RSpec and load the spec files.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the pending examples.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Formats failures into a rerunable command format.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps the results line with colors based on the configured colors for failure, pending, and success.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of examples run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of failed examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to run the suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A formatted version of the time it took to boot RSpec and load the spec files.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The summary information fully formatted in the way that RSpec's built-in formatters emit.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The number of pending examples.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    A line summarising the result totals of the spec run.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the time taken (in seconds) to run the suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of duration
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def duration
+  @duration
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of errors that
+have occurred processing
+the spec suite
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Integer)
+      
+      
+      
+        —
+        the current value of errors_outside_of_examples_count
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def errors_outside_of_examples_count
+  @errors_outside_of_examples_count
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the examples run
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def examples
+  @examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the failed examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of failed_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def failed_examples
+  @failed_examples
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the number of seconds taken to boot RSpec
+and load the spec files
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Float)
+      
+      
+      
+        —
+        the current value of load_time
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def load_time
+  @load_time
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    the pending examples
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array<RSpec::Core::Example>)
+      
+      
+      
+        —
+        the current value of pending_examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+298
+299
+300
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 298
+
+def pending_examples
+  @pending_examples
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Formats failures into a rerunable command format.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized summary line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+362
+363
+364
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 362
+
+def colorized_rerun_commands(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  "\nFailed examples:\n\n" +
+  failed_examples.map do |example|
+    colorizer.wrap("rspec #{rerun_argument_for(example)}", RSpec.configuration.failure_color) + " " +
+    colorizer.wrap("# #{example.full_description}",   RSpec.configuration.detail_color)
+  end.join("\n")
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps the results line with colors based on the configured
+colors for failure, pending, and success. Defaults to red,
+yellow, green accordingly.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        colorizer
+      
+      
+        (#wrap)
+      
+      
+        (defaults to: ::RSpec::Core::Formatters::ConsoleCodes)
+      
+      
+        —
+        An object which supports wrapping text with
+specific colors.
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A colorized results line.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 345
+
+def colorized_totals_line(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  if failure_count > 0 || errors_outside_of_examples_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.failure_color)
+  elsif pending_count > 0
+    colorizer.wrap(totals_line, RSpec.configuration.pending_color)
+  else
+    colorizer.wrap(totals_line, RSpec.configuration.success_color)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of examples run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of examples run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+304
+305
+306
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 304
+
+def example_count
+  @example_count ||= examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of failed examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of failed examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+310
+311
+312
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 310
+
+def failure_count
+  @failure_count ||= failed_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to run the
+suite.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to run the
+suite
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+372
+373
+374
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 372
+
+def formatted_duration
+  Formatters::Helpers.format_duration(duration)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns a formatted version of the time it took to boot RSpec
+and load the spec files.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        a formatted version of the time it took to boot RSpec
+and load the spec files
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+378
+379
+380
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 378
+
+def formatted_load_time
+  Formatters::Helpers.format_duration(load_time)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The summary information fully formatted in the way that
+RSpec's built-in formatters emit.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 384
+
+def fully_formatted(colorizer=::RSpec::Core::Formatters::ConsoleCodes)
+  formatted = "\nFinished in #{formatted_duration} " \
+              "(files took #{formatted_load_time} to load)\n" \
+              "#{colorized_totals_line(colorizer)}\n"
+
+  unless failed_examples.empty?
+    formatted += (colorized_rerun_commands(colorizer) + "\n")
+  end
+
+  formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the number of pending examples.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of pending examples
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+316
+317
+318
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 316
+
+def pending_count
+  @pending_count ||= pending_examples.size
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns A line summarising the result totals of the spec run.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        A line summarising the result totals of the spec run.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 322
+
+def totals_line
+  summary = Formatters::Helpers.pluralize(example_count, "example") +
+    ", " + Formatters::Helpers.pluralize(failure_count, "failure")
+  summary += ", #{pending_count} pending" if pending_count > 0
+  if errors_outside_of_examples_count > 0
+    summary += (
+      ", " +
+      Formatters::Helpers.pluralize(errors_outside_of_examples_count, "error") +
+      " occurred outside of examples"
+    )
+  end
+  summary
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,1431 @@
+Class: RSpec::Matchers::BuiltIn::Cover
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Cover
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::CoverRSpec::Matchers::BuiltIn::Cover
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Cover
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Cover
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Cover
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/cover.rblib/rspec/matchers/built_in/cover.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/cover.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Cover
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/cover.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for covercover.
+Not intended to be instantiated directly.Provides the implementation for cover.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for cover.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for cover.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Cover.A new instance of Cover.
+A new instance of Cover.
+A new instance of Cover.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Cover.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Cover.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.Returns a new instance of Cover.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+
+
+8
+9
+10
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8# File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+defdef initializeinitialize((**expectedexpected))
+  @expected@expected == expectedexpected
+endend# File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+
+
+17
+18
+19
+20
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17# File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+defdef does_not_match?does_not_match?((rangerange))
+  @actual@actual == rangerange
+  expectedexpected..none?none? {{ ||ee|| rangerange..cover?cover?((ee)) }}
+endend# File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+
+  
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+
+
+12
+13
+14
+15
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12# File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+defdef matches?matches?((rangerange))
+  @actual@actual == rangerange
+  @expected@expected..all?all? {{ ||ee|| rangerange..cover?cover?((ee)) }}
+endend# File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Cover
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Cover
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/cover.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for cover.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Cover.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Cover.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 17
+
+def does_not_match?(range)
+  @actual = range
+  expected.none? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/cover.rb', line 12
+
+def matches?(range)
+  @actual = range
+  @expected.all? { |e| range.cover?(e) }
+end
+    
+  
+
+
+    
+  
+

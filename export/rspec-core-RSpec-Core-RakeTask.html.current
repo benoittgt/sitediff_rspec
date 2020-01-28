@@ -1,0 +1,3735 @@
+Class: RSpec::Core::RakeTask
+  
+  
+  
+Class: RSpec::Core::RakeTask
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      Rake::TaskLibRake::TaskLib
+      
+        
+          ObjectObject
+          
+            Rake::TaskLibRake::TaskLib
+          
+            RSpec::Core::RakeTaskRSpec::Core::RakeTask
+          
+        
+          Object
+          
+            Rake::TaskLib
+          
+            RSpec::Core::RakeTask
+          
+        
+        show allshow all
+      
+    
+      Rake::TaskLib
+      
+        
+          Object
+          
+            Rake::TaskLib
+          
+            RSpec::Core::RakeTask
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Rake::TaskLib
+      
+        
+          Object
+          
+            Rake::TaskLib
+          
+            RSpec::Core::RakeTask
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:Includes:
+      Rake::DSLRake::DSL
+  
+      Includes:
+      Rake::DSL
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/rake_task.rblib/rspec/core/rake_task.rb
+  
+    Defined in:
+    lib/rspec/core/rake_task.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Rake::TaskLib
+      
+        
+          Object
+          
+            Rake::TaskLib
+          
+            RSpec::Core::RakeTask
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      Rake::DSL
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/rake_task.rb
+  
+  
+
+
+OverviewOverview
+  
+    RSpec rake taskRSpec rake task
+
+
+  
+    RSpec rake task
+
+
+  
+
+  
+    RSpec rake task
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      RakefileRakefile
+    
+  
+    
+      Rakefile
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      Rakefile
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        DEFAULT_RSPEC_PATH =
+          
+  
+    Default path to the RSpec executable.Default path to the RSpec executable.
+
+
+  
+    Default path to the RSpec executable.
+
+
+  
+
+  
+    Default path to the RSpec executable.
+
+
+  
+
+
+  
+
+
+  
+
+
+        DEFAULT_RSPEC_PATH =
+          
+  
+    Default path to the RSpec executable.
+
+
+  
+
+
+  
+
+
+        
+        FileFile..expand_pathexpand_path((''../../../../exe/rspec../../../../exe/rspec'''../../../../exe/rspec',, __FILE____FILE__))File.expand_path('../../../../exe/rspec', __FILE__)File.expand_path('../../../../exe/rspec', __FILE__)
+      
+        DEFAULT_PATTERN =
+          
+  
+    Default pattern for spec files.Default pattern for spec files.
+
+
+  
+    Default pattern for spec files.
+
+
+  
+
+  
+    Default pattern for spec files.
+
+
+  
+
+
+  
+
+
+  
+
+
+        DEFAULT_PATTERN =
+          
+  
+    Default pattern for spec files.
+
+
+  
+
+
+  
+
+
+        
+        ''spec/**{,/*/**}/*_spec.rbspec/**{,/*/**}/*_spec.rb'''spec/**{,/*/**}/*_spec.rb''spec/**{,/*/**}/*_spec.rb''spec/**{,/*/**}/*_spec.rb'
+      
+    
+      
+        DEFAULT_RSPEC_PATH =
+          
+  
+    Default path to the RSpec executable.
+
+
+  
+
+
+  
+
+
+        
+        File.expand_path('../../../../exe/rspec', __FILE__)
+      
+        DEFAULT_PATTERN =
+          
+  
+    Default pattern for spec files.
+
+
+  
+
+
+  
+
+
+        
+        'spec/**{,/*/**}/*_spec.rb'
+      
+    
+  
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be excluded.Files matching this pattern will be excluded.
+Files matching this pattern will be excluded.
+Files matching this pattern will be excluded.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be excluded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Whether or not to fail Rake when an error occurs (typically when examples fail).Whether or not to fail Rake when an error occurs (typically when examples fail).
+Whether or not to fail Rake when an error occurs (typically when examples fail).
+Whether or not to fail Rake when an error occurs (typically when examples fail).
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Whether or not to fail Rake when an error occurs (typically when examples fail).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A message to print to stderr when there are failures.A message to print to stderr when there are failures.
+A message to print to stderr when there are failures.
+A message to print to stderr when there are failures.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A message to print to stderr when there are failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Name of task.Name of task.
+Name of task.
+Name of task.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Name of task.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be loaded.Files matching this pattern will be loaded.
+Files matching this pattern will be loaded.
+Files matching this pattern will be loaded.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be loaded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to RSpec.Command line options to pass to RSpec.
+Command line options to pass to RSpec.
+Command line options to pass to RSpec.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Path to RSpec.Path to RSpec.
+Path to RSpec.
+Path to RSpec.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Path to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to ruby.Command line options to pass to ruby.
+Command line options to pass to ruby.
+Command line options to pass to ruby.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to ruby.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Use verbose output.Use verbose output.
+Use verbose output.
+Use verbose output.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Use verbose output.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Run RSpec with a clean (empty) environment.Run RSpec with a clean (empty) environment.
+Run RSpec with a clean (empty) environment.
+Run RSpec with a clean (empty) environment.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Run RSpec with a clean (empty) environment.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be excluded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Whether or not to fail Rake when an error occurs (typically when examples fail).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A message to print to stderr when there are failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Name of task.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be loaded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Path to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to ruby.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Use verbose output.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Run RSpec with a clean (empty) environment.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of RakeTask.A new instance of RakeTask.
+A new instance of RakeTask.
+A new instance of RakeTask.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of RakeTask.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of RakeTask.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of RakeTaskReturns a new instance of RakeTask
+
+
+  
+    Returns a new instance of RakeTask
+
+
+  
+
+  
+    Returns a new instance of RakeTask
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77# File 'lib/rspec/core/rake_task.rb', line 77
+
+defdef initializeinitialize((**argsargs,, &&task_blocktask_block))
+  @name@name          == argsargs..shiftshift |||| :spec:spec
+  @ruby_opts@ruby_opts     == nilnil
+  @rspec_opts@rspec_opts    == nilnil
+  @verbose@verbose       == truetrue
+  @fail_on_error@fail_on_error == truetrue
+  @rspec_path@rspec_path    == DEFAULT_RSPEC_PATHDEFAULT_RSPEC_PATH
+  @pattern@pattern       == DEFAULT_PATTERNDEFAULT_PATTERN
+
+  definedefine((argsargs,, &&task_blocktask_block))
+endend# File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of RakeTask
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of RakeTask
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be excluded.
+Defaults to nilnil.Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+    Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+
+  
+    Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+
+
+39
+40
+41
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39# File 'lib/rspec/core/rake_task.rb', line 39
+
+defdef exclude_patternexclude_pattern
+  @exclude_pattern@exclude_pattern
+endend# File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+
+
+  
+  
+    Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to truetrue.Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+
+
+43
+44
+45
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43# File 'lib/rspec/core/rake_task.rb', line 43
+
+defdef fail_on_errorfail_on_error
+  @fail_on_error@fail_on_error
+endend# File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+
+
+  
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A message to print to stderr when there are failures.A message to print to stderr when there are failures.
+
+
+  
+    A message to print to stderr when there are failures.
+
+
+  
+
+  
+    A message to print to stderr when there are failures.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+
+
+46
+47
+48
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46# File 'lib/rspec/core/rake_task.rb', line 46
+
+defdef failure_messagefailure_message
+  @failure_message@failure_message
+endend# File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+
+
+  
+  
+    A message to print to stderr when there are failures.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Name of task. Defaults to :spec:spec.Name of task. Defaults to :spec.
+
+
+  
+    Name of task. Defaults to :spec.
+
+
+  
+
+  
+    Name of task. Defaults to :spec.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+
+
+31
+32
+33
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31# File 'lib/rspec/core/rake_task.rb', line 31
+
+defdef namename
+  @name@name
+endend# File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+
+
+  
+  
+    Name of task. Defaults to :spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb''spec/**{,/*/**}/*_spec.rb'.Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+35
+36
+37
+
+
+35
+36
+37
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35# File 'lib/rspec/core/rake_task.rb', line 35
+
+defdef patternpattern
+  @pattern@pattern
+endend# File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+
+  
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+
+
+  
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to RSpec. Defaults to nilnil.Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+    Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+
+  
+    Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+
+
+75
+76
+77
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75# File 'lib/rspec/core/rake_task.rb', line 75
+
+defdef rspec_optsrspec_opts
+  @rspec_opts@rspec_opts
+endend# File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+
+
+  
+  
+    Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+72
+73
+74
+
+
+72
+73
+74
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72# File 'lib/rspec/core/rake_task.rb', line 72
+
+defdef rspec_pathrspec_path
+  @rspec_path@rspec_path
+endend# File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+
+  
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+
+
+  
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to ruby. Defaults to nilnil.Command line options to pass to ruby. Defaults to nil.
+
+
+  
+    Command line options to pass to ruby. Defaults to nil.
+
+
+  
+
+  
+    Command line options to pass to ruby. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+
+
+68
+69
+70
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68# File 'lib/rspec/core/rake_task.rb', line 68
+
+defdef ruby_optsruby_opts
+  @ruby_opts@ruby_opts
+endend# File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+
+  
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+
+
+  
+  
+    Command line options to pass to ruby. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to truetrue.Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+
+
+65
+66
+67
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65# File 'lib/rspec/core/rake_task.rb', line 65
+
+defdef verboseverbose
+  @verbose@verbose
+endend# File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+
+  
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+
+
+  
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Run RSpec with a clean (empty) environment.Run RSpec with a clean (empty) environment.
+
+
+  
+    Run RSpec with a clean (empty) environment.
+
+
+  
+
+  
+    Run RSpec with a clean (empty) environment.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+55
+56
+57
+
+
+55
+56
+57
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55# File 'lib/rspec/core/rake_task.rb', line 55
+
+defdef with_clean_environmentwith_clean_environment
+  falsefalse
+endend# File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+
+
+  
+  
+    Run RSpec with a clean (empty) environment.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A message to print to stderr when there are failures.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Name of task. Defaults to :spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to ruby. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Run RSpec with a clean (empty) environment.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Core::RakeTask
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Rake::TaskLib
+      
+        
+          Object
+          
+            Rake::TaskLib
+          
+            RSpec::Core::RakeTask
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      Rake::DSL
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/rake_task.rb
+  
+  
+
+
+Overview
+  
+    RSpec rake task
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      Rakefile
+    
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        DEFAULT_RSPEC_PATH =
+          
+  
+    Default path to the RSpec executable.
+
+
+  
+
+
+  
+
+
+        
+        File.expand_path('../../../../exe/rspec', __FILE__)
+      
+        DEFAULT_PATTERN =
+          
+  
+    Default pattern for spec files.
+
+
+  
+
+
+  
+
+
+        
+        'spec/**{,/*/**}/*_spec.rb'
+      
+    
+  
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be excluded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Whether or not to fail Rake when an error occurs (typically when examples fail).
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    A message to print to stderr when there are failures.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Name of task.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Files matching this pattern will be loaded.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Path to RSpec.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Command line options to pass to ruby.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Use verbose output.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Run RSpec with a clean (empty) environment.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of RakeTask.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of RakeTask
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 77
+
+def initialize(*args, &task_block)
+  @name          = args.shift || :spec
+  @ruby_opts     = nil
+  @rspec_opts    = nil
+  @verbose       = true
+  @fail_on_error = true
+  @rspec_path    = DEFAULT_RSPEC_PATH
+  @pattern       = DEFAULT_PATTERN
+
+  define(args, &task_block)
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be excluded.
+Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 39
+
+def exclude_pattern
+  @exclude_pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Whether or not to fail Rake when an error occurs (typically when
+examples fail). Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 43
+
+def fail_on_error
+  @fail_on_error
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    A message to print to stderr when there are failures.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+46
+47
+48
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 46
+
+def failure_message
+  @failure_message
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Name of task. Defaults to :spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 31
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Files matching this pattern will be loaded.
+Defaults to 'spec/**{,/*/**}/*_spec.rb'.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+35
+36
+37
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 35
+
+def pattern
+  @pattern
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to RSpec. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 75
+
+def rspec_opts
+  @rspec_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Path to RSpec. Defaults to the absolute path to the
+rspec binary from the loaded rspec-core gem.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+72
+73
+74
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 72
+
+def rspec_path
+  @rspec_path
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Command line options to pass to ruby. Defaults to nil.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 68
+
+def ruby_opts
+  @ruby_opts
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Use verbose output. If this is set to true, the task will print the
+executed spec command to stdout. Defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+65
+66
+67
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 65
+
+def verbose
+  @verbose
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Run RSpec with a clean (empty) environment.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+55
+56
+57
+    
+    
+      # File 'lib/rspec/core/rake_task.rb', line 55
+
+def with_clean_environment
+  false
+end
+    
+  
+
+
+    
+  
+
+

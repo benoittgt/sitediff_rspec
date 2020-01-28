@@ -1,0 +1,1338 @@
+Module: RSpec::Matchers::DSL::Macros::Deprecated
+  
+  DeprecatedDeprecated
+  
+Module: RSpec::Matchers::DSL::Macros::Deprecated
+  
+  Deprecated
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    RSpec::Matchers::DSL::MatcherRSpec::Matchers::DSL::Matcher
+  
+    Included in:
+    RSpec::Matchers::DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/dsl.rblib/rspec/matchers/dsl.rb
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Matchers::DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+OverviewOverview
+  
+    Deprecated.Deprecated. Use the methods from RSpec::Matchers::DSL::Macros instead.Use the methods from RSpec::Matchers::DSL::Macros instead.
+Use the methods from RSpec::Matchers::DSL::Macros instead.
+Deprecated. Use the methods from RSpec::Matchers::DSL::Macros instead.
+
+Defines deprecated macro methods from RSpec 2 for backwards compatibility.Defines deprecated macro methods from RSpec 2 for backwards compatibility.
+
+
+  
+    Deprecated. Use the methods from RSpec::Matchers::DSL::Macros instead.
+
+Defines deprecated macro methods from RSpec 2 for backwards compatibility.
+
+
+  
+
+  
+    Deprecated. Use the methods from RSpec::Matchers::DSL::Macros instead.
+
+Defines deprecated macro methods from RSpec 2 for backwards compatibility.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use #failure_message instead.Use #failure_message instead.
+Use #failure_message instead.
+Deprecated. Use #failure_message instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use #failure_message_when_negated instead.Use #failure_message_when_negated instead.
+Use #failure_message_when_negated instead.
+Deprecated. Use #failure_message_when_negated instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message_when_negated instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use #match instead.Use #match instead.
+Use #match instead.
+Deprecated. Use #match instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use #match_when_negated instead.Use #match_when_negated instead.
+Use #match_when_negated instead.
+Deprecated. Use #match_when_negated instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match_when_negated instead.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message_when_negated instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match_when_negated instead.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.Use RSpec::Matchers::DSL::Macros#failure_message instead.
+Use RSpec::Matchers::DSL::Macros#failure_message instead.
+Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+365
+366
+367
+368
+
+
+365
+366
+367
+368
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365# File 'lib/rspec/matchers/dsl.rb', line 365
+
+defdef failure_message_for_shouldfailure_message_for_should((&&definitiondefinition))
+  RSpecRSpec..deprecatedeprecate((""`failure_message_for_should``failure_message_for_should`"""`failure_message_for_should`",, :replacement:replacement =>=> ""`failure_message``failure_message`"""`failure_message`"))
+  failure_messagefailure_message((&&definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+
+  
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+371
+372
+373
+374
+
+
+371
+372
+373
+374
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371# File 'lib/rspec/matchers/dsl.rb', line 371
+
+defdef failure_message_for_should_notfailure_message_for_should_not((&&definitiondefinition))
+  RSpecRSpec..deprecatedeprecate((""`failure_message_for_should_not``failure_message_for_should_not`"""`failure_message_for_should_not`",, :replacement:replacement =>=> ""`failure_message_when_negated``failure_message_when_negated`"""`failure_message_when_negated`"))
+  failure_message_when_negatedfailure_message_when_negated((&&definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+
+  
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.Use RSpec::Matchers::DSL::Macros#match instead.
+Use RSpec::Matchers::DSL::Macros#match instead.
+Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+353
+354
+355
+356
+
+
+353
+354
+355
+356
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353# File 'lib/rspec/matchers/dsl.rb', line 353
+
+defdef match_for_shouldmatch_for_should((&&definitiondefinition))
+  RSpecRSpec..deprecatedeprecate((""`match_for_should``match_for_should`"""`match_for_should`",, :replacement:replacement =>=> ""`match``match`"""`match`"))
+  matchmatch((&&definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+
+  
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+359
+360
+361
+362
+
+
+359
+360
+361
+362
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359# File 'lib/rspec/matchers/dsl.rb', line 359
+
+defdef match_for_should_notmatch_for_should_not((&&definitiondefinition))
+  RSpecRSpec..deprecatedeprecate((""`match_for_should_not``match_for_should_not`"""`match_for_should_not`",, :replacement:replacement =>=> ""`match_when_negated``match_when_negated`"""`match_when_negated`"))
+  match_when_negatedmatch_when_negated((&&definitiondefinition))
+endend# File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+
+  
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Matchers::DSL::Macros::Deprecated
+  
+  Deprecated
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Matchers::DSL::Matcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+Overview
+  
+    Deprecated. Use the methods from RSpec::Matchers::DSL::Macros instead.
+
+Defines deprecated macro methods from RSpec 2 for backwards compatibility.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #failure_message_when_negated instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use #match_when_negated instead.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+365
+366
+367
+368
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 365
+
+def failure_message_for_should(&definition)
+  RSpec.deprecate("`failure_message_for_should`", :replacement => "`failure_message`")
+  failure_message(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#failure_message_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+371
+372
+373
+374
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 371
+
+def failure_message_for_should_not(&definition)
+  RSpec.deprecate("`failure_message_for_should_not`", :replacement => "`failure_message_when_negated`")
+  failure_message_when_negated(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+353
+354
+355
+356
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 353
+
+def match_for_should(&definition)
+  RSpec.deprecate("`match_for_should`", :replacement => "`match`")
+  match(&definition)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use RSpec::Matchers::DSL::Macros#match_when_negated instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+359
+360
+361
+362
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 359
+
+def match_for_should_not(&definition)
+  RSpec.deprecate("`match_for_should_not`", :replacement => "`match_when_negated`")
+  match_when_negated(&definition)
+end
+    
+  
+
+
+    
+  
+

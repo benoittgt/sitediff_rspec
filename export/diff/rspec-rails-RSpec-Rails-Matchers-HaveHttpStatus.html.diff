@@ -1,0 +1,84 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new[m
+[1mindex a401902..61ba86c 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new[m
+[36m@@ -19,11 +21,23 @@[m [mModule: RSpec::Rails::Matchers::HaveHttpStatus[m
+     Included in:Included in:[m
+     GenericStatus, NumericCode, SymbolicStatusGenericStatus, NumericCode, SymbolicStatus[m
+   [m
+[32m+[m[32m    Included in:[m
+[32m+[m[32m    GenericStatus, NumericCode, SymbolicStatus[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+     Defined in:Defined in:[m
+     lib/rspec/rails/matchers/have_http_status.rblib/rspec/rails/matchers/have_http_status.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/matchers/have_http_status.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+   [m
+[36m@@ -1415,8 +1431,8 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response@invalid_response is present, nilnil otherwiseReturns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1425,7 +1441,7 @@[m [mReturns a formatted failure message if[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1436,7 +1452,7 @@[m [mReturns a formatted failure message if[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1617,7 +1633,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1680,7 +1696,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -2070,7 +2090,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[32m@invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m

@@ -1,0 +1,1543 @@
+Class: RSpec::Matchers::BuiltIn::All
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::All
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::AllRSpec::Matchers::BuiltIn::All
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::All
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::All
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::All
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/all.rblib/rspec/matchers/built_in/all.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/all.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::All
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/all.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for allall.
+Not intended to be instantiated directly.Provides the implementation for all.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for all.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for all.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of All.A new instance of All.
+A new instance of All.
+A new instance of All.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of All.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of All.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated#failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.Returns a new instance of All.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+
+
+11
+12
+13
+14
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11# File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+defdef initializeinitialize((matchermatcher))
+  @matcher@matcher == matchermatcher
+  @failed_objects@failed_objects == {{}}
+endend# File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+
+
+37
+38
+39
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37# File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+defdef descriptiondescription
+  improve_hash_formattingimprove_hash_formatting ""all all #{#{description_ofdescription_of matchermatcher}}"""all #{description_of matcher}"
+endend# File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23# File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+defdef failure_messagefailure_message
+  unlessunless iterable?iterable?
+    returnreturn ""#{#{improve_hash_formattingimprove_hash_formatting((supersuper))}}, but was not iterable, but was not iterable"""#{improve_hash_formatting(super)}, but was not iterable"
+  endend
+
+  all_messagesall_messages == [[improve_hash_formattingimprove_hash_formatting((supersuper))]]
+  failed_objectsfailed_objects..eacheach dodo ||indexindex,, matcher_failure_messagematcher_failure_message||
+    all_messagesall_messages <<<< failure_message_for_itemfailure_message_for_item((indexindex,, matcher_failure_messagematcher_failure_message))
+  endend
+  all_messagesall_messages..joinjoin((""\n\n\n\n"""\n\n"))
+endend# File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::All
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::All
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/all.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for all.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of All.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of All.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 11
+
+def initialize(matcher)
+  @matcher = matcher
+  @failed_objects = {}
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+37
+38
+39
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 37
+
+def description
+  improve_hash_formatting "all #{description_of matcher}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/matchers/built_in/all.rb', line 23
+
+def failure_message
+  unless iterable?
+    return "#{improve_hash_formatting(super)}, but was not iterable"
+  end
+
+  all_messages = [improve_hash_formatting(super)]
+  failed_objects.each do |index, matcher_failure_message|
+    all_messages << failure_message_for_item(index, matcher_failure_message)
+  end
+  all_messages.join("\n\n")
+end
+    
+  
+
+
+    
+  
+

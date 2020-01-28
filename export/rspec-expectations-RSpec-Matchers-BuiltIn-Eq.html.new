@@ -1,0 +1,1818 @@
+Class: RSpec::Matchers::BuiltIn::Eq
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Eq
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::EqRSpec::Matchers::BuiltIn::Eq
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Eq
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Eq
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Eq
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/eq.rblib/rspec/matchers/built_in/eq.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/eq.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Eq
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/eq.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for eqeq.
+Not intended to be instantiated directly.Provides the implementation for eq.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for eq.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for eq.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?#expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcherThis class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+
+
+22
+23
+24
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22# File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+defdef descriptiondescription
+  ""eq eq #{#{expected_formattedexpected_formatted}}"""eq #{expected_formatted}"
+endend# File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+
+
+28
+29
+30
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28# File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+defdef diffable?diffable?
+  truetrue
+endend# File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+10
+11
+12
+
+
+10
+11
+12
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10# File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+defdef failure_messagefailure_message
+  ""\nexpected: \nexpected: #{#{expected_formattedexpected_formatted}}\n     got: \n     got: #{#{actual_formattedactual_formatted}}\n\n(compared using ==)\n\n\n(compared using ==)\n"""\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+endend# File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+16
+17
+18
+
+
+16
+17
+18
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16# File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""\nexpected: value != \nexpected: value != #{#{expected_formattedexpected_formatted}}\n     got: \n     got: #{#{actual_formattedactual_formatted}}\n\n(compared using ==)\n\n\n(compared using ==)\n"""\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+endend# File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Eq
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Eq
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/eq.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for eq.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 22
+
+def description
+  "eq #{expected_formatted}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 28
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 10
+
+def failure_message
+  "\nexpected: #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/eq.rb', line 16
+
+def failure_message_when_negated
+  "\nexpected: value != #{expected_formatted}\n     got: #{actual_formatted}\n\n(compared using ==)\n"
+end
+    
+  
+
+
+    
+  
+

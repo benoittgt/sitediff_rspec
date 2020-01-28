@@ -1,0 +1,4515 @@
+Class: RSpec::Matchers::BuiltIn::Output
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Output
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::OutputRSpec::Matchers::BuiltIn::Output
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Output
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Output
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Output
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/output.rblib/rspec/matchers/built_in/output.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/output.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Output
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/output.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for outputoutput.
+Not intended to be instantiated directly.Provides the implementation for output.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for output.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for output.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Output.A new instance of Output.
+A new instance of Output.
+A new instance of Output.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates this matcher matches against a block.Indicates this matcher matches against a block.
+Indicates this matcher matches against a block.
+Indicates this matcher matches against a block.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates this matcher matches against a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.Tells the matcher to match against stderr.
+Tells the matcher to match against stderr.
+Tells the matcher to match against stderr.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.Tells the matcher to match against stderr.
+Tells the matcher to match against stderr.
+Tells the matcher to match against stderr.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.Tells the matcher to match against stdout.
+Tells the matcher to match against stdout.
+Tells the matcher to match against stdout.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.Tells the matcher to match against stdout.
+Tells the matcher to match against stdout.
+Tells the matcher to match against stdout.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates this matcher matches against a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #expects_call_stack_jump?, #match_unless_raises#expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of OutputReturns a new instance of Output
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Output
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Output
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+
+
+10
+11
+12
+13
+14
+15
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10# File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+defdef initializeinitialize((expectedexpected))
+  @expected@expected        == expectedexpected
+  @actual@actual          == """"""
+  @block@block           == nilnil
+  @stream_capturer@stream_capturer == NullCaptureNullCapture
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Output
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Output
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76# File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+defdef descriptiondescription
+  ifif @expected@expected
+    ""output output #{#{description_ofdescription_of @expected@expected}} to  to #{#{@stream_capturer@stream_capturer..namename}}"""output #{description_of @expected} to #{@stream_capturer.name}"
+  elseelse
+    ""output to output to #{#{@stream_capturer@stream_capturer..namename}}"""output to #{@stream_capturer.name}"
+  endend
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+
+
+86
+87
+88
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86# File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+defdef diffable?diffable?
+  truetrue
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+
+
+24
+25
+26
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24# File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+defdef does_not_match?does_not_match?((blockblock))
+  !!matches?matches?((blockblock)) &&&& ProcProc ====== blockblock
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+
+  
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+
+
+64
+65
+66
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64# File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+defdef failure_messagefailure_message
+  ""expected block to expected block to #{#{descriptiondescription}}, but , but #{#{positive_failure_reasonpositive_failure_reason}}"""expected block to #{description}, but #{positive_failure_reason}"
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+
+  
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+
+
+70
+71
+72
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70# File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""expected block to not expected block to not #{#{descriptiondescription}}, but , but #{#{negative_failure_reasonnegative_failure_reason}}"""expected block to not #{description}, but #{negative_failure_reason}"
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+
+
+17
+18
+19
+20
+21
+22
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17# File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+defdef matches?matches?((blockblock))
+  @block@block == blockblock
+  returnreturn falsefalse unlessunless ProcProc ====== blockblock
+  @actual@actual == @stream_capturer@stream_capturer..capturecapture((blockblock))
+  @expected@expected ?? values_match?values_match?((@expected@expected,, @actual@actual)) :: captured?captured?
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.Indicates this matcher matches against a block.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (TrueTrue)(True)
+      
+      
+      
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+
+
+93
+94
+95
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93# File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+defdef supports_block_expectations?supports_block_expectations?
+  truetrue
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderrTells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+
+
+39
+40
+41
+42
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39# File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+defdef to_stderrto_stderr
+  @stream_capturer@stream_capturer == CaptureStderrCaptureStderr
+  selfself
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+
+
+  
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderrto_stderrTells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+
+
+57
+58
+59
+60
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57# File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+defdef to_stderr_from_any_processto_stderr_from_any_process
+  @stream_capturer@stream_capturer == CaptureStreamToTempfileCaptureStreamToTempfile..newnew((""stderrstderr"""stderr",, $stderr$stderr))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+
+
+  
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdoutTells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+
+
+31
+32
+33
+34
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31# File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+defdef to_stdoutto_stdout
+  @stream_capturer@stream_capturer == CaptureStdoutCaptureStdout
+  selfself
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+
+
+  
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdoutto_stdoutTells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+
+
+48
+49
+50
+51
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48# File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+defdef to_stdout_from_any_processto_stdout_from_any_process
+  @stream_capturer@stream_capturer == CaptureStreamToTempfileCaptureStreamToTempfile..newnew((""stdoutstdout"""stdout",, $stdout$stdout))
+  selfself
+endend# File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+
+
+  
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Output
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Output
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/output.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for output.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates this matcher matches against a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stderr.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Tells the matcher to match against stdout.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Output
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+13
+14
+15
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 10
+
+def initialize(expected)
+  @expected        = expected
+  @actual          = ""
+  @block           = nil
+  @stream_capturer = NullCapture
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+76
+77
+78
+79
+80
+81
+82
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 76
+
+def description
+  if @expected
+    "output #{description_of @expected} to #{@stream_capturer.name}"
+  else
+    "output to #{@stream_capturer.name}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 86
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 24
+
+def does_not_match?(block)
+  !matches?(block) && Proc === block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 64
+
+def failure_message
+  "expected block to #{description}, but #{positive_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 70
+
+def failure_message_when_negated
+  "expected block to not #{description}, but #{negative_failure_reason}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+17
+18
+19
+20
+21
+22
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 17
+
+def matches?(block)
+  @block = block
+  return false unless Proc === block
+  @actual = @stream_capturer.capture(block)
+  @expected ? values_match?(@expected, @actual) : captured?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates this matcher matches against a block.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (True)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+93
+94
+95
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 93
+
+def supports_block_expectations?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works only when the main Ruby process prints to stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 39
+
+def to_stderr
+  @stream_capturer = CaptureStderr
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stderr.
+Works when subprocesses print to stderr as well.
+This is significantly (~30x) slower than to_stderr
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 57
+
+def to_stderr_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stderr", $stderr)
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works only when the main Ruby process prints to stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 31
+
+def to_stdout
+  @stream_capturer = CaptureStdout
+  self
+end
+    
+  
+
+
+    
+      
+  
+  
+    Tells the matcher to match against stdout.
+Works when subprocesses print to stdout as well.
+This is significantly (~30x) slower than to_stdout
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+48
+49
+50
+51
+    
+    
+      # File 'lib/rspec/matchers/built_in/output.rb', line 48
+
+def to_stdout_from_any_process
+  @stream_capturer = CaptureStreamToTempfile.new("stdout", $stdout)
+  self
+end
+    
+  
+
+
+    
+  
+

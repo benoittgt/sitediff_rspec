@@ -1,0 +1,2199 @@
+Module: RSpec::Rails::ViewExampleGroup::ExampleMethods
+  
+  
+  
+Module: RSpec::Rails::ViewExampleGroup::ExampleMethods
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+      
+    
+  
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/view_example_group.rblib/rspec/rails/example/view_example_group.rb
+  
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/view_example_group.rb
+  
+
+
+
+OverviewOverview
+  
+    DSL exposed to view specs.DSL exposed to view specs.
+
+
+  
+    DSL exposed to view specs.
+
+
+  
+
+  
+    DSL exposed to view specs.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides access to the params hash that will be available within the view.Provides access to the params hash that will be available within the view.
+Provides access to the params hash that will be available within the view.
+Provides access to the params hash that will be available within the view.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides access to the params hash that will be available within the view.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that for more info.Delegates to ActionView::Base#render, so see documentation on that for more info.
+Delegates to ActionView::Base#render, so see documentation on that for more info.
+Delegates to ActionView::Base#render, so see documentation on that for more info.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.
+Use rendered instead.
+Deprecated. Use rendered instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use rendered instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecateddeprecated
+  
+
+  
+    Deprecated.Deprecated. Use viewview instead.Use view instead.
+Use view instead.
+Deprecated. Use view instead.
+
+  
+
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use view instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The instance of ActionView::BaseActionView::Base that is used to render the template.The instance of ActionView::Base that is used to render the template.
+The instance of ActionView::Base that is used to render the template.
+The instance of ActionView::Base that is used to render the template.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The instance of ActionView::Base that is used to render the template.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides access to the params hash that will be available within the view.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use rendered instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use view instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The instance of ActionView::Base that is used to render the template.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Provides access to the params hash that will be available within the
+view.Provides access to the params hash that will be available within the
+view.
+
+paramsparams[[:foo:foo]] == ''barbar'''bar'
+params[:foo] = 'bar'
+params[:foo] = 'bar'
+
+
+
+  
+    Provides access to the params hash that will be available within the
+view.
+
+params[:foo] = 'bar'
+
+
+
+  
+
+  
+    Provides access to the params hash that will be available within the
+view.
+
+params[:foo] = 'bar'
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+102
+103
+104
+
+
+102
+103
+104
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102# File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+defdef paramsparams
+  controllercontroller..paramsparams
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+
+  
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+
+
+  
+  
+    Provides access to the params hash that will be available within the
+view.
+
+params[:foo] = 'bar'
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
+  itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo
+    renderrender # => view.render(:file => "widgets/new.html.erb")
+# => view.render(:file => "widgets/new.html.erb")
+    # ...
+# ...
+  endend
+endend
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+69
+70
+71
+72
+
+
+69
+70
+71
+72
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69# File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+defdef renderrender((optionsoptions == {{}},, local_assignslocal_assigns == {{}},, &&blockblock))
+  optionsoptions == _default_render_options_default_render_options ifif HashHash ====== optionsoptions &&&& optionsoptions..empty?empty?
+  supersuper((optionsoptions,, local_assignslocal_assigns,, &&blockblock))
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+
+
+  
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.
+Use rendered instead.
+Deprecated. Use rendered instead.
+
+
+
+  
+    Deprecated. Use rendered instead.
+
+
+
+  
+
+  
+    Deprecated. Use rendered instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113# File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+defdef responseresponse
+  # `assert_template` expects `response` to implement a #body method
+# `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+# like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+# render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+# for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+# `assert_template` raising a `NoMethodError`.
+  unlessunless renderedrendered..respond_to?respond_to?((:body:body))
+    defdef renderedrendered..bodybody
+      selfself
+    endend
+  endend
+
+  renderedrendered
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use rendered instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+
+
+    
+      
+  
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_templatestub_template((""widgets/_widget.html.erbwidgets/_widget.html.erb"""widgets/_widget.html.erb" =>=> ""This content.This content."""This content."))
+stub_template("widgets/_widget.html.erb" => "This content.")
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+
+
+94
+95
+96
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94# File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+defdef stub_templatestub_template((hashhash))
+  viewview..view_pathsview_paths..unshiftunshift((StubResolverCacheStubResolverCache..resolver_forresolver_for((hashhash))))
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+
+
+  
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated.Deprecated. Use viewview instead.Use view instead.
+Use view instead.
+Deprecated. Use view instead.
+
+
+
+  
+    Deprecated. Use view instead.
+
+
+
+  
+
+  
+    Deprecated. Use view instead.
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+
+
+107
+108
+109
+110
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107# File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+defdef templatetemplate
+  RSpecRSpec..deprecatedeprecate((""templatetemplate"""template",, :replacement:replacement =>=> ""viewview"""view"))
+  viewview
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+
+  
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+
+
+  
+  
+    Deprecated. Use view instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+
+
+    
+      
+  
+  
+    The instance of ActionView::BaseActionView::Base that is used to render the template.
+Use this to stub methods beforebefore calling renderrender.The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
+  itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo
+    viewview..stubstub((:foo:foo)) {{ ""foofoo"""foo" }}
+    renderrender
+    # ...
+# ...
+  endend
+endend
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+    The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+
+  
+    The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+84
+85
+86
+
+
+84
+85
+86
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84# File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+defdef viewview
+  _view_view
+endend# File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+
+
+  
+  
+    The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Provides access to the params hash that will be available within the
+view.
+
+params[:foo] = 'bar'
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use rendered instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+
+
+    
+      
+  
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use view instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+
+
+    
+      
+  
+  
+    The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ViewExampleGroup::ExampleMethods
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/view_example_group.rb
+  
+
+
+
+Overview
+  
+    DSL exposed to view specs.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides access to the params hash that will be available within the view.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use rendered instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  deprecated
+  
+
+  
+    Deprecated. Use view instead.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The instance of ActionView::Base that is used to render the template.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Provides access to the params hash that will be available within the
+view.
+
+params[:foo] = 'bar'
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+102
+103
+104
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 102
+
+def params
+  controller.params
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to ActionView::Base#render, so see documentation on that
+for more info.
+
+The only addition is that you can call render with no arguments, and
+RSpec will pass the top level description to render:
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    render # => view.render(:file => "widgets/new.html.erb")
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+69
+70
+71
+72
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 69
+
+def render(options = {}, local_assigns = {}, &block)
+  options = _default_render_options if Hash === options && options.empty?
+  super(options, local_assigns, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use rendered instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 113
+
+def response
+  # `assert_template` expects `response` to implement a #body method
+  # like an `ActionDispatch::Response` does to force the view to
+  # render. For backwards compatibility, we use #response as an alias
+  # for #rendered, but it needs to implement #body to avoid
+  # `assert_template` raising a `NoMethodError`.
+  unless rendered.respond_to?(:body)
+    def rendered.body
+      self
+    end
+  end
+
+  rendered
+end
+    
+  
+
+
+    
+      
+  
+  
+    Simulates the presence of a template on the file system by adding a
+Rails' FixtureResolver to the front of the view_paths list. Designed to
+help isolate view examples from partials rendered by the view template
+that is the subject of the example.
+
+stub_template("widgets/_widget.html.erb" => "This content.")
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 94
+
+def stub_template(hash)
+  view.view_paths.unshift(StubResolverCache.resolver_for(hash))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Deprecated. Use view instead.
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 107
+
+def template
+  RSpec.deprecate("template", :replacement => "view")
+  view
+end
+    
+  
+
+
+    
+      
+  
+  
+    The instance of ActionView::Base that is used to render the template.
+Use this to stub methods before calling render.
+
+describe "widgets/new.html.erb" do
+  it "shows all the widgets" do
+    view.stub(:foo) { "foo" }
+    render
+    # ...
+  end
+end
+
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+84
+85
+86
+    
+    
+      # File 'lib/rspec/rails/example/view_example_group.rb', line 84
+
+def view
+  _view
+end
+    
+  
+
+
+    
+  
+

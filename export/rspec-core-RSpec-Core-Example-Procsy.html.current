@@ -1,0 +1,1892 @@
+Class: RSpec::Core::Example::Procsy
+  
+  
+  
+Class: RSpec::Core::Example::Procsy
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Example::ProcsyRSpec::Core::Example::Procsy
+          
+        
+          Object
+          
+            RSpec::Core::Example::Procsy
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::Procsy
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::Procsy
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/example.rblib/rspec/core/example.rb
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::Procsy
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  
+    Note:Note:
+    This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+
+  
+    Note:
+    This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+
+  
+
+Wraps both a ProcProc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
+kind of object (rather than the raw RSpec::Core::Example) because when
+there are multiple aroundaround hooks we have to wrap them recursively.Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
+kind of object (rather than the raw RSpec::Core::Example) because when
+there are multiple around hooks we have to wrap them recursively.
+
+
+  
+    
+  
+    Note:
+    This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+
+  
+
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
+kind of object (rather than the raw RSpec::Core::Example) because when
+there are multiple around hooks we have to wrap them recursively.
+
+
+  
+
+  
+    
+  
+    Note:
+    This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+
+  
+
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
+kind of object (rather than the raw RSpec::Core::Example) because when
+there are multiple around hooks we have to wrap them recursively.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..configureconfigure dodo ||cc||
+  cc..aroundaround dodo ||exex|| # Procsy which wraps the example
+# Procsy which wraps the example
+    ifif exex..metadatametadata[[:key:key]] ==== :some_value:some_value &&&& some_global_conditionsome_global_condition
+      raiseraise ""some messagesome message"""some message"
+    endend
+    exex..runrun         # run delegates to ex.call.
+# run delegates to ex.call.
+  endend
+endend
+RSpec.configure do |c|
+  c.around do |ex| # Procsy which wraps the example
+    if ex.metadata[:key] == :some_value && some_global_condition
+      raise "some message"
+    end
+    ex.run         # run delegates to ex.call.
+  end
+end
+RSpec.configure do |c|
+  c.around do |ex| # Procsy which wraps the example
+    if ex.metadata[:key] == :some_value && some_global_condition
+      raise "some message"
+    end
+    ex.run         # run delegates to ex.call.
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  c.around do |ex| # Procsy which wraps the example
+    if ex.metadata[:key] == :some_value && some_global_condition
+      raise "some message"
+    end
+    ex.run         # run delegates to ex.call.
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  c.around do |ex| # Procsy which wraps the example
+    if ex.metadata[:key] == :some_value && some_global_condition
+      raise "some message"
+    end
+    ex.run         # run delegates to ex.call.
+  end
+end
+    
+  
+
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The RSpec::Core::Example instance.The RSpec::Core::Example instance.
+The RSpec::Core::Example instance.
+The RSpec::Core::Example instance.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The RSpec::Core::Example instance.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The RSpec::Core::Example instance.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
+Calls the proc and notes that the example has been executed.
+Calls the proc and notes that the example has been executed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Calls the proc and notes that the example has been executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
+Indicates whether or not the around hook has executed the example.
+Indicates whether or not the around hook has executed the example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not the around hook has executed the example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Procsy.A new instance of Procsy.
+A new instance of Procsy.
+A new instance of Procsy.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Procsy.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a wrapped proc that will update our executed?executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
+Provides a wrapped proc that will update our executed? state when executed.
+Provides a wrapped proc that will update our executed? state when executed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a wrapped proc that will update our executed? state when executed.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Calls the proc and notes that the example has been executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not the around hook has executed the example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Procsy.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a wrapped proc that will update our executed? state when executed.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ProcsyReturns a new instance of Procsy
+
+
+  
+    Returns a new instance of Procsy
+
+
+  
+
+  
+    Returns a new instance of Procsy
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+
+
+355
+356
+357
+358
+359
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355# File 'lib/rspec/core/example.rb', line 355
+
+defdef initializeinitialize((exampleexample,, &&blockblock))
+  @example@example  == exampleexample
+  @proc@proc     == blockblock
+  @executed@executed == falsefalse
+endend# File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of Procsy
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Procsy
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    The RSpec::Core::Example instance.The RSpec::Core::Example instance.
+
+
+  
+    The RSpec::Core::Example instance.
+
+
+  
+
+  
+    The RSpec::Core::Example instance.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+326
+327
+328
+
+
+326
+327
+328
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326# File 'lib/rspec/core/example.rb', line 326
+
+defdef exampleexample
+  @example@example
+endend# File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+
+  
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+
+
+  
+  
+    The RSpec::Core::Example instance.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    The RSpec::Core::Example instance.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
+
+
+  
+    Calls the proc and notes that the example has been executed.
+
+
+  
+
+  
+    Calls the proc and notes that the example has been executed.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+343
+344
+345
+346
+
+
+343
+344
+345
+346
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343# File 'lib/rspec/core/example.rb', line 343
+
+defdef callcall((**argsargs,, &&blockblock))
+  @executed@executed == truetrue
+  @proc@proc..callcall((**argsargs,, &&blockblock))
+endend# File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+
+
+  
+  
+    Calls the proc and notes that the example has been executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
+
+
+  
+    Indicates whether or not the around hook has executed the example.
+
+
+  
+
+  
+    Indicates whether or not the around hook has executed the example.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+367
+368
+369
+
+
+367
+368
+369
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367# File 'lib/rspec/core/example.rb', line 367
+
+defdef executed?executed?
+  @executed@executed
+endend# File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+
+  
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not the around hook has executed the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a wrapped proc that will update our executed?executed? state when
+executed.Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+    Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+
+  
+    Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+351
+352
+353
+
+
+351
+352
+353
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351# File 'lib/rspec/core/example.rb', line 351
+
+defdef to_procto_proc
+  methodmethod((:call:call))..to_procto_proc
+endend# File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+
+  
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+
+
+  
+  
+    Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Calls the proc and notes that the example has been executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not the around hook has executed the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Example::Procsy
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Example::Procsy
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/example.rb
+  
+  
+
+
+Overview
+  
+    
+  
+    Note:
+    This class also exposes the instance methods of RSpec::Core::Example,
+proxying them through to the wrapped RSpec::Core::Example instance.
+
+  
+
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
+kind of object (rather than the raw RSpec::Core::Example) because when
+there are multiple around hooks we have to wrap them recursively.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  c.around do |ex| # Procsy which wraps the example
+    if ex.metadata[:key] == :some_value && some_global_condition
+      raise "some message"
+    end
+    ex.run         # run delegates to ex.call.
+  end
+end
+    
+  
+
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The RSpec::Core::Example instance.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Calls the proc and notes that the example has been executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not the around hook has executed the example.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Procsy.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides a wrapped proc that will update our executed? state when executed.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Procsy
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+355
+356
+357
+358
+359
+    
+    
+      # File 'lib/rspec/core/example.rb', line 355
+
+def initialize(example, &block)
+  @example  = example
+  @proc     = block
+  @executed = false
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    The RSpec::Core::Example instance.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+326
+327
+328
+    
+    
+      # File 'lib/rspec/core/example.rb', line 326
+
+def example
+  @example
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Calls the proc and notes that the example has been executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+343
+344
+345
+346
+    
+    
+      # File 'lib/rspec/core/example.rb', line 343
+
+def call(*args, &block)
+  @executed = true
+  @proc.call(*args, &block)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not the around hook has executed the example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+367
+368
+369
+    
+    
+      # File 'lib/rspec/core/example.rb', line 367
+
+def executed?
+  @executed
+end
+    
+  
+
+
+    
+      
+  
+  
+    Provides a wrapped proc that will update our executed? state when
+executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+351
+352
+353
+    
+    
+      # File 'lib/rspec/core/example.rb', line 351
+
+def to_proc
+  method(:call).to_proc
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,1126 @@
+Module: RSpec::Rails::SystemExampleGroup
+  
+  
+  
+Module: RSpec::Rails::SystemExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroupActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+  
+      Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/system_example_group.rblib/rspec/rails/example/system_example_group.rb
+  
+    Defined in:
+    lib/rspec/rails/example/system_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/system_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Container class for system testsContainer class for system tests
+
+
+  
+    Container class for system tests
+
+
+  
+
+  
+    Container class for system tests
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        CHARS_TO_TRANSLATE =
+          
+  
+    Special characters to translate into underscores for #method_nameSpecial characters to translate into underscores for #method_name
+
+
+  
+    Special characters to translate into underscores for #method_name
+
+
+  
+
+  
+    Special characters to translate into underscores for #method_name
+
+
+  
+
+
+  
+
+
+  
+
+
+        CHARS_TO_TRANSLATE =
+          
+  
+    Special characters to translate into underscores for #method_name
+
+
+  
+
+
+  
+
+
+        
+        [[''//'''/',, ''..'''.',, ''::''':',, '',,''',',, ""''"""'",, ''""'''"',, ""  """ "]]..freezefreeze['/', '.', ':', ',', "'", '"', " "].freeze['/', '.', ':', ',', "'", '"', " "].freeze
+      
+    
+      
+        CHARS_TO_TRANSLATE =
+          
+  
+    Special characters to translate into underscores for #method_name
+
+
+  
+
+
+  
+
+
+        
+        ['/', '.', ':', ',', "'", '"', " "].freeze
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.applicationRails.application.Delegates to Rails.application.
+Delegates to Rails.application.
+Delegates to Rails.application.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    for the SystemTesting Screenshot situation.for the SystemTesting Screenshot situation.
+for the SystemTesting Screenshot situation.
+for the SystemTesting Screenshot situation.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    for the SystemTesting Screenshot situation.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    for the SystemTesting Screenshot situation.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplateMethods included from Matchers::RenderTemplate
+  #have_rendered#have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectToMethods included from Matchers::RedirectTo
+  #redirect_to#redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.applicationRails.application.Delegates to Rails.application.
+
+
+  
+    Delegates to Rails.application.
+
+
+  
+
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+
+
+44
+45
+46
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44# File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+defdef appapp
+  ::::RailsRails..applicationapplication
+endend# File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+      
+  
+  
+    for the SystemTesting Screenshot situationfor the SystemTesting Screenshot situation
+
+
+  
+    for the SystemTesting Screenshot situation
+
+
+  
+
+  
+    for the SystemTesting Screenshot situation
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25# File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+defdef passed?passed?
+  returnreturn falsefalse ifif RSpecRSpec..current_examplecurrent_example..exceptionexception
+  returnreturn truetrue unlessunless defined?defined?((::::RSpecRSpec::::ExpectationsExpectations::::FailureAggregatorFailureAggregator))
+
+  failure_notifierfailure_notifier == ::::RSpecRSpec::::SupportSupport..failure_notifierfailure_notifier
+  returnreturn truetrue unlessunless failure_notifierfailure_notifier..is_a?is_a?((::::RSpecRSpec::::ExpectationsExpectations::::FailureAggregatorFailureAggregator))
+
+  failure_notifierfailure_notifier..failuresfailures..empty?empty? &&&& failure_notifierfailure_notifier..other_errorsother_errors..empty?empty?
+endend# File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+
+
+  
+  
+    for the SystemTesting Screenshot situation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+      
+  
+  
+    for the SystemTesting Screenshot situation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::SystemExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      ActiveSupport::Concern
+  
+  
+  
+  
+  
+      Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/system_example_group.rb
+  
+  
+
+
+Overview
+  
+    Container class for system tests
+
+
+  
+
+
+  
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        CHARS_TO_TRANSLATE =
+          
+  
+    Special characters to translate into underscores for #method_name
+
+
+  
+
+
+  
+
+
+        
+        ['/', '.', ':', ',', "'", '"', " "].freeze
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    for the SystemTesting Screenshot situation.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplate
+  #have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectTo
+  #redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+44
+45
+46
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 44
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+      
+  
+  
+    for the SystemTesting Screenshot situation
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/rails/example/system_example_group.rb', line 25
+
+def passed?
+  return false if RSpec.current_example.exception
+  return true unless defined?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier = ::RSpec::Support.failure_notifier
+  return true unless failure_notifier.is_a?(::RSpec::Expectations::FailureAggregator)
+
+  failure_notifier.failures.empty? && failure_notifier.other_errors.empty?
+end
+    
+  
+
+
+    
+  
+

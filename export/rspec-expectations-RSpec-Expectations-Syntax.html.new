@@ -1,0 +1,3531 @@
+Module: RSpec::Expectations::Syntax
+  
+  
+  PrivatePrivate
+Module: RSpec::Expectations::Syntax
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations/syntax.rblib/rspec/expectations/syntax.rb
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This module is part of a private API.This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available
+syntaxes provided by rspec-expectations.Provides methods for enabling and disabling the available
+syntaxes provided by rspec-expectations.
+
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available
+syntaxes provided by rspec-expectations.
+
+
+  
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available
+syntaxes provided by rspec-expectations.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Determines where we add shouldshould and should_notshould_not.Determines where we add should and should_not.
+Determines where we add should and should_not.
+Determines where we add should and should_not.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where we add should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Disables the expectexpect syntax.Disables the expect syntax.
+Disables the expect syntax.
+Disables the expect syntax.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Disables the shouldshould syntax.Disables the should syntax.
+Disables the should syntax.
+Disables the should syntax.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Enables the expectexpect syntax.Enables the expect syntax.
+Enables the expect syntax.
+Enables the expect syntax.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Enables the shouldshould syntax.Enables the should syntax.
+Enables the should syntax.
+Enables the should syntax.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates whether or not the expectexpect syntax is enabled.Indicates whether or not the expect syntax is enabled.
+Indicates whether or not the expect syntax is enabled.
+Indicates whether or not the expect syntax is enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates whether or not the shouldshould syntax is enabled.Indicates whether or not the should syntax is enabled.
+Indicates whether or not the should syntax is enabled.
+Indicates whether or not the should syntax is enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Instructs rspec-expectations to warn on first usage of shouldshould or should_notshould_not.Instructs rspec-expectations to warn on first usage of should or should_not.
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Instructs rspec-expectations to warn on first usage of should or should_not.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instructs rspec-expectations to warn on first usage of should or should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Generates a deprecation warning for the given method if no warning has already been issued.Generates a deprecation warning for the given method if no warning has already been issued.
+Generates a deprecation warning for the given method if no warning has already been issued.
+Generates a deprecation warning for the given method if no warning has already been issued.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a deprecation warning for the given method if no warning has already been issued.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where we add should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instructs rspec-expectations to warn on first usage of should or should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a deprecation warning for the given method if no warning has already been issued.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add shouldshould and should_notshould_not.Determines where we add should and should_not.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add should and should_not.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add should and should_not.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+
+
+11
+12
+13
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11# File 'lib/rspec/expectations/syntax.rb', line 11
+
+defdef default_should_hostdefault_should_host
+  @default_should_host@default_should_host ||=||= ::::ObjectObject..ancestorsancestors..lastlast
+endend# File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add should and should_not.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expectexpect syntax.Disables the expect syntax.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80# File 'lib/rspec/expectations/syntax.rb', line 80
+
+defdef disable_expectdisable_expect((syntax_hostsyntax_host==::::RSpecRSpec::::MatchersMatchers))
+  returnreturn unlessunless expect_enabled?expect_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..module_execmodule_exec dodo
+    undefundef expectexpect
+  endend
+endend# File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the shouldshould syntax.Disables the should syntax.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57# File 'lib/rspec/expectations/syntax.rb', line 57
+
+defdef disable_shoulddisable_should((syntax_hostsyntax_host==default_should_hostdefault_should_host))
+  returnreturn unlessunless should_enabled?should_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..module_execmodule_exec dodo
+    undefundef shouldshould
+    undefundef should_notshould_not
+  endend
+endend# File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expectexpect syntax.Enables the expect syntax.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68# File 'lib/rspec/expectations/syntax.rb', line 68
+
+defdef enable_expectenable_expect((syntax_hostsyntax_host==::::RSpecRSpec::::MatchersMatchers))
+  returnreturn ifif expect_enabled?expect_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..module_execmodule_exec dodo
+    defdef expectexpect((valuevalue==::::RSpecRSpec::::ExpectationsExpectations::::ExpectationTargetExpectationTarget::::UndefinedValueUndefinedValue,, &&blockblock))
+      ::::RSpecRSpec::::ExpectationsExpectations::::ExpectationTargetExpectationTarget..forfor((valuevalue,, blockblock))
+    endend
+  endend
+endend# File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the shouldshould syntax.Enables the should syntax.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38# File 'lib/rspec/expectations/syntax.rb', line 38
+
+defdef enable_shouldenable_should((syntax_hostsyntax_host==default_should_hostdefault_should_host))
+  @warn_about_should@warn_about_should == falsefalse ifif syntax_hostsyntax_host ==== default_should_hostdefault_should_host
+  returnreturn ifif should_enabled?should_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..module_execmodule_exec dodo
+    defdef shouldshould((matchermatcher==nilnil,, messagemessage==nilnil,, &&blockblock))
+      ::::RSpecRSpec::::ExpectationsExpectations::::SyntaxSyntax..warn_about_should_unless_configuredwarn_about_should_unless_configured((::::KernelKernel..__method____method__))
+      ::::RSpecRSpec::::ExpectationsExpectations::::PositiveExpectationHandlerPositiveExpectationHandler..handle_matcherhandle_matcher((selfself,, matchermatcher,, messagemessage,, &&blockblock))
+    endend
+
+    defdef should_notshould_not((matchermatcher==nilnil,, messagemessage==nilnil,, &&blockblock))
+      ::::RSpecRSpec::::ExpectationsExpectations::::SyntaxSyntax..warn_about_should_unless_configuredwarn_about_should_unless_configured((::::KernelKernel..__method____method__))
+      ::::RSpecRSpec::::ExpectationsExpectations::::NegativeExpectationHandlerNegativeExpectationHandler..handle_matcherhandle_matcher((selfself,, matchermatcher,, messagemessage,, &&blockblock))
+    endend
+  endend
+endend# File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expectexpect syntax is enabled.Indicates whether or not the expect syntax is enabled.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+
+
+96
+97
+98
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96# File 'lib/rspec/expectations/syntax.rb', line 96
+
+defdef expect_enabled?expect_enabled?((syntax_hostsyntax_host==::::RSpecRSpec::::MatchersMatchers))
+  syntax_hostsyntax_host..method_defined?method_defined?((:expect:expect))
+endend# File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the shouldshould syntax is enabled.Indicates whether or not the should syntax is enabled.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+90
+91
+92
+
+
+90
+91
+92
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90# File 'lib/rspec/expectations/syntax.rb', line 90
+
+defdef should_enabled?should_enabled?((syntax_hostsyntax_host==default_should_hostdefault_should_host))
+  syntax_hostsyntax_host..method_defined?method_defined?((:should:should))
+endend# File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+
+  
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of shouldshould or should_notshould_not.
+Enabled by default. This is largely here to facilitate testing.Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+
+
+18
+19
+20
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18# File 'lib/rspec/expectations/syntax.rb', line 18
+
+defdef warn_about_should!warn_about_should!
+  @warn_about_should@warn_about_should == truetrue
+endend# File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25# File 'lib/rspec/expectations/syntax.rb', line 25
+
+defdef warn_about_should_unless_configuredwarn_about_should_unless_configured((method_namemethod_name))
+  returnreturn unlessunless @warn_about_should@warn_about_should
+
+  RSpecRSpec..deprecatedeprecate((
+    ""Using `Using `#{#{method_namemethod_name}}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax"""Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",,
+    :replacement:replacement =>=> ""the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"""the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  ))
+
+  @warn_about_should@warn_about_should == falsefalse
+endend# File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add should and should_not.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Expectations::Syntax
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+
+Overview
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available
+syntaxes provided by rspec-expectations.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where we add should and should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Instructs rspec-expectations to warn on first usage of should or should_not.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Generates a deprecation warning for the given method if no warning has already been issued.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where we add should and should_not.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 11
+
+def default_should_host
+  @default_should_host ||= ::Object.ancestors.last
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+84
+85
+86
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 80
+
+def disable_expect(syntax_host=::RSpec::Matchers)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 57
+
+def disable_should(syntax_host=default_should_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    undef should
+    undef should_not
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+68
+69
+70
+71
+72
+73
+74
+75
+76
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 68
+
+def enable_expect(syntax_host=::RSpec::Matchers)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def expect(value=::RSpec::Expectations::ExpectationTarget::UndefinedValue, &block)
+      ::RSpec::Expectations::ExpectationTarget.for(value, block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 38
+
+def enable_should(syntax_host=default_should_host)
+  @warn_about_should = false if syntax_host == default_should_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.module_exec do
+    def should(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::PositiveExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+
+    def should_not(matcher=nil, message=nil, &block)
+      ::RSpec::Expectations::Syntax.warn_about_should_unless_configured(::Kernel.__method__)
+      ::RSpec::Expectations::NegativeExpectationHandler.handle_matcher(self, matcher, message, &block)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 96
+
+def expect_enabled?(syntax_host=::RSpec::Matchers)
+  syntax_host.method_defined?(:expect)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+90
+91
+92
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 90
+
+def should_enabled?(syntax_host=default_should_host)
+  syntax_host.method_defined?(:should)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Instructs rspec-expectations to warn on first usage of should or should_not.
+Enabled by default. This is largely here to facilitate testing.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 18
+
+def warn_about_should!
+  @warn_about_should = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Generates a deprecation warning for the given method if no warning
+has already been issued.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 25
+
+def warn_about_should_unless_configured(method_name)
+  return unless @warn_about_should
+
+  RSpec.deprecate(
+    "Using `#{method_name}` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax",
+    :replacement => "the new `:expect` syntax or explicitly enable `:should` with `config.expect_with(:rspec) { |c| c.syntax = :should }`"
+  )
+
+  @warn_about_should = false
+end
+    
+  
+
+
+    
+  
+

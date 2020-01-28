@@ -1,0 +1,7248 @@
+Module: RSpec::Core::Hooks
+  
+  
+  
+Module: RSpec::Core::Hooks
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    Configuration, ExampleGroupConfiguration, ExampleGroup
+  
+    Included in:
+    Configuration, ExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/hooks.rblib/rspec/core/hooks.rb
+  
+    Defined in:
+    lib/rspec/core/hooks.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    Configuration, ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/hooks.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides beforebefore, afterafter and aroundaround hooks as a means of
+supporting common setup and teardown. This module is extended
+onto ExampleGroup, making the methods available from any describedescribe
+or contextcontext block and included in Configuration, making them
+available off of the configuration object to define global setup
+or teardown logic.Provides before, after and around hooks as a means of
+supporting common setup and teardown. This module is extended
+onto ExampleGroup, making the methods available from any describe
+or context block and included in Configuration, making them
+available off of the configuration object to define global setup
+or teardown logic.
+
+
+  
+    Provides before, after and around hooks as a means of
+supporting common setup and teardown. This module is extended
+onto ExampleGroup, making the methods available from any describe
+or context block and included in Configuration, making them
+available off of the configuration object to define global setup
+or teardown logic.
+
+
+  
+
+  
+    Provides before, after and around hooks as a means of
+supporting common setup and teardown. This module is extended
+onto ExampleGroup, making the methods available from any describe
+or context block and included in Configuration, making them
+available off of the configuration object to define global setup
+or teardown logic.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run after each example (using :example:example) or once after all examples n the context (using :context:context).Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds blockblock to the back of the list of afterafter blocks in the same scope (:example:example, :context:context, or :suite:suite).Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code, parts of which will be run before and parts after the example.Declare a block of code, parts of which will be run before and parts after the example.
+Declare a block of code, parts of which will be run before and parts after the example.
+Declare a block of code, parts of which will be run before and parts after the example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code, parts of which will be run before and parts after the example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run before each example (using :example:example) or once before any example (using :context:context).Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds blockblock to the front of the list of beforebefore blocks in the same scope (:example:example, :context:context, or :suite:suite).Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code, parts of which will be run before and parts after the example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    The :example:example and :context:context scopes are also available as
+:each:each and :all:all, respectively. Use whichever you prefer.The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:Note:
+    The :suite:suite scope is only supported for hooks registered on
+RSpec.configurationRSpec.configuration since they exist independently of any
+example or example group.The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example:example)
+or once after all examples n the context (using :context:context). See
+#before for more information about ordering.Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+ExceptionsExceptions
+
+afterafter hooks are guaranteed to run even when there are exceptions in
+beforebefore hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+afterafter blocks are run.after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+OrderOrder
+
+afterafter hooks are stored in three scopes, which are run in order:
+:example:example, :context:context, and :suite:suite. They can also be declared in
+several different places: RSpec.configureRSpec.configure, a parent group, the current
+group. They are run in the following order:after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+afterafter((:example:example)) # Declared in the current group.
+# Declared in the current group.
+afterafter((:example:example)) # Declared in a parent group.
+# Declared in a parent group.
+afterafter((:example:example)) # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+afterafter((:context:context)) # Declared in the current group.
+# Declared in the current group.
+afterafter((:context:context)) # Declared in a parent group.
+# Declared in a parent group.
+afterafter((:context:context)) # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+afterafter((:suite:suite))   # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which beforebefore hooks are run.
+Similarly, if more than one afterafter is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+aroundaround hooks will all have run before any after hooks are invoked.This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+Exceptions
+
+after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+Order
+
+after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+Exceptions
+
+after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+Order
+
+after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+
+
+  
+  Overloads:Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example, :context:context, or :suite:suite (defaults to
+:example:example):example, :context, or :suite (defaults to
+:example)
+:example, :context, or :suite (defaults to
+:example)
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example, :context:context, or :suite:suite (defaults to
+:example:example):example, :context, or :suite (defaults to
+:example)
+:example, :context, or :suite (defaults to
+:example)
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... }after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true:ui => true.constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... }after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true:ui => true.constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #before#before
+    
+      #around#around
+    
+      ExampleGroupExampleGroup
+    
+      SharedContextSharedContext
+    
+      SharedExampleGroupSharedExampleGroup
+    
+      ConfigurationConfiguration
+    
+  
+    
+      #before
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #before
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+273
+274
+275
+
+
+273
+274
+275
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273# File 'lib/rspec/core/hooks.rb', line 273
+
+defdef afterafter((**argsargs,, &&blockblock))
+  hookshooks..registerregister :prepend:prepend,, :after:after,, **argsargs,, &&blockblock
+endend# File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+Exceptions
+
+after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+Order
+
+after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #before
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds blockblock to the back of the list of afterafter blocks in the same
+scope (:example:example, :context:context, or :suite:suite).Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.See #after for scoping semantics.
+
+
+  
+    Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.
+
+
+  
+
+  
+    Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+283
+284
+285
+
+
+283
+284
+285
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283# File 'lib/rspec/core/hooks.rb', line 283
+
+defdef append_afterappend_after((**argsargs,, &&blockblock))
+  hookshooks..registerregister :append:append,, :after:after,, **argsargs,, &&blockblock
+endend# File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+
+  
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+
+
+  
+  
+    Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    the syntax of aroundaround is similar to that of beforebefore and afterafter
+but the semantics are quite different. beforebefore and afterafter hooks are
+run in the context of of the examples with which they are associated,
+whereas aroundaround hooks are actually responsible for running the
+examples. Consequently, aroundaround hooks do not have direct access to
+resources that are made available within the examples and their
+associated beforebefore and afterafter hooks.the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:Note:
+    :example:example/:each:each is the only supported scope.:example/:each is the only supported scope.
+:example/:each is the only supported scope.
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+aroundaround((:example:example)) dodo ||exex||
+  # Do some stuff before.
+# Do some stuff before.
+  exex..runrun
+  # Do some stuff after.
+# Do some stuff after.
+endend
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases runrun with callcall, which lets you treat it
+like a ProcProc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+aroundaround((:example:example)) {{||exex|| DatabaseDatabase..transactiontransaction((&&exex))}}
+aroundaround((:example:example)) {{||exex|| FakeFSFakeFS((&&exex))}}
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+OrderOrder
+
+All aroundaround hooks execute immediately surrounding an example, this means
+that all beforebefore hooks will have run and no afterafter hooks will have run yet.All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for beforebefore/afterafter.They are not a synonym for before/after.
+
+
+  
+    
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+Order
+
+All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for before/after.
+
+
+  
+
+  
+    
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+Order
+
+All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for before/after.
+
+
+  
+
+
+  
+  Overloads:Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example (defaults to :example:example)
+present for syntax parity with beforebefore and afterafter, but
+:example:example/:each:each is the only supported value.:example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+:example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example (defaults to :example:example)
+present for syntax parity with beforebefore and afterafter, but
+:example:example/:each:each is the only supported value.:example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+:example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... }around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true:ui => true.constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... }around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true:ui => true.constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ExampleExample)(Example)
+      
+      
+      
+        —
+        the example to runthe example to run
+the example to run
+
+      
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+340
+341
+342
+
+
+340
+341
+342
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340# File 'lib/rspec/core/hooks.rb', line 340
+
+defdef aroundaround((**argsargs,, &&blockblock))
+  hookshooks..registerregister :prepend:prepend,, :around:around,, **argsargs,, &&blockblock
+endend# File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+
+  
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+Order
+
+All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for before/after.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    The :example:example and :context:context scopes are also available as
+:each:each and :all:all, respectively. Use whichever you prefer.The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:Note:
+    The :suite:suite scope is only supported for hooks registered on
+RSpec.configurationRSpec.configuration since they exist independently of any
+example or example group.The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example:example)
+or once before any example (using :context:context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite)before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example)before(:example) or before(:context)before(:context)
+are accessible within each example.Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+OrderOrder
+
+beforebefore hooks are stored in three scopes, which are run in order:
+:suite:suite, :context:context, and :example:example. They can also be declared in
+several different places: RSpec.configureRSpec.configure, a parent group, the current
+group. They are run in the following order:before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+beforebefore((:suite:suite))    # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+beforebefore((:context:context))  # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+beforebefore((:context:context))  # Declared in a parent group.
+# Declared in a parent group.
+beforebefore((:context:context))  # Declared in the current group.
+# Declared in the current group.
+beforebefore((:example:example))  # Declared in RSpec.configure.
+# Declared in RSpec.configure.
+beforebefore((:example:example))  # Declared in a parent group.
+# Declared in a parent group.
+beforebefore((:example:example))  # Declared in the current group.
+# Declared in the current group.
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one beforebefore is declared within any one scope, they are run
+in the order in which they are declared. Any aroundaround hooks will execute
+later than any beforebefore hook regardless of scope.If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+ConditionsConditions
+
+When you add a conditions hash to before(:example)before(:example) or
+before(:context)before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpecRSpec..configureconfigure dodo ||configconfig||
+  configconfig..beforebefore((:example:example,, :authorized:authorized =>=> truetrue)) dodo
+    log_in_aslog_in_as :authorized_user:authorized_user
+  endend
+endend
+
+RSpecRSpec..describedescribe SomethingSomething,, :authorized:authorized =>=> truetrue dodo
+  # The before hook will run in before each example in this group.
+# The before hook will run in before each example in this group.
+endend
+
+RSpecRSpec..describedescribe SomethingElseSomethingElse dodo
+  itit ""does somethingdoes something"""does something",, :authorized:authorized =>=> truetrue dodo
+    # The before hook will run before this example.
+# The before hook will run before this example.
+  endend
+
+  itit ""does something elsedoes something else"""does something else" dodo
+    # The hook will not run before this example.
+# The hook will not run before this example.
+  endend
+endend
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context:context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)before(:suite, :with => :conditions)Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite)before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite:suite are effectively ignored.The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+ExceptionsExceptions
+
+When an exception is raised in a beforebefore block, RSpec skips any
+subsequent beforebefore blocks and the example, but runs all of the
+after(:example)after(:example) and after(:context)after(:context) hooks.When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocksWarning: implicit before blocks
+
+beforebefore hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)before(:context)Warning: before(:context)
+
+It is very tempting to use before(:context)before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+ContextContext
+
+before(:context)before(:context) is run in an example that is generated to provide
+group context for the block.before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variablesInstance variables
+
+Instance variables declared in before(:context)before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructsUnsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context)before(:context):RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+letlet declarationslet declarations
+subjectsubject declarationssubject declarations
+Any mocking, stubbing or test double declarationAny mocking, stubbing or test double declaration
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworksother frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context)before(:context), but get torn down before the first real example is
+ever run.Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You cancan create database-backed model objects in a before(:context)before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context)after(:context) block.You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+Order
+
+before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+Conditions
+
+When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+Exceptions
+
+When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocks
+
+before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)
+
+It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+Context
+
+before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variables
+
+Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+Order
+
+before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+Conditions
+
+When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+Exceptions
+
+When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocks
+
+before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)
+
+It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+Context
+
+before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variables
+
+Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+        before(:example) declared in an ExampleGroupbefore(:example) declared in an ExampleGroup
+before(:example) declared in an ExampleGroup
+
+      
+      
+RSpecRSpec..describedescribe ThingThing dodo
+  beforebefore((:example:example)) dodo
+    @thing@thing == ThingThing..newnew
+  endend
+
+  itit ""does somethingdoes something"""does something" dodo
+    # Here you can access @thing.
+# Here you can access @thing.
+  endend
+endend
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroupbefore(:context) declared in an ExampleGroup
+before(:context) declared in an ExampleGroup
+
+      
+      
+RSpecRSpec..describedescribe ParserParser dodo
+  beforebefore((:context:context)) dodo
+    FileFile..openopen((file_to_parsefile_to_parse,, ''ww'''w')) dodo ||ff||
+      ff..writewrite <<-CONTENT<<-CONTENT
+        stuff in the file
+        stuff in the file
+      CONTENT
+      CONTENT
+    endend
+  endend
+
+  itit ""parses the fileparses the file"""parses the file" dodo
+    ParserParser..parseparse((file_to_parsefile_to_parse))
+  endend
+
+  afterafter((:context:context)) dodo
+    FileFile..deletedelete((file_to_parsefile_to_parse))
+  endend
+endend
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+    Examples:
+    
+      
+        before(:example) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+
+  Overloads:Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example, :context:context, or :suite:suite
+(defaults to :example:example):example, :context, or :suite
+(defaults to :example)
+:example, :context, or :suite
+(defaults to :example)
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        scopescope
+      
+      
+        (SymbolSymbol)(Symbol)
+      
+      
+      
+        —
+        :example:example, :context:context, or :suite:suite
+(defaults to :example:example):example, :context, or :suite
+(defaults to :example)
+:example, :context, or :suite
+(defaults to :example)
+
+      
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... }before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true:ui => true.constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        conditionsconditions
+      
+      
+        (HashHash)(Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... }before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true:ui => true.constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      #after#after
+    
+      #around#around
+    
+      ExampleGroupExampleGroup
+    
+      SharedContextSharedContext
+    
+      SharedExampleGroupSharedExampleGroup
+    
+      ConfigurationConfiguration
+    
+  
+    
+      #after
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+        before(:example) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #after
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+
+
+198
+199
+200
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198# File 'lib/rspec/core/hooks.rb', line 198
+
+defdef beforebefore((**argsargs,, &&blockblock))
+  hookshooks..registerregister :append:append,, :before:before,, **argsargs,, &&blockblock
+endend# File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+
+  
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+Order
+
+before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+Conditions
+
+When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+Exceptions
+
+When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocks
+
+before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)
+
+It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+Context
+
+before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variables
+
+Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        before(:example) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #after
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds blockblock to the front of the list of beforebefore blocks in the same
+scope (:example:example, :context:context, or :suite:suite).Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.See #before for scoping semantics.
+
+
+  
+    Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.
+
+
+  
+
+  
+    Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+208
+209
+210
+
+
+208
+209
+210
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208# File 'lib/rspec/core/hooks.rb', line 208
+
+defdef prepend_beforeprepend_before((**argsargs,, &&blockblock))
+  hookshooks..registerregister :prepend:prepend,, :before:before,, **argsargs,, &&blockblock
+endend# File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+
+  
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+
+
+  
+  
+    Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+Exceptions
+
+after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+Order
+
+after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #before
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+Order
+
+All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for before/after.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+Order
+
+before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+Conditions
+
+When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+Exceptions
+
+When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocks
+
+before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)
+
+It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+Context
+
+before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variables
+
+Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        before(:example) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #after
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::Hooks
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    Configuration, ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/hooks.rb
+  
+  
+
+
+Overview
+  
+    Provides before, after and around hooks as a means of
+supporting common setup and teardown. This module is extended
+onto ExampleGroup, making the methods available from any describe
+or context block and included in Configuration, making them
+available off of the configuration object to define global setup
+or teardown logic.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run after each example (using :example) or once after all examples n the context (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the back of the list of after blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code, parts of which will be run before and parts after the example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declare a block of code to be run before each example (using :example) or once before any example (using :context).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds block to the front of the list of before blocks in the same scope (:example, :context, or :suite).
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run after each example (using :example)
+or once after all examples n the context (using :context). See
+#before for more information about ordering.
+
+Exceptions
+
+after hooks are guaranteed to run even when there are exceptions in
+before hooks or examples. When an exception is raised in an after
+block, the exception is captured for later reporting, and subsequent
+after blocks are run.
+
+Order
+
+after hooks are stored in three scopes, which are run in order:
+:example, :context, and :suite. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+after(:example) # Declared in the current group.
+after(:example) # Declared in a parent group.
+after(:example) # Declared in RSpec.configure.
+after(:context) # Declared in the current group.
+after(:context) # Declared in a parent group.
+after(:context) # Declared in RSpec.configure.
+after(:suite)   # Declared in RSpec.configure.
+
+
+This is the reverse of the order in which before hooks are run.
+Similarly, if more than one after is declared within any one scope,
+they are run in reverse order of that in which they are declared. Also
+around hooks will all have run before any after hooks are invoked.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite (defaults to
+:example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+after(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #before
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+273
+274
+275
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 273
+
+def after(*args, &block)
+  hooks.register :prepend, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds block to the back of the list of after blocks in the same
+scope (:example, :context, or :suite).
+
+See #after for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+283
+284
+285
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 283
+
+def append_after(*args, &block)
+  hooks.register :append, :after, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    the syntax of around is similar to that of before and after
+but the semantics are quite different. before and after hooks are
+run in the context of of the examples with which they are associated,
+whereas around hooks are actually responsible for running the
+examples. Consequently, around hooks do not have direct access to
+resources that are made available within the examples and their
+associated before and after hooks.
+
+  
+
+  
+    Note:
+    :example/:each is the only supported scope.
+
+  
+
+Declare a block of code, parts of which will be run before and parts
+after the example. It is your responsibility to run the example:
+
+around(:example) do |ex|
+  # Do some stuff before.
+  ex.run
+  # Do some stuff after.
+end
+
+
+The yielded example aliases run with call, which lets you treat it
+like a Proc. This is especially handy when working with libraries
+that manage their own setup and teardown using a block or proc syntax,
+e.g.
+
+around(:example) {|ex| Database.transaction(&ex)}
+around(:example) {|ex| FakeFS(&ex)}
+
+
+Order
+
+All around hooks execute immediately surrounding an example, this means
+that all before hooks will have run and no after hooks will have run yet.
+
+They are not a synonym for before/after.
+
+
+  
+
+
+  
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example (defaults to :example)
+present for syntax parity with before and after, but
+:example/:each is the only supported value.
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching
+these conditions e.g. around(:example, :ui => true) { ... } will
+only run with examples or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Example)
+      
+      
+      
+        —
+        the example to run
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+340
+341
+342
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 340
+
+def around(*args, &block)
+  hooks.register :prepend, :around, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    The :example and :context scopes are also available as
+:each and :all, respectively. Use whichever you prefer.
+
+  
+
+  
+    Note:
+    The :suite scope is only supported for hooks registered on
+RSpec.configuration since they exist independently of any
+example or example group.
+
+  
+
+Declare a block of code to be run before each example (using :example)
+or once before any example (using :context). These are usually
+declared directly in the ExampleGroup to which they apply, but they
+can also be shared across multiple groups.
+
+You can also use before(:suite) to run a block of code before any
+example groups are run. This should be declared in RSpec.configure.
+
+Instance variables declared in before(:example) or before(:context)
+are accessible within each example.
+
+Order
+
+before hooks are stored in three scopes, which are run in order:
+:suite, :context, and :example. They can also be declared in
+several different places: RSpec.configure, a parent group, the current
+group. They are run in the following order:
+
+before(:suite)    # Declared in RSpec.configure.
+before(:context)  # Declared in RSpec.configure.
+before(:context)  # Declared in a parent group.
+before(:context)  # Declared in the current group.
+before(:example)  # Declared in RSpec.configure.
+before(:example)  # Declared in a parent group.
+before(:example)  # Declared in the current group.
+
+
+If more than one before is declared within any one scope, they are run
+in the order in which they are declared. Any around hooks will execute
+later than any before hook regardless of scope.
+
+Conditions
+
+When you add a conditions hash to before(:example) or
+before(:context), RSpec will only apply that hook to groups or
+examples that match the conditions. e.g.
+
+RSpec.configure do |config|
+  config.before(:example, :authorized => true) do
+    log_in_as :authorized_user
+  end
+end
+
+RSpec.describe Something, :authorized => true do
+  # The before hook will run in before each example in this group.
+end
+
+RSpec.describe SomethingElse do
+  it "does something", :authorized => true do
+    # The before hook will run before this example.
+  end
+
+  it "does something else" do
+    # The hook will not run before this example.
+  end
+end
+
+
+Note that filtered config :context hooks can still be applied
+to individual examples that have matching metadata. Just like
+Ruby's object model is that every object has a singleton class
+which has only a single instance, RSpec's model is that every
+example has a singleton example group containing just the one
+example.
+
+Warning: before(:suite, :with => :conditions)
+
+The conditions hash is used to match against specific examples. Since
+before(:suite) is not run in relation to any specific example or
+group, conditions passed along with :suite are effectively ignored.
+
+Exceptions
+
+When an exception is raised in a before block, RSpec skips any
+subsequent before blocks and the example, but runs all of the
+after(:example) and after(:context) hooks.
+
+Warning: implicit before blocks
+
+before hooks can also be declared in shared contexts which get
+included implicitly either by you or by extension libraries. Since
+RSpec runs these in the order in which they are declared within each
+scope, load order matters, and can lead to confusing results when one
+before block depends on state that is prepared in another before block
+that gets run later.
+
+Warning: before(:context)
+
+It is very tempting to use before(:context) to speed things up, but we
+recommend that you avoid this as there are a number of gotchas, as well
+as things that simply don't work.
+
+Context
+
+before(:context) is run in an example that is generated to provide
+group context for the block.
+
+Instance variables
+
+Instance variables declared in before(:context) are shared across all
+the examples in the group. This means that each example can change the
+state of a shared object, resulting in an ordering dependency that can
+make it difficult to reason about failures.
+
+Unsupported RSpec constructs
+
+RSpec has several constructs that reset state between each example
+automatically. These are not intended for use from within
+before(:context):
+
+
+let declarations
+subject declarations
+Any mocking, stubbing or test double declaration
+
+
+other frameworks
+
+Mock object frameworks and database transaction managers (like
+ActiveRecord) are typically designed around the idea of setting up
+before an example, running that one example, and then tearing down. This
+means that mocks and stubs can (sometimes) be declared in
+before(:context), but get torn down before the first real example is
+ever run.
+
+You can create database-backed model objects in a before(:context)
+in rspec-rails, but it will not be wrapped in a transaction for you, so
+you are on your own to clean up in an after(:context) block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        before(:example) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Thing do
+  before(:example) do
+    @thing = Thing.new
+  end
+
+  it "does something" do
+    # Here you can access @thing.
+  end
+end
+    
+      
+        before(:context) declared in an ExampleGroup
+
+      
+      
+RSpec.describe Parser do
+  before(:context) do
+    File.open(file_to_parse, 'w') do |f|
+      f.write <<-CONTENT
+        stuff in the file
+      CONTENT
+    end
+  end
+
+  it "parses the file" do
+    Parser.parse(file_to_parse)
+  end
+
+  after(:context) do
+    File.delete(file_to_parse)
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        scope
+      
+      
+        (Symbol)
+      
+      
+      
+        —
+        :example, :context, or :suite
+(defaults to :example)
+
+      
+    
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        conditions
+      
+      
+        (Hash)
+      
+      
+      
+        —
+        constrains this hook to examples matching these conditions e.g.
+before(:example, :ui => true) { ... } will only run with examples
+or groups declared with :ui => true.
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      #after
+    
+      #around
+    
+      ExampleGroup
+    
+      SharedContext
+    
+      SharedExampleGroup
+    
+      Configuration
+    
+  
+
+
+  
+    
+      
+
+
+198
+199
+200
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 198
+
+def before(*args, &block)
+  hooks.register :append, :before, *args, &block
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds block to the front of the list of before blocks in the same
+scope (:example, :context, or :suite).
+
+See #before for scoping semantics.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+208
+209
+210
+    
+    
+      # File 'lib/rspec/core/hooks.rb', line 208
+
+def prepend_before(*args, &block)
+  hooks.register :prepend, :before, *args, &block
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,1212 @@
+Class: RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluatorRSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/compound.rblib/rspec/matchers/built_in/compound.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and barexpect(x).to foo.and bar, this becomes:Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and bar, this becomes:
+
+expect(x).to foo
+  expect(x).to barexpect(x).to foo
+  expect(x).to bar
+
+For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and barexpect { x }.to foo.and bar becomes:For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and bar becomes:
+
+expect {
+    expect { x }.to foo
+  }.to barexpect {
+    expect { x }.to foo
+  }.to bar
+
+This is necessary so that the expectexpect block is only executed once.This is necessary so that the expect block is only executed once.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and bar, this becomes:
+
+expect(x).to foo
+  expect(x).to bar
+
+For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and bar becomes:
+
+expect {
+    expect { x }.to foo
+  }.to bar
+
+This is necessary so that the expect block is only executed once.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and bar, this becomes:
+
+expect(x).to foo
+  expect(x).to bar
+
+For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and bar becomes:
+
+expect {
+    expect { x }.to foo
+  }.to bar
+
+This is necessary so that the expect block is only executed once.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of NestedEvaluator.A new instance of NestedEvaluator.
+A new instance of NestedEvaluator.
+A new instance of NestedEvaluator.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of NestedEvaluator.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of NestedEvaluator.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.Returns a new instance of NestedEvaluator.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143# File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+defdef initializeinitialize((actualactual,, matcher_1matcher_1,, matcher_2matcher_2))
+  @actual@actual        == actualactual
+  @matcher_1@matcher_1     == matcher_1matcher_1
+  @matcher_2@matcher_2     == matcher_2matcher_2
+  @match_results@match_results == {{}}
+
+  innerinner,, outerouter == order_block_matchersorder_block_matchers
+
+  @match_results@match_results[[outerouter]] == outerouter..matches?matches?((ProcProc..newnew dodo ||**argsargs||
+    @match_results@match_results[[innerinner]] == innerinner..matches?matches?((inner_matcher_blockinner_matcher_block((argsargs))))
+  endend))
+endend# File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156# File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+defdef matcher_matches?matcher_matches?((matchermatcher))
+  @match_results@match_results..fetchfetch((matchermatcher)) dodo
+    raiseraise ArgumentErrorArgumentError,, ""Your Your #{#{matchermatcher..descriptiondescription}} has no match  has no match """Your #{matcher.description} has no match " \
+     ""results, this can occur when an unexpected call stack or results, this can occur when an unexpected call stack or """results, this can occur when an unexpected call stack or " \
+     ""local jump occurs. Prehaps one of your matchers needs to local jump occurs. Prehaps one of your matchers needs to """local jump occurs. Prehaps one of your matchers needs to " \
+     ""declare `expects_call_stack_jump?` as `true`?declare `expects_call_stack_jump?` as `true`?"""declare `expects_call_stack_jump?` as `true`?"
+  endend
+endend# File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::Compound::NestedEvaluator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Normally, we evaluate the matching sequentially. For an expression like
+expect(x).to foo.and bar, this becomes:
+
+expect(x).to foo
+  expect(x).to bar
+
+For block expectations, we need to nest them instead, so that
+expect { x }.to foo.and bar becomes:
+
+expect {
+    expect { x }.to foo
+  }.to bar
+
+This is necessary so that the expect block is only executed once.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of NestedEvaluator.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of NestedEvaluator.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 143
+
+def initialize(actual, matcher_1, matcher_2)
+  @actual        = actual
+  @matcher_1     = matcher_1
+  @matcher_2     = matcher_2
+  @match_results = {}
+
+  inner, outer = order_block_matchers
+
+  @match_results[outer] = outer.matches?(Proc.new do |*args|
+    @match_results[inner] = inner.matches?(inner_matcher_block(args))
+  end)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 156
+
+def matcher_matches?(matcher)
+  @match_results.fetch(matcher) do
+    raise ArgumentError, "Your #{matcher.description} has no match " \
+     "results, this can occur when an unexpected call stack or " \
+     "local jump occurs. Prehaps one of your matchers needs to " \
+     "declare `expects_call_stack_jump?` as `true`?"
+  end
+end
+    
+  
+
+
+    
+  
+

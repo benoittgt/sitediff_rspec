@@ -1,0 +1,2201 @@
+Class: RSpec::Matchers::BuiltIn::Exist
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Exist
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ExistRSpec::Matchers::BuiltIn::Exist
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Exist
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Exist
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Exist
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/exist.rblib/rspec/matchers/built_in/exist.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Exist
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for existexist.
+Not intended to be instantiated directly.Provides the implementation for exist.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for exist.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for exist.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+  
+    
+      Classes:Classes: ExistenceTest
+    
+  
+
+  
+    
+  
+    
+      Classes: ExistenceTest
+    
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Exist.A new instance of Exist.
+A new instance of Exist.
+A new instance of Exist.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.Returns a new instance of Exist.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+
+
+8
+9
+10
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8# File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+defdef initializeinitialize((**expectedexpected))
+  @expected@expected == expectedexpected
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+
+
+22
+23
+24
+25
+26
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22# File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+defdef does_not_match?does_not_match?((actualactual))
+  @actual@actual == actualactual
+  @test@test == ExistenceTestExistenceTest..newnew @actual@actual,, @expected@expected
+  @test@test..valid_test?valid_test? &&&& !!@test@test..actual_exists?actual_exists?
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+
+
+30
+31
+32
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30# File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+defdef failure_messagefailure_message
+  ""expected expected #{#{actual_formattedactual_formatted}} to exist to exist#{#{@test@test..validity_messagevalidity_message}}"""expected #{actual_formatted} to exist#{@test.validity_message}"
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+
+  
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+
+
+36
+37
+38
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36# File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""expected expected #{#{actual_formattedactual_formatted}} not to exist not to exist#{#{@test@test..validity_messagevalidity_message}}"""expected #{actual_formatted} not to exist#{@test.validity_message}"
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+
+
+14
+15
+16
+17
+18
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14# File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+defdef matches?matches?((actualactual))
+  @actual@actual == actualactual
+  @test@test == ExistenceTestExistenceTest..newnew @actual@actual,, @expected@expected
+  @test@test..valid_test?valid_test? &&&& @test@test..actual_exists?actual_exists?
+endend# File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Exist
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Exist
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/exist.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for exist.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+  
+    
+      Classes: ExistenceTest
+    
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Exist.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Exist.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 8
+
+def initialize(*expected)
+  @expected = expected
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 22
+
+def does_not_match?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && !@test.actual_exists?
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 30
+
+def failure_message
+  "expected #{actual_formatted} to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 36
+
+def failure_message_when_negated
+  "expected #{actual_formatted} not to exist#{@test.validity_message}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/exist.rb', line 14
+
+def matches?(actual)
+  @actual = actual
+  @test = ExistenceTest.new @actual, @expected
+  @test.valid_test? && @test.actual_exists?
+end
+    
+  
+
+
+    
+  
+

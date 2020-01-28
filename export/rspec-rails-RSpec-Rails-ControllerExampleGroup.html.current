@@ -1,0 +1,1757 @@
+Module: RSpec::Rails::ControllerExampleGroup
+  
+  
+  
+Module: RSpec::Rails::ControllerExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+      
+    
+  
+    
+      Includes:Includes:
+      ActionController::TestCase::Behavior, AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RedirectTo, Matchers::RenderTemplate, Matchers::RoutingMatchers, RailsExampleGroup, ViewRenderingActionController::TestCase::Behavior, AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RedirectTo, Matchers::RenderTemplate, Matchers::RoutingMatchers, RailsExampleGroup, ViewRendering
+      
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/controller_example_group.rblib/rspec/rails/example/controller_example_group.rb
+  
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      ActionController::TestCase::Behavior, AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RedirectTo, Matchers::RenderTemplate, Matchers::RoutingMatchers, RailsExampleGroup, ViewRendering
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/controller_example_group.rb
+  
+
+
+
+OverviewOverview
+  
+    Container module for controller spec functionality.Container module for controller spec functionality.
+
+
+  
+    Container module for controller spec functionality.
+
+
+  
+
+  
+    Container module for controller spec functionality.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ClassMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+  Constant SummaryConstant Summary
+  
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.Returns the controller object instance under test.
+Returns the controller object instance under test.
+Returns the controller object instance under test.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the Rails routes used for the spec.Returns the Rails routes used for the spec.
+Returns the Rails routes used for the spec.
+Returns the Rails routes used for the spec.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the Rails routes used for the spec.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the Rails routes used for the spec.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Extends the controller with a module that overrides rescue_with_handlerrescue_with_handler to raise the exception passed to it.Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    If method is a named_route, delegates to the RouteSet associated with this controller.If method is a named_route, delegates to the RouteSet associated with this controller.
+If method is a named_route, delegates to the RouteSet associated with this controller.
+If method is a named_route, delegates to the RouteSet associated with this controller.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    If method is a named_route, delegates to the RouteSet associated with this controller.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    If method is a named_route, delegates to the RouteSet associated with this controller.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RoutingMatchersMethods included from Matchers::RoutingMatchers
+  #be_routable, #route_to#be_routable, #route_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplateMethods included from Matchers::RenderTemplate
+  #have_rendered#have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectToMethods included from Matchers::RedirectTo
+  #redirect_to#redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewRenderingMethods included from ViewRendering
+  #render_views?#render_views?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Dynamic Method HandlingDynamic Method Handling
+  
+    This class handles dynamic methods through the method_missingmethod_missing method
+    
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172# File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+defdef method_missingmethod_missing((methodmethod,, **argsargs,, &&blockblock))
+  ifif route_available?route_available?((methodmethod))
+    controllercontroller..sendsend((methodmethod,, **argsargs,, &&blockblock))
+  elseelse
+    supersuper
+  endend
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+
+
+  
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+
+
+  
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.Returns the controller object instance under test.
+
+
+  
+    Returns the controller object instance under test.
+
+
+  
+
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+
+
+128
+129
+130
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128# File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+defdef controllercontroller
+  @controller@controller
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+
+
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the Rails routes used for the spec.Returns the Rails routes used for the spec.
+
+
+  
+    Returns the Rails routes used for the spec.
+
+
+  
+
+  
+    Returns the Rails routes used for the spec.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+132
+133
+134
+
+
+132
+133
+134
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132# File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+defdef routesroutes
+  @routes@routes
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+
+  
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+
+
+  
+  
+    Returns the Rails routes used for the spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the Rails routes used for the spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Extends the controller with a module that overrides
+rescue_with_handlerrescue_with_handler to raise the exception passed to it. Use this to
+specify that an action shouldshould raise an exception given appropriate
+conditions.Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+    Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+
+  
+    Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      describedescribe ProfilesControllerProfilesController dodo
+  itit ""raises a 403 when a non-admin user tries to view another user's profileraises a 403 when a non-admin user tries to view another user's profile"""raises a 403 when a non-admin user tries to view another user's profile" dodo
+    profileprofile == create_profilecreate_profile
+    login_aslogin_as profileprofile..useruser
+
+    expectexpect dodo
+      bypass_rescuebypass_rescue
+      getget :show:show,, :id:id =>=> profileprofile..idid ++ 11
+    endend..toto raise_errorraise_error((//403 Forbidden403 Forbidden///403 Forbidden/))
+  endend
+endenddescribe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+enddescribe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+    Examples:
+    
+      
+      describe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      describe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+
+
+166
+167
+168
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166# File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+defdef bypass_rescuebypass_rescue
+  controllercontroller..extendextend((BypassRescueBypassRescue))
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+
+
+  
+  
+    Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ControllerExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      ActionController::TestCase::Behavior, AssertionDelegator.new(
+  ActionDispatch::Assertions::RoutingAssertions
+), Matchers::RedirectTo, Matchers::RenderTemplate, Matchers::RoutingMatchers, RailsExampleGroup, ViewRendering
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/controller_example_group.rb
+  
+
+
+
+Overview
+  
+    Container module for controller spec functionality.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: ClassMethods
+    
+  
+    
+  
+
+
+  Constant Summary
+  
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the controller object instance under test.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the Rails routes used for the spec.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    If method is a named_route, delegates to the RouteSet associated with this controller.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RoutingMatchers
+  #be_routable, #route_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplate
+  #have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectTo
+  #redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ViewRendering
+  #render_views?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    If method is a named_route, delegates to the RouteSet associated with
+this controller.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+172
+173
+174
+175
+176
+177
+178
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 172
+
+def method_missing(method, *args, &block)
+  if route_available?(method)
+    controller.send(method, *args, &block)
+  else
+    super
+  end
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the controller object instance under test.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 128
+
+def controller
+  @controller
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the Rails routes used for the spec.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+132
+133
+134
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 132
+
+def routes
+  @routes
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Extends the controller with a module that overrides
+rescue_with_handler to raise the exception passed to it. Use this to
+specify that an action should raise an exception given appropriate
+conditions.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ProfilesController do
+  it "raises a 403 when a non-admin user tries to view another user's profile" do
+    profile = create_profile
+    login_as profile.user
+
+    expect do
+      bypass_rescue
+      get :show, :id => profile.id + 1
+    end.to raise_error(/403 Forbidden/)
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+166
+167
+168
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 166
+
+def bypass_rescue
+  controller.extend(BypassRescue)
+end
+    
+  
+
+
+    
+  
+

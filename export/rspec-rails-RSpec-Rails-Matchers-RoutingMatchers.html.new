@@ -1,0 +1,991 @@
+Module: RSpec::Rails::Matchers::RoutingMatchers
+  
+  
+  
+Module: RSpec::Rails::Matchers::RoutingMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      Matchers::DSLMatchers::DSL
+  
+      Extended by:
+      Matchers::DSL
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ControllerExampleGroup, RoutingExampleGroupControllerExampleGroup, RoutingExampleGroup
+  
+    Included in:
+    ControllerExampleGroup, RoutingExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/routing_matchers.rblib/rspec/rails/matchers/routing_matchers.rb
+  
+    Defined in:
+    lib/rspec/rails/matchers/routing_matchers.rb
+  
+  
+
+  
+
+  
+  
+  
+      Extended by:
+      Matchers::DSL
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup, RoutingExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/routing_matchers.rb
+  
+  
+
+
+OverviewOverview
+  
+    Matchers to help with specs for routing code.Matchers to help with specs for routing code.
+
+
+  
+    Matchers to help with specs for routing code.
+
+
+  
+
+  
+    Matchers to help with specs for routing code.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: RouteHelpers
+    
+  
+    
+  
+
+  
+    
+      Modules: RouteHelpers
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rbconfig/routes.rb.Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_recognizesassert_recognizes.Delegates to assert_recognizes.
+Delegates to assert_recognizes.
+Delegates to assert_recognizes.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_recognizes.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_recognizes.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rbconfig/routes.rb. Delegates to
+RouteSet#recognize_pathRouteSet#recognize_path.Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.You can use route helpers provided by rspec-rails.
+You can use route helpers provided by rspec-rails.
+
+      
+      expectexpect((:get:get  =>=> ""/a/path/a/path"""/a/path"))..toto be_routablebe_routable
+expectexpect((:post:post =>=> ""/another/path/another/path"""/another/path"))..toto be_routablebe_routable
+expectexpect((:put:put  =>=> ""/yet/another/path/yet/another/path"""/yet/another/path"))..toto be_routablebe_routableexpect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routableexpect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+    Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.
+
+      
+      expect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.
+
+      
+      expect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+
+
+101
+102
+103
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101# File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+defdef be_routablebe_routable
+  BeRoutableMatcherBeRoutableMatcher..newnew((selfself))
+endend# File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+
+
+  
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.
+
+      
+      expect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to assert_recognizesassert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action""controller#action").Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+    Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+
+  
+    Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+expectexpect((:get:get =>=> ""/things/special/things/special"""/things/special"))..toto route_toroute_to((
+  :controller:controller =>=> ""thingsthings"""things",,
+  :action:action     =>=> ""specialspecial"""special"
+))
+
+expectexpect((:get:get =>=> ""/things/special/things/special"""/things/special"))..toto route_toroute_to((""things#specialthings#special"""things#special"))
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+    Examples:
+    
+      
+      
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizeshttp://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizeshttp://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+
+
+  See Also:
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+
+
+  
+    
+      
+
+
+61
+62
+63
+
+
+61
+62
+63
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61# File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+defdef route_toroute_to((**expectedexpected))
+  RouteToMatcherRouteToMatcher..newnew((selfself,, **expectedexpected))
+endend# File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+
+  
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+
+
+  
+  
+    Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+
+
+  See Also:
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+
+
+  
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.
+
+      
+      expect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+
+
+  See Also:
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+
+
+  
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::Matchers::RoutingMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+      Extended by:
+      Matchers::DSL
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ControllerExampleGroup, RoutingExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/routing_matchers.rb
+  
+  
+
+
+Overview
+  
+    Matchers to help with specs for routing code.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: RouteHelpers
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to assert_recognizes.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Passes if the route expression is recognized by the Rails router based on
+the declarations in config/routes.rb. Delegates to
+RouteSet#recognize_path.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+        You can use route helpers provided by rspec-rails.
+
+      
+      expect(:get  => "/a/path").to be_routable
+expect(:post => "/another/path").to be_routable
+expect(:put  => "/yet/another/path").to be_routable
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 101
+
+def be_routable
+  BeRoutableMatcher.new(self)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Delegates to assert_recognizes. Supports short-hand controller/action
+declarations (e.g. "controller#action").
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+expect(:get => "/things/special").to route_to(
+  :controller => "things",
+  :action     => "special"
+)
+
+expect(:get => "/things/special").to route_to("things#special")
+    
+  
+
+
+  See Also:
+  
+    
+      http://api.rubyonrails.org/classes/ActionDispatch/Assertions/RoutingAssertions.html#method-i-assert_recognizes
+    
+  
+
+
+  
+    
+      
+
+
+61
+62
+63
+    
+    
+      # File 'lib/rspec/rails/matchers/routing_matchers.rb', line 61
+
+def route_to(*expected)
+  RouteToMatcher.new(self, *expected)
+end
+    
+  
+
+
+    
+  
+

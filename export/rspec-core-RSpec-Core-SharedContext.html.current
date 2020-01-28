@@ -1,0 +1,225 @@
+Module: RSpec::Core::SharedContext
+  
+  
+  
+Module: RSpec::Core::SharedContext
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/shared_context.rblib/rspec/core/shared_context.rb
+  
+    Defined in:
+    lib/rspec/core/shared_context.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_context.rb
+  
+  
+
+
+OverviewOverview
+  
+    Exposes ExampleGroup-level methods to a module, so you can include that
+module in an ExampleGroup.Exposes ExampleGroup-level methods to a module, so you can include that
+module in an ExampleGroup.
+
+
+  
+    Exposes ExampleGroup-level methods to a module, so you can include that
+module in an ExampleGroup.
+
+
+  
+
+  
+    Exposes ExampleGroup-level methods to a module, so you can include that
+module in an ExampleGroup.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+modulemodule LoggedInAsAdminLoggedInAsAdmin
+  extendextend RSpecRSpec::::CoreCore::::SharedContextSharedContext
+  beforebefore((:example:example)) dodo
+    log_in_aslog_in_as :admin:admin
+  endend
+endend
+
+describedescribe ""admin sectionadmin section"""admin section" dodo
+  includeinclude LoggedInAsAdminLoggedInAsAdmin
+  # ...
+# ...
+endend
+module LoggedInAsAdmin
+  extend RSpec::Core::SharedContext
+  before(:example) do
+    log_in_as :admin
+  end
+end
+
+describe "admin section" do
+  include LoggedInAsAdmin
+  # ...
+end
+module LoggedInAsAdmin
+  extend RSpec::Core::SharedContext
+  before(:example) do
+    log_in_as :admin
+  end
+end
+
+describe "admin section" do
+  include LoggedInAsAdmin
+  # ...
+end
+    
+  
+    Examples:
+    
+      
+      
+module LoggedInAsAdmin
+  extend RSpec::Core::SharedContext
+  before(:example) do
+    log_in_as :admin
+  end
+end
+
+describe "admin section" do
+  include LoggedInAsAdmin
+  # ...
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+module LoggedInAsAdmin
+  extend RSpec::Core::SharedContext
+  before(:example) do
+    log_in_as :admin
+  end
+end
+
+describe "admin section" do
+  include LoggedInAsAdmin
+  # ...
+end
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+Module: RSpec::Core::SharedContext
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_context.rb
+  
+  
+
+
+Overview
+  
+    Exposes ExampleGroup-level methods to a module, so you can include that
+module in an ExampleGroup.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+module LoggedInAsAdmin
+  extend RSpec::Core::SharedContext
+  before(:example) do
+    log_in_as :admin
+  end
+end
+
+describe "admin section" do
+  include LoggedInAsAdmin
+  # ...
+end
+    
+  
+
+
+
+
+
+
+
+
+
+
+

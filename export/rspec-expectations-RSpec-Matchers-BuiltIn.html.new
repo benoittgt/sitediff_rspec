@@ -1,0 +1,184 @@
+Module: RSpec::Matchers::BuiltIn
+  
+  
+  
+Module: RSpec::Matchers::BuiltIn
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in.rb
+lib/rspec/matchers/built_in.rb
+
+  
+    Defined in:
+    lib/rspec/matchers/built_in.rb
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    Container module for all built-in matchers. The matcher classes are here
+(rather than directly under RSpec::MatchersRSpec::Matchers) in order to prevent name
+collisions, since RSpec::MatchersRSpec::Matchers gets included into the user's namespace.Container module for all built-in matchers. The matcher classes are here
+(rather than directly under RSpec::Matchers) in order to prevent name
+collisions, since RSpec::Matchers gets included into the user's namespace.
+
+Autoloading is used to delay when the matcher classes get loaded, allowing
+rspec-matchers to boot faster, and avoiding loading matchers the user is
+not using.Autoloading is used to delay when the matcher classes get loaded, allowing
+rspec-matchers to boot faster, and avoiding loading matchers the user is
+not using.
+
+
+  
+    Container module for all built-in matchers. The matcher classes are here
+(rather than directly under RSpec::Matchers) in order to prevent name
+collisions, since RSpec::Matchers gets included into the user's namespace.
+
+Autoloading is used to delay when the matcher classes get loaded, allowing
+rspec-matchers to boot faster, and avoiding loading matchers the user is
+not using.
+
+
+  
+
+  
+    Container module for all built-in matchers. The matcher classes are here
+(rather than directly under RSpec::Matchers) in order to prevent name
+collisions, since RSpec::Matchers gets included into the user's namespace.
+
+Autoloading is used to delay when the matcher classes get loaded, allowing
+rspec-matchers to boot faster, and avoiding loading matchers the user is
+not using.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+  
+    
+      Classes:Classes: All, BaseMatcher, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeFromValue, ChangeRelatively, ChangeToValue, Compound, ContainExactly, Cover, EndWith, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, OperatorMatcher, Output, RaiseError, ReliableMatchData, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, StartWith, ThrowSymbol, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+    
+  
+
+  
+    
+  
+    
+      Classes: All, BaseMatcher, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeFromValue, ChangeRelatively, ChangeToValue, Compound, ContainExactly, Cover, EndWith, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, OperatorMatcher, Output, RaiseError, ReliableMatchData, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, StartWith, ThrowSymbol, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+    
+  
+
+
+
+
+
+
+
+
+
+
+Module: RSpec::Matchers::BuiltIn
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in.rb
+
+  
+  
+
+
+Overview
+  
+    Container module for all built-in matchers. The matcher classes are here
+(rather than directly under RSpec::Matchers) in order to prevent name
+collisions, since RSpec::Matchers gets included into the user's namespace.
+
+Autoloading is used to delay when the matcher classes get loaded, allowing
+rspec-matchers to boot faster, and avoiding loading matchers the user is
+not using.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+  
+    
+      Classes: All, BaseMatcher, Be, BeAKindOf, BeAnInstanceOf, BeBetween, BeComparedTo, BeFalsey, BeNil, BePredicate, BeTruthy, BeWithin, Change, ChangeFromValue, ChangeRelatively, ChangeToValue, Compound, ContainExactly, Cover, EndWith, Eq, Eql, Equal, Exist, Has, HaveAttributes, Include, Match, OperatorMatcher, Output, RaiseError, ReliableMatchData, RespondTo, Satisfy, SpecificValuesChange, StartOrEndWith, StartWith, ThrowSymbol, YieldControl, YieldSuccessiveArgs, YieldWithArgs, YieldWithNoArgs
+    
+  
+
+
+
+
+
+
+
+
+
+

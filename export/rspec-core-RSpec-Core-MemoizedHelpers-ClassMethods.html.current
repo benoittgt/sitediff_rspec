@@ -1,0 +1,3782 @@
+Module: RSpec::Core::MemoizedHelpers::ClassMethods
+  
+  
+  
+Module: RSpec::Core::MemoizedHelpers::ClassMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ExampleGroupExampleGroup
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/memoized_helpers.rblib/rspec/core/memoized_helpers.rb
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+
+OverviewOverview
+  
+    This module is extended onto ExampleGroup, making the methods
+available to be called from within example group blocks.
+You can think of them as being analagous to class macros.This module is extended onto ExampleGroup, making the methods
+available to be called from within example group blocks.
+You can think of them as being analagous to class macros.
+
+
+  
+    This module is extended onto ExampleGroup, making the methods
+available to be called from within example group blocks.
+You can think of them as being analagous to class macros.
+
+
+  
+
+  
+    This module is extended onto ExampleGroup, making the methods
+available to be called from within example group blocks.
+You can think of them as being analagous to class macros.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Generates a method whose return value is memoized after the first call.Generates a method whose return value is memoized after the first call.
+Generates a method whose return value is memoized after the first call.
+Generates a method whose return value is memoized after the first call.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Generates a method whose return value is memoized after the first call.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like letlet, except the block is invoked by an implicit beforebefore hook.Just like let, except the block is invoked by an implicit before hook.
+Just like let, except the block is invoked by an implicit before hook.
+Just like let, except the block is invoked by an implicit before hook.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like let, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares a subjectsubject for an example group which can then be wrapped with expectexpect using is_expectedis_expected to make it the target of an expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like subjectsubject, except the block is invoked by an implicit beforebefore hook.Just like subject, except the block is invoked by an implicit before hook.
+Just like subject, except the block is invoked by an implicit before hook.
+Just like subject, except the block is invoked by an implicit before hook.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like subject, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Generates a method whose return value is memoized after the first call.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like let, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like subject, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    letlet cancan enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:Note:
+    letlet can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configureRSpec.configurelet can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:Note:
+    Because letlet is designed to create state that is reset between
+each example, and before(:context)before(:context) is designed to setup state that
+is shared across allall examples in an example group, letlet is notnot
+intended to be used in a before(:context)before(:context) hook.Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+    
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+
+  
+    
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..describedescribe ThingThing dodo
+  letlet((:thing:thing)) {{ ThingThing..newnew }}
+
+  itit ""does somethingdoes something"""does something" dodo
+    # First invocation, executes block, memoizes and returns result.
+# First invocation, executes block, memoizes and returns result.
+    thingthing..do_somethingdo_something
+
+    # Second invocation, returns the memoized value.
+# Second invocation, returns the memoized value.
+    thingthing..shouldshould be_somethingbe_something
+  endend
+endend
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284# File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+defdef letlet((namename,, &&blockblock))
+  # We have to pass the block directly to `define_method` to
+# We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+# allow it to use method constructs like `super` and `return`.
+  raiseraise ""#let or #subject called without a block#let or #subject called without a block"""#let or #subject called without a block" ifif blockblock..nil?nil?
+  raiseraise((
+    ""#let or #subject called with a reserved name #initialize#let or #subject called with a reserved name #initialize"""#let or #subject called with a reserved name #initialize"
+  )) ifif :initialize:initialize ==== namename
+  our_moduleour_module == MemoizedHelpersMemoizedHelpers..module_formodule_for((selfself))
+
+  # If we have a module clash in our helper module
+# If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+# then we need to remove it to prevent a warning.
+  #
+#
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+# Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+# as we can override them.
+  ifif our_moduleour_module..instance_methodsinstance_methods((falsefalse))..include?include?((namename))
+    our_moduleour_module..__send____send__((:remove_method:remove_method,, namename))
+  endend
+  our_moduleour_module..__send____send__((:define_method:define_method,, namename,, &&blockblock))
+
+  # If we have a module clash in the example module
+# If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+# then we need to remove it to prevent a warning.
+  #
+#
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+# Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+# as we can override them.
+  ifif instance_methodsinstance_methods((falsefalse))..include?include?((namename))
+    remove_methodremove_method((namename))
+  endend
+
+  # Apply the memoization. The method has been defined in an ancestor
+# Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+# module so we can use `super` here to get the value.
+  ifif blockblock..arityarity ==== 11
+    define_methoddefine_method((namename)) {{ __memoized__memoized..fetch_or_storefetch_or_store((namename)) {{ supersuper((RSpecRSpec..current_examplecurrent_example,, &&nilnil)) }} }}
+  elseelse
+    define_methoddefine_method((namename)) {{ __memoized__memoized..fetch_or_storefetch_or_store((namename)) {{ supersuper((&&nilnil)) }} }}
+  endend
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like letlet, except the block is invoked by an implicit beforebefore
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+    Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+
+  
+    Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+classclass ThingThing
+  defdef selfself..countcount
+    @count@count ||=||= 00
+  endend
+
+  defdef selfself..count=count=((valval))
+    @count@count +=+= valval
+  endend
+
+  defdef selfself..reset_countreset_count
+    @count@count == 00
+  endend
+
+  defdef initializeinitialize
+    selfself..classclass..countcount +=+= 11
+  endend
+endend
+
+RSpecRSpec..describedescribe ThingThing dodo
+  afterafter((:example:example)) {{ ThingThing..reset_countreset_count }}
+
+  contextcontext ""using letusing let"""using let" dodo
+    letlet((:thing:thing)) {{ ThingThing..newnew }}
+
+    itit ""is not invoked implicitlyis not invoked implicitly"""is not invoked implicitly" dodo
+      ThingThing..countcount..shouldshould eqeq((00))
+    endend
+
+    itit ""can be invoked explicitlycan be invoked explicitly"""can be invoked explicitly" dodo
+      thingthing
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+  endend
+
+  contextcontext ""using let!using let!"""using let!" dodo
+    let!let!((:thing:thing)) {{ ThingThing..newnew }}
+
+    itit ""is invoked implicitlyis invoked implicitly"""is invoked implicitly" dodo
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+
+    itit ""returns memoized version on first invocationreturns memoized version on first invocation"""returns memoized version on first invocation" dodo
+      thingthing
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+  endend
+endend
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+374
+375
+376
+377
+
+
+374
+375
+376
+377
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374# File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+defdef let!let!((namename,, &&blockblock))
+  letlet((namename,, &&blockblock))
+  beforebefore {{ __send____send__((namename)) }}
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+
+  
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+
+
+  
+  
+    Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    subjectsubject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configureRSpec.configuresubject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subjectsubject for an example group which can then be wrapped
+with expectexpect using is_expectedis_expected to make it the target of an
+expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a namename, defines a method with that name which returns the
+subjectsubject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a namename, calling supersuper in the block is not supported.When given a name, calling super in the block is not supported.
+
+
+  
+    
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a name, calling super in the block is not supported.
+
+
+  
+
+  
+    
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a name, calling super in the block is not supported.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..describedescribe CheckingAccountCheckingAccount,, ""with $50with $50"""with $50" dodo
+  subjectsubject {{ CheckingAccountCheckingAccount..newnew((MoneyMoney..newnew((5050,, :USD:USD)))) }}
+  itit {{ is_expectedis_expected..toto have_a_balance_ofhave_a_balance_of((MoneyMoney..newnew((5050,, :USD:USD)))) }}
+  itit {{ is_expectedis_expected..not_tonot_to be_overdrawnbe_overdrawn }}
+endend
+
+RSpecRSpec..describedescribe CheckingAccountCheckingAccount,, ""with a non-zero starting balancewith a non-zero starting balance"""with a non-zero starting balance" dodo
+  subjectsubject((:account:account)) {{ CheckingAccountCheckingAccount..newnew((MoneyMoney..newnew((5050,, :USD:USD)))) }}
+  itit {{ is_expectedis_expected..not_tonot_to be_overdrawnbe_overdrawn }}
+  itit ""has a balance equal to the starting balancehas a balance equal to the starting balance"""has a balance equal to the starting balance" dodo
+    accountaccount..balancebalance..shouldshould eqeq((MoneyMoney..newnew((5050,, :USD:USD))))
+  endend
+endend
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        namename
+      
+      
+        (StringString, SymbolSymbol)(String, Symbol)
+      
+      
+        (defaults to: nilnil)(defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing nameused to define an accessor with an
+intention revealing name
+used to define an accessor with an
+intention revealing name
+
+      
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        blockblock
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subjectsubject in examplesdefines the value to be returned by subject in examples
+defines the value to be returned by subject in examples
+
+      
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      RSpec::Core::MemoizedHelpers#shouldRSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_notRSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expectedRSpec::Core::MemoizedHelpers#is_expected
+    
+  
+    
+      RSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expected
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expected
+    
+  
+
+
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418# File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+defdef subjectsubject((namename==nilnil,, &&blockblock))
+  ifif namename
+    letlet((namename,, &&blockblock))
+    alias_methodalias_method :subject:subject,, namename
+
+    selfself::::NamedSubjectPreventSuperNamedSubjectPreventSuper..__send____send__((:define_method:define_method,, namename)) dodo
+      raiseraise NotImplementedErrorNotImplementedError,, ""`super` in named subjects is not supported`super` in named subjects is not supported"""`super` in named subjects is not supported"
+    endend
+  elseelse
+    letlet((:subject:subject,, &&blockblock))
+  endend
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a name, calling super in the block is not supported.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expected
+    
+  
+
+
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like subjectsubject, except the block is invoked by an implicit
+beforebefore hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+    Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+
+  
+    Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+classclass ThingThing
+  defdef selfself..countcount
+    @count@count ||=||= 00
+  endend
+
+  defdef selfself..count=count=((valval))
+    @count@count +=+= valval
+  endend
+
+  defdef selfself..reset_countreset_count
+    @count@count == 00
+  endend
+
+  defdef initializeinitialize
+    selfself..classclass..countcount +=+= 11
+  endend
+endend
+
+RSpecRSpec..describedescribe ThingThing dodo
+  afterafter((:example:example)) {{ ThingThing..reset_countreset_count }}
+
+  contextcontext ""using subjectusing subject"""using subject" dodo
+    subjectsubject {{ ThingThing..newnew }}
+
+    itit ""is not invoked implicitlyis not invoked implicitly"""is not invoked implicitly" dodo
+      ThingThing..countcount..shouldshould eqeq((00))
+    endend
+
+    itit ""can be invoked explicitlycan be invoked explicitly"""can be invoked explicitly" dodo
+      subjectsubject
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+  endend
+
+  contextcontext ""using subject!using subject!"""using subject!" dodo
+    subject!subject!((:thing:thing)) {{ ThingThing..newnew }}
+
+    itit ""is invoked implicitlyis invoked implicitly"""is invoked implicitly" dodo
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+
+    itit ""returns memoized version on first invocationreturns memoized version on first invocation"""returns memoized version on first invocation" dodo
+      subjectsubject
+      ThingThing..countcount..shouldshould eqeq((11))
+    endend
+  endend
+endend
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+484
+485
+486
+487
+
+
+484
+485
+486
+487
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484# File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+defdef subject!subject!((namename==nilnil,, &&blockblock))
+  subjectsubject((namename,, &&blockblock))
+  beforebefore {{ subjectsubject }}
+endend# File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+
+  
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+
+
+  
+  
+    Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a name, calling super in the block is not supported.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expected
+    
+  
+
+
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::MemoizedHelpers::ClassMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/memoized_helpers.rb
+  
+  
+
+
+Overview
+  
+    This module is extended onto ExampleGroup, making the methods
+available to be called from within example group blocks.
+You can think of them as being analagous to class macros.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Generates a method whose return value is memoized after the first call.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like let, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Just like subject, except the block is invoked by an implicit before hook.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    let can enhance readability when used sparingly (1,2, or
+maybe 3 declarations) in any given example group, but that can
+quickly degrade with overuse. YMMV.
+
+  
+
+  
+    Note:
+    let can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+  
+    Note:
+    Because let is designed to create state that is reset between
+each example, and before(:context) is designed to setup state that
+is shared across all examples in an example group, let is not
+intended to be used in a before(:context) hook.
+
+  
+
+Generates a method whose return value is memoized after the first
+call. Useful for reducing duplication between examples that assign
+values to the same local variable.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe Thing do
+  let(:thing) { Thing.new }
+
+  it "does something" do
+    # First invocation, executes block, memoizes and returns result.
+    thing.do_something
+
+    # Second invocation, returns the memoized value.
+    thing.should be_something
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 284
+
+def let(name, &block)
+  # We have to pass the block directly to `define_method` to
+  # allow it to use method constructs like `super` and `return`.
+  raise "#let or #subject called without a block" if block.nil?
+  raise(
+    "#let or #subject called with a reserved name #initialize"
+  ) if :initialize == name
+  our_module = MemoizedHelpers.module_for(self)
+
+  # If we have a module clash in our helper module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if our_module.instance_methods(false).include?(name)
+    our_module.__send__(:remove_method, name)
+  end
+  our_module.__send__(:define_method, name, &block)
+
+  # If we have a module clash in the example module
+  # then we need to remove it to prevent a warning.
+  #
+  # Note we do not check ancestor modules (see: `instance_methods(false)`)
+  # as we can override them.
+  if instance_methods(false).include?(name)
+    remove_method(name)
+  end
+
+  # Apply the memoization. The method has been defined in an ancestor
+  # module so we can use `super` here to get the value.
+  if block.arity == 1
+    define_method(name) { __memoized.fetch_or_store(name) { super(RSpec.current_example, &nil) } }
+  else
+    define_method(name) { __memoized.fetch_or_store(name) { super(&nil) } }
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like let, except the block is invoked by an implicit before
+hook. This serves a dual purpose of setting up state and providing a
+memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using let" do
+    let(:thing) { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using let!" do
+    let!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      thing
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+374
+375
+376
+377
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 374
+
+def let!(name, &block)
+  let(name, &block)
+  before { __send__(name) }
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    subject can be configured to be threadsafe or not.
+If it is threadsafe, it will take longer to access the value.
+If it is not threadsafe, it may behave in surprising ways in examples
+that spawn separate threads. Specify this on RSpec.configure
+
+  
+
+Declares a subject for an example group which can then be wrapped
+with expect using is_expected to make it the target of an
+expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the
+subject. This lets you declare the subject once and access it
+implicitly in one-liners and explicitly using an intention revealing
+name.
+
+When given a name, calling super in the block is not supported.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.describe CheckingAccount, "with $50" do
+  subject { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.to have_a_balance_of(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+end
+
+RSpec.describe CheckingAccount, "with a non-zero starting balance" do
+  subject(:account) { CheckingAccount.new(Money.new(50, :USD)) }
+  it { is_expected.not_to be_overdrawn }
+  it "has a balance equal to the starting balance" do
+    account.balance.should eq(Money.new(50, :USD))
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol)
+      
+      
+        (defaults to: nil)
+      
+      
+        —
+        used to define an accessor with an
+intention revealing name
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        defines the value to be returned by subject in examples
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      RSpec::Core::MemoizedHelpers#should
+    
+      RSpec::Core::MemoizedHelpers#should_not
+    
+      RSpec::Core::MemoizedHelpers#is_expected
+    
+  
+
+
+  
+    
+      
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 418
+
+def subject(name=nil, &block)
+  if name
+    let(name, &block)
+    alias_method :subject, name
+
+    self::NamedSubjectPreventSuper.__send__(:define_method, name) do
+      raise NotImplementedError, "`super` in named subjects is not supported"
+    end
+  else
+    let(:subject, &block)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Just like subject, except the block is invoked by an implicit
+before hook. This serves a dual purpose of setting up state and
+providing a memoized reference to that state.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+class Thing
+  def self.count
+    @count ||= 0
+  end
+
+  def self.count=(val)
+    @count += val
+  end
+
+  def self.reset_count
+    @count = 0
+  end
+
+  def initialize
+    self.class.count += 1
+  end
+end
+
+RSpec.describe Thing do
+  after(:example) { Thing.reset_count }
+
+  context "using subject" do
+    subject { Thing.new }
+
+    it "is not invoked implicitly" do
+      Thing.count.should eq(0)
+    end
+
+    it "can be invoked explicitly" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+
+  context "using subject!" do
+    subject!(:thing) { Thing.new }
+
+    it "is invoked implicitly" do
+      Thing.count.should eq(1)
+    end
+
+    it "returns memoized version on first invocation" do
+      subject
+      Thing.count.should eq(1)
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+484
+485
+486
+487
+    
+    
+      # File 'lib/rspec/core/memoized_helpers.rb', line 484
+
+def subject!(name=nil, &block)
+  subject(name, &block)
+  before { subject }
+end
+    
+  
+
+
+    
+  
+

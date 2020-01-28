@@ -1,0 +1,653 @@
+Class: RSpec::Matchers::BuiltIn::YieldWithArgs
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::YieldWithArgs
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgsRSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/yield.rblib/rspec/matchers/built_in/yield.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_with_argsyield_with_args.
+Not intended to be instantiated directly.Provides the implementation for yield_with_args.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_with_args.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_with_args.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of YieldWithArgs.A new instance of YieldWithArgs.
+A new instance of YieldWithArgs.
+A new instance of YieldWithArgs.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldWithArgs.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldWithArgs.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises#diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgsReturns a new instance of YieldWithArgs
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgs
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgs
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+267
+268
+269
+
+
+267
+268
+269
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267# File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+defdef initializeinitialize((**argsargs))
+  @expected@expected == argsargs
+endend# File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+
+  
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+
+
+  
+
+
+
+Class: RSpec::Matchers::BuiltIn::YieldWithArgs
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::YieldWithArgs
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/yield.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for yield_with_args.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of YieldWithArgs.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of YieldWithArgs
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+267
+268
+269
+    
+    
+      # File 'lib/rspec/matchers/built_in/yield.rb', line 267
+
+def initialize(*args)
+  @expected = args
+end
+    
+  
+
+
+  
+
+
+

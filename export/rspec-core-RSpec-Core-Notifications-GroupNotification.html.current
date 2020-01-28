@@ -1,0 +1,689 @@
+Class: RSpec::Core::Notifications::GroupNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::GroupNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::GroupNotificationRSpec::Core::Notifications::GroupNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::GroupNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::GroupNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::GroupNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::GroupNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    The GroupNotificationGroupNotification represents notifications sent by the reporter
+which contain information about the currently running (or soon to be)
+example group. It is used by formatters to access information about that
+group.The GroupNotification represents notifications sent by the reporter
+which contain information about the currently running (or soon to be)
+example group. It is used by formatters to access information about that
+group.
+
+
+  
+    The GroupNotification represents notifications sent by the reporter
+which contain information about the currently running (or soon to be)
+example group. It is used by formatters to access information about that
+group.
+
+
+  
+
+  
+    The GroupNotification represents notifications sent by the reporter
+which contain information about the currently running (or soon to be)
+example group. It is used by formatters to access information about that
+group.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      defdef example_group_startedexample_group_started((notificationnotification))
+  putsputs ""Hey I started Hey I started #{#{notificationnotification..groupgroup..descriptiondescription}}"""Hey I started #{notification.group.description}"
+endenddef example_group_started(notification)
+  puts "Hey I started #{notification.group.description}"
+enddef example_group_started(notification)
+  puts "Hey I started #{notification.group.description}"
+end
+    
+  
+    Examples:
+    
+      
+      def example_group_started(notification)
+  puts "Hey I started #{notification.group.description}"
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      def example_group_started(notification)
+  puts "Hey I started #{notification.group.description}"
+end
+    
+  
+
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current group.the current group.
+the current group.
+the current group.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current group.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current group.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current groupthe current group
+
+
+  
+    the current group
+
+
+  
+
+  
+    the current group
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroupRSpec::Core::ExampleGroup)(RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of groupthe current value of group
+the current value of group
+
+      
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+256
+257
+258
+
+
+256
+257
+258
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256# File 'lib/rspec/core/notifications.rb', line 256
+
+defdef groupgroup
+  @group@group
+endend# File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+
+
+  
+  
+    the current group
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current group
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Core::Notifications::GroupNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::GroupNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    The GroupNotification represents notifications sent by the reporter
+which contain information about the currently running (or soon to be)
+example group. It is used by formatters to access information about that
+group.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      def example_group_started(notification)
+  puts "Hey I started #{notification.group.description}"
+end
+    
+  
+
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    the current group.
+
+  
+
+
+    
+  
+
+
+
+
+
+  
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    the current group
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (RSpec::Core::ExampleGroup)
+      
+      
+      
+        —
+        the current value of group
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+256
+257
+258
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 256
+
+def group
+  @group
+end
+    
+  
+
+
+    
+  
+
+

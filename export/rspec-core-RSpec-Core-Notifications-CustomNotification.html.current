@@ -1,0 +1,769 @@
+Class: RSpec::Core::Notifications::CustomNotification
+  
+  
+  
+Class: RSpec::Core::Notifications::CustomNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Core::Notifications::CustomNotificationRSpec::Core::Notifications::CustomNotification
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::CustomNotification
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::CustomNotification
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::CustomNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/notifications.rblib/rspec/core/notifications.rb
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::CustomNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+OverviewOverview
+  
+    CustomNotificationCustomNotification is used when sending custom events to formatters /
+other registered listeners, it creates attributes based on supplied hash
+of options.CustomNotification is used when sending custom events to formatters /
+other registered listeners, it creates attributes based on supplied hash
+of options.
+
+
+  
+    CustomNotification is used when sending custom events to formatters /
+other registered listeners, it creates attributes based on supplied hash
+of options.
+
+
+  
+
+  
+    CustomNotification is used when sending custom events to formatters /
+other registered listeners, it creates attributes based on supplied hash
+of options.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Build a custom notification based on the supplied option key / values.Build a custom notification based on the supplied option key / values.
+Build a custom notification based on the supplied option key / values.
+Build a custom notification based on the supplied option key / values.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Build a custom notification based on the supplied option key / values.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Build a custom notification based on the supplied option key / values.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Build a custom notification based on the supplied option key / values.Build a custom notification based on the supplied option key / values.
+
+
+  
+    Build a custom notification based on the supplied option key / values.
+
+
+  
+
+  
+    Build a custom notification based on the supplied option key / values.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notificationA hash of method / value pairs to create on this notification
+A hash of method / value pairs to create on this notification
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (CustomNotificationCustomNotification)(CustomNotification)
+      
+      
+      
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+515
+516
+517
+518
+
+
+515
+516
+517
+518
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515# File 'lib/rspec/core/notifications.rb', line 515
+
+defdef selfself..forfor((optionsoptions=={{}}))
+  returnreturn NullNotificationNullNotification ifif optionsoptions..keyskeys..empty?empty?
+  newnew((**optionsoptions..keyskeys))..newnew((**optionsoptions..valuesvalues))
+endend# File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+
+  
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+
+
+  
+  
+    Build a custom notification based on the supplied option key / values.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Build a custom notification based on the supplied option key / values.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Notifications::CustomNotification
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Core::Notifications::CustomNotification
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/notifications.rb
+  
+  
+
+
+Overview
+  
+    CustomNotification is used when sending custom events to formatters /
+other registered listeners, it creates attributes based on supplied hash
+of options.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Build a custom notification based on the supplied option key / values.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Build a custom notification based on the supplied option key / values.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        A hash of method / value pairs to create on this notification
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (CustomNotification)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+515
+516
+517
+518
+    
+    
+      # File 'lib/rspec/core/notifications.rb', line 515
+
+def self.for(options={})
+  return NullNotification if options.keys.empty?
+  new(*options.keys).new(*options.values)
+end
+    
+  
+
+
+    
+  
+

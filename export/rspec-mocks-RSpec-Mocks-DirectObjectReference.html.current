@@ -1,0 +1,2542 @@
+Class: RSpec::Mocks::DirectObjectReference
+  
+  
+  
+Class: RSpec::Mocks::DirectObjectReference
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::DirectObjectReferenceRSpec::Mocks::DirectObjectReference
+          
+        
+          Object
+          
+            RSpec::Mocks::DirectObjectReference
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::DirectObjectReference
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::DirectObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/object_reference.rblib/rspec/mocks/object_reference.rb
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::DirectObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+
+OverviewOverview
+  
+    An implementation of rspec-mocks' reference interface.
+Used when an object is passed to ExampleMethods#object_double, or
+an anonymous class or module is passed to ExampleMethods#instance_double
+or ExampleMethods#class_double.
+Represents a reference to that object.An implementation of rspec-mocks' reference interface.
+Used when an object is passed to ExampleMethods#object_double, or
+an anonymous class or module is passed to ExampleMethods#instance_double
+or ExampleMethods#class_double.
+Represents a reference to that object.
+
+
+  
+    An implementation of rspec-mocks' reference interface.
+Used when an object is passed to ExampleMethods#object_double, or
+an anonymous class or module is passed to ExampleMethods#instance_double
+or ExampleMethods#class_double.
+Represents a reference to that object.
+
+
+  
+
+  
+    An implementation of rspec-mocks' reference interface.
+Used when an object is passed to ExampleMethods#object_double, or
+an anonymous class or module is passed to ExampleMethods#instance_double
+or ExampleMethods#class_double.
+Represents a reference to that object.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      NamedObjectReferenceNamedObjectReference
+    
+  
+    
+      NamedObjectReference
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      NamedObjectReference
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defined for interface parity with the other object reference implementations.Defined for interface parity with the other object reference implementations.
+Defined for interface parity with the other object reference implementations.
+Defined for interface parity with the other object reference implementations.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defined for interface parity with the other object reference implementations.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Always returns true for an object as the class is defined.Always returns true for an object as the class is defined.
+Always returns true for an object as the class is defined.
+Always returns true for an object as the class is defined.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Always returns true for an object as the class is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The object's description (via #inspect#inspect).The object's description (via #inspect).
+The object's description (via #inspect).
+The object's description (via #inspect).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The object's description (via #inspect).
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of DirectObjectReference.A new instance of DirectObjectReference.
+A new instance of DirectObjectReference.
+A new instance of DirectObjectReference.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of DirectObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the object itself).The target of the verifying double (the object itself).
+The target of the verifying double (the object itself).
+The target of the verifying double (the object itself).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the object itself).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defined for interface parity with the other object reference implementations.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Always returns true for an object as the class is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The object's description (via #inspect).
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of DirectObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the object itself).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of DirectObjectReferenceReturns a new instance of DirectObjectReference
+
+
+  
+    Returns a new instance of DirectObjectReference
+
+
+  
+
+  
+    Returns a new instance of DirectObjectReference
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        objectobject
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the object to which this refersthe object to which this refers
+the object to which this refers
+
+      
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+  
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+
+
+58
+59
+60
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58# File 'lib/rspec/mocks/object_reference.rb', line 58
+
+defdef initializeinitialize((objectobject))
+  @object@object == objectobject
+endend# File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of DirectObjectReference
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of DirectObjectReference
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentErrorArgumentError to indicate that as_stubbed_constas_stubbed_const
+is invalid when passing an object argument to object_doubleobject_double.Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+
+
+  
+Raises:Raises:
+
+  
+    
+      
+      
+        (ArgumentErrorArgumentError)(ArgumentError)
+      
+      
+      
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+
+  
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+
+
+70
+71
+72
+73
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70# File 'lib/rspec/mocks/object_reference.rb', line 70
+
+defdef const_to_replaceconst_to_replace
+  raiseraise ArgumentErrorArgumentError,,
+        ""Can not perform constant replacement with an anonymous object.Can not perform constant replacement with an anonymous object."""Can not perform constant replacement with an anonymous object."
+endend# File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+
+
+  
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+
+
+  
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+
+
+    
+      
+  
+  
+    Always returns true for an object as the class is defined.Always returns true for an object as the class is defined.
+
+
+  
+    Always returns true for an object as the class is defined.
+
+
+  
+
+  
+    Always returns true for an object as the class is defined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (truetrue)(true)
+      
+      
+      
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+
+
+85
+86
+87
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85# File 'lib/rspec/mocks/object_reference.rb', line 85
+
+defdef defined?defined?
+  truetrue
+endend# File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+
+
+  
+  
+    Always returns true for an object as the class is defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the object's description (via #inspect#inspect).Returns the object's description (via #inspect).
+
+
+  
+    Returns the object's description (via #inspect).
+
+
+  
+
+  
+    Returns the object's description (via #inspect).
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the object's description (via #inspect#inspect).the object's description (via #inspect).
+the object's description (via #inspect).
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+63
+64
+65
+
+
+63
+64
+65
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63# File 'lib/rspec/mocks/object_reference.rb', line 63
+
+defdef descriptiondescription
+  @object@object..inspectinspect
+endend# File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+
+  
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+
+
+  
+  
+    Returns the object's description (via #inspect).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+
+
+    
+      
+  
+  
+    The target of the verifying double (the object itself).The target of the verifying double (the object itself).
+
+
+  
+    The target of the verifying double (the object itself).
+
+
+  
+
+  
+    The target of the verifying double (the object itself).
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+
+
+78
+79
+80
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78# File 'lib/rspec/mocks/object_reference.rb', line 78
+
+defdef targettarget
+  @object@object
+endend# File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+
+
+  
+  
+    The target of the verifying double (the object itself).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+
+
+  
+Yields:Yields:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the target of this reference.the target of this reference.
+the target of this reference.
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+
+
+97
+98
+99
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97# File 'lib/rspec/mocks/object_reference.rb', line 97
+
+defdef when_loadedwhen_loaded
+  yieldyield @object@object
+endend# File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+
+
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+
+
+  
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+
+
+    
+      
+  
+  
+    Always returns true for an object as the class is defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the object's description (via #inspect).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+
+
+    
+      
+  
+  
+    The target of the verifying double (the object itself).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::DirectObjectReference
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::DirectObjectReference
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/object_reference.rb
+  
+  
+
+
+Overview
+  
+    An implementation of rspec-mocks' reference interface.
+Used when an object is passed to ExampleMethods#object_double, or
+an anonymous class or module is passed to ExampleMethods#instance_double
+or ExampleMethods#class_double.
+Represents a reference to that object.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      NamedObjectReference
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Defined for interface parity with the other object reference implementations.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Always returns true for an object as the class is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The object's description (via #inspect).
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of DirectObjectReference.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The target of the verifying double (the object itself).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of DirectObjectReference
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        object
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the object to which this refers
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 58
+
+def initialize(object)
+  @object = object
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Defined for interface parity with the other object reference
+implementations. Raises an ArgumentError to indicate that as_stubbed_const
+is invalid when passing an object argument to object_double.
+
+
+  
+
+
+  
+Raises:
+
+  
+    
+      
+      
+        (ArgumentError)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 70
+
+def const_to_replace
+  raise ArgumentError,
+        "Can not perform constant replacement with an anonymous object."
+end
+    
+  
+
+
+    
+      
+  
+  
+    Always returns true for an object as the class is defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (true)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 85
+
+def defined?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns the object's description (via #inspect).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the object's description (via #inspect).
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+63
+64
+65
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 63
+
+def description
+  @object.inspect
+end
+    
+  
+
+
+    
+      
+  
+  
+    The target of the verifying double (the object itself).
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+78
+79
+80
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 78
+
+def target
+  @object
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields if the reference target is loaded, providing a generic mechanism
+to optionally run a bit of code only when a reference's target is
+loaded.
+
+This specific implementation always yields because direct references
+are always loaded.
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of this reference.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/mocks/object_reference.rb', line 97
+
+def when_loaded
+  yield @object
+end
+    
+  
+
+
+    
+  
+

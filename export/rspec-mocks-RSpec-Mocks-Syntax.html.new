@@ -1,0 +1,4564 @@
+Module: RSpec::Mocks::Syntax
+  
+  
+  PrivatePrivate
+Module: RSpec::Mocks::Syntax
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/syntax.rblib/rspec/mocks/syntax.rb
+  
+    Defined in:
+    lib/rspec/mocks/syntax.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/syntax.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This module is part of a private API.This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available syntaxes
+provided by rspec-mocks.Provides methods for enabling and disabling the available syntaxes
+provided by rspec-mocks.
+
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available syntaxes
+provided by rspec-mocks.
+
+
+  
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available syntaxes
+provided by rspec-mocks.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Determines where the methods like should_receiveshould_receive, and stubstub are added.Determines where the methods like should_receive, and stub are added.
+Determines where the methods like should_receive, and stub are added.
+Determines where the methods like should_receive, and stub are added.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where the methods like should_receive, and stub are added.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Disables the expect syntax (expect(dbl).to receiveexpect(dbl).to receive, allow(dbl).to receiveallow(dbl).to receive, etc).Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Disables the should syntax (dbl.stubdbl.stub, dbl.should_receivedbl.should_receive, etc).Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Enables the expect syntax (expect(dbl).to receiveexpect(dbl).to receive, allow(dbl).to receiveallow(dbl).to receive, etc).Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Enables the should syntax (dbl.stubdbl.stub, dbl.should_receivedbl.should_receive, etc).Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates whether or not the expect syntax is enabled.Indicates whether or not the expect syntax is enabled.
+Indicates whether or not the expect syntax is enabled.
+Indicates whether or not the expect syntax is enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Indicates whether or not the should syntax is enabled.Indicates whether or not the should syntax is enabled.
+Indicates whether or not the should syntax is enabled.
+Indicates whether or not the should syntax is enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where the methods like should_receive, and stub are added.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receiveshould_receive, and stubstub are added.Determines where the methods like should_receive, and stub are added.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receive, and stub are added.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receive, and stub are added.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181# File 'lib/rspec/mocks/syntax.rb', line 181
+
+defdef selfself..default_should_syntax_hostdefault_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+# JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+# yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+# e.g. SimpleDelegator expectations won't work
+  #
+#
+  # See: https://github.com/jruby/jruby/issues/814
+# See: https://github.com/jruby/jruby/issues/814
+  ifif defined?defined?((JRUBY_VERSIONJRUBY_VERSION)) &&&& JRUBY_VERSIONJRUBY_VERSION ==== ''1.7.41.7.4'''1.7.4' &&&& RUBY_VERSIONRUBY_VERSION..to_fto_f >> 1.81.8
+    returnreturn ::::BasicObjectBasicObject
+  endend
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+# On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+# things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+# into Kernel...not sure why.
+  returnreturn ObjectObject unlessunless defined?defined?((::::BasicObjectBasicObject))
+
+  # MacRuby has BasicObject but it's not the root class.
+# MacRuby has BasicObject but it's not the root class.
+  returnreturn ObjectObject unlessunless ObjectObject..ancestorsancestors..lastlast ==== ::::BasicObjectBasicObject
+
+  ::::BasicObjectBasicObject
+endend# File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receive, and stub are added.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receiveexpect(dbl).to receive, allow(dbl).to receiveallow(dbl).to receive, etc).Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150# File 'lib/rspec/mocks/syntax.rb', line 150
+
+defdef selfself..disable_expectdisable_expect((syntax_hostsyntax_host==::::RSpecRSpec::::MocksMocks::::ExampleMethodsExampleMethods))
+  returnreturn unlessunless expect_enabled?expect_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..class_execclass_exec dodo
+    undefundef receivereceive
+    undefundef receive_messagesreceive_messages
+    undefundef receive_message_chainreceive_message_chain
+    undefundef allowallow
+    undefundef expect_any_instance_ofexpect_any_instance_of
+    undefundef allow_any_instance_ofallow_any_instance_of
+  endend
+
+  RSpecRSpec::::MocksMocks::::ExampleMethodsExampleMethods::::ExpectHostExpectHost..class_execclass_exec dodo
+    undefundef expectexpect
+  endend
+endend# File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stubdbl.stub, dbl.should_receivedbl.should_receive, etc).Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89# File 'lib/rspec/mocks/syntax.rb', line 89
+
+defdef selfself..disable_shoulddisable_should((syntax_hostsyntax_host==default_should_syntax_hostdefault_should_syntax_host))
+  returnreturn unlessunless should_enabled?should_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..class_execclass_exec dodo
+    undefundef should_receiveshould_receive
+    undefundef should_not_receiveshould_not_receive
+    undefundef stubstub
+    undefundef unstubunstub
+    undefundef stub_chainstub_chain
+    undefundef as_null_objectas_null_object
+    undefundef null_object?null_object?
+    undefundef received_message?received_message?
+  endend
+
+  ClassClass..class_execclass_exec dodo
+    undefundef any_instanceany_instance
+  endend
+endend# File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receiveexpect(dbl).to receive, allow(dbl).to receiveallow(dbl).to receive, etc).Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110# File 'lib/rspec/mocks/syntax.rb', line 110
+
+defdef selfself..enable_expectenable_expect((syntax_hostsyntax_host==::::RSpecRSpec::::MocksMocks::::ExampleMethodsExampleMethods))
+  returnreturn ifif expect_enabled?expect_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..class_execclass_exec dodo
+    defdef receivereceive((method_namemethod_name,, &&blockblock))
+      MatchersMatchers::::ReceiveReceive..newnew((method_namemethod_name,, blockblock))
+    endend
+
+    defdef receive_messagesreceive_messages((message_return_value_hashmessage_return_value_hash))
+      matchermatcher == MatchersMatchers::::ReceiveMessagesReceiveMessages..newnew((message_return_value_hashmessage_return_value_hash))
+      matchermatcher..warn_about_blockwarn_about_block ifif block_given?block_given?
+      matchermatcher
+    endend
+
+    defdef receive_message_chainreceive_message_chain((**messagesmessages,, &&blockblock))
+      MatchersMatchers::::ReceiveMessageChainReceiveMessageChain..newnew((messagesmessages,, &&blockblock))
+    endend
+
+    defdef allowallow((targettarget))
+      AllowanceTargetAllowanceTarget..newnew((targettarget))
+    endend
+
+    defdef expect_any_instance_ofexpect_any_instance_of((klassklass))
+      AnyInstanceExpectationTargetAnyInstanceExpectationTarget..newnew((klassklass))
+    endend
+
+    defdef allow_any_instance_ofallow_any_instance_of((klassklass))
+      AnyInstanceAllowanceTargetAnyInstanceAllowanceTarget..newnew((klassklass))
+    endend
+  endend
+
+  RSpecRSpec::::MocksMocks::::ExampleMethodsExampleMethods::::ExpectHostExpectHost..class_execclass_exec dodo
+    defdef expectexpect((targettarget))
+      ExpectationTargetExpectationTarget..newnew((targettarget))
+    endend
+  endend
+endend# File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stubdbl.stub, dbl.should_receivedbl.should_receive, etc).Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26# File 'lib/rspec/mocks/syntax.rb', line 26
+
+defdef selfself..enable_shouldenable_should((syntax_hostsyntax_host==default_should_syntax_hostdefault_should_syntax_host))
+  @warn_about_should@warn_about_should == falsefalse ifif syntax_hostsyntax_host ==== default_should_syntax_hostdefault_should_syntax_host
+  returnreturn ifif should_enabled?should_enabled?((syntax_hostsyntax_host))
+
+  syntax_hostsyntax_host..class_execclass_exec dodo
+    defdef should_receiveshould_receive((messagemessage,, optsopts=={{}},, &&blockblock))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      ::::RSpecRSpec::::MocksMocks..expect_messageexpect_message((selfself,, messagemessage,, optsopts,, &&blockblock))
+    endend
+
+    defdef should_not_receiveshould_not_receive((messagemessage,, &&blockblock))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      ::::RSpecRSpec::::MocksMocks..expect_messageexpect_message((selfself,, messagemessage,, {{}},, &&blockblock))..nevernever
+    endend
+
+    defdef stubstub((message_or_hashmessage_or_hash,, optsopts=={{}},, &&blockblock))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      ifif ::::HashHash ====== message_or_hashmessage_or_hash
+        message_or_hashmessage_or_hash..eacheach {{ ||messagemessage,, valuevalue|| stubstub((messagemessage))..and_returnand_return valuevalue }}
+      elseelse
+        ::::RSpecRSpec::::MocksMocks..allow_messageallow_message((selfself,, message_or_hashmessage_or_hash,, optsopts,, &&blockblock))
+      endend
+    endend
+
+    defdef unstubunstub((messagemessage))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__,, ""`allow(...).to receive(...).and_call_original` or explicitly enable `:should``allow(...).to receive(...).and_call_original` or explicitly enable `:should`"""`allow(...).to receive(...).and_call_original` or explicitly enable `:should`"))
+      ::::RSpecRSpec::::MocksMocks..spacespace..proxy_forproxy_for((selfself))..remove_stubremove_stub((messagemessage))
+    endend
+
+    defdef stub_chainstub_chain((**chainchain,, &&blkblk))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      ::::RSpecRSpec::::MocksMocks::::StubChainStubChain..stub_chain_onstub_chain_on((selfself,, **chainchain,, &&blkblk))
+    endend
+
+    defdef as_null_objectas_null_object
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      @_null_object@_null_object == truetrue
+      ::::RSpecRSpec::::MocksMocks..spacespace..proxy_forproxy_for((selfself))..as_null_objectas_null_object
+    endend
+
+    defdef null_object?null_object?
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      defined?defined?((@_null_object@_null_object))
+    endend
+
+    defdef received_message?received_message?((messagemessage,, **argsargs,, &&blockblock))
+      ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+      ::::RSpecRSpec::::MocksMocks..spacespace..proxy_forproxy_for((selfself))..received_message?received_message?((messagemessage,, **argsargs,, &&blockblock))
+    endend
+
+    unlessunless ClassClass..respond_to?respond_to? :any_instance:any_instance
+      ClassClass..class_execclass_exec dodo
+        defdef any_instanceany_instance
+          ::::RSpecRSpec::::MocksMocks::::SyntaxSyntax..warn_unless_should_configuredwarn_unless_should_configured((__method____method__))
+          ::::RSpecRSpec::::MocksMocks..spacespace..any_instance_proxy_forany_instance_proxy_for((selfself))
+        endend
+      endend
+    endend
+  endend
+endend# File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.Indicates whether or not the expect syntax is enabled.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+175
+176
+177
+
+
+175
+176
+177
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175# File 'lib/rspec/mocks/syntax.rb', line 175
+
+defdef selfself..expect_enabled?expect_enabled?((syntax_hostsyntax_host==::::RSpecRSpec::::MocksMocks::::ExampleMethodsExampleMethods))
+  syntax_hostsyntax_host..method_defined?method_defined?((:allow:allow))
+endend# File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+
+  
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.Indicates whether or not the should syntax is enabled.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+169
+170
+171
+
+
+169
+170
+171
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169# File 'lib/rspec/mocks/syntax.rb', line 169
+
+defdef selfself..should_enabled?should_enabled?((syntax_hostsyntax_host==default_should_syntax_hostdefault_should_syntax_host))
+  syntax_hostsyntax_host..method_defined?method_defined?((:should_receive:should_receive))
+endend# File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+
+  
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receive, and stub are added.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Mocks::Syntax
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/syntax.rb
+  
+  
+
+
+Overview
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides methods for enabling and disabling the available syntaxes
+provided by rspec-mocks.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Determines where the methods like should_receive, and stub are added.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the expect syntax is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Indicates whether or not the should syntax is enabled.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Determines where the methods like should_receive, and stub are added.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 181
+
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+  # yet `BasicObject` still exists and patching onto ::Object breaks things
+  # e.g. SimpleDelegator expectations won't work
+  #
+  # See: https://github.com/jruby/jruby/issues/814
+  if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
+    return ::BasicObject
+  end
+
+  # On 1.8.7, Object.ancestors.last == Kernel but
+  # things blow up if we include `RSpec::Mocks::Methods`
+  # into Kernel...not sure why.
+  return Object unless defined?(::BasicObject)
+
+  # MacRuby has BasicObject but it's not the root class.
+  return Object unless Object.ancestors.last == ::BasicObject
+
+  ::BasicObject
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 150
+
+def self.disable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return unless expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef receive
+    undef receive_messages
+    undef receive_message_chain
+    undef allow
+    undef expect_any_instance_of
+    undef allow_any_instance_of
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    undef expect
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Disables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 89
+
+def self.disable_should(syntax_host=default_should_syntax_host)
+  return unless should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    undef should_receive
+    undef should_not_receive
+    undef stub
+    undef unstub
+    undef stub_chain
+    undef as_null_object
+    undef null_object?
+    undef received_message?
+  end
+
+  Class.class_exec do
+    undef any_instance
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the expect syntax (expect(dbl).to receive, allow(dbl).to receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 110
+
+def self.enable_expect(syntax_host=::RSpec::Mocks::ExampleMethods)
+  return if expect_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def receive(method_name, &block)
+      Matchers::Receive.new(method_name, block)
+    end
+
+    def receive_messages(message_return_value_hash)
+      matcher = Matchers::ReceiveMessages.new(message_return_value_hash)
+      matcher.warn_about_block if block_given?
+      matcher
+    end
+
+    def receive_message_chain(*messages, &block)
+      Matchers::ReceiveMessageChain.new(messages, &block)
+    end
+
+    def allow(target)
+      AllowanceTarget.new(target)
+    end
+
+    def expect_any_instance_of(klass)
+      AnyInstanceExpectationTarget.new(klass)
+    end
+
+    def allow_any_instance_of(klass)
+      AnyInstanceAllowanceTarget.new(klass)
+    end
+  end
+
+  RSpec::Mocks::ExampleMethods::ExpectHost.class_exec do
+    def expect(target)
+      ExpectationTarget.new(target)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Enables the should syntax (dbl.stub, dbl.should_receive, etc).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 26
+
+def self.enable_should(syntax_host=default_should_syntax_host)
+  @warn_about_should = false if syntax_host == default_should_syntax_host
+  return if should_enabled?(syntax_host)
+
+  syntax_host.class_exec do
+    def should_receive(message, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, opts, &block)
+    end
+
+    def should_not_receive(message, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.expect_message(self, message, {}, &block).never
+    end
+
+    def stub(message_or_hash, opts={}, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      if ::Hash === message_or_hash
+        message_or_hash.each { |message, value| stub(message).and_return value }
+      else
+        ::RSpec::Mocks.allow_message(self, message_or_hash, opts, &block)
+      end
+    end
+
+    def unstub(message)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__, "`allow(...).to receive(...).and_call_original` or explicitly enable `:should`")
+      ::RSpec::Mocks.space.proxy_for(self).remove_stub(message)
+    end
+
+    def stub_chain(*chain, &blk)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks::StubChain.stub_chain_on(self, *chain, &blk)
+    end
+
+    def as_null_object
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      @_null_object = true
+      ::RSpec::Mocks.space.proxy_for(self).as_null_object
+    end
+
+    def null_object?
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      defined?(@_null_object)
+    end
+
+    def received_message?(message, *args, &block)
+      ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+      ::RSpec::Mocks.space.proxy_for(self).received_message?(message, *args, &block)
+    end
+
+    unless Class.respond_to? :any_instance
+      Class.class_exec do
+        def any_instance
+          ::RSpec::Mocks::Syntax.warn_unless_should_configured(__method__)
+          ::RSpec::Mocks.space.any_instance_proxy_for(self)
+        end
+      end
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the expect syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+175
+176
+177
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 175
+
+def self.expect_enabled?(syntax_host=::RSpec::Mocks::ExampleMethods)
+  syntax_host.method_defined?(:allow)
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Indicates whether or not the should syntax is enabled.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+169
+170
+171
+    
+    
+      # File 'lib/rspec/mocks/syntax.rb', line 169
+
+def self.should_enabled?(syntax_host=default_should_syntax_host)
+  syntax_host.method_defined?(:should_receive)
+end
+    
+  
+
+
+    
+  
+

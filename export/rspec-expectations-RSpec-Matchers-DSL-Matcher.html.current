@@ -1,0 +1,4159 @@
+Class: RSpec::Matchers::DSL::Matcher
+  
+  
+  
+Class: RSpec::Matchers::DSL::Matcher
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::DSL::MatcherRSpec::Matchers::DSL::Matcher
+          
+        
+          Object
+          
+            RSpec::Matchers::DSL::Matcher
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::DSL::Matcher
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::DSL::Matcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      Macros, RSpec::Matchers::DSL::Macros::DeprecatedMacros, RSpec::Matchers::DSL::Macros::Deprecated
+  
+      Extended by:
+      Macros, RSpec::Matchers::DSL::Macros::Deprecated
+  
+  
+  
+  
+  
+      Includes:Includes:
+      RSpec::Matchers, Composable, DefaultImplementationsRSpec::Matchers, Composable, DefaultImplementations
+  
+      Includes:
+      RSpec::Matchers, Composable, DefaultImplementations
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/dsl.rblib/rspec/matchers/dsl.rb
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::DSL::Matcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Macros, RSpec::Matchers::DSL::Macros::Deprecated
+  
+  
+  
+  
+  
+      Includes:
+      RSpec::Matchers, Composable, DefaultImplementations
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+OverviewOverview
+  
+    The class used for custom matchers. The block passed to
+RSpec::Matchers.defineRSpec::Matchers.define will be evaluated in the context
+of the singleton class of an instance, and will have the
+Macros methods available.The class used for custom matchers. The block passed to
+RSpec::Matchers.define will be evaluated in the context
+of the singleton class of an instance, and will have the
+Macros methods available.
+
+
+  
+    The class used for custom matchers. The block passed to
+RSpec::Matchers.define will be evaluated in the context
+of the singleton class of an instance, and will have the
+Macros methods available.
+
+
+  
+
+  
+    The class used for custom matchers. The block passed to
+RSpec::Matchers.define will be evaluated in the context
+of the singleton class of an instance, and will have the
+Macros methods available.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the value being matched against -- generally the object object wrapped by expectexpect.Exposes the value being matched against -- generally the object object wrapped by expect.
+Exposes the value being matched against -- generally the object object wrapped by expect.
+Exposes the value being matched against -- generally the object object wrapped by expect.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the value being matched against -- generally the object object wrapped by expect.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The block parameter used in the expectation.The block parameter used in the expectation.
+The block parameter used in the expectation.
+The block parameter used in the expectation.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The block parameter used in the expectation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the expected value as an an array.Returns the expected value as an an array.
+Returns the expected value as an an array.
+Returns the expected value as an an array.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the expected value as an an array.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The name of the matcher.The name of the matcher.
+The name of the matcher.
+The name of the matcher.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The name of the matcher.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the exception raised during the matching by match_unless_raisesmatch_unless_raises.Exposes the exception raised during the matching by match_unless_raises.
+Exposes the exception raised during the matching by match_unless_raises.
+Exposes the exception raised during the matching by match_unless_raises.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the value being matched against -- generally the object object wrapped by expect.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The block parameter used in the expectation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the expected value as an an array.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The name of the matcher.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the expected value.Provides the expected value.
+Provides the expected value.
+Provides the expected value.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the expected value.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Matcher.A new instance of Matcher.
+A new instance of Matcher.
+A new instance of Matcher.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodErrorNoMethodError).Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context@matcher_execution_context as well.:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher responds to messages from the @matcher_execution_context@matcher_execution_context as well.Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the expected value.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::DSL::Macros::DeprecatedMethods included from RSpec::Matchers::DSL::Macros::Deprecated
+  failure_message_for_should, failure_message_for_should_not, match_for_should, match_for_should_notfailure_message_for_should, failure_message_for_should_not, match_for_should, match_for_should_not
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from MacrosMethods included from Macros
+  chain, description, diffable, failure_message, failure_message_when_negated, match, match_unless_raises, match_when_negated, supports_block_expectationschain, description, diffable, failure_message, failure_message_when_negated, match, match_unless_raises, match_when_negated, supports_block_expectations
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::MatchersMethods included from RSpec::Matchers
+  #aggregate_failures, alias_matcher, #all, #be, #be_a, #be_a_kind_of, #be_an_instance_of, #be_between, #be_falsey, #be_nil, #be_truthy, #be_within, #change, clear_generated_description, configuration, #contain_exactly, #cover, define, define_negated_matcher, #end_with, #eq, #eql, #equal, #exist, #expect, generated_description, #have_attributes, #include, #match, #match_array, #output, #raise_error, #respond_to, #satisfy, #start_with, #throw_symbol, #yield_control, #yield_successive_args, #yield_with_args, #yield_with_no_args#aggregate_failures, alias_matcher, #all, #be, #be_a, #be_a_kind_of, #be_an_instance_of, #be_between, #be_falsey, #be_nil, #be_truthy, #be_within, #change, clear_generated_description, configuration, #contain_exactly, #cover, define, define_negated_matcher, #end_with, #eq, #eql, #equal, #exist, #expect, generated_description, #have_attributes, #include, #match, #match_array, #output, #raise_error, #respond_to, #satisfy, #start_with, #throw_symbol, #yield_control, #yield_successive_args, #yield_with_args, #yield_with_no_args
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::DSLMethods included from RSpec::Matchers::DSL
+  #alias_matcher, #define, #define_negated_matcher#alias_matcher, #define, #define_negated_matcher
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from DefaultImplementationsMethods included from DefaultImplementations
+  #description, #diffable?, #expects_call_stack_jump?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BuiltIn::BaseMatcher::DefaultFailureMessagesMethods included from BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of MatcherReturns a new instance of Matcher
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Matcher
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Matcher
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455# File 'lib/rspec/matchers/dsl.rb', line 455
+
+defdef initializeinitialize((namename,, declarationsdeclarations,, matcher_execution_contextmatcher_execution_context,, **expectedexpected,, &&block_argblock_arg))
+  @name@name     == namename
+  @actual@actual   == nilnil
+  @expected_as_array@expected_as_array == expectedexpected
+  @matcher_execution_context@matcher_execution_context == matcher_execution_contextmatcher_execution_context
+  @chained_method_clauses@chained_method_clauses == [[]]
+  @block_arg@block_arg == block_argblock_arg
+
+  classclass <<<< selfself
+    # See `Macros#define_user_override` above, for an explanation.
+# See `Macros#define_user_override` above, for an explanation.
+    includeinclude((@user_method_defs@user_method_defs == ModuleModule..newnew))
+    selfself
+  endend..class_execclass_exec((**expectedexpected,, &&declarationsdeclarations))
+endend# File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Matcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Matcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+
+
+  
+
+
+  Dynamic Method HandlingDynamic Method Handling
+  
+    This class handles dynamic methods through the method_missingmethod_missing method
+    
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context@matcher_execution_context (typically the current
+running RSpec::Core::ExampleRSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524# File 'lib/rspec/matchers/dsl.rb', line 524
+
+defdef method_missingmethod_missing((methodmethod,, **argsargs,, &&blockblock))
+  ifif @matcher_execution_context@matcher_execution_context..respond_to?respond_to?((methodmethod))
+    @matcher_execution_context@matcher_execution_context..__send____send__ methodmethod,, **argsargs,, &&blockblock
+  elseelse
+    supersuper((methodmethod,, **argsargs,, &&blockblock))
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+
+
+  
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+
+
+  
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expectexpect.Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+442
+443
+444
+
+
+442
+443
+444
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442# File 'lib/rspec/matchers/dsl.rb', line 442
+
+defdef actualactual
+  @actual@actual
+endend# File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+
+  
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+
+
+  
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The block parameter used in the expectationThe block parameter used in the expectation
+
+
+  
+    The block parameter used in the expectation
+
+
+  
+
+  
+    The block parameter used in the expectation
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+449
+450
+451
+
+
+449
+450
+451
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449# File 'lib/rspec/matchers/dsl.rb', line 449
+
+defdef block_argblock_arg
+  @block_arg@block_arg
+endend# File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+
+  
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+
+
+  
+  
+    The block parameter used in the expectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expectedexpected
+always returned an array.Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      #expected#expected
+    
+  
+    
+      #expected
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected
+    
+  
+
+
+  
+    
+      
+
+
+486
+487
+488
+
+
+486
+487
+488
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486# File 'lib/rspec/matchers/dsl.rb', line 486
+
+defdef expected_as_arrayexpected_as_array
+  @expected_as_array@expected_as_array
+endend# File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+
+  
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+
+
+  
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected
+    
+  
+
+
+  
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The name of the matcher.The name of the matcher.
+
+
+  
+    The name of the matcher.
+
+
+  
+
+  
+    The name of the matcher.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+452
+453
+454
+
+
+452
+453
+454
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452# File 'lib/rspec/matchers/dsl.rb', line 452
+
+defdef namename
+  @name@name
+endend# File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+
+  
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+
+
+  
+  
+    The name of the matcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Exposes the exception raised during the matching by match_unless_raisesmatch_unless_raises.
+Could be useful to extract details for a failure message.Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+446
+447
+448
+
+
+446
+447
+448
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446# File 'lib/rspec/matchers/dsl.rb', line 446
+
+defdef rescued_exceptionrescued_exception
+  @rescued_exception@rescued_exception
+endend# File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+
+  
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+
+
+  
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The block parameter used in the expectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected
+    
+  
+
+
+  
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The name of the matcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      #expected_as_array#expected_as_array
+    
+  
+    
+      #expected_as_array
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected_as_array
+    
+  
+
+
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474# File 'lib/rspec/matchers/dsl.rb', line 474
+
+defdef expectedexpected
+  ifif expected_as_arrayexpected_as_array..sizesize ==== 11
+    expected_as_arrayexpected_as_array[[00]]
+  elseelse
+    expected_as_arrayexpected_as_array
+  endend
+endend# File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+
+
+  
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected_as_array
+    
+  
+
+
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodErrorNoMethodError)Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+491
+492
+493
+
+
+491
+492
+493
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491# File 'lib/rspec/matchers/dsl.rb', line 491
+
+defdef inspectinspect
+  ""#<#<#{#{selfself..classclass..namename}}  #{#{namename}}>>"""#<#{self.class.name} #{name}>"
+endend# File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+  
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context@matcher_execution_context as well.:nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+506
+507
+508
+
+
+506
+507
+508
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506# File 'lib/rspec/matchers/dsl.rb', line 506
+
+defdef respond_to?respond_to?((methodmethod,, include_privateinclude_private==falsefalse))
+  supersuper |||| @matcher_execution_context@matcher_execution_context..respond_to?respond_to?((methodmethod,, include_privateinclude_private))
+endend# File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+  
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+  
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context@matcher_execution_context as well.
+Also, supports getting a method object for such methods.Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+499
+500
+501
+
+
+499
+500
+501
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499# File 'lib/rspec/matchers/dsl.rb', line 499
+
+defdef respond_to_missing?respond_to_missing?((methodmethod,, include_privateinclude_private==falsefalse))
+  supersuper |||| @matcher_execution_context@matcher_execution_context..respond_to?respond_to?((methodmethod,, include_privateinclude_private))
+endend# File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+  
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+  
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected_as_array
+    
+  
+
+
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::DSL::Matcher
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::DSL::Matcher
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Macros, RSpec::Matchers::DSL::Macros::Deprecated
+  
+  
+  
+  
+  
+      Includes:
+      RSpec::Matchers, Composable, DefaultImplementations
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/dsl.rb
+  
+  
+
+
+Overview
+  
+    The class used for custom matchers. The block passed to
+RSpec::Matchers.define will be evaluated in the context
+of the singleton class of an instance, and will have the
+Macros methods available.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the value being matched against -- generally the object object wrapped by expect.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The block parameter used in the expectation.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the expected value as an an array.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The name of the matcher.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Provides the expected value.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Matcher.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::DSL::Macros::Deprecated
+  failure_message_for_should, failure_message_for_should_not, match_for_should, match_for_should_not
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Macros
+  chain, description, diffable, failure_message, failure_message_when_negated, match, match_unless_raises, match_when_negated, supports_block_expectations
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers
+  #aggregate_failures, alias_matcher, #all, #be, #be_a, #be_a_kind_of, #be_an_instance_of, #be_between, #be_falsey, #be_nil, #be_truthy, #be_within, #change, clear_generated_description, configuration, #contain_exactly, #cover, define, define_negated_matcher, #end_with, #eq, #eql, #equal, #exist, #expect, generated_description, #have_attributes, #include, #match, #match_array, #output, #raise_error, #respond_to, #satisfy, #start_with, #throw_symbol, #yield_control, #yield_successive_args, #yield_with_args, #yield_with_no_args
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::DSL
+  #alias_matcher, #define, #define_negated_matcher
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from DefaultImplementations
+  #description, #diffable?, #expects_call_stack_jump?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Matcher
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 455
+
+def initialize(name, declarations, matcher_execution_context, *expected, &block_arg)
+  @name     = name
+  @actual   = nil
+  @expected_as_array = expected
+  @matcher_execution_context = matcher_execution_context
+  @chained_method_clauses = []
+  @block_arg = block_arg
+
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
+    include(@user_method_defs = Module.new)
+    self
+  end.class_exec(*expected, &declarations)
+end
+    
+  
+
+
+  
+
+
+  Dynamic Method Handling
+  
+    This class handles dynamic methods through the method_missing method
+    
+  
+  
+    
+  
+  
+    Takes care of forwarding unhandled messages to the
+@matcher_execution_context (typically the current
+running RSpec::Core::Example). This is needed by
+rspec-rails so that it can define matchers that wrap
+Rails' test helper methods, but it's also a useful
+feature in its own right.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+524
+525
+526
+527
+528
+529
+530
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 524
+
+def method_missing(method, *args, &block)
+  if @matcher_execution_context.respond_to?(method)
+    @matcher_execution_context.__send__ method, *args, &block
+  else
+    super(method, *args, &block)
+  end
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Exposes the value being matched against -- generally the object
+object wrapped by expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+442
+443
+444
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 442
+
+def actual
+  @actual
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The block parameter used in the expectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+449
+450
+451
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 449
+
+def block_arg
+  @block_arg
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns the expected value as an an array. This exists primarily
+to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
+always returned an array.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected
+    
+  
+
+
+  
+    
+      
+
+
+486
+487
+488
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 486
+
+def expected_as_array
+  @expected_as_array
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    The name of the matcher.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+452
+453
+454
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 452
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Exposes the exception raised during the matching by match_unless_raises.
+Could be useful to extract details for a failure message.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+446
+447
+448
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 446
+
+def rescued_exception
+  @rescued_exception
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Provides the expected value. This will return an array if
+multiple arguments were passed to the matcher; otherwise it
+will return a single value.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #expected_as_array
+    
+  
+
+
+  
+    
+      
+
+
+474
+475
+476
+477
+478
+479
+480
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 474
+
+def expected
+  if expected_as_array.size == 1
+    expected_as_array[0]
+  else
+    expected_as_array
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Adds the name (rather than a cryptic hex number)
+so we can identify an instance of
+the matcher in error messages (e.g. for NoMethodError)
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+491
+492
+493
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 491
+
+def inspect
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    :nocov:
+Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+506
+507
+508
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 506
+
+def respond_to?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher responds to messages
+from the @matcher_execution_context as well.
+Also, supports getting a method object for such methods.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+499
+500
+501
+    
+    
+      # File 'lib/rspec/matchers/dsl.rb', line 499
+
+def respond_to_missing?(method, include_private=false)
+  super || @matcher_execution_context.respond_to?(method, include_private)
+end
+    
+  
+
+
+    
+  
+

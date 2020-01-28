@@ -1,0 +1,4119 @@
+Class: RSpec::Core::Runner
+  
+  
+  
+Class: RSpec::Core::Runner
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::RunnerRSpec::Core::Runner
+          
+        
+          Object
+          
+            RSpec::Core::Runner
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Runner
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Runner
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/runner.rblib/rspec/core/runner.rb
+  
+    Defined in:
+    lib/rspec/core/runner.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Runner
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/runner.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides the main entry point to run a suite of RSpec examples.Provides the main entry point to run a suite of RSpec examples.
+
+
+  
+    Provides the main entry point to run a suite of RSpec examples.
+
+
+  
+
+  
+    Provides the main entry point to run a suite of RSpec examples.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Register an at_exitat_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
+Register an at_exit hook that runs the suite when the process exits.
+Register an at_exit hook that runs the suite when the process exits.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Register an at_exit hook that runs the suite when the process exits.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit code.Runs the suite of specs and exits the process with an appropriate exit code.
+Runs the suite of specs and exits the process with an appropriate exit code.
+Runs the suite of specs and exits the process with an appropriate exit code.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit code.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Run a suite of RSpec examples.Run a suite of RSpec examples.
+Run a suite of RSpec examples.
+Run a suite of RSpec examples.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Run a suite of RSpec examples.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Register an at_exit hook that runs the suite when the process exits.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit code.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Run a suite of RSpec examples.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Runner.A new instance of Runner.
+A new instance of Runner.
+A new instance of Runner.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Runner.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures and runs a spec suite.Configures and runs a spec suite.
+Configures and runs a spec suite.
+Configures and runs a spec suite.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures and runs a spec suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the provided example groups.Runs the provided example groups.
+Runs the provided example groups.
+Runs the provided example groups.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the provided example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wires together the various configuration objects and state holders.Wires together the various configuration objects and state holders.
+Wires together the various configuration objects and state holders.
+Wires together the various configuration objects and state holders.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wires together the various configuration objects and state holders.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Runner.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures and runs a spec suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the provided example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wires together the various configuration objects and state holders.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of RunnerReturns a new instance of Runner
+
+
+  
+    Returns a new instance of Runner
+
+
+  
+
+  
+    Returns a new instance of Runner
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+
+
+75
+76
+77
+78
+79
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75# File 'lib/rspec/core/runner.rb', line 75
+
+defdef initializeinitialize((optionsoptions,, configurationconfiguration==RSpecRSpec..configurationconfiguration,, worldworld==RSpecRSpec..worldworld))
+  @options@options       == optionsoptions
+  @configuration@configuration == configurationconfiguration
+  @world@world         == worldworld
+endend# File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of Runner
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Runner
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+
+
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This is not generally needed. The rspecrspec command takes care
+of running examples for you without involving an at_exitat_exit
+hook. This is only needed if you are running specs using
+the rubyruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorunrspec/autorun.This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exitat_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+    
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+
+  
+    
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16# File 'lib/rspec/core/runner.rb', line 16
+
+defdef selfself..autorunautorun
+  ifif autorun_disabled?autorun_disabled?
+    RSpecRSpec..deprecatedeprecate((""Requiring `rspec/autorun` when running RSpec via the `rspec` commandRequiring `rspec/autorun` when running RSpec via the `rspec` command"""Requiring `rspec/autorun` when running RSpec via the `rspec` command"))
+    returnreturn
+  elsifelsif installed_at_exit?installed_at_exit? |||| running_in_drb?running_in_drb?
+    returnreturn
+  endend
+
+  at_exitat_exit {{ perform_at_exitperform_at_exit }}
+  @installed_at_exit@installed_at_exit == truetrue
+endend# File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+
+
+43
+44
+45
+46
+47
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43# File 'lib/rspec/core/runner.rb', line 43
+
+defdef selfself..invokeinvoke
+  disable_autorun!disable_autorun!
+  statusstatus == runrun((ARGVARGV,, $stderr$stderr,, $stdout$stdout))..to_ito_i
+  exitexit((statusstatus)) ifif statusstatus !=!= 00
+endend# File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+
+
+  
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+
+
+    
+      
+  
+  
+    Run a suite of RSpec examples. Does not exit.Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rbspec_helper.rb to be reloaded, be sure to load loadload
+instead of requirerequire.If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+    Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+
+  
+    Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        argsargs
+      
+      
+        (ArrayArray)(Array)
+      
+      
+      
+        —
+        command-line-supported argumentscommand-line-supported arguments
+command-line-supported arguments
+
+      
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        errerr
+      
+      
+        (IOIO)(IO)
+      
+      
+        (defaults to: $stderr$stderr)(defaults to: $stderr)
+      
+      
+        —
+        error streamerror stream
+error stream
+
+      
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        outout
+      
+      
+        (IOIO)(IO)
+      
+      
+        (defaults to: $stdout$stdout)(defaults to: $stdout)
+      
+      
+        —
+        output streamoutput stream
+output stream
+
+      
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64# File 'lib/rspec/core/runner.rb', line 64
+
+defdef selfself..runrun((argsargs,, errerr==$stderr$stderr,, outout==$stdout$stdout))
+  trap_interrupttrap_interrupt
+  optionsoptions == ConfigurationOptionsConfigurationOptions..newnew((argsargs))
+
+  ifif optionsoptions..optionsoptions[[:runner:runner]]
+    optionsoptions..optionsoptions[[:runner:runner]]..callcall((optionsoptions,, errerr,, outout))
+  elseelse
+    newnew((optionsoptions))..runrun((errerr,, outout))
+  endend
+endend# File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+
+
+  
+  
+    Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+
+
+    
+      
+  
+  
+    Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Configures and runs a spec suite.Configures and runs a spec suite.
+
+
+  
+    Configures and runs a spec suite.
+
+
+  
+
+  
+    Configures and runs a spec suite.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        errerr
+      
+      
+        (IOIO)(IO)
+      
+      
+      
+        —
+        error streamerror stream
+error stream
+
+      
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        outout
+      
+      
+        (IOIO)(IO)
+      
+      
+      
+        —
+        output streamoutput stream
+output stream
+
+      
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85# File 'lib/rspec/core/runner.rb', line 85
+
+defdef runrun((errerr,, outout))
+  setupsetup((errerr,, outout))
+  returnreturn @configuration@configuration..reporterreporter..exit_earlyexit_early((@configuration@configuration..failure_exit_codefailure_exit_code)) ifif RSpecRSpec..worldworld..wants_to_quitwants_to_quit
+
+  run_specsrun_specs((@world@world..ordered_example_groupsordered_example_groups))..taptap dodo
+    persist_example_statusespersist_example_statuses
+  endend
+endend# File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+
+
+  
+  
+    Configures and runs a spec suite.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the provided example groups.Runs the provided example groups.
+
+
+  
+    Runs the provided example groups.
+
+
+  
+
+  
+    Runs the provided example groups.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        example_groupsexample_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>Array<RSpec::Core::ExampleGroup>)(Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to rungroups to run
+groups to run
+
+      
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+  
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113# File 'lib/rspec/core/runner.rb', line 113
+
+defdef run_specsrun_specs((example_groupsexample_groups))
+  examples_countexamples_count == @world@world..example_countexample_count((example_groupsexample_groups))
+  successsuccess == @configuration@configuration..reporterreporter..reportreport((examples_countexamples_count)) dodo ||reporterreporter||
+    @configuration@configuration..with_suite_hookswith_suite_hooks dodo
+      ifif examples_countexamples_count ==== 00 &&&& @configuration@configuration..fail_if_no_examplesfail_if_no_examples
+        returnreturn @configuration@configuration..failure_exit_codefailure_exit_code
+      endend
+
+      example_groupsexample_groups..mapmap {{ ||gg|| gg..runrun((reporterreporter)) }}..all?all?
+    endend
+  endend &&&& !!@world@world..non_example_failurenon_example_failure
+
+  successsuccess ?? 00 :: @configuration@configuration..failure_exit_codefailure_exit_code
+endend# File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+
+
+  
+  
+    Runs the provided example groups.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wires together the various configuration objects and state holders.Wires together the various configuration objects and state holders.
+
+
+  
+    Wires together the various configuration objects and state holders.
+
+
+  
+
+  
+    Wires together the various configuration objects and state holders.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        errerr
+      
+      
+        (IOIO)(IO)
+      
+      
+      
+        —
+        error streamerror stream
+error stream
+
+      
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        outout
+      
+      
+        (IOIO)(IO)
+      
+      
+      
+        —
+        output streamoutput stream
+output stream
+
+      
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98# File 'lib/rspec/core/runner.rb', line 98
+
+defdef setupsetup((errerr,, outout))
+  configureconfigure((errerr,, outout))
+  returnreturn ifif RSpecRSpec..worldworld..wants_to_quitwants_to_quit
+
+  @configuration@configuration..load_spec_filesload_spec_files
+ensureensure
+  @world@world..announce_filtersannounce_filters
+endend# File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+
+
+  
+  
+    Wires together the various configuration objects and state holders.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Configures and runs a spec suite.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the provided example groups.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wires together the various configuration objects and state holders.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Runner
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Runner
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/runner.rb
+  
+  
+
+
+Overview
+  
+    Provides the main entry point to run a suite of RSpec examples.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Register an at_exit hook that runs the suite when the process exits.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the suite of specs and exits the process with an appropriate exit code.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Run a suite of RSpec examples.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Runner.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures and runs a spec suite.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Runs the provided example groups.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wires together the various configuration objects and state holders.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Runner
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+75
+76
+77
+78
+79
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 75
+
+def initialize(options, configuration=RSpec.configuration, world=RSpec.world)
+  @options       = options
+  @configuration = configuration
+  @world         = world
+end
+    
+  
+
+
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is not generally needed. The rspec command takes care
+of running examples for you without involving an at_exit
+hook. This is only needed if you are running specs using
+the ruby command, and even then, the normal way to invoke
+this is by requiring rspec/autorun.
+
+  
+
+Register an at_exit hook that runs the suite when the process exits.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 16
+
+def self.autorun
+  if autorun_disabled?
+    RSpec.deprecate("Requiring `rspec/autorun` when running RSpec via the `rspec` command")
+    return
+  elsif installed_at_exit? || running_in_drb?
+    return
+  end
+
+  at_exit { perform_at_exit }
+  @installed_at_exit = true
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the suite of specs and exits the process with an appropriate exit
+code.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 43
+
+def self.invoke
+  disable_autorun!
+  status = run(ARGV, $stderr, $stdout).to_i
+  exit(status) if status != 0
+end
+    
+  
+
+
+    
+      
+  
+  
+    Run a suite of RSpec examples. Does not exit.
+
+This is used internally by RSpec to run a suite, but is available
+for use by any other automation tool.
+
+If you want to run this multiple times in the same process, and you
+want files like spec_helper.rb to be reloaded, be sure to load load
+instead of require.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        args
+      
+      
+        (Array)
+      
+      
+      
+        —
+        command-line-supported arguments
+
+      
+    
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stderr)
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+        (defaults to: $stdout)
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 64
+
+def self.run(args, err=$stderr, out=$stdout)
+  trap_interrupt
+  options = ConfigurationOptions.new(args)
+
+  if options.options[:runner]
+    options.options[:runner].call(options, err, out)
+  else
+    new(options).run(err, out)
+  end
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Configures and runs a spec suite.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 85
+
+def run(err, out)
+  setup(err, out)
+  return @configuration.reporter.exit_early(@configuration.failure_exit_code) if RSpec.world.wants_to_quit
+
+  run_specs(@world.ordered_example_groups).tap do
+    persist_example_statuses
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Runs the provided example groups.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        example_groups
+      
+      
+        (Array<RSpec::Core::ExampleGroup>)
+      
+      
+      
+        —
+        groups to run
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        exit status code. 0 if all specs passed,
+or the configured failure exit code (1 by default) if specs
+failed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 113
+
+def run_specs(example_groups)
+  examples_count = @world.example_count(example_groups)
+  success = @configuration.reporter.report(examples_count) do |reporter|
+    @configuration.with_suite_hooks do
+      if examples_count == 0 && @configuration.fail_if_no_examples
+        return @configuration.failure_exit_code
+      end
+
+      example_groups.map { |g| g.run(reporter) }.all?
+    end
+  end && !@world.non_example_failure
+
+  success ? 0 : @configuration.failure_exit_code
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wires together the various configuration objects and state holders.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        err
+      
+      
+        (IO)
+      
+      
+      
+        —
+        error stream
+
+      
+    
+  
+    
+      
+        out
+      
+      
+        (IO)
+      
+      
+      
+        —
+        output stream
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+    
+    
+      # File 'lib/rspec/core/runner.rb', line 98
+
+def setup(err, out)
+  configure(err, out)
+  return if RSpec.world.wants_to_quit
+
+  @configuration.load_spec_files
+ensure
+  @world.announce_filters
+end
+    
+  
+
+
+    
+  
+

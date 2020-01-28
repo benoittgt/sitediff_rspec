@@ -1,0 +1,855 @@
+Class: RSpec::Matchers::Composable::DescribableItem
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::Composable::DescribableItem
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StructStruct
+      
+        
+          ObjectObject
+          
+            StructStruct
+          
+            RSpec::Matchers::Composable::DescribableItemRSpec::Matchers::Composable::DescribableItem
+          
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::Composable::DescribableItem
+          
+        
+        show allshow all
+      
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::Composable::DescribableItem
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::Composable::DescribableItem
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/composable.rblib/rspec/matchers/composable.rb
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::Composable::DescribableItem
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Wraps an item in order to surface its descriptiondescription via inspectinspect.Wraps an item in order to surface its description via inspect.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Wraps an item in order to surface its description via inspect.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Wraps an item in order to surface its description via inspect.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Inspectable version of the item description.Inspectable version of the item description.
+Inspectable version of the item description.
+Inspectable version of the item description.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Inspectable version of the item description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A pretty printed version of the item description.A pretty printed version of the item description.
+A pretty printed version of the item description.
+A pretty printed version of the item description.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A pretty printed version of the item description.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Inspectable version of the item description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A pretty printed version of the item description.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item descriptionInspectable version of the item description
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item description
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item description
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+160
+161
+162
+
+
+160
+161
+162
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160# File 'lib/rspec/matchers/composable.rb', line 160
+
+defdef inspectinspect
+  ""((#{#{itemitem..descriptiondescription}}))"""(#{item.description})"
+endend# File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+
+  
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item description
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.A pretty printed version of the item description.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+165
+166
+167
+
+
+165
+166
+167
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165# File 'lib/rspec/matchers/composable.rb', line 165
+
+defdef pretty_printpretty_print((pppp))
+  pppp..texttext ""((#{#{itemitem..descriptiondescription}}))"""(#{item.description})"
+endend# File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+
+  
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item description
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::Composable::DescribableItem
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Struct
+      
+        
+          Object
+          
+            Struct
+          
+            RSpec::Matchers::Composable::DescribableItem
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/composable.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Wraps an item in order to surface its description via inspect.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Inspectable version of the item description.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    A pretty printed version of the item description.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Inspectable version of the item description
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+160
+161
+162
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 160
+
+def inspect
+  "(#{item.description})"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A pretty printed version of the item description.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+165
+166
+167
+    
+    
+      # File 'lib/rspec/matchers/composable.rb', line 165
+
+def pretty_print(pp)
+  pp.text "(#{item.description})"
+end
+    
+  
+
+
+    
+  
+

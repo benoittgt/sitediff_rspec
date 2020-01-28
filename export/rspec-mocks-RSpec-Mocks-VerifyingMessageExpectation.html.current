@@ -1,0 +1,990 @@
+Class: RSpec::Mocks::VerifyingMessageExpectation
+  
+  
+  PrivatePrivate
+Class: RSpec::Mocks::VerifyingMessageExpectation
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      MessageExpectationMessageExpectation
+      
+        
+          ObjectObject
+          
+            MessageExpectationMessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectationRSpec::Mocks::VerifyingMessageExpectation
+          
+        
+          Object
+          
+            MessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectation
+          
+        
+        show allshow all
+      
+    
+      MessageExpectation
+      
+        
+          Object
+          
+            MessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectation
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      MessageExpectation
+      
+        
+          Object
+          
+            MessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectation
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/verifying_message_expectation.rblib/rspec/mocks/verifying_message_expectation.rb
+  
+    Defined in:
+    lib/rspec/mocks/verifying_message_expectation.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      MessageExpectation
+      
+        
+          Object
+          
+            MessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectation
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/verifying_message_expectation.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+A message expectation that knows about the real implementation of the
+message being expected, so that it can verify that any expectations
+have the valid arguments.A message expectation that knows about the real implementation of the
+message being expected, so that it can verify that any expectations
+have the valid arguments.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+A message expectation that knows about the real implementation of the
+message being expected, so that it can verify that any expectations
+have the valid arguments.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+A message expectation that knows about the real implementation of the
+message being expected, so that it can verify that any expectations
+have the valid arguments.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of VerifyingMessageExpectation.A new instance of VerifyingMessageExpectation.
+A new instance of VerifyingMessageExpectation.
+A new instance of VerifyingMessageExpectation.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of VerifyingMessageExpectation.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of VerifyingMessageExpectation.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from MessageExpectationMethods inherited from MessageExpectation
+  #and_call_original, #and_raise, #and_return, #and_throw, #and_wrap_original, #and_yield, #at_least, #at_most, #exactly, #never, #once, #ordered, #thrice, #times, #to_s, #twice#and_call_original, #and_raise, #and_return, #and_throw, #and_wrap_original, #and_yield, #at_least, #at_most, #exactly, #never, #once, #ordered, #thrice, #times, #to_s, #twice
+
+  
+  
+  
+  
+  
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectationReturns a new instance of VerifyingMessageExpectation
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectation
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectation
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+20
+21
+22
+
+
+20
+21
+22
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20# File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+defdef initializeinitialize((**argsargs))
+  supersuper
+endend# File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+
+  
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+
+
+18
+19
+20
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18# File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+defdef method_referencemethod_reference
+  @method_reference@method_reference
+endend# File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Mocks::VerifyingMessageExpectation
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      MessageExpectation
+      
+        
+          Object
+          
+            MessageExpectation
+          
+            RSpec::Mocks::VerifyingMessageExpectation
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/verifying_message_expectation.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+A message expectation that knows about the real implementation of the
+message being expected, so that it can verify that any expectations
+have the valid arguments.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of VerifyingMessageExpectation.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from MessageExpectation
+  #and_call_original, #and_raise, #and_return, #and_throw, #and_wrap_original, #and_yield, #at_least, #at_most, #exactly, #never, #once, #ordered, #thrice, #times, #to_s, #twice
+
+  
+  
+  
+  
+  
+  
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of VerifyingMessageExpectation
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+20
+21
+22
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 20
+
+def initialize(*args)
+  super
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+A level of indirection is used here rather than just passing in the
+method itself, since method look up is expensive and we only want to
+do it if actually needed.
+
+Conceptually the method reference makes more sense as a constructor
+argument since it should be immutable, but it is significantly more
+straight forward to build the object in pieces so for now it stays as
+an accessor.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+18
+19
+20
+    
+    
+      # File 'lib/rspec/mocks/verifying_message_expectation.rb', line 18
+
+def method_reference
+  @method_reference
+end
+    
+  
+
+
+    
+  
+
+

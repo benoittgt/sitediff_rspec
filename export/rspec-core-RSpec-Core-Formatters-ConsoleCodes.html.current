@@ -1,0 +1,1488 @@
+Module: RSpec::Core::Formatters::ConsoleCodes
+  
+  
+  
+Module: RSpec::Core::Formatters::ConsoleCodes
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/console_codes.rblib/rspec/core/formatters/console_codes.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/console_codes.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/console_codes.rb
+  
+  
+
+
+OverviewOverview
+  
+    ConsoleCodes provides helpers for formatting console output
+with ANSI codes, e.g. color's and bold.ConsoleCodes provides helpers for formatting console output
+with ANSI codes, e.g. color's and bold.
+
+
+  
+    ConsoleCodes provides helpers for formatting console output
+with ANSI codes, e.g. color's and bold.
+
+
+  
+
+  
+    ConsoleCodes provides helpers for formatting console output
+with ANSI codes, e.g. color's and bold.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.Fetches the correct code for the supplied symbol, or checks that a code is valid.
+Fetches the correct code for the supplied symbol, or checks that a code is valid.
+Fetches the correct code for the supplied symbol, or checks that a code is valid.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code.Wraps a piece of text in ANSI codes with the supplied code.
+Wraps a piece of text in ANSI codes with the supplied code.
+Wraps a piece of text in ANSI codes with the supplied code.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        code_or_symbolcode_or_symbol
+      
+      
+        (SymbolSymbol, FixnumFixnum)(Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to checkSymbol or code to check
+Symbol or code to check
+
+      
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        a console codea console code
+a console code
+
+      
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39# File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+defdef console_code_forconsole_code_for((code_or_symbolcode_or_symbol))
+  ifif ((config_methodconfig_method == config_colors_to_methodsconfig_colors_to_methods[[code_or_symbolcode_or_symbol]]))
+    console_code_forconsole_code_for RSpecRSpec..configurationconfiguration..__send____send__((config_methodconfig_method))
+  elsifelsif VT100_CODE_VALUESVT100_CODE_VALUES..key?key?((code_or_symbolcode_or_symbol))
+    code_or_symbolcode_or_symbol
+  elseelse
+    VT100_CODESVT100_CODES..fetchfetch((code_or_symbolcode_or_symbol)) dodo
+      console_code_forconsole_code_for((:white:white))
+    endend
+  endend
+endend# File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+
+
+  
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?RSpec.configuration.color_enabled?
+returns true.Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        texttext
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the text to wrapthe text to wrap
+the text to wrap
+
+      
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbolcode_or_symbol
+      
+      
+        (SymbolSymbol, FixnumFixnum)(Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control codethe desired control code
+the desired control code
+
+      
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+  
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the wrapped textthe wrapped text
+the wrapped text
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58# File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+defdef wrapwrap((texttext,, code_or_symbolcode_or_symbol))
+  ifif RSpecRSpec..configurationconfiguration..color_enabled?color_enabled?
+    ""\e[\e[#{#{console_code_forconsole_code_for((code_or_symbolcode_or_symbol))}}mm#{#{texttext}}\e[0m\e[0m"""\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  elseelse
+    texttext
+  endend
+endend# File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+
+
+  
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::Formatters::ConsoleCodes
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/console_codes.rb
+  
+  
+
+
+Overview
+  
+    ConsoleCodes provides helpers for formatting console output
+with ANSI codes, e.g. color's and bold.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Wraps a piece of text in ANSI codes with the supplied code.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Fetches the correct code for the supplied symbol, or checks
+that a code is valid. Defaults to white (37).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        Symbol or code to check
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        a console code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 39
+
+def console_code_for(code_or_symbol)
+  if (config_method = config_colors_to_methods[code_or_symbol])
+    console_code_for RSpec.configuration.__send__(config_method)
+  elsif VT100_CODE_VALUES.key?(code_or_symbol)
+    code_or_symbol
+  else
+    VT100_CODES.fetch(code_or_symbol) do
+      console_code_for(:white)
+    end
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Wraps a piece of text in ANSI codes with the supplied code. Will
+only apply the control code if RSpec.configuration.color_enabled?
+returns true.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        text
+      
+      
+        (String)
+      
+      
+      
+        —
+        the text to wrap
+
+      
+    
+  
+    
+      
+        code_or_symbol
+      
+      
+        (Symbol, Fixnum)
+      
+      
+      
+        —
+        the desired control code
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the wrapped text
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+63
+64
+    
+    
+      # File 'lib/rspec/core/formatters/console_codes.rb', line 58
+
+def wrap(text, code_or_symbol)
+  if RSpec.configuration.color_enabled?
+    "\e[#{console_code_for(code_or_symbol)}m#{text}\e[0m"
+  else
+    text
+  end
+end
+    
+  
+
+
+    
+  
+

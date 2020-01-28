@@ -1,0 +1,5693 @@
+Class: RSpec::Expectations::Configuration
+  
+  
+  
+Class: RSpec::Expectations::Configuration
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Expectations::ConfigurationRSpec::Expectations::Configuration
+          
+        
+          Object
+          
+            RSpec::Expectations::Configuration
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::Configuration
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations/configuration.rblib/rspec/expectations/configuration.rb
+  
+    Defined in:
+    lib/rspec/expectations/configuration.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/configuration.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides configuration options for rspec-expectations.
+If you are using rspec-core, you can access this via a
+block passed to RSpec::Core::Configuration#expect_withRSpec::Core::Configuration#expect_with.
+Otherwise, you can access it via RSpec::Expectations.configuration.Provides configuration options for rspec-expectations.
+If you are using rspec-core, you can access this via a
+block passed to RSpec::Core::Configuration#expect_with.
+Otherwise, you can access it via RSpec::Expectations.configuration.
+
+
+  
+    Provides configuration options for rspec-expectations.
+If you are using rspec-core, you can access this via a
+block passed to RSpec::Core::Configuration#expect_with.
+Otherwise, you can access it via RSpec::Expectations.configuration.
+
+
+  
+
+  
+    Provides configuration options for rspec-expectations.
+If you are using rspec-core, you can access this via a
+block passed to RSpec::Core::Configuration#expect_with.
+Otherwise, you can access it via RSpec::Expectations.configuration.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||rspecrspec||
+  rspecrspec..expect_withexpect_with :rspec:rspec dodo ||cc||
+    # c is the config object
+# c is the config object
+  endend
+endend
+
+# or
+# or
+
+RSpecRSpec::::ExpectationsExpectations..configurationconfigurationRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    # c is the config object
+  end
+end
+
+# or
+
+RSpec::Expectations.configurationRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    # c is the config object
+  end
+end
+
+# or
+
+RSpec::Expectations.configuration
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    # c is the config object
+  end
+end
+
+# or
+
+RSpec::Expectations.configuration
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    # c is the config object
+  end
+end
+
+# or
+
+RSpec::Expectations.configuration
+    
+  
+
+
+
+  
+    
+      Constant Summary
+      
+    
+      Constant Summary
+      
+    
+
+    
+      
+        NullBacktraceFormatter =
+          
+  
+    
+  This constant is part of a private API.This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+
+
+  
+
+
+  
+
+
+        NullBacktraceFormatter =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+
+
+  
+
+
+        
+        ModuleModule..newnew dodo
+  defdef selfself..format_backtraceformat_backtrace((backtracebacktrace))
+    backtracebacktrace
+  endend
+endendModule.new do
+  def self.format_backtrace(backtrace)
+    backtrace
+  end
+endModule.new do
+  def self.format_backtrace(backtrace)
+    backtrace
+  end
+end
+      
+    
+      
+        NullBacktraceFormatter =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+
+
+  
+
+
+        
+        Module.new do
+  def self.format_backtrace(backtrace)
+    backtrace
+  end
+end
+      
+    
+  
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets or gets the backtrace formatter.Sets or gets the backtrace formatter.
+Sets or gets the backtrace formatter.
+Sets or gets the backtrace formatter.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets or gets the backtrace formatter.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chainchain.Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to truetrue.Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets or gets the backtrace formatter.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds shouldshould and should_notshould_not to the given classes or modules.Adds should and should_not to the given classes or modules.
+Adds should and should_not to the given classes or modules.
+Adds should and should_not to the given classes or modules.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds should and should_not to the given classes or modules.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+Indicates whether or not diffs should be colored.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chainchain.Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.A new instance of Configuration.
+A new instance of Configuration.
+A new instance of Configuration.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the maximum character length that RSpec will print while formatting an object.Configures the maximum character length that RSpec will print while formatting an object.
+Configures the maximum character length that RSpec will print while formatting an object.
+Configures the maximum character length that RSpec will print while formatting an object.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the maximum character length that RSpec will print while formatting an object.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of configured syntaxes.The list of configured syntaxes.
+The list of configured syntaxes.
+The list of configured syntaxes.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of configured syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the supported syntax.Configures the supported syntax.
+Configures the supported syntax.
+Configures the supported syntax.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the supported syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to truetrue.Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds should and should_not to the given classes or modules.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the maximum character length that RSpec will print while formatting an object.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of configured syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the supported syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of ConfigurationReturns a new instance of Configuration
+
+
+  
+    Returns a new instance of Configuration
+
+
+  
+
+  
+    Returns a new instance of Configuration
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+
+
+29
+30
+31
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29# File 'lib/rspec/expectations/configuration.rb', line 29
+
+defdef initializeinitialize
+  @on_potential_false_positives@on_potential_false_positives == :warn:warn
+endend# File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of Configuration
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Configuration
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>)#format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_errorraise_error
+matcher.Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace--backtrace option).If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+
+
+127
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127# File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writerattr_writer :backtrace_formatter:backtrace_formatter# File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+
+  
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+
+
+  
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+
+
+94
+95
+96
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94# File 'lib/rspec/expectations/configuration.rb', line 94
+
+defdef color=color=((valuevalue))
+  @color@color == valuevalue
+endend# File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chainchain.Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        valuevalue
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+
+
+139
+140
+141
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139# File 'lib/rspec/expectations/configuration.rb', line 139
+
+defdef include_chain_clauses_in_custom_matcher_descriptions=include_chain_clauses_in_custom_matcher_descriptions=((valuevalue))
+  @include_chain_clauses_in_custom_matcher_descriptions@include_chain_clauses_in_custom_matcher_descriptions == valuevalue
+endend# File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+
+
+  
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to truetrue.Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+191
+192
+193
+
+
+191
+192
+193
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191# File 'lib/rspec/expectations/configuration.rb', line 191
+
+defdef on_potential_false_positiveson_potential_false_positives
+  @on_potential_false_positives@on_potential_false_positives
+endend# File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+
+  
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+
+
+  
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Adds shouldshould and should_notshould_not to the given classes
+or modules. This can be used to ensure shouldshould works
+properly on things like proxy objects (particular
+DelegatorDelegator-subclassed objects on 1.8).Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+    Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+
+  
+    Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        modulesmodules
+      
+      
+        (Array<Module>Array<Module>)(Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add shouldshould and should_notshould_not to.the list of classes or modules
+to add should and should_not to.
+the list of classes or modules
+to add should and should_not to.
+
+      
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+  
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+
+
+111
+112
+113
+114
+115
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111# File 'lib/rspec/expectations/configuration.rb', line 111
+
+defdef add_should_and_should_not_toadd_should_and_should_not_to((**modulesmodules))
+  modulesmodules..eacheach dodo ||modmod||
+    ExpectationsExpectations::::SyntaxSyntax..enable_shouldenable_should((modmod))
+  endend
+endend# File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+  
+  
+    Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+
+
+99
+100
+101
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99# File 'lib/rspec/expectations/configuration.rb', line 99
+
+defdef color?color?
+  ::::RSpecRSpec..configurationconfiguration..color_enabled?color_enabled?
+endend# File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chainchain. It is
+false by default for backwards compatibility.Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+144
+145
+146
+
+
+144
+145
+146
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144# File 'lib/rspec/expectations/configuration.rb', line 144
+
+defdef include_chain_clauses_in_custom_matcher_descriptions?include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions@include_chain_clauses_in_custom_matcher_descriptions ||=||= falsefalse
+endend# File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+
+  
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+
+
+  
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||rspecrspec||
+  rspecrspec..expect_withexpect_with :rspec:rspec dodo ||cc||
+    cc..max_formatted_output_lengthmax_formatted_output_length == 200200
+  endend
+endendRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+endRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        lengthlength
+      
+      
+        (FixnumFixnum)(Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.the number of characters to limit the formatted output to.
+the number of characters to limit the formatted output to.
+
+      
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+  
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+
+
+69
+70
+71
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69# File 'lib/rspec/expectations/configuration.rb', line 69
+
+defdef max_formatted_output_length=max_formatted_output_length=((lengthlength))
+  RSpecRSpec::::SupportSupport::::ObjectFormatterObjectFormatter..default_instancedefault_instance..max_formatted_output_lengthmax_formatted_output_length == lengthlength
+endend# File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+
+
+  
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+
+
+    
+      
+  
+  
+    The list of configured syntaxes.The list of configured syntaxes.
+
+
+  
+    The list of configured syntaxes.
+
+
+  
+
+  
+    The list of configured syntaxes.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      unlessunless RSpecRSpec::::MatchersMatchers..configurationconfiguration..syntaxsyntax..include?include?((:expect:expect))
+  raiseraise ""this RSpec extension gem requires the rspec-expectations `:expect` syntaxthis RSpec extension gem requires the rspec-expectations `:expect` syntax"""this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+endendunless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+endunless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+    Examples:
+    
+      
+      unless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (Array<Symbol>Array<Symbol>)(Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.the list of configured syntaxes.
+the list of configured syntaxes.
+
+      
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+
+
+79
+80
+81
+82
+83
+84
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79# File 'lib/rspec/expectations/configuration.rb', line 79
+
+defdef syntaxsyntax
+  syntaxessyntaxes == [[]]
+  syntaxessyntaxes <<<< :should:should ifif ExpectationsExpectations::::SyntaxSyntax..should_enabled?should_enabled?
+  syntaxessyntaxes <<<< :expect:expect ifif ExpectationsExpectations::::SyntaxSyntax..expect_enabled?expect_enabled?
+  syntaxessyntaxes
+endend# File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+  
+  
+    The list of configured syntaxes.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the supported syntax.Configures the supported syntax.
+
+
+  
+    Configures the supported syntax.
+
+
+  
+
+  
+    Configures the supported syntax.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||rspecrspec||
+  rspecrspec..expect_withexpect_with :rspec:rspec dodo ||cc||
+    cc..syntaxsyntax == :should:should
+    # or
+# or
+    cc..syntaxsyntax == :expect:expect
+    # or
+# or
+    cc..syntaxsyntax == [[:should:should,, :expect:expect]]
+  endend
+endendRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+endRSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        valuesvalues
+      
+      
+        (Array<Symbol>Array<Symbol>, SymbolSymbol)(Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enablethe syntaxes to enable
+the syntaxes to enable
+
+      
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+  
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45# File 'lib/rspec/expectations/configuration.rb', line 45
+
+defdef syntax=syntax=((valuesvalues))
+  ifif ArrayArray((valuesvalues))..include?include?((:expect:expect))
+    ExpectationsExpectations::::SyntaxSyntax..enable_expectenable_expect
+  elseelse
+    ExpectationsExpectations::::SyntaxSyntax..disable_expectdisable_expect
+  endend
+
+  ifif ArrayArray((valuesvalues))..include?include?((:should:should))
+    ExpectationsExpectations::::SyntaxSyntax..enable_shouldenable_should
+  elseelse
+    ExpectationsExpectations::::SyntaxSyntax..disable_shoulddisable_should
+  endend
+endend# File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+
+
+  
+  
+    Configures the supported syntax.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        booleanboolean
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167# File 'lib/rspec/expectations/configuration.rb', line 167
+
+defdef warn_about_potential_false_positives=warn_about_potential_false_positives=((booleanboolean))
+  ifif booleanboolean
+    selfself..on_potential_false_positiveson_potential_false_positives == :warn:warn
+  elsifelsif warn_about_potential_false_positives?warn_about_potential_false_positives?
+    selfself..on_potential_false_positiveson_potential_false_positives == :nothing:nothing
+  elseelse
+    # no-op, handler is something else
+# no-op, handler is something else
+  endend
+endend# File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+
+
+  
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to truetrue.Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+196
+197
+198
+
+
+196
+197
+198
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196# File 'lib/rspec/expectations/configuration.rb', line 196
+
+defdef warn_about_potential_false_positives?warn_about_potential_false_positives?
+  on_potential_false_positiveson_potential_false_positives ==== :warn:warn
+endend# File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+
+  
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+
+
+  
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+
+
+    
+      
+  
+  
+    The list of configured syntaxes.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the supported syntax.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Expectations::Configuration
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::Configuration
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/configuration.rb
+  
+  
+
+
+Overview
+  
+    Provides configuration options for rspec-expectations.
+If you are using rspec-core, you can access this via a
+block passed to RSpec::Core::Configuration#expect_with.
+Otherwise, you can access it via RSpec::Expectations.configuration.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    # c is the config object
+  end
+end
+
+# or
+
+RSpec::Expectations.configuration
+    
+  
+
+
+
+  
+    
+      Constant Summary
+      
+    
+
+    
+      
+        NullBacktraceFormatter =
+          
+  
+    
+  This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
+Null implementation of a backtrace formatter used by default
+when rspec-core is not loaded. Does no filtering.
+
+
+  
+
+
+  
+
+
+        
+        Module.new do
+  def self.format_backtrace(backtrace)
+    backtrace
+  end
+end
+      
+    
+  
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Sets or gets the backtrace formatter.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  
+
+  
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Adds should and should_not to the given classes or modules.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not diffs should be colored.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of Configuration.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the maximum character length that RSpec will print while formatting an object.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The list of configured syntaxes.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures the supported syntax.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of Configuration
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+29
+30
+31
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 29
+
+def initialize
+  @on_potential_false_positives = :warn
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Sets or gets the backtrace formatter. The backtrace formatter should
+implement #format_backtrace(Array<String>). This is used
+to format backtraces of errors handled by the raise_error
+matcher.
+
+If you are using rspec-core, rspec-core's backtrace formatting
+will be used (including respecting the presence or absence of
+the --backtrace option).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+127
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 127
+
+attr_writer :backtrace_formatter
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+94
+95
+96
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 94
+
+def color=(value)
+  @color = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Sets if custom matcher descriptions and failure messages
+should include clauses from methods defined using chain.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        value
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+139
+140
+141
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 139
+
+def include_chain_clauses_in_custom_matcher_descriptions=(value)
+  @include_chain_clauses_in_custom_matcher_descriptions = value
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Indicates what RSpec will do about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+191
+192
+193
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 191
+
+def on_potential_false_positives
+  @on_potential_false_positives
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Adds should and should_not to the given classes
+or modules. This can be used to ensure should works
+properly on things like proxy objects (particular
+Delegator-subclassed objects on 1.8).
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        modules
+      
+      
+        (Array<Module>)
+      
+      
+      
+        —
+        the list of classes or modules
+to add should and should_not to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+114
+115
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 111
+
+def add_should_and_should_not_to(*modules)
+  modules.each do |mod|
+    Expectations::Syntax.enable_should(mod)
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not diffs should be colored.
+Delegates to rspec-core's color option if rspec-core
+is loaded; otherwise you can set it here.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 99
+
+def color?
+  ::RSpec.configuration.color_enabled?
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether or not custom matcher descriptions and failure messages
+should include clauses from methods defined using chain. It is
+false by default for backwards compatibility.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+144
+145
+146
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 144
+
+def include_chain_clauses_in_custom_matcher_descriptions?
+  @include_chain_clauses_in_custom_matcher_descriptions ||= false
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the maximum character length that RSpec will print while
+formatting an object. You can set length to nil to prevent RSpec from
+doing truncation.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.max_formatted_output_length = 200
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        length
+      
+      
+        (Fixnum)
+      
+      
+      
+        —
+        the number of characters to limit the formatted output to.
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+69
+70
+71
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 69
+
+def max_formatted_output_length=(length)
+  RSpec::Support::ObjectFormatter.default_instance.max_formatted_output_length = length
+end
+    
+  
+
+
+    
+      
+  
+  
+    The list of configured syntaxes.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      unless RSpec::Matchers.configuration.syntax.include?(:expect)
+  raise "this RSpec extension gem requires the rspec-expectations `:expect` syntax"
+end
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Array<Symbol>)
+      
+      
+      
+        —
+        the list of configured syntaxes.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+79
+80
+81
+82
+83
+84
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 79
+
+def syntax
+  syntaxes = []
+  syntaxes << :should if Expectations::Syntax.should_enabled?
+  syntaxes << :expect if Expectations::Syntax.expect_enabled?
+  syntaxes
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures the supported syntax.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |rspec|
+  rspec.expect_with :rspec do |c|
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
+    c.syntax = [:should, :expect]
+  end
+end
+    
+  
+Parameters:
+
+  
+    
+      
+        values
+      
+      
+        (Array<Symbol>, Symbol)
+      
+      
+      
+        —
+        the syntaxes to enable
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 45
+
+def syntax=(values)
+  if Array(values).include?(:expect)
+    Expectations::Syntax.enable_expect
+  else
+    Expectations::Syntax.disable_expect
+  end
+
+  if Array(values).include?(:should)
+    Expectations::Syntax.enable_should
+  else
+    Expectations::Syntax.disable_should
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Configures whether RSpec will warn about matcher use which will
+potentially cause false positives in tests.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        boolean
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+170
+171
+172
+173
+174
+175
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 167
+
+def warn_about_potential_false_positives=(boolean)
+  if boolean
+    self.on_potential_false_positives = :warn
+  elsif warn_about_potential_false_positives?
+    self.on_potential_false_positives = :nothing
+  else
+    # no-op, handler is something else
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Indicates whether RSpec will warn about matcher use which will
+potentially cause false positives in tests, generally you want to
+avoid such scenarios so this defaults to true.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+196
+197
+198
+    
+    
+      # File 'lib/rspec/expectations/configuration.rb', line 196
+
+def warn_about_potential_false_positives?
+  on_potential_false_positives == :warn
+end
+    
+  
+
+
+    
+  
+

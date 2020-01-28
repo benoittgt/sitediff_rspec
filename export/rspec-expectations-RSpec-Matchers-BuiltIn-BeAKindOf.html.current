@@ -1,0 +1,345 @@
+Class: RSpec::Matchers::BuiltIn::BeAKindOf
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::BeAKindOf
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOfRSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/be_kind_of.rblib/rspec/matchers/built_in/be_kind_of.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be_kind_of.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be_kind_of.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be_a_kind_ofbe_a_kind_of.
+Not intended to be instantiated directly.Provides the implementation for be_a_kind_of.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be_a_kind_of.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be_a_kind_of.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINEDRSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  Method SummaryMethod Summary
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::BuiltIn::BaseMatcher::DefaultFailureMessagesMethods included from RSpec::Matchers::BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcherThis class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+
+Class: RSpec::Matchers::BuiltIn::BeAKindOf
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeAKindOf
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be_kind_of.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be_a_kind_of.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  Method Summary
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Matchers::BuiltIn::BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+

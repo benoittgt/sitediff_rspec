@@ -1,0 +1,964 @@
+Class: RSpec::Core::Formatters::FallbackMessageFormatter
+  
+  
+  PrivatePrivate
+Class: RSpec::Core::Formatters::FallbackMessageFormatter
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Formatters::FallbackMessageFormatterRSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+          Object
+          
+            RSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/fallback_message_formatter.rblib/rspec/core/formatters/fallback_message_formatter.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/fallback_message_formatter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/fallback_message_formatter.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing message output as a fallback when no other
+profiler implements #messageFormatter for providing message output as a fallback when no other
+profiler implements #message
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing message output as a fallback when no other
+profiler implements #message
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing message output as a fallback when no other
+profiler implements #message
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of FallbackMessageFormatter.A new instance of FallbackMessageFormatter.
+A new instance of FallbackMessageFormatter.
+A new instance of FallbackMessageFormatter.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of FallbackMessageFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
+Used by the reporter to send messages to the output stream.
+Used by the reporter to send messages to the output stream.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of FallbackMessageFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.Returns a new instance of FallbackMessageFormatter.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+
+
+10
+11
+12
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10# File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+defdef initializeinitialize((outputoutput))
+  @output@output == outputoutput
+endend# File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
+
+
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        notificationnotification
+      
+      
+        (MessageNotificationMessageNotification)(MessageNotification)
+      
+      
+      
+        —
+        containing messagecontaining message
+containing message
+
+      
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+
+
+22
+23
+24
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22# File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+defdef messagemessage((notificationnotification))
+  outputoutput..putsputs notificationnotification..messagemessage
+endend# File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::FallbackMessageFormatter
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::FallbackMessageFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/fallback_message_formatter.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing message output as a fallback when no other
+profiler implements #message
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of FallbackMessageFormatter.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of FallbackMessageFormatter.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+10
+11
+12
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 10
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+    
+    
+      # File 'lib/rspec/core/formatters/fallback_message_formatter.rb', line 22
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+

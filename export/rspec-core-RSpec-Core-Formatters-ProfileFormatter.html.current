@@ -1,0 +1,991 @@
+Class: RSpec::Core::Formatters::ProfileFormatter
+  
+  
+  PrivatePrivate
+Class: RSpec::Core::Formatters::ProfileFormatter
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Formatters::ProfileFormatterRSpec::Core::Formatters::ProfileFormatter
+          
+        
+          Object
+          
+            RSpec::Core::Formatters::ProfileFormatter
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::ProfileFormatter
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::ProfileFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/profile_formatter.rblib/rspec/core/formatters/profile_formatter.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/profile_formatter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::ProfileFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/profile_formatter.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing profile output.Formatter for providing profile output.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing profile output.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing profile output.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping the summary if profiling is enabled.This method is invoked after the dumping the summary if profiling is enabled.
+This method is invoked after the dumping the summary if profiling is enabled.
+This method is invoked after the dumping the summary if profiling is enabled.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping the summary if profiling is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ProfileFormatter.A new instance of ProfileFormatter.
+A new instance of ProfileFormatter.
+A new instance of ProfileFormatter.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ProfileFormatter.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping the summary if profiling is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ProfileFormatter.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatterReturns a new instance of ProfileFormatter
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatter
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatter
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+
+
+11
+12
+13
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11# File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+defdef initializeinitialize((outputoutput))
+  @output@output == outputoutput
+endend# File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatter
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatter
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        profileprofile
+      
+      
+        (ProfileNotificationProfileNotification)(ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groupscontaining duration,
+slowest_examples and slowest_example_groups
+containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+  
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+
+
+25
+26
+27
+28
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25# File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+defdef dump_profiledump_profile((profileprofile))
+  dump_profile_slowest_examplesdump_profile_slowest_examples((profileprofile))
+  dump_profile_slowest_example_groupsdump_profile_slowest_example_groups((profileprofile))
+endend# File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+
+  
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+
+
+  
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::ProfileFormatter
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::ProfileFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/profile_formatter.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Formatter for providing profile output.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping the summary if profiling is enabled.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ProfileFormatter.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ProfileFormatter
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 11
+
+def initialize(output)
+  @output = output
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    This method is invoked after the dumping the summary if profiling is
+enabled.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        profile
+      
+      
+        (ProfileNotification)
+      
+      
+      
+        —
+        containing duration,
+slowest_examples and slowest_example_groups
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+28
+    
+    
+      # File 'lib/rspec/core/formatters/profile_formatter.rb', line 25
+
+def dump_profile(profile)
+  dump_profile_slowest_examples(profile)
+  dump_profile_slowest_example_groups(profile)
+end
+    
+  
+
+
+    
+  
+

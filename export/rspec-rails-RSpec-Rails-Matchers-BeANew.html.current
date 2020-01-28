@@ -1,0 +1,649 @@
+Class: RSpec::Rails::Matchers::BeANew
+  
+  
+  PrivatePrivate
+Class: RSpec::Rails::Matchers::BeANew
+  
+  
+  Private
+
+
+
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Rails::Matchers::BeANewRSpec::Rails::Matchers::BeANew
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::BeANew
+          
+        
+        show allshow all
+      
+      
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::BeANew
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/be_a_new.rblib/rspec/rails/matchers/be_a_new.rb
+  
+
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::BeANew
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/be_a_new.rb
+  
+
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Matcher class for be_a_newbe_a_new. Should not be instantiated directly.Matcher class for be_a_new. Should not be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Matcher class for be_a_new. Should not be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Matcher class for be_a_new. Should not be instantiated directly.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      #be_a_new#be_a_new
+    
+  
+    
+      #be_a_new
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      #be_a_new
+    
+  
+
+
+  Constant SummaryConstant Summary
+  
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  RSpec::Rails::Matchers::BaseMatcher::UNDEFINEDRSpec::Rails::Matchers::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessagesMethods included from RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated#failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      RSpec::Rails::Matchers#be_a_newRSpec::Rails::Matchers#be_a_new
+    
+  
+    
+      RSpec::Rails::Matchers#be_a_new
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers#be_a_new
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+
+
+23
+24
+25
+26
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23# File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+defdef withwith((expected_attributesexpected_attributes))
+  attributesattributes..merge!merge!((expected_attributesexpected_attributes))
+  selfself
+endend# File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+
+
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers#be_a_new
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers#be_a_new
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Rails::Matchers::BeANew
+  
+  
+  Private
+
+
+
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::BeANew
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/be_a_new.rb
+  
+
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Matcher class for be_a_new. Should not be instantiated directly.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      #be_a_new
+    
+  
+
+
+  Constant Summary
+  
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  RSpec::Rails::Matchers::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers#be_a_new
+    
+  
+
+
+  
+    
+      
+
+
+23
+24
+25
+26
+    
+    
+      # File 'lib/rspec/rails/matchers/be_a_new.rb', line 23
+
+def with(expected_attributes)
+  attributes.merge!(expected_attributes)
+  self
+end
+    
+  
+
+
+    
+  
+

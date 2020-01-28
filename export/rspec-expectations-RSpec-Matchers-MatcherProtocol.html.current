@@ -1,0 +1,4713 @@
+Class: RSpec::Matchers::MatcherProtocol
+  
+  
+  
+Class: RSpec::Matchers::MatcherProtocol
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::MatcherProtocolRSpec::Matchers::MatcherProtocol
+          
+        
+          Object
+          
+            RSpec::Matchers::MatcherProtocol
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::MatcherProtocol
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::MatcherProtocol
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/matcher_protocol.rblib/rspec/matchers/matcher_protocol.rb
+  
+    Defined in:
+    lib/rspec/matchers/matcher_protocol.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::MatcherProtocol
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/matcher_protocol.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  
+    Note:Note:
+    This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+
+  
+    Note:
+    This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+
+  
+
+rspec-expectations can work with any matcher object that implements this protocol.rspec-expectations can work with any matcher object that implements this protocol.
+
+
+  
+    
+  
+    Note:
+    This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+
+  
+
+rspec-expectations can work with any matcher object that implements this protocol.
+
+
+  
+
+  
+    
+  
+    Note:
+    This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+
+  
+
+rspec-expectations can work with any matcher object that implements this protocol.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Required Methods
+      
+    
+      Required Methods
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called if #matches? returns false.This will only be called if #matches? returns false.
+This will only be called if #matches? returns false.
+This will only be called if #matches? returns false.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called if #matches? returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if this matcher matches the provided object.True if this matcher matches the provided object.
+True if this matcher matches the provided object.
+True if this matcher matches the provided object.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if this matcher matches the provided object.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called if #matches? returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if this matcher matches the provided object.
+
+  
+
+
+      
+    
+  
+    
+      Optional Methods
+      
+    
+      Optional Methods
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The actual value for the purposes of a diff.The actual value for the purposes of a diff.
+The actual value for the purposes of a diff.
+The actual value for the purposes of a diff.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The actual value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The description is used for two things:.The description is used for two things:.
+The description is used for two things:.
+The description is used for two things:.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The description is used for two things:.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher provides actualactual and expectedexpected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    In a negative expectation such as expect(x).not_to fooexpect(x).not_to foo, RSpec will call foo.does_not_match?(x)foo.does_not_match?(x) if this method is defined.In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The expected value for the purposes of a diff.The expected value for the purposes of a diff.
+The expected value for the purposes of a diff.
+The expected value for the purposes of a diff.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The expected value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called when a negative match fails.This will only be called when a negative match fails.
+This will only be called when a negative match fails.
+This will only be called when a negative match fails.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called when a negative match fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_errorexpect { foo }.to raise_error.Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The actual value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The description is used for two things:.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The expected value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called when a negative match fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This method is required if diffable?diffable? returns true.This method is required if diffable? returns true.
+This method is required if diffable? returns true.
+
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.The actual value for the purposes of a diff.
+
+
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.
+
+
+  
+
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString, ObjectObject)(String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pppp library to convert it to multi-line output in
+order to diff.If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82# File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+
+
+    
+      
+  
+  
+    The description is used for two things:The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+    The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+
+  
+    The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        Description of the matcher.Description of the matcher.
+Description of the matcher.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42# File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+
+
+  
+  
+    The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher provides actualactual and expectedexpected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+    Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+
+  
+    Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if actualactual and expectedexpected can be diffed.true if actual and expected can be diffed.
+true if actual and expected can be diffed.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76# File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+
+
+  
+  
+    Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+
+
+    
+      
+  
+  
+    In a negative expectation such as expect(x).not_to fooexpect(x).not_to foo, RSpec will
+call foo.does_not_match?(x)foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x)!foo.matches?(x). This allows you
+to provide custom logic for the negative case.In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        actualactual
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        The object being matched against.The object being matched against.
+The object being matched against.
+
+      
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...endexpect(x).not_to matcher do...end, the do/enddo/end
+block binds to not_tonot_to. It passes that block, if there is one, on to this method.For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.true if this matcher does not match the provided object.
+true if this matcher does not match the provided object.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24# File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+
+
+  
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This method is required if diffable?diffable? returns true.This method is required if diffable? returns true.
+This method is required if diffable? returns true.
+
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.The expected value for the purposes of a diff.
+
+
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.
+
+
+  
+
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString, ObjectObject)(String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pppp library to convert it to multi-line output in
+order to diff.If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89# File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This method is very rarely used or needed.This method is very rarely used or needed.
+This method is very rarely used or needed.
+
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:Note:
+    If not defined, RSpec assumes a value of falsefalse for this method.If not defined, RSpec assumes a value of false for this method.
+If not defined, RSpec assumes a value of false for this method.
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+    
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+
+  
+    
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jumptrue if the matcher expects a call stack jump
+true if the matcher expects a call stack jump
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63# File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+
+
+    
+      
+  
+  
+    This will only be called if #matches? returns false.This will only be called if #matches? returns false.
+
+
+  
+    This will only be called if #matches? returns false.
+
+
+  
+
+  
+    This will only be called if #matches? returns false.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        Explanation for the failure.Explanation for the failure.
+Explanation for the failure.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16# File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+
+
+  
+  
+    This will only be called if #matches? returns false.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodErrorNoMethodError.This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.This will only be called when a negative match fails.
+
+
+  
+    
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.
+
+
+  
+
+  
+    
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        Explanation for the failure.Explanation for the failure.
+Explanation for the failure.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35# File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if this matcher matches the provided object.Returns true if this matcher matches the provided object.
+
+
+  
+    Returns true if this matcher matches the provided object.
+
+
+  
+
+  
+    Returns true if this matcher matches the provided object.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        actualactual
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        The object being matched against.The object being matched against.
+The object being matched against.
+
+      
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...endexpect(x).to matcher do...end, the do/enddo/end
+block binds to toto. It passes that block, if there is one, on to this method.For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.true if this matcher matches the provided object.
+true if this matcher matches the provided object.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10# File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+
+
+  
+  
+    Returns true if this matcher matches the provided object.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    If not defined, RSpec assumes a value of falsefalse for this method.If not defined, RSpec assumes a value of false for this method.
+If not defined, RSpec assumes a value of false for this method.
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_errorexpect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+    
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+
+  
+    
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.true if this matcher can be used in block expressions.
+true if this matcher can be used in block expressions.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55# File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+# File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+
+
+    
+      
+  
+  
+    The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+
+
+    
+      
+  
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+
+
+    
+      
+  
+  
+    This will only be called if #matches? returns false.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if this matcher matches the provided object.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::MatcherProtocol
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::MatcherProtocol
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/matcher_protocol.rb
+  
+  
+
+
+Overview
+  
+    
+  
+    Note:
+    This class is not loaded at runtime by rspec-expectations. It exists
+purely to provide documentation for the matcher protocol.
+
+  
+
+rspec-expectations can work with any matcher object that implements this protocol.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Required Methods
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called if #matches? returns false.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    True if this matcher matches the provided object.
+
+  
+
+
+      
+    
+  
+    
+      Optional Methods
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The actual value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The description is used for two things:.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The expected value for the purposes of a diff.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This will only be called when a negative match fails.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The actual value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 82
+
+
+    
+  
+
+
+    
+      
+  
+  
+    The description is used for two things:
+
+
+When using RSpec's one-liner syntax
+(e.g. it { is_expected.to matcher }), the description
+is used to generate the example's doc string since you
+have not provided one.
+In a composed matcher expression, the description is used
+as part of the failure message (and description) of the outer
+matcher.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Description of the matcher.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 42
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Indicates that this matcher provides actual and expected attributes,
+and that the values returned by these can be usefully diffed, which can
+be included in the output.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if actual and expected can be diffed.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 76
+
+
+    
+  
+
+
+    
+      
+  
+  
+    In a negative expectation such as expect(x).not_to foo, RSpec will
+call foo.does_not_match?(x) if this method is defined. If it's not
+defined it will fall back to using !foo.matches?(x). This allows you
+to provide custom logic for the negative case.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).not_to matcher do...end, the do/end
+block binds to not_to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher does not match the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 24
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is required if diffable? returns true.
+
+  
+
+The expected value for the purposes of a diff.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String, Object)
+      
+      
+      
+        —
+        If an object (rather than a string) is provided,
+RSpec will use the pp library to convert it to multi-line output in
+order to diff.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 89
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is very rarely used or needed.
+
+  
+
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that when this matcher is used in a block expectation
+expression, it expects the block to use a ruby construct that causes
+a call stack jump (such as raising an error or throwing a symbol).
+
+This is used internally for compound block expressions, as matchers
+which expect call stack jumps must be treated with care to work properly.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the matcher expects a call stack jump
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 63
+
+
+    
+  
+
+
+    
+      
+  
+  
+    This will only be called if #matches? returns false.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 16
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This method is listed as optional because matchers do not have to
+support negation. But if your matcher does support negation, this is a
+required method -- otherwise, you'll get a NoMethodError.
+
+  
+
+This will only be called when a negative match fails.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        Explanation for the failure.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 35
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Returns true if this matcher matches the provided object.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        actual
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The object being matched against.
+
+      
+    
+  
+
+
+Yields:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        For an expression like expect(x).to matcher do...end, the do/end
+block binds to to. It passes that block, if there is one, on to this method.
+
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher matches the provided object.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 10
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    If not defined, RSpec assumes a value of false for this method.
+
+  
+
+Indicates that this matcher can be used in a block expectation expression,
+such as expect { foo }.to raise_error. Generally speaking, this is
+only needed for matchers which operate on a side effect of a block, rather
+than on a particular object.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if this matcher can be used in block expressions.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/matchers/matcher_protocol.rb', line 55
+
+
+    
+  
+
+
+    
+  
+

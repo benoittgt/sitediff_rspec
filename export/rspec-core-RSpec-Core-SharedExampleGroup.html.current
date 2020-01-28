@@ -1,0 +1,1959 @@
+Module: RSpec::Core::SharedExampleGroup
+  
+  
+  
+Module: RSpec::Core::SharedExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ExampleGroupExampleGroup
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/shared_example_group.rblib/rspec/core/shared_example_group.rb
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Shared example groups let you define common context and/or common
+examples that you wish to use in multiple example groups.Shared example groups let you define common context and/or common
+examples that you wish to use in multiple example groups.
+
+When defined, the shared group block is stored for later evaluation.
+It can later be included in an example group either explicitly
+(using include_examplesinclude_examples, include_contextinclude_context or it_behaves_likeit_behaves_like)
+or implicitly (via matching metadata).When defined, the shared group block is stored for later evaluation.
+It can later be included in an example group either explicitly
+(using include_examples, include_context or it_behaves_like)
+or implicitly (via matching metadata).
+
+Named shared example groups are scoped based on where they are
+defined. Shared groups defined in an example group are available
+for inclusion in that example group or any child example groups,
+but not in any parent or sibling example groups. Shared example
+groups defined at the top level can be included from any example group.Named shared example groups are scoped based on where they are
+defined. Shared groups defined in an example group are available
+for inclusion in that example group or any child example groups,
+but not in any parent or sibling example groups. Shared example
+groups defined at the top level can be included from any example group.
+
+
+  
+    Shared example groups let you define common context and/or common
+examples that you wish to use in multiple example groups.
+
+When defined, the shared group block is stored for later evaluation.
+It can later be included in an example group either explicitly
+(using include_examples, include_context or it_behaves_like)
+or implicitly (via matching metadata).
+
+Named shared example groups are scoped based on where they are
+defined. Shared groups defined in an example group are available
+for inclusion in that example group or any child example groups,
+but not in any parent or sibling example groups. Shared example
+groups defined at the top level can be included from any example group.
+
+
+  
+
+  
+    Shared example groups let you define common context and/or common
+examples that you wish to use in multiple example groups.
+
+When defined, the shared group block is stored for later evaluation.
+It can later be included in an example group either explicitly
+(using include_examples, include_context or it_behaves_like)
+or implicitly (via matching metadata).
+
+Named shared example groups are scoped based on where they are
+defined. Shared groups defined in an example group are available
+for inclusion in that example group or any child example groups,
+but not in any parent or sibling example groups. Shared example
+groups defined at the top level can be included from any example group.
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: TopLevelDSL
+    
+  
+    
+  
+
+  
+    
+      Modules: TopLevelDSL
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block for later use.Stores the block for later use.
+Stores the block for later use.
+Stores the block for later use.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block for later use.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block for later use.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examplesinclude_examples,
+include_contextinclude_context, or it_behaves_likeit_behaves_like.Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      shared_examplesshared_examples ""auditableauditable"""auditable" dodo
+  itit ""stores an audit record on save!stores an audit record on save!"""stores an audit record on save!" dodo
+    expectexpect {{ auditableauditable..save!save! }}..toto changechange((AuditAudit,, :count:count))..byby((11))
+  endend
+endend
+
+RSpecRSpec..describedescribe AccountAccount dodo
+  it_behaves_likeit_behaves_like ""auditableauditable"""auditable" dodo
+    letlet((:auditable:auditable)) {{ AccountAccount..newnew }}
+  endend
+endendshared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+endshared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+    Examples:
+    
+      
+      shared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+
+  Overloads:Overloads:
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        namename
+      
+      
+        (StringString, SymbolSymbol, ModuleModule)(String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared groupidentifer to use when looking up
+this shared group
+identifer to use when looking up
+this shared group
+
+      
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        blockblock
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'dThe block to be eval'd
+The block to be eval'd
+
+      
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        namename
+      
+      
+        (StringString, SymbolSymbol, ModuleModule)(String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared groupidentifer to use when looking up
+this shared group
+identifer to use when looking up
+this shared group
+
+      
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadatametadata
+      
+      
+        (Array<Symbol>Array<Symbol>, HashHash)(Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        blockblock
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'dThe block to be eval'd
+The block to be eval'd
+
+      
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      ExampleGroup.it_behaves_likeExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examplesExampleGroup.include_examples
+    
+      ExampleGroup.include_contextExampleGroup.include_context
+    
+  
+    
+      ExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examples
+    
+      ExampleGroup.include_context
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      shared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examples
+    
+      ExampleGroup.include_context
+    
+  
+
+
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88# File 'lib/rspec/core/shared_example_group.rb', line 88
+
+defdef shared_examplesshared_examples((namename,, **argsargs,, &&blockblock))
+  top_leveltop_level == selfself ==== ExampleGroupExampleGroup
+  ifif top_leveltop_level &&&& RSpecRSpec::::SupportSupport..thread_local_datathread_local_data[[:in_example_group:in_example_group]]
+    raiseraise ""Creating isolated shared examples from within a context is Creating isolated shared examples from within a context is """Creating isolated shared examples from within a context is " \
+          ""not allowed. Remove `RSpec.` prefix or move this to a not allowed. Remove `RSpec.` prefix or move this to a """not allowed. Remove `RSpec.` prefix or move this to a " \
+          ""top-level scope.top-level scope."""top-level scope."
+  endend
+
+  RSpecRSpec..worldworld..shared_example_group_registryshared_example_group_registry..addadd((selfself,, namename,, **argsargs,, &&blockblock))
+endend# File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+
+
+  
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      shared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examples
+    
+      ExampleGroup.include_context
+    
+  
+
+
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      shared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examples
+    
+      ExampleGroup.include_context
+    
+  
+
+
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::SharedExampleGroup
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleGroup
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/shared_example_group.rb
+  
+  
+
+
+Overview
+  
+    Shared example groups let you define common context and/or common
+examples that you wish to use in multiple example groups.
+
+When defined, the shared group block is stored for later evaluation.
+It can later be included in an example group either explicitly
+(using include_examples, include_context or it_behaves_like)
+or implicitly (via matching metadata).
+
+Named shared example groups are scoped based on where they are
+defined. Shared groups defined in an example group are available
+for inclusion in that example group or any child example groups,
+but not in any parent or sibling example groups. Shared example
+groups defined at the top level can be included from any example group.
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: TopLevelDSL
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stores the block for later use.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Stores the block for later use. The block will be evaluated
+in the context of an example group via include_examples,
+include_context, or it_behaves_like.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      shared_examples "auditable" do
+  it "stores an audit record on save!" do
+    expect { auditable.save! }.to change(Audit, :count).by(1)
+  end
+end
+
+RSpec.describe Account do
+  it_behaves_like "auditable" do
+    let(:auditable) { Account.new }
+  end
+end
+    
+  
+
+  Overloads:
+  
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        identifer to use when looking up
+this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        metadata to attach to this
+group; any example group or example with matching metadata will
+automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleGroup.it_behaves_like
+    
+      ExampleGroup.include_examples
+    
+      ExampleGroup.include_context
+    
+  
+
+
+  
+    
+      
+
+
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+    
+    
+      # File 'lib/rspec/core/shared_example_group.rb', line 88
+
+def shared_examples(name, *args, &block)
+  top_level = self == ExampleGroup
+  if top_level && RSpec::Support.thread_local_data[:in_example_group]
+    raise "Creating isolated shared examples from within a context is " \
+          "not allowed. Remove `RSpec.` prefix or move this to a " \
+          "top-level scope."
+  end
+
+  RSpec.world.shared_example_group_registry.add(self, name, *args, &block)
+end
+    
+  
+
+
+    
+  
+

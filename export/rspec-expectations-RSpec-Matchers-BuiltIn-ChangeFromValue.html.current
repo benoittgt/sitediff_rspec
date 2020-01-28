@@ -1,0 +1,1013 @@
+Class: RSpec::Matchers::BuiltIn::ChangeFromValue
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::ChangeFromValue
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      SpecificValuesChangeSpecificValuesChange
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            SpecificValuesChangeSpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValueRSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            SpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+        show allshow all
+      
+    
+      SpecificValuesChange
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            SpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      SpecificValuesChange
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            SpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/change.rblib/rspec/matchers/built_in/change.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      SpecificValuesChange
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            SpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a change from a specific value
+(and, optionally, to a specific value).Used to specify a change from a specific value
+(and, optionally, to a specific value).
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a change from a specific value
+(and, optionally, to a specific value).
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a change from a specific value
+(and, optionally, to a specific value).
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ChangeFromValue.A new instance of ChangeFromValue.
+A new instance of ChangeFromValue.
+A new instance of ChangeFromValue.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeFromValue.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.Specifies the new value you expect.
+Specifies the new value you expect.
+Specifies the new value you expect.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeFromValue.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message#failure_message
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValueReturns a new instance of ChangeFromValue
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValue
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValue
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+259
+
+
+256
+257
+258
+259
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256# File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+defdef initializeinitialize((change_detailschange_details,, expected_beforeexpected_before))
+  @description_suffix@description_suffix == nilnil
+  supersuper((change_detailschange_details,, expected_beforeexpected_before,, MATCH_ANYTHINGMATCH_ANYTHING))
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+
+  
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValue
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValue
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Specifies the new value you expect.Specifies the new value you expect.
+
+
+  
+    Specifies the new value you expect.
+
+
+  
+
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+
+
+263
+264
+265
+266
+267
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263# File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+defdef toto((valuevalue))
+  @expected_after@expected_after     == valuevalue
+  @description_suffix@description_suffix == "" to  to #{#{description_ofdescription_of valuevalue}}""" to #{description_of value}"
+  selfself
+endend# File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+
+
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::ChangeFromValue
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      SpecificValuesChange
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            SpecificValuesChange
+          
+            RSpec::Matchers::BuiltIn::ChangeFromValue
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/change.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to specify a change from a specific value
+(and, optionally, to a specific value).
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ChangeFromValue.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the new value you expect.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ChangeFromValue
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+256
+257
+258
+259
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 256
+
+def initialize(change_details, expected_before)
+  @description_suffix = nil
+  super(change_details, expected_before, MATCH_ANYTHING)
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Specifies the new value you expect.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+263
+264
+265
+266
+267
+    
+    
+      # File 'lib/rspec/matchers/built_in/change.rb', line 263
+
+def to(value)
+  @expected_after     = value
+  @description_suffix = " to #{description_of value}"
+  self
+end
+    
+  
+
+
+    
+  
+

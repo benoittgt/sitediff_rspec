@@ -1,0 +1,1539 @@
+Class: BasicObject
+  
+  
+  
+Class: BasicObject
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations/syntax.rblib/rspec/expectations/syntax.rb
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+
+OverviewOverview
+  
+    The legacy :should:should syntax adds the following methods directly to
+BasicObjectBasicObject so that they are available off of any object. Note, however,
+that this syntax does not always play nice with delegate/proxy objects.
+We recommend you use the non-monkeypatching :expect:expect syntax instead.The legacy :should syntax adds the following methods directly to
+BasicObject so that they are available off of any object. Note, however,
+that this syntax does not always play nice with delegate/proxy objects.
+We recommend you use the non-monkeypatching :expect syntax instead.
+
+
+  
+    The legacy :should syntax adds the following methods directly to
+BasicObject so that they are available off of any object. Note, however,
+that this syntax does not always play nice with delegate/proxy objects.
+We recommend you use the non-monkeypatching :expect syntax instead.
+
+
+  
+
+  
+    The legacy :should syntax adds the following methods directly to
+BasicObject so that they are available off of any object. Note, however,
+that this syntax does not always play nice with delegate/proxy objects.
+We recommend you use the non-monkeypatching :expect syntax instead.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matchermatcher returns true.Passes if matcher returns true.
+Passes if matcher returns true.
+Passes if matcher returns true.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns true.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matchermatcher returns false.Passes if matcher returns false.
+Passes if matcher returns false.
+Passes if matcher returns false.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns false.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns true.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns false.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This is only available when you have enabled the :should:should syntax.This is only available when you have enabled the :should syntax.
+This is only available when you have enabled the :should syntax.
+
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matchermatcher returns true.  Available on every ObjectObject.Passes if matcher returns true.  Available on every Object.
+
+
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns true.  Available on every Object.
+
+
+  
+
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns true.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      actualactual..shouldshould eqeq expectedexpected
+actualactual..shouldshould matchmatch //expressionexpression///expression/actual.should eq expected
+actual.should match /expression/actual.should eq expected
+actual.should match /expression/
+    
+  
+    Examples:
+    
+      
+      actual.should eq expected
+actual.should match /expression/
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        matchermatcher
+      
+      
+        (MatcherMatcher)(Matcher)
+      
+      
+      
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        optional message to display when the expectation failsoptional message to display when the expectation fails
+optional message to display when the expectation fails
+
+      
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)true if the expectation succeeds (else raises)
+true if the expectation succeeds (else raises)
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::MatchersRSpec::Matchers
+    
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should eq expected
+actual.should match /expression/
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109# File 'lib/rspec/expectations/syntax.rb', line 109
+
+# File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns true.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should eq expected
+actual.should match /expression/
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    This is only available when you have enabled the :should:should syntax.This is only available when you have enabled the :should syntax.
+This is only available when you have enabled the :should syntax.
+
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matchermatcher returns false.  Available on every ObjectObject.Passes if matcher returns false.  Available on every Object.
+
+
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns false.  Available on every Object.
+
+
+  
+
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns false.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      actualactual..should_notshould_not eqeq expectedexpectedactual.should_not eq expectedactual.should_not eq expected
+    
+  
+    Examples:
+    
+      
+      actual.should_not eq expected
+    
+  
+Parameters:Parameters:
+
+  
+    
+      
+        matchermatcher
+      
+      
+        (MatcherMatcher)(Matcher)
+      
+      
+      
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        messagemessage
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        optional message to display when the expectation failsoptional message to display when the expectation fails
+optional message to display when the expectation fails
+
+      
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)false if the negative expectation succeeds (else raises)
+false if the negative expectation succeeds (else raises)
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::MatchersRSpec::Matchers
+    
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should_not eq expected
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121# File 'lib/rspec/expectations/syntax.rb', line 121
+
+# File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns false.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should_not eq expected
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns true.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should eq expected
+actual.should match /expression/
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns false.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should_not eq expected
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+
+
+    
+  
+
+Class: BasicObject
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/syntax.rb
+  
+  
+
+
+Overview
+  
+    The legacy :should syntax adds the following methods directly to
+BasicObject so that they are available off of any object. Note, however,
+that this syntax does not always play nice with delegate/proxy objects.
+We recommend you use the non-monkeypatching :expect syntax instead.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns true.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Passes if matcher returns false.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns true.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should eq expected
+actual.should match /expression/
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if the expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 109
+
+
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    This is only available when you have enabled the :should syntax.
+
+  
+
+Passes if matcher returns false.  Available on every Object.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      actual.should_not eq expected
+    
+  
+Parameters:
+
+  
+    
+      
+        matcher
+      
+      
+        (Matcher)
+      
+      
+      
+    
+  
+    
+      
+        message
+      
+      
+        (String)
+      
+      
+      
+        —
+        optional message to display when the expectation fails
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        false if the negative expectation succeeds (else raises)
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Matchers
+    
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/expectations/syntax.rb', line 121
+
+
+    
+  
+
+
+    
+  
+

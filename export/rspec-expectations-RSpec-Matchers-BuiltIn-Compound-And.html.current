@@ -1,0 +1,854 @@
+Class: RSpec::Matchers::BuiltIn::Compound::And
+  
+  
+  
+Class: RSpec::Matchers::BuiltIn::Compound::And
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      RSpec::Matchers::BuiltIn::CompoundRSpec::Matchers::BuiltIn::Compound
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::CompoundRSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::AndRSpec::Matchers::BuiltIn::Compound::And
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::And
+          
+        
+        show allshow all
+      
+    
+      RSpec::Matchers::BuiltIn::Compound
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::And
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      RSpec::Matchers::BuiltIn::Compound
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::And
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/compound.rblib/rspec/matchers/built_in/compound.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      RSpec::Matchers::BuiltIn::Compound
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::And
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+
+OverviewOverview
+  
+    Matcher used to represent a compound andand expectation.Matcher used to represent a compound and expectation.
+
+
+  
+    Matcher used to represent a compound and expectation.
+
+
+  
+
+  
+    Matcher used to represent a compound and expectation.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from RSpec::Matchers::BuiltIn::CompoundMethods inherited from RSpec::Matchers::BuiltIn::Compound
+  #description, #diffable?, #expected, #expects_call_stack_jump?, #initialize, #supports_block_expectations?#description, #diffable?, #expected, #expects_call_stack_jump?, #initialize, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated#failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::CompoundThis class inherits a constructor from RSpec::Matchers::BuiltIn::Compound
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::Compound
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231# File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+defdef failure_messagefailure_message
+  ifif matcher_1_matches?matcher_1_matches?
+    matcher_2matcher_2..failure_messagefailure_message
+  elsifelsif matcher_2_matches?matcher_2_matches?
+    matcher_1matcher_1..failure_messagefailure_message
+  elseelse
+    compound_failure_messagecompound_failure_message
+  endend
+endend# File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Compound::And
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      RSpec::Matchers::BuiltIn::Compound
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Compound
+          
+            RSpec::Matchers::BuiltIn::Compound::And
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/compound.rb
+  
+  
+
+
+Overview
+  
+    Matcher used to represent a compound and expectation.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from RSpec::Matchers::BuiltIn::Compound
+  #description, #diffable?, #expected, #expects_call_stack_jump?, #initialize, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::Compound
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+231
+232
+233
+234
+235
+236
+237
+238
+239
+    
+    
+      # File 'lib/rspec/matchers/built_in/compound.rb', line 231
+
+def failure_message
+  if matcher_1_matches?
+    matcher_2.failure_message
+  elsif matcher_2_matches?
+    matcher_1.failure_message
+  else
+    compound_failure_message
+  end
+end
+    
+  
+
+
+    
+  
+

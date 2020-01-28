@@ -1,0 +1,2819 @@
+Module: RSpec
+  
+  
+  
+Module: RSpec
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core.rb
+lib/rspec/core.rb
+
+  
+    Defined in:
+    lib/rspec/core.rb
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core.rb
+
+  
+  
+
+
+OverviewOverview
+  
+    This is borrowed (slightly modified) from Scott Taylor's
+project_path project:
+  http://github.com/smtlaissezfaire/project_pathhttp://github.com/smtlaissezfaire/project_pathThis is borrowed (slightly modified) from Scott Taylor's
+project_path project:
+  http://github.com/smtlaissezfaire/project_path
+
+
+  
+    This is borrowed (slightly modified) from Scott Taylor's
+project_path project:
+  http://github.com/smtlaissezfaire/project_path
+
+
+  
+
+  
+    This is borrowed (slightly modified) from Scott Taylor's
+project_path project:
+  http://github.com/smtlaissezfaire/project_path
+
+
+  
+
+
+  
+
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: Core
+    
+  
+    
+  
+
+  
+    
+      Modules: Core
+    
+  
+    
+  
+
+
+
+
+
+  Class Attribute Summary Class Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the global ConfigurationConfiguration object.Returns the global Configuration object.
+Returns the global Configuration object.
+Returns the global Configuration object.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the global Configuration object.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonlywriteonly
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    Setters for shared global objects.Setters for shared global objects.
+Setters for shared global objects.
+Setters for shared global objects.
+
+  
+
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  private
+
+  
+    Setters for shared global objects.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the global Configuration object.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  private
+
+  
+    Setters for shared global objects.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields the global configuration to a block.Yields the global configuration to a block.
+Yields the global configuration to a block.
+Yields the global configuration to a block.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields the global configuration to a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example being executed.The example being executed.
+The example being executed.
+The example being executed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Set the current example being executed.Set the current example being executed.
+Set the current example being executed.
+Set the current example being executed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Set the current example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields the global configuration to a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Set the current example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+    Class Attribute DetailsClass Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the global ConfigurationConfiguration object. While
+you cancan use this method to access the configuration, the more common
+convention is to use RSpec.configureRSpec.configure.Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+    Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+
+  
+    Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configurationconfiguration..drb_portdrb_port == 12341234RSpec.configuration.drb_port = 1234RSpec.configuration.drb_port = 1234
+    
+  
+    Examples:
+    
+      
+      RSpec.configuration.drb_port = 1234
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      configureconfigure
+    
+      RSpec::Core::ConfigurationRSpec::Core::Configuration
+    
+  
+    
+      configure
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configuration.drb_port = 1234
+    
+  
+
+
+  See Also:
+  
+    
+      configure
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+85
+86
+87
+
+
+85
+86
+87
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85# File 'lib/rspec/core.rb', line 85
+
+defdef selfself..configurationconfiguration
+  @configuration@configuration ||=||= RSpecRSpec::::CoreCore::::ConfigurationConfiguration..newnew
+endend# File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+
+
+  
+  
+    Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configuration.drb_port = 1234
+    
+  
+
+
+  See Also:
+  
+    
+      configure
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objectsSetters for shared global objects
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objects
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objects
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+
+
+49
+50
+51
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49# File 'lib/rspec/core.rb', line 49
+
+defdef world=world=((valuevalue))
+  @world@world == valuevalue
+endend# File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+
+  
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objects
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+
+
+    
+  
+    Class Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configuration.drb_port = 1234
+    
+  
+
+
+  See Also:
+  
+    
+      configure
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objects
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+
+
+70
+71
+72
+73
+74
+75
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70# File 'lib/rspec/core.rb', line 70
+
+defdef selfself..clear_examplesclear_examples
+  worldworld..resetreset
+  configurationconfiguration..reset_reporterreset_reporter
+  configurationconfiguration..start_timestart_time == ::::RSpecRSpec::::CoreCore::::TimeTime..nownow
+  configurationconfiguration..reset_filtersreset_filters
+endend# File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+
+
+  
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields the global configuration to a block.Yields the global configuration to a block.
+
+
+  
+    Yields the global configuration to a block.
+
+
+  
+
+  
+    Yields the global configuration to a block.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      RSpecRSpec..configureconfigure dodo ||configconfig||
+  configconfig..add_formatteradd_formatter ''documentationdocumentation'''documentation'
+endendRSpec.configure do |config|
+  config.add_formatter 'documentation'
+endRSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+
+Yields:Yields:
+
+  
+    
+      
+      
+        (ConfigurationConfiguration)(Configuration)
+      
+      
+      
+        —
+        global configurationglobal configuration
+global configuration
+
+      
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::Core::ConfigurationRSpec::Core::Configuration
+    
+  
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+97
+98
+99
+
+
+97
+98
+99
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97# File 'lib/rspec/core.rb', line 97
+
+defdef selfself..configureconfigure
+  yieldyield configurationconfiguration ifif block_given?block_given?
+endend# File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+
+
+  
+  
+    Yields the global configuration to a block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+
+
+    
+      
+  
+  
+    The example being executed.The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+    The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+
+  
+    The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      
+RSpecRSpec..configureconfigure dodo ||cc||
+  # context.example is deprecated, but RSpec.current_example is not
+# context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+# available until RSpec 3.0.
+  fetch_current_examplefetch_current_example == RSpecRSpec..respond_to?respond_to?((:current_example:current_example)) ??
+    procproc {{ RSpecRSpec..current_examplecurrent_example }} :: procproc {{ ||contextcontext|| contextcontext..exampleexample }}
+
+  cc..beforebefore((:example:example)) dodo
+    exampleexample == fetch_current_examplefetch_current_example..callcall((selfself))
+
+    # ...
+# ...
+  endend
+endend
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+
+
+122
+123
+124
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122# File 'lib/rspec/core.rb', line 122
+
+defdef selfself..current_examplecurrent_example
+  RSpecRSpec::::SupportSupport..thread_local_datathread_local_data[[:current_example:current_example]]
+endend# File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+
+  
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+
+
+  
+  
+    The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.Set the current example being executed.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+
+
+128
+129
+130
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128# File 'lib/rspec/core.rb', line 128
+
+defdef selfself..current_example=current_example=((exampleexample))
+  RSpecRSpec::::SupportSupport..thread_local_datathread_local_data[[:current_example:current_example]] == exampleexample
+endend# File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+
+
+58
+59
+60
+61
+62
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58# File 'lib/rspec/core.rb', line 58
+
+defdef selfself..resetreset
+  RSpecRSpec::::ExampleGroupsExampleGroups..remove_all_constantsremove_all_constants
+  @world@world == nilnil
+  @configuration@configuration == nilnil
+endend# File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+
+
+  
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields the global configuration to a block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+
+
+    
+      
+  
+  
+    The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core.rb
+
+  
+  
+
+
+Overview
+  
+    This is borrowed (slightly modified) from Scott Taylor's
+project_path project:
+  http://github.com/smtlaissezfaire/project_path
+
+
+  
+
+
+  
+
+Defined Under Namespace
+
+  
+    
+      Modules: Core
+    
+  
+    
+  
+
+
+
+
+
+  Class Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the global Configuration object.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+      writeonly
+    
+  
+  
+  
+  
+  private
+
+  
+    Setters for shared global objects.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Yields the global configuration to a block.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Set the current example being executed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+    Class Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the global Configuration object. While
+you can use this method to access the configuration, the more common
+convention is to use RSpec.configure.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configuration.drb_port = 1234
+    
+  
+
+
+  See Also:
+  
+    
+      configure
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+85
+86
+87
+    
+    
+      # File 'lib/rspec/core.rb', line 85
+
+def self.configuration
+  @configuration ||= RSpec::Core::Configuration.new
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Setters for shared global objects
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+49
+50
+51
+    
+    
+      # File 'lib/rspec/core.rb', line 49
+
+def world=(value)
+  @world = value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded between multiple runs in the same
+process and ensures user configuration is persisted.
+
+Users must invoke this if they want to clear all examples but preserve
+current configuration when they use the runner multiple times within the
+same process.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+70
+71
+72
+73
+74
+75
+    
+    
+      # File 'lib/rspec/core.rb', line 70
+
+def self.clear_examples
+  world.reset
+  configuration.reset_reporter
+  configuration.start_time = ::RSpec::Core::Time.now
+  configuration.reset_filters
+end
+    
+  
+
+
+    
+      
+  
+  
+    Yields the global configuration to a block.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      RSpec.configure do |config|
+  config.add_formatter 'documentation'
+end
+    
+  
+
+Yields:
+
+  
+    
+      
+      
+        (Configuration)
+      
+      
+      
+        —
+        global configuration
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Core::Configuration
+    
+  
+
+
+  
+    
+      
+
+
+97
+98
+99
+    
+    
+      # File 'lib/rspec/core.rb', line 97
+
+def self.configure
+  yield configuration if block_given?
+end
+    
+  
+
+
+    
+      
+  
+  
+    The example being executed.
+
+The primary audience for this method is library authors who need access
+to the example currently being executed and also want to support all
+versions of RSpec 2 and 3.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      
+RSpec.configure do |c|
+  # context.example is deprecated, but RSpec.current_example is not
+  # available until RSpec 3.0.
+  fetch_current_example = RSpec.respond_to?(:current_example) ?
+    proc { RSpec.current_example } : proc { |context| context.example }
+
+  c.before(:example) do
+    example = fetch_current_example.call(self)
+
+    # ...
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+122
+123
+124
+    
+    
+      # File 'lib/rspec/core.rb', line 122
+
+def self.current_example
+  RSpec::Support.thread_local_data[:current_example]
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Set the current example being executed.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+128
+129
+130
+    
+    
+      # File 'lib/rspec/core.rb', line 128
+
+def self.current_example=(example)
+  RSpec::Support.thread_local_data[:current_example] = example
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used to ensure examples get reloaded and user configuration gets reset to
+defaults between multiple runs in the same process.
+
+Users must invoke this if they want to have the configuration reset when
+they use the runner multiple times within the same process. Users must deal
+themselves with re-configuration of RSpec before run.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+58
+59
+60
+61
+62
+    
+    
+      # File 'lib/rspec/core.rb', line 58
+
+def self.reset
+  RSpec::ExampleGroups.remove_all_constants
+  @world = nil
+  @configuration = nil
+end
+    
+  
+
+
+    
+  
+

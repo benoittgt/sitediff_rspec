@@ -1,0 +1,292 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new[m
+[1mindex d2756c4..5ef6d2b 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new[m
+[36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus[m
+       [m
+     [m
+   [m
+[32m+[m[32m    Inherits:[m
+[32m+[m[41m    [m
+[32m+[m[32m      BaseMatcher[m
+[32m+[m[41m      [m
+[32m+[m[41m        [m
+[32m+[m[32m          Object[m
+[32m+[m[41m          [m
+[32m+[m[32m            BaseMatcher[m
+[32m+[m[41m          [m
+[32m+[m[32m            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus[m
+[32m+[m[41m          [m
+[32m+[m[41m        [m
+[32m+[m[32m        show all[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+   [m
+[36m@@ -54,6 +72,12 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus[m
+       Includes:Includes:[m
+       RSpec::Rails::Matchers::HaveHttpStatusRSpec::Rails::Matchers::HaveHttpStatus[m
+   [m
+[32m+[m[32m      Includes:[m
+[32m+[m[32m      RSpec::Rails::Matchers::HaveHttpStatus[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+ [m
+   [m
+[36m@@ -61,6 +85,11 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus[m
+     Defined in:Defined in:[m
+     lib/rspec/rails/matchers/have_http_status.rblib/rspec/rails/matchers/have_http_status.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/matchers/have_http_status.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+     Inherits:[m
+[36m@@ -192,9 +226,6 @@[m [mNot intended to be instantiated directly.[m
+   [m
+ [m
+ [m
+[31m-  Constant SummaryConstant Summary[m
+[31m-  [m
+[31m-[m
+ [m
+ [m
+   Constant SummaryConstant Summary[m
+[36m@@ -523,7 +554,7 @@[m [mtrue if Rack's associated numeric HTTP code matched the response code.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatusReturns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.Returns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -531,7 +562,7 @@[m [mReturns a new instance of SymbolicStatusReturns a new instance of SymbolicStatus[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -541,7 +572,7 @@[m [mReturns a new instance of SymbolicStatus[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -664,7 +695,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -709,7 +740,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -964,7 +995,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failedReturns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.Returns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -972,7 +1003,7 @@[m [mReturns explaining why the match failedReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -982,7 +1013,7 @@[m [mReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1156,7 +1187,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1216,7 +1247,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failedReturns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.Returns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1224,7 +1255,7 @@[m [mReturns explaining why the match failedReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1234,7 +1265,7 @@[m [mReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1408,7 +1439,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1469,8 +1500,8 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns truetrue if Rack's associated numeric HTTP code matched[m
+[31m-the responseresponse codeReturns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe responseresponse code.Returns true if Rack's associated numeric HTTP code matched[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1479,7 +1510,7 @@[m [mthe response code[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1490,7 +1521,7 @@[m [mthe response code[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1770,7 +1801,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1905,7 +1936,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1962,7 +1993,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -2020,7 +2051,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m
+[36m@@ -2175,9 +2211,6 @@[m [mNot intended to be instantiated directly.[m
+   [m
+ [m
+ [m
+[31m-  Constant Summary[m
+[31m-  [m
+[31m-[m
+ [m
+ [m
+   Constant Summary[m
+[36m@@ -2332,7 +2365,7 @@[m [mNot intended to be instantiated directly.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of SymbolicStatus[m
+[32m+[m[32mReturns a new instance of SymbolicStatus.[m
+ [m
+ [m
+   [m
+[36m@@ -2429,7 +2462,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -2486,7 +2519,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -2544,7 +2577,7 @@[m [mend[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+ Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[32mthe response code.[m
+ [m
+ [m
+   [m

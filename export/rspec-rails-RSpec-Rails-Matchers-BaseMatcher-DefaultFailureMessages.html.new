@@ -1,0 +1,975 @@
+Module: RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessages
+  
+  
+  PrivatePrivate
+Module: RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessages
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    RSpec::Rails::Matchers::BaseMatcherRSpec::Rails::Matchers::BaseMatcher
+  
+    Included in:
+    RSpec::Rails::Matchers::BaseMatcher
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/base_matcher.rblib/rspec/rails/matchers/base_matcher.rb
+  
+    Defined in:
+    lib/rspec/rails/matchers/base_matcher.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Rails::Matchers::BaseMatcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/base_matcher.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This module is part of a private API.This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides default implementations of failure messages, based on the descriptiondescription.Provides default implementations of failure messages, based on the description.
+
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides default implementations of failure messages, based on the description.
+
+
+  
+
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides default implementations of failure messages, based on the description.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Provides a good generic failure message.Provides a good generic failure message.
+Provides a good generic failure message.
+Provides a good generic failure message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Provides a good generic negative failure message.Provides a good generic negative failure message.
+Provides a good generic negative failure message.
+Provides a good generic negative failure message.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic negative failure message.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic negative failure message.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on descriptiondescription.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override descriptiondescription.Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+
+
+158
+159
+160
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158# File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+defdef failure_messagefailure_message
+  ""expected expected #{#{description_ofdescription_of @actual@actual}} to  to #{#{descriptiondescription}}"""expected #{description_of @actual} to #{description}"..dupdup
+endend# File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on descriptiondescription.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override descriptiondescription.Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+
+
+167
+168
+169
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167# File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""expected expected #{#{description_ofdescription_of @actual@actual}} not to  not to #{#{descriptiondescription}}"""expected #{description_of @actual} not to #{description}"..dupdup
+endend# File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::Matchers::BaseMatcher::DefaultFailureMessages
+  
+  
+  Private
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    RSpec::Rails::Matchers::BaseMatcher
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/base_matcher.rb
+  
+  
+
+
+Overview
+  
+    
+  This module is part of a private API.
+  You should avoid using this module if possible, as it may be removed or be changed in the future.
+
+Provides default implementations of failure messages, based on the description.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic failure message.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Provides a good generic negative failure message.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+158
+159
+160
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 158
+
+def failure_message
+  "expected #{description_of @actual} to #{description}".dup
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Provides a good generic negative failure message. Based on description.
+When subclassing, if you are not satisfied with this failure message
+you often only need to override description.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+167
+168
+169
+    
+    
+      # File 'lib/rspec/rails/matchers/base_matcher.rb', line 167
+
+def failure_message_when_negated
+  "expected #{description_of @actual} not to #{description}".dup
+end
+    
+  
+
+
+    
+  
+

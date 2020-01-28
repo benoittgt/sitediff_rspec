@@ -1,0 +1,3431 @@
+Module: RSpec::Mocks::ArgumentMatchers
+  
+  
+  
+Module: RSpec::Mocks::ArgumentMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:Included in:
+    ExampleMethodsExampleMethods
+  
+    Included in:
+    ExampleMethods
+  
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/argument_matchers.rblib/rspec/mocks/argument_matchers.rb
+  
+    Defined in:
+    lib/rspec/mocks/argument_matchers.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleMethods
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/argument_matchers.rb
+  
+  
+
+
+OverviewOverview
+  
+    ArgumentMatchers are placeholders that you can include in message
+expectations to match arguments against a broader check than simple
+equality.ArgumentMatchers are placeholders that you can include in message
+expectations to match arguments against a broader check than simple
+equality.
+
+With the exception of any_argsany_args and no_argsno_args, they all match against
+the arg in same position in the argument list.With the exception of any_args and no_args, they all match against
+the arg in same position in the argument list.
+
+
+  
+    ArgumentMatchers are placeholders that you can include in message
+expectations to match arguments against a broader check than simple
+equality.
+
+With the exception of any_args and no_args, they all match against
+the arg in same position in the argument list.
+
+
+  
+
+  
+    ArgumentMatchers are placeholders that you can include in message
+expectations to match arguments against a broader check than simple
+equality.
+
+With the exception of any_args and no_args, they all match against
+the arg in same position in the argument list.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      ArgumentListMatcherArgumentListMatcher
+    
+  
+    
+      ArgumentListMatcher
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      ArgumentListMatcher
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.Acts like an arg splat, matching any number of args at any point in an arg list.
+Acts like an arg splat, matching any number of args at any point in an arg list.
+Acts like an arg splat, matching any number of args at any point in an arg list.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches any argument at all.Matches any argument at all.
+Matches any argument at all.
+Matches any argument at all.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches any argument at all.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches an array that includes the specified items at least once.Matches an array that includes the specified items at least once.
+Matches an array that includes the specified items at least once.
+Matches an array that includes the specified items at least once.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches an array that includes the specified items at least once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a boolean value.Matches a boolean value.
+Matches a boolean value.
+Matches a boolean value.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a boolean value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if the actual argument responds to the specified messages.Matches if the actual argument responds to the specified messages.
+Matches if the actual argument responds to the specified messages.
+Matches if the actual argument responds to the specified messages.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if the actual argument responds to the specified messages.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.Matches a hash that doesn't include the specified key(s) or key/value.
+Matches a hash that doesn't include the specified key(s) or key/value.
+Matches a hash that doesn't include the specified key(s) or key/value.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.Matches a hash that includes the specified key(s) or key/value pairs.
+Matches a hash that includes the specified key(s) or key/value pairs.
+Matches a hash that includes the specified key(s) or key/value pairs.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.instance_of?(klass)arg.instance_of?(klass).Matches if arg.instance_of?(klass).
+Matches if arg.instance_of?(klass).
+Matches if arg.instance_of?(klass).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.instance_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.kind_of?(klass)arg.kind_of?(klass).Matches if arg.kind_of?(klass).
+Matches if arg.kind_of?(klass).
+Matches if arg.kind_of?(klass).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.kind_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches no arguments.Matches no arguments.
+Matches no arguments.
+Matches no arguments.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches no arguments.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches any argument at all.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches an array that includes the specified items at least once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a boolean value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if the actual argument responds to the specified messages.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.instance_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.kind_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches no arguments.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((11,, 22,, any_argsany_args))
+
+# matches any of these:
+# matches any of these:
+objectobject..messagemessage((11,, 22))
+objectobject..messagemessage((11,, 22,, 33))
+objectobject..messagemessage((11,, 22,, 33,, 44))expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+
+
+26
+27
+28
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26# File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+defdef any_argsany_args
+  AnyArgsMatcherAnyArgsMatcher::::INSTANCEINSTANCE
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+
+
+  
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches any argument at all.Matches any argument at all.
+
+
+  
+    Matches any argument at all.
+
+
+  
+
+  
+    Matches any argument at all.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((anythinganything))expect(object).to receive(:message).with(anything)expect(object).to receive(:message).with(anything)
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(anything)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(anything)
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+
+
+34
+35
+36
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34# File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+defdef anythinganything
+  AnyArgMatcherAnyArgMatcher::::INSTANCEINSTANCE
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+
+
+  
+  
+    Matches any argument at all.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(anything)
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional valuesMatches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((array_includingarray_including((11,,22,,33))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((array_includingarray_including(([[11,,22,,33]]))))expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+
+
+80
+81
+82
+83
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80# File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+defdef array_includingarray_including((**argsargs))
+  actually_an_arrayactually_an_array == ArrayArray ====== argsargs..firstfirst &&&& argsargs..countcount ==== 11 ?? argsargs..firstfirst :: argsargs
+  ArrayIncludingMatcherArrayIncludingMatcher..newnew((actually_an_arrayactually_an_array))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+
+  
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+
+
+  
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a boolean value.Matches a boolean value.
+
+
+  
+    Matches a boolean value.
+
+
+  
+
+  
+    Matches a boolean value.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((booleanboolean(())))expect(object).to receive(:message).with(boolean())expect(object).to receive(:message).with(boolean())
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(boolean())
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(boolean())
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+60
+61
+
+
+59
+60
+61
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59# File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+defdef booleanboolean
+  BooleanMatcherBooleanMatcher::::INSTANCEINSTANCE
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+
+  
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+
+
+  
+  
+    Matches a boolean value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(boolean())
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if the actual argument responds to the specified messages.Matches if the actual argument responds to the specified messages.
+
+
+  
+    Matches if the actual argument responds to the specified messages.
+
+
+  
+
+  
+    Matches if the actual argument responds to the specified messages.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((duck_typeduck_type((:hello:hello))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((duck_typeduck_type((:hello:hello,, :goodbye:goodbye))))expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+
+
+51
+52
+53
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51# File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+defdef duck_typeduck_type((**argsargs))
+  DuckTypeMatcherDuckTypeMatcher..newnew((**argsargs))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+
+
+  
+  
+    Matches if the actual argument responds to the specified messages.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_excludinghash_excluding((:key:key =>=> valval))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_excludinghash_excluding((:key:key))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_excludinghash_excluding((:key:key,, :key2:key2 =>=> :val2:val2))))expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+
+
+91
+92
+93
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91# File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+defdef hash_excludinghash_excluding((**argsargs))
+  HashExcludingMatcherHashExcludingMatcher..newnew((ArgumentMatchersArgumentMatchers..anythingize_lonely_keysanythingize_lonely_keys((**argsargs))))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+  
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_includinghash_including((:key:key =>=> valval))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_includinghash_including((:key:key))))
+expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_includinghash_including((:key:key,, :key2:key2 =>=> val2val2))))expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+
+
+70
+71
+72
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70# File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+defdef hash_includinghash_including((**argsargs))
+  HashIncludingMatcherHashIncludingMatcher..newnew((ArgumentMatchersArgumentMatchers..anythingize_lonely_keysanythingize_lonely_keys((**argsargs))))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+  
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.instance_of?(klass)arg.instance_of?(klass)Matches if arg.instance_of?(klass)
+
+
+  
+    Matches if arg.instance_of?(klass)
+
+
+  
+
+  
+    Matches if arg.instance_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((instance_ofinstance_of((ThingThing))))expect(object).to receive(:message).with(instance_of(Thing))expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+
+
+101
+102
+103
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101# File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+defdef instance_ofinstance_of((klassklass))
+  InstanceOfInstanceOf..newnew((klassklass))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+
+
+  
+  
+    Matches if arg.instance_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.kind_of?(klass)arg.kind_of?(klass)Matches if arg.kind_of?(klass)
+
+
+  
+    Matches if arg.kind_of?(klass)
+
+
+  
+
+  
+    Matches if arg.kind_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((kind_ofkind_of((ThingThing))))expect(object).to receive(:message).with(kind_of(Thing))expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111# File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+defdef kind_ofkind_of((klassklass))
+  KindOfKindOf..newnew((klassklass))
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+
+
+  
+  
+    Matches if arg.kind_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches no arguments.Matches no arguments.
+
+
+  
+    Matches no arguments.
+
+
+  
+
+  
+    Matches no arguments.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((no_argsno_args))expect(object).to receive(:message).with(no_args)expect(object).to receive(:message).with(no_args)
+    
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(no_args)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(no_args)
+    
+  
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+
+
+42
+43
+44
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42# File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+defdef no_argsno_args
+  NoArgsMatcherNoArgsMatcher::::INSTANCEINSTANCE
+endend# File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+
+
+  
+  
+    Matches no arguments.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(no_args)
+    
+  
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches any argument at all.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(anything)
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a boolean value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(boolean())
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if the actual argument responds to the specified messages.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.instance_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.kind_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches no arguments.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(no_args)
+    
+  
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Mocks::ArgumentMatchers
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    Included in:
+    ExampleMethods
+  
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/argument_matchers.rb
+  
+  
+
+
+Overview
+  
+    ArgumentMatchers are placeholders that you can include in message
+expectations to match arguments against a broader check than simple
+equality.
+
+With the exception of any_args and no_args, they all match against
+the arg in same position in the argument list.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      ArgumentListMatcher
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches any argument at all.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches an array that includes the specified items at least once.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a boolean value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if the actual argument responds to the specified messages.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.instance_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches if arg.kind_of?(klass).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches no arguments.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Acts like an arg splat, matching any number of args at any point in an arg list.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(1, 2, any_args)
+
+# matches any of these:
+object.message(1, 2)
+object.message(1, 2, 3)
+object.message(1, 2, 3, 4)
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 26
+
+def any_args
+  AnyArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches any argument at all.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(anything)
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 34
+
+def anything
+  AnyArgMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches an array that includes the specified items at least once.
+Ignores duplicates and additional values
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(array_including(1,2,3))
+expect(object).to receive(:message).with(array_including([1,2,3]))
+    
+  
+
+
+
+  
+    
+      
+
+
+80
+81
+82
+83
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 80
+
+def array_including(*args)
+  actually_an_array = Array === args.first && args.count == 1 ? args.first : args
+  ArrayIncludingMatcher.new(actually_an_array)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a boolean value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(boolean())
+    
+  
+
+
+
+  
+    
+      
+
+
+59
+60
+61
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 59
+
+def boolean
+  BooleanMatcher::INSTANCE
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if the actual argument responds to the specified messages.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(duck_type(:hello))
+expect(object).to receive(:message).with(duck_type(:hello, :goodbye))
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 51
+
+def duck_type(*args)
+  DuckTypeMatcher.new(*args)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that doesn't include the specified key(s) or key/value.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_excluding(:key => val))
+expect(object).to receive(:message).with(hash_excluding(:key))
+expect(object).to receive(:message).with(hash_excluding(:key, :key2 => :val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+91
+92
+93
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 91
+
+def hash_excluding(*args)
+  HashExcludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches a hash that includes the specified key(s) or key/value pairs.
+Ignores any additional keys.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(hash_including(:key => val))
+expect(object).to receive(:message).with(hash_including(:key))
+expect(object).to receive(:message).with(hash_including(:key, :key2 => val2))
+    
+  
+
+
+
+  
+    
+      
+
+
+70
+71
+72
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 70
+
+def hash_including(*args)
+  HashIncludingMatcher.new(ArgumentMatchers.anythingize_lonely_keys(*args))
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.instance_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(instance_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+101
+102
+103
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 101
+
+def instance_of(klass)
+  InstanceOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches if arg.kind_of?(klass)
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(kind_of(Thing))
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 111
+
+def kind_of(klass)
+  KindOf.new(klass)
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches no arguments.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(object).to receive(:message).with(no_args)
+    
+  
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/mocks/argument_matchers.rb', line 42
+
+def no_args
+  NoArgsMatcher::INSTANCE
+end
+    
+  
+
+
+    
+  
+

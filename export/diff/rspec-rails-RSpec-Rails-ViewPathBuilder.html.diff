@@ -1,0 +1,89 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
+[1mindex 368e7f1..5b5bde9 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
+[36m@@ -40,6 +40,24 @@[m [mClass: RSpec::Rails::ViewPathBuilder[m
+       [m
+     [m
+   [m
+[32m+[m[32m    Inherits:[m
+[32m+[m[41m    [m
+[32m+[m[32m      Object[m
+[32m+[m[41m      [m
+[32m+[m[41m        [m
+[32m+[m[32m          Object[m
+[32m+[m[41m          [m
+[32m+[m[32m            RSpec::Rails::ViewPathBuilder[m
+[32m+[m[41m          [m
+[32m+[m[41m        [m
+[32m+[m[32m        show all[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+   [m
+   [m
+   [m
+[36m@@ -51,6 +69,11 @@[m [mClass: RSpec::Rails::ViewPathBuilder[m
+     Defined in:Defined in:[m
+     lib/rspec/rails/view_path_builder.rblib/rspec/rails/view_path_builder.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/view_path_builder.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+     Inherits:[m
+[36m@@ -239,17 +266,17 @@[m [mGiven a hash of parameters, build a view path, if possible.[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilderReturns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m
+[36m@@ -338,7 +365,7 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m
+[36m@@ -373,7 +400,7 @@[m [mend[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m
+[36m@@ -808,7 +839,7 @@[m [mOverview[m
+     [m
+   [m
+   [m
+[31m-    Returns a new instance of ViewPathBuilder[m
+[32m+[m[32m    Returns a new instance of ViewPathBuilder.[m
+ [m
+ [m
+   [m

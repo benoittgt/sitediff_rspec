@@ -1,0 +1,1373 @@
+Class: RSpec::Matchers::BuiltIn::ReliableMatchData
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::ReliableMatchData
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchDataRSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/match.rblib/rspec/matchers/built_in/match.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to wrap match data and make it reliable for 1.8.7Used to wrap match data and make it reliable for 1.8.7
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to wrap match data and make it reliable for 1.8.7
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to wrap match data and make it reliable for 1.8.7
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    returns an array of captures from the match data.returns an array of captures from the match data.
+returns an array of captures from the match data.
+returns an array of captures from the match data.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    returns an array of captures from the match data.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ReliableMatchData.A new instance of ReliableMatchData.
+A new instance of ReliableMatchData.
+A new instance of ReliableMatchData.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ReliableMatchData.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Returns match data names for named captures.Returns match data names for named captures.
+Returns match data names for named captures.
+Returns match data names for named captures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns match data names for named captures.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    returns an array of captures from the match data.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ReliableMatchData.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns match data names for named captures.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.Returns a new instance of ReliableMatchData.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+73
+74
+75
+
+
+73
+74
+75
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73# File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+defdef initializeinitialize((match_datamatch_data))
+  @match_data@match_data == match_datamatch_data
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+
+  
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match datareturns an array of captures from the match data
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match data
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match data
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        ArrayArray
+Array
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+
+
+96
+97
+98
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96# File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+defdef capturescaptures
+  match_datamatch_data..capturescaptures
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match data
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named capturesReturns match data names for named captures
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named captures
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named captures
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        ArrayArray
+Array
+
+      
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+
+
+81
+82
+83
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81# File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+defdef namesnames
+  [[]]
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+
+  
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named captures
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match data
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named captures
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::ReliableMatchData
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Matchers::BuiltIn::ReliableMatchData
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Used to wrap match data and make it reliable for 1.8.7
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    returns an array of captures from the match data.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ReliableMatchData.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Returns match data names for named captures.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ReliableMatchData.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+73
+74
+75
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 73
+
+def initialize(match_data)
+  @match_data = match_data
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+returns an array of captures from the match data
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+96
+97
+98
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 96
+
+def captures
+  match_data.captures
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns match data names for named captures
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        
+      
+      
+      
+        
+        Array
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+81
+82
+83
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 81
+
+def names
+  []
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,841 @@
+Exception: RSpec::Core::Pending::SkipDeclaredInExample
+  
+  
+  
+Exception: RSpec::Core::Pending::SkipDeclaredInExample
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      StandardErrorStandardError
+      
+        
+          ObjectObject
+          
+            StandardErrorStandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExampleRSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+        show allshow all
+      
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/pending.rblib/rspec/core/pending.rb
+  
+    Defined in:
+    lib/rspec/core/pending.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/pending.rb
+  
+  
+
+
+OverviewOverview
+  
+    Raised in the middle of an example to indicate that it should be marked
+as skipped.Raised in the middle of an example to indicate that it should be marked
+as skipped.
+
+
+  
+    Raised in the middle of an example to indicate that it should be marked
+as skipped.
+
+
+  
+
+  
+    Raised in the middle of an example to indicate that it should be marked
+as skipped.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute argument.Returns the value of attribute argument.
+Returns the value of attribute argument.
+Returns the value of attribute argument.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute argument.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute argument.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SkipDeclaredInExample.A new instance of SkipDeclaredInExample.
+A new instance of SkipDeclaredInExample.
+A new instance of SkipDeclaredInExample.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SkipDeclaredInExample.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SkipDeclaredInExample.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    Returns a new instance of SkipDeclaredInExampleReturns a new instance of SkipDeclaredInExample
+
+
+  
+    Returns a new instance of SkipDeclaredInExample
+
+
+  
+
+  
+    Returns a new instance of SkipDeclaredInExample
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+
+
+11
+12
+13
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11# File 'lib/rspec/core/pending.rb', line 11
+
+defdef initializeinitialize((argumentargument))
+  @argument@argument == argumentargument
+endend# File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+
+
+  
+  
+    Returns a new instance of SkipDeclaredInExample
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of SkipDeclaredInExample
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute argumentReturns the value of attribute argument
+
+
+  
+    Returns the value of attribute argument
+
+
+  
+
+  
+    Returns the value of attribute argument
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+
+
+9
+10
+11
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9# File 'lib/rspec/core/pending.rb', line 9
+
+defdef argumentargument
+  @argument@argument
+endend# File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+
+
+  
+  
+    Returns the value of attribute argument
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute argument
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+
+
+    
+  
+
+
+Exception: RSpec::Core::Pending::SkipDeclaredInExample
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      StandardError
+      
+        
+          Object
+          
+            StandardError
+          
+            RSpec::Core::Pending::SkipDeclaredInExample
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/pending.rb
+  
+  
+
+
+Overview
+  
+    Raised in the middle of an example to indicate that it should be marked
+as skipped.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    Returns the value of attribute argument.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  
+
+  
+    A new instance of SkipDeclaredInExample.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor Details
+  
+    
+  
+  
+    Returns a new instance of SkipDeclaredInExample
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+11
+12
+13
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 11
+
+def initialize(argument)
+  @argument = argument
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns the value of attribute argument
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+9
+10
+11
+    
+    
+      # File 'lib/rspec/core/pending.rb', line 9
+
+def argument
+  @argument
+end
+    
+  
+
+
+    
+  
+
+

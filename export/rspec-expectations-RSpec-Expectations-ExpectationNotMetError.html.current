@@ -1,0 +1,272 @@
+Exception: RSpec::Expectations::ExpectationNotMetError
+  
+  
+  
+Exception: RSpec::Expectations::ExpectationNotMetError
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ExceptionException
+      
+        
+          ObjectObject
+          
+            ExceptionException
+          
+            RSpec::Expectations::ExpectationNotMetErrorRSpec::Expectations::ExpectationNotMetError
+          
+        
+          Object
+          
+            Exception
+          
+            RSpec::Expectations::ExpectationNotMetError
+          
+        
+        show allshow all
+      
+    
+      Exception
+      
+        
+          Object
+          
+            Exception
+          
+            RSpec::Expectations::ExpectationNotMetError
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Exception
+      
+        
+          Object
+          
+            Exception
+          
+            RSpec::Expectations::ExpectationNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations.rblib/rspec/expectations.rb
+  
+    Defined in:
+    lib/rspec/expectations.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Exception
+      
+        
+          Object
+          
+            Exception
+          
+            RSpec::Expectations::ExpectationNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  
+    Note:Note:
+    We subclass Exception so that in a stub implementation ifWe subclass Exception so that in a stub implementation if
+We subclass Exception so that in a stub implementation if
+
+  
+    Note:
+    We subclass Exception so that in a stub implementation if
+
+  
+
+Exception raised when an expectation fails.Exception raised when an expectation fails.
+
+the user sets an expectation, it can't be caught in their
+code by a bare rescuerescue.the user sets an expectation, it can't be caught in their
+code by a bare rescue.
+
+
+  
+    
+  
+    Note:
+    We subclass Exception so that in a stub implementation if
+
+  
+
+Exception raised when an expectation fails.
+
+the user sets an expectation, it can't be caught in their
+code by a bare rescue.
+
+
+  
+
+  
+    
+  
+    Note:
+    We subclass Exception so that in a stub implementation if
+
+  
+
+Exception raised when an expectation fails.
+
+the user sets an expectation, it can't be caught in their
+code by a bare rescue.
+
+
+  
+
+
+  
+
+
+  
+
+
+  Direct Known SubclassesDirect Known Subclasses
+  MultipleExpectationsNotMetErrorMultipleExpectationsNotMetError
+
+  Direct Known Subclasses
+  MultipleExpectationsNotMetError
+
+
+
+
+
+
+
+
+
+  
+
+Exception: RSpec::Expectations::ExpectationNotMetError
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Exception
+      
+        
+          Object
+          
+            Exception
+          
+            RSpec::Expectations::ExpectationNotMetError
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations.rb
+  
+  
+
+
+Overview
+  
+    
+  
+    Note:
+    We subclass Exception so that in a stub implementation if
+
+  
+
+Exception raised when an expectation fails.
+
+the user sets an expectation, it can't be caught in their
+code by a bare rescue.
+
+
+  
+
+
+  
+
+
+  Direct Known Subclasses
+  MultipleExpectationsNotMetError
+
+
+
+
+
+
+
+
+
+  
+

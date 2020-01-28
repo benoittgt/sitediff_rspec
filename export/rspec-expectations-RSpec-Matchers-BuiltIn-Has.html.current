@@ -1,0 +1,1749 @@
+Class: RSpec::Matchers::BuiltIn::Has
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Has
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::HasRSpec::Matchers::BuiltIn::Has
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Has
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Has
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Has
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/has.rblib/rspec/matchers/built_in/has.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/has.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Has
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/has.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for has_<predicate>has_<predicate>.
+Not intended to be instantiated directly.Provides the implementation for has_<predicate>.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for has_<predicate>.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for has_<predicate>.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Has.A new instance of Has.
+A new instance of Has.
+A new instance of Has.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Has.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Has.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of HasReturns a new instance of Has
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Has
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Has
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+
+
+8
+9
+10
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8# File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+defdef initializeinitialize((method_namemethod_name,, **argsargs,, &&blockblock))
+  @method_name@method_name,, @args@args,, @block@block == method_namemethod_name,, argsargs,, blockblock
+endend# File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Has
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Has
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+
+
+40
+41
+42
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40# File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+defdef descriptiondescription
+  [[method_descriptionmethod_description,, args_descriptionargs_description]]..compactcompact..joinjoin((''  ''' '))
+endend# File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+
+
+28
+29
+30
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28# File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+defdef failure_messagefailure_message
+  validity_messagevalidity_message |||| ""expected #expected ##{#{predicatepredicate}}#{#{failure_message_args_descriptionfailure_message_args_description}} to return true, got false to return true, got false"""expected ##{predicate}#{failure_message_args_description} to return true, got false"
+endend# File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+
+
+34
+35
+36
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34# File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  validity_messagevalidity_message |||| ""expected #expected ##{#{predicatepredicate}}#{#{failure_message_args_descriptionfailure_message_args_description}} to return false, got true to return false, got true"""expected ##{predicate}#{failure_message_args_description} to return false, got true"
+endend# File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Has
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Has
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/has.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for has_<predicate>.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Has.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Has
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 8
+
+def initialize(method_name, *args, &block)
+  @method_name, @args, @block = method_name, args, block
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+40
+41
+42
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 40
+
+def description
+  [method_description, args_description].compact.join(' ')
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 28
+
+def failure_message
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return true, got false"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+34
+35
+36
+    
+    
+      # File 'lib/rspec/matchers/built_in/has.rb', line 34
+
+def failure_message_when_negated
+  validity_message || "expected ##{predicate}#{failure_message_args_description} to return false, got true"
+end
+    
+  
+
+
+    
+  
+

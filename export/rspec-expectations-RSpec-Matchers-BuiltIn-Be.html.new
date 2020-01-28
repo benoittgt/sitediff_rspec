@@ -1,0 +1,1401 @@
+Class: RSpec::Matchers::BuiltIn::Be
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Be
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::BeRSpec::Matchers::BuiltIn::Be
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Be
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Be
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Be
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/be.rblib/rspec/matchers/built_in/be.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Be
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for bebe.
+Not intended to be instantiated directly.Provides the implementation for be.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINEDRSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Be.A new instance of Be.
+A new instance of Be.
+A new instance of Be.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Be.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Be.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?#description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.Returns a new instance of Be.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+
+
+104
+105
+106
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104# File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+defdef initializeinitialize((**argsargs))
+  @args@args == argsargs
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+
+
+110
+111
+112
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110# File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+defdef failure_messagefailure_message
+  ""expected expected #{#{actual_formattedactual_formatted}} to evaluate to true to evaluate to true"""expected #{actual_formatted} to evaluate to true"
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+
+  
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+
+
+116
+117
+118
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116# File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  ""expected expected #{#{actual_formattedactual_formatted}} to evaluate to false to evaluate to false"""expected #{actual_formatted} to evaluate to false"
+endend# File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Be
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Be
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/be.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for be.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  RSpec::Matchers::BuiltIn::BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Be.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #description, #diffable?, #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Be.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 104
+
+def initialize(*args)
+  @args = args
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+110
+111
+112
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 110
+
+def failure_message
+  "expected #{actual_formatted} to evaluate to true"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+116
+117
+118
+    
+    
+      # File 'lib/rspec/matchers/built_in/be.rb', line 116
+
+def failure_message_when_negated
+  "expected #{actual_formatted} to evaluate to false"
+end
+    
+  
+
+
+    
+  
+

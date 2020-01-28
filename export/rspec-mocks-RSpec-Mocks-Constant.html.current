@@ -1,0 +1,4491 @@
+Class: RSpec::Mocks::Constant
+  
+  
+  
+Class: RSpec::Mocks::Constant
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::ConstantRSpec::Mocks::Constant
+          
+        
+          Object
+          
+            RSpec::Mocks::Constant
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Constant
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Constant
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      Support::RecursiveConstMethodsSupport::RecursiveConstMethods
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/mutate_const.rblib/rspec/mocks/mutate_const.rb
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Constant
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides information about constants that may (or may not)
+have been mutated by rspec-mocks.Provides information about constants that may (or may not)
+have been mutated by rspec-mocks.
+
+
+  
+    Provides information about constants that may (or may not)
+have been mutated by rspec-mocks.
+
+
+  
+
+  
+    Provides information about constants that may (or may not)
+have been mutated by rspec-mocks.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The fully qualified name of the constant.The fully qualified name of the constant.
+The fully qualified name of the constant.
+The fully qualified name of the constant.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The fully qualified name of the constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The fully qualified name of the constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Queries rspec-mocks to find out information about the named constant.Queries rspec-mocks to find out information about the named constant.
+Queries rspec-mocks to find out information about the named constant.
+Queries rspec-mocks to find out information about the named constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has hidden this constant.Whether or not rspec-mocks has hidden this constant.
+Whether or not rspec-mocks has hidden this constant.
+Whether or not rspec-mocks has hidden this constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has hidden this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Constant.A new instance of Constant.
+A new instance of Constant.
+A new instance of Constant.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the constant was defined before the current example.Whether or not the constant was defined before the current example.
+Whether or not the constant was defined before the current example.
+Whether or not the constant was defined before the current example.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the constant was defined before the current example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has stubbed this constant.Whether or not rspec-mocks has stubbed this constant.
+Whether or not rspec-mocks has stubbed this constant.
+Whether or not rspec-mocks has stubbed this constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has stubbed this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default to_sto_s isn't very useful, so a custom version is provided.The default to_s isn't very useful, so a custom version is provided.
+The default to_s isn't very useful, so a custom version is provided.
+The default to_s isn't very useful, so a custom version is provided.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the provided constant name is a valid Ruby constant name.Whether or not the provided constant name is a valid Ruby constant name.
+Whether or not the provided constant name is a valid Ruby constant name.
+Whether or not the provided constant name is a valid Ruby constant name.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the provided constant name is a valid Ruby constant name.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has hidden this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the constant was defined before the current example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has stubbed this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the provided constant name is a valid Ruby constant name.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ConstantReturns a new instance of Constant
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Constant
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Constant
+
+
+  
+
+
+  
+Yields:Yields:
+
+  
+    
+      
+      
+        (_self_self)(_self)
+      
+      
+      
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+Yield Parameters:Yield Parameters:
+
+  
+    
+      
+        _self_self
+      
+      
+        (RSpec::Mocks::ConstantRSpec::Mocks::Constant)(RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called onthe object that the method was called on
+the object that the method was called on
+
+      
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+  
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+Yield Parameters:
+
+  
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11# File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+defdef initializeinitialize((namename))
+  @name@name == namename
+  @previously_defined@previously_defined == falsefalse
+  @stubbed@stubbed == falsefalse
+  @hidden@hidden == falsefalse
+  @valid_name@valid_name == truetrue
+  yieldyield selfself ifif block_given?block_given?
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Constant
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+Yield Parameters:
+
+  
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Constant
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+Yield Parameters:
+
+  
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The fully qualified name of the constant.Returns The fully qualified name of the constant.
+
+
+  
+    Returns The fully qualified name of the constant.
+
+
+  
+
+  
+    Returns The fully qualified name of the constant.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.The fully qualified name of the constant.
+The fully qualified name of the constant.
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+
+
+21
+22
+23
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21# File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+defdef namename
+  @name@name
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+
+
+  
+  
+    Returns The fully qualified name of the constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject, nilnil)(Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+
+
+26
+27
+28
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26# File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+defdef original_valueoriginal_value
+  @original_value@original_value
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+
+
+  
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The fully qualified name of the constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    Queries rspec-mocks to find out information about the named constant.Queries rspec-mocks to find out information about the named constant.
+
+
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+
+  
+
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        namename
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the name of the constantthe name of the constant
+the name of the constant
+
+      
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+  
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (ConstantConstant)(Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.an object contaning information about the named
+constant.
+an object contaning information about the named
+constant.
+
+      
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+89
+
+
+86
+87
+88
+89
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86# File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+defdef selfself..originaloriginal((namename))
+  mutatormutator == ::::RSpecRSpec::::MocksMocks..spacespace..constant_mutator_forconstant_mutator_for((namename))
+  mutatormutator ?? mutatormutator..to_constantto_constant :: unmutatedunmutated((namename))
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+
+  
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+
+
+  
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.Whether or not rspec-mocks has hidden
+this constant.
+Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+
+
+51
+52
+53
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51# File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+defdef hidden?hidden?
+  @hidden@hidden
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+
+
+  
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+
+
+39
+40
+41
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39# File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+defdef mutated?mutated?
+  @stubbed@stubbed |||| @hidden@hidden
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+
+
+  
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the constant was defined
+before the current example.Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+    Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+
+  
+    Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.Whether or not the constant was defined
+before the current example.
+Whether or not the constant was defined
+before the current example.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+
+
+33
+34
+35
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33# File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+defdef previously_defined?previously_defined?
+  @previously_defined@previously_defined
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+
+  
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+
+
+  
+  
+    Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.Whether or not rspec-mocks has stubbed
+this constant.
+Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+
+
+45
+46
+47
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45# File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+defdef stubbed?stubbed?
+  @stubbed@stubbed
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+
+
+  
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+
+
+    
+      
+  
+  
+    The default to_sto_s isn't very useful, so a custom version is provided.The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+62
+63
+64
+
+
+62
+63
+64
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62# File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+defdef to_sto_s
+  ""#<#<#{#{selfself..classclass..namename}}  #{#{namename}}>>"""#<#{self.class.name} #{name}>"
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+  
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+  
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.Whether or not the provided constant name
+is a valid Ruby constant name.
+Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+
+
+57
+58
+59
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57# File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+defdef valid_name?valid_name?
+  @valid_name@valid_name
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+
+
+  
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+
+
+    
+      
+  
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::Constant
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::Constant
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+
+Overview
+  
+    Provides information about constants that may (or may not)
+have been mutated by rspec-mocks.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The fully qualified name of the constant.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The original value (e.g. before it was mutated by rspec-mocks) of the constant, or nil if the constant was not previously defined.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has hidden this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has mutated (stubbed or hidden) this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the constant was defined before the current example.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not rspec-mocks has stubbed this constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Whether or not the provided constant name is a valid Ruby constant name.
+
+  
+
+
+      
+    
+  
+
+
+  
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Constant
+
+
+  
+
+
+  
+Yields:
+
+  
+    
+      
+      
+        (_self)
+      
+      
+      
+    
+  
+
+Yield Parameters:
+
+  
+    
+      
+        _self
+      
+      
+        (RSpec::Mocks::Constant)
+      
+      
+      
+        —
+        the object that the method was called on
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 11
+
+def initialize(name)
+  @name = name
+  @previously_defined = false
+  @stubbed = false
+  @hidden = false
+  @valid_name = true
+  yield self if block_given?
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    Returns The fully qualified name of the constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 21
+
+def name
+  @name
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    Returns The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object, nil)
+      
+      
+      
+        —
+        The original value (e.g. before it
+was mutated by rspec-mocks) of the constant, or
+nil if the constant was not previously defined.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+26
+27
+28
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 26
+
+def original_value
+  @original_value
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    Queries rspec-mocks to find out information about the named constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String)
+      
+      
+      
+        —
+        the name of the constant
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Constant)
+      
+      
+      
+        —
+        an object contaning information about the named
+constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+86
+87
+88
+89
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 86
+
+def self.original(name)
+  mutator = ::RSpec::Mocks.space.constant_mutator_for(name)
+  mutator ? mutator.to_constant : unmutated(name)
+end
+    
+  
+
+
+    
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has hidden
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has hidden
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+51
+52
+53
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 51
+
+def hidden?
+  @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has mutated
+(stubbed or hidden) this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+39
+40
+41
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 39
+
+def mutated?
+  @stubbed || @hidden
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the constant was defined
+before the current example.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the constant was defined
+before the current example.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+33
+34
+35
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 33
+
+def previously_defined?
+  @previously_defined
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not rspec-mocks has stubbed
+this constant.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not rspec-mocks has stubbed
+this constant.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+45
+46
+47
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 45
+
+def stubbed?
+  @stubbed
+end
+    
+  
+
+
+    
+      
+  
+  
+    The default to_s isn't very useful, so a custom version is provided.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+62
+63
+64
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 62
+
+def to_s
+  "#<#{self.class.name} #{name}>"
+end
+    
+  
+
+
+    
+      
+  
+  
+    Returns Whether or not the provided constant name
+is a valid Ruby constant name.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        Whether or not the provided constant name
+is a valid Ruby constant name.
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+57
+58
+59
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 57
+
+def valid_name?
+  @valid_name
+end
+    
+  
+
+
+    
+  
+

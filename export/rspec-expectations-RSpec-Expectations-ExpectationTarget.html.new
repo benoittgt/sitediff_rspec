@@ -1,0 +1,1210 @@
+Class: RSpec::Expectations::ExpectationTarget
+  
+  
+  
+Class: RSpec::Expectations::ExpectationTarget
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Expectations::ExpectationTargetRSpec::Expectations::ExpectationTarget
+          
+        
+          Object
+          
+            RSpec::Expectations::ExpectationTarget
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::ExpectationTarget
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::ExpectationTarget
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:Includes:
+      InstanceMethodsInstanceMethods
+  
+      Includes:
+      InstanceMethods
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/expectations/expectation_target.rblib/rspec/expectations/expectation_target.rb
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::ExpectationTarget
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      InstanceMethods
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  
+    Note:Note:
+    ExpectationTargetExpectationTarget is not intended to be instantiated
+directly by users. Use expectexpect instead.ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+
+  
+    Note:
+    ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+
+  
+
+Wraps the target of an expectation.Wraps the target of an expectation.
+
+
+  
+    
+  
+    Note:
+    ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+
+  
+
+Wraps the target of an expectation.
+
+
+  
+
+  
+    
+  
+    Note:
+    ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+
+  
+
+Wraps the target of an expectation.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((somethingsomething))       # => ExpectationTarget wrapping something
+# => ExpectationTarget wrapping something
+expectexpect {{ do_somethingdo_something }} # => ExpectationTarget wrapping the block
+# => ExpectationTarget wrapping the block
+
+# used with `to`
+# used with `to`
+expectexpect((actualactual))..toto eqeq((33))
+
+# with `not_to`
+# with `not_to`
+expectexpect((actualactual))..not_tonot_to eqeq((33))expect(something)       # => ExpectationTarget wrapping something
+expect { do_something } # => ExpectationTarget wrapping the block
+
+# used with `to`
+expect(actual).to eq(3)
+
+# with `not_to`
+expect(actual).not_to eq(3)expect(something)       # => ExpectationTarget wrapping something
+expect { do_something } # => ExpectationTarget wrapping the block
+
+# used with `to`
+expect(actual).to eq(3)
+
+# with `not_to`
+expect(actual).not_to eq(3)
+    
+  
+    Examples:
+    
+      
+      expect(something)       # => ExpectationTarget wrapping something
+expect { do_something } # => ExpectationTarget wrapping the block
+
+# used with `to`
+expect(actual).to eq(3)
+
+# with `not_to`
+expect(actual).not_to eq(3)
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      expect(something)       # => ExpectationTarget wrapping something
+expect { do_something } # => ExpectationTarget wrapping the block
+
+# used with `to`
+expect(actual).to eq(3)
+
+# with `not_to`
+expect(actual).not_to eq(3)
+    
+  
+
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: InstanceMethods
+    
+  
+    
+  
+
+  
+    
+      Modules: InstanceMethods
+    
+  
+    
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The target of the expectation.The target of the expectation.
+The target of the expectation.
+The target of the expectation.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The target of the expectation.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The target of the expectation.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of ExpectationTarget.A new instance of ExpectationTarget.
+A new instance of ExpectationTarget.
+A new instance of ExpectationTarget.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectationTarget.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectationTarget.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from InstanceMethodsMethods included from InstanceMethods
+  #not_to, #to#not_to, #to
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.Returns a new instance of ExpectationTarget.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+
+
+31
+32
+33
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31# File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+defdef initializeinitialize((valuevalue))
+  @target@target == valuevalue
+endend# File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  
+    Note:Note:
+    this name aligns with Minitest::ExpectationMinitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.Returns the target of the expectation.
+
+
+  
+    
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.
+
+
+  
+
+  
+    
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the target of the expectationthe target of the expectation
+the target of the expectation
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+
+
+28
+29
+30
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28# File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+defdef targettarget
+  @target@target
+endend# File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+
+
+    
+  
+
+
+Class: RSpec::Expectations::ExpectationTarget
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Expectations::ExpectationTarget
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+      Includes:
+      InstanceMethods
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/expectations/expectation_target.rb
+  
+  
+
+
+Overview
+  
+    
+  
+    Note:
+    ExpectationTarget is not intended to be instantiated
+directly by users. Use expect instead.
+
+  
+
+Wraps the target of an expectation.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(something)       # => ExpectationTarget wrapping something
+expect { do_something } # => ExpectationTarget wrapping the block
+
+# used with `to`
+expect(actual).to eq(3)
+
+# with `not_to`
+expect(actual).not_to eq(3)
+    
+  
+
+
+Defined Under Namespace
+
+  
+    
+      Modules: InstanceMethods
+    
+  
+    
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  
+
+  
+    The target of the expectation.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of ExpectationTarget.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from InstanceMethods
+  #not_to, #to
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of ExpectationTarget.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+31
+32
+33
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 31
+
+def initialize(value)
+  @target = value
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  
+    Note:
+    this name aligns with Minitest::Expectation so that our
+InstanceMethods module can be included in that class when
+used in a Minitest context.
+
+  
+
+Returns the target of the expectation.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the target of the expectation
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+28
+29
+30
+    
+    
+      # File 'lib/rspec/expectations/expectation_target.rb', line 28
+
+def target
+  @target
+end
+    
+  
+
+
+    
+  
+
+

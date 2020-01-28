@@ -1,0 +1,564 @@
+Module: RSpec::Rails::RequestExampleGroup
+  
+  
+  
+Module: RSpec::Rails::RequestExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:Extended by:
+      ActiveSupport::ConcernActiveSupport::Concern
+      
+    
+  
+    
+      Includes:Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, ActionDispatch::IntegrationTest::Behavior, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroupActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, ActionDispatch::IntegrationTest::Behavior, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/request_example_group.rblib/rspec/rails/example/request_example_group.rb
+  
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, ActionDispatch::IntegrationTest::Behavior, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/request_example_group.rb
+  
+
+
+
+OverviewOverview
+  
+    Container class for request spec functionality.Container class for request spec functionality.
+
+
+  
+    Container class for request spec functionality.
+
+
+  
+
+  
+    Container class for request spec functionality.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.applicationRails.application.Delegates to Rails.application.
+Delegates to Rails.application.
+Delegates to Rails.application.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplateMethods included from Matchers::RenderTemplate
+  #have_rendered#have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectToMethods included from Matchers::RedirectTo
+  #redirect_to#redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.applicationRails.application.Delegates to Rails.application.
+
+
+  
+    Delegates to Rails.application.
+
+
+  
+
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+
+
+19
+20
+21
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19# File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+defdef appapp
+  ::::RailsRails..applicationapplication
+endend# File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+
+  
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::RequestExampleGroup
+  
+  
+  
+
+
+
+  
+  
+    
+      Extended by:
+      ActiveSupport::Concern
+      
+    
+  
+    
+      Includes:
+      ActionController::TemplateAssertions, ActionDispatch::Assertions, ActionDispatch::Integration::Runner, ActionDispatch::IntegrationTest::Behavior, Matchers::RedirectTo, Matchers::RenderTemplate, RailsExampleGroup
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/example/request_example_group.rb
+  
+
+
+
+Overview
+  
+    Container class for request spec functionality.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Delegates to Rails.application.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RenderTemplate
+  #have_rendered
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Matchers::RedirectTo
+  #redirect_to
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Delegates to Rails.application.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+19
+20
+21
+    
+    
+      # File 'lib/rspec/rails/example/request_example_group.rb', line 19
+
+def app
+  ::Rails.application
+end
+    
+  
+
+
+    
+  
+

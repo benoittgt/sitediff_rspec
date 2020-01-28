@@ -1,0 +1,2624 @@
+Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+  
+  
+  PrivatePrivate
+Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+  
+  
+  Private
+
+
+
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatusRSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+          
+        
+        show allshow all
+      
+      
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+      Includes:Includes:
+      RSpec::Rails::Matchers::HaveHttpStatusRSpec::Rails::Matchers::HaveHttpStatus
+      
+    
+  
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/matchers/have_http_status.rblib/rspec/rails/matchers/have_http_status.rb
+  
+
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+      Includes:
+      RSpec::Rails::Matchers::HaveHttpStatus
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/have_http_status.rb
+  
+
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides an implementation for have_http_statushave_http_status matching against
+Rack symbol http status codes.Provides an implementation for have_http_status matching against
+Rack symbol http status codes.
+
+Not intended to be instantiated directly.Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides an implementation for have_http_status matching against
+Rack symbol http status codes.
+
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides an implementation for have_http_status matching against
+Rack symbol http status codes.
+
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      expectexpect((responseresponse))..toto have_http_statushave_http_status((:created:created))expect(response).to have_http_status(:created)expect(response).to have_http_status(:created)
+    
+  
+    Examples:
+    
+      
+      expect(response).to have_http_status(:created)
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      RSpec::Rails::Matchers.have_http_statusRSpec::Rails::Matchers.have_http_status
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE``Rack::Utils::SYMBOL_TO_STATUS_CODE``Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+    
+      RSpec::Rails::Matchers.have_http_status
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to have_http_status(:created)
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers.have_http_status
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  Constant SummaryConstant Summary
+  
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Explaining why the match failed.Explaining why the match failed.
+Explaining why the match failed.
+Explaining why the match failed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Explaining why the match failed.Explaining why the match failed.
+Explaining why the match failed.
+Explaining why the match failed.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of SymbolicStatus.A new instance of SymbolicStatus.
+A new instance of SymbolicStatus.
+A new instance of SymbolicStatus.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of SymbolicStatus.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    truetrue if Rack's associated numeric HTTP code matched the responseresponse code.true if Rack's associated numeric HTTP code matched the response code.
+true if Rack's associated numeric HTTP code matched the response code.
+true if Rack's associated numeric HTTP code matched the response code.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    true if Rack's associated numeric HTTP code matched the response code.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of SymbolicStatus.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    true if Rack's associated numeric HTTP code matched the response code.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Rails::Matchers::HaveHttpStatusMethods included from RSpec::Rails::Matchers::HaveHttpStatus
+  as_test_response, #invalid_response_type_message, matcher_for_statusas_test_response, #invalid_response_type_message, matcher_for_status
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatusReturns a new instance of SymbolicStatus
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatus
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatus
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+
+
+130
+131
+132
+133
+134
+135
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130# File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+defdef initializeinitialize((statusstatus))
+  @expected_status@expected_status == statusstatus
+  @actual@actual == nilnil
+  @invalid_response@invalid_response == nilnil
+  set_expected_code!set_expected_code!
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatus
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatus
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+150
+151
+152
+
+
+150
+151
+152
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150# File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+defdef descriptiondescription
+  ""respond with status code respond with status code #{#{pp_expectedpp_expected}}"""respond with status code #{pp_expected}"
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failedReturns explaining why the match failed
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        explaining why the match failedexplaining why the match failed
+explaining why the match failed
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+
+
+155
+156
+157
+158
+159
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155# File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+defdef failure_messagefailure_message
+  invalid_response_type_messageinvalid_response_type_message ||||
+  ""expected the response to have status code expected the response to have status code #{#{pp_expectedpp_expected}} but it but it"""expected the response to have status code #{pp_expected} but it" \
+    "" was  was #{#{pp_actualpp_actual}}""" was #{pp_actual}"
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failedReturns explaining why the match failed
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        explaining why the match failedexplaining why the match failed
+explaining why the match failed
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+
+
+162
+163
+164
+165
+166
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162# File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  invalid_response_type_messageinvalid_response_type_message ||||
+  ""expected the response not to have status code expected the response not to have status code #{#{pp_expectedpp_expected}}  """expected the response not to have status code #{pp_expected} " \
+    ""but it didbut it did"""but it did"
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns truetrue if Rack's associated numeric HTTP code matched
+the responseresponse codeReturns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        responseresponse
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        object providing an http code to matchobject providing an http code to match
+object providing an http code to match
+
+      
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+  
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+        —
+        truetrue if Rack's associated numeric HTTP code matched
+the responseresponse codetrue if Rack's associated numeric HTTP code matched
+the response code
+true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140# File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+defdef matches?matches?((responseresponse))
+  test_responsetest_response == as_test_responseas_test_response((responseresponse))
+  @actual@actual == test_responsetest_response..response_coderesponse_code
+  expectedexpected ==== @actual@actual
+rescuerescue TypeErrorTypeError =>=> _ignored_ignored
+  @invalid_response@invalid_response == responseresponse
+  falsefalse
+endend# File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+  
+  
+  Private
+
+
+
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
+          
+        
+        show all
+      
+      
+    
+  
+  
+    
+  
+    
+      Includes:
+      RSpec::Rails::Matchers::HaveHttpStatus
+      
+    
+  
+  
+  
+    Defined in:
+    lib/rspec/rails/matchers/have_http_status.rb
+  
+
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides an implementation for have_http_status matching against
+Rack symbol http status codes.
+
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      expect(response).to have_http_status(:created)
+    
+  
+
+
+  See Also:
+  
+    
+      RSpec::Rails::Matchers.have_http_status
+    
+      `Rack::Utils::SYMBOL_TO_STATUS_CODE`
+    
+  
+
+
+  Constant Summary
+  
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Explaining why the match failed.
+
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of SymbolicStatus.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    true if Rack's associated numeric HTTP code matched the response code.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from RSpec::Rails::Matchers::HaveHttpStatus
+  as_test_response, #invalid_response_type_message, matcher_for_status
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #match_unless_raises, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of SymbolicStatus
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+130
+131
+132
+133
+134
+135
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 130
+
+def initialize(status)
+  @expected_status = status
+  @actual = nil
+  @invalid_response = nil
+  set_expected_code!
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+150
+151
+152
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 150
+
+def description
+  "respond with status code #{pp_expected}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+155
+156
+157
+158
+159
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 155
+
+def failure_message
+  invalid_response_type_message ||
+  "expected the response to have status code #{pp_expected} but it" \
+    " was #{pp_actual}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns explaining why the match failed
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        explaining why the match failed
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+162
+163
+164
+165
+166
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 162
+
+def failure_message_when_negated
+  invalid_response_type_message ||
+  "expected the response not to have status code #{pp_expected} " \
+    "but it did"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns true if Rack's associated numeric HTTP code matched
+the response code
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        response
+      
+      
+        (Object)
+      
+      
+      
+        —
+        object providing an http code to match
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+        —
+        true if Rack's associated numeric HTTP code matched
+the response code
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+140
+141
+142
+143
+144
+145
+146
+147
+    
+    
+      # File 'lib/rspec/rails/matchers/have_http_status.rb', line 140
+
+def matches?(response)
+  test_response = as_test_response(response)
+  @actual = test_response.response_code
+  expected == @actual
+rescue TypeError => _ignored
+  @invalid_response = response
+  false
+end
+    
+  
+
+
+    
+  
+

@@ -1,0 +1,1847 @@
+Module: RSpec::Rails::ControllerExampleGroup::ClassMethods
+  
+  
+  
+Module: RSpec::Rails::ControllerExampleGroup::ClassMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/rails/example/controller_example_group.rblib/rspec/rails/example/controller_example_group.rb
+  
+    Defined in:
+    lib/rspec/rails/example/controller_example_group.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/controller_example_group.rb
+  
+  
+
+
+OverviewOverview
+  
+    Class-level DSL for controller specs.Class-level DSL for controller specs.
+
+
+  
+    Class-level DSL for controller specs.
+
+
+  
+
+  
+    Class-level DSL for controller specs.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Supports a simple DSL for specifying behavior of ApplicationController.Supports a simple DSL for specifying behavior of ApplicationController.
+Supports a simple DSL for specifying behavior of ApplicationController.
+Supports a simple DSL for specifying behavior of ApplicationController.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Supports a simple DSL for specifying behavior of ApplicationController.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.Specifies the routeset that will be used for the example group.
+Specifies the routeset that will be used for the example group.
+Specifies the routeset that will be used for the example group.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Supports a simple DSL for specifying behavior of ApplicationController.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationControllerApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDeniedApplicationController::AccessDenied) in the block passed to the
+controllercontroller method. Any instance methods, filters, etc, that are
+defined in ApplicationControllerApplicationController, however, are accessible from
+within the block.Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+bodybody in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controllercontroller((ApplicationControllerSubclassApplicationControllerSubclass)) dodo
+  # ....
+# ....
+endend
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+    
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+
+  
+    
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      describedescribe ApplicationControllerApplicationController dodo
+  controllercontroller dodo
+    defdef indexindex
+      raiseraise ApplicationControllerApplicationController::::AccessDeniedAccessDenied
+    endend
+  endend
+
+  describedescribe ""handling AccessDenied exceptionshandling AccessDenied exceptions"""handling AccessDenied exceptions" dodo
+    itit ""redirects to the /401.html pageredirects to the /401.html page"""redirects to the /401.html page" dodo
+      getget :index:index
+      responseresponse..shouldshould redirect_toredirect_to((""/401.html/401.html"""/401.html"))
+    endend
+  endend
+endenddescribe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+enddescribe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+    Examples:
+    
+      
+      describe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      describe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61# File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+defdef controllercontroller((base_classbase_class == nilnil,, &&bodybody))
+  ifif RSpecRSpec..configurationconfiguration..infer_base_class_for_anonymous_controllers?infer_base_class_for_anonymous_controllers?
+    base_classbase_class ||=||= controller_classcontroller_class
+  endend
+  base_classbase_class ||=||= defined?defined?((ApplicationControllerApplicationController)) ?? ApplicationControllerApplicationController :: ActionControllerActionController::::BaseBase
+
+  new_controller_classnew_controller_class == ClassClass..newnew((base_classbase_class)) dodo
+    defdef selfself..namename
+      root_controllerroot_controller == defined?defined?((ApplicationControllerApplicationController)) ?? ApplicationControllerApplicationController :: ActionControllerActionController::::BaseBase
+      ifif superclasssuperclass ==== root_controllerroot_controller |||| superclasssuperclass..abstract?abstract?
+        ""AnonymousControllerAnonymousController"""AnonymousController"
+      elseelse
+        superclasssuperclass..namename
+      endend
+    endend
+  endend
+  new_controller_classnew_controller_class..class_execclass_exec((&&bodybody))
+  ((classclass <<<< selfself;; selfself;; endend))..__send____send__((:define_method:define_method,, :controller_class:controller_class)) {{ new_controller_classnew_controller_class }}
+
+  beforebefore dodo
+    @orig_routes@orig_routes == routesroutes
+    resource_nameresource_name == ifif @controller@controller..respond_to?respond_to?((:controller_name:controller_name))
+                      @controller@controller..controller_namecontroller_name..to_symto_sym
+                    elseelse
+                      :anonymous:anonymous
+                    endend
+    resource_pathresource_path == ifif @controller@controller..respond_to?respond_to?((:controller_path:controller_path))
+                      @controller@controller..controller_pathcontroller_path
+                    elseelse
+                      resource_nameresource_name..to_sto_s
+                    endend
+    resource_moduleresource_module == resource_pathresource_path..rpartitionrpartition((''//'''/'))..firstfirst..presencepresence
+    resource_asresource_as == ''anonymous_anonymous_'''anonymous_' ++ resource_pathresource_path..trtr((''//'''/',, ''__'''_'))
+    selfself..routesroutes == ActionDispatchActionDispatch::::RoutingRouting::::RouteSetRouteSet..newnew..taptap dodo ||rr||
+      rr..drawdraw dodo
+        resourcesresources resource_nameresource_name,,
+                  :as:as =>=> resource_asresource_as,,
+                  :module:module =>=> resource_moduleresource_module,,
+                  :path:path =>=> resource_pathresource_path
+      endend
+    endend
+  endend
+
+  afterafter dodo
+    selfself..routesroutes  == @orig_routes@orig_routes
+    @orig_routes@orig_routes == nilnil
+  endend
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:Examples:
+    
+      
+      describedescribe MyEngineMyEngine::::PostsControllerPostsController dodo
+  routesroutes {{ MyEngineMyEngine::::EngineEngine..routesroutes }}
+
+  # ...
+# ...
+endenddescribe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+enddescribe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+
+
+119
+120
+121
+122
+123
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119# File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+defdef routesroutes
+  beforebefore dodo
+    selfself..routesroutes == yieldyield
+  endend
+endend# File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Rails::ControllerExampleGroup::ClassMethods
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/rails/example/controller_example_group.rb
+  
+  
+
+
+Overview
+  
+    Class-level DSL for controller specs.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Supports a simple DSL for specifying behavior of ApplicationController.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Specifies the routeset that will be used for the example group.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants
+defined in ApplicationController must be fully qualified (e.g.
+ApplicationController::AccessDenied) in the block passed to the
+controller method. Any instance methods, filters, etc, that are
+defined in ApplicationController, however, are accessible from
+within the block.
+
+  
+
+Supports a simple DSL for specifying behavior of ApplicationController.
+Creates an anonymous subclass of ApplicationController and evals the
+body in that context. Also sets up implicit routes for this
+controller, that are separate from those defined in "config/routes.rb".
+
+If you would like to spec a subclass of ApplicationController, call
+controller like so:
+
+controller(ApplicationControllerSubclass) do
+  # ....
+end
+
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe ApplicationController do
+  controller do
+    def index
+      raise ApplicationController::AccessDenied
+    end
+  end
+
+  describe "handling AccessDenied exceptions" do
+    it "redirects to the /401.html page" do
+      get :index
+      response.should redirect_to("/401.html")
+    end
+  end
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 61
+
+def controller(base_class = nil, &body)
+  if RSpec.configuration.infer_base_class_for_anonymous_controllers?
+    base_class ||= controller_class
+  end
+  base_class ||= defined?(ApplicationController) ? ApplicationController : ActionController::Base
+
+  new_controller_class = Class.new(base_class) do
+    def self.name
+      root_controller = defined?(ApplicationController) ? ApplicationController : ActionController::Base
+      if superclass == root_controller || superclass.abstract?
+        "AnonymousController"
+      else
+        superclass.name
+      end
+    end
+  end
+  new_controller_class.class_exec(&body)
+  (class << self; self; end).__send__(:define_method, :controller_class) { new_controller_class }
+
+  before do
+    @orig_routes = routes
+    resource_name = if @controller.respond_to?(:controller_name)
+                      @controller.controller_name.to_sym
+                    else
+                      :anonymous
+                    end
+    resource_path = if @controller.respond_to?(:controller_path)
+                      @controller.controller_path
+                    else
+                      resource_name.to_s
+                    end
+    resource_module = resource_path.rpartition('/').first.presence
+    resource_as = 'anonymous_' + resource_path.tr('/', '_')
+    self.routes = ActionDispatch::Routing::RouteSet.new.tap do |r|
+      r.draw do
+        resources resource_name,
+                  :as => resource_as,
+                  :module => resource_module,
+                  :path => resource_path
+      end
+    end
+  end
+
+  after do
+    self.routes  = @orig_routes
+    @orig_routes = nil
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    Specifies the routeset that will be used for the example group. This
+is most useful when testing Rails engines.
+
+
+  
+
+
+  
+  
+    Examples:
+    
+      
+      describe MyEngine::PostsController do
+  routes { MyEngine::Engine.routes }
+
+  # ...
+end
+    
+  
+
+
+
+  
+    
+      
+
+
+119
+120
+121
+122
+123
+    
+    
+      # File 'lib/rspec/rails/example/controller_example_group.rb', line 119
+
+def routes
+  before do
+    self.routes = yield
+  end
+end
+    
+  
+
+
+    
+  
+

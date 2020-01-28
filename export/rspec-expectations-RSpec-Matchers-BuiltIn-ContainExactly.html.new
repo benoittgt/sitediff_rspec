@@ -1,0 +1,1575 @@
+Class: RSpec::Matchers::BuiltIn::ContainExactly
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::ContainExactly
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactlyRSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/contain_exactly.rblib/rspec/matchers/built_in/contain_exactly.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/contain_exactly.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/contain_exactly.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+rubocop:disable ClassLength
+Provides the implementation for contain_exactlycontain_exactly and match_arraymatch_array.
+Not intended to be instantiated directly.rubocop:disable ClassLength
+Provides the implementation for contain_exactly and match_array.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+rubocop:disable ClassLength
+Provides the implementation for contain_exactly and match_array.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+rubocop:disable ClassLength
+Provides the implementation for contain_exactly and match_array.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?#diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcherThis class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+
+
+29
+30
+31
+32
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+defdef descriptiondescription
+  listlist == EnglishPhrasingEnglishPhrasing..listlist((surface_descriptions_insurface_descriptions_in((expectedexpected))))
+  ""contain exactlycontain exactly#{#{listlist}}"""contain exactly#{list}"
+endend# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+
+  
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+defdef failure_messagefailure_message
+  ifif ArrayArray ====== actualactual
+    generate_failure_messagegenerate_failure_message
+  elseelse
+    ""expected a collection that can be converted to an array with expected a collection that can be converted to an array with """expected a collection that can be converted to an array with " \
+    ""`#to_ary` or `#to_a`, but got `#to_ary` or `#to_a`, but got #{#{actual_formattedactual_formatted}}"""`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  endend
+endend# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+
+
+22
+23
+24
+25
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+defdef failure_message_when_negatedfailure_message_when_negated
+  listlist == EnglishPhrasingEnglishPhrasing..listlist((surface_descriptions_insurface_descriptions_in((expectedexpected))))
+  ""expected expected #{#{actual_formattedactual_formatted}} not to contain exactly not to contain exactly#{#{listlist}}"""expected #{actual_formatted} not to contain exactly#{list}"
+endend# File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+
+  
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::ContainExactly
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::ContainExactly
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/contain_exactly.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+rubocop:disable ClassLength
+Provides the implementation for contain_exactly and match_array.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #diffable?, #expects_call_stack_jump?, #initialize, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Matchers::BuiltIn::BaseMatcher
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+29
+30
+31
+32
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 29
+
+def description
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "contain exactly#{list}"
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+11
+12
+13
+14
+15
+16
+17
+18
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 11
+
+def failure_message
+  if Array === actual
+    generate_failure_message
+  else
+    "expected a collection that can be converted to an array with " \
+    "`#to_ary` or `#to_a`, but got #{actual_formatted}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+22
+23
+24
+25
+    
+    
+      # File 'lib/rspec/matchers/built_in/contain_exactly.rb', line 22
+
+def failure_message_when_negated
+  list = EnglishPhrasing.list(surface_descriptions_in(expected))
+  "expected #{actual_formatted} not to contain exactly#{list}"
+end
+    
+  
+
+
+    
+  
+

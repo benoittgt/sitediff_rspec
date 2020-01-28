@@ -1,0 +1,2228 @@
+Class: RSpec::Core::Formatters::Loader
+  
+  
+  PrivatePrivate
+Class: RSpec::Core::Formatters::Loader
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Core::Formatters::LoaderRSpec::Core::Formatters::Loader
+          
+        
+          Object
+          
+            RSpec::Core::Formatters::Loader
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::Loader
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::Loader
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters.rblib/rspec/core/formatters.rb
+  
+    Defined in:
+    lib/rspec/core/formatters.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::Loader
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+RSpec::Core::Formatters::LoaderRSpec::Core::Formatters::Loader is an internal class for
+managing formatters used by a particular configuration. It is
+not expected to be used directly, but only through the configuration
+interface.RSpec::Core::Formatters::Loader is an internal class for
+managing formatters used by a particular configuration. It is
+not expected to be used directly, but only through the configuration
+interface.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+RSpec::Core::Formatters::Loader is an internal class for
+managing formatters used by a particular configuration. It is
+not expected to be used directly, but only through the configuration
+interface.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+RSpec::Core::Formatters::Loader is an internal class for
+managing formatters used by a particular configuration. It is
+not expected to be used directly, but only through the configuration
+interface.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    The default formatter to setup, defaults to progressprogress.The default formatter to setup, defaults to progress.
+The default formatter to setup, defaults to progress.
+The default formatter to setup, defaults to progress.
+
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The default formatter to setup, defaults to progress.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    The loaded formatters.The loaded formatters.
+The loaded formatters.
+The loaded formatters.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The loaded formatters.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonlyreadonly
+    
+    
+  
+  
+  
+  
+  privateprivate
+
+  
+    The reporter.The reporter.
+The reporter.
+The reporter.
+
+  
+
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The reporter.
+
+  
+
+
+    
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The default formatter to setup, defaults to progress.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The loaded formatters.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The reporter.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Internal formatters are stored here when loaded.Internal formatters are stored here when loaded.
+Internal formatters are stored here when loaded.
+Internal formatters are stored here when loaded.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Internal formatters are stored here when loaded.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Internal formatters are stored here when loaded.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Loader.A new instance of Loader.
+A new instance of Loader.
+A new instance of Loader.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Loader.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Loader.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.Returns a new instance of Loader.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+
+
+104
+105
+106
+107
+108
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104# File 'lib/rspec/core/formatters.rb', line 104
+
+defdef initializeinitialize((reporterreporter))
+  @formatters@formatters == [[]]
+  @reporter@reporter == reporterreporter
+  selfself..default_formatterdefault_formatter == ''progressprogress'''progress'
+endend# File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute DetailsInstance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progressprogress.Returns the default formatter to setup, defaults to progress.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progress.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progress.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progressprogressthe default formatter to setup, defaults to progress
+the default formatter to setup, defaults to progress
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+
+
+117
+118
+119
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117# File 'lib/rspec/core/formatters.rb', line 117
+
+defdef default_formatterdefault_formatter
+  @default_formatter@default_formatter
+endend# File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progress.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.Returns the loaded formatters.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ArrayArray)(Array)
+      
+      
+      
+        —
+        the loaded formattersthe loaded formatters
+the loaded formatters
+
+      
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+
+
+111
+112
+113
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111# File 'lib/rspec/core/formatters.rb', line 111
+
+defdef formattersformatters
+  @formatters@formatters
+endend# File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.Returns the reporter.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (ReporterReporter)(Reporter)
+      
+      
+      
+        —
+        the reporterthe reporter
+the reporter
+
+      
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+114
+115
+116
+
+
+114
+115
+116
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114# File 'lib/rspec/core/formatters.rb', line 114
+
+defdef reporterreporter
+  @reporter@reporter
+endend# File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+
+  
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progress.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.Internal formatters are stored here when loaded.
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+
+
+99
+100
+101
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99# File 'lib/rspec/core/formatters.rb', line 99
+
+defdef selfself..formattersformatters
+  @formatters@formatters ||=||= {{}}
+endend# File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::Loader
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Core::Formatters::Loader
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+RSpec::Core::Formatters::Loader is an internal class for
+managing formatters used by a particular configuration. It is
+not expected to be used directly, but only through the configuration
+interface.
+
+
+  
+
+
+  
+
+
+
+
+
+  Instance Attribute Summary 
+  
+    
+      
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The default formatter to setup, defaults to progress.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The loaded formatters.
+
+  
+
+
+    
+      
+  
+  
+  
+  
+    
+      readonly
+    
+    
+  
+  
+  
+  
+  private
+
+  
+    The reporter.
+
+  
+
+
+    
+  
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Internal formatters are stored here when loaded.
+
+  
+
+
+      
+    
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Loader.
+
+  
+
+
+      
+    
+  
+
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Loader.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+104
+105
+106
+107
+108
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 104
+
+def initialize(reporter)
+  @formatters = []
+  @reporter = reporter
+  self.default_formatter = 'progress'
+end
+    
+  
+
+
+  
+
+
+  
+    Instance Attribute Details
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the default formatter to setup, defaults to progress.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        the default formatter to setup, defaults to progress
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+117
+118
+119
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 117
+
+def default_formatter
+  @default_formatter
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the loaded formatters.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Array)
+      
+      
+      
+        —
+        the loaded formatters
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+111
+112
+113
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 111
+
+def formatters
+  @formatters
+end
+    
+  
+
+
+    
+      
+      
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns the reporter.
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Reporter)
+      
+      
+      
+        —
+        the reporter
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+114
+115
+116
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 114
+
+def reporter
+  @reporter
+end
+    
+  
+
+
+    
+  
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Internal formatters are stored here when loaded.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+99
+100
+101
+    
+    
+      # File 'lib/rspec/core/formatters.rb', line 99
+
+def self.formatters
+  @formatters ||= {}
+end
+    
+  
+
+
+    
+  
+

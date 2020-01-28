@@ -1,0 +1,143 @@
+Module: RSpec::Core::MetadataFilter
+  
+  
+  
+Module: RSpec::Core::MetadataFilter
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/metadata_filter.rblib/rspec/core/metadata_filter.rb
+  
+    Defined in:
+    lib/rspec/core/metadata_filter.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/metadata_filter.rb
+  
+  
+
+
+OverviewOverview
+  
+    Contains metadata filtering logic. This has been extracted from
+the metadata classes because it operates ON a metadata hash but
+does not manage any of the state in the hash. We're moving towards
+having metadata be a raw hash (not a custom subclass), so externalizing
+this filtering logic helps us move in that direction.Contains metadata filtering logic. This has been extracted from
+the metadata classes because it operates ON a metadata hash but
+does not manage any of the state in the hash. We're moving towards
+having metadata be a raw hash (not a custom subclass), so externalizing
+this filtering logic helps us move in that direction.
+
+
+  
+    Contains metadata filtering logic. This has been extracted from
+the metadata classes because it operates ON a metadata hash but
+does not manage any of the state in the hash. We're moving towards
+having metadata be a raw hash (not a custom subclass), so externalizing
+this filtering logic helps us move in that direction.
+
+
+  
+
+  
+    Contains metadata filtering logic. This has been extracted from
+the metadata classes because it operates ON a metadata hash but
+does not manage any of the state in the hash. We're moving towards
+having metadata be a raw hash (not a custom subclass), so externalizing
+this filtering logic helps us move in that direction.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+Module: RSpec::Core::MetadataFilter
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/metadata_filter.rb
+  
+  
+
+
+Overview
+  
+    Contains metadata filtering logic. This has been extracted from
+the metadata classes because it operates ON a metadata hash but
+does not manage any of the state in the hash. We're moving towards
+having metadata be a raw hash (not a custom subclass), so externalizing
+this filtering logic helps us move in that direction.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+

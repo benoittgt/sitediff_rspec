@@ -1,0 +1,1263 @@
+Module: RSpec::Core::Metadata
+  
+  
+  
+Module: RSpec::Core::Metadata
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/metadata.rblib/rspec/core/metadata.rb
+  
+    Defined in:
+    lib/rspec/core/metadata.rb
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/metadata.rb
+  
+  
+
+
+OverviewOverview
+  
+    Each ExampleGroup class and Example instance owns an instance of
+Metadata, which is Hash extended to support lazy evaluation of values
+associated with keys that may or may not be used by any example or group.Each ExampleGroup class and Example instance owns an instance of
+Metadata, which is Hash extended to support lazy evaluation of values
+associated with keys that may or may not be used by any example or group.
+
+In addition to metadata that is used internally, this also stores
+user-supplied metadata, e.g.In addition to metadata that is used internally, this also stores
+user-supplied metadata, e.g.
+
+RSpecRSpec..describedescribe SomethingSomething,, :type:type =>=> :ui:ui dodo
+  itit ""does somethingdoes something"""does something",, :slow:slow =>=> truetrue dodo
+    # ...
+# ...
+  endend
+endend
+RSpec.describe Something, :type => :ui do
+  it "does something", :slow => true do
+    # ...
+  end
+end
+RSpec.describe Something, :type => :ui do
+  it "does something", :slow => true do
+    # ...
+  end
+end
+
+
+:type => :ui:type => :ui is stored in the Metadata owned by the example group, and
+:slow => true:slow => true is stored in the Metadata owned by the example. These can
+then be used to select which examples are run using the --tag--tag option on
+the command line, or several methods on ConfigurationConfiguration used to filter a
+run (e.g. filter_run_includingfilter_run_including, filter_run_excludingfilter_run_excluding, etc).:type => :ui is stored in the Metadata owned by the example group, and
+:slow => true is stored in the Metadata owned by the example. These can
+then be used to select which examples are run using the --tag option on
+the command line, or several methods on Configuration used to filter a
+run (e.g. filter_run_including, filter_run_excluding, etc).
+
+
+  
+    Each ExampleGroup class and Example instance owns an instance of
+Metadata, which is Hash extended to support lazy evaluation of values
+associated with keys that may or may not be used by any example or group.
+
+In addition to metadata that is used internally, this also stores
+user-supplied metadata, e.g.
+
+RSpec.describe Something, :type => :ui do
+  it "does something", :slow => true do
+    # ...
+  end
+end
+
+
+:type => :ui is stored in the Metadata owned by the example group, and
+:slow => true is stored in the Metadata owned by the example. These can
+then be used to select which examples are run using the --tag option on
+the command line, or several methods on Configuration used to filter a
+run (e.g. filter_run_including, filter_run_excluding, etc).
+
+
+  
+
+  
+    Each ExampleGroup class and Example instance owns an instance of
+Metadata, which is Hash extended to support lazy evaluation of values
+associated with keys that may or may not be used by any example or group.
+
+In addition to metadata that is used internally, this also stores
+user-supplied metadata, e.g.
+
+RSpec.describe Something, :type => :ui do
+  it "does something", :slow => true do
+    # ...
+  end
+end
+
+
+:type => :ui is stored in the Metadata owned by the example group, and
+:slow => true is stored in the Metadata owned by the example. These can
+then be used to select which examples are run using the --tag option on
+the command line, or several methods on Configuration used to filter a
+run (e.g. filter_run_including, filter_run_excluding, etc).
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      Example#metadataExample#metadata
+    
+      ExampleGroup.metadataExampleGroup.metadata
+    
+      FilterManager
+    
+      Configuration#filter_run_includingConfiguration#filter_run_including
+    
+      Configuration#filter_run_excludingConfiguration#filter_run_excluding
+    
+  
+    
+      Example#metadata
+    
+      ExampleGroup.metadata
+    
+      FilterManager
+    
+      Configuration#filter_run_including
+    
+      Configuration#filter_run_excluding
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      Example#metadata
+    
+      ExampleGroup.metadata
+    
+      FilterManager
+    
+      Configuration#filter_run_including
+    
+      Configuration#filter_run_excluding
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Relative path to line.Relative path to line.
+Relative path to line.
+Relative path to line.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Relative path to line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Relative path to line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to lineReturns relative path to line
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to line
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to line
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        lineline
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        current code linecurrent code line
+current code line
+
+      
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+  
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        relative path to linerelative path to line
+relative path to line
+
+      
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+
+
+  Parameters:
+
+  
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44# File 'lib/rspec/core/metadata.rb', line 44
+
+defdef selfself..relative_pathrelative_path((lineline))
+  lineline == lineline..subsub((relative_path_regexrelative_path_regex,, ""\\1.\\2\\1.\\2"""\\1.\\2"..freezefreeze))
+  lineline == lineline..subsub((//\A([^:]+:\d+)$\A([^:]+:\d+)$///\A([^:]+:\d+)$/,, ''\\1\\1'''\\1'..freezefreeze))
+  returnreturn nilnil ifif lineline ==== ''-e:1-e:1'''-e:1'..freezefreeze
+  lineline
+rescuerescue SecurityErrorSecurityError
+  # :nocov:
+# :nocov:
+  nilnil
+  # :nocov:
+# :nocov:
+endend# File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to line
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJXhttp://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wbhttp://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1http://rubular.com/r/sbAMHFrOx1http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+
+
+36
+37
+38
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36# File 'lib/rspec/core/metadata.rb', line 36
+
+defdef selfself..relative_path_regexrelative_path_regex
+  @relative_path_regex@relative_path_regex ||=||= //(\A|\s)(\A|\s)#{#{FileFile..expand_pathexpand_path((''..'''.'))}}((#{#{FileFile::::SEPARATORSEPARATOR}}|\s|\Z)|\s|\Z)///(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+endend# File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+
+
+  
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to line
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+
+
+    
+  
+
+Module: RSpec::Core::Metadata
+  
+  
+  
+
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/metadata.rb
+  
+  
+
+
+Overview
+  
+    Each ExampleGroup class and Example instance owns an instance of
+Metadata, which is Hash extended to support lazy evaluation of values
+associated with keys that may or may not be used by any example or group.
+
+In addition to metadata that is used internally, this also stores
+user-supplied metadata, e.g.
+
+RSpec.describe Something, :type => :ui do
+  it "does something", :slow => true do
+    # ...
+  end
+end
+
+
+:type => :ui is stored in the Metadata owned by the example group, and
+:slow => true is stored in the Metadata owned by the example. These can
+then be used to select which examples are run using the --tag option on
+the command line, or several methods on Configuration used to filter a
+run (e.g. filter_run_including, filter_run_excluding, etc).
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      Example#metadata
+    
+      ExampleGroup.metadata
+    
+      FilterManager
+    
+      Configuration#filter_run_including
+    
+      Configuration#filter_run_excluding
+    
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Relative path to line.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
+  
+
+
+      
+    
+  
+
+
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns relative path to line
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        line
+      
+      
+        (String)
+      
+      
+      
+        —
+        current code line
+
+      
+    
+  
+
+
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+        —
+        relative path to line
+
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 44
+
+def self.relative_path(line)
+  line = line.sub(relative_path_regex, "\\1.\\2".freeze)
+  line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
+  return nil if line == '-e:1'.freeze
+  line
+rescue SecurityError
+  # :nocov:
+  nil
+  # :nocov:
+end
+    
+  
+
+
+    
+      
+  
+  
+    Matches strings either at the beginning of the input or prefixed with a
+whitespace, containing the current path, either postfixed with the
+separator, or at the end of the string. Match groups are the character
+before and the character after the string if any.
+
+http://rubular.com/r/fT0gmX6VJX
+http://rubular.com/r/duOrD4i3wb
+http://rubular.com/r/sbAMHFrOx1
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+36
+37
+38
+    
+    
+      # File 'lib/rspec/core/metadata.rb', line 36
+
+def self.relative_path_regex
+  @relative_path_regex ||= /(\A|\s)#{File.expand_path('.')}(#{File::SEPARATOR}|\s|\Z)/
+end
+    
+  
+
+
+    
+  
+

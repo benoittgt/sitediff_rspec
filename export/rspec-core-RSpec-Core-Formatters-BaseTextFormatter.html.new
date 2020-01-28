@@ -1,0 +1,1981 @@
+Class: RSpec::Core::Formatters::BaseTextFormatter
+  
+  
+  
+Class: RSpec::Core::Formatters::BaseTextFormatter
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseFormatterBaseFormatter
+      
+        
+          ObjectObject
+          
+            BaseFormatterBaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatterRSpec::Core::Formatters::BaseTextFormatter
+          
+        
+          Object
+          
+            BaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatter
+          
+        
+        show allshow all
+      
+    
+      BaseFormatter
+      
+        
+          Object
+          
+            BaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatter
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseFormatter
+      
+        
+          Object
+          
+            BaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/core/formatters/base_text_formatter.rblib/rspec/core/formatters/base_text_formatter.rb
+  
+    Defined in:
+    lib/rspec/core/formatters/base_text_formatter.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseFormatter
+      
+        
+          Object
+          
+            BaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/base_text_formatter.rb
+  
+  
+
+
+OverviewOverview
+  
+    Base for all of RSpec's built-in formatters. See
+RSpec::Core::Formatters::BaseFormatter to learn more about all of the
+methods called by the reporter.Base for all of RSpec's built-in formatters. See
+RSpec::Core::Formatters::BaseFormatter to learn more about all of the
+methods called by the reporter.
+
+
+  
+    Base for all of RSpec's built-in formatters. See
+RSpec::Core::Formatters::BaseFormatter to learn more about all of the
+methods called by the reporter.
+
+
+  
+
+  
+    Base for all of RSpec's built-in formatters. See
+RSpec::Core::Formatters::BaseFormatter to learn more about all of the
+methods called by the reporter.
+
+
+  
+
+
+  
+
+  See Also:See Also:
+  
+    
+      BaseFormatterBaseFormatter
+    
+      ReporterReporter
+    
+  
+    
+      BaseFormatter
+    
+      Reporter
+    
+  
+
+
+  
+
+  See Also:
+  
+    
+      BaseFormatter
+    
+      Reporter
+    
+  
+
+
+
+
+
+
+
+  Instance Attribute SummaryInstance Attribute Summary
+  
+  Attributes inherited from BaseFormatterAttributes inherited from BaseFormatter
+  #example_group, #output#example_group, #output
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Invoked at the end of a suite run.Invoked at the end of a suite run.
+Invoked at the end of a suite run.
+Invoked at the end of a suite run.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Invoked at the end of a suite run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Dumps detailed information about each example failure.Dumps detailed information about each example failure.
+Dumps detailed information about each example failure.
+Dumps detailed information about each example failure.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Dumps detailed information about each example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping of examples and failures.This method is invoked after the dumping of examples and failures.
+This method is invoked after the dumping of examples and failures.
+This method is invoked after the dumping of examples and failures.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping of examples and failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
+Used by the reporter to send messages to the output stream.
+Used by the reporter to send messages to the output stream.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Invoked at the end of a suite run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Dumps detailed information about each example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping of examples and failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseFormatterMethods inherited from BaseFormatter
+  #example_group_started, #initialize, #start#example_group_started, #initialize, #start
+
+  Constructor DetailsConstructor Details
+  
+    This class inherits a constructor from RSpec::Core::Formatters::BaseFormatterThis class inherits a constructor from RSpec::Core::Formatters::BaseFormatter
+  
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Core::Formatters::BaseFormatter
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        _notification_notification
+      
+      
+        (NullNotificationNullNotification)(NullNotification)
+      
+      
+      
+        —
+        (Ignored)(Ignored)
+(Ignored)
+
+      
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+defdef closeclose((_notification_notification))
+  returnreturn ifif outputoutput..closed?closed?
+
+  outputoutput..putsputs
+
+  outputoutput..flushflush
+endend# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+
+
+  
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+
+
+    
+      
+  
+  
+    Dumps detailed information about each example failure.Dumps detailed information about each example failure.
+
+
+  
+    Dumps detailed information about each example failure.
+
+
+  
+
+  
+    Dumps detailed information about each example failure.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        notificationnotification
+      
+      
+        (NullNotificationNullNotification)(NullNotification)
+      
+      
+      
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+  
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+
+
+30
+31
+32
+33
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+defdef dump_failuresdump_failures((notificationnotification))
+  returnreturn ifif notificationnotification..failure_notificationsfailure_notifications..empty?empty?
+  outputoutput..putsputs notificationnotification..fully_formatted_failed_examplesfully_formatted_failed_examples
+endend# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+
+  
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+
+
+  
+  
+    Dumps detailed information about each example failure.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        summarysummary
+      
+      
+        (SummaryNotificationSummaryNotification)(SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_countcontaining duration,
+example_count, failure_count and pending_count
+containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+  
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+
+
+42
+43
+44
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+defdef dump_summarydump_summary((summarysummary))
+  outputoutput..putsputs summarysummary..fully_formattedfully_formatted
+endend# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+
+
+  
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
+
+
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        notificationnotification
+      
+      
+        (MessageNotificationMessageNotification)(MessageNotification)
+      
+      
+      
+        —
+        containing messagecontaining message
+containing message
+
+      
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+
+
+21
+22
+23
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+defdef messagemessage((notificationnotification))
+  outputoutput..putsputs notificationnotification..messagemessage
+endend# File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+
+
+    
+      
+  
+  
+    Dumps detailed information about each example failure.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Core::Formatters::BaseTextFormatter
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      BaseFormatter
+      
+        
+          Object
+          
+            BaseFormatter
+          
+            RSpec::Core::Formatters::BaseTextFormatter
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/core/formatters/base_text_formatter.rb
+  
+  
+
+
+Overview
+  
+    Base for all of RSpec's built-in formatters. See
+RSpec::Core::Formatters::BaseFormatter to learn more about all of the
+methods called by the reporter.
+
+
+  
+
+
+  
+
+  See Also:
+  
+    
+      BaseFormatter
+    
+      Reporter
+    
+  
+
+
+
+
+
+
+
+  Instance Attribute Summary
+  
+  Attributes inherited from BaseFormatter
+  #example_group, #output
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Invoked at the end of a suite run.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Dumps detailed information about each example failure.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    This method is invoked after the dumping of examples and failures.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Used by the reporter to send messages to the output stream.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseFormatter
+  #example_group_started, #initialize, #start
+
+  Constructor Details
+  
+    This class inherits a constructor from RSpec::Core::Formatters::BaseFormatter
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    Invoked at the end of a suite run. Allows the formatter to do any
+tidying up, but be aware that formatter output streams may be used
+elsewhere so don't actually close them.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        _notification
+      
+      
+        (NullNotification)
+      
+      
+      
+        —
+        (Ignored)
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+65
+66
+67
+68
+69
+70
+71
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 65
+
+def close(_notification)
+  return if output.closed?
+
+  output.puts
+
+  output.flush
+end
+    
+  
+
+
+    
+      
+  
+  
+    Dumps detailed information about each example failure.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (NullNotification)
+      
+      
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+30
+31
+32
+33
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 30
+
+def dump_failures(notification)
+  return if notification.failure_notifications.empty?
+  output.puts notification.fully_formatted_failed_examples
+end
+    
+  
+
+
+    
+      
+  
+  
+    This method is invoked after the dumping of examples and failures.
+Each parameter is assigned to a corresponding attribute.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        summary
+      
+      
+        (SummaryNotification)
+      
+      
+      
+        —
+        containing duration,
+example_count, failure_count and pending_count
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+42
+43
+44
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 42
+
+def dump_summary(summary)
+  output.puts summary.fully_formatted
+end
+    
+  
+
+
+    
+      
+  
+  
+    Used by the reporter to send messages to the output stream.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        notification
+      
+      
+        (MessageNotification)
+      
+      
+      
+        —
+        containing message
+
+      
+    
+  
+
+
+
+
+  
+    
+      
+
+
+21
+22
+23
+    
+    
+      # File 'lib/rspec/core/formatters/base_text_formatter.rb', line 21
+
+def message(notification)
+  output.puts notification.message
+end
+    
+  
+
+
+    
+  
+

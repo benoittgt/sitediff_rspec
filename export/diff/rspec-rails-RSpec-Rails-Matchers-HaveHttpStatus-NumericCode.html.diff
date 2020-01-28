@@ -1,0 +1,290 @@
+[1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new[m
+[1mindex ce98e1a..c7fdebd 100644[m
+[1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current[m
+[1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new[m
+[36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::NumericCode[m
+       [m
+     [m
+   [m
+[32m+[m[32m    Inherits:[m
+[32m+[m[41m    [m
+[32m+[m[32m      BaseMatcher[m
+[32m+[m[41m      [m
+[32m+[m[41m        [m
+[32m+[m[32m          Object[m
+[32m+[m[41m          [m
+[32m+[m[32m            BaseMatcher[m
+[32m+[m[41m          [m
+[32m+[m[32m            RSpec::Rails::Matchers::HaveHttpStatus::NumericCode[m
+[32m+[m[41m          [m
+[32m+[m[41m        [m
+[32m+[m[32m        show all[m
+[32m+[m[41m      [m
+[32m+[m[41m    [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+   [m
+[36m@@ -54,6 +72,12 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::NumericCode[m
+       Includes:Includes:[m
+       RSpec::Rails::Matchers::HaveHttpStatusRSpec::Rails::Matchers::HaveHttpStatus[m
+   [m
+[32m+[m[32m      Includes:[m
+[32m+[m[32m      RSpec::Rails::Matchers::HaveHttpStatus[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+ [m
+   [m
+[36m@@ -61,6 +85,11 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::NumericCode[m
+     Defined in:Defined in:[m
+     lib/rspec/rails/matchers/have_http_status.rblib/rspec/rails/matchers/have_http_status.rb[m
+   [m
+[32m+[m[32m    Defined in:[m
+[32m+[m[32m    lib/rspec/rails/matchers/have_http_status.rb[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m
+   [m
+   [m
+     Inherits:[m
+[36m@@ -186,9 +220,6 @@[m [mNot intended to be instantiated directly.[m
+   [m
+ [m
+ [m
+[31m-  Constant SummaryConstant Summary[m
+[31m-  [m
+[31m-[m
+ [m
+ [m
+   Constant SummaryConstant Summary[m
+[36m@@ -517,7 +548,7 @@[m [mtrue if the numeric code matched the response code.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCodeReturns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.Returns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -525,7 +556,7 @@[m [mReturns a new instance of NumericCodeReturns a new instance of NumericCode[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -535,7 +566,7 @@[m [mReturns a new instance of NumericCode[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -648,7 +679,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -691,7 +722,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -944,7 +975,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failedReturns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.Returns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -952,7 +983,7 @@[m [mReturns explaining why the match failedReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -962,7 +993,7 @@[m [mReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1136,7 +1167,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1196,7 +1227,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failedReturns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.Returns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1204,7 +1235,7 @@[m [mReturns explaining why the match failedReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1214,7 +1245,7 @@[m [mReturns explaining why the match failed[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1388,7 +1419,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1448,7 +1479,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns truetrue if the numeric code matched the responseresponse codeReturns true if the numeric code matched the response code[m
+[32m+[m[32mReturns truetrue if the numeric code matched the responseresponse code.Returns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1456,7 +1487,7 @@[m [mReturns truetrue if the numeric code matched the responseresponse codeReturns tr[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if the numeric code matched the response code[m
+[32m+[m[32mReturns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1466,7 +1497,7 @@[m [mReturns true if the numeric code matched the response code[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if the numeric code matched the response code[m
+[32m+[m[32mReturns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1739,7 +1770,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if the numeric code matched the response code[m
+[32m+[m[32mReturns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1873,7 +1904,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1930,7 +1961,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -1987,7 +2018,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if the numeric code matched the response code[m
+[32m+[m[32mReturns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -2139,9 +2175,6 @@[m [mNot intended to be instantiated directly.[m
+   [m
+ [m
+ [m
+[31m-  Constant Summary[m
+[31m-  [m
+[31m-[m
+ [m
+ [m
+   Constant Summary[m
+[36m@@ -2296,7 +2329,7 @@[m [mNot intended to be instantiated directly.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a new instance of NumericCode[m
+[32m+[m[32mReturns a new instance of NumericCode.[m
+ [m
+ [m
+   [m
+[36m@@ -2391,7 +2424,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -2448,7 +2481,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns explaining why the match failed[m
+[32m+[m[32mReturns explaining why the match failed.[m
+ [m
+ [m
+   [m
+[36m@@ -2505,7 +2538,7 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if the numeric code matched the response code[m
+[32m+[m[32mReturns true if the numeric code matched the response code.[m
+ [m
+ [m
+   [m

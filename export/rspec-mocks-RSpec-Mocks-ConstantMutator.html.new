@@ -1,0 +1,2356 @@
+Class: RSpec::Mocks::ConstantMutator
+  
+  
+  
+Class: RSpec::Mocks::ConstantMutator
+  
+  
+  
+
+
+  
+  
+    Inherits:Inherits:
+    
+      ObjectObject
+      
+        
+          ObjectObject
+          
+            RSpec::Mocks::ConstantMutatorRSpec::Mocks::ConstantMutator
+          
+        
+          Object
+          
+            RSpec::Mocks::ConstantMutator
+          
+        
+        show allshow all
+      
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ConstantMutator
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ConstantMutator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:Extended by:
+      Support::RecursiveConstMethodsSupport::RecursiveConstMethods
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/mocks/mutate_const.rblib/rspec/mocks/mutate_const.rb
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ConstantMutator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+
+OverviewOverview
+  
+    Provides a means to stub constants.Provides a means to stub constants.
+
+
+  
+    Provides a means to stub constants.
+
+
+  
+
+  
+    Provides a means to stub constants.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Hides a constant.Hides a constant.
+Hides a constant.
+Hides a constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Hides a constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stubs a constant.Stubs a constant.
+Stubs a constant.
+Stubs a constant.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stubs a constant.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Hides a constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stubs a constant.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Class Method DetailsClass Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    It's recommended that you use hide_consthide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.Hides a constant.
+
+
+  
+    
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.
+
+
+  
+
+  
+    
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        constant_nameconstant_name
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+
+
+  See Also:See Also:
+  
+    
+      ExampleMethods#hide_constExampleMethods#hide_const
+    
+  
+    
+      ExampleMethods#hide_const
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      ExampleMethods#hide_const
+    
+  
+
+
+  
+    
+      
+
+
+131
+132
+133
+134
+
+
+131
+132
+133
+134
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131# File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+defdef selfself..hidehide((constant_nameconstant_name))
+  mutatemutate((ConstantHiderConstantHider..newnew((constant_nameconstant_name,, nilnil,, {{}}))))
+  nilnil
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+
+  
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      ExampleMethods#hide_const
+    
+  
+
+
+  
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+
+
+331
+332
+333
+334
+335
+336
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331# File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+defdef selfself..raise_on_invalid_constraise_on_invalid_const
+  lambdalambda dodo ||const_nameconst_name,, failed_namefailed_name||
+    raiseraise ""Cannot stub constant Cannot stub constant #{#{failed_namefailed_name}} on  on #{#{const_nameconst_name}}  """Cannot stub constant #{failed_name} on #{const_name} " \
+          ""since since #{#{const_nameconst_name}} is not a module. is not a module."""since #{const_name} is not a module."
+  endend
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:Note:
+    It's recommended that you use stub_conststub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.Stubs a constant.
+
+
+  
+    
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.
+
+
+  
+
+  
+    
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.
+
+
+  
+
+
+  Parameters:Parameters:
+
+  
+    
+      
+        constant_nameconstant_name
+      
+      
+        (StringString)(String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        valuevalue
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        optionsoptions
+      
+      
+        (HashHash)(Hash)
+      
+      
+        (defaults to: {}{})(defaults to: {})
+      
+      
+        —
+        Stubbing options.Stubbing options.
+Stubbing options.
+
+      
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (optionsoptions):Options Hash (options):
+    
+      
+        
+          :transfer_nested_constants:transfer_nested_constants
+          (BooleanBoolean, Array<Symbol>Array<Symbol>)(Boolean, Array<Symbol>)
+          
+            
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+      
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+  
+
+Returns:Returns:
+
+  
+    
+      
+      
+        (ObjectObject)(Object)
+      
+      
+      
+        —
+        the stubbed value of the constantthe stubbed value of the constant
+the stubbed value of the constant
+
+      
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+
+  See Also:See Also:
+  
+    
+      ExampleMethods#stub_constExampleMethods#stub_const
+    
+  
+    
+      ExampleMethods#stub_const
+    
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleMethods#stub_const
+    
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107# File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+defdef selfself..stubstub((constant_nameconstant_name,, valuevalue,, optionsoptions=={{}}))
+  unlessunless StringString ====== constant_nameconstant_name
+    raiseraise ArgumentErrorArgumentError,, ""`stub_const` requires a String, but you provided a `stub_const` requires a String, but you provided a #{#{constant_nameconstant_name..classclass..namename}}"""`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  endend
+
+  mutatormutator == ifif recursive_const_defined?recursive_const_defined?((constant_nameconstant_name,, &&raise_on_invalid_constraise_on_invalid_const))
+              DefinedConstantReplacerDefinedConstantReplacer
+            elseelse
+              UndefinedConstantSetterUndefinedConstantSetter
+            endend
+
+  mutatemutate((mutatormutator..newnew((constant_nameconstant_name,, valuevalue,, optionsoptions[[:transfer_nested_constants:transfer_nested_constants]]))))
+  valuevalue
+endend# File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+
+
+  
+  
+    
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleMethods#stub_const
+    
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+
+
+    
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      ExampleMethods#hide_const
+    
+  
+
+
+  
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleMethods#stub_const
+    
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Mocks::ConstantMutator
+  
+  
+  
+
+
+  
+  
+    Inherits:
+    
+      Object
+      
+        
+          Object
+          
+            RSpec::Mocks::ConstantMutator
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+      Extended by:
+      Support::RecursiveConstMethods
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/mocks/mutate_const.rb
+  
+  
+
+
+Overview
+  
+    Provides a means to stub constants.
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Hides a constant.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Stubs a constant.
+
+  
+
+
+      
+    
+  
+
+
+  
+
+  
+    Class Method Details
+
+    
+      
+  
+  
+    
+  
+    Note:
+    It's recommended that you use hide_const in your
+examples. This is an alternate public API that is provided
+so you can hide constants in other contexts (e.g. helper
+classes).
+
+  
+
+Hides a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant.
+The current constant scoping at the point of call is not considered.
+
+      
+    
+  
+
+
+
+  See Also:
+  
+    
+      ExampleMethods#hide_const
+    
+  
+
+
+  
+    
+      
+
+
+131
+132
+133
+134
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 131
+
+def self.hide(constant_name)
+  mutate(ConstantHider.new(constant_name, nil, {}))
+  nil
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used internally by the constant stubbing to raise a helpful
+error when a constant like "A::B::C" is stubbed and A::B is
+not a module (and thus, it's impossible to define "A::B::C"
+since only modules can have nested constants).
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+331
+332
+333
+334
+335
+336
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 331
+
+def self.raise_on_invalid_const
+  lambda do |const_name, failed_name|
+    raise "Cannot stub constant #{failed_name} on #{const_name} " \
+          "since #{const_name} is not a module."
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  
+    Note:
+    It's recommended that you use stub_const in your
+examples. This is an alternate public API that is provided
+so you can stub constants in other contexts (e.g. helper
+classes).
+
+  
+
+Stubs a constant.
+
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        constant_name
+      
+      
+        (String)
+      
+      
+      
+        —
+        The fully qualified name of the constant. The current
+constant scoping at the point of call is not considered.
+
+      
+    
+  
+    
+      
+        value
+      
+      
+        (Object)
+      
+      
+      
+        —
+        The value to make the constant refer to. When the
+example completes, the constant will be restored to its prior state.
+
+      
+    
+  
+    
+      
+        options
+      
+      
+        (Hash)
+      
+      
+        (defaults to: {})
+      
+      
+        —
+        Stubbing options.
+
+      
+    
+  
+
+
+  
+    
+    
+    
+    
+    
+    
+    Options Hash (options):
+    
+      
+        
+          :transfer_nested_constants
+          (Boolean, Array<Symbol>)
+          
+            
+          
+          
+            — Determines
+what nested constants, if any, will be transferred from the original value
+of the constant to the new value of the constant. This only works if both
+the original and new values are modules (or classes).
+
+          
+        
+      
+    
+  
+
+Returns:
+
+  
+    
+      
+      
+        (Object)
+      
+      
+      
+        —
+        the stubbed value of the constant
+
+      
+    
+  
+
+
+  See Also:
+  
+    
+      ExampleMethods#stub_const
+    
+  
+
+
+  
+    
+      
+
+
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+    
+    
+      # File 'lib/rspec/mocks/mutate_const.rb', line 107
+
+def self.stub(constant_name, value, options={})
+  unless String === constant_name
+    raise ArgumentError, "`stub_const` requires a String, but you provided a #{constant_name.class.name}"
+  end
+
+  mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)
+              DefinedConstantReplacer
+            else
+              UndefinedConstantSetter
+            end
+
+  mutate(mutator.new(constant_name, value, options[:transfer_nested_constants]))
+  value
+end
+    
+  
+
+
+    
+  
+

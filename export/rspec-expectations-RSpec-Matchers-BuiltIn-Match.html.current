@@ -1,0 +1,1883 @@
+Class: RSpec::Matchers::BuiltIn::Match
+  
+  
+  PrivatePrivate
+Class: RSpec::Matchers::BuiltIn::Match
+  
+  
+  Private
+
+
+  
+  
+    Inherits:Inherits:
+    
+      BaseMatcherBaseMatcher
+      
+        
+          ObjectObject
+          
+            BaseMatcherBaseMatcher
+          
+            RSpec::Matchers::BuiltIn::MatchRSpec::Matchers::BuiltIn::Match
+          
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Match
+          
+        
+        show allshow all
+      
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Match
+          
+        
+        show all
+      
+    
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Match
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec/matchers/built_in/match.rblib/rspec/matchers/built_in/match.rb
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Match
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+
+OverviewOverview
+  
+    
+  This class is part of a private API.This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for matchmatch.
+Not intended to be instantiated directly.Provides the implementation for match.
+Not intended to be instantiated directly.
+
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for match.
+Not intended to be instantiated directly.
+
+
+  
+
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for match.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  Constant SummaryConstant Summary
+  
+  Constants inherited
+     from BaseMatcherConstants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINEDBaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructorconstructor
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    A new instance of Match.A new instance of Match.
+A new instance of Match.
+A new instance of Match.
+
+  
+
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Used to specify the captures we match against.Used to specify the captures we match against.
+Used to specify the captures we match against.
+Used to specify the captures we match against.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to specify the captures we match against.
+
+  
+
+
+      
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to specify the captures we match against.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcherMethods inherited from BaseMatcher
+  #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?#expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessagesMethods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated#failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from ComposableMethods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?#===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor DetailsConstructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of MatchReturns a new instance of Match
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Match
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Match
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+
+
+8
+9
+10
+11
+12
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8# File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+defdef initializeinitialize((expectedexpected))
+  supersuper((expectedexpected))
+
+  @expected_captures@expected_captures == nilnil
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Match
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+
+
+  
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Match
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (StringString)(String)
+      
+      
+      
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15# File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+defdef descriptiondescription
+  ifif @expected_captures@expected_captures &&&& @expected@expected..matchmatch((actualactual))
+    ""match match #{#{surface_descriptions_insurface_descriptions_in((expectedexpected))..inspectinspect}} with captures  with captures #{#{surface_descriptions_insurface_descriptions_in((@expected_captures@expected_captures))..inspectinspect}}"""match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  elseelse
+    ""match match #{#{surface_descriptions_insurface_descriptions_in((expectedexpected))..inspectinspect}}"""match #{surface_descriptions_in(expected).inspect}"
+  endend
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (BooleanBoolean)(Boolean)
+      
+      
+      
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+
+
+25
+26
+27
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25# File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+defdef diffable?diffable?
+  truetrue
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match againstUsed to specify the captures we match against
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match against
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match against
+
+
+  
+
+
+  
+Returns:Returns:
+
+  
+    
+      
+      
+        (selfself)(self)
+      
+      
+      
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+  
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+
+
+31
+32
+33
+34
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31# File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+defdef with_captureswith_captures((**capturescaptures))
+  @expected_captures@expected_captures == capturescaptures
+  selfself
+endend# File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match against
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+
+
+    
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match against
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+
+
+    
+  
+
+Class: RSpec::Matchers::BuiltIn::Match
+  
+  
+  Private
+
+
+  
+  
+    Inherits:
+    
+      BaseMatcher
+      
+        
+          Object
+          
+            BaseMatcher
+          
+            RSpec::Matchers::BuiltIn::Match
+          
+        
+        show all
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:
+    lib/rspec/matchers/built_in/match.rb
+  
+  
+
+
+Overview
+  
+    
+  This class is part of a private API.
+  You should avoid using this class if possible, as it may be removed or be changed in the future.
+
+Provides the implementation for match.
+Not intended to be instantiated directly.
+
+
+  
+
+
+  
+
+
+
+
+  Constant Summary
+  
+  Constants inherited
+     from BaseMatcher
+  BaseMatcher::UNDEFINED
+
+
+
+
+
+  
+    
+      Instance Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    
+  
+
+
+      
+        
+  
+  
+  
+    constructor
+  
+  
+  
+  
+  
+  private
+
+  
+    A new instance of Match.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  private
+
+  
+    Used to specify the captures we match against.
+
+  
+
+
+      
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods inherited from BaseMatcher
+  #expects_call_stack_jump?, #match_unless_raises, #matches?, #supports_block_expectations?
+
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from BaseMatcher::DefaultFailureMessages
+  #failure_message, #failure_message_when_negated
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Methods included from Composable
+  #===, #and, #description_of, #or, should_enumerate?, surface_descriptions_in, unreadable_io?, #values_match?
+
+  Constructor Details
+  
+    
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Returns a new instance of Match
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+8
+9
+10
+11
+12
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 8
+
+def initialize(expected)
+  super(expected)
+
+  @expected_captures = nil
+end
+    
+  
+
+
+  
+
+
+
+  
+    Instance Method Details
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (String)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+15
+16
+17
+18
+19
+20
+21
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 15
+
+def description
+  if @expected_captures && @expected.match(actual)
+    "match #{surface_descriptions_in(expected).inspect} with captures #{surface_descriptions_in(@expected_captures).inspect}"
+  else
+    "match #{surface_descriptions_in(expected).inspect}"
+  end
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (Boolean)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+25
+26
+27
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 25
+
+def diffable?
+  true
+end
+    
+  
+
+
+    
+      
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Used to specify the captures we match against
+
+
+  
+
+
+  
+Returns:
+
+  
+    
+      
+      
+        (self)
+      
+      
+      
+    
+  
+
+
+
+  
+    
+      
+
+
+31
+32
+33
+34
+    
+    
+      # File 'lib/rspec/matchers/built_in/match.rb', line 31
+
+def with_captures(*captures)
+  @expected_captures = captures
+  self
+end
+    
+  
+
+
+    
+  
+
