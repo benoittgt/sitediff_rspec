@@ -32,8 +32,10 @@ def remove_noise_and_extract_text(html)
 
   text = []
   html.at_css("div#content").traverse do |node|
-    next unless node.is_a?(Nokogiri::XML::Element)
-    # puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n"
+    if skip_new_yard_object_link?(node)
+      next
+    end
+    # puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n" if node.text == "ViewExampleGroup"
     text << node.text
   end
   text.join('')
@@ -71,6 +73,10 @@ def remove_collapse_expand_buttons(html)
   html
 end
 
+def skip_new_yard_object_link?(node)
+  node.attr("class") == "object_link" || node.parent.attr("class") == "object_link"
+end
+
 def logger(node)
   puts <<-NOTICE
      Removing:
@@ -87,11 +93,8 @@ class AttrDecorator
   end
 
   def to_s
-    attribute.nil? ? "✖️" : attribute
+    @attribute.nil? ? "✖️" : @attribute
   end
-
-  private
-  attr_reader :attribute
 end
 
 class String
