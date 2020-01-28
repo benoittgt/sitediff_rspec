@@ -18,6 +18,20 @@ $ ruby nokorigi-diff.rb
 Check args available to different verbose mode with `--help`. You can also run the diff on one url
 in particular
 
+### Elements in yard doc altered
+
+* Remove the `.summary_signatures` and `.signature` class that are different between yard version. 
+  ![](screen_captures/summary_signatures.png)
+* Remove `Assertions-constant` block because yard doc now put them in a difference place.
+  ![](screen_captures/Assertions-constant.png)
+* Remove `collapse` buttons because old one include `( )`
+  ![](screen_captures/collapse.png)
+* Add ending dot when missing.
+  ![](screen_captures/ending-dot.png)
+* Don't diff new object links in source code
+  ![](screen_captures/object-link.png)
+
+The diff output still display few artifacts but most of the time they can be ignored.
 
 ## Output
 
