@@ -29,15 +29,15 @@ module Utils
   end
 
   if ARGV.any?
-    require 'optparse'
-    OptionParser.new do |opts|
+    require "optparse"
+    OptionParser.new { |opts|
       opts.on("--diff", "Display git diff") { VerboseMode[:diff] = true }
       opts.on("--removed-content", "Display removed content") { VerboseMode[:removed_content] = true }
       opts.on("--added-text", "Display text extracted") { VerboseMode[:added_text] = true }
       opts.on("--custom-url=url", "Diff only one url. Example: rspec-expectations/RSpec/Matchers/BuiltIn/Exist.html") do |url|
         VerboseMode[:custom_url] = url
       end
-    end.parse!
+    }.parse!
   end
 end
 
@@ -57,16 +57,16 @@ class RSpecYardDiffer
   def page_list
     RSPEC_LIB.each_with_object({}) do |lib, list|
       links = get_html(base_url: DOC_CURRENT_VERSION, page_link: "#{lib}/_index.html")
-              .css("table a[href]")
-              .map { |element| element["href"] }
-              .compact
-      list["#{lib}"] = links
+        .css("table a[href]")
+        .map { |element| element["href"] }
+        .compact
+      list[lib.to_s] = links
     end
   end
 
   def run
     if VerboseMode[:custom_url]
-      return DiffPage.new("#{VerboseMode[:custom_url]}").generate_diff
+      return DiffPage.new((VerboseMode[:custom_url]).to_s).generate_diff
     end
 
     page_list.each do |lib, links|
