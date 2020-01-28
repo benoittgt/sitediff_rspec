@@ -1,6 +1,8 @@
 require "nokogiri"
 require "open-uri"
 
+RSPEC_LIB = ["rspec-core", "rspec-expectations", "rspec-mocks", "rspec-rails"]
+
 DOC_CURRENT_VERSION = "http://rspec.info/documentation/3.9"
 DOC_NEW_VERSION = "http://0.0.0.0:4567/documentation/3.9"
 
@@ -16,20 +18,44 @@ ID_NODES_TO_REMOVE = [
 
 TEST_ASSERTION_NODE_OFFSET = 2
 
+module Utils
+  def get_html(base_url:, page_link:)
+    puts ">> Get html for: #{base_url}/#{page_link}"
+    Nokogiri::HTML(URI.open("#{base_url}/#{page_link}"))
+  end
+end
+
 class String
   def to_filename
     "export/#{tr("/", "-")}"
   end
 end
 
-class DiffPage
-  def initialize(page_link)
-    @page_link = page_link
+class RSpecYardDiffer
+  include Utils
+
+  def page_list
+    RSPEC_LIB.each_with_object({}) do |lib, list|
+      links = get_html(base_url: DOC_CURRENT_VERSION, page_link: "#{lib}/_index.html")
+              .css("table a[href]")
+              .map { |element| element["href"] }
+              .compact
+      list["#{lib}"] = links
+    end
   end
 
-  def get_html(base_url:, page_link:)
-    puts ">> Get html for: #{base_url}/#{page_link}.html"
-    Nokogiri::HTML(URI.open("#{base_url}/#{page_link}.html"))
+  def run
+    page_list.each do |lib, links|
+      links.each { |link| DiffPage.new("#{lib}/#{link}").generate_diff }
+    end
+  end
+end
+
+class DiffPage
+  include Utils
+
+  def initialize(page_link)
+    @page_link = page_link
   end
 
   def remove_noise_and_extract_text(html)
@@ -50,8 +76,13 @@ class DiffPage
 
   def remove_assertions_block(html)
     assertions_constant_node = nil
+
+    return html unless html.css(".constants").first
+
     html.css(".constants").first.children.each { |node| assertions_constant_node = node if node.attr("id") == "Assertions-constant" }
     assertions_constant_node_id = html.css(".constants").first.children.index(assertions_constant_node)
+
+    return html unless assertions_constant_node_id
 
     assertion_node = html.css(".constants").first.children[assertions_constant_node_id + 2]
     logger(assertion_node)
@@ -121,6 +152,7 @@ class DiffPage
     system(
       <<~SHELL
         git diff \
+          --color \
           --no-index \
           --ignore-all-space \
           --ignore-blank-lines \
@@ -129,6 +161,7 @@ class DiffPage
       SHELL
     )
     puts ">> Diff done: #{page_link.to_filename}.diff"
+    system(`cat #{page_link.to_filename}.diff`)
   end
 
   private
@@ -136,4 +169,4 @@ class DiffPage
   attr_reader :page_link
 end
 
-DiffPage.new("rspec-rails/RSpec/Rails").generate_diff
+RSpecYardDiffer.new.run
