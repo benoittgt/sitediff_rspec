@@ -26,8 +26,12 @@ module Utils
 end
 
 class String
-  def to_filename
+  def export_filename
     "export/#{tr("/", "-")}"
+  end
+
+  def diff_filename
+    "export/diff/#{tr("/", "-")}"
   end
 end
 
@@ -136,8 +140,9 @@ class DiffPage
   end
 
   def generate_diff
-    current_web_page_file_name = page_link.to_filename + ".current"
-    new_web_page_file_name = page_link.to_filename + ".new"
+    current_web_page_file_name = page_link.export_filename + ".current"
+    new_web_page_file_name = page_link.export_filename + ".new"
+    diff_filename = page_link.diff_filename
 
     File.write(
       current_web_page_file_name,
@@ -157,11 +162,11 @@ class DiffPage
           --ignore-all-space \
           --ignore-blank-lines \
           --minimal \
-          #{current_web_page_file_name} #{new_web_page_file_name} > #{page_link.to_filename}.diff
+          #{current_web_page_file_name} #{new_web_page_file_name} > #{diff_filename}.diff
       SHELL
     )
-    puts ">> Diff done: #{page_link.to_filename}.diff"
-    system(`cat #{page_link.to_filename}.diff`)
+    puts ">> Diff done: #{diff_filename}.diff"
+    system("cat #{diff_filename}.diff")
   end
 
   private
