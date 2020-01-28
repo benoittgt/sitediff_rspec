@@ -2,8 +2,29 @@ Module: RSpec::Rails
   
   
   
-Defined in:lib/rspec-rails.rb
+Module: RSpec::Rails
+  
+  
+  
 
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+    Defined in:Defined in:
+    lib/rspec-rails.rb
+lib/rspec-rails.rb
+
+  
     Defined in:
     lib/rspec-rails.rb
 
@@ -11,6 +32,8 @@ Defined in:lib/rspec-rails.rb
   
 
   
+
+  
   
   
   
@@ -25,20 +48,43 @@ Defined in:lib/rspec-rails.rb
 
   
   
-OverviewNamespace for rspec-rails code.
+
+
+OverviewOverview
+  
+    Namespace for rspec-rails code.Namespace for rspec-rails code.
+
+
+  
     Namespace for rspec-rails code.
 
 
   
+
   
     Namespace for rspec-rails code.
 
 
   
 
+
   
 
-Defined Under NamespaceModules:ControllerExampleGroupControllerExampleGroupFeatureExampleGroupFeatureExampleGroupHelperExampleGroupHelperExampleGroupJobExampleGroupJobExampleGroupMailerExampleGroupMailerExampleGroupMatchersMatchersModelExampleGroupModelExampleGroupRailsExampleGroupRailsExampleGroupRequestExampleGroupRequestExampleGroupRoutingExampleGroupRoutingExampleGroupSystemExampleGroupSystemExampleGroupVersionVersionViewAssignsViewAssignsViewExampleGroupViewExampleGroupViewRenderingViewRenderingViewSpecMethodsViewSpecMethodsClasses:ActiveRecordConfigurationActiveRecordConfigurationConfigurationConfigurationRailtieRailtieViewPathBuilderViewPathBuilder
+
+  
+
+Defined Under NamespaceDefined Under Namespace
+
+  
+    
+      Modules:Modules: ControllerExampleGroup, FeatureExampleGroup, HelperExampleGroup, JobExampleGroup, MailerExampleGroup, Matchers, ModelExampleGroup, RailsExampleGroup, RequestExampleGroup, RoutingExampleGroup, SystemExampleGroup, Version, ViewAssigns, ViewExampleGroup, ViewRendering, ViewSpecMethods
+    
+  
+    
+      Classes:Classes: ActiveRecordConfiguration, Configuration, Railtie, ViewPathBuilder
+    
+  
+
   
     
       Modules: ControllerExampleGroup, FeatureExampleGroup, HelperExampleGroup, JobExampleGroup, MailerExampleGroup, Matchers, ModelExampleGroup, RailsExampleGroup, RequestExampleGroup, RoutingExampleGroup, SystemExampleGroup, Version, ViewAssigns, ViewExampleGroup, ViewRendering, ViewSpecMethods
@@ -49,12 +95,35 @@ Defined Under NamespaceModules:ControllerExampleGroupControllerExampleGroupFeatu
     
   
 
+
+  
+    
       Constant Summary
       
-    This constant is part of a private API.
+    
+      Constant Summary
+      
+    
+
+    
+      
+        
+        
+      
+        DIRECTORY_MAPPINGS =
+          
+  
+    
+  This constant is part of a private API.This constant is part of a private API.
+  You should avoid using this constant if possible, as it may be removed or be changed in the future.
+
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
-infer_spec_type_from_file_location!Mappings used by infer_spec_type_from_file_location!.
+
+Mappings used by infer_spec_type_from_file_location!infer_spec_type_from_file_location!.Mappings used by infer_spec_type_from_file_location!.
+
+
+  
     
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
@@ -63,6 +132,7 @@ Mappings used by infer_spec_type_from_file_location!.
 
 
   
+
   
     
   This constant is part of a private API.
@@ -73,9 +143,14 @@ Mappings used by infer_spec_type_from_file_location!.
 
   
 
+
   
 
-DIRECTORY_MAPPINGS =
+
+  
+
+
+        DIRECTORY_MAPPINGS =
           
   
     
@@ -91,7 +166,19 @@ Mappings used by infer_spec_type_from_file_location!.
   
 
 
-        {:controller=>%w[spec controllers],:helper=>%w[spec helpers],:job=>%w[spec jobs],:mailer=>%w[spec mailers],:model=>%w[spec models],:request=>%w[spec (requests|integration|api)],:routing=>%w[spec routing],:view=>%w[spec views],:feature=>%w[spec features],:system=>%w[spec system]}{
+        
+        {{
+  :controller:controller =>=> %w[%w[specspec  controllerscontrollers]],,
+  :helper:helper     =>=> %w[%w[specspec  helpershelpers]],,
+  :job:job        =>=> %w[%w[specspec  jobsjobs]],,
+  :mailer:mailer     =>=> %w[%w[specspec  mailersmailers]],,
+  :model:model      =>=> %w[%w[specspec  modelsmodels]],,
+  :request:request    =>=> %w[%w[specspec  (requests|integration|api)(requests|integration|api)]],,
+  :routing:routing    =>=> %w[%w[specspec  routingrouting]],,
+  :view:view       =>=> %w[%w[specspec  viewsviews]],,
+  :feature:feature    =>=> %w[%w[specspec  featuresfeatures]],,
+  :system:system     =>=> %w[%w[specspec  systemsystem]]
+}}{
   :controller => %w[spec controllers],
   :helper     => %w[spec helpers],
   :job        => %w[spec jobs],
@@ -114,6 +201,8 @@ Mappings used by infer_spec_type_from_file_location!.
   :feature    => %w[spec features],
   :system     => %w[spec system]
 }
+      
+    
       
         
         
@@ -149,10 +238,41 @@ Mappings used by infer_spec_type_from_file_location!.
 }
       
     
+  
+
+
+
+
+
+
+
+  
+    
       Class Method Summary
       
-    privateSets up the different example group modules for the different spec types.Sets up the different example group modules for the different spec types.
+    
+      Class Method Summary
+      
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  privateprivate
+
+  
+    Sets up the different example group modules for the different spec types.Sets up the different example group modules for the different spec types.
 Sets up the different example group modules for the different spec types.
+Sets up the different example group modules for the different spec types.
+
+  
 
   
   
@@ -168,6 +288,9 @@ Sets up the different example group modules for the different spec types.
 
   
 
+
+      
+    
       
         
   
@@ -185,14 +308,37 @@ Sets up the different example group modules for the different spec types.
   
 
 
+      
+    
+  
+    
+      Instance Method Summary
       
     
       Instance Method Summary
       
-    typeAutomatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.Automatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.
+    
+
+    
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Automatically tag specs in conventional directories with matching typetype metadata so that they have relevant helpers available to them.Automatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.
+Automatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.
 Automatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.
 
   
+
+  
   
   
   
@@ -205,10 +351,27 @@ Automatically tag specs in conventional directories with matching type metadata 
     Automatically tag specs in conventional directories with matching type metadata so that they have relevant helpers available to them.
 
   
-Enables view rendering for controllers specs.Enables view rendering for controllers specs.
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Enables view rendering for controllers specs.Enables view rendering for controllers specs.
+Enables view rendering for controllers specs.
 Enables view rendering for controllers specs.
 
   
+
+  
   
   
   
@@ -221,8 +384,25 @@ Enables view rendering for controllers specs.
     Enables view rendering for controllers specs.
 
   
-trueWhen set to true, controller specs will render the relevant view as well.When set to true, controller specs will render the relevant view as well.
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    When set to truetrue, controller specs will render the relevant view as well.When set to true, controller specs will render the relevant view as well.
 When set to true, controller specs will render the relevant view as well.
+When set to true, controller specs will render the relevant view as well.
+
+  
 
   
   
@@ -237,8 +417,25 @@ When set to true, controller specs will render the relevant view as well.
     When set to true, controller specs will render the relevant view as well.
 
   
-render_viewsReader for currently value of render_views setting.Reader for currently value of render_views setting.
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    Reader for currently value of render_viewsrender_views setting.Reader for currently value of render_views setting.
 Reader for currently value of render_views setting.
+Reader for currently value of render_views setting.
+
+  
 
   
   
@@ -254,6 +451,9 @@ Reader for currently value of render_views setting.
 
   
 
+
+      
+    
       
         
   
@@ -323,85 +523,56 @@ Reader for currently value of render_views setting.
 
 
       
-    Class Method DetailsThis method is part of a private API.
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-Sets up the different example group modules for the different spec types
     
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+  
 
-Sets up the different example group modules for the different spec types
 
 
   
-  
+    Class Method DetailsClass Method Details
+
     
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Sets up the different example group modules for the different spec types
-
-
-  
-
-  
-
-
-
-
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
       
-
-
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-    # File 'lib/rspec/rails/configuration.rb', line 43defself.add_test_type_configurations(config)config.includeRSpecRSpecRSpec::RailsRailsRails::ControllerExampleGroupControllerExampleGroupControllerExampleGroup,:type=>:controllerconfig.includeRSpecRSpecRSpec::RailsRailsRails::HelperExampleGroupHelperExampleGroupHelperExampleGroup,:type=>:helperconfig.includeRSpecRSpecRSpec::RailsRailsRails::ModelExampleGroupModelExampleGroupModelExampleGroup,:type=>:modelconfig.includeRSpecRSpecRSpec::RailsRailsRails::RequestExampleGroupRequestExampleGroupRequestExampleGroup,:type=>:requestconfig.includeRSpecRSpecRSpec::RailsRailsRails::RoutingExampleGroupRoutingExampleGroupRoutingExampleGroup,:type=>:routingconfig.includeRSpecRSpecRSpec::RailsRailsRails::ViewExampleGroupViewExampleGroupViewExampleGroup,:type=>:viewconfig.includeRSpecRSpecRSpec::RailsRailsRails::FeatureExampleGroupFeatureExampleGroupFeatureExampleGroup,:type=>:featureconfig.includeRSpecRSpecRSpec::RailsRailsRails::MatchersMatchersMatchersconfig.includeRSpecRSpecRSpec::RailsRailsRails::SystemExampleGroupSystemExampleGroupSystemExampleGroup,:type=>:systemend# File 'lib/rspec/rails/configuration.rb', line 43
-
-def self.add_test_type_configurations(config)
-  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
-  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
-  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
-  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
-  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
-  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
-  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
-  config.include RSpec::Rails::Matchers
-  config.include RSpec::Rails::SystemExampleGroup, :type => :system
-end
-      # File 'lib/rspec/rails/configuration.rb', line 43
-
-def self.add_test_type_configurations(config)
-  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
-  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
-  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
-  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
-  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
-  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
-  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
-  config.include RSpec::Rails::Matchers
-  config.include RSpec::Rails::SystemExampleGroup, :type => :system
-end
+  
+  
     
+  This method is part of a private API.This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Sets up the different example group modules for the different spec typesSets up the different example group modules for the different spec types
+
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Sets up the different example group modules for the different spec types
+
+
+  
+
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Sets up the different example group modules for the different spec types
+
+
+  
+
+
+  
+
+
+  
+
+
+  
     
       
 
@@ -417,24 +588,19 @@ end
 51
 52
 53
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 43
 
-def self.add_test_type_configurations(config)
-  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
-  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
-  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
-  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
-  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
-  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
-  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
-  config.include RSpec::Rails::Matchers
-  config.include RSpec::Rails::SystemExampleGroup, :type => :system
-end
-    
-  
-  
+
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
     
       
 
@@ -452,6 +618,32 @@ end
 53
     
     
+      # File 'lib/rspec/rails/configuration.rb', line 43# File 'lib/rspec/rails/configuration.rb', line 43
+
+defdef selfself..add_test_type_configurationsadd_test_type_configurations((configconfig))
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::ControllerExampleGroupControllerExampleGroup,, :type:type =>=> :controller:controller
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::HelperExampleGroupHelperExampleGroup,,     :type:type =>=> :helper:helper
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::ModelExampleGroupModelExampleGroup,,      :type:type =>=> :model:model
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::RequestExampleGroupRequestExampleGroup,,    :type:type =>=> :request:request
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::RoutingExampleGroupRoutingExampleGroup,,    :type:type =>=> :routing:routing
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::ViewExampleGroupViewExampleGroup,,       :type:type =>=> :view:view
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::FeatureExampleGroupFeatureExampleGroup,,    :type:type =>=> :feature:feature
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::MatchersMatchers
+  configconfig..includeinclude RSpecRSpec::::RailsRails::::SystemExampleGroupSystemExampleGroup,, :type:type =>=> :system:system
+endend# File 'lib/rspec/rails/configuration.rb', line 43
+
+def self.add_test_type_configurations(config)
+  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
+  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
+  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
+  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
+  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
+  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
+  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
+  config.include RSpec::Rails::Matchers
+  config.include RSpec::Rails::SystemExampleGroup, :type => :system
+end
+    
       # File 'lib/rspec/rails/configuration.rb', line 43
 
 def self.add_test_type_configurations(config)
@@ -466,23 +658,6 @@ def self.add_test_type_configurations(config)
   config.include RSpec::Rails::SystemExampleGroup, :type => :system
 end
     
-  
-
-  
-  
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Sets up the different example group modules for the different spec types
-
-
-  
-
-
-  
-
-
   
     
       
@@ -517,7 +692,93 @@ end
     
   
 
+  
+    
+      
 
+
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 43
+
+def self.add_test_type_configurations(config)
+  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
+  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
+  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
+  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
+  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
+  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
+  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
+  config.include RSpec::Rails::Matchers
+  config.include RSpec::Rails::SystemExampleGroup, :type => :system
+end
+    
+  
+
+
+  
+  
+    
+  This method is part of a private API.
+  You should avoid using this method if possible, as it may be removed or be changed in the future.
+
+Sets up the different example group modules for the different spec types
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 43
+
+def self.add_test_type_configurations(config)
+  config.include RSpec::Rails::ControllerExampleGroup, :type => :controller
+  config.include RSpec::Rails::HelperExampleGroup,     :type => :helper
+  config.include RSpec::Rails::ModelExampleGroup,      :type => :model
+  config.include RSpec::Rails::RequestExampleGroup,    :type => :request
+  config.include RSpec::Rails::RoutingExampleGroup,    :type => :routing
+  config.include RSpec::Rails::ViewExampleGroup,       :type => :view
+  config.include RSpec::Rails::FeatureExampleGroup,    :type => :feature
+  config.include RSpec::Rails::Matchers
+  config.include RSpec::Rails::SystemExampleGroup, :type => :system
+end
+    
+  
+
+
+    
+  
     Class Method Details
 
     
@@ -573,10 +834,25 @@ end
 
 
     
-  Instance Method DetailstypeRSpec::Rails::DIRECTORY_MAPPINGSAutomatically tag specs in conventional directories with matching type
+  
+
+  
+    Instance Method DetailsInstance Method Details
+
+    
+      
+  
+  
+    Automatically tag specs in conventional directories with matching typetype
+metadata so that they have relevant helpers available to them. See
+RSpec::Rails::DIRECTORY_MAPPINGSRSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
+applied to each directory.Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
 applied to each directory.
+
+
+  
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
 RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
@@ -584,59 +860,7 @@ applied to each directory.
 
 
   
-  
-    Automatically tag specs in conventional directories with matching type
-metadata so that they have relevant helpers available to them. See
-RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
-applied to each directory.
 
-
-  
-
-  
-
-
-
-
-
-      
-
-
-
-    # File 'lib/rspec/rails/configuration.rb', line 6# File 'lib/rspec/rails/configuration.rb', line 6
-
-
-      # File 'lib/rspec/rails/configuration.rb', line 6
-
-
-    
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 6
-
-
-    
-  
-  
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 6
-
-
-    
-  
-
-  
   
     Automatically tag specs in conventional directories with matching type
 metadata so that they have relevant helpers available to them. See
@@ -651,6 +875,35 @@ applied to each directory.
 
 
   
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 6# File 'lib/rspec/rails/configuration.rb', line 6
+
+# File 'lib/rspec/rails/configuration.rb', line 6
+
+
+    
+      # File 'lib/rspec/rails/configuration.rb', line 6
+
+
+    
+  
     
       
 
@@ -664,61 +917,63 @@ applied to each directory.
     
   
 
-Enables view rendering for controllers specs.
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 6
+
+
+    
+  
+
+
+  
+  
+    Automatically tag specs in conventional directories with matching type
+metadata so that they have relevant helpers available to them. See
+RSpec::Rails::DIRECTORY_MAPPINGS for details on which metadata is
+applied to each directory.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 6
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Enables view rendering for controllers specs.Enables view rendering for controllers specs.
+
+
+  
     Enables view rendering for controllers specs.
 
 
   
-  
-    Enables view rendering for controllers specs.
 
-
-  
-
-  
-
-
-
-
-
-      
-
-
-
-    # File 'lib/rspec/rails/configuration.rb', line 17# File 'lib/rspec/rails/configuration.rb', line 17
-
-
-      # File 'lib/rspec/rails/configuration.rb', line 17
-
-
-    
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 17
-
-
-    
-  
-  
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 17
-
-
-    
-  
-
-  
   
     Enables view rendering for controllers specs.
 
@@ -730,6 +985,35 @@ Enables view rendering for controllers specs.
 
 
   
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 17# File 'lib/rspec/rails/configuration.rb', line 17
+
+# File 'lib/rspec/rails/configuration.rb', line 17
+
+
+    
+      # File 'lib/rspec/rails/configuration.rb', line 17
+
+
+    
+  
     
       
 
@@ -743,64 +1027,63 @@ Enables view rendering for controllers specs.
     
   
 
-truefalseWhen set to true, controller specs will render the relevant view as
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 17
+
+
+    
+  
+
+
+  
+  
+    Enables view rendering for controllers specs.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 17
+
+
+    
+  
+
+
+    
+      
+  
+  
+    When set to truetrue, controller specs will render the relevant view as
+well. Defaults to falsefalse.When set to true, controller specs will render the relevant view as
 well. Defaults to false.
+
+
+  
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
 
 
   
-  
-    When set to true, controller specs will render the relevant view as
-well. Defaults to false.
 
-
-  
-
-  
-
-
-
-
-
-      
-
-
-
-    # File 'lib/rspec/rails/configuration.rb', line 12# File 'lib/rspec/rails/configuration.rb', line 12
-
-
-      # File 'lib/rspec/rails/configuration.rb', line 12
-
-
-    
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 12
-
-
-    
-  
-  
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 12
-
-
-    
-  
-
-  
   
     When set to true, controller specs will render the relevant view as
 well. Defaults to false.
@@ -813,6 +1096,35 @@ well. Defaults to false.
 
 
   
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 12# File 'lib/rspec/rails/configuration.rb', line 12
+
+# File 'lib/rspec/rails/configuration.rb', line 12
+
+
+    
+      # File 'lib/rspec/rails/configuration.rb', line 12
+
+
+    
+  
     
       
 
@@ -826,46 +1138,6 @@ well. Defaults to false.
     
   
 
-render_viewsReader for currently value of render_views setting.
-    Reader for currently value of render_views setting.
-
-
-  
-  
-    Reader for currently value of render_views setting.
-
-
-  
-
-  
-
-
-
-
-
-      
-
-
-
-    # File 'lib/rspec/rails/configuration.rb', line 20# File 'lib/rspec/rails/configuration.rb', line 20
-
-
-      # File 'lib/rspec/rails/configuration.rb', line 20
-
-
-    
-    
-      
-
-
-
-    
-    
-      # File 'lib/rspec/rails/configuration.rb', line 20
-
-
-    
-  
   
     
       
@@ -874,19 +1146,128 @@ render_viewsReader for currently value of render_views setting.
 
     
     
-      # File 'lib/rspec/rails/configuration.rb', line 20
+      # File 'lib/rspec/rails/configuration.rb', line 12
 
 
     
   
 
+
   
+  
+    When set to true, controller specs will render the relevant view as
+well. Defaults to false.
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 12
+
+
+    
+  
+
+
+    
+      
+  
+  
+    Reader for currently value of render_viewsrender_views setting.Reader for currently value of render_views setting.
+
+
   
     Reader for currently value of render_views setting.
 
 
   
 
+  
+    Reader for currently value of render_views setting.
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+    
+      
+
+
+
+
+
+
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 20# File 'lib/rspec/rails/configuration.rb', line 20
+
+# File 'lib/rspec/rails/configuration.rb', line 20
+
+
+    
+      # File 'lib/rspec/rails/configuration.rb', line 20
+
+
+    
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 20
+
+
+    
+  
+
+  
+    
+      
+
+
+
+    
+    
+      # File 'lib/rspec/rails/configuration.rb', line 20
+
+
+    
+  
+
+
+  
+  
+    Reader for currently value of render_views setting.
+
+
+  
+
 
   
 
@@ -906,6 +1287,8 @@ render_viewsReader for currently value of render_views setting.
   
 
 
+    
+  
     Instance Method Details
 
     
@@ -1025,7 +1408,9 @@ well. Defaults to false.
 
 
     
-  Module: RSpec::Rails
+  
+
+Module: RSpec::Rails
   
   
   
