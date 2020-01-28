@@ -1,22 +1,36 @@
-GIT
-  remote: https://github.com/aha-app/differ.git
-  revision: f941d8d77527c994f831da6d8b9bde4a7d259c6e
-  specs:
-    differ (0.1.6)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    ast (2.4.0)
+    jaro_winkler (1.5.4)
     mini_portile2 (2.4.0)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    parser (2.7.0.2)
+      ast (~> 2.4.0)
+    rainbow (3.0.0)
+    rubocop (0.77.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.6)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-performance (1.5.2)
+      rubocop (>= 0.71.0)
+    ruby-progressbar (1.10.1)
+    standard (0.1.7)
+      rubocop (~> 0.77.0)
+      rubocop-performance (~> 1.5.1)
+    unicode-display_width (1.6.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  differ!
   nokogiri
+  standard
 
 BUNDLED WITH
-   2.1.1
+   2.1.3
