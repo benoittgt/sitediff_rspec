@@ -1,5 +1,6 @@
 require "nokogiri"
 require "open-uri"
+require "io/console/size"
 
 RSPEC_LIB = ["rspec-core", "rspec-expectations", "rspec-mocks", "rspec-rails"]
 
@@ -20,9 +21,10 @@ TEST_ASSERTION_NODE_OFFSET = 2
 
 module Utils
   VerboseMode = {}
+  WIDTH = IO.console_size[1]
 
   def get_html(base_url:, page_link:)
-    puts ">> Get html for: #{base_url}/#{page_link}"
+    puts "🧪>> Get html for: #{base_url}/#{page_link}"
     Nokogiri::HTML(URI.open("#{base_url}/#{page_link}"))
   end
 
@@ -84,7 +86,15 @@ class DiffPage
         next
       end
       if VerboseMode[:added_text]
-        puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n"
+        puts <<~NOTICE.chomp
+          #{"--[ node: ]".ljust(WIDTH, "-")}
+          #{node.inspect}
+          #{"_" * WIDTH}
+          #{"--[ text: ]".ljust(WIDTH, "-")}
+          #{node.text}
+          #{"_" * WIDTH}
+          \n
+        NOTICE
       end
       text << node.text
     end
@@ -134,12 +144,13 @@ class DiffPage
 
   def logger(node)
     return unless VerboseMode[:removed_content]
-    puts <<-NOTICE
-     Removing:
-       node.name: #{node.name}
-       class: #{AttrDecorator.new(node.attr("class"))}
-       id: #{AttrDecorator.new(node.attr("id"))}
-       text:⤵️ \n--------------\n#{node.text}\n--------------
+    puts <<~NOTICE.chomp
+      #{"--[ Removing: node.name: #{node.name}, class: #{AttrDecorator.new(node.attr("class"))}, id: #{AttrDecorator.new(node.attr("id"))} ]".ljust(WIDTH, "-")}
+      text:⤵️
+
+      #{node.text}
+
+      #{"_" * WIDTH}
     NOTICE
   end
 
@@ -149,7 +160,7 @@ class DiffPage
     end
 
     def to_s
-      @attribute.nil? ? "✖️" : @attribute
+      @attribute.nil? ? "NULL" : @attribute
     end
   end
 
@@ -179,8 +190,9 @@ class DiffPage
           #{current_web_page_file_name} #{new_web_page_file_name} > #{diff_filename}.diff
       SHELL
     )
-    puts ">> Diff done: #{diff_filename}.diff"
+    puts "\n🏆>> Diff done: #{diff_filename}.diff\n"
     system("cat #{diff_filename}.diff") if VerboseMode[:diff]
+    puts
   end
 
   private
