@@ -19,9 +19,20 @@ ID_NODES_TO_REMOVE = [
 TEST_ASSERTION_NODE_OFFSET = 2
 
 module Utils
+  VerboseMode = {}
+
   def get_html(base_url:, page_link:)
     puts ">> Get html for: #{base_url}/#{page_link}"
     Nokogiri::HTML(URI.open("#{base_url}/#{page_link}"))
+  end
+
+  if ARGV.any?
+    require 'optparse'
+    OptionParser.new do |opts|
+      opts.on("--diff", "Display git diff") { VerboseMode[:diff] = true }
+      opts.on("--removed-content", "Display removed content") { VerboseMode[:removed_content] = true }
+      opts.on("--added-text", "Display text extracted") { VerboseMode[:added_text] = true }
+    end.parse!
   end
 end
 
@@ -72,7 +83,9 @@ class DiffPage
       if skip_new_yard_object_link?(node)
         next
       end
-      # puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n" if node.text == "ViewExampleGroup"
+      if VerboseMode[:added_text]
+        puts ">>>>>>> node: #{node.inspect}\n >>>>>> Adding: \n#{node.text} \n _______________________________\n\n"
+      end
       text << node.text
     end
     text.join("")
@@ -120,6 +133,7 @@ class DiffPage
   end
 
   def logger(node)
+    return unless VerboseMode[:removed_content]
     puts <<-NOTICE
      Removing:
        node.name: #{node.name}
@@ -166,7 +180,7 @@ class DiffPage
       SHELL
     )
     puts ">> Diff done: #{diff_filename}.diff"
-    system("cat #{diff_filename}.diff")
+    system("cat #{diff_filename}.diff") if VerboseMode[:diff]
   end
 
   private
