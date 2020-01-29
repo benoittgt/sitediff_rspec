@@ -113,16 +113,12 @@ OverviewOverview
     
   
     Note:Note:
-    This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
-This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
+    This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
+This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
 
   
     Note:
-    This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
+    This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
 
   
 
@@ -133,8 +129,7 @@ rspec-expectations can work with any matcher object that implements this protoco
     
   
     Note:
-    This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
+    This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
 
   
 
@@ -147,8 +142,7 @@ rspec-expectations can work with any matcher object that implements this protoco
     
   
     Note:
-    This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
+    This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
 
   
 
@@ -372,7 +366,7 @@ The description is used for two things:.
   
 
   
-    Indicates that this matcher provides actualactual and expectedexpected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
@@ -405,7 +399,7 @@ Indicates that this matcher provides actual and expected attributes, and that th
   
 
   
-    In a negative expectation such as expect(x).not_to fooexpect(x).not_to foo, RSpec will call foo.does_not_match?(x)foo.does_not_match?(x) if this method is defined.In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
 In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
 In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined.
 
@@ -537,7 +531,7 @@ This will only be called when a negative match fails.
   
 
   
-    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_errorexpect { foo }.to raise_error.Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
+    Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
 Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
 Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error.
 
@@ -712,7 +706,7 @@ Indicates that this matcher can be used in a block expectation expression, such 
     
   
     Note:Note:
-    This method is required if diffable?diffable? returns true.This method is required if diffable? returns true.
+    This method is required if diffable? returns true.This method is required if diffable? returns true.
 This method is required if diffable? returns true.
 
   
@@ -763,14 +757,8 @@ Returns:Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pppp library to convert it to multi-line output in
-order to diff.If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
-If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
+If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -781,9 +769,7 @@ order to diff.
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -798,9 +784,7 @@ order to diff.
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -820,9 +804,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -912,9 +894,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1179,25 +1159,17 @@ Returns:
       
   
   
-    Indicates that this matcher provides actualactual and expectedexpected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
-    Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
 
   
-    Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
@@ -1215,7 +1187,7 @@ Returns:Returns:
       
       
         —
-        true if actualactual and expectedexpected can be diffed.true if actual and expected can be diffed.
+        true if actual and expected can be diffed.true if actual and expected can be diffed.
 true if actual and expected can be diffed.
 
       
@@ -1327,9 +1299,7 @@ Returns:
 
   
   
-    Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
@@ -1374,29 +1344,17 @@ Returns:
       
   
   
-    In a negative expectation such as expect(x).not_to fooexpect(x).not_to foo, RSpec will
-call foo.does_not_match?(x)foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x)!foo.matches?(x). This allows you
-to provide custom logic for the negative case.In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
-    In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
 
   
-    In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
@@ -1464,11 +1422,8 @@ Yields:Yields:
       
       
         
-        For an expression like expect(x).not_to matcher do...endexpect(x).not_to matcher do...end, the do/enddo/end
-block binds to not_tonot_to. It passes that block, if there is one, on to this method.For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
-For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
+For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -1479,8 +1434,7 @@ block binds to not_to. It passes that block, if there is one, on to this method.
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -1495,8 +1449,7 @@ block binds to not_to. It passes that block, if there is one, on to this method.
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -1579,8 +1532,7 @@ Yields:
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -1662,10 +1614,7 @@ Returns:
 
   
   
-    In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
@@ -1702,8 +1651,7 @@ Yields:
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -1750,7 +1698,7 @@ Returns:
     
   
     Note:Note:
-    This method is required if diffable?diffable? returns true.This method is required if diffable? returns true.
+    This method is required if diffable? returns true.This method is required if diffable? returns true.
 This method is required if diffable? returns true.
 
   
@@ -1801,14 +1749,8 @@ Returns:Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pppp library to convert it to multi-line output in
-order to diff.If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
-If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
+If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1819,9 +1761,7 @@ order to diff.
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1836,9 +1776,7 @@ order to diff.
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1858,9 +1796,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1950,9 +1886,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -1993,7 +1927,7 @@ This method is very rarely used or needed.
 
   
     Note:Note:
-    If not defined, RSpec assumes a value of falsefalse for this method.If not defined, RSpec assumes a value of false for this method.
+    If not defined, RSpec assumes a value of false for this method.If not defined, RSpec assumes a value of false for this method.
 If not defined, RSpec assumes a value of false for this method.
 
   
@@ -2002,15 +1936,9 @@ If not defined, RSpec assumes a value of false for this method.
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -2027,12 +1955,9 @@ which expect call stack jumps must be treated with care to work properly.
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -2051,12 +1976,9 @@ which expect call stack jumps must be treated with care to work properly.
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -2199,12 +2121,9 @@ Returns:
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -2437,20 +2356,12 @@ Returns:
     
   
     Note:Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodErrorNoMethodError.This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
-This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
+This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -2461,9 +2372,7 @@ This will only be called when a negative match fails.This will only be called wh
     
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -2476,9 +2385,7 @@ This will only be called when a negative match fails.
     
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -2615,9 +2522,7 @@ Returns:
     
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -2744,11 +2649,8 @@ Yields:Yields:
       
       
         
-        For an expression like expect(x).to matcher do...endexpect(x).to matcher do...end, the do/enddo/end
-block binds to toto. It passes that block, if there is one, on to this method.For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
-For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
+For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -2759,8 +2661,7 @@ block binds to to. It passes that block, if there is one, on to this method.
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -2775,8 +2676,7 @@ block binds to to. It passes that block, if there is one, on to this method.
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -2859,8 +2759,7 @@ Yields:
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -2979,8 +2878,7 @@ Yields:
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -3027,7 +2925,7 @@ Returns:
     
   
     Note:Note:
-    If not defined, RSpec assumes a value of falsefalse for this method.If not defined, RSpec assumes a value of false for this method.
+    If not defined, RSpec assumes a value of false for this method.If not defined, RSpec assumes a value of false for this method.
 If not defined, RSpec assumes a value of false for this method.
 
   
@@ -3036,13 +2934,7 @@ If not defined, RSpec assumes a value of false for this method.
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_errorexpect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   
@@ -3053,10 +2945,7 @@ than on a particular object.
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   
@@ -3069,10 +2958,7 @@ than on a particular object.
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   
@@ -3209,10 +3095,7 @@ Returns:
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   
@@ -3286,9 +3169,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -3370,9 +3251,7 @@ Returns:
       
   
   
-    Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
@@ -3417,10 +3296,7 @@ Returns:
       
   
   
-    In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
@@ -3457,8 +3333,7 @@ Yields:
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -3527,9 +3402,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -3569,12 +3442,9 @@ order to diff.
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -3667,9 +3537,7 @@ Returns:
     
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -3755,8 +3623,7 @@ Yields:
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -3807,10 +3674,7 @@ Returns:
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   
@@ -3899,8 +3763,7 @@ Overview
     
   
     Note:
-    This class is not loaded at runtime by rspec-expectations. It exists
-purely to provide documentation for the matcher protocol.
+    This class is not loaded at runtime by rspec-expectations. It exists purely to provide documentation for the matcher protocol.
 
   
 
@@ -4143,9 +4006,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -4227,9 +4088,7 @@ Returns:
       
   
   
-    Indicates that this matcher provides actual and expected attributes,
-and that the values returned by these can be usefully diffed, which can
-be included in the output.
+    Indicates that this matcher provides actual and expected attributes, and that the values returned by these can be usefully diffed, which can be included in the output.
 
 
   
@@ -4274,10 +4133,7 @@ Returns:
       
   
   
-    In a negative expectation such as expect(x).not_to foo, RSpec will
-call foo.does_not_match?(x) if this method is defined. If it's not
-defined it will fall back to using !foo.matches?(x). This allows you
-to provide custom logic for the negative case.
+    In a negative expectation such as expect(x).not_to foo, RSpec will call foo.does_not_match?(x) if this method is defined. If it's not defined it will fall back to using !foo.matches?(x). This allows you to provide custom logic for the negative case.
 
 
   
@@ -4314,8 +4170,7 @@ Yields:
       
       
         
-        For an expression like expect(x).not_to matcher do...end, the do/end
-block binds to not_to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).not_to matcher do...end, the do/end block binds to not_to. It passes that block, if there is one, on to this method.
 
       
     
@@ -4384,9 +4239,7 @@ Returns:
       
       
         —
-        If an object (rather than a string) is provided,
-RSpec will use the pp library to convert it to multi-line output in
-order to diff.
+        If an object (rather than a string) is provided, RSpec will use the pp library to convert it to multi-line output in order to diff.
 
       
     
@@ -4426,12 +4279,9 @@ order to diff.
 
   
 
-Indicates that when this matcher is used in a block expectation
-expression, it expects the block to use a ruby construct that causes
-a call stack jump (such as raising an error or throwing a symbol).
+Indicates that when this matcher is used in a block expectation expression, it expects the block to use a ruby construct that causes a call stack jump (such as raising an error or throwing a symbol).
 
-This is used internally for compound block expressions, as matchers
-which expect call stack jumps must be treated with care to work properly.
+This is used internally for compound block expressions, as matchers which expect call stack jumps must be treated with care to work properly.
 
 
   
@@ -4524,9 +4374,7 @@ Returns:
     
   
     Note:
-    This method is listed as optional because matchers do not have to
-support negation. But if your matcher does support negation, this is a
-required method -- otherwise, you'll get a NoMethodError.
+    This method is listed as optional because matchers do not have to support negation. But if your matcher does support negation, this is a required method -- otherwise, you'll get a NoMethodError.
 
   
 
@@ -4612,8 +4460,7 @@ Yields:
       
       
         
-        For an expression like expect(x).to matcher do...end, the do/end
-block binds to to. It passes that block, if there is one, on to this method.
+        For an expression like expect(x).to matcher do...end, the do/end block binds to to. It passes that block, if there is one, on to this method.
 
       
     
@@ -4664,10 +4511,7 @@ Returns:
 
   
 
-Indicates that this matcher can be used in a block expectation expression,
-such as expect { foo }.to raise_error. Generally speaking, this is
-only needed for matchers which operate on a side effect of a block, rather
-than on a particular object.
+Indicates that this matcher can be used in a block expectation expression, such as expect { foo }.to raise_error. Generally speaking, this is only needed for matchers which operate on a side effect of a block, rather than on a particular object.
 
 
   

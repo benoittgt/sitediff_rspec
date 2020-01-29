@@ -113,64 +113,35 @@ OverviewOverview
     
   
     Note:Note:
-    Example blocks are evaluated in the context of an instance
-of an ExampleGroupExampleGroup, not in the context of an instance of ExampleExample.Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
-Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
+    Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
+Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
   
     Note:
-    Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
+    Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
   
 
-Wrapper for an instance of a subclass of ExampleGroup. An instance of
-RSpec::Core::ExampleRSpec::Core::Example is returned by example definition methods
-such as it and is yielded to the it,
-before, after, around,
-let and
-subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of
-RSpec::Core::Example is returned by example definition methods
-such as it and is yielded to the it,
-before, after, around,
-let and
-subject blocks.
+Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
 
-This allows us to provide rich metadata about each individual
-example without adding tons of methods directly to the ExampleGroup
-that users may inadvertently redefine.This allows us to provide rich metadata about each individual
-example without adding tons of methods directly to the ExampleGroup
-that users may inadvertently redefine.
+This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.
 
-Useful for configuring logging and/or taking some action based
-on the state of an example's metadata.Useful for configuring logging and/or taking some action based
-on the state of an example's metadata.
+Useful for configuring logging and/or taking some action based on the state of an example's metadata.Useful for configuring logging and/or taking some action based on the state of an example's metadata.
 
 
   
     
   
     Note:
-    Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
+    Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
   
 
-Wrapper for an instance of a subclass of ExampleGroup. An instance of
-RSpec::Core::Example is returned by example definition methods
-such as it and is yielded to the it,
-before, after, around,
-let and
-subject blocks.
+Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
 
-This allows us to provide rich metadata about each individual
-example without adding tons of methods directly to the ExampleGroup
-that users may inadvertently redefine.
+This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.
 
-Useful for configuring logging and/or taking some action based
-on the state of an example's metadata.
+Useful for configuring logging and/or taking some action based on the state of an example's metadata.
 
 
   
@@ -179,24 +150,15 @@ on the state of an example's metadata.
     
   
     Note:
-    Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
+    Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
   
 
-Wrapper for an instance of a subclass of ExampleGroup. An instance of
-RSpec::Core::Example is returned by example definition methods
-such as it and is yielded to the it,
-before, after, around,
-let and
-subject blocks.
+Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
 
-This allows us to provide rich metadata about each individual
-example without adding tons of methods directly to the ExampleGroup
-that users may inadvertently redefine.
+This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.
 
-Useful for configuring logging and/or taking some action based
-on the state of an example's metadata.
+Useful for configuring logging and/or taking some action based on the state of an example's metadata.
 
 
   
@@ -601,7 +563,7 @@ The current reporter for the example.
   
 
   
-    Returns the string submitted to exampleexample or its aliases (e.g. specifyspecify, itit, etc).Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc).Returns the string submitted to example or its aliases (e.g. specify, it, etc).
 Returns the string submitted to example or its aliases (e.g. specify, it, etc).
 Returns the string submitted to example or its aliases (e.g. specify, it, etc).
 
@@ -935,7 +897,7 @@ Returns a description of the example that always includes the location.
   
 
   
-    The exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17.The exact source location of this example in a form like ./path/to/spec.rb:17.
+    The exact source location of this example in a form like ./path/to/spec.rb:17.The exact source location of this example in a form like ./path/to/spec.rb:17.
 The exact source location of this example in a form like ./path/to/spec.rb:17.
 The exact source location of this example in a form like ./path/to/spec.rb:17.
 
@@ -968,7 +930,7 @@ The exact source location of this example in a form like ./path/to/spec.rb:17.
   
 
   
-    Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 Returns the location-based argument that can be passed to the rspec command to rerun this example.
 Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
@@ -1407,31 +1369,19 @@ Flag that will cause the example to not run.
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.Creates a new instance of Example.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.
 
 
@@ -1451,11 +1401,8 @@ Creates a new instance of Example.
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declaredthe subclass of ExampleGroup in which
-this Example is declared
-the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declaredthe subclass of ExampleGroup in which this Example is declared
+the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -1468,8 +1415,7 @@ this Example is declared
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -1484,11 +1430,8 @@ this Example is declared
       
       
         —
-        the String passed to the itit method (or
-alias)the String passed to the it method (or
-alias)
-the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)the String passed to the it method (or alias)
+the String passed to the it method (or alias)
 
       
     
@@ -1501,8 +1444,7 @@ alias)
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -1517,11 +1459,8 @@ alias)
       
       
         —
-        additional args passed to itit to be used as
-metadataadditional args passed to it to be used as
-metadata
-additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadataadditional args passed to it to be used as metadata
+additional args passed to it to be used as metadata
 
       
     
@@ -1534,8 +1473,7 @@ metadata
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -1552,11 +1490,8 @@ metadata
       
       
         —
-        the block of code that represents the
-examplethe block of code that represents the
-example
-the block of code that represents the
-example
+        the block of code that represents the examplethe block of code that represents the example
+the block of code that represents the example
 
       
     
@@ -1571,8 +1506,7 @@ example
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -1589,8 +1523,7 @@ example
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -1605,8 +1538,7 @@ this Example is declared
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -1621,8 +1553,7 @@ alias)
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -1639,8 +1570,7 @@ metadata
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -1662,8 +1592,7 @@ example
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -1678,8 +1607,7 @@ this Example is declared
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -1694,8 +1622,7 @@ alias)
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -1712,8 +1639,7 @@ metadata
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -2100,10 +2026,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.
 
 
@@ -2123,8 +2046,7 @@ Creates a new instance of Example.
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -2139,8 +2061,7 @@ this Example is declared
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -2155,8 +2076,7 @@ alias)
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -2173,8 +2093,7 @@ metadata
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -2267,10 +2186,7 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.
 
 
@@ -2290,8 +2206,7 @@ Creates a new instance of Example.
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -2306,8 +2221,7 @@ this Example is declared
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -2322,8 +2236,7 @@ alias)
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -2340,8 +2253,7 @@ metadata
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -2438,21 +2350,17 @@ end
       
   
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
 
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
@@ -2541,8 +2449,7 @@ end
 
   
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
@@ -2923,8 +2830,7 @@ end
       
   
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
@@ -3048,33 +2954,17 @@ end
       
   
   
-    Returns the string submitted to exampleexample or its aliases (e.g.
-specifyspecify, itit, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
-    Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
 
   
-    Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
@@ -3223,11 +3113,7 @@ end
 
   
   
-    Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
@@ -3271,21 +3157,17 @@ end
       
   
   
-    Duplicates the example and overrides metadata with the provided
-hash.Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.Duplicates the example and overrides metadata with the provided hash.
 
 
   
-    Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.
 
 
   
 
   
-    Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.
 
 
   
@@ -3626,8 +3508,7 @@ end
 
   
   
-    Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.
 
 
   
@@ -3719,21 +3600,17 @@ end
       
   
   
-    Returns the example group class that provides the context for running
-this example.Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.Returns the example group class that provides the context for running this example.
 
 
   
-    Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.
 
 
   
 
   
-    Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.
 
 
   
@@ -3822,8 +3699,7 @@ end
 
   
   
-    Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.
 
 
   
@@ -4040,21 +3916,17 @@ delegate_to_metadata :execution_result
       
   
   
-    Returns the relative path to the file where this example was
-defined.Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.Returns the relative path to the file where this example was defined.
 
 
   
-    Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.
 
 
   
 
   
-    Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.
 
 
   
@@ -4072,11 +3944,8 @@ Returns:Returns:
       
       
         —
-        the relative path to the file where this example was
-defined.the relative path to the file where this example was
-defined.
-the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.the relative path to the file where this example was defined.
+the relative path to the file where this example was defined.
 
       
     
@@ -4087,8 +3956,7 @@ defined.
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -4103,8 +3971,7 @@ defined.
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -4124,8 +3991,7 @@ Returns:
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -4190,8 +4056,7 @@ delegate_to_metadata :file_path
 
   
   
-    Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.
 
 
   
@@ -4209,8 +4074,7 @@ Returns:
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -4237,21 +4101,17 @@ delegate_to_metadata :file_path
       
   
   
-    Returns the full description (including the docstrings of
-all parent example groups).Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).Returns the full description (including the docstrings of all parent example groups).
 
 
   
-    Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).
 
 
   
 
   
-    Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).
 
 
   
@@ -4269,11 +4129,8 @@ Returns:Returns:
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).the full description (including the docstrings of
-all parent example groups).
-the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).the full description (including the docstrings of all parent example groups).
+the full description (including the docstrings of all parent example groups).
 
       
     
@@ -4284,8 +4141,7 @@ all parent example groups).
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -4300,8 +4156,7 @@ all parent example groups).
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -4321,8 +4176,7 @@ Returns:
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -4387,8 +4241,7 @@ delegate_to_metadata :full_description
 
   
   
-    Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).
 
 
   
@@ -4406,8 +4259,7 @@ Returns:
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -4434,21 +4286,17 @@ delegate_to_metadata :full_description
       
   
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
 
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
@@ -4466,11 +4314,8 @@ Returns:Returns:
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.the unique id of this example. Pass
-this at the command line to re-run this exact example.
-the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.the unique id of this example. Pass this at the command line to re-run this exact example.
+the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -4481,8 +4326,7 @@ this at the command line to re-run this exact example.
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -4497,8 +4341,7 @@ this at the command line to re-run this exact example.
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -4518,8 +4361,7 @@ Returns:
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -4604,8 +4446,7 @@ end
 
   
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
@@ -4623,8 +4464,7 @@ Returns:
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -4965,21 +4805,17 @@ end
       
   
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
 
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
@@ -4997,11 +4833,8 @@ Returns:Returns:
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17./path/to/spec.rb:17the exact source location of this example in a form
-like ./path/to/spec.rb:17
-the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17the exact source location of this example in a form like ./path/to/spec.rb:17
+the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -5012,8 +4845,7 @@ like ./path/to/spec.rb:17
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -5028,8 +4860,7 @@ like ./path/to/spec.rb:17
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -5049,8 +4880,7 @@ Returns:
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -5115,8 +4945,7 @@ delegate_to_metadata :location
 
   
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
@@ -5134,8 +4963,7 @@ Returns:
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -5162,7 +4990,7 @@ delegate_to_metadata :location
       
   
   
-    Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+    Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
 
   
@@ -5365,25 +5193,17 @@ end
       
   
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
 
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
@@ -5401,14 +5221,8 @@ Returns:Returns:
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
-flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
+flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -5419,9 +5233,7 @@ failure occurs) or a failed result (if no failure occurs).
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -5436,9 +5248,7 @@ failure occurs) or a failed result (if no failure occurs).
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -5458,9 +5268,7 @@ Returns:
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -5525,9 +5333,7 @@ delegate_to_metadata :pending
 
   
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
@@ -5545,9 +5351,7 @@ Returns:
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -5581,20 +5385,16 @@ Deprecated. Use #location_rerun_argument instead.
 
   
     Note:Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
-If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
+If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
-Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
 
   
@@ -5603,8 +5403,7 @@ Returns the location-based argument that can be passed to the rspecrspec command
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
@@ -5619,8 +5418,7 @@ Returns the location-based argument that can be passed to the rspec command to r
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
@@ -5718,8 +5516,7 @@ end
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
@@ -5755,36 +5552,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
@@ -6419,12 +6200,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
@@ -6569,21 +6346,17 @@ end
       
   
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending:pending.Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
 
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
@@ -6601,11 +6374,8 @@ Returns:Returns:
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending:pending.flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
-flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.flag that will cause the example to not run. The ExecutionResult status will be :pending.
+flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -6616,8 +6386,7 @@ The ExecutionResult status will be :pending.
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -6632,8 +6401,7 @@ The ExecutionResult status will be :pending.
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -6653,8 +6421,7 @@ Returns:
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -6719,8 +6486,7 @@ delegate_to_metadata :skip
 
   
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
@@ -6738,8 +6504,7 @@ Returns:
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -6770,11 +6535,7 @@ delegate_to_metadata :skip
       
   
   
-    Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
@@ -6818,8 +6579,7 @@ end
       
   
   
-    Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.
 
 
   
@@ -6911,8 +6671,7 @@ end
       
   
   
-    Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.
 
 
   
@@ -6989,8 +6748,7 @@ delegate_to_metadata :execution_result
       
   
   
-    Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.
 
 
   
@@ -7008,8 +6766,7 @@ Returns:
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -7036,8 +6793,7 @@ delegate_to_metadata :file_path
       
   
   
-    Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).
 
 
   
@@ -7055,8 +6811,7 @@ Returns:
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -7083,8 +6838,7 @@ delegate_to_metadata :full_description
       
   
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
@@ -7102,8 +6856,7 @@ Returns:
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -7206,8 +6959,7 @@ end
       
   
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
@@ -7225,8 +6977,7 @@ Returns:
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -7297,9 +7048,7 @@ end
       
   
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
@@ -7317,9 +7066,7 @@ Returns:
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -7351,8 +7098,7 @@ delegate_to_metadata :pending
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
@@ -7388,12 +7134,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
@@ -7538,8 +7280,7 @@ end
       
   
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
@@ -7557,8 +7298,7 @@ Returns:
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     
@@ -7629,24 +7369,15 @@ Overview
     
   
     Note:
-    Example blocks are evaluated in the context of an instance
-of an ExampleGroup, not in the context of an instance of Example.
+    Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
   
 
-Wrapper for an instance of a subclass of ExampleGroup. An instance of
-RSpec::Core::Example is returned by example definition methods
-such as it and is yielded to the it,
-before, after, around,
-let and
-subject blocks.
+Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
 
-This allows us to provide rich metadata about each individual
-example without adding tons of methods directly to the ExampleGroup
-that users may inadvertently redefine.
+This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.
 
-Useful for configuring logging and/or taking some action based
-on the state of an example's metadata.
+Useful for configuring logging and/or taking some action based on the state of an example's metadata.
 
 
   
@@ -8069,10 +7800,7 @@ Defined Under Namespace
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Creates a new instance of Example.
 
 
@@ -8092,8 +7820,7 @@ Creates a new instance of Example.
       
       
         —
-        the subclass of ExampleGroup in which
-this Example is declared
+        the subclass of ExampleGroup in which this Example is declared
 
       
     
@@ -8108,8 +7835,7 @@ this Example is declared
       
       
         —
-        the String passed to the it method (or
-alias)
+        the String passed to the it method (or alias)
 
       
     
@@ -8124,8 +7850,7 @@ alias)
       
       
         —
-        additional args passed to it to be used as
-metadata
+        additional args passed to it to be used as metadata
 
       
     
@@ -8142,8 +7867,7 @@ metadata
       
       
         —
-        the block of code that represents the
-example
+        the block of code that represents the example
 
       
     
@@ -8240,8 +7964,7 @@ end
       
   
   
-    Returns the first exception raised in the context of running this
-example (nil if no exception is raised).
+    Returns the first exception raised in the context of running this example (nil if no exception is raised).
 
 
   
@@ -8365,11 +8088,7 @@ end
       
   
   
-    Returns the string submitted to example or its aliases (e.g.
-specify, it, etc). If no string is submitted (e.g.
-it { is_expected.to do_something }) it returns the message generated
-by the matcher if there is one, otherwise returns a message including
-the location of the example.
+    Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
@@ -8413,8 +8132,7 @@ end
       
   
   
-    Duplicates the example and overrides metadata with the provided
-hash.
+    Duplicates the example and overrides metadata with the provided hash.
 
 
   
@@ -8506,8 +8224,7 @@ end
       
   
   
-    Returns the example group class that provides the context for running
-this example.
+    Returns the example group class that provides the context for running this example.
 
 
   
@@ -8584,8 +8301,7 @@ delegate_to_metadata :execution_result
       
   
   
-    Returns the relative path to the file where this example was
-defined.
+    Returns the relative path to the file where this example was defined.
 
 
   
@@ -8603,8 +8319,7 @@ Returns:
       
       
         —
-        the relative path to the file where this example was
-defined.
+        the relative path to the file where this example was defined.
 
       
     
@@ -8631,8 +8346,7 @@ delegate_to_metadata :file_path
       
   
   
-    Returns the full description (including the docstrings of
-all parent example groups).
+    Returns the full description (including the docstrings of all parent example groups).
 
 
   
@@ -8650,8 +8364,7 @@ Returns:
       
       
         —
-        the full description (including the docstrings of
-all parent example groups).
+        the full description (including the docstrings of all parent example groups).
 
       
     
@@ -8678,8 +8391,7 @@ delegate_to_metadata :full_description
       
   
   
-    Returns the unique id of this example. Pass
-this at the command line to re-run this exact example.
+    Returns the unique id of this example. Pass this at the command line to re-run this exact example.
 
 
   
@@ -8697,8 +8409,7 @@ Returns:
       
       
         —
-        the unique id of this example. Pass
-this at the command line to re-run this exact example.
+        the unique id of this example. Pass this at the command line to re-run this exact example.
 
       
     
@@ -8801,8 +8512,7 @@ end
       
   
   
-    Returns the exact source location of this example in a form
-like ./path/to/spec.rb:17.
+    Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
@@ -8820,8 +8530,7 @@ Returns:
       
       
         —
-        the exact source location of this example in a form
-like ./path/to/spec.rb:17
+        the exact source location of this example in a form like ./path/to/spec.rb:17
 
       
     
@@ -8892,9 +8601,7 @@ end
       
   
   
-    Returns flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+    Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
 
   
@@ -8912,9 +8619,7 @@ Returns:
       
       
         —
-        flag that indicates that the example is not expected
-to pass. It will be run and will either have a pending result (if a
-failure occurs) or a failed result (if no failure occurs).
+        flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).
 
       
     
@@ -8946,8 +8651,7 @@ delegate_to_metadata :pending
 
   
     Note:
-    If there are multiple examples identified by this location, they will use #id
-to rerun instead, but this method will still return the location (that's why it is deprecated!).
+    If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).
 
   
 
@@ -8983,12 +8687,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-instance_execs the block passed to the constructor in the context of
-the instance of RSpec::Core::ExampleGroup.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
@@ -9133,8 +8833,7 @@ end
       
   
   
-    Returns flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+    Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
@@ -9152,8 +8851,7 @@ Returns:
       
       
         —
-        flag that will cause the example to not run.
-The ExecutionResult status will be :pending.
+        flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
       
     

@@ -110,29 +110,17 @@ Class: RSpec::Expectations::Configuration
 
 OverviewOverview
   
-    Provides configuration options for rspec-expectations.
-If you are using rspec-core, you can access this via a
-block passed to RSpec::Core::Configuration#expect_withRSpec::Core::Configuration#expect_with.
-Otherwise, you can access it via RSpec::Expectations.configuration.Provides configuration options for rspec-expectations.
-If you are using rspec-core, you can access this via a
-block passed to RSpec::Core::Configuration#expect_with.
-Otherwise, you can access it via RSpec::Expectations.configuration.
+    Provides configuration options for rspec-expectations. If you are using rspec-core, you can access this via a block passed to RSpec::Core::Configuration#expect_with. Otherwise, you can access it via RSpec::Expectations.configuration.Provides configuration options for rspec-expectations. If you are using rspec-core, you can access this via a block passed to RSpec::Core::Configuration#expect_with. Otherwise, you can access it via RSpec::Expectations.configuration.
 
 
   
-    Provides configuration options for rspec-expectations.
-If you are using rspec-core, you can access this via a
-block passed to RSpec::Core::Configuration#expect_with.
-Otherwise, you can access it via RSpec::Expectations.configuration.
+    Provides configuration options for rspec-expectations. If you are using rspec-core, you can access this via a block passed to RSpec::Core::Configuration#expect_with. Otherwise, you can access it via RSpec::Expectations.configuration.
 
 
   
 
   
-    Provides configuration options for rspec-expectations.
-If you are using rspec-core, you can access this via a
-block passed to RSpec::Core::Configuration#expect_with.
-Otherwise, you can access it via RSpec::Expectations.configuration.
+    Provides configuration options for rspec-expectations. If you are using rspec-core, you can access this via a block passed to RSpec::Core::Configuration#expect_with. Otherwise, you can access it via RSpec::Expectations.configuration.
 
 
   
@@ -222,36 +210,20 @@ RSpec::Expectations.configuration
         NullBacktraceFormatter =
           
   
-    
-  This constant is part of a private API.This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .   This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
 
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
@@ -266,12 +238,8 @@ when rspec-core is not loaded. Does no filtering.
         NullBacktraceFormatter =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
@@ -300,12 +268,8 @@ end
         NullBacktraceFormatter =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
@@ -428,7 +392,7 @@ Indicates whether or not diffs should be colored.
   
 
   
-    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chainchain.Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
@@ -469,7 +433,7 @@ Sets if custom matcher descriptions and failure messages should include clauses 
   
 
   
-    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to truetrue.Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
@@ -607,7 +571,7 @@ Indicates what RSpec will do about matcher use which will potentially cause fals
   
 
   
-    Adds shouldshould and should_notshould_not to the given classes or modules.Adds should and should_not to the given classes or modules.
+    Adds should and should_not to the given classes or modules.Adds should and should_not to the given classes or modules.
 Adds should and should_not to the given classes or modules.
 Adds should and should_not to the given classes or modules.
 
@@ -673,7 +637,7 @@ Indicates whether or not diffs should be colored.
   
 
   
-    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chainchain.Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
@@ -875,7 +839,7 @@ Configures whether RSpec will warn about matcher use which will potentially caus
   
 
   
-    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to truetrue.Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
@@ -1236,43 +1200,23 @@ end
       
   
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>)#format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_errorraise_error
-matcher.Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace--backtrace option).If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
 
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
@@ -1341,14 +1285,9 @@ attr_writer :backtrace_formatter
 
   
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
@@ -1378,25 +1317,17 @@ attr_writer :backtrace_formatter
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -1485,9 +1416,7 @@ end
 
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -1521,21 +1450,17 @@ end
       
   
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chainchain.Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
 
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
@@ -1676,8 +1601,7 @@ end
 
   
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
@@ -1726,25 +1650,17 @@ end
       
   
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to truetrue.Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
 
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -1833,9 +1749,7 @@ end
 
   
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -1872,14 +1786,9 @@ end
       
   
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
@@ -1909,9 +1818,7 @@ attr_writer :backtrace_formatter
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -1945,8 +1852,7 @@ end
       
   
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
@@ -1995,9 +1901,7 @@ end
       
   
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -2036,29 +1940,17 @@ end
       
   
   
-    Adds shouldshould and should_notshould_not to the given classes
-or modules. This can be used to ensure shouldshould works
-properly on things like proxy objects (particular
-DelegatorDelegator-subclassed objects on 1.8).Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
-    Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
 
   
-    Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
@@ -2077,11 +1969,8 @@ Delegator-subclassed objects on 1.8).
       
       
         —
-        the list of classes or modules
-to add shouldshould and should_notshould_not to.the list of classes or modules
-to add should and should_not to.
-the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.the list of classes or modules to add should and should_not to.
+the list of classes or modules to add should and should_not to.
 
       
     
@@ -2094,8 +1983,7 @@ to add should and should_not to.
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -2112,8 +2000,7 @@ to add should and should_not to.
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -2135,8 +2022,7 @@ to add should and should_not to.
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -2242,10 +2128,7 @@ end
 
   
   
-    Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
@@ -2264,8 +2147,7 @@ Delegator-subclassed objects on 1.8).
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -2301,25 +2183,17 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -2452,9 +2326,7 @@ end
 
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -2499,25 +2371,17 @@ end
       
   
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chainchain. It is
-false by default for backwards compatibility.Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
 
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
@@ -2650,9 +2514,7 @@ end
 
   
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
@@ -2697,25 +2559,17 @@ end
       
   
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
 
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
@@ -2915,9 +2769,7 @@ end
 
   
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
@@ -3686,21 +3538,17 @@ end
       
   
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
 
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
@@ -3902,8 +3750,7 @@ end
 
   
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
@@ -3962,25 +3809,17 @@ end
       
   
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to truetrue.Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
 
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -4113,9 +3952,7 @@ end
 
   
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -4164,10 +4001,7 @@ end
       
   
   
-    Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
@@ -4186,8 +4020,7 @@ Delegator-subclassed objects on 1.8).
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -4223,9 +4056,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -4270,9 +4101,7 @@ end
       
   
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
@@ -4317,9 +4146,7 @@ end
       
   
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
@@ -4534,8 +4361,7 @@ end
       
   
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
@@ -4594,9 +4420,7 @@ end
       
   
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -4682,10 +4506,7 @@ Class: RSpec::Expectations::Configuration
 
 Overview
   
-    Provides configuration options for rspec-expectations.
-If you are using rspec-core, you can access this via a
-block passed to RSpec::Core::Configuration#expect_with.
-Otherwise, you can access it via RSpec::Expectations.configuration.
+    Provides configuration options for rspec-expectations. If you are using rspec-core, you can access this via a block passed to RSpec::Core::Configuration#expect_with. Otherwise, you can access it via RSpec::Expectations.configuration.
 
 
   
@@ -4721,12 +4542,8 @@ RSpec::Expectations.configuration
         NullBacktraceFormatter =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Null implementation of a backtrace formatter used by default
-when rspec-core is not loaded. Does no filtering.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Null implementation of a backtrace formatter used by default when rspec-core is not loaded. Does no filtering.
 
 
   
@@ -5051,14 +4868,9 @@ end
       
   
   
-    Sets or gets the backtrace formatter. The backtrace formatter should
-implement #format_backtrace(Array<String>). This is used
-to format backtraces of errors handled by the raise_error
-matcher.
+    Sets or gets the backtrace formatter. The backtrace formatter should implement #format_backtrace(Array<String>). This is used to format backtraces of errors handled by the raise_error matcher.
 
-If you are using rspec-core, rspec-core's backtrace formatting
-will be used (including respecting the presence or absence of
-the --backtrace option).
+If you are using rspec-core, rspec-core's backtrace formatting will be used (including respecting the presence or absence of the --backtrace option).
 
 
   
@@ -5088,9 +4900,7 @@ attr_writer :backtrace_formatter
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -5124,8 +4934,7 @@ end
       
   
   
-    Sets if custom matcher descriptions and failure messages
-should include clauses from methods defined using chain.
+    Sets if custom matcher descriptions and failure messages should include clauses from methods defined using chain.
 
 
   
@@ -5174,9 +4983,7 @@ end
       
   
   
-    Indicates what RSpec will do about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates what RSpec will do about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   
@@ -5215,10 +5022,7 @@ end
       
   
   
-    Adds should and should_not to the given classes
-or modules. This can be used to ensure should works
-properly on things like proxy objects (particular
-Delegator-subclassed objects on 1.8).
+    Adds should and should_not to the given classes or modules. This can be used to ensure should works properly on things like proxy objects (particular Delegator-subclassed objects on 1.8).
 
 
   
@@ -5237,8 +5041,7 @@ Delegator-subclassed objects on 1.8).
       
       
         —
-        the list of classes or modules
-to add should and should_not to.
+        the list of classes or modules to add should and should_not to.
 
       
     
@@ -5274,9 +5077,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -5321,9 +5122,7 @@ end
       
   
   
-    Indicates whether or not custom matcher descriptions and failure messages
-should include clauses from methods defined using chain. It is
-false by default for backwards compatibility.
+    Indicates whether or not custom matcher descriptions and failure messages should include clauses from methods defined using chain. It is false by default for backwards compatibility.
 
 
   
@@ -5368,9 +5167,7 @@ end
       
   
   
-    Configures the maximum character length that RSpec will print while
-formatting an object. You can set length to nil to prevent RSpec from
-doing truncation.
+    Configures the maximum character length that RSpec will print while formatting an object. You can set length to nil to prevent RSpec from doing truncation.
 
 
   
@@ -5585,8 +5382,7 @@ end
       
   
   
-    Configures whether RSpec will warn about matcher use which will
-potentially cause false positives in tests.
+    Configures whether RSpec will warn about matcher use which will potentially cause false positives in tests.
 
 
   
@@ -5645,9 +5441,7 @@ end
       
   
   
-    Indicates whether RSpec will warn about matcher use which will
-potentially cause false positives in tests, generally you want to
-avoid such scenarios so this defaults to true.
+    Indicates whether RSpec will warn about matcher use which will potentially cause false positives in tests, generally you want to avoid such scenarios so this defaults to true.
 
 
   

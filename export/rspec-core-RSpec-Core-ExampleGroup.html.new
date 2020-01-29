@@ -153,9 +153,9 @@ RSpec.describe Thing do
 end
 
 
-The object returned by describe Thingdescribe Thing is a subclass of ExampleGroup. The object returned by it "does something"it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.The object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.
+The object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.The object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.
 
-Example group bodies (e.g. describedescribe or contextcontext blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.Example group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.
+Example group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.Example group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.
 
 Besides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.Besides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.
 
@@ -220,7 +220,7 @@ Besides the class methods defined here, there are other interesting macros defin
           
   
     
-Raised when an RSpec API is called in the wrong scope, such as beforebefore being called from within an example rather than from within an example group block.Raised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.
+Raised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.Raised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.
 
 
   
@@ -347,7 +347,7 @@ The current example group description.
 
   
     
-The MetadataMetadata object associated with this group.The Metadata object associated with this group.
+The Metadata object associated with this group.The Metadata object associated with this group.
 
 The Metadata object associated with this group.
 
@@ -384,7 +384,7 @@ The Metadata object associated with this group.
 
   
     
-Returns the class or module passed to the describedescribe method (or alias).Returns the class or module passed to the describe method (or alias).
+Returns the class or module passed to the describe method (or alias).Returns the class or module passed to the describe method (or alias).
 
 Returns the class or module passed to the describe method (or alias).
 
@@ -526,7 +526,7 @@ Defines an example within a group.
 
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 Shortcut to define an example with :focus => true.
 
@@ -563,7 +563,7 @@ Shortcut to define an example with :focus => true.
 
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 Shortcut to define an example with :focus => true.
 
@@ -600,7 +600,7 @@ Shortcut to define an example with :focus => true.
 
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 Shortcut to define an example with :focus => true.
 
@@ -637,7 +637,7 @@ Shortcut to define an example with :focus => true.
 
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 Shortcut to define an example with :focus => true.
 
@@ -657,117 +657,6 @@ Shortcut to define an example with :focus => true.
   
     
 Shortcut to define an example with :focus => true.
-
-  
-
-
-      
-        
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Defines an example within a group.Defines an example within a group.
-
-Defines an example within a group.
-
-Defines an example within a group.
-
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Defines an example within a group.
-
-  
-
-
-      
-        
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Shortcut to define an example with :pending => true:pending => true.Shortcut to define an example with :pending => true.
-
-Shortcut to define an example with :pending => true.
-
-Shortcut to define an example with :pending => true.
-
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Shortcut to define an example with :pending => true.
-
-  
-
-
-      
-        
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Shortcut to define an example with :skip => true:skip => true.Shortcut to define an example with :skip => true.
-
-Shortcut to define an example with :skip => true.
-
-Shortcut to define an example with :skip => true.
-
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-    
-Shortcut to define an example with :skip => true.
 
   
 
@@ -822,7 +711,118 @@ Defines an example within a group.
 
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xexample':skip => 'Temporarily skipped with xexample'.Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
+Shortcut to define an example with :pending => true.Shortcut to define an example with :pending => true.
+
+Shortcut to define an example with :pending => true.
+
+Shortcut to define an example with :pending => true.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Shortcut to define an example with :pending => true.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Shortcut to define an example with :skip => true.Shortcut to define an example with :skip => true.
+
+Shortcut to define an example with :skip => true.
+
+Shortcut to define an example with :skip => true.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Shortcut to define an example with :skip => true.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Defines an example within a group.Defines an example within a group.
+
+Defines an example within a group.
+
+Defines an example within a group.
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Defines an example within a group.
+
+  
+
+
+      
+        
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
 
 Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
 
@@ -859,7 +859,7 @@ Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
 
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xit':skip => 'Temporarily skipped with xit'.Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
+Shortcut to define an example with :skip => 'Temporarily skipped with xit'.Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
 
 Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
 
@@ -896,7 +896,7 @@ Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
 
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xspecify':skip => 'Temporarily skipped with xspecify'.Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.
+Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.
 
 Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.
 
@@ -1200,7 +1200,7 @@ Adds an example to the example group.
 
   
     
-Includes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
+Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
 
 Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
 
@@ -1237,7 +1237,7 @@ Includes shared content mapped to name directly in the group in which it is decl
 
   
     
-Includes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
+Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
 
 Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group.
 
@@ -1397,7 +1397,7 @@ Removes an example from the example group.
 
   
     
-Returns true if a before(:context)before(:context) or after(:context)after(:context) hook is currently executing.Returns true if a before(:context) or after(:context) hook is currently executing.
+Returns true if a before(:context) or after(:context) hook is currently executing.Returns true if a before(:context) or after(:context) hook is currently executing.
 
 Returns true if a before(:context) or after(:context) hook is currently executing.
 
@@ -2282,7 +2282,7 @@ end
   
   
     
-Returns true if a before(:context)before(:context) or after(:context)after(:context) hook is currently executing.Returns true if a before(:context) or after(:context) hook is currently executing.
+Returns true if a before(:context) or after(:context) hook is currently executing.Returns true if a before(:context) or after(:context) hook is currently executing.
 
 
   
@@ -3031,7 +3031,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -3333,7 +3333,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -4419,7 +4419,7 @@ define_example_method :example
   
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 
   
@@ -4745,7 +4745,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -5047,7 +5047,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -6158,7 +6158,7 @@ define_example_method :fexample, :focus => true
   
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 
   
@@ -6484,7 +6484,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -6786,7 +6786,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -7897,7 +7897,7 @@ define_example_method :fit,      :focus => true
   
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 
   
@@ -8223,7 +8223,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -8525,7 +8525,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -9636,7 +9636,7 @@ define_example_method :focus,    :focus => true
   
   
     
-Shortcut to define an example with :focus => true:focus => true.Shortcut to define an example with :focus => true.
+Shortcut to define an example with :focus => true.Shortcut to define an example with :focus => true.
 
 
   
@@ -9962,7 +9962,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -10264,7 +10264,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -11594,7 +11594,7 @@ end
   
   
     
-Includes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.
+Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.
 
 
   
@@ -11754,7 +11754,7 @@ end
   
   
     
-Includes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.
+Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.
 
 
   
@@ -12240,7 +12240,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -12542,7 +12542,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -13628,7 +13628,7 @@ define_example_method :it
   
   
     
-The MetadataMetadata object associated with this group.The Metadata object associated with this group.
+The Metadata object associated with this group.The Metadata object associated with this group.
 
 
   
@@ -14114,7 +14114,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -14416,7 +14416,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -16363,7 +16363,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -16665,7 +16665,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -17776,7 +17776,7 @@ define_example_method :skip,     :skip => true
   
   
     
-Defines an example within a group. Useful for when your docstring does not read well off of itit.Defines an example within a group. Useful for when your docstring does not read well off of it.
+Defines an example within a group. Useful for when your docstring does not read well off of it.Defines an example within a group. Useful for when your docstring does not read well off of it.
 
 
   
@@ -18125,7 +18125,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -18427,7 +18427,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -19527,7 +19527,7 @@ define_example_method :specify
   
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xexample':skip => 'Temporarily skipped with xexample'.Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
+Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.Shortcut to define an example with :skip => 'Temporarily skipped with xexample'.
 
 
   
@@ -19853,7 +19853,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -20155,7 +20155,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -21266,7 +21266,7 @@ define_example_method :xexample, :skip => 'Temporarily skipped with xexample'
   
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xit':skip => 'Temporarily skipped with xit'.Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
+Shortcut to define an example with :skip => 'Temporarily skipped with xit'.Shortcut to define an example with :skip => 'Temporarily skipped with xit'.
 
 
   
@@ -21592,7 +21592,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -21894,7 +21894,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -23005,7 +23005,7 @@ define_example_method :xit,      :skip => 'Temporarily skipped with xit'
   
   
     
-Shortcut to define an example with :skip => 'Temporarily skipped with xspecify':skip => 'Temporarily skipped with xspecify'.Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.
+Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.Shortcut to define an example with :skip => 'Temporarily skipped with xspecify'.
 
 
   
@@ -23331,7 +23331,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -23633,7 +23633,7 @@ Metadata for the example.
       
         —
         
-Metadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.
+Metadata tags for the example. Will be transformed into hash entries with true values.Metadata tags for the example. Will be transformed into hash entries with true values.
 
 Metadata tags for the example. Will be transformed into hash entries with true values.
 
@@ -28403,7 +28403,7 @@ define_example_method :xspecify, :skip => 'Temporarily skipped with xspecify'
   
   
     
-Returns the class or module passed to the describedescribe method (or alias). Returns nil if the subject is not a class or module.Returns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.
+Returns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.Returns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.
 
 
   

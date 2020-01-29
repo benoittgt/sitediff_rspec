@@ -1,309 +1,58 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-RakeTask.html.current b/export/rspec-core-RSpec-Core-RakeTask.html.new[m
-[1mindex e82ad78..23b798a 100644[m
+[1mindex 17b9ce9..4a9919f 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-RakeTask.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-RakeTask.html.new[m
-[36m@@ -1273,21 +1346,20 @@[m [mend[m
+[36m@@ -1805,17 +1894,20 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nilnil.Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
      [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nilnil.Files matching this pattern will be excluded. Defaults to nil.[m
+[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.Files matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nil.[m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nil.[m
- [m
- [m
-   [m
-[36m@@ -1376,8 +1448,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nil.[m
- [m
- [m
-   [m
-[36m@@ -1411,21 +1483,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to truetrue.Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to truetrue.Whether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
-[32m+[m
- [m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
    [m
      [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -1514,8 +1585,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -1815,21 +1894,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb''spec/**{,/*/**}/*_spec.rb'.Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
-     [m
-[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*/*}/*_spec.rb''spec/**{,//*}/*_spec.rb'.Files matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
- [m
- [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
 [32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
    [m
- [m
-   [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
- [m
- [m
-   [m
-[36m@@ -1918,8 +1996,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
- [m
- [m
-   [m
-[36m@@ -2086,21 +2168,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
-     [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.Path to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
- [m
- [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
-   [m
-     [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
- [m
- [m
-   [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
 [32m+[m
 [32m+[m[41m  [m
 [32m+[m[41m    [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
+[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
    [m
-[36m@@ -2189,8 +2270,8 @@[m [mend[m
+[36m@@ -1904,7 +1996,8 @@[m [mend[m
  [m
    [m
    [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
-[32m+[m[41m    [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
- [m
- [m
-   [m
-[36m@@ -2357,21 +2442,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to truetrue.Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to truetrue.Use verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
-[32m+[m
- [m
-   [m
-     [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -2460,8 +2544,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -2631,8 +2719,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nil.[m
- [m
- [m
-   [m
-[36m@@ -2666,8 +2754,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -2769,8 +2859,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
 [32m+[m[41m    [m
 [32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
    [m
-[36m@@ -2838,8 +2929,8 @@[m [mend[m
+[36m@@ -2742,7 +2859,8 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
-[32m+[m[41m    [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
- [m
- [m
-   [m
-[36m@@ -2907,8 +2999,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -3390,8 +3498,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Files matching this pattern will be excluded.[m
-[31m-Defaults to nil.[m
-[32m+[m[41m    [m
-[32m+[m[32mFiles matching this pattern will be excluded. Defaults to nil.[m
- [m
- [m
-   [m
-[36m@@ -3425,8 +3533,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Whether or not to fail Rake when an error occurs (typically when[m
-[31m-examples fail). Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mWhether or not to fail Rake when an error occurs (typically when examples fail). Defaults to true.[m
- [m
- [m
-   [m
-[36m@@ -3528,8 +3638,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Files matching this pattern will be loaded.[m
-[31m-Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
 [32m+[m[41m    [m
 [32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
    [m
-[36m@@ -3597,8 +3708,8 @@[m [mend[m
+[36m@@ -3496,7 +3638,8 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Path to RSpec. Defaults to the absolute path to the[m
-[31m-rspec binary from the loaded rspec-core gem.[m
+[31m-    Files matching this pattern will be loaded. Defaults to 'spec/**{,/*/**}/*_spec.rb'.[m
 [32m+[m[41m    [m
-[32m+[m[32mPath to RSpec. Defaults to the absolute path to the rspec binary from the loaded rspec-core gem.[m
- [m
- [m
-   [m
-[36m@@ -3666,8 +3778,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Use verbose output. If this is set to true, the task will print the[m
-[31m-executed spec command to stdout. Defaults to true.[m
-[32m+[m[41m    [m
-[32m+[m[32mUse verbose output. If this is set to true, the task will print the executed spec command to stdout. Defaults to true.[m
+[32m+[m[32mFiles matching this pattern will be loaded. Defaults to 'spec/**{,//*}/*_spec.rb'.[m
  [m
  [m
    [m

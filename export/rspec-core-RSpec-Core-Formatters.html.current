@@ -72,11 +72,7 @@ html
 json - Useful for archiving data for subsequent analysis.
 
 
-The progress formatter is the default, but you can choose any one or more of
-the other formatters by passing with the --format--format (or -f-f for short)
-command-line option, e.g.The progress formatter is the default, but you can choose any one or more of
-the other formatters by passing with the --format (or -f for short)
-command-line option, e.g.
+The progress formatter is the default, but you can choose any one or more of the other formatters by passing with the --format (or -f for short) command-line option, e.g.The progress formatter is the default, but you can choose any one or more of the other formatters by passing with the --format (or -f for short) command-line option, e.g.
 
 rspec --format documentation
 rspec --format documentation
@@ -90,17 +86,11 @@ rspec --format documentation --format html --out results.html
 rspec --format documentation --format html --out results.html
 
 
-This example sends the output of the documentation formatter to $stdout$stdout, and
-the output of the html formatter to results.html.This example sends the output of the documentation formatter to $stdout, and
-the output of the html formatter to results.html.
+This example sends the output of the documentation formatter to $stdout, and the output of the html formatter to results.html.This example sends the output of the documentation formatter to $stdout, and the output of the html formatter to results.html.
 
 Custom FormattersCustom Formatters
 
-You can tell RSpec to use a custom formatter by passing its path and name to
-the rspec command. For example, if you define MyCustomFormatter in
-path/to/my_custom_formatter.rb, you would type this command:.You can tell RSpec to use a custom formatter by passing its path and name to
-the rspec command. For example, if you define MyCustomFormatter in
-path/to/my_custom_formatter.rb, you would type this command:.
+You can tell RSpec to use a custom formatter by passing its path and name to the rspec command. For example, if you define MyCustomFormatter in path/to/my_custom_formatter.rb, you would type this command:.You can tell RSpec to use a custom formatter by passing its path and name to the rspec command. For example, if you define MyCustomFormatter in path/to/my_custom_formatter.rb, you would type this command:.
 
 rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter
 rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter
@@ -241,21 +231,11 @@ close(NullNotification)
 
 
 
-Only the notifications to which you subscribe your formatter will be called
-on your formatter. To subscribe your formatter use:
-RSpec::Core::Formatters#registerRSpec::Core::Formatters#register e.g.Only the notifications to which you subscribe your formatter will be called
-on your formatter. To subscribe your formatter use:
-RSpec::Core::Formatters#register e.g.
+Only the notifications to which you subscribe your formatter will be called on your formatter. To subscribe your formatter use: RSpec::Core::Formatters#register e.g.Only the notifications to which you subscribe your formatter will be called on your formatter. To subscribe your formatter use: RSpec::Core::Formatters#register e.g.
 
 RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.
 
-We recommend you implement the methods yourself; for simplicity we provide the
-default formatter output via our notification objects but if you prefer you
-can subclass RSpec::Core::Formatters::BaseTextFormatterRSpec::Core::Formatters::BaseTextFormatter and override the
-methods you wish to enhance.We recommend you implement the methods yourself; for simplicity we provide the
-default formatter output via our notification objects but if you prefer you
-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the
-methods you wish to enhance.
+We recommend you implement the methods yourself; for simplicity we provide the default formatter output via our notification objects but if you prefer you can subclass RSpec::Core::Formatters::BaseTextFormatter and override the methods you wish to enhance.We recommend you implement the methods yourself; for simplicity we provide the default formatter output via our notification objects but if you prefer you can subclass RSpec::Core::Formatters::BaseTextFormatter and override the methods you wish to enhance.
 
 
   
@@ -270,9 +250,7 @@ html
 json - Useful for archiving data for subsequent analysis.
 
 
-The progress formatter is the default, but you can choose any one or more of
-the other formatters by passing with the --format (or -f for short)
-command-line option, e.g.
+The progress formatter is the default, but you can choose any one or more of the other formatters by passing with the --format (or -f for short) command-line option, e.g.
 
 rspec --format documentation
 
@@ -282,14 +260,11 @@ You can also send the output of multiple formatters to different streams, e.g.
 rspec --format documentation --format html --out results.html
 
 
-This example sends the output of the documentation formatter to $stdout, and
-the output of the html formatter to results.html.
+This example sends the output of the documentation formatter to $stdout, and the output of the html formatter to results.html.
 
 Custom Formatters
 
-You can tell RSpec to use a custom formatter by passing its path and name to
-the rspec command. For example, if you define MyCustomFormatter in
-path/to/my_custom_formatter.rb, you would type this command:.
+You can tell RSpec to use a custom formatter by passing its path and name to the rspec command. For example, if you define MyCustomFormatter in path/to/my_custom_formatter.rb, you would type this command:.
 
 rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter
 
@@ -337,16 +312,11 @@ close(NullNotification)
 
 
 
-Only the notifications to which you subscribe your formatter will be called
-on your formatter. To subscribe your formatter use:
-RSpec::Core::Formatters#register e.g.
+Only the notifications to which you subscribe your formatter will be called on your formatter. To subscribe your formatter use: RSpec::Core::Formatters#register e.g.
 
 RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.
 
-We recommend you implement the methods yourself; for simplicity we provide the
-default formatter output via our notification objects but if you prefer you
-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the
-methods you wish to enhance.
+We recommend you implement the methods yourself; for simplicity we provide the default formatter output via our notification objects but if you prefer you can subclass RSpec::Core::Formatters::BaseTextFormatter and override the methods you wish to enhance.
 
 
   
@@ -363,9 +333,7 @@ html
 json - Useful for archiving data for subsequent analysis.
 
 
-The progress formatter is the default, but you can choose any one or more of
-the other formatters by passing with the --format (or -f for short)
-command-line option, e.g.
+The progress formatter is the default, but you can choose any one or more of the other formatters by passing with the --format (or -f for short) command-line option, e.g.
 
 rspec --format documentation
 
@@ -375,14 +343,11 @@ You can also send the output of multiple formatters to different streams, e.g.
 rspec --format documentation --format html --out results.html
 
 
-This example sends the output of the documentation formatter to $stdout, and
-the output of the html formatter to results.html.
+This example sends the output of the documentation formatter to $stdout, and the output of the html formatter to results.html.
 
 Custom Formatters
 
-You can tell RSpec to use a custom formatter by passing its path and name to
-the rspec command. For example, if you define MyCustomFormatter in
-path/to/my_custom_formatter.rb, you would type this command:.
+You can tell RSpec to use a custom formatter by passing its path and name to the rspec command. For example, if you define MyCustomFormatter in path/to/my_custom_formatter.rb, you would type this command:.
 
 rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter
 
@@ -430,16 +395,11 @@ close(NullNotification)
 
 
 
-Only the notifications to which you subscribe your formatter will be called
-on your formatter. To subscribe your formatter use:
-RSpec::Core::Formatters#register e.g.
+Only the notifications to which you subscribe your formatter will be called on your formatter. To subscribe your formatter use: RSpec::Core::Formatters#register e.g.
 
 RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.
 
-We recommend you implement the methods yourself; for simplicity we provide the
-default formatter output via our notification objects but if you prefer you
-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the
-methods you wish to enhance.
+We recommend you implement the methods yourself; for simplicity we provide the default formatter output via our notification objects but if you prefer you can subclass RSpec::Core::Formatters::BaseTextFormatter and override the methods you wish to enhance.
 
 
   
@@ -636,11 +596,8 @@ formatter class to register
       
       
         —
-        one or more notifications to be
-registered to the specified formatterone or more notifications to be
-registered to the specified formatter
-one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatterone or more notifications to be registered to the specified formatter
+one or more notifications to be registered to the specified formatter
 
       
     
@@ -653,8 +610,7 @@ registered to the specified formatter
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     
@@ -686,8 +642,7 @@ registered to the specified formatter
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     
@@ -735,8 +690,7 @@ registered to the specified formatter
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     
@@ -863,8 +817,7 @@ end
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     
@@ -941,8 +894,7 @@ end
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     
@@ -1018,9 +970,7 @@ html
 json - Useful for archiving data for subsequent analysis.
 
 
-The progress formatter is the default, but you can choose any one or more of
-the other formatters by passing with the --format (or -f for short)
-command-line option, e.g.
+The progress formatter is the default, but you can choose any one or more of the other formatters by passing with the --format (or -f for short) command-line option, e.g.
 
 rspec --format documentation
 
@@ -1030,14 +980,11 @@ You can also send the output of multiple formatters to different streams, e.g.
 rspec --format documentation --format html --out results.html
 
 
-This example sends the output of the documentation formatter to $stdout, and
-the output of the html formatter to results.html.
+This example sends the output of the documentation formatter to $stdout, and the output of the html formatter to results.html.
 
 Custom Formatters
 
-You can tell RSpec to use a custom formatter by passing its path and name to
-the rspec command. For example, if you define MyCustomFormatter in
-path/to/my_custom_formatter.rb, you would type this command:.
+You can tell RSpec to use a custom formatter by passing its path and name to the rspec command. For example, if you define MyCustomFormatter in path/to/my_custom_formatter.rb, you would type this command:.
 
 rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter
 
@@ -1085,16 +1032,11 @@ close(NullNotification)
 
 
 
-Only the notifications to which you subscribe your formatter will be called
-on your formatter. To subscribe your formatter use:
-RSpec::Core::Formatters#register e.g.
+Only the notifications to which you subscribe your formatter will be called on your formatter. To subscribe your formatter use: RSpec::Core::Formatters#register e.g.
 
 RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.
 
-We recommend you implement the methods yourself; for simplicity we provide the
-default formatter output via our notification objects but if you prefer you
-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the
-methods you wish to enhance.
+We recommend you implement the methods yourself; for simplicity we provide the default formatter output via our notification objects but if you prefer you can subclass RSpec::Core::Formatters::BaseTextFormatter and override the methods you wish to enhance.
 
 
   
@@ -1201,8 +1143,7 @@ Defined Under Namespace
       
       
         —
-        one or more notifications to be
-registered to the specified formatter
+        one or more notifications to be registered to the specified formatter
 
       
     

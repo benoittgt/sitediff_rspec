@@ -161,7 +161,7 @@ Delegates to ActionView::Base#render, so see documentation on that for more info
   
 
   
-    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.
+    Deprecated.Deprecated. Use rendered instead.Use rendered instead.
 Use rendered instead.
 Deprecated. Use rendered instead.
 
@@ -227,7 +227,7 @@ Simulates the presence of a template on the file system by adding a Rails' Fixtu
   
 
   
-    Deprecated.Deprecated. Use viewview instead.Use view instead.
+    Deprecated.Deprecated. Use view instead.Use view instead.
 Use view instead.
 Deprecated. Use view instead.
 
@@ -260,7 +260,7 @@ Deprecated. Use view instead.
   
 
   
-    The instance of ActionView::BaseActionView::Base that is used to render the template.The instance of ActionView::Base that is used to render the template.
+    The instance of ActionView::Base that is used to render the template.The instance of ActionView::Base that is used to render the template.
 The instance of ActionView::Base that is used to render the template.
 The instance of ActionView::Base that is used to render the template.
 
@@ -399,9 +399,7 @@ The instance of ActionView::Base that is used to render the template.
       
   
   
-    Provides access to the params hash that will be available within the
-view.Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.Provides access to the params hash that will be available within the view.
 
 paramsparams[[:foo:foo]] == ''barbar'''bar'
 params[:foo] = 'bar'
@@ -410,8 +408,7 @@ params[:foo] = 'bar'
 
 
   
-    Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.
 
 params[:foo] = 'bar'
 
@@ -420,8 +417,7 @@ params[:foo] = 'bar'
   
 
   
-    Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.
 
 params[:foo] = 'bar'
 
@@ -513,8 +509,7 @@ end
 
   
   
-    Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.
 
 params[:foo] = 'bar'
 
@@ -549,13 +544,9 @@ end
       
   
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo
@@ -581,11 +572,9 @@ end
 
 
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -599,11 +588,9 @@ end
   
 
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -710,11 +697,9 @@ end
 
   
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -756,7 +741,7 @@ end
       
   
   
-    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.
+    Deprecated.Deprecated. Use rendered instead.Use rendered instead.
 Use rendered instead.
 Deprecated. Use rendered instead.
 
@@ -1030,13 +1015,7 @@ end
       
   
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_templatestub_template((""widgets/_widget.html.erbwidgets/_widget.html.erb"""widgets/_widget.html.erb" =>=> ""This content.This content."""This content."))
 stub_template("widgets/_widget.html.erb" => "This content.")
@@ -1045,10 +1024,7 @@ stub_template("widgets/_widget.html.erb" => "This content.")
 
 
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_template("widgets/_widget.html.erb" => "This content.")
 
@@ -1057,10 +1033,7 @@ stub_template("widgets/_widget.html.erb" => "This content.")
   
 
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_template("widgets/_widget.html.erb" => "This content.")
 
@@ -1152,10 +1125,7 @@ end
 
   
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_template("widgets/_widget.html.erb" => "This content.")
 
@@ -1190,7 +1160,7 @@ end
       
   
   
-    Deprecated.Deprecated. Use viewview instead.Use view instead.
+    Deprecated.Deprecated. Use view instead.Use view instead.
 Use view instead.
 Deprecated. Use view instead.
 
@@ -1339,9 +1309,7 @@ end
       
   
   
-    The instance of ActionView::BaseActionView::Base that is used to render the template.
-Use this to stub methods beforebefore calling renderrender.The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo
@@ -1369,8 +1337,7 @@ end
 
 
   
-    The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -1385,8 +1352,7 @@ end
   
 
   
-    The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -1484,8 +1450,7 @@ end
 
   
   
-    The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -1530,8 +1495,7 @@ end
       
   
   
-    Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.
 
 params[:foo] = 'bar'
 
@@ -1566,11 +1530,9 @@ end
       
   
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -1667,10 +1629,7 @@ end
       
   
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_template("widgets/_widget.html.erb" => "This content.")
 
@@ -1740,8 +1699,7 @@ end
       
   
   
-    The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -1946,8 +1904,7 @@ Overview
       
   
   
-    Provides access to the params hash that will be available within the
-view.
+    Provides access to the params hash that will be available within the view.
 
 params[:foo] = 'bar'
 
@@ -1982,11 +1939,9 @@ end
       
   
   
-    Delegates to ActionView::Base#render, so see documentation on that
-for more info.
+    Delegates to ActionView::Base#render, so see documentation on that for more info.
 
-The only addition is that you can call render with no arguments, and
-RSpec will pass the top level description to render:.
+The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
@@ -2083,10 +2038,7 @@ end
       
   
   
-    Simulates the presence of a template on the file system by adding a
-Rails' FixtureResolver to the front of the view_paths list. Designed to
-help isolate view examples from partials rendered by the view template
-that is the subject of the example.
+    Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.
 
 stub_template("widgets/_widget.html.erb" => "This content.")
 
@@ -2156,8 +2108,7 @@ end
       
   
   
-    The instance of ActionView::Base that is used to render the template.
-Use this to stub methods before calling render.
+    The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do

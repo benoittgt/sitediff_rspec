@@ -1,9 +1,9 @@
 [1mdiff --git a/export/rspec-expectations-RSpec-Matchers.html.current b/export/rspec-expectations-RSpec-Matchers.html.new[m
-[1mindex 621642c..1c1c58d 100644[m
+[1mindex e054c65..08826b7 100644[m
 [1m--- a/export/rspec-expectations-RSpec-Matchers.html.current[m
 [1m+++ b/export/rspec-expectations-RSpec-Matchers.html.new[m
-[36m@@ -423,9 +423,9 @@[m [mby including the method and the class in a module, which is then[m
- included in your spec:.[m
+[36m@@ -373,9 +373,9 @@[m [mend[m
+ And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.[m
  [m
  modulemodule CustomGameMatchersCustomGameMatchers[m
 [31m-  classclass BeInZoneBeInZone[m
@@ -14,7 +14,7 @@
    endend[m
  [m
    defdef be_in_zonebe_in_zone((expectedexpected))[m
-[36m@@ -435,13 +435,13 @@[m [mmodulemodule CustomGameMatchersCustomGameMatchers[m
+[36m@@ -385,13 +385,13 @@[m [mmodulemodule CustomGameMatchersCustomGameMatchers[m
  endend[m
  [m
  describedescribe ""Player behaviourPlayer behaviour"""Player behaviour" dodo[m
@@ -32,7 +32,7 @@
    end[m
  [m
    def be_in_zone(expected)[m
-[36m@@ -450,12 +450,12 @@[m [mmodule CustomGameMatchers[m
+[36m@@ -400,12 +400,12 @@[m [mmodule CustomGameMatchers[m
  end[m
  [m
  describe "Player behaviour" do[m
@@ -49,7 +49,7 @@
    end[m
  [m
    def be_in_zone(expected)[m
-[36m@@ -464,8 +464,8 @@[m [mmodule CustomGameMatchers[m
+[36m@@ -414,8 +414,8 @@[m [mmodule CustomGameMatchers[m
  end[m
  [m
  describe "Player behaviour" do[m
@@ -60,8 +60,8 @@
  end[m
  [m
  [m
-[36m@@ -738,8 +738,8 @@[m [mby including the method and the class in a module, which is then[m
- included in your spec:.[m
+[36m@@ -621,8 +621,8 @@[m [mend[m
+ And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.[m
  [m
  module CustomGameMatchers[m
 [31m-  class BeInZone[m
@@ -71,7 +71,7 @@
    end[m
  [m
    def be_in_zone(expected)[m
-[36m@@ -748,8 +748,8 @@[m [mmodule CustomGameMatchers[m
+[36m@@ -631,8 +631,8 @@[m [mmodule CustomGameMatchers[m
  end[m
  [m
  describe "Player behaviour" do[m
@@ -82,8 +82,8 @@
  end[m
  [m
  [m
-[36m@@ -981,8 +981,8 @@[m [mby including the method and the class in a module, which is then[m
- included in your spec:.[m
+[36m@@ -818,8 +818,8 @@[m [mend[m
+ And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.[m
  [m
  module CustomGameMatchers[m
 [31m-  class BeInZone[m
@@ -93,7 +93,7 @@
    end[m
  [m
    def be_in_zone(expected)[m
-[36m@@ -991,8 +991,8 @@[m [mmodule CustomGameMatchers[m
+[36m@@ -828,8 +828,8 @@[m [mmodule CustomGameMatchers[m
  end[m
  [m
  describe "Player behaviour" do[m
@@ -104,7 +104,7 @@
  end[m
  [m
  [m
-[36m@@ -10219,21 +10219,21 @@[m [mthat splatted out as individual items.[m
+[36m@@ -9623,21 +9623,21 @@[m [mend[m
      Examples:Examples:[m
      [m
        [m
@@ -134,7 +134,7 @@
  expect(results).to match_array([1, 2])[m
      [m
    [m
-[36m@@ -10256,8 +10256,8 @@[m [mexpect(results).to match_array([1, 2])[m
+[36m@@ -9660,8 +9660,8 @@[m [mexpect(results).to match_array([1, 2])[m
      Examples:[m
      [m
        [m
@@ -145,7 +145,7 @@
  expect(results).to match_array([1, 2])[m
      [m
    [m
-[36m@@ -10361,8 +10361,8 @@[m [mthat splatted out as individual items.[m
+[36m@@ -9763,8 +9763,8 @@[m [mend[m
      Examples:[m
      [m
        [m
@@ -156,7 +156,7 @@
  expect(results).to match_array([1, 2])[m
      [m
    [m
-[36m@@ -14385,8 +14385,8 @@[m [mthat splatted out as individual items.[m
+[36m@@ -13514,8 +13514,8 @@[m [mend[m
      Examples:[m
      [m
        [m
@@ -167,8 +167,8 @@
  expect(results).to match_array([1, 2])[m
      [m
    [m
-[36m@@ -15244,8 +15244,8 @@[m [mby including the method and the class in a module, which is then[m
- included in your spec:.[m
+[36m@@ -14310,8 +14310,8 @@[m [mend[m
+ And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.[m
  [m
  module CustomGameMatchers[m
 [31m-  class BeInZone[m
@@ -178,7 +178,7 @@
    end[m
  [m
    def be_in_zone(expected)[m
-[36m@@ -15254,8 +15254,8 @@[m [mmodule CustomGameMatchers[m
+[36m@@ -14320,8 +14320,8 @@[m [mmodule CustomGameMatchers[m
  end[m
  [m
  describe "Player behaviour" do[m
@@ -189,7 +189,7 @@
  end[m
  [m
  [m
-[36m@@ -17650,8 +17650,8 @@[m [mthat splatted out as individual items.[m
+[36m@@ -16621,8 +16621,8 @@[m [mend[m
      Examples:[m
      [m
        [m

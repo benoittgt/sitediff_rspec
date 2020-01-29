@@ -112,7 +112,7 @@ Defined Under NamespaceDefined Under Namespace
   
 
   
-    Passes if actual is an instance of model_classmodel_class and returns truetrue for new_record?new_record?.Passes if actual is an instance of model_class and returns true for new_record?.
+    Passes if actual is an instance of model_class and returns true for new_record?.Passes if actual is an instance of model_class and returns true for new_record?.
 Passes if actual is an instance of model_class and returns true for new_record?.
 Passes if actual is an instance of model_class and returns true for new_record?.
 
@@ -145,7 +145,7 @@ Passes if actual is an instance of model_class and returns true for new_record?.
   
 
   
-    Passes if actual returns truetrue for new_record?new_record?.Passes if actual returns true for new_record?.
+    Passes if actual returns true for new_record?.Passes if actual returns true for new_record?.
 Passes if actual returns true for new_record?.
 Passes if actual returns true for new_record?.
 
@@ -178,7 +178,7 @@ Passes if actual returns true for new_record?.
   
 
   
-    Passes if the given model instance's valid?valid? method is true, meaning all of the ActiveModel::ValidationsActiveModel::Validations passed and no errors exist.Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
 Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
 Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist.
 
@@ -310,7 +310,7 @@ Passes if an email has been enqueued inside block.
   
 
   
-    Passes if responseresponse has a matching HTTP status code.Passes if response has a matching HTTP status code.
+    Passes if response has a matching HTTP status code.Passes if response has a matching HTTP status code.
 Passes if response has a matching HTTP status code.
 Passes if response has a matching HTTP status code.
 
@@ -465,35 +465,23 @@ Passes if response has a matching HTTP status code.
       
   
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the withwith method to specify the specific attributes to match on the
-new record.Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.Use the with method to specify the specific attributes to match on the new record.
 
 
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.
 
 
   
 
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.
 
 
   
@@ -624,12 +612,9 @@ end
 
   
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.
 
 
   
@@ -673,7 +658,7 @@ end
       
   
   
-    Passes if actual returns truetrue for new_record?new_record?.Passes if actual returns true for new_record?.
+    Passes if actual returns true for new_record?.Passes if actual returns true for new_record?.
 
 
   
@@ -840,25 +825,17 @@ end
       
   
   
-    Passes if the given model instance's valid?valid? method is true, meaning
-all of the ActiveModel::ValidationsActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
-    Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
 
   
-    Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
@@ -974,9 +951,7 @@ end
 
   
   
-    Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
@@ -1749,33 +1724,17 @@ end
       
   
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   
 
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   
@@ -2027,11 +1986,7 @@ end
 
   
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   
@@ -2099,7 +2054,7 @@ end
       
   
   
-    Passes if responseresponse has a matching HTTP status code.Passes if response has a matching HTTP status code.
+    Passes if response has a matching HTTP status code.Passes if response has a matching HTTP status code.
 
 The following symbolic status codes are allowed:.The following symbolic status codes are allowed:.
 
@@ -2206,7 +2161,7 @@ expect(response).to have_http_status(:missing)
 expect(response).to have_http_status(:redirect)
     
       
-        Works with standard responseresponse objects and Capybara's pagepageWorks with standard response objects and Capybara's page
+        Works with standard response objects and Capybara's pageWorks with standard response objects and Capybara's page
 Works with standard response objects and Capybara's page
 
       
@@ -2518,12 +2473,9 @@ end
       
   
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.
 
 
   
@@ -2608,9 +2560,7 @@ end
       
   
   
-    Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
@@ -2799,11 +2749,7 @@ end
       
   
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   
@@ -3153,12 +3099,9 @@ Defined Under Namespace
       
   
   
-    Passes if actual is an instance of model_class and returns true for
-new_record?. Typically used to specify instance variables assigned to
-views by controller actions.
+    Passes if actual is an instance of model_class and returns true for new_record?. Typically used to specify instance variables assigned to views by controller actions.
 
-Use the with method to specify the specific attributes to match on the
-new record.
+Use the with method to specify the specific attributes to match on the new record.
 
 
   
@@ -3243,9 +3186,7 @@ end
       
   
   
-    Passes if the given model instance's valid? method is true, meaning
-all of the ActiveModel::Validations passed and no errors exist. If a
-message is not given, a default message is shown listing each error.
+    Passes if the given model instance's valid? method is true, meaning all of the ActiveModel::Validations passed and no errors exist. If a message is not given, a default message is shown listing each error.
 
 
   
@@ -3434,11 +3375,7 @@ end
       
   
   
-    Passes if an email has been enqueued inside block.
-May chain with to specify expected arguments.
-May chain at_least, at_most or exactly to specify a number of times.
-May chain at to specify a send time.
-May chain on_queue to specify a queue.
+    Passes if an email has been enqueued inside block. May chain with to specify expected arguments. May chain at_least, at_most or exactly to specify a number of times. May chain at to specify a send time. May chain on_queue to specify a queue.
 
 
   

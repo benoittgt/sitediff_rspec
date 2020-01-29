@@ -114,7 +114,7 @@ OverviewOverview
   
     Note:Note:
     
-Example blocks are evaluated in the context of an instance of an ExampleGroupExampleGroup, not in the context of an instance of ExampleExample.Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
+Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
 Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.
 
@@ -126,7 +126,7 @@ Example blocks are evaluated in the context of an instance of an ExampleGroup, n
   
 
 
-Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::ExampleRSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
+Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.
 
 This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.
 
@@ -587,7 +587,7 @@ The current reporter for the example.
 
   
     
-Returns the string submitted to exampleexample or its aliases (e.g. specifyspecify, itit, etc).Returns the string submitted to example or its aliases (e.g. specify, it, etc).
+Returns the string submitted to example or its aliases (e.g. specify, it, etc).Returns the string submitted to example or its aliases (e.g. specify, it, etc).
 
 Returns the string submitted to example or its aliases (e.g. specify, it, etc).
 
@@ -961,7 +961,7 @@ Returns a description of the example that always includes the location.
 
   
     
-The exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17.The exact source location of this example in a form like ./path/to/spec.rb:17.
+The exact source location of this example in a form like ./path/to/spec.rb:17.The exact source location of this example in a form like ./path/to/spec.rb:17.
 
 The exact source location of this example in a form like ./path/to/spec.rb:17.
 
@@ -998,7 +998,7 @@ The exact source location of this example in a form like ./path/to/spec.rb:17.
 
   
     
-Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
 Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
@@ -1472,22 +1472,13 @@ Flag that will cause the example to not run.
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.Creates a new instance of Example.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.
 
@@ -1495,10 +1486,7 @@ Creates a new instance of Example.
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.
 
@@ -1552,7 +1540,7 @@ the subclass of ExampleGroup in which this Example is declared
       
         —
         
-the String passed to the itit method (or alias)the String passed to the it method (or alias)
+the String passed to the it method (or alias)the String passed to the it method (or alias)
 
 the String passed to the it method (or alias)
 
@@ -1584,7 +1572,7 @@ the String passed to the it method (or alias)
       
         —
         
-additional args passed to itit to be used as metadataadditional args passed to it to be used as metadata
+additional args passed to it to be used as metadataadditional args passed to it to be used as metadata
 
 additional args passed to it to be used as metadata
 
@@ -2164,10 +2152,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.
 
@@ -2332,10 +2317,7 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.
 
@@ -3131,7 +3113,7 @@ end
   
   
     
-Returns the string submitted to exampleexample or its aliases (e.g. specifyspecify, itit, etc). If no string is submitted (e.g. it { is_expected.to do_something }it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
+Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.
 
 
   
@@ -5054,7 +5036,7 @@ end
   
   
     
-Returns the exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17.Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
+Returns the exact source location of this example in a form like ./path/to/spec.rb:17.Returns the exact source location of this example in a form like ./path/to/spec.rb:17.
 
 
   
@@ -5085,7 +5067,7 @@ Returns:Returns:
       
         —
         
-the exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17the exact source location of this example in a form like ./path/to/spec.rb:17
+the exact source location of this example in a form like ./path/to/spec.rb:17the exact source location of this example in a form like ./path/to/spec.rb:17
 
 the exact source location of this example in a form like ./path/to/spec.rb:17
 
@@ -5249,7 +5231,7 @@ delegate_to_metadata :location
   
   
     
-Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
 
   
@@ -5673,7 +5655,7 @@ If there are multiple examples identified by this location, they will use #id to
   
 
 
-Returns the location-based argument that can be passed to the rspecrspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
+Returns the location-based argument that can be passed to the rspec command to rerun this example.Returns the location-based argument that can be passed to the rspec command to rerun this example.
 
 
   
@@ -5840,22 +5822,13 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
@@ -5863,10 +5836,7 @@ instance_execs the block passed to the constructor in the context of the instanc
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
@@ -6508,10 +6478,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
@@ -6660,7 +6627,7 @@ end
   
   
     
-Returns flag that will cause the example to not run. The ExecutionResult status will be :pending:pending.Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
+Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 
   
@@ -6691,7 +6658,7 @@ Returns:Returns:
       
         —
         
-flag that will cause the example to not run. The ExecutionResult status will be :pending:pending.flag that will cause the example to not run. The ExecutionResult status will be :pending.
+flag that will cause the example to not run. The ExecutionResult status will be :pending.flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
 flag that will cause the example to not run. The ExecutionResult status will be :pending.
 
@@ -7480,10 +7447,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 
@@ -8174,10 +8138,7 @@ Flag that will cause the example to not run.
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Creates a new instance of Example.
 
@@ -9096,10 +9057,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.
 

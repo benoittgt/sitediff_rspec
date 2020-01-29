@@ -126,7 +126,7 @@ OverviewOverview
     
 Stores runtime configuration information.Stores runtime configuration information.
 
-Configuration options are loaded from multiple files and joined together with command-line switches and the SPEC_OPTSSPEC_OPTS environment variable.Configuration options are loaded from multiple files and joined together with command-line switches and the SPEC_OPTS environment variable.
+Configuration options are loaded from multiple files and joined together with command-line switches and the SPEC_OPTS environment variable.Configuration options are loaded from multiple files and joined together with command-line switches and the SPEC_OPTS environment variable.
 
 Precedence order (where later entries overwrite earlier entries on conflicts):.Precedence order (where later entries overwrite earlier entries on conflicts):.
 
@@ -541,7 +541,7 @@ The default output color.
 
   
     
-Path to use if no path is provided to the rspecrspec command (default: "spec""spec").Path to use if no path is provided to the rspec command (default: "spec").
+Path to use if no path is provided to the rspec command (default: "spec").Path to use if no path is provided to the rspec command (default: "spec").
 
 Path to use if no path is provided to the rspec command (default: "spec").
 
@@ -627,7 +627,7 @@ Color used to print details.
 
   
     
-Run examples over DRb (default: falsefalse).Run examples over DRb (default: false).
+Run examples over DRb (default: false).Run examples over DRb (default: false).
 
 Run examples over DRb (default: false).
 
@@ -756,7 +756,7 @@ Prints the formatter output of your suite without running any examples or hooks.
 
   
     
-Default: $stderr$stderr.Default: $stderr.
+Default: $stderr.Default: $stderr.
 
 Default: $stderr.
 
@@ -885,7 +885,7 @@ Exclude files matching this pattern.
 
   
     
-If specified, indicates the number of failures required before cleaning up and exit (default: nilnil).If specified, indicates the number of failures required before cleaning up and exit (default: nil).
+If specified, indicates the number of failures required before cleaning up and exit (default: nil).If specified, indicates the number of failures required before cleaning up and exit (default: nil).
 
 If specified, indicates the number of failures required before cleaning up and exit (default: nil).
 
@@ -1149,7 +1149,7 @@ Color used when a pending example is fixed.
 
   
     
-Returns dirs that have been prepended to the load path by the -I-I command line option.Returns dirs that have been prepended to the load path by the -I command line option.
+Returns dirs that have been prepended to the load path by the -I command line option.Returns dirs that have been prepended to the load path by the -I command line option.
 
 Returns dirs that have been prepended to the load path by the -I command line option.
 
@@ -1239,7 +1239,7 @@ Maximum count of failed source lines to display in the failure reports.
 
   
     
-Indicates if the --only-failures--only-failures (or --next-failure--next-failure) flag is being used.Indicates if the --only-failures (or --next-failure) flag is being used.
+Indicates if the --only-failures (or --next-failure) flag is being used.Indicates if the --only-failures (or --next-failure) flag is being used.
 
 Indicates if the --only-failures (or --next-failure) flag is being used.
 
@@ -1327,7 +1327,7 @@ Determines where RSpec will send its output.
 
   
     
-Load files matching this pattern (default: '**{,//*/*}/*_spec.rb''**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').
+Load files matching this pattern (default: '**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').
 
 Load files matching this pattern (default: '**{,//*}/*_spec.rb').
 
@@ -1413,7 +1413,7 @@ Color to use to print pending examples.
 
   
     
-Defaults profile_examplesprofile_examples to 10 examples when @profile_examples@profile_examples is truetrue.Defaults profile_examples to 10 examples when @profile_examples is true.
+Defaults profile_examples to 10 examples when @profile_examples is true.Defaults profile_examples to 10 examples when @profile_examples is true.
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -2530,7 +2530,7 @@ Adds a custom setting to the RSpec.configuration object.
 
   
     
-Defines a afterafter hook.Defines a after hook.
+Defines a after hook.Defines a after hook.
 
 Defines a after hook.
 
@@ -2604,7 +2604,7 @@ Creates a method that defines an example group with the provided metadata.
 
   
     
-Creates a method that delegates to exampleexample including the submitted argsargs.Creates a method that delegates to example including the submitted args.
+Creates a method that delegates to example including the submitted args.Creates a method that delegates to example including the submitted args.
 
 Creates a method that delegates to example including the submitted args.
 
@@ -2678,7 +2678,7 @@ Define an alias for it_should_behave_like that allows different language (like �
 
   
     
-Adds blockblock to the end of the list of afterafter blocks in the same scope (:example:example, :context:context, or :suite:suite), in contrast to #after, which adds the hook to the start of the list.Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.
+Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.
 
 Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.
 
@@ -2715,7 +2715,7 @@ Adds block to the end of the list of after blocks in the same scope (:example, :
 
   
     
-Registers blockblock as an aroundaround hook.Registers block as an around hook.
+Registers block as an around hook.Registers block as an around hook.
 
 Registers block as an around hook.
 
@@ -2900,7 +2900,7 @@ Set regular expressions used to include lines in backtrace.
 
   
     
-Defines a beforebefore hook.Defines a before hook.
+Defines a before hook.Defines a before hook.
 
 Defines a before hook.
 
@@ -3196,7 +3196,7 @@ Enables zero monkey patching mode for RSpec.
 
   
     
-Returns the exclusion_filterexclusion_filter.Returns the exclusion_filter.
+Returns the exclusion_filter.Returns the exclusion_filter.
 
 Returns the exclusion_filter.
 
@@ -3233,7 +3233,7 @@ Returns the exclusion_filter.
 
   
     
-Clears and reassigns the exclusion_filterexclusion_filter.Clears and reassigns the exclusion_filter.
+Clears and reassigns the exclusion_filter.Clears and reassigns the exclusion_filter.
 
 Clears and reassigns the exclusion_filter.
 
@@ -3418,7 +3418,7 @@ Exposes the current running example via the named helper method.
 
   
     
-Use this to expose the core RSpec DSL via ModuleModule and the mainmain object.Use this to expose the core RSpec DSL via Module and the main object.
+Use this to expose the core RSpec DSL via Module and the main object.Use this to expose the core RSpec DSL via Module and the main object.
 
 Use this to expose the core RSpec DSL via Module and the main object.
 
@@ -3455,7 +3455,7 @@ Use this to expose the core RSpec DSL via Module and the main object.
 
   
     
-Indicates if the DSL has been exposed off of modules and mainmain.Indicates if the DSL has been exposed off of modules and main.
+Indicates if the DSL has been exposed off of modules and main.Indicates if the DSL has been exposed off of modules and main.
 
 Indicates if the DSL has been exposed off of modules and main.
 
@@ -3492,7 +3492,7 @@ Indicates if the DSL has been exposed off of modules and main.
 
   
     
-Tells RSpec to extend example groups with modmod.Tells RSpec to extend example groups with mod.
+Tells RSpec to extend example groups with mod.Tells RSpec to extend example groups with mod.
 
 Tells RSpec to extend example groups with mod.
 
@@ -3566,7 +3566,7 @@ Adds #backtrace_exclusion_patterns that will filter lines from the named gems fr
 
   
     
-Adds key/value pairs to the exclusion_filterexclusion_filter.Adds key/value pairs to the exclusion_filter.
+Adds key/value pairs to the exclusion_filter.Adds key/value pairs to the exclusion_filter.
 
 Adds key/value pairs to the exclusion_filter.
 
@@ -3603,7 +3603,7 @@ Adds key/value pairs to the exclusion_filter.
 
   
     
-Adds key/value pairs to the inclusion_filterinclusion_filter.Adds key/value pairs to the inclusion_filter.
+Adds key/value pairs to the inclusion_filter.Adds key/value pairs to the inclusion_filter.
 
 Adds key/value pairs to the inclusion_filter.
 
@@ -3714,7 +3714,7 @@ Formats the docstring output using the block provided.
 
   
     
-Returns a duplicate of the formatters currently loaded in the FormatterLoaderFormatterLoader for introspection.Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.
+Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.
 
 Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.
 
@@ -3862,7 +3862,7 @@ Full description filter.
 
   
     
-Run examples matching on descriptiondescription in all files to run.Run examples matching on description in all files to run.
+Run examples matching on description in all files to run.Run examples matching on description in all files to run.
 
 Run examples matching on description in all files to run.
 
@@ -3899,7 +3899,7 @@ Run examples matching on description in all files to run.
 
   
     
-Tells RSpec to include modmod in example groups.Tells RSpec to include mod in example groups.
+Tells RSpec to include mod in example groups.Tells RSpec to include mod in example groups.
 
 Tells RSpec to include mod in example groups.
 
@@ -3973,7 +3973,7 @@ Tells RSpec to include the named shared example group in example groups.
 
   
     
-Returns the inclusion_filterinclusion_filter.Returns the inclusion_filter.
+Returns the inclusion_filter.Returns the inclusion_filter.
 
 Returns the inclusion_filter.
 
@@ -4010,7 +4010,7 @@ Returns the inclusion_filter.
 
   
     
-Clears and reassigns the inclusion_filterinclusion_filter.Clears and reassigns the inclusion_filter.
+Clears and reassigns the inclusion_filter.Clears and reassigns the inclusion_filter.
 
 Clears and reassigns the inclusion_filter.
 
@@ -4310,7 +4310,7 @@ Sets the default global ordering strategy.
 
   
     
-Tells RSpec to prepend example groups with modmod.Tells RSpec to prepend example groups with mod.
+Tells RSpec to prepend example groups with mod.Tells RSpec to prepend example groups with mod.
 
 Tells RSpec to prepend example groups with mod.
 
@@ -4347,7 +4347,7 @@ Tells RSpec to prepend example groups with mod.
 
   
     
-Adds blockblock to the start of the list of beforebefore blocks in the same scope (:example:example, :context:context, or :suite:suite), in contrast to #before, which adds the hook to the end of the list.Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.
+Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.
 
 Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.
 
@@ -4458,7 +4458,7 @@ Turns warnings into errors.
 
   
     
-Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name>:order => <name> metadata to the example group.Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.
+Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.
 
 Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.
 
@@ -6790,7 +6790,7 @@ end
   
     Note:Note:
     
-This option will only be used by --bisect--bisect if you set it in a file loaded via --require--require.This option will only be used by --bisect if you set it in a file loaded via --require.
+This option will only be used by --bisect if you set it in a file loaded via --require.This option will only be used by --bisect if you set it in a file loaded via --require.
 
 This option will only be used by --bisect if you set it in a file loaded via --require.
 
@@ -6804,11 +6804,11 @@ This option will only be used by --bisect if you set it in a file loaded via --r
 
 Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.
 
-:shell:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.
+:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.
 
 :shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.
 
-:fork:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell:shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite)before(:suite) hook instead of getting run at the top-level of a file loaded by --require--require.:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.
+:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.
 
 :fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.
 
@@ -7723,7 +7723,7 @@ add_setting :default_color
   
     Note:Note:
     
-Other scripts invoking rspecrspec indirectly will ignore this setting.Other scripts invoking rspec indirectly will ignore this setting.
+Other scripts invoking rspec indirectly will ignore this setting.Other scripts invoking rspec indirectly will ignore this setting.
 
 Other scripts invoking rspec indirectly will ignore this setting.
 
@@ -7735,7 +7735,7 @@ Other scripts invoking rspec indirectly will ignore this setting.
   
 
 
-Path to use if no path is provided to the rspecrspec command (default: "spec""spec"). Allows you to just type rspecrspec instead of rspec specrspec spec to run all the examples in the specspec directory.Path to use if no path is provided to the rspec command (default: "spec"). Allows you to just type rspec instead of rspec spec to run all the examples in the spec directory.
+Path to use if no path is provided to the rspec command (default: "spec"). Allows you to just type rspec instead of rspec spec to run all the examples in the spec directory.Path to use if no path is provided to the rspec command (default: "spec"). Allows you to just type rspec instead of rspec spec to run all the examples in the spec directory.
 
 
   
@@ -8099,7 +8099,7 @@ add_setting :detail_color
   
   
     
-Run examples over DRb (default: falsefalse). RSpec doesn't supply the DRb server, but you can use tools like spork.Run examples over DRb (default: false). RSpec doesn't supply the DRb server, but you can use tools like spork.
+Run examples over DRb (default: false). RSpec doesn't supply the DRb server, but you can use tools like spork.Run examples over DRb (default: false). RSpec doesn't supply the DRb server, but you can use tools like spork.
 
 
   
@@ -8495,7 +8495,7 @@ add_setting :dry_run
   
   
     
-Default: $stderr$stderr.Default: $stderr.
+Default: $stderr.Default: $stderr.
 
 
   
@@ -8608,7 +8608,7 @@ add_setting :error_stream
   
   
     
-The file path to use for persisting example statuses. Necessary for the --only-failures--only-failures and --next-failure--next-failure CLI options.The file path to use for persisting example statuses. Necessary for the --only-failures and --next-failure CLI options.
+The file path to use for persisting example statuses. Necessary for the --only-failures and --next-failure CLI options.The file path to use for persisting example statuses. Necessary for the --only-failures and --next-failure CLI options.
 
 
   
@@ -10394,7 +10394,7 @@ add_setting :fixed_color
   
   
     
-Returns dirs that have been prepended to the load path by the -I-I command line option.Returns dirs that have been prepended to the load path by the -I command line option.
+Returns dirs that have been prepended to the load path by the -I command line option.Returns dirs that have been prepended to the load path by the -I command line option.
 
 
   
@@ -10677,7 +10677,7 @@ add_setting :max_displayed_failure_line_count
   
   
     
-Indicates if the --only-failures--only-failures (or --next-failure--next-failure) flag is being used.Indicates if the --only-failures (or --next-failure) flag is being used.
+Indicates if the --only-failures (or --next-failure) flag is being used.Indicates if the --only-failures (or --next-failure) flag is being used.
 
 
   
@@ -10790,7 +10790,7 @@ define_reader :only_failures
   
   
     
-Determines where RSpec will send its output. Default: $stdout$stdout.Determines where RSpec will send its output. Default: $stdout.
+Determines where RSpec will send its output. Default: $stdout.Determines where RSpec will send its output. Default: $stdout.
 
 
   
@@ -10960,7 +10960,7 @@ define_reader :output_stream
   
   
     
-Load files matching this pattern (default: '**{,//*/*}/*_spec.rb''**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').
+Load files matching this pattern (default: '**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').
 
 
   
@@ -11299,22 +11299,13 @@ add_setting :pending_color
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-
-Defaults profile_examplesprofile_examples to 10 examples when @profile_examples@profile_examples is truetrue.Defaults profile_examples to 10 examples when @profile_examples is true.
+Defaults profile_examples to 10 examples when @profile_examples is true.Defaults profile_examples to 10 examples when @profile_examples is true.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -11322,10 +11313,7 @@ Defaults profile_examples to 10 examples when @profile_examples is true.
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -11396,10 +11384,7 @@ add_setting :profile_examples
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -11779,7 +11764,7 @@ Deprecated.
 Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.
 
 
-Run all examples if none match the configured filters (default: falsefalse).Run all examples if none match the configured filters (default: false).
+Run all examples if none match the configured filters (default: false).Run all examples if none match the configured filters (default: false).
 
 
   
@@ -11922,11 +11907,11 @@ end
 
 …there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.
 
-:trigger_inclusion:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true:db => true metadata.:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.
+:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.
 
 :trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.
 
-:apply_to_host_groups:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.
+:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.
 
 :apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.
 
@@ -11961,7 +11946,7 @@ RSpec.configure do |rspec|
 end
 
 
-:apply_to_host_groups:apply_to_host_groups is a new feature of RSpec 3.5 and will be the only supported behavior in RSpec 4.:apply_to_host_groups is a new feature of RSpec 3.5 and will be the only supported behavior in RSpec 4.
+:apply_to_host_groups is a new feature of RSpec 3.5 and will be the only supported behavior in RSpec 4.:apply_to_host_groups is a new feature of RSpec 3.5 and will be the only supported behavior in RSpec 4.
 
 
   
@@ -14159,10 +14144,7 @@ add_setting :pending_color
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -14596,7 +14578,7 @@ Adds a formatter to the set RSpec will use for this run.
       
         —
         
-formatter to use. Can be any of the string values supported from the CLI (pp/progressprogress, dd/docdoc/documentationdocumentation, hh/htmlhtml, or jj/jsonjson), any class that implements the formatter protocol and has registered itself with RSpec as a formatter, or a formatter instance.formatter to use. Can be any of the string values supported from the CLI (p/progress, d/doc/documentation, h/html, or j/json), any class that implements the formatter protocol and has registered itself with RSpec as a formatter, or a formatter instance.
+formatter to use. Can be any of the string values supported from the CLI (p/progress, d/doc/documentation, h/html, or j/json), any class that implements the formatter protocol and has registered itself with RSpec as a formatter, or a formatter instance.formatter to use. Can be any of the string values supported from the CLI (p/progress, d/doc/documentation, h/html, or j/json), any class that implements the formatter protocol and has registered itself with RSpec as a formatter, or a formatter instance.
 
 formatter to use. Can be any of the string values supported from the CLI (p/progress, d/doc/documentation, h/html, or j/json), any class that implements the formatter protocol and has registered itself with RSpec as a formatter, or a formatter instance.
 
@@ -14630,7 +14612,7 @@ formatter to use. Can be any of the string values supported from the CLI (p/prog
       
         —
         
-where the formatter will write its output. Can be an IO object or a string path to a file. If not provided, the configured output_streamoutput_stream ($stdout$stdout, by default) will be used.where the formatter will write its output. Can be an IO object or a string path to a file. If not provided, the configured output_stream ($stdout, by default) will be used.
+where the formatter will write its output. Can be an IO object or a string path to a file. If not provided, the configured output_stream ($stdout, by default) will be used.where the formatter will write its output. Can be an IO object or a string path to a file. If not provided, the configured output_stream ($stdout, by default) will be used.
 
 where the formatter will write its output. Can be an IO object or a string path to a file. If not provided, the configured output_stream ($stdout, by default) will be used.
 
@@ -15120,7 +15102,7 @@ add_setting(:foo, :default => "default value")
           
           
             — 
-Use :alias_with:alias_with to alias the setter, getter, and predicate to another name, or names:Use :alias_with to alias the setter, getter, and predicate to another name, or names:
+Use :alias_with to alias the setter, getter, and predicate to another name, or names:Use :alias_with to alias the setter, getter, and predicate to another name, or names:
 
 add_settingadd_setting((:foo:foo,, :alias_with:alias_with =>=> :bar:bar))
 add_settingadd_setting((:foo:foo,, :alias_with:alias_with =>=> [[:bar:bar,, :baz:baz]]))
@@ -15507,9 +15489,9 @@ end
   
   
     
-Defines a afterafter hook. See Hooks#after for full docs.Defines a after hook. See Hooks#after for full docs.
+Defines a after hook. See Hooks#after for full docs.Defines a after hook. See Hooks#after for full docs.
 
-This method differs from Hooks#after in only one way: it supports the :suite:suite scope. Hooks with the :suite:suite scope will be run once after the last example of the entire suite is executed.This method differs from Hooks#after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.
+This method differs from Hooks#after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.This method differs from Hooks#after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.
 
 
   
@@ -15830,7 +15812,7 @@ end
   
     Note:Note:
     
-The defined aliased will also be added to the top level (e.g. mainmain and from within modules) if expose_dsl_globallyexpose_dsl_globally is set to true.The defined aliased will also be added to the top level (e.g. main and from within modules) if expose_dsl_globally is set to true.
+The defined aliased will also be added to the top level (e.g. main and from within modules) if expose_dsl_globally is set to true.The defined aliased will also be added to the top level (e.g. main and from within modules) if expose_dsl_globally is set to true.
 
 The defined aliased will also be added to the top level (e.g. main and from within modules) if expose_dsl_globally is set to true.
 
@@ -16178,7 +16160,7 @@ end
   
     Note:Note:
     
-The specific example alias below (pendingpending) is already defined for you.The specific example alias below (pending) is already defined for you.
+The specific example alias below (pending) is already defined for you.The specific example alias below (pending) is already defined for you.
 
 The specific example alias below (pending) is already defined for you.
 
@@ -16192,7 +16174,7 @@ The specific example alias below (pending) is already defined for you.
   
     Note:Note:
     
-Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define methods like focusfocus and xitxit, but we also add docs for those methods.Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define methods like focus and xit, but we also add docs for those methods.
+Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define methods like focus and xit, but we also add docs for those methods.Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define methods like focus and xit, but we also add docs for those methods.
 
 Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define methods like focus and xit, but we also add docs for those methods.
 
@@ -16713,7 +16695,7 @@ end
   
     Note:Note:
     
-Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define it_should_behave_likeit_should_behave_like (for backward compatibility), but we also add docs for that method.Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define it_should_behave_like (for backward compatibility), but we also add docs for that method.
+Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define it_should_behave_like (for backward compatibility), but we also add docs for that method.Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define it_should_behave_like (for backward compatibility), but we also add docs for that method.
 
 Use with caution. This extends the language used in your specs, but does not add any additional documentation. We use this in RSpec to define it_should_behave_like (for backward compatibility), but we also add docs for that method.
 
@@ -17008,11 +16990,11 @@ end
   
   
     
-Adds blockblock to the end of the list of afterafter blocks in the same scope (:example:example, :context:context, or :suite:suite), in contrast to #after, which adds the hook to the start of the list.Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.
+Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.Adds block to the end of the list of after blocks in the same scope (:example, :context, or :suite), in contrast to #after, which adds the hook to the start of the list.
 
-See Hooks#after for full afterafter hook docs.See Hooks#after for full after hook docs.
+See Hooks#after for full after hook docs.See Hooks#after for full after hook docs.
 
-This method differs from Hooks#append_after in only one way: it supports the :suite:suite scope. Hooks with the :suite:suite scope will be run once after the last example of the entire suite is executed.This method differs from Hooks#append_after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.
+This method differs from Hooks#append_after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.This method differs from Hooks#append_after in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once after the last example of the entire suite is executed.
 
 
   
@@ -17336,9 +17318,9 @@ end
   
   
     
-Registers blockblock as an aroundaround hook.Registers block as an around hook.
+Registers block as an around hook.Registers block as an around hook.
 
-See Hooks#around for full aroundaround hook docs.See Hooks#around for full around hook docs.
+See Hooks#around for full around hook docs.See Hooks#around for full around hook docs.
 
 
   
@@ -17573,7 +17555,7 @@ Excludes lines from ruby (and jruby) source, installed gems, anything in any “
 
 You can modify the list via the getter, or replace it with the setter.You can modify the list via the getter, or replace it with the setter.
 
-To override this behaviour and display a full backtrace, use --backtrace--backtrace on the command line, in a .rspec.rspec file, or in the rspec_optionsrspec_options attribute of RSpec's rake task.To override this behaviour and display a full backtrace, use --backtrace on the command line, in a .rspec file, or in the rspec_options attribute of RSpec's rake task.
+To override this behaviour and display a full backtrace, use --backtrace on the command line, in a .rspec file, or in the rspec_options attribute of RSpec's rake task.To override this behaviour and display a full backtrace, use --backtrace on the command line, in a .rspec file, or in the rspec_options attribute of RSpec's rake task.
 
 
   
@@ -18016,7 +17998,7 @@ Regexps used to include lines in backtraces.Regexps used to include lines in bac
 
 Defaults to [Regexp.new Dir.getwd].Defaults to [Regexp.new Dir.getwd].
 
-Lines that match an exclusion andand an inclusion pattern will be included.Lines that match an exclusion and an inclusion pattern will be included.
+Lines that match an exclusion and an inclusion pattern will be included.Lines that match an exclusion and an inclusion pattern will be included.
 
 You can modify the list via the getter, or replace it with the setter.You can modify the list via the getter, or replace it with the setter.
 
@@ -18363,9 +18345,9 @@ end
   
   
     
-Defines a beforebefore hook. See Hooks#before for full docs.Defines a before hook. See Hooks#before for full docs.
+Defines a before hook. See Hooks#before for full docs.Defines a before hook. See Hooks#before for full docs.
 
-This method differs from Hooks#before in only one way: it supports the :suite:suite scope. Hooks with the :suite:suite scope will be run once before the first example of the entire suite is executed.This method differs from Hooks#before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.
+This method differs from Hooks#before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.This method differs from Hooks#before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.
 
 
   
@@ -18717,7 +18699,7 @@ Check if color is enabled for a particular output.
       
         —
         
-an output stream to use, defaults to the current output_streamoutput_streaman output stream to use, defaults to the current output_stream
+an output stream to use, defaults to the current output_streaman output stream to use, defaults to the current output_stream
 
 an output stream to use, defaults to the current output_stream
 
@@ -19761,7 +19743,7 @@ end
   
   
     
-Determines where deprecation warnings are printed. Defaults to $stderr$stderr.Determines where deprecation warnings are printed. Defaults to $stderr.
+Determines where deprecation warnings are printed. Defaults to $stderr.Determines where deprecation warnings are printed. Defaults to $stderr.
 
 
   
@@ -20284,7 +20266,7 @@ end
   
     Note:Note:
     
-It configures rspec-mocks and rspec-expectations only if the user is using those (either explicitly or implicitly by not setting mock_withmock_with or expect_withexpect_with to anything else).It configures rspec-mocks and rspec-expectations only if the user is using those (either explicitly or implicitly by not setting mock_with or expect_with to anything else).
+It configures rspec-mocks and rspec-expectations only if the user is using those (either explicitly or implicitly by not setting mock_with or expect_with to anything else).It configures rspec-mocks and rspec-expectations only if the user is using those (either explicitly or implicitly by not setting mock_with or expect_with to anything else).
 
 It configures rspec-mocks and rspec-expectations only if the user is using those (either explicitly or implicitly by not setting mock_with or expect_with to anything else).
 
@@ -20298,7 +20280,7 @@ It configures rspec-mocks and rspec-expectations only if the user is using those
   
     Note:Note:
     
-If the user uses this options with mock_with :mochamock_with :mocha (or similiar) they will still have monkey patching active in their test environment from mocha.If the user uses this options with mock_with :mocha (or similiar) they will still have monkey patching active in their test environment from mocha.
+If the user uses this options with mock_with :mocha (or similiar) they will still have monkey patching active in their test environment from mocha.If the user uses this options with mock_with :mocha (or similiar) they will still have monkey patching active in their test environment from mocha.
 
 If the user uses this options with mock_with :mocha (or similiar) they will still have monkey patching active in their test environment from mocha.
 
@@ -20310,7 +20292,7 @@ If the user uses this options with mock_with :mocha (or similiar) they will stil
   
 
 
-Enables zero monkey patching mode for RSpec. It removes monkey patching of the top-level DSL methods (describedescribe, shared_examples_forshared_examples_for, etc) onto mainmain and ModuleModule, instead requiring you to prefix these methods with RSpec.RSpec.. It enables expect-only syntax for rspec-mocks and rspec-expectations. It simply disables monkey patching on whatever pieces of RSpec the user is using.Enables zero monkey patching mode for RSpec. It removes monkey patching of the top-level DSL methods (describe, shared_examples_for, etc) onto main and Module, instead requiring you to prefix these methods with RSpec.. It enables expect-only syntax for rspec-mocks and rspec-expectations. It simply disables monkey patching on whatever pieces of RSpec the user is using.
+Enables zero monkey patching mode for RSpec. It removes monkey patching of the top-level DSL methods (describe, shared_examples_for, etc) onto main and Module, instead requiring you to prefix these methods with RSpec.. It enables expect-only syntax for rspec-mocks and rspec-expectations. It simply disables monkey patching on whatever pieces of RSpec the user is using.Enables zero monkey patching mode for RSpec. It removes monkey patching of the top-level DSL methods (describe, shared_examples_for, etc) onto main and Module, instead requiring you to prefix these methods with RSpec.. It enables expect-only syntax for rspec-mocks and rspec-expectations. It simply disables monkey patching on whatever pieces of RSpec the user is using.
 
 
   
@@ -20666,7 +20648,7 @@ end
   
   
     
-Returns the exclusion_filterexclusion_filter. If none has been set, returns an empty hash.Returns the exclusion_filter. If none has been set, returns an empty hash.
+Returns the exclusion_filter. If none has been set, returns an empty hash.Returns the exclusion_filter. If none has been set, returns an empty hash.
 
 
   
@@ -20801,7 +20783,7 @@ end
   
   
     
-Clears and reassigns the exclusion_filterexclusion_filter. Set to nilnil if you don't want any exclusion filter at all.Clears and reassigns the exclusion_filter. Set to nil if you don't want any exclusion filter at all.
+Clears and reassigns the exclusion_filter. Set to nil if you don't want any exclusion filter at all.Clears and reassigns the exclusion_filter. Set to nil if you don't want any exclusion filter at all.
 
 WarningWarning
 
@@ -20985,7 +20967,7 @@ config.expect_with :rspec, :minitest
 config.expect_with OtherExpectationFramework
 
 
-RSpec will translate :rspec:rspec, :minitest:minitest, and :test_unit:test_unit into the appropriate modules.RSpec will translate :rspec, :minitest, and :test_unit into the appropriate modules.
+RSpec will translate :rspec, :minitest, and :test_unit into the appropriate modules.RSpec will translate :rspec, :minitest, and :test_unit into the appropriate modules.
 
 ConfigurationConfiguration
 
@@ -22007,7 +21989,7 @@ end
   
   
     
-Exposes the current running example via the named helper method. RSpec 2.x exposed this via exampleexample, but in RSpec 3.0, the example is instead exposed via an arg yielded to itit, beforebefore, letlet, etc. However, some extension gems (such as Capybara) depend on the RSpec 2.x's exampleexample method, so this config option can be used to maintain compatibility.Exposes the current running example via the named helper method. RSpec 2.x exposed this via example, but in RSpec 3.0, the example is instead exposed via an arg yielded to it, before, let, etc. However, some extension gems (such as Capybara) depend on the RSpec 2.x's example method, so this config option can be used to maintain compatibility.
+Exposes the current running example via the named helper method. RSpec 2.x exposed this via example, but in RSpec 3.0, the example is instead exposed via an arg yielded to it, before, let, etc. However, some extension gems (such as Capybara) depend on the RSpec 2.x's example method, so this config option can be used to maintain compatibility.Exposes the current running example via the named helper method. RSpec 2.x exposed this via example, but in RSpec 3.0, the example is instead exposed via an arg yielded to it, before, let, etc. However, some extension gems (such as Capybara) depend on the RSpec 2.x's example method, so this config option can be used to maintain compatibility.
 
 
   
@@ -22786,9 +22768,9 @@ end
   
   
     
-Tells RSpec to extend example groups with modmod. Methods defined in modmod are exposed to example groups (not examples). Use filtersfilters to constrain the groups to extend.Tells RSpec to extend example groups with mod. Methods defined in mod are exposed to example groups (not examples). Use filters to constrain the groups to extend.
+Tells RSpec to extend example groups with mod. Methods defined in mod are exposed to example groups (not examples). Use filters to constrain the groups to extend.Tells RSpec to extend example groups with mod. Methods defined in mod are exposed to example groups (not examples). Use filters to constrain the groups to extend.
 
-Similar to includeinclude, but behavior is added to example groups, which are classes, rather than the examples, which are instances of those classes.Similar to include, but behavior is added to example groups, which are classes, rather than the examples, which are instances of those classes.
+Similar to include, but behavior is added to example groups, which are classes, rather than the examples, which are instances of those classes.Similar to include, but behavior is added to example groups, which are classes, rather than the examples, which are instances of those classes.
 
 
   
@@ -23454,11 +23436,11 @@ end
   
   
     
-Adds key/value pairs to the exclusion_filterexclusion_filter. If argsargs includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value truetrue.Adds key/value pairs to the exclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.
+Adds key/value pairs to the exclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.Adds key/value pairs to the exclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.
 
 NoteNote
 
-Filters set using this method can be overridden from the command line or config files (e.g. .rspec.rspec).Filters set using this method can be overridden from the command line or config files (e.g. .rspec).
+Filters set using this method can be overridden from the command line or config files (e.g. .rspec).Filters set using this method can be overridden from the command line or config files (e.g. .rspec).
 
 
   
@@ -23780,11 +23762,11 @@ end
   
   
     
-Adds key/value pairs to the inclusion_filterinclusion_filter. If argsargs includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value truetrue.Adds key/value pairs to the inclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.
+Adds key/value pairs to the inclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.Adds key/value pairs to the inclusion_filter. If args includes any symbols that are not part of the hash, each symbol is treated as a key in the hash with the value true.
 
 NoteNote
 
-Filters set using this method can be overridden from the command line or config files (e.g. .rspec.rspec).Filters set using this method can be overridden from the command line or config files (e.g. .rspec).
+Filters set using this method can be overridden from the command line or config files (e.g. .rspec).Filters set using this method can be overridden from the command line or config files (e.g. .rspec).
 
 
   
@@ -24106,7 +24088,7 @@ end
   
   
     
-Applies the provided filter only if any of examples match, in constrast to #filter_run, which always applies even if no examples match, in which case no examples will be run. This allows you to leave configured filters in place that are intended only for temporary use. The most common example is focus filtering: config.filter_run_when_matching :focusconfig.filter_run_when_matching :focus. With that configured, you can temporarily focus an example or group by tagging it with :focus:focus metadata, or prefixing it with an ff (as in fdescribefdescribe, fcontextfcontext and fitfit) since those are aliases for describedescribe/contextcontext/itit with :focus:focus metadata.Applies the provided filter only if any of examples match, in constrast to #filter_run, which always applies even if no examples match, in which case no examples will be run. This allows you to leave configured filters in place that are intended only for temporary use. The most common example is focus filtering: config.filter_run_when_matching :focus. With that configured, you can temporarily focus an example or group by tagging it with :focus metadata, or prefixing it with an f (as in fdescribe, fcontext and fit) since those are aliases for describe/context/it with :focus metadata.
+Applies the provided filter only if any of examples match, in constrast to #filter_run, which always applies even if no examples match, in which case no examples will be run. This allows you to leave configured filters in place that are intended only for temporary use. The most common example is focus filtering: config.filter_run_when_matching :focus. With that configured, you can temporarily focus an example or group by tagging it with :focus metadata, or prefixing it with an f (as in fdescribe, fcontext and fit) since those are aliases for describe/context/it with :focus metadata.Applies the provided filter only if any of examples match, in constrast to #filter_run, which always applies even if no examples match, in which case no examples will be run. This allows you to leave configured filters in place that are intended only for temporary use. The most common example is focus filtering: config.filter_run_when_matching :focus. With that configured, you can temporarily focus an example or group by tagging it with :focus metadata, or prefixing it with an f (as in fdescribe, fcontext and fit) since those are aliases for describe/context/it with :focus metadata.
 
 
   
@@ -24456,7 +24438,7 @@ end
   
   
     
-Returns a duplicate of the formatters currently loaded in the FormatterLoaderFormatterLoader for introspection.Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.
+Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.Returns a duplicate of the formatters currently loaded in the FormatterLoader for introspection.
 
 Note as this is a duplicate, any mutations will be disregarded.Note as this is a duplicate, any mutations will be disregarded.
 
@@ -25256,7 +25238,7 @@ end
   
   
     
-Run examples matching on descriptiondescription in all files to run.Run examples matching on description in all files to run.
+Run examples matching on description in all files to run.Run examples matching on description in all files to run.
 
 
   
@@ -25500,7 +25482,7 @@ Filtered module inclusions can also be applied to individual examples that have 
   
 
 
-Tells RSpec to include modmod in example groups. Methods defined in modmod are exposed to examples (not example groups). Use filtersfilters to constrain the groups or examples in which to include the module.Tells RSpec to include mod in example groups. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups or examples in which to include the module.
+Tells RSpec to include mod in example groups. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups or examples in which to include the module.Tells RSpec to include mod in example groups. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups or examples in which to include the module.
 
 
   
@@ -25916,7 +25898,7 @@ Filtered context inclusions can also be applied to individual examples that have
   
 
 
-Tells RSpec to include the named shared example group in example groups. Use filtersfilters to constrain the groups or examples in which to include the example group.Tells RSpec to include the named shared example group in example groups. Use filters to constrain the groups or examples in which to include the example group.
+Tells RSpec to include the named shared example group in example groups. Use filters to constrain the groups or examples in which to include the example group.Tells RSpec to include the named shared example group in example groups. Use filters to constrain the groups or examples in which to include the example group.
 
 
   
@@ -26274,7 +26256,7 @@ end
   
   
     
-Returns the inclusion_filterinclusion_filter. If none has been set, returns an empty hash.Returns the inclusion_filter. If none has been set, returns an empty hash.
+Returns the inclusion_filter. If none has been set, returns an empty hash.Returns the inclusion_filter. If none has been set, returns an empty hash.
 
 
   
@@ -26409,7 +26391,7 @@ end
   
   
     
-Clears and reassigns the inclusion_filterinclusion_filter. Set to nilnil if you don't want any inclusion filter at all.Clears and reassigns the inclusion_filter. Set to nil if you don't want any inclusion filter at all.
+Clears and reassigns the inclusion_filter. Set to nil if you don't want any inclusion filter at all.Clears and reassigns the inclusion_filter. Set to nil if you don't want any inclusion filter at all.
 
 WarningWarning
 
@@ -26985,11 +26967,11 @@ end
     
 Sets the mock framework adapter module.Sets the mock framework adapter module.
 
-frameworkframework can be a Symbol or a Module.framework can be a Symbol or a Module.
+framework can be a Symbol or a Module.framework can be a Symbol or a Module.
 
-Given any of :rspec:rspec, :mocha:mocha, :flexmock:flexmock, or :rr:rr, configures the named framework.Given any of :rspec, :mocha, :flexmock, or :rr, configures the named framework.
+Given any of :rspec, :mocha, :flexmock, or :rr, configures the named framework.Given any of :rspec, :mocha, :flexmock, or :rr, configures the named framework.
 
-Given :nothing:nothing, configures no framework. Use this if you don't use any mocking framework to save a little bit of overhead.Given :nothing, configures no framework. Use this if you don't use any mocking framework to save a little bit of overhead.
+Given :nothing, configures no framework. Use this if you don't use any mocking framework to save a little bit of overhead.Given :nothing, configures no framework. Use this if you don't use any mocking framework to save a little bit of overhead.
 
 Given a Module, includes that module in every example group. The module should adhere to RSpec's mock framework adapter API:.Given a Module, includes that module in every example group. The module should adhere to RSpec's mock framework adapter API:.
 
@@ -27022,7 +27004,7 @@ teardown_mocks_for_rspec
   - called after verify_mocks_for_rspec (even if there are errors)
 
 
-If the module responds to configurationconfiguration and mock_withmock_with receives a block, it will yield the configuration object to the block e.g.If the module responds to configuration and mock_with receives a block, it will yield the configuration object to the block e.g.
+If the module responds to configuration and mock_with receives a block, it will yield the configuration object to the block e.g.If the module responds to configuration and mock_with receives a block, it will yield the configuration object to the block e.g.
 
 configconfig..mock_withmock_with OtherMockFrameworkAdapterOtherMockFrameworkAdapter dodo ||mod_configmod_config||
   mod_configmod_config..custom_settingcustom_setting == truetrue
@@ -27716,22 +27698,13 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.Returns an array of blocks to call before defining an example group.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.
 
@@ -27739,10 +27712,7 @@ Returns an array of blocks to call before defining an example group.
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.
 
@@ -27833,10 +27803,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.
 
@@ -27871,7 +27838,7 @@ end
   
   
     
-Sets the default global ordering strategy. By default this can be one of :defined:defined, :random:random, but is customizable through the register_orderingregister_ordering API. If order is set to 'rand:<seed>''rand:<seed>', the seed will also be set.Sets the default global ordering strategy. By default this can be one of :defined, :random, but is customizable through the register_ordering API. If order is set to 'rand:<seed>', the seed will also be set.
+Sets the default global ordering strategy. By default this can be one of :defined, :random, but is customizable through the register_ordering API. If order is set to 'rand:<seed>', the seed will also be set.Sets the default global ordering strategy. By default this can be one of :defined, :random, but is customizable through the register_ordering API. If order is set to 'rand:<seed>', the seed will also be set.
 
 
   
@@ -28007,9 +27974,9 @@ delegate_to_ordering_manager :order=
   
   
     
-Tells RSpec to prepend example groups with modmod. Methods defined in modmod are exposed to examples (not example groups). Use filtersfilters to constrain the groups in which to prepend the module.Tells RSpec to prepend example groups with mod. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups in which to prepend the module.
+Tells RSpec to prepend example groups with mod. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups in which to prepend the module.Tells RSpec to prepend example groups with mod. Methods defined in mod are exposed to examples (not example groups). Use filters to constrain the groups in which to prepend the module.
 
-Similar to includeinclude, but module is included before the example group's class in the ancestor chain.Similar to include, but module is included before the example group's class in the ancestor chain.
+Similar to include, but module is included before the example group's class in the ancestor chain.Similar to include, but module is included before the example group's class in the ancestor chain.
 
 
   
@@ -28359,11 +28326,11 @@ end
   
   
     
-Adds blockblock to the start of the list of beforebefore blocks in the same scope (:example:example, :context:context, or :suite:suite), in contrast to #before, which adds the hook to the end of the list.Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.
+Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.Adds block to the start of the list of before blocks in the same scope (:example, :context, or :suite), in contrast to #before, which adds the hook to the end of the list.
 
-See Hooks#before for full beforebefore hook docs.See Hooks#before for full before hook docs.
+See Hooks#before for full before hook docs.See Hooks#before for full before hook docs.
 
-This method differs from Hooks#prepend_before in only one way: it supports the :suite:suite scope. Hooks with the :suite:suite scope will be run once before the first example of the entire suite is executed.This method differs from Hooks#prepend_before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.
+This method differs from Hooks#prepend_before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.This method differs from Hooks#prepend_before in only one way: it supports the :suite scope. Hooks with the :suite scope will be run once before the first example of the entire suite is executed.
 
 
   
@@ -29104,7 +29071,7 @@ end
   
     Note:Note:
     
-Pass the symbol :global:global to set the ordering strategy that will be used to order the top-level example groups and any example groups that do not have declared :order:order metadata.Pass the symbol :global to set the ordering strategy that will be used to order the top-level example groups and any example groups that do not have declared :order metadata.
+Pass the symbol :global to set the ordering strategy that will be used to order the top-level example groups and any example groups that do not have declared :order metadata.Pass the symbol :global to set the ordering strategy that will be used to order the top-level example groups and any example groups that do not have declared :order metadata.
 
 Pass the symbol :global to set the ordering strategy that will be used to order the top-level example groups and any example groups that do not have declared :order metadata.
 
@@ -29116,7 +29083,7 @@ Pass the symbol :global to set the ordering strategy that will be used to order 
   
 
 
-Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name>:order => <name> metadata to the example group.Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.
+Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.Registers a named ordering strategy that can later be used to order an example group's subgroups by adding :order => <name> metadata to the example group.
 
 
   
@@ -30121,7 +30088,7 @@ end
     
 Seed for random ordering (default: generated randomly each run).Seed for random ordering (default: generated randomly each run).
 
-When you run specs with --order random--order random, RSpec generates a random seed for the randomization and prints it to the output_streamoutput_stream (assuming you're using RSpec's built-in formatters). If you discover an ordering dependency (i.e. examples fail intermittently depending on order), set this (on Configuration or on the command line with --seed--seed) to run using the same seed while you debug the issue.When you run specs with --order random, RSpec generates a random seed for the randomization and prints it to the output_stream (assuming you're using RSpec's built-in formatters). If you discover an ordering dependency (i.e. examples fail intermittently depending on order), set this (on Configuration or on the command line with --seed) to run using the same seed while you debug the issue.
+When you run specs with --order random, RSpec generates a random seed for the randomization and prints it to the output_stream (assuming you're using RSpec's built-in formatters). If you discover an ordering dependency (i.e. examples fail intermittently depending on order), set this (on Configuration or on the command line with --seed) to run using the same seed while you debug the issue.When you run specs with --order random, RSpec generates a random seed for the randomization and prints it to the output_stream (assuming you're using RSpec's built-in formatters). If you discover an ordering dependency (i.e. examples fail intermittently depending on order), set this (on Configuration or on the command line with --seed) to run using the same seed while you debug the issue.
 
 We recommend, actually, that you use the command line approach so you don't accidentally leave the seed encoded.We recommend, actually, that you use the command line approach so you don't accidentally leave the seed encoded.
 
@@ -34176,10 +34143,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.
 
@@ -38169,10 +38133,7 @@ add_setting :pending_color
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Defaults profile_examples to 10 examples when @profile_examples is true.
 
@@ -41455,10 +41416,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Returns an array of blocks to call before defining an example group.
 

@@ -52,29 +52,17 @@ lib/rspec/mocks.rb
 
 OverviewOverview
   
-    Contains top-level utility methods. While this contains a few
-public methods, these are not generally meant to be called from
-a test or example. They exist primarily for integration with
-test frameworks (such as rspec-core).Contains top-level utility methods. While this contains a few
-public methods, these are not generally meant to be called from
-a test or example. They exist primarily for integration with
-test frameworks (such as rspec-core).
+    Contains top-level utility methods. While this contains a few public methods, these are not generally meant to be called from a test or example. They exist primarily for integration with test frameworks (such as rspec-core).Contains top-level utility methods. While this contains a few public methods, these are not generally meant to be called from a test or example. They exist primarily for integration with test frameworks (such as rspec-core).
 
 
   
-    Contains top-level utility methods. While this contains a few
-public methods, these are not generally meant to be called from
-a test or example. They exist primarily for integration with
-test frameworks (such as rspec-core).
+    Contains top-level utility methods. While this contains a few public methods, these are not generally meant to be called from a test or example. They exist primarily for integration with test frameworks (such as rspec-core).
 
 
   
 
   
-    Contains top-level utility methods. While this contains a few
-public methods, these are not generally meant to be called from
-a test or example. They exist primarily for integration with
-test frameworks (such as rspec-core).
+    Contains top-level utility methods. While this contains a few public methods, these are not generally meant to be called from a test or example. They exist primarily for integration with test frameworks (such as rspec-core).
 
 
   
@@ -162,21 +150,17 @@ Defined Under NamespaceDefined Under Namespace
         ExpiredTestDoubleError =
           
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
 
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
@@ -191,8 +175,7 @@ down (typically at the end of an rspec-core example).
         ExpiredTestDoubleError =
           
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
@@ -247,25 +230,17 @@ down (typically at the end of an rspec-core example).
         MockExpectationAlreadyInvokedError =
           
   
-    Raised when an expectation customization method (e.g. withwith,
-and_returnand_return) is called on a message expectation which has already been
-invoked.Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
-    Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
 
   
-    Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
@@ -280,9 +255,7 @@ invoked.
         MockExpectationAlreadyInvokedError =
           
   
-    Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
@@ -297,39 +270,25 @@ invoked.
         CannotSupportArgMutationsError =
           
   
-    Deprecated.Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
-We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
-Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated.Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
+We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
+Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
-    Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
 
   
-    Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
@@ -344,12 +303,9 @@ comparisons.
         CannotSupportArgMutationsError =
           
   
-    Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
@@ -381,8 +337,7 @@ comparisons.
         ExpiredTestDoubleError =
           
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
@@ -412,9 +367,7 @@ down (typically at the end of an rspec-core example).
         MockExpectationAlreadyInvokedError =
           
   
-    Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
@@ -429,12 +382,9 @@ invoked.
         CannotSupportArgMutationsError =
           
   
-    Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
@@ -477,7 +427,7 @@ comparisons.
   
 
   
-    Adds an allowance (stub) on subjectsubject.Adds an allowance (stub) on subject.
+    Adds an allowance (stub) on subject.Adds an allowance (stub) on subject.
 Adds an allowance (stub) on subject.
 Adds an allowance (stub) on subject.
 
@@ -510,7 +460,7 @@ Adds an allowance (stub) on subject.
   
 
   
-    Mocks specific configuration, as distinct from RSpec.configurationRSpec.configuration which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
@@ -543,7 +493,7 @@ Mocks specific configuration, as distinct from RSpec.configuration which is core
   
 
   
-    Sets a message expectation on subjectsubject.Sets a message expectation on subject.
+    Sets a message expectation on subject.Sets a message expectation on subject.
 Sets a message expectation on subject.
 Sets a message expectation on subject.
 
@@ -851,7 +801,7 @@ Call the passed block and verify mocks after it has executed.
     Examples:Examples:
     
       
-        Defines the implementation of foofoo on barbar, using the passed blockDefines the implementation of foo on bar, using the passed block
+        Defines the implementation of foo on bar, using the passed blockDefines the implementation of foo on bar, using the passed block
 Defines the implementation of foo on bar, using the passed block
 
       
@@ -913,11 +863,8 @@ the subject to which the message will be added
       
       
         —
-        a symbol, representing the message that will be
-added.a symbol, representing the message that will be
-added.
-a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.a symbol, representing the message that will be added.
+a symbol, representing the message that will be added.
 
       
     
@@ -930,8 +877,7 @@ added.
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -948,11 +894,8 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call sitea hash of options, :expected_from is used to set the
-original call site
-a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call sitea hash of options, :expected_from is used to set the original call site
+a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -967,8 +910,7 @@ original call site
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1000,8 +942,7 @@ original call site
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -1018,8 +959,7 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1112,8 +1052,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -1130,8 +1069,7 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1280,8 +1218,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -1298,8 +1235,7 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1348,21 +1284,17 @@ end
       
   
   
-    Mocks specific configuration, as distinct from RSpec.configurationRSpec.configuration
-which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
-    Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
 
   
-    Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
@@ -1451,8 +1383,7 @@ end
 
   
   
-    Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
@@ -1484,7 +1415,7 @@ end
       
   
   
-    Sets a message expectation on subjectsubject.Sets a message expectation on subject.
+    Sets a message expectation on subject.Sets a message expectation on subject.
 
 
   
@@ -1505,7 +1436,7 @@ end
     Examples:Examples:
     
       
-        Expect the message foofoo to receive barbar, then call itExpect the message foo to receive bar, then call it
+        Expect the message foo to receive bar, then call itExpect the message foo to receive bar, then call it
 Expect the message foo to receive bar, then call it
 
       
@@ -1567,11 +1498,8 @@ the subject on which the message will be expected
       
       
         —
-        a symbol, representing the message that will be
-expected.a symbol, representing the message that will be
-expected.
-a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.a symbol, representing the message that will be expected.
+a symbol, representing the message that will be expected.
 
       
     
@@ -1584,8 +1512,7 @@ expected.
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -1602,11 +1529,8 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call sitea hash of options, :expected_from is used to set the
-original call site
-a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call sitea hash of options, :expected_from is used to set the original call site
+a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1621,8 +1545,7 @@ original call site
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1654,8 +1577,7 @@ original call site
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -1672,8 +1594,7 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1766,8 +1687,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -1784,8 +1704,7 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -1934,8 +1853,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -1952,8 +1870,7 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -2002,21 +1919,17 @@ end
       
   
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
 
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
@@ -2105,8 +2018,7 @@ end
 
   
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
@@ -2138,25 +2050,17 @@ end
       
   
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This mustmust be called after
-each example, even if an error was raised during the example.Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
 
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
@@ -2265,9 +2169,7 @@ end
 
   
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
@@ -2303,21 +2205,17 @@ end
       
   
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
 
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
@@ -2406,8 +2304,7 @@ end
 
   
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
@@ -2439,21 +2336,17 @@ end
       
   
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all)before(:all) hook.Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   
 
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   
@@ -2612,8 +2505,7 @@ end
 
   
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   
@@ -2709,8 +2601,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -2727,8 +2618,7 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -2777,8 +2667,7 @@ end
       
   
   
-    Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
@@ -2856,8 +2745,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -2874,8 +2762,7 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -2924,8 +2811,7 @@ end
       
   
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
@@ -2957,9 +2843,7 @@ end
       
   
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
@@ -2995,8 +2879,7 @@ end
       
   
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
@@ -3028,8 +2911,7 @@ end
       
   
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   
@@ -3101,10 +2983,7 @@ Module: RSpec::Mocks
 
 Overview
   
-    Contains top-level utility methods. While this contains a few
-public methods, these are not generally meant to be called from
-a test or example. They exist primarily for integration with
-test frameworks (such as rspec-core).
+    Contains top-level utility methods. While this contains a few public methods, these are not generally meant to be called from a test or example. They exist primarily for integration with test frameworks (such as rspec-core).
 
 
   
@@ -3151,8 +3030,7 @@ Defined Under Namespace
         ExpiredTestDoubleError =
           
   
-    Raised when a test double is used after it has been torn
-down (typically at the end of an rspec-core example).
+    Raised when a test double is used after it has been torn down (typically at the end of an rspec-core example).
 
 
   
@@ -3182,9 +3060,7 @@ down (typically at the end of an rspec-core example).
         MockExpectationAlreadyInvokedError =
           
   
-    Raised when an expectation customization method (e.g. with,
-and_return) is called on a message expectation which has already been
-invoked.
+    Raised when an expectation customization method (e.g. with, and_return) is called on a message expectation which has already been invoked.
 
 
   
@@ -3199,12 +3075,9 @@ invoked.
         CannotSupportArgMutationsError =
           
   
-    Deprecated. We no longer raise this error but the constant remains until
-RSpec 4 for SemVer reasons.
+    Deprecated. We no longer raise this error but the constant remains until RSpec 4 for SemVer reasons.
 
-Raised for situations that RSpec cannot support due to mutations made
-externally on arguments that RSpec is holding onto to use for later
-comparisons.
+Raised for situations that RSpec cannot support due to mutations made externally on arguments that RSpec is holding onto to use for later comparisons.
 
 
   
@@ -3410,8 +3283,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-added.
+        a symbol, representing the message that will be added.
 
       
     
@@ -3428,8 +3300,7 @@ added.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -3478,8 +3349,7 @@ end
       
   
   
-    Mocks specific configuration, as distinct from RSpec.configuration
-which is core RSpec configuration.
+    Mocks specific configuration, as distinct from RSpec.configuration which is core RSpec configuration.
 
 
   
@@ -3557,8 +3427,7 @@ Parameters:
       
       
         —
-        a symbol, representing the message that will be
-expected.
+        a symbol, representing the message that will be expected.
 
       
     
@@ -3575,8 +3444,7 @@ expected.
       
       
         —
-        a hash of options, :expected_from is used to set the
-original call site
+        a hash of options, :expected_from is used to set the original call site
 
       
     
@@ -3625,8 +3493,7 @@ end
       
   
   
-    Performs per-test/example setup. This should be called before
-an test or example begins.
+    Performs per-test/example setup. This should be called before an test or example begins.
 
 
   
@@ -3658,9 +3525,7 @@ end
       
   
   
-    Cleans up all test double state (including any methods that were
-redefined on partial doubles). This must be called after
-each example, even if an error was raised during the example.
+    Cleans up all test double state (including any methods that were redefined on partial doubles). This must be called after each example, even if an error was raised during the example.
 
 
   
@@ -3696,8 +3561,7 @@ end
       
   
   
-    Verifies any message expectations that were set during the
-test or example. This should be called at the end of an example.
+    Verifies any message expectations that were set during the test or example. This should be called at the end of an example.
 
 
   
@@ -3729,8 +3593,7 @@ end
       
   
   
-    Call the passed block and verify mocks after it has executed. This allows
-mock usage in arbitrary places, such as a before(:all) hook.
+    Call the passed block and verify mocks after it has executed. This allows mock usage in arbitrary places, such as a before(:all) hook.
 
 
   

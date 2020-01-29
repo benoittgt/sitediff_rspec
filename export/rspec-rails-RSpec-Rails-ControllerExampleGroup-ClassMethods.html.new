@@ -218,7 +218,7 @@ Specifies the routeset that will be used for the example group.
   
     Note:Note:
     
-Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationControllerApplicationController must be fully qualified (e.g. ApplicationController::AccessDeniedApplicationController::AccessDenied) in the block passed to the controllercontroller method. Any instance methods, filters, etc, that are defined in ApplicationControllerApplicationController, however, are accessible from within the block.Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.
+Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.
 
 Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.
 
@@ -230,7 +230,7 @@ Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in Appl
   
 
 
-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the bodybody in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.
+Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.
 
 If you would like to spec a subclass of ApplicationController, call controller like so:.If you would like to spec a subclass of ApplicationController, call controller like so:.
 

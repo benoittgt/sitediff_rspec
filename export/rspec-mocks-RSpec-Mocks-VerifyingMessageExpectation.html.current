@@ -120,40 +120,20 @@ Class: RSpec::Mocks::VerifyingMessageExpectation
 
 OverviewOverview
   
-    
-  This class is part of a private API.This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-A message expectation that knows about the real implementation of the
-message being expected, so that it can verify that any expectations
-have the valid arguments.A message expectation that knows about the real implementation of the
-message being expected, so that it can verify that any expectations
-have the valid arguments.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .   This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+A message expectation that knows about the real implementation of the message being expected, so that it can verify that any expectations have the valid arguments.A message expectation that knows about the real implementation of the message being expected, so that it can verify that any expectations have the valid arguments.
 
 
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-A message expectation that knows about the real implementation of the
-message being expected, so that it can verify that any expectations
-have the valid arguments.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+A message expectation that knows about the real implementation of the message being expected, so that it can verify that any expectations have the valid arguments.
 
 
   
 
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-A message expectation that knows about the real implementation of the
-message being expected, so that it can verify that any expectations
-have the valid arguments.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+A message expectation that knows about the real implementation of the message being expected, so that it can verify that any expectations have the valid arguments.
 
 
   
@@ -332,31 +312,19 @@ A new instance of VerifyingMessageExpectation.
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.Returns a new instance of VerifyingMessageExpectation.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.
 
 
@@ -446,10 +414,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.
 
 
@@ -485,10 +450,7 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.
 
 
@@ -528,58 +490,26 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   
@@ -668,18 +598,10 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   
@@ -716,18 +638,10 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   
@@ -803,13 +717,8 @@ Class: RSpec::Mocks::VerifyingMessageExpectation
 
 Overview
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-A message expectation that knows about the real implementation of the
-message being expected, so that it can verify that any expectations
-have the valid arguments.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+A message expectation that knows about the real implementation of the message being expected, so that it can verify that any expectations have the valid arguments.
 
 
   
@@ -902,10 +811,7 @@ have the valid arguments.
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of VerifyingMessageExpectation.
 
 
@@ -945,18 +851,10 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+A level of indirection is used here rather than just passing in the method itself, since method look up is expensive and we only want to do it if actually needed.
 
-A level of indirection is used here rather than just passing in the
-method itself, since method look up is expensive and we only want to
-do it if actually needed.
-
-Conceptually the method reference makes more sense as a constructor
-argument since it should be immutable, but it is significantly more
-straight forward to build the object in pieces so for now it stays as
-an accessor.
+Conceptually the method reference makes more sense as a constructor argument since it should be immutable, but it is significantly more straight forward to build the object in pieces so for now it stays as an accessor.
 
 
   

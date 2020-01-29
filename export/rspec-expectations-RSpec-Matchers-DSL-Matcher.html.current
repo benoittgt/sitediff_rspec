@@ -136,29 +136,17 @@ Class: RSpec::Matchers::DSL::Matcher
 
 OverviewOverview
   
-    The class used for custom matchers. The block passed to
-RSpec::Matchers.defineRSpec::Matchers.define will be evaluated in the context
-of the singleton class of an instance, and will have the
-Macros methods available.The class used for custom matchers. The block passed to
-RSpec::Matchers.define will be evaluated in the context
-of the singleton class of an instance, and will have the
-Macros methods available.
+    The class used for custom matchers. The block passed to RSpec::Matchers.define will be evaluated in the context of the singleton class of an instance, and will have the Macros methods available.The class used for custom matchers. The block passed to RSpec::Matchers.define will be evaluated in the context of the singleton class of an instance, and will have the Macros methods available.
 
 
   
-    The class used for custom matchers. The block passed to
-RSpec::Matchers.define will be evaluated in the context
-of the singleton class of an instance, and will have the
-Macros methods available.
+    The class used for custom matchers. The block passed to RSpec::Matchers.define will be evaluated in the context of the singleton class of an instance, and will have the Macros methods available.
 
 
   
 
   
-    The class used for custom matchers. The block passed to
-RSpec::Matchers.define will be evaluated in the context
-of the singleton class of an instance, and will have the
-Macros methods available.
+    The class used for custom matchers. The block passed to RSpec::Matchers.define will be evaluated in the context of the singleton class of an instance, and will have the Macros methods available.
 
 
   
@@ -192,7 +180,7 @@ Macros methods available.
   
 
   
-    Exposes the value being matched against -- generally the object object wrapped by expectexpect.Exposes the value being matched against -- generally the object object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.Exposes the value being matched against -- generally the object object wrapped by expect.
 Exposes the value being matched against -- generally the object object wrapped by expect.
 Exposes the value being matched against -- generally the object object wrapped by expect.
 
@@ -364,7 +352,7 @@ The name of the matcher.
   
 
   
-    Exposes the exception raised during the matching by match_unless_raisesmatch_unless_raises.Exposes the exception raised during the matching by match_unless_raises.
+    Exposes the exception raised during the matching by match_unless_raises.Exposes the exception raised during the matching by match_unless_raises.
 Exposes the exception raised during the matching by match_unless_raises.
 Exposes the exception raised during the matching by match_unless_raises.
 
@@ -600,7 +588,7 @@ A new instance of Matcher.
   
 
   
-    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodErrorNoMethodError).Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
@@ -633,7 +621,7 @@ Adds the name (rather than a cryptic hex number) so we can identify an instance 
   
 
   
-    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context@matcher_execution_context as well.:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
@@ -666,7 +654,7 @@ Adds the name (rather than a cryptic hex number) so we can identify an instance 
   
 
   
-    Indicates that this matcher responds to messages from the @matcher_execution_context@matcher_execution_context as well.Indicates that this matcher responds to messages from the @matcher_execution_context as well.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well.Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
@@ -863,31 +851,19 @@ Indicates that this matcher responds to messages from the @matcher_execution_con
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.Returns a new instance of Matcher.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.
 
 
@@ -1088,10 +1064,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.
 
 
@@ -1149,10 +1122,7 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.
 
 
@@ -1218,37 +1188,17 @@ end
     
   
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context@matcher_execution_context (typically the current
-running RSpec::Core::ExampleRSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
 
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
@@ -1377,12 +1327,7 @@ end
 
   
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
@@ -1429,12 +1374,7 @@ end
     
   
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
@@ -1481,21 +1421,17 @@ end
       
   
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expectexpect.Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
 
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
@@ -1584,8 +1520,7 @@ end
 
   
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
@@ -1752,25 +1687,17 @@ end
       
   
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expectedexpected
-always returned an array.Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
 
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
@@ -1877,9 +1804,7 @@ end
 
   
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
@@ -2053,21 +1978,17 @@ end
       
   
   
-    Exposes the exception raised during the matching by match_unless_raisesmatch_unless_raises.
-Could be useful to extract details for a failure message.Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
-    Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
 
   
-    Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
@@ -2156,8 +2077,7 @@ end
 
   
   
-    Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
@@ -2194,8 +2114,7 @@ end
       
   
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
@@ -2263,9 +2182,7 @@ end
       
   
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
@@ -2340,8 +2257,7 @@ end
       
   
   
-    Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
@@ -2380,25 +2296,17 @@ end
       
   
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
 
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
@@ -2545,9 +2453,7 @@ end
 
   
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
@@ -2594,25 +2500,17 @@ end
       
   
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
 
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
@@ -2701,9 +2599,7 @@ end
 
   
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
@@ -2735,25 +2631,17 @@ end
       
   
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context@matcher_execution_context as well.:nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.:nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
 
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
@@ -2886,9 +2774,7 @@ end
 
   
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
@@ -2933,25 +2819,17 @@ end
       
   
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context@matcher_execution_context as well.
-Also, supports getting a method object for such methods.Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   
 
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   
@@ -3084,9 +2962,7 @@ end
 
   
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   
@@ -3135,9 +3011,7 @@ end
       
   
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
@@ -3184,9 +3058,7 @@ end
       
   
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
@@ -3218,9 +3090,7 @@ end
       
   
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
@@ -3265,9 +3135,7 @@ end
       
   
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   
@@ -3363,10 +3231,7 @@ Class: RSpec::Matchers::DSL::Matcher
 
 Overview
   
-    The class used for custom matchers. The block passed to
-RSpec::Matchers.define will be evaluated in the context
-of the singleton class of an instance, and will have the
-Macros methods available.
+    The class used for custom matchers. The block passed to RSpec::Matchers.define will be evaluated in the context of the singleton class of an instance, and will have the Macros methods available.
 
 
   
@@ -3677,10 +3542,7 @@ Macros methods available.
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of Matcher.
 
 
@@ -3743,12 +3605,7 @@ end
     
   
   
-    Takes care of forwarding unhandled messages to the
-@matcher_execution_context (typically the current
-running RSpec::Core::Example). This is needed by
-rspec-rails so that it can define matchers that wrap
-Rails' test helper methods, but it's also a useful
-feature in its own right.
+    Takes care of forwarding unhandled messages to the @matcher_execution_context (typically the current running RSpec::Core::Example). This is needed by rspec-rails so that it can define matchers that wrap Rails' test helper methods, but it's also a useful feature in its own right.
 
 
   
@@ -3795,8 +3652,7 @@ end
       
   
   
-    Exposes the value being matched against -- generally the object
-object wrapped by expect.
+    Exposes the value being matched against -- generally the object object wrapped by expect.
 
 
   
@@ -3864,9 +3720,7 @@ end
       
   
   
-    Returns the expected value as an an array. This exists primarily
-to aid in upgrading from RSpec 2.x, since in RSpec 2, expected
-always returned an array.
+    Returns the expected value as an an array. This exists primarily to aid in upgrading from RSpec 2.x, since in RSpec 2, expected always returned an array.
 
 
   
@@ -3941,8 +3795,7 @@ end
       
   
   
-    Exposes the exception raised during the matching by match_unless_raises.
-Could be useful to extract details for a failure message.
+    Exposes the exception raised during the matching by match_unless_raises. Could be useful to extract details for a failure message.
 
 
   
@@ -3981,9 +3834,7 @@ end
       
   
   
-    Provides the expected value. This will return an array if
-multiple arguments were passed to the matcher; otherwise it
-will return a single value.
+    Provides the expected value. This will return an array if multiple arguments were passed to the matcher; otherwise it will return a single value.
 
 
   
@@ -4030,9 +3881,7 @@ end
       
   
   
-    Adds the name (rather than a cryptic hex number)
-so we can identify an instance of
-the matcher in error messages (e.g. for NoMethodError).
+    Adds the name (rather than a cryptic hex number) so we can identify an instance of the matcher in error messages (e.g. for NoMethodError).
 
 
   
@@ -4064,9 +3913,7 @@ end
       
   
   
-    :nocov:
-Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
+    :nocov: Indicates that this matcher responds to messages from the @matcher_execution_context as well.
 
 
   
@@ -4111,9 +3958,7 @@ end
       
   
   
-    Indicates that this matcher responds to messages
-from the @matcher_execution_context as well.
-Also, supports getting a method object for such methods.
+    Indicates that this matcher responds to messages from the @matcher_execution_context as well. Also, supports getting a method object for such methods.
 
 
   

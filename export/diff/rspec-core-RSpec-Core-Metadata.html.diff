@@ -1,96 +1,8 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Metadata.html.current b/export/rspec-core-RSpec-Core-Metadata.html.new[m
-[1mindex 5323e79..39ac735 100644[m
+[1mindex 3bbe39f..0dae2a2 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Metadata.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Metadata.html.new[m
-[36m@@ -48,15 +48,10 @@[m [mModule: RSpec::Core::Metadata[m
- [m
- OverviewOverview[m
-   [m
-[31m-    Each ExampleGroup class and Example instance owns an instance of[m
-[31m-Metadata, which is Hash extended to support lazy evaluation of values[m
-[31m-associated with keys that may or may not be used by any example or group.Each ExampleGroup class and Example instance owns an instance of[m
-[31m-Metadata, which is Hash extended to support lazy evaluation of values[m
-[31m-associated with keys that may or may not be used by any example or group.[m
-     [m
-[31m-In addition to metadata that is used internally, this also stores[m
-[31m-user-supplied metadata, e.g.In addition to metadata that is used internally, this also stores[m
-[31m-user-supplied metadata, e.g.[m
-[32m+[m[32mEach ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.[m
-[32m+[m
-[32m+[m[32mIn addition to metadata that is used internally, this also stores user-supplied metadata, e.g.In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.[m
- [m
- RSpecRSpec..describedescribe SomethingSomething,, :type:type =>=> :ui:ui dodo[m
-   itit ""does somethingdoes something"""does something",, :slow:slow =>=> truetrue dodo[m
-[36m@@ -76,24 +71,14 @@[m [mRSpec.describe Something, :type => :ui do[m
- end[m
- [m
- [m
-[31m-:type => :ui:type => :ui is stored in the Metadata owned by the example group, and[m
-[31m-:slow => true:slow => true is stored in the Metadata owned by the example. These can[m
-[31m-then be used to select which examples are run using the --tag--tag option on[m
-[31m-the command line, or several methods on ConfigurationConfiguration used to filter a[m
-[31m-run (e.g. filter_run_includingfilter_run_including, filter_run_excludingfilter_run_excluding, etc).:type => :ui is stored in the Metadata owned by the example group, and[m
-[31m-:slow => true is stored in the Metadata owned by the example. These can[m
-[31m-then be used to select which examples are run using the --tag option on[m
-[31m-the command line, or several methods on Configuration used to filter a[m
-[31m-run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m[32m:type => :ui:type => :ui is stored in the Metadata owned by the example group, and :slow => true:slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag--tag option on the command line, or several methods on ConfigurationConfiguration used to filter a run (e.g. filter_run_includingfilter_run_including, filter_run_excludingfilter_run_excluding, etc).:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m
- [m
-   [m
-     [m
-[31m-    Each ExampleGroup class and Example instance owns an instance of[m
-[31m-Metadata, which is Hash extended to support lazy evaluation of values[m
-[31m-associated with keys that may or may not be used by any example or group.[m
-[32m+[m[32mEach ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.[m
- [m
-[31m-In addition to metadata that is used internally, this also stores[m
-[31m-user-supplied metadata, e.g.[m
-[32m+[m[32mIn addition to metadata that is used internally, this also stores user-supplied metadata, e.g.[m
- [m
- RSpec.describe Something, :type => :ui do[m
-   it "does something", :slow => true do[m
-[36m@@ -102,22 +87,16 @@[m [mRSpec.describe Something, :type => :ui do[m
- end[m
- [m
- [m
-[31m-:type => :ui is stored in the Metadata owned by the example group, and[m
-[31m-:slow => true is stored in the Metadata owned by the example. These can[m
-[31m-then be used to select which examples are run using the --tag option on[m
-[31m-the command line, or several methods on Configuration used to filter a[m
-[31m-run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m[32m:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m
- [m
-   [m
- [m
-   [m
-     [m
-[31m-    Each ExampleGroup class and Example instance owns an instance of[m
-[31m-Metadata, which is Hash extended to support lazy evaluation of values[m
-[31m-associated with keys that may or may not be used by any example or group.[m
-[32m+[m[32mEach ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.[m
- [m
-[31m-In addition to metadata that is used internally, this also stores[m
-[31m-user-supplied metadata, e.g.[m
-[32m+[m[32mIn addition to metadata that is used internally, this also stores user-supplied metadata, e.g.[m
- [m
- RSpec.describe Something, :type => :ui do[m
-   it "does something", :slow => true do[m
-[36m@@ -126,11 +105,7 @@[m [mRSpec.describe Something, :type => :ui do[m
- end[m
- [m
- [m
-[31m-:type => :ui is stored in the Metadata owned by the example group, and[m
-[31m-:slow => true is stored in the Metadata owned by the example. These can[m
-[31m-then be used to select which examples are run using the --tag option on[m
-[31m-the command line, or several methods on Configuration used to filter a[m
-[31m-run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m[32m:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).[m
- [m
- [m
-   [m
-[36m@@ -532,12 +530,12 @@[m [mdefdef selfself..relative_pathrelative_path((lineline))[m
+[36m@@ -492,12 +518,12 @@[m [mdefdef selfself..relative_pathrelative_path((lineline))[m
    lineline == lineline..subsub((//\A([^:]+:\d+)$\A([^:]+:\d+)$///\A([^:]+:\d+)$/,, ''\\1\\1'''\\1'..freezefreeze))[m
    returnreturn nilnil ifif lineline ==== ''-e:1-e:1'''-e:1'..freezefreeze[m
    lineline[m
@@ -107,7 +19,7 @@
  endend# File 'lib/rspec/core/metadata.rb', line 44[m
  [m
  def self.relative_path(line)[m
-[36m@@ -545,10 +543,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -505,10 +531,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -122,7 +34,7 @@
  end[m
      [m
        # File 'lib/rspec/core/metadata.rb', line 44[m
-[36m@@ -558,10 +556,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -518,10 +544,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -137,7 +49,7 @@
  end[m
      [m
    [m
-[36m@@ -588,10 +586,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -548,10 +574,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -152,7 +64,7 @@
  end[m
      [m
    [m
-[36m@@ -620,10 +618,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -580,10 +606,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -167,7 +79,7 @@
  end[m
      [m
    [m
-[36m@@ -704,10 +705,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -661,10 +690,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -182,78 +94,49 @@
  end[m
      [m
    [m
-[36m@@ -717,43 +718,26 @@[m [mend[m
+[36m@@ -674,15 +703,18 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
-     [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
- [m
-[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
- [m
- [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
-   [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-     [m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
- [m
-[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
- [m
- [m
-   [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
- [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-[32m+[m[41m  [m
 [32m+[m[41m    [m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
+[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
 [32m+[m
-[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
- [m
  [m
    [m
-[36m@@ -842,14 +826,10 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
      [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
+[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
 [32m+[m
+ [m
+   [m
+ [m
+[36m@@ -690,7 +722,7 @@[m [mhttp://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.c[m
+     [m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
 [32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
  [m
  [m
    [m
-[36m@@ -958,10 +941,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -779,9 +811,10 @@[m [mend[m
+ [m
+   [m
+   [m
+[32m+[m[41m    [m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
+[32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
+ [m
+ [m
+   [m
+[36m@@ -887,10 +923,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -268,54 +151,19 @@
  end[m
      [m
    [m
-[36m@@ -971,14 +954,10 @@[m [mend[m
+[36m@@ -900,9 +936,10 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
-     [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
-[32m+[m
+[32m+[m[41m    [m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
 [32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
  [m
  [m
    [m
-[36m@@ -1035,12 +1014,10 @@[m [mModule: RSpec::Core::Metadata[m
- [m
- Overview[m
-   [m
-[31m-    Each ExampleGroup class and Example instance owns an instance of[m
-[31m-Metadata, which is Hash extended to support lazy evaluation of values[m
-[31m-associated with keys that may or may not be used by any example or group.[m
-     [m
-[31m-In addition to metadata that is used internally, this also stores[m
-[31m-user-supplied metadata, e.g.[m
-[32m+[m[32mEach ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.[m
-[32m+[m
-[32m+[m[32mIn addition to metadata that is used internally, this also stores user-supplied metadata, e.g.[m
- [m
- RSpec.describe Something, :type => :ui do[m
-   it "does something", :slow => true do[m
-[36m@@ -1049,11 +1026,7 @@[m [mRSpec.describe Something, :type => :ui do[m
- end[m
- [m
- [m
-[31m-:type => :ui is stored in the Metadata owned by the example group, and[m
-[31m-:slow => true is stored in the Metadata owned by the example. These can[m
-[31m-then be used to select which examples are run using the --tag option on[m
-[31m-the command line, or several methods on Configuration used to filter a[m
-[31m-run (e.g. filter_run_including, filter_run_excluding, etc).[m
-[32m+[m[32m:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).[m
- [m
- [m
-   [m
-[36m@@ -1210,10 +1188,10 @@[m [mdef self.relative_path(line)[m
+[36m@@ -1124,10 +1167,10 @@[m [mdef self.relative_path(line)[m
    line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)[m
    return nil if line == '-e:1'.freeze[m
    line[m
@@ -330,20 +178,14 @@
  end[m
      [m
    [m
-[36m@@ -1223,14 +1201,10 @@[m [mend[m
+[36m@@ -1137,9 +1180,10 @@[m [mend[m
        [m
    [m
    [m
-[31m-    Matches strings either at the beginning of the input or prefixed with a[m
-[31m-whitespace, containing the current path, either postfixed with the[m
-[31m-separator, or at the end of the string. Match groups are the character[m
-[31m-before and the character after the string if any.[m
-     [m
-[31m-http://rubular.com/r/fT0gmX6VJX[m
-[31m-http://rubular.com/r/duOrD4i3wb[m
-[31m-http://rubular.com/r/sbAMHFrOx1.[m
-[32m+[m[32mMatches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
-[32m+[m
+[32m+[m[41m    [m
+ Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.[m
+ [m
+[31m-http://rubular.com/r/fT0gmX6VJX http://rubular.com/r/duOrD4i3wb http://rubular.com/r/sbAMHFrOx1.[m
 [32m+[m[32mrubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.[m
  [m
  [m

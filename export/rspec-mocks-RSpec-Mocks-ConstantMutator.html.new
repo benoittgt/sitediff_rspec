@@ -330,24 +330,12 @@ Stubs a constant.
     
   
     Note:Note:
-    It's recommended that you use hide_consthide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
-It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
+It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -358,10 +346,7 @@ Hides a constant.Hides a constant.
     
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -374,10 +359,7 @@ Hides a constant.
     
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -400,11 +382,8 @@ Hides a constant.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
-The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
+The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -417,8 +396,7 @@ The current constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -435,8 +413,7 @@ The current constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -469,8 +446,7 @@ The current constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -576,10 +552,7 @@ end
     
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -602,8 +575,7 @@ Hides a constant.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -644,44 +616,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
@@ -800,14 +748,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
@@ -848,24 +790,12 @@ end
     
   
     Note:Note:
-    It's recommended that you use stub_conststub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
-It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
+It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -876,10 +806,7 @@ Stubs a constant.Stubs a constant.
     
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -892,10 +819,7 @@ Stubs a constant.
     
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -918,11 +842,8 @@ Stubs a constant.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
-The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
+The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -935,8 +856,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -951,11 +871,8 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
-The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
+The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -968,8 +885,7 @@ example completes, the constant will be restored to its prior state.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -1019,8 +935,7 @@ Stubbing options.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -1035,8 +950,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -1079,17 +993,8 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
-Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
+Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -1099,10 +1004,7 @@ the original and new values are modules (or classes).
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -1116,10 +1018,7 @@ the original and new values are modules (or classes).
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -1197,8 +1096,7 @@ the stubbed value of the constant
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -1213,8 +1111,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -1255,10 +1152,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -1482,10 +1376,7 @@ end
     
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -1508,8 +1399,7 @@ Stubs a constant.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -1524,8 +1414,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -1566,10 +1455,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -1655,10 +1541,7 @@ end
     
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -1681,8 +1564,7 @@ Hides a constant.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -1723,14 +1605,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
@@ -1771,10 +1647,7 @@ end
     
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -1797,8 +1670,7 @@ Stubs a constant.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -1813,8 +1685,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -1855,10 +1726,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -2073,10 +1941,7 @@ Overview
     
   
     Note:
-    It's recommended that you use hide_const in your
-examples. This is an alternate public API that is provided
-so you can hide constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use hide_const in your examples. This is an alternate public API that is provided so you can hide constants in other contexts (e.g. helper classes).
 
   
 
@@ -2099,8 +1964,7 @@ Hides a constant.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -2141,14 +2005,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used internally by the constant stubbing to raise a helpful
-error when a constant like "A::B::C" is stubbed and A::B is
-not a module (and thus, it's impossible to define "A::B::C"
-since only modules can have nested constants).
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used internally by the constant stubbing to raise a helpful error when a constant like "A::B::C" is stubbed and A::B is not a module (and thus, it's impossible to define "A::B::C" since only modules can have nested constants).
 
 
   
@@ -2189,10 +2047,7 @@ end
     
   
     Note:
-    It's recommended that you use stub_const in your
-examples. This is an alternate public API that is provided
-so you can stub constants in other contexts (e.g. helper
-classes).
+    It's recommended that you use stub_const in your examples. This is an alternate public API that is provided so you can stub constants in other contexts (e.g. helper classes).
 
   
 
@@ -2215,8 +2070,7 @@ Stubs a constant.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -2231,8 +2085,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -2273,10 +2126,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         

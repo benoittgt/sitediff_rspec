@@ -1,8 +1,8 @@
 [1mdiff --git a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new[m
-[1mindex b3ed2cc..683fc6b 100644[m
+[1mindex bb40951..3dceb5b 100644[m
 [1m--- a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current[m
 [1m+++ b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new[m
-[36m@@ -6103,41 +6103,41 @@[m [marguments.[m
+[36m@@ -5986,41 +5986,41 @@[m [mA message expectation will fail if the message is received with different argume[m
        [m
        allowallow((cartcart))..toto receivereceive((:add:add)) {{ :failure:failure }}[m
  allowallow((cartcart))..toto receivereceive((:add:add))..withwith((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379)))) {{ :success:success }}[m
@@ -68,7 +68,7 @@
      [m
    [m
      Examples:[m
-[36m@@ -6145,16 +6145,16 @@[m [mcart.add(Book.new(:isbn => 1934356379))[m
+[36m@@ -6028,16 +6028,16 @@[m [mcart.add(Book.new(:isbn => 1934356379))[m
        [m
        allow(cart).to receive(:add) { :failure }[m
  allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
@@ -93,7 +93,7 @@
      [m
    [m
  [m
-[36m@@ -6211,16 +6211,16 @@[m [mself, to support further chaining.[m
+[36m@@ -6094,16 +6094,16 @@[m [mself, to support further chaining.[m
        [m
        allow(cart).to receive(:add) { :failure }[m
  allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
@@ -118,7 +118,7 @@
      [m
    [m
  [m
-[36m@@ -6421,16 +6421,16 @@[m [marguments.[m
+[36m@@ -6300,16 +6300,16 @@[m [mA message expectation will fail if the message is received with different argume[m
        [m
        allow(cart).to receive(:add) { :failure }[m
  allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
@@ -143,7 +143,7 @@
      [m
    [m
  [m
-[36m@@ -7629,16 +7629,16 @@[m [marguments.[m
+[36m@@ -7487,16 +7487,16 @@[m [mA message expectation will fail if the message is received with different argume[m
        [m
        allow(cart).to receive(:add) { :failure }[m
  allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
@@ -168,7 +168,7 @@
      [m
    [m
  [m
-[36m@@ -9228,16 +9228,16 @@[m [marguments.[m
+[36m@@ -9063,16 +9063,16 @@[m [mA message expectation will fail if the message is received with different argume[m
        [m
        allow(cart).to receive(:add) { :failure }[m
  allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m

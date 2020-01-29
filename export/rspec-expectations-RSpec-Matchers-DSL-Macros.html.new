@@ -61,21 +61,17 @@ Module: RSpec::Matchers::DSL::Macros
 
 OverviewOverview
   
-    Contains the methods that are available from within the
-RSpec::Matchers.defineRSpec::Matchers.define DSL for creating custom matchers.Contains the methods that are available from within the
-RSpec::Matchers.define DSL for creating custom matchers.
+    Contains the methods that are available from within the RSpec::Matchers.define DSL for creating custom matchers.Contains the methods that are available from within the RSpec::Matchers.define DSL for creating custom matchers.
 
 
   
-    Contains the methods that are available from within the
-RSpec::Matchers.define DSL for creating custom matchers.
+    Contains the methods that are available from within the RSpec::Matchers.define DSL for creating custom matchers.
 
 
   
 
   
-    Contains the methods that are available from within the
-RSpec::Matchers.define DSL for creating custom matchers.
+    Contains the methods that are available from within the RSpec::Matchers.define DSL for creating custom matchers.
 
 
   
@@ -331,7 +327,7 @@ Stores the block that is used to determine whether this matcher passes or fails.
   
 
   
-    Use this instead of matchmatch when the block will raise an exception rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
@@ -364,7 +360,7 @@ Use this instead of match when the block will raise an exception rather than ret
   
 
   
-    Use this to define the block for a negative expectation (expect(...).not_toexpect(...).not_to) when the positive and negative forms require different handling.Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
 Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
 Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling.
 
@@ -586,63 +582,23 @@ Declares that the matcher can be used in a block expectation.
       
   
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chainchain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptionsinclude_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in matchmatch), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
 
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
@@ -908,19 +864,9 @@ end
 
   
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
@@ -991,21 +937,17 @@ end
       
   
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
 
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
@@ -1065,7 +1007,7 @@ Yields:Yields:
       
       
         —
-        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+        actual the actual object (i.e. the value wrapped by expect)actual the actual object (i.e. the value wrapped by expect)
 actual the actual object (i.e. the value wrapped by expect)
 
       
@@ -1212,8 +1154,7 @@ end
 
   
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
@@ -1277,21 +1218,17 @@ end
       
   
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
 
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
@@ -1380,8 +1317,7 @@ end
 
   
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
@@ -1413,25 +1349,17 @@ end
       
   
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
 
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -1491,7 +1419,7 @@ Yields:Yields:
       
       
         —
-        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+        actual the actual object (i.e. the value wrapped by expect)actual the actual object (i.e. the value wrapped by expect)
 actual the actual object (i.e. the value wrapped by expect)
 
       
@@ -1638,9 +1566,7 @@ end
 
   
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -1704,25 +1630,17 @@ end
       
   
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
 
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -1782,7 +1700,7 @@ Yields:Yields:
       
       
         —
-        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+        actual the actual object (i.e. the value wrapped by expect)actual the actual object (i.e. the value wrapped by expect)
 actual the actual object (i.e. the value wrapped by expect)
 
       
@@ -1929,9 +1847,7 @@ end
 
   
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -1995,51 +1911,23 @@ end
       
   
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).toexpect(...).to and the block returns truetrue, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_toexpect(...).not_to and the
-block returns falsefalse, then the expectation passes.Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true:notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
 
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -2170,7 +2058,7 @@ Yields:Yields:
       
       
         —
-        actual the actual value (i.e. the value wrapped by expectexpect)actual the actual value (i.e. the value wrapped by expect)
+        actual the actual value (i.e. the value wrapped by expect)actual the actual value (i.e. the value wrapped by expect)
 actual the actual value (i.e. the value wrapped by expect)
 
       
@@ -2441,16 +2329,9 @@ end
 
   
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -2558,21 +2439,17 @@ end
       
   
   
-    Use this instead of matchmatch when the block will raise an exception
-rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
-    Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
 
   
-    Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
@@ -2632,7 +2509,7 @@ Yields:Yields:
       
       
         —
-        actual the actual object (i.e. the value wrapped by expectexpect)actual the actual object (i.e. the value wrapped by expect)
+        actual the actual object (i.e. the value wrapped by expect)actual the actual object (i.e. the value wrapped by expect)
 actual the actual object (i.e. the value wrapped by expect)
 
       
@@ -2869,8 +2746,7 @@ end
 
   
   
-    Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
@@ -2952,47 +2828,23 @@ end
       
   
   
-    Use this to define the block for a negative expectation (expect(...).not_toexpect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true:notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
-    Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
 
   
-    Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -3066,7 +2918,7 @@ Yields:Yields:
       
       
         —
-        actual the actual value (i.e. the value wrapped by expectexpect)actual the actual value (i.e. the value wrapped by expect)
+        actual the actual value (i.e. the value wrapped by expect)actual the actual value (i.e. the value wrapped by expect)
 actual the actual value (i.e. the value wrapped by expect)
 
       
@@ -3319,15 +3171,9 @@ end
 
   
   
-    Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -3417,29 +3263,17 @@ end
       
   
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcherexpect { do_something }.to matcher).Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   
 
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   
@@ -3528,10 +3362,7 @@ end
 
   
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   
@@ -3567,19 +3398,9 @@ end
       
   
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
@@ -3650,8 +3471,7 @@ end
       
   
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
@@ -3715,8 +3535,7 @@ end
       
   
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
@@ -3748,9 +3567,7 @@ end
       
   
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -3814,9 +3631,7 @@ end
       
   
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -3880,16 +3695,9 @@ end
       
   
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -3997,8 +3805,7 @@ end
       
   
   
-    Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
@@ -4080,15 +3887,9 @@ end
       
   
   
-    Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -4178,10 +3979,7 @@ end
       
   
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   
@@ -4243,8 +4041,7 @@ Module: RSpec::Matchers::DSL::Macros
 
 Overview
   
-    Contains the methods that are available from within the
-RSpec::Matchers.define DSL for creating custom matchers.
+    Contains the methods that are available from within the RSpec::Matchers.define DSL for creating custom matchers.
 
 
   
@@ -4442,19 +4239,9 @@ Defined Under Namespace
       
   
   
-    Convenience for defining methods on this matcher to create a fluent
-interface. The trick about fluent interfaces is that each method must
-return self in order to chain methods together. chain handles that
-for you. If the method is invoked and the
-include_chain_clauses_in_custom_matcher_descriptions config option
-hash been enabled, the chained method name and args will be added to the
-default description and failure message.
+    Convenience for defining methods on this matcher to create a fluent interface. The trick about fluent interfaces is that each method must return self in order to chain methods together. chain handles that for you. If the method is invoked and the include_chain_clauses_in_custom_matcher_descriptions config option hash been enabled, the chained method name and args will be added to the default description and failure message.
 
-In the common case where you just want the chained method to store some
-value(s) for later use (e.g. in match), you can provide one or more
-attribute names instead of a block; the chained method will store its
-arguments in instance variables with those names, and the values will
-be exposed via getters.
+In the common case where you just want the chained method to store some value(s) for later use (e.g. in match), you can provide one or more attribute names instead of a block; the chained method will store its arguments in instance variables with those names, and the values will be exposed via getters.
 
 
   
@@ -4525,8 +4312,7 @@ end
       
   
   
-    Customize the description to use for one-liners.  Only use this when
-the description generated by default doesn't suit your needs.
+    Customize the description to use for one-liners.  Only use this when the description generated by default doesn't suit your needs.
 
 
   
@@ -4590,8 +4376,7 @@ end
       
   
   
-    Tells the matcher to diff the actual and expected values in the failure
-message.
+    Tells the matcher to diff the actual and expected values in the failure message.
 
 
   
@@ -4623,9 +4408,7 @@ end
       
   
   
-    Customizes the failure messsage to use when this matcher is
-asked to positively match. Only use this when the message
-generated by default doesn't suit your needs.
+    Customizes the failure messsage to use when this matcher is asked to positively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -4689,9 +4472,7 @@ end
       
   
   
-    Customize the failure messsage to use when this matcher is asked
-to negatively match. Only use this when the message generated by
-default doesn't suit your needs.
+    Customize the failure messsage to use when this matcher is asked to negatively match. Only use this when the message generated by default doesn't suit your needs.
 
 
   
@@ -4755,16 +4536,9 @@ end
       
   
   
-    Stores the block that is used to determine whether this matcher passes
-or fails. The block should return a boolean value. When the matcher is
-passed to expect(...).to and the block returns true, then the expectation
-passes. Similarly, when the matcher is passed to expect(...).not_to and the
-block returns false, then the expectation passes.
+    Stores the block that is used to determine whether this matcher passes or fails. The block should return a boolean value. When the matcher is passed to expect(...).to and the block returns true, then the expectation passes. Similarly, when the matcher is passed to expect(...).not_to and the block returns false, then the expectation passes.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -4872,8 +4646,7 @@ end
       
   
   
-    Use this instead of match when the block will raise an exception
-rather than returning false to indicate a failure.
+    Use this instead of match when the block will raise an exception rather than returning false to indicate a failure.
 
 
   
@@ -4955,15 +4728,9 @@ end
       
   
   
-    Use this to define the block for a negative expectation (expect(...).not_to)
-when the positive and negative forms require different handling. This
-is rarely necessary, but can be helpful, for example, when specifying
-asynchronous processes that require different timeouts.
+    Use this to define the block for a negative expectation (expect(...).not_to) when the positive and negative forms require different handling. This is rarely necessary, but can be helpful, for example, when specifying asynchronous processes that require different timeouts.
 
-By default the match block will swallow expectation errors (e.g.
-caused by using an expectation such as expect(1).to eq 2), if you
-with to allow these to bubble up, pass in the option
-:notify_expectation_failures => true.
+By default the match block will swallow expectation errors (e.g. caused by using an expectation such as expect(1).to eq 2), if you with to allow these to bubble up, pass in the option :notify_expectation_failures => true.
 
 
   
@@ -5053,10 +4820,7 @@ end
       
   
   
-    Declares that the matcher can be used in a block expectation.
-Users will not be able to use your matcher in a block
-expectation without declaring this.
-(e.g. expect { do_something }.to matcher).
+    Declares that the matcher can be used in a block expectation. Users will not be able to use your matcher in a block expectation without declaring this. (e.g. expect { do_something }.to matcher).
 
 
   

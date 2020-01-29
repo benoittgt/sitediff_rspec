@@ -1,264 +1,9 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-MemoizedHelpers.html.current b/export/rspec-core-RSpec-Core-MemoizedHelpers.html.new[m
-[1mindex 664d8be..aa001ea 100644[m
+[1mindex 0bced67..eabb800 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-MemoizedHelpers.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-MemoizedHelpers.html.new[m
-[36m@@ -61,21 +61,20 @@[m [mModule: RSpec::Core::MemoizedHelpers[m
- [m
- OverviewOverview[m
-   [m
-[31m-    This module is included in ExampleGroup, making the methods[m
-[31m-available to be called from within example blocks.This module is included in ExampleGroup, making the methods[m
-[31m-available to be called from within example blocks.[m
-     [m
-[32m+[m[32mThis module is included in ExampleGroup, making the methods available to be called from within example blocks.This module is included in ExampleGroup, making the methods available to be called from within example blocks.[m
- [m
- [m
-[31m-    This module is included in ExampleGroup, making the methods[m
-[31m-available to be called from within example blocks.[m
-   [m
-     [m
-[32m+[m[32mThis module is included in ExampleGroup, making the methods available to be called from within example blocks.[m
- [m
- [m
-   [m
-[31m-    This module is included in ExampleGroup, making the methods[m
-[31m-available to be called from within example blocks.[m
-[32m+[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mThis module is included in ExampleGroup, making the methods available to be called from within example blocks.[m
- [m
- [m
-   [m
-[36m@@ -361,9 +378,8 @@[m [mThis only works if you are using rspec-expectations.[m
- [m
-   [m
- [m
-[31m-Wraps the subjectsubject in expectexpect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subjectsubject in expectexpect to make it the target of an expectation. Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -374,8 +391,8 @@[m [mDesigned to read nicely for one-liners.[m
- [m
-   [m
- [m
-[31m-Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -388,8 +406,8 @@[m [mDesigned to read nicely for one-liners.[m
- [m
-   [m
- [m
-[31m-Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -557,8 +576,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -627,24 +649,20 @@[m [mThis only works if you are using rspec-expectations.[m
- [m
-   [m
-     Note:Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.tois_expected.to instead of shouldshould.If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-[31m-If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.tois_expected.to instead of shouldshould.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
-[32m+[m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-     [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
- [m
-   [m
-[31m-When shouldshould is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subjectsubject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m
-[32m+[m
-[32m+[m[32mWhen shouldshould is called with no explicit receiver, the call is delegated to the object returned by subjectsubject. Combined with an implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -657,14 +676,13 @@[m [mimplicit subject this supports very concise expressions.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-     [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
- [m
-   [m
-[31m-When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m
-[32m+[m
-[32m+[m[32mWhen should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -679,14 +698,13 @@[m [mimplicit subject this supports very concise expressions.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
-[32m+[m
-   [m
- [m
- [m
-[31m-When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m[32mWhen should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -845,14 +864,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
-[32m+[m
-   [m
- [m
- [m
-[31m-When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m[32mWhen should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -918,22 +939,20 @@[m [mThis only works if you are using rspec-expectations.[m
- [m
-   [m
-     Note:Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_notis_expected.to_not instead of should_notshould_not.If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[31m-If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_notis_expected.to_not instead of should_notshould_not.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
-[32m+[m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
- [m
-   [m
- [m
-[31m-Just like shouldshould, should_notshould_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m
-[32m+[m[32mJust like shouldshould, should_notshould_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -946,13 +966,13 @@[m [mexplicit) of the example group.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
-[32m+[m
-   [m
- [m
- [m
-[31m-Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m[32mJust like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -967,13 +988,13 @@[m [mexplicit) of the example group.[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-     [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
- [m
-   [m
-[31m-Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m
-[32m+[m
-[32m+[m[32mJust like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -1132,13 +1154,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
-[32m+[m
-   [m
- [m
- [m
-[31m-Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m[32mJust like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -1193,85 +1215,67 @@[m [mend[m
-     [m
-   [m
-     Note:Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1158,19 +1219,19 @@[m [mend[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpecRSpec..describedescribe WidgetWidget dodo[m
 [31m-  itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}[m
@@ -283,17 +28,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subjectsubject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[31m-subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subjectsubject explicitly in examples, we recommend that you define a method with an intention revealing name instead.While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
-[32m+[m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1179,8 +1241,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -303,18 +39,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1192,8 +1255,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -324,51 +50,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:Note:[m
-[31m-    Because subjectsubject is designed to create state that is reset[m
-[31m-between each example, and before(:context)before(:context) is designed to setup[m
-[31m-state that is shared across allall examples in an example group,[m
-[31m-subjectsubject is notnot intended to be used in a before(:context)before(:context) hook.Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[31m-Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subjectsubject is designed to create state that is reset between each example, and before(:context)before(:context) is designed to setup state that is shared across allall examples in an example group, subjectsubject is notnot intended to be used in a before(:context)before(:context) hook.Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
-[32m+[m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -1281,28 +1285,24 @@[m [msubject is not intended to be used in a before(:context) hook.[m
-     [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1222,8 +1289,8 @@[m [mBecause subject is designed to create state that is reset between each example,[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -378,33 +61,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -1314,28 +1314,24 @@[m [msubject is not intended to be used in a before(:context) hook.[m
-     [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1249,8 +1318,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -414,26 +72,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -1355,9 +1351,9 @@[m [msubject is not intended to be used in a before(:context) hook.[m
+[36m@@ -1281,9 +1351,9 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpecRSpec..describedescribe PersonPerson dodo[m
    subjectsubject {{ PersonPerson..newnew((:birthdate:birthdate =>=> 1919..yearsyears..agoago)) }}[m
    itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo[m
@@ -445,7 +84,7 @@
    endend[m
  endend[m
  [m
-[36m@@ -1365,64 +1361,64 @@[m [mendend[m
+[36m@@ -1291,64 +1361,64 @@[m [mendend[m
  # Implicit subject => { Person.new }.[m
  RSpecRSpec..describedescribe PersonPerson dodo[m
    itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo[m
@@ -526,7 +165,7 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1435,23 +1431,23 @@[m [mend[m
+[36m@@ -1361,23 +1431,23 @@[m [mend[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -556,7 +195,7 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1488,23 +1484,23 @@[m [mend[m
+[36m@@ -1414,23 +1484,23 @@[m [mend[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -586,14 +225,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1633,28 +1629,24 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1562,8 +1633,8 @@[m [mend[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -603,26 +236,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -1673,23 +1665,23 @@[m [msubject is not intended to be used in a before(:context) hook.[m
+[36m@@ -1593,23 +1665,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -652,62 +266,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1748,8 +1741,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -1813,14 +1807,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-     [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
- [m
-   [m
-[31m-When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m
-[32m+[m
-[32m+[m[32mWhen should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -1881,13 +1875,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-     [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
- [m
-   [m
-[31m-Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m
-[32m+[m
-[32m+[m[32mJust like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -1942,28 +1936,24 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1859,8 +1940,8 @@[m [mend[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -717,26 +277,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -1982,23 +1972,23 @@[m [msubject is not intended to be used in a before(:context) hook.[m
+[36m@@ -1890,23 +1972,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -766,73 +307,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -2076,8 +2066,8 @@[m [mModule: RSpec::Core::MemoizedHelpers[m
- [m
- Overview[m
-   [m
-[31m-    This module is included in ExampleGroup, making the methods[m
-[31m-available to be called from within example blocks.[m
-[32m+[m[41m    [m
-[32m+[m[32mThis module is included in ExampleGroup, making the methods available to be called from within example blocks.[m
- [m
- [m
-   [m
-[36m@@ -2203,8 +2197,8 @@[m [mDefined Under Namespace[m
- [m
-   [m
- [m
-[31m-Wraps the subject in expect to make it the target of an expectation.[m
-[31m-Designed to read nicely for one-liners.[m
-[32m+[m
-[32m+[m[32mWraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.[m
- [m
- [m
-   [m
-[36m@@ -2268,14 +2263,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to instead of should.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.[m
- [m
-   [m
- [m
-[31m-When should is called with no explicit receiver, the call is[m
-[31m-delegated to the object returned by subject. Combined with an[m
-[31m-implicit subject this supports very concise expressions.[m
-[32m+[m
-[32m+[m[32mWhen should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.[m
- [m
- [m
-   [m
-[36m@@ -2336,13 +2331,13 @@[m [mend[m
- [m
-   [m
-     Note:[m
-[31m-    If you are using RSpec's newer expect-based syntax you may[m
-[31m-want to use is_expected.to_not instead of should_not.[m
-[32m+[m[41m    [m
-[32m+[m[32mIf you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.[m
- [m
-   [m
- [m
-[31m-Just like should, should_not delegates to the subject (implicit or[m
-[31m-explicit) of the example group.[m
-[32m+[m
-[32m+[m[32mJust like should, should_not delegates to the subject (implicit or explicit) of the example group.[m
- [m
- [m
-   [m
-[36m@@ -2397,28 +2392,24 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    subject was contributed by Joe Ferris to support the one-liner[m
-[31m-syntax embraced by shoulda matchers:.[m
-[32m+[m[41m    [m
-[32m+[m[32msubject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -2301,8 +2396,8 @@[m [mend[m
+ subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -842,26 +318,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
- [m
-[31m-While the examples below demonstrate how to use subject[m
-[31m-explicitly in examples, we recommend that you define a method with[m
-[31m-an intention revealing name instead.[m
-[32m+[m[32mWhile the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.[m
- [m
-   [m
- [m
-   [m
-     Note:[m
-[31m-    Because subject is designed to create state that is reset[m
-[31m-between each example, and before(:context) is designed to setup[m
-[31m-state that is shared across all examples in an example group,[m
-[31m-subject is not intended to be used in a before(:context) hook.[m
-[32m+[m[41m    [m
-[32m+[m[32mBecause subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.[m
- [m
-   [m
- [m
-[36m@@ -2437,23 +2428,23 @@[m [msubject is not intended to be used in a before(:context) hook.[m
+[36m@@ -2332,23 +2428,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m

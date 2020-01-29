@@ -285,7 +285,7 @@ The exception triggered while executing the pending example.
 
   
     
-For examples tagged with :pending:pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.
+For examples tagged with :pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.
 
 For examples tagged with :pending, this indicates whether or not it now passes.
 
@@ -457,7 +457,7 @@ When the example started.
 
   
     
-:passed:passed, :failed:failed or :pending:pending.:passed, :failed or :pending.
+:passed, :failed or :pending.:passed, :failed or :pending.
 
 :passed, :failed or :pending.
 
@@ -720,7 +720,7 @@ Populates finished_at and run_time if it has not yet been set.
 
   
     
-Indicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method).Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
+Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
 
 Indicates if the example was completely skipped (typically done via :skip metadata or the skip method).
 
@@ -1299,7 +1299,7 @@ end
   
   
     
-Returns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending:pending unless it was tagged with :skip:skip.Returns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.
+Returns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.Returns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.
 
 
   
@@ -1330,7 +1330,7 @@ Returns:Returns:
       
         —
         
-The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending:pending unless it was tagged with :skip:skip.The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.
+The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.
 
 The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.
 
@@ -1520,7 +1520,7 @@ end
   
   
     
-Returns For examples tagged with :pending:pending, this indicates whether or not it now passes.Returns For examples tagged with :pending, this indicates whether or not it now passes.
+Returns For examples tagged with :pending, this indicates whether or not it now passes.Returns For examples tagged with :pending, this indicates whether or not it now passes.
 
 
   
@@ -1551,7 +1551,7 @@ Returns:Returns:
       
         —
         
-For examples tagged with :pending:pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.
+For examples tagged with :pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.
 
 For examples tagged with :pending, this indicates whether or not it now passes.
 
@@ -2404,7 +2404,7 @@ end
   
   
     
-Returns :passed:passed, :failed:failed or :pending:pending.Returns :passed, :failed or :pending.
+Returns :passed, :failed or :pending.Returns :passed, :failed or :pending.
 
 
   
@@ -2435,7 +2435,7 @@ Returns:Returns:
       
         —
         
-:passed:passed, :failed:failed or :pending:pending.:passed, :failed or :pending.
+:passed, :failed or :pending.:passed, :failed or :pending.
 
 :passed, :failed or :pending.
 
@@ -3056,22 +3056,13 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.Populates finished_at and run_time if it has not yet been set.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.
 
@@ -3079,10 +3070,7 @@ Populates finished_at and run_time if it has not yet been set.
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.
 
@@ -3173,10 +3161,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.
 
@@ -3211,7 +3196,7 @@ end
   
   
     
-Returns Indicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method). Skipped examples will have a :pending:pending result. A :pending:pending result can also come from examples that were marked as :pending:pending, which causes them to be run, and produces a :failed:failed result if the example passes.Returns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.
+Returns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.Returns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.
 
 
   
@@ -3242,7 +3227,7 @@ Returns:Returns:
       
         —
         
-Indicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method). Skipped examples will have a :pending:pending result. A :pending:pending result can also come from examples that were marked as :pending:pending, which causes them to be run, and produces a :failed:failed result if the example passes.Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.
+Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.
 
 Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.
 
@@ -3429,22 +3414,13 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.Records the finished status of the example.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.
 
@@ -3452,10 +3428,7 @@ Records the finished status of the example.
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.
 
@@ -3556,10 +3529,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.
 
@@ -3599,10 +3569,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.
 
@@ -3687,10 +3654,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.
 
@@ -4465,10 +4429,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Populates finished_at and run_time if it has not yet been set.
 
@@ -4553,10 +4514,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 Records the finished status of the example.
 

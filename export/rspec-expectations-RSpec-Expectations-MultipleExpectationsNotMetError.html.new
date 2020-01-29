@@ -134,7 +134,7 @@ lib/rspec/expectations.rb
 
 OverviewOverview
   
-    Exception raised from aggregate_failuresaggregate_failures when multiple expectations fail.Exception raised from aggregate_failures when multiple expectations fail.
+    Exception raised from aggregate_failures when multiple expectations fail.Exception raised from aggregate_failures when multiple expectations fail.
 
 
   
@@ -289,7 +289,7 @@ The user-assigned label for the aggregation block.
   
 
   
-    The metadata hash passed to aggregate_failuresaggregate_failures.The metadata hash passed to aggregate_failures.
+    The metadata hash passed to aggregate_failures.The metadata hash passed to aggregate_failures.
 The metadata hash passed to aggregate_failures.
 The metadata hash passed to aggregate_failures.
 
@@ -1095,7 +1095,7 @@ end
       
   
   
-    Returns The metadata hash passed to aggregate_failuresaggregate_failures.Returns The metadata hash passed to aggregate_failures.
+    Returns The metadata hash passed to aggregate_failures.Returns The metadata hash passed to aggregate_failures.
 
 
   
@@ -1123,7 +1123,7 @@ Returns:Returns:
       
       
         —
-        The metadata hash passed to aggregate_failuresaggregate_failures.The metadata hash passed to aggregate_failures.
+        The metadata hash passed to aggregate_failures.The metadata hash passed to aggregate_failures.
 The metadata hash passed to aggregate_failures.
 
       

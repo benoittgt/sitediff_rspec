@@ -160,7 +160,7 @@ OverviewOverview
   
 
   
-    Register an at_exitat_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
+    Register an at_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
 Register an at_exit hook that runs the suite when the process exits.
 Register an at_exit hook that runs the suite when the process exits.
 
@@ -734,43 +734,23 @@ end
     
   
     Note:Note:
-    This is not generally needed. The rspecrspec command takes care
-of running examples for you without involving an at_exitat_exit
-hook. This is only needed if you are running specs using
-the rubyruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorunrspec/autorun.This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
-This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
+This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
-Register an at_exitat_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
+Register an at_exit hook that runs the suite when the process exits.Register an at_exit hook that runs the suite when the process exits.
 
 
   
     
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
@@ -783,11 +763,7 @@ Register an at_exit hook that runs the suite when the process exits.
     
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
@@ -963,11 +939,7 @@ end
     
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
@@ -1019,21 +991,17 @@ end
       
   
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
 
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
@@ -1142,8 +1110,7 @@ end
 
   
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
@@ -1181,26 +1148,17 @@ end
   
     Run a suite of RSpec examples. Does not exit.Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rbspec_helper.rb to be reloaded, be sure to load loadload
-instead of requirerequire.If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
     Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
@@ -1208,12 +1166,9 @@ instead of require.
   
     Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
@@ -1381,14 +1336,8 @@ Returns:Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
-exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
+exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -1399,9 +1348,7 @@ failed.
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -1416,9 +1363,7 @@ failed.
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -1491,9 +1436,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -1650,12 +1593,9 @@ end
   
     Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
@@ -1726,9 +1666,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -1780,11 +1718,7 @@ end
     
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
@@ -1836,8 +1770,7 @@ end
       
   
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
@@ -1875,12 +1808,9 @@ end
   
     Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
@@ -1951,9 +1881,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -2435,14 +2363,8 @@ Returns:Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
-exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
+exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -2453,9 +2375,7 @@ failed.
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -2470,9 +2390,7 @@ failed.
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -2511,9 +2429,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -2745,9 +2661,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -3270,9 +3184,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -3650,11 +3562,7 @@ end
     
   
     Note:
-    This is not generally needed. The rspec command takes care
-of running examples for you without involving an at_exit
-hook. This is only needed if you are running specs using
-the ruby command, and even then, the normal way to invoke
-this is by requiring rspec/autorun.
+    This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.
 
   
 
@@ -3706,8 +3614,7 @@ end
       
   
   
-    Runs the suite of specs and exits the process with an appropriate exit
-code.
+    Runs the suite of specs and exits the process with an appropriate exit code.
 
 
   
@@ -3745,12 +3652,9 @@ end
   
     Run a suite of RSpec examples. Does not exit.
 
-This is used internally by RSpec to run a suite, but is available
-for use by any other automation tool.
+This is used internally by RSpec to run a suite, but is available for use by any other automation tool.
 
-If you want to run this multiple times in the same process, and you
-want files like spec_helper.rb to be reloaded, be sure to load load
-instead of require.
+If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.
 
 
   
@@ -3821,9 +3725,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     
@@ -3987,9 +3889,7 @@ Returns:
       
       
         —
-        exit status code. 0 if all specs passed,
-or the configured failure exit code (1 by default) if specs
-failed.
+        exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.
 
       
     

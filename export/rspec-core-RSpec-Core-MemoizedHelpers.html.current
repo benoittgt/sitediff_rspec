@@ -61,21 +61,17 @@ Module: RSpec::Core::MemoizedHelpers
 
 OverviewOverview
   
-    This module is included in ExampleGroup, making the methods
-available to be called from within example blocks.This module is included in ExampleGroup, making the methods
-available to be called from within example blocks.
+    This module is included in ExampleGroup, making the methods available to be called from within example blocks.This module is included in ExampleGroup, making the methods available to be called from within example blocks.
 
 
   
-    This module is included in ExampleGroup, making the methods
-available to be called from within example blocks.
+    This module is included in ExampleGroup, making the methods available to be called from within example blocks.
 
 
   
 
   
-    This module is included in ExampleGroup, making the methods
-available to be called from within example blocks.
+    This module is included in ExampleGroup, making the methods available to be called from within example blocks.
 
 
   
@@ -151,7 +147,7 @@ Defined Under NamespaceDefined Under Namespace
   
 
   
-    Wraps the subjectsubject in expectexpect to make it the target of an expectation.Wraps the subject in expect to make it the target of an expectation.
+    Wraps the subject in expect to make it the target of an expectation.Wraps the subject in expect to make it the target of an expectation.
 Wraps the subject in expect to make it the target of an expectation.
 Wraps the subject in expect to make it the target of an expectation.
 
@@ -184,7 +180,7 @@ Wraps the subject in expect to make it the target of an expectation.
   
 
   
-    When shouldshould is called with no explicit receiver, the call is delegated to the object returned by subjectsubject.When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+    When should is called with no explicit receiver, the call is delegated to the object returned by subject.When should is called with no explicit receiver, the call is delegated to the object returned by subject.
 When should is called with no explicit receiver, the call is delegated to the object returned by subject.
 When should is called with no explicit receiver, the call is delegated to the object returned by subject.
 
@@ -217,7 +213,7 @@ When should is called with no explicit receiver, the call is delegated to the ob
   
 
   
-    Just like shouldshould, should_notshould_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+    Just like should, should_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
@@ -361,9 +357,7 @@ This only works if you are using rspec-expectations.
 
   
 
-Wraps the subjectsubject in expectexpect to make it the target of an expectation.
-Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -374,8 +368,7 @@ Designed to read nicely for one-liners.
 
   
 
-Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -388,8 +381,7 @@ Designed to read nicely for one-liners.
 
   
 
-Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -557,8 +549,7 @@ end
 
   
 
-Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -627,24 +618,16 @@ This only works if you are using rspec-expectations.
 
   
     Note:Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.tois_expected.to instead of shouldshould.If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
-If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
+If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When shouldshould is called with no explicit receiver, the call is
-delegated to the object returned by subjectsubject. Combined with an
-implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -657,14 +640,11 @@ implicit subject this supports very concise expressions.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -679,14 +659,11 @@ implicit subject this supports very concise expressions.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -845,14 +822,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -918,22 +892,16 @@ This only works if you are using rspec-expectations.
 
   
     Note:Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_notis_expected.to_not instead of should_notshould_not.If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
-If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
+If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like shouldshould, should_notshould_not delegates to the subject (implicit or
-explicit) of the example group.Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -946,13 +914,11 @@ explicit) of the example group.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -967,13 +933,11 @@ explicit) of the example group.
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -1132,13 +1096,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -1193,9 +1155,7 @@ end
     
   
     Note:Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpecRSpec..describedescribe WidgetWidget dodo
   itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}
@@ -1215,13 +1175,8 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subjectsubject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
-subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
+subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1230,14 +1185,11 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1246,32 +1198,18 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:Note:
-    Because subjectsubject is designed to create state that is reset
-between each example, and before(:context)before(:context) is designed to setup
-state that is shared across allall examples in an example group,
-subjectsubject is notnot intended to be used in a before(:context)before(:context) hook.Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
-Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
+Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 
@@ -1281,8 +1219,7 @@ subject is not intended to be used in a before(:context) hook.
     
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1291,18 +1228,13 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 
@@ -1314,8 +1246,7 @@ subject is not intended to be used in a before(:context) hook.
     
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1324,18 +1255,13 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 
@@ -1633,8 +1559,7 @@ end
     
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1643,18 +1568,13 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 
@@ -1748,8 +1668,7 @@ end
 
   
 
-Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -1813,14 +1732,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -1881,13 +1797,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -1942,8 +1856,7 @@ end
     
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -1952,18 +1865,13 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 
@@ -2076,8 +1984,7 @@ Module: RSpec::Core::MemoizedHelpers
 
 Overview
   
-    This module is included in ExampleGroup, making the methods
-available to be called from within example blocks.
+    This module is included in ExampleGroup, making the methods available to be called from within example blocks.
 
 
   
@@ -2203,8 +2110,7 @@ Defined Under Namespace
 
   
 
-Wraps the subject in expect to make it the target of an expectation.
-Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -2268,14 +2174,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to instead of should.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
   
 
-When should is called with no explicit receiver, the call is
-delegated to the object returned by subject. Combined with an
-implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -2336,13 +2239,11 @@ end
 
   
     Note:
-    If you are using RSpec's newer expect-based syntax you may
-want to use is_expected.to_not instead of should_not.
+    If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
   
 
-Just like should, should_not delegates to the subject (implicit or
-explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -2397,8 +2298,7 @@ end
     
   
     Note:
-    subject was contributed by Joe Ferris to support the one-liner
-syntax embraced by shoulda matchers:.
+    subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
   it { is_expected.to validate_presence_of(:name) }
@@ -2407,18 +2307,13 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subject
-explicitly in examples, we recommend that you define a method with
-an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
   
 
   
     Note:
-    Because subject is designed to create state that is reset
-between each example, and before(:context) is designed to setup
-state that is shared across all examples in an example group,
-subject is not intended to be used in a before(:context) hook.
+    Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
   
 

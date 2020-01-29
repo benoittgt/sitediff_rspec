@@ -61,29 +61,17 @@ Module: RSpec::Mocks::ExampleMethods
 
 OverviewOverview
   
-    Contains methods intended to be used from within code examples.
-Mix this in to your test context (such as a test framework base class)
-to use rspec-mocks with your test framework. If you're using rspec-core,
-it'll take care of doing this for you.Contains methods intended to be used from within code examples.
-Mix this in to your test context (such as a test framework base class)
-to use rspec-mocks with your test framework. If you're using rspec-core,
-it'll take care of doing this for you.
+    Contains methods intended to be used from within code examples. Mix this in to your test context (such as a test framework base class) to use rspec-mocks with your test framework. If you're using rspec-core, it'll take care of doing this for you.Contains methods intended to be used from within code examples. Mix this in to your test context (such as a test framework base class) to use rspec-mocks with your test framework. If you're using rspec-core, it'll take care of doing this for you.
 
 
   
-    Contains methods intended to be used from within code examples.
-Mix this in to your test context (such as a test framework base class)
-to use rspec-mocks with your test framework. If you're using rspec-core,
-it'll take care of doing this for you.
+    Contains methods intended to be used from within code examples. Mix this in to your test context (such as a test framework base class) to use rspec-mocks with your test framework. If you're using rspec-core, it'll take care of doing this for you.
 
 
   
 
   
-    Contains methods intended to be used from within code examples.
-Mix this in to your test context (such as a test framework base class)
-to use rspec-mocks with your test framework. If you're using rspec-core,
-it'll take care of doing this for you.
+    Contains methods intended to be used from within code examples. Mix this in to your test context (such as a test framework base class) to use rspec-mocks with your test framework. If you're using rspec-core, it'll take care of doing this for you.
 
 
   
@@ -273,7 +261,7 @@ Constructs a test double against a specific class.
   
 
   
-    Constructs a test double that is optimized for use with have_receivedhave_received against a specific class.Constructs a test double that is optimized for use with have_received against a specific class.
+    Constructs a test double that is optimized for use with have_received against a specific class.Constructs a test double that is optimized for use with have_received against a specific class.
 Constructs a test double that is optimized for use with have_received against a specific class.
 Constructs a test double that is optimized for use with have_received against a specific class.
 
@@ -306,7 +294,7 @@ Constructs a test double that is optimized for use with have_received against a 
   
 
   
-    Constructs an instance of RSpec::Mocks::DoubleRSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
@@ -504,7 +492,7 @@ Constructs a test double against a specific class.
   
 
   
-    Constructs a test double that is optimized for use with have_receivedhave_received against a specific class.Constructs a test double that is optimized for use with have_received against a specific class.
+    Constructs a test double that is optimized for use with have_received against a specific class.Constructs a test double that is optimized for use with have_received against a specific class.
 Constructs a test double that is optimized for use with have_received against a specific class.
 Constructs a test double that is optimized for use with have_received against a specific class.
 
@@ -570,7 +558,7 @@ Constructs a test double against a specific object.
   
 
   
-    Constructs a test double that is optimized for use with have_receivedhave_received against a specific object.Constructs a test double that is optimized for use with have_received against a specific object.
+    Constructs a test double that is optimized for use with have_received against a specific object.Constructs a test double that is optimized for use with have_received against a specific object.
 Constructs a test double that is optimized for use with have_received against a specific object.
 Constructs a test double that is optimized for use with have_received against a specific object.
 
@@ -702,7 +690,7 @@ Shorthand syntax used to setup message(s), and their return value(s), that you e
   
 
   
-    Constructs a test double that is optimized for use with have_receivedhave_received.Constructs a test double that is optimized for use with have_received.
+    Constructs a test double that is optimized for use with have_received.Constructs a test double that is optimized for use with have_received.
 Constructs a test double that is optimized for use with have_received.
 Constructs a test double that is optimized for use with have_received.
 
@@ -1158,7 +1146,7 @@ Turns off the verifying of partial doubles for the duration of the block, this i
     
   
     Note:Note:
-    If you disable the :expect:expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
+    If you disable the :expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
 If you disable the :expect syntax this method will be undefined.
 
   
@@ -1167,9 +1155,7 @@ If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -1180,8 +1166,7 @@ on it.
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -1194,8 +1179,7 @@ on it.
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -1293,8 +1277,7 @@ on it.
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -1333,7 +1316,7 @@ on it.
     
   
     Note:Note:
-    This is only available when you have enabled the expectexpect syntax.This is only available when you have enabled the expect syntax.
+    This is only available when you have enabled the expect syntax.This is only available when you have enabled the expect syntax.
 This is only available when you have enabled the expect syntax.
 
   
@@ -1342,9 +1325,7 @@ This is only available when you have enabled the expect syntax.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -1355,8 +1336,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -1369,8 +1349,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -1468,8 +1447,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -1511,11 +1489,7 @@ Deprecated. Use Configuration#allow_message_expectations_on_nil instead.
 
 Disables warning messages about expectations being set on nil.Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -1523,9 +1497,7 @@ early on.
 
 Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -1535,9 +1507,7 @@ early on.
 
 Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -1630,9 +1600,7 @@ end
 
 Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -1664,29 +1632,17 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-doubledouble.Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
 
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -2934,10 +2890,7 @@ end
 
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -3173,37 +3126,17 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_receivedhave_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
@@ -4441,12 +4374,7 @@ end
 
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
@@ -4680,25 +4608,17 @@ end
       
   
   
-    Constructs an instance of RSpec::Mocks::DoubleRSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
-    Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
 
   
-    Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
@@ -5581,9 +5501,7 @@ end
 
   
   
-    Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
@@ -5767,45 +5685,27 @@ end
     
   
     Note:Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect:expect syntax
-this method will be undefined.This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
-This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
+This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
     
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
@@ -5814,15 +5714,11 @@ on it.
     
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
@@ -5916,15 +5812,11 @@ on it.
     
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
@@ -5963,7 +5855,7 @@ on it.
     
   
     Note:Note:
-    If you disable the :expect:expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
+    If you disable the :expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
 If you disable the :expect syntax this method will be undefined.
 
   
@@ -5972,9 +5864,7 @@ If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -5985,8 +5875,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -5999,8 +5888,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -6098,8 +5986,7 @@ on instances of it.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -6138,48 +6025,31 @@ on instances of it.
     
   
     Note:Note:
-    have_received(...).with(...)have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
-have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
+have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
     
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
@@ -6188,18 +6058,13 @@ Test Spy pattern.
     
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
@@ -6253,11 +6118,8 @@ Parameters:Parameters:
       
       
         —
-        name of the method expected to have been
-called.name of the method expected to have been
-called.
-name of the method expected to have been
-called.
+        name of the method expected to have been called.name of the method expected to have been called.
+name of the method expected to have been called.
 
       
     
@@ -6270,8 +6132,7 @@ called.
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -6288,8 +6149,7 @@ called.
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -6324,8 +6184,7 @@ Parameters:
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -6414,18 +6273,13 @@ end
     
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
@@ -6457,8 +6311,7 @@ Parameters:
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -6490,31 +6343,23 @@ end
       
   
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
 
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
@@ -6547,11 +6392,8 @@ Parameters:Parameters:
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
-The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
+The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -6564,8 +6406,7 @@ The current constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -6582,8 +6423,7 @@ The current constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -6613,8 +6453,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -6700,11 +6539,9 @@ end
 
   
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
@@ -6731,8 +6568,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -6764,29 +6600,17 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-doubledouble.Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
 
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -8034,10 +7858,7 @@ end
 
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -8273,37 +8094,17 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_receivedhave_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
@@ -9541,12 +9342,7 @@ end
 
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
@@ -9780,29 +9576,17 @@ end
       
   
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a doubledouble.Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
 
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
@@ -11050,10 +10834,7 @@ end
 
   
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
@@ -11289,33 +11070,17 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_receivedhave_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
 
   
-    Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
@@ -12553,11 +12318,7 @@ end
 
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
@@ -12794,7 +12555,7 @@ end
     
   
     Note:Note:
-    If you disable the :expect:expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
+    If you disable the :expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
 If you disable the :expect syntax this method will be undefined.
 
   
@@ -12803,15 +12564,7 @@ If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receivereceive supports the same
-fluent interface that should_receiveshould_receive and stubstub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -12822,11 +12575,7 @@ times, and configure how the object should respond to the message.
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -12839,11 +12588,7 @@ times, and configure how the object should respond to the message.
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -12941,11 +12686,7 @@ times, and configure how the object should respond to the message.
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -12984,7 +12725,7 @@ times, and configure how the object should respond to the message.
     
   
     Note:Note:
-    If you disable the :expect:expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
+    If you disable the :expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
 If you disable the :expect syntax this method will be undefined.
 
   
@@ -12997,19 +12738,7 @@ stubs/mocks a chain of messages on an object or test double.stubs/mocks a chain 
 
 Warning:Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chainreceive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chainreceive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37)allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.barfoo.baz.bar, the stub will not work.Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -13024,13 +12753,7 @@ stubs/mocks a chain of messages on an object or test double.
 
 Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -13047,13 +12770,7 @@ stubs/mocks a chain of messages on an object or test double.
 
 Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -13198,13 +12915,7 @@ stubs/mocks a chain of messages on an object or test double.
 
 Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -13251,7 +12962,7 @@ allow(Article).to receive_message_chain("recent.published") { [Article.new] }
     
   
     Note:Note:
-    If you disable the :expect:expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
+    If you disable the :expect syntax this method will be undefined.If you disable the :expect syntax this method will be undefined.
 If you disable the :expect syntax this method will be undefined.
 
   
@@ -13260,15 +12971,7 @@ If you disable the :expect syntax this method will be undefined.
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receivereceive,
-you cannot apply further customizations using a block or the fluent
-interface.Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -13279,11 +12982,7 @@ interface.
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -13296,11 +12995,7 @@ interface.
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -13403,11 +13098,7 @@ allow(obj).to receive_messages(:speak => "Hello", :meow => "Meow")
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -13444,25 +13135,17 @@ allow(obj).to receive_messages(:speak => "Hello", :meow => "Meow")
       
   
   
-    Constructs a test double that is optimized for use with
-have_receivedhave_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
-    Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
 
   
-    Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
@@ -14296,9 +13979,7 @@ end
 
   
   
-    Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
@@ -14466,29 +14147,17 @@ end
       
   
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
 
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
@@ -14600,11 +14269,8 @@ Parameters:Parameters:
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
-The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
+The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -14617,8 +14283,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -14633,11 +14298,8 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
-The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
+The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -14650,8 +14312,7 @@ example completes, the constant will be restored to its prior state.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -14701,8 +14362,7 @@ Stubbing options.
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -14717,8 +14377,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -14761,17 +14420,8 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
-Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
+Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -14781,10 +14431,7 @@ the original and new values are modules (or classes).
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -14798,10 +14445,7 @@ the original and new values are modules (or classes).
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -14894,8 +14538,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -14910,8 +14553,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -14952,10 +14594,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -15059,10 +14698,7 @@ end
 
   
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
@@ -15107,8 +14743,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -15123,8 +14758,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -15165,10 +14799,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -15218,29 +14849,17 @@ end
       
   
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   
 
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   
@@ -15369,10 +14988,7 @@ end
 
   
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   
@@ -15423,8 +15039,7 @@ end
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -15467,8 +15082,7 @@ on it.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -15508,9 +15122,7 @@ on instances of it.
 
 Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -15542,10 +15154,7 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -15781,12 +15390,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
@@ -16020,9 +15624,7 @@ end
       
   
   
-    Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
@@ -16206,15 +15808,11 @@ end
     
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
@@ -16257,8 +15855,7 @@ on it.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -16297,18 +15894,13 @@ on instances of it.
     
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
@@ -16340,8 +15932,7 @@ Parameters:
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -16373,11 +15964,9 @@ end
       
   
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
@@ -16404,8 +15993,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -16437,10 +16025,7 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -16676,12 +16261,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
@@ -16915,10 +16495,7 @@ end
       
   
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
@@ -17154,11 +16731,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
@@ -17399,11 +16972,7 @@ end
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -17450,13 +17019,7 @@ stubs/mocks a chain of messages on an object or test double.
 
 Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -17507,11 +17070,7 @@ allow(Article).to receive_message_chain("recent.published") { [Article.new] }
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -17548,9 +17107,7 @@ allow(obj).to receive_messages(:speak => "Hello", :meow => "Meow")
       
   
   
-    Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
@@ -17718,10 +17275,7 @@ end
       
   
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
@@ -17766,8 +17320,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -17782,8 +17335,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -17824,10 +17376,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -17877,10 +17426,7 @@ end
       
   
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   
@@ -17950,10 +17496,7 @@ Module: RSpec::Mocks::ExampleMethods
 
 Overview
   
-    Contains methods intended to be used from within code examples.
-Mix this in to your test context (such as a test framework base class)
-to use rspec-mocks with your test framework. If you're using rspec-core,
-it'll take care of doing this for you.
+    Contains methods intended to be used from within code examples. Mix this in to your test context (such as a test framework base class) to use rspec-mocks with your test framework. If you're using rspec-core, it'll take care of doing this for you.
 
 
   
@@ -18356,8 +17899,7 @@ Defined Under Namespace
 
   
 
-Used to wrap an object in preparation for stubbing a method
-on it.
+Used to wrap an object in preparation for stubbing a method on it.
 
 
   
@@ -18400,8 +17942,7 @@ on it.
 
   
 
-Used to wrap a class in preparation for stubbing a method
-on instances of it.
+Used to wrap a class in preparation for stubbing a method on instances of it.
 
 
   
@@ -18441,9 +17982,7 @@ on instances of it.
 
 Disables warning messages about expectations being set on nil.
 
-By default warning messages are issued when expectations are set on
-nil.  This is to prevent false-positives and to catch potential bugs
-early on.
+By default warning messages are issued when expectations are set on nil.  This is to prevent false-positives and to catch potential bugs early on.
 
 
   
@@ -18475,10 +18014,7 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only class methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -18714,12 +18250,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded,
-only class methods defined on the class are allowed to be stubbed.
-With a normal double one has to stub methods in order to be able to spy
-them. An class_spy automatically spies on all class methods to which the
-class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only class methods defined on the class are allowed to be stubbed. With a normal double one has to stub methods in order to be able to spy them. An class_spy automatically spies on all class methods to which the class responds.
 
 
   
@@ -18953,9 +18484,7 @@ end
       
   
   
-    Constructs an instance of RSpec::Mocks::Double configured
-with an optional name, used for reporting in failure messages, and an optional
-hash of message/return-value pairs.
+    Constructs an instance of RSpec::Mocks::Double configured with an optional name, used for reporting in failure messages, and an optional hash of message/return-value pairs.
 
 
   
@@ -19139,15 +18668,11 @@ end
     
   
     Note:
-    This method is usually provided by rspec-expectations. However,
-if you use rspec-mocks without rspec-expectations, there's a definition
-of it that is made available here. If you disable the :expect syntax
-this method will be undefined.
+    This method is usually provided by rspec-expectations. However, if you use rspec-mocks without rspec-expectations, there's a definition of it that is made available here. If you disable the :expect syntax this method will be undefined.
 
   
 
-Used to wrap an object in preparation for setting a mock expectation
-on it.
+Used to wrap an object in preparation for setting a mock expectation on it.
 
 
   
@@ -19190,8 +18715,7 @@ on it.
 
   
 
-Used to wrap a class in preparation for setting a mock expectation
-on instances of it.
+Used to wrap a class in preparation for setting a mock expectation on instances of it.
 
 
   
@@ -19230,18 +18754,13 @@ on instances of it.
     
   
     Note:
-    have_received(...).with(...) is unable to work properly when
-passed arguments are mutated after the spy records the received message.
+    have_received(...).with(...) is unable to work properly when passed arguments are mutated after the spy records the received message.
 
   
 
-Verifies that the given object received the expected message during the
-course of the test. On a spy objects or as null object doubles this
-works for any method, on other objects the method must have
-been stubbed beforehand in order for messages to be verified.
+Verifies that the given object received the expected message during the course of the test. On a spy objects or as null object doubles this works for any method, on other objects the method must have been stubbed beforehand in order for messages to be verified.
 
-Stubbing and verifying messages received in this way implements the
-Test Spy pattern.
+Stubbing and verifying messages received in this way implements the Test Spy pattern.
 
 
   
@@ -19273,8 +18792,7 @@ Parameters:
       
       
         —
-        name of the method expected to have been
-called.
+        name of the method expected to have been called.
 
       
     
@@ -19306,11 +18824,9 @@ end
       
   
   
-    Hides the named constant with the given value. The constant will be
-undefined for the duration of the test.
+    Hides the named constant with the given value. The constant will be undefined for the duration of the test.
 
-Like method stubs, the constant will be restored to its original value
-when the example completes.
+Like method stubs, the constant will be restored to its original value when the example completes.
 
 
   
@@ -19337,8 +18853,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant.
-The current constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -19370,10 +18885,7 @@ end
       
   
   
-    Constructs a test double against a specific class. If the given class
-name has been loaded, only instance methods defined on the class are
-allowed to be stubbed. In all other ways it behaves like a
-double.
+    Constructs a test double against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed. In all other ways it behaves like a double.
 
 
   
@@ -19609,12 +19121,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific class. If the given class name has been loaded, only
-instance methods defined on the class are allowed to be stubbed.  With
-a normal double one has to stub methods in order to be able to spy
-them. An instance_spy automatically spies on all instance methods to
-which the class responds.
+    Constructs a test double that is optimized for use with have_received against a specific class. If the given class name has been loaded, only instance methods defined on the class are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An instance_spy automatically spies on all instance methods to which the class responds.
 
 
   
@@ -19848,10 +19355,7 @@ end
       
   
   
-    Constructs a test double against a specific object. Only the methods
-the object responds to are allowed to be stubbed. If a String argument
-is provided, it is assumed to reference a constant object which is used
-for verification. In all other ways it behaves like a double.
+    Constructs a test double against a specific object. Only the methods the object responds to are allowed to be stubbed. If a String argument is provided, it is assumed to reference a constant object which is used for verification. In all other ways it behaves like a double.
 
 
   
@@ -20087,11 +19591,7 @@ end
       
   
   
-    Constructs a test double that is optimized for use with have_received
-against a specific object. Only instance methods defined on the object
-are allowed to be stubbed.  With a normal double one has to stub
-methods in order to be able to spy them. An object_spy automatically
-spies on all methods to which the object responds.
+    Constructs a test double that is optimized for use with have_received against a specific object. Only instance methods defined on the object are allowed to be stubbed.  With a normal double one has to stub methods in order to be able to spy them. An object_spy automatically spies on all methods to which the object responds.
 
 
   
@@ -20332,11 +19832,7 @@ end
 
   
 
-Used to specify a message that you expect or allow an object
-to receive. The object returned by receive supports the same
-fluent interface that should_receive and stub have always
-supported, allowing you to constrain the arguments or number of
-times, and configure how the object should respond to the message.
+Used to specify a message that you expect or allow an object to receive. The object returned by receive supports the same fluent interface that should_receive and stub have always supported, allowing you to constrain the arguments or number of times, and configure how the object should respond to the message.
 
 
   
@@ -20383,13 +19879,7 @@ stubs/mocks a chain of messages on an object or test double.
 
 Warning:
 
-Chains can be arbitrarily long, which makes it quite painless to
-violate the Law of Demeter in violent ways, so you should consider any
-use of receive_message_chain a code smell. Even though not all code smells
-indicate real problems (think fluent interfaces), receive_message_chain still
-results in brittle examples.  For example, if you write
-allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the
-implementation calls foo.baz.bar, the stub will not work.
+Chains can be arbitrarily long, which makes it quite painless to violate the Law of Demeter in violent ways, so you should consider any use of receive_message_chain a code smell. Even though not all code smells indicate real problems (think fluent interfaces), receive_message_chain still results in brittle examples.  For example, if you write allow(foo).to receive_message_chain(:bar, :baz => 37) in a spec and then the implementation calls foo.baz.bar, the stub will not work.
 
 
   
@@ -20440,11 +19930,7 @@ allow(Article).to receive_message_chain("recent.published") { [Article.new] }
 
   
 
-Shorthand syntax used to setup message(s), and their return value(s),
-that you expect or allow an object to receive. The method takes a hash
-of messages and their respective return values. Unlike with receive,
-you cannot apply further customizations using a block or the fluent
-interface.
+Shorthand syntax used to setup message(s), and their return value(s), that you expect or allow an object to receive. The method takes a hash of messages and their respective return values. Unlike with receive, you cannot apply further customizations using a block or the fluent interface.
 
 
   
@@ -20481,9 +19967,7 @@ allow(obj).to receive_messages(:speak => "Hello", :meow => "Meow")
       
   
   
-    Constructs a test double that is optimized for use with
-have_received. With a normal double one has to stub methods in order
-to be able to spy them. A spy automatically spies on all methods.
+    Constructs a test double that is optimized for use with have_received. With a normal double one has to stub methods in order to be able to spy them. A spy automatically spies on all methods.
 
 
   
@@ -20651,10 +20135,7 @@ end
       
   
   
-    Stubs the named constant with the given value.
-Like method stubs, the constant will be restored
-to its original value (or lack of one, if it was
-undefined) when the example completes.
+    Stubs the named constant with the given value. Like method stubs, the constant will be restored to its original value (or lack of one, if it was undefined) when the example completes.
 
 
   
@@ -20699,8 +20180,7 @@ Parameters:
       
       
         —
-        The fully qualified name of the constant. The current
-constant scoping at the point of call is not considered.
+        The fully qualified name of the constant. The current constant scoping at the point of call is not considered.
 
       
     
@@ -20715,8 +20195,7 @@ constant scoping at the point of call is not considered.
       
       
         —
-        The value to make the constant refer to. When the
-example completes, the constant will be restored to its prior state.
+        The value to make the constant refer to. When the example completes, the constant will be restored to its prior state.
 
       
     
@@ -20757,10 +20236,7 @@ example completes, the constant will be restored to its prior state.
             
           
           
-            — Determines
-what nested constants, if any, will be transferred from the original value
-of the constant to the new value of the constant. This only works if both
-the original and new values are modules (or classes).
+            — Determines what nested constants, if any, will be transferred from the original value of the constant to the new value of the constant. This only works if both the original and new values are modules (or classes).
 
           
         
@@ -20810,10 +20286,7 @@ end
       
   
   
-    Turns off the verifying of partial doubles for the duration of the
-block, this is useful in situations where methods are defined at run
-time and you wish to define stubs for them but not turn off partial
-doubles for the entire run suite. (e.g. view specs in rspec-rails).
+    Turns off the verifying of partial doubles for the duration of the block, this is useful in situations where methods are defined at run time and you wish to define stubs for them but not turn off partial doubles for the entire run suite. (e.g. view specs in rspec-rails).
 
 
   

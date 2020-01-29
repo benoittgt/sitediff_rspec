@@ -189,7 +189,7 @@ Delegates to ActionView::Base#render, so see documentation on that for more info
 
   
     Deprecated.Deprecated. 
-Use renderedrendered instead.Use rendered instead.
+Use rendered instead.Use rendered instead.
 
 Use rendered instead.
 Deprecated. 
@@ -263,7 +263,7 @@ Simulates the presence of a template on the file system by adding a Rails' Fixtu
 
   
     Deprecated.Deprecated. 
-Use viewview instead.Use view instead.
+Use view instead.Use view instead.
 
 Use view instead.
 Deprecated. 
@@ -300,7 +300,7 @@ Use view instead.
 
   
     
-The instance of ActionView::BaseActionView::Base that is used to render the template.The instance of ActionView::Base that is used to render the template.
+The instance of ActionView::Base that is used to render the template.The instance of ActionView::Base that is used to render the template.
 
 The instance of ActionView::Base that is used to render the template.
 
@@ -799,7 +799,7 @@ end
   
   
     Deprecated.Deprecated. 
-Use renderedrendered instead.Use rendered instead.
+Use rendered instead.Use rendered instead.
 
 Use rendered instead.
 Deprecated. 
@@ -1228,7 +1228,7 @@ end
   
   
     Deprecated.Deprecated. 
-Use viewview instead.Use view instead.
+Use view instead.Use view instead.
 
 Use view instead.
 Deprecated. 
@@ -1383,7 +1383,7 @@ end
   
   
     
-The instance of ActionView::BaseActionView::Base that is used to render the template. Use this to stub methods beforebefore calling renderrender.The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
+The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.
 
 describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo

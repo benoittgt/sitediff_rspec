@@ -120,25 +120,17 @@ Class: RSpec::Core::Formatters::BaseTextFormatter
 
 OverviewOverview
   
-    Base for all of RSpec's built-in formatters. See
-RSpec::Core::Formatters::BaseFormatter to learn more about all of the
-methods called by the reporter.Base for all of RSpec's built-in formatters. See
-RSpec::Core::Formatters::BaseFormatter to learn more about all of the
-methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
-    Base for all of RSpec's built-in formatters. See
-RSpec::Core::Formatters::BaseFormatter to learn more about all of the
-methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
 
   
-    Base for all of RSpec's built-in formatters. See
-RSpec::Core::Formatters::BaseFormatter to learn more about all of the
-methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
@@ -432,25 +424,17 @@ Used by the reporter to send messages to the output stream.
       
   
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
 
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -648,9 +632,7 @@ end
 
   
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -919,21 +901,17 @@ end
       
   
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
 
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -952,11 +930,8 @@ Each parameter is assigned to a corresponding attribute.
       
       
         —
-        containing duration,
-example_count, failure_count and pending_countcontaining duration,
-example_count, failure_count and pending_count
-containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_countcontaining duration, example_count, failure_count and pending_count
+containing duration, example_count, failure_count and pending_count
 
       
     
@@ -969,8 +944,7 @@ example_count, failure_count and pending_count
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -987,8 +961,7 @@ example_count, failure_count and pending_count
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1010,8 +983,7 @@ example_count, failure_count and pending_count
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1097,8 +1069,7 @@ end
 
   
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1117,8 +1088,7 @@ Each parameter is assigned to a corresponding attribute.
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1373,9 +1343,7 @@ end
       
   
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -1483,8 +1451,7 @@ end
       
   
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1503,8 +1470,7 @@ Each parameter is assigned to a corresponding attribute.
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1630,9 +1596,7 @@ Class: RSpec::Core::Formatters::BaseTextFormatter
 
 Overview
   
-    Base for all of RSpec's built-in formatters. See
-RSpec::Core::Formatters::BaseFormatter to learn more about all of the
-methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
@@ -1766,9 +1730,7 @@ methods called by the reporter.
       
   
   
-    Invoked at the end of a suite run. Allows the formatter to do any
-tidying up, but be aware that formatter output streams may be used
-elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -1876,8 +1838,7 @@ end
       
   
   
-    This method is invoked after the dumping of examples and failures.
-Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1896,8 +1857,7 @@ Each parameter is assigned to a corresponding attribute.
       
       
         —
-        containing duration,
-example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     

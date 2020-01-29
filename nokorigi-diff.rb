@@ -87,6 +87,7 @@ class DiffPage
     html = remove_selected_class_and_id_div(html)
     html = remove_collapse_expand_buttons(html)
     html = add_ending_dot(html)
+    html = remove_carriage_return_inline_block(html)
 
     text = []
     html.at_css("div#content").traverse do |node|
@@ -148,9 +149,17 @@ class DiffPage
 
   def add_ending_dot(html)
     html.css(".discussion p").map do |element|
-      if element.content.strip[-1] != "."
+      element.content = element.content.gsub("\n"," ")
+      if element.content[-1] != "."
         element.content = element.content + "."
       end
+    end
+    html
+  end
+
+  def remove_carriage_return_inline_block(html)
+    html.css(".inline p").map do |element|
+      element.content = element.content.gsub("\n"," ")
     end
     html
   end

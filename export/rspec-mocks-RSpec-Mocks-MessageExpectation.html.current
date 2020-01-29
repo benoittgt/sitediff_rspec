@@ -110,25 +110,17 @@ Class: RSpec::Mocks::MessageExpectation
 
 OverviewOverview
   
-    Represents an individual method stub or message expectation. The methods
-defined here can be used to configure how it behaves. The methods return
-selfself so that they can be chained together to form a fluent interface.Represents an individual method stub or message expectation. The methods
-defined here can be used to configure how it behaves. The methods return
-self so that they can be chained together to form a fluent interface.
+    Represents an individual method stub or message expectation. The methods defined here can be used to configure how it behaves. The methods return self so that they can be chained together to form a fluent interface.Represents an individual method stub or message expectation. The methods defined here can be used to configure how it behaves. The methods return self so that they can be chained together to form a fluent interface.
 
 
   
-    Represents an individual method stub or message expectation. The methods
-defined here can be used to configure how it behaves. The methods return
-self so that they can be chained together to form a fluent interface.
+    Represents an individual method stub or message expectation. The methods defined here can be used to configure how it behaves. The methods return self so that they can be chained together to form a fluent interface.
 
 
   
 
   
-    Represents an individual method stub or message expectation. The methods
-defined here can be used to configure how it behaves. The methods return
-self so that they can be chained together to form a fluent interface.
+    Represents an individual method stub or message expectation. The methods defined here can be used to configure how it behaves. The methods return self so that they can be chained together to form a fluent interface.
 
 
   
@@ -687,7 +679,7 @@ Expect a message to be received exactly three times.
   
 
   
-    Syntactic sugar for exactlyexactly, at_leastat_least and at_mostat_most.Syntactic sugar for exactly, at_least and at_most.
+    Syntactic sugar for exactly, at_least and at_most.Syntactic sugar for exactly, at_least and at_most.
 Syntactic sugar for exactly, at_least and at_most.
 Syntactic sugar for exactly, at_least and at_most.
 
@@ -1074,9 +1066,7 @@ This is only available on partial doubles.
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -1087,8 +1077,7 @@ when it receives the message.
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -1101,8 +1090,7 @@ when it receives the message.
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -1316,8 +1304,7 @@ end
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -1384,28 +1371,12 @@ end
     
   
     Note:Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exceptionexception and passing messagemessage
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
-When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
+When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -1416,11 +1387,7 @@ Tells the object to raise an exception when the message is received.Tells the ob
     
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -1433,11 +1400,7 @@ Tells the object to raise an exception when the message is received.
     
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -1651,11 +1614,7 @@ end
     
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -1723,39 +1682,23 @@ end
       
   
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
 
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
@@ -2114,13 +2057,9 @@ end
 
   
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
@@ -2213,21 +2152,17 @@ end
       
   
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
 
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
@@ -2424,8 +2359,7 @@ end
 
   
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
@@ -2499,13 +2433,7 @@ This is only available on partial doubles.
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -2516,10 +2444,7 @@ change what args are passed to it and/or change the return value.
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -2532,10 +2457,7 @@ change what args are passed to it and/or change the return value.
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -2724,10 +2646,7 @@ end
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -2786,21 +2705,17 @@ end
       
   
   
-    Tells the object to yield one or more args to a block when the message
-is received.Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.Tells the object to yield one or more args to a block when the message is received.
 
 
   
-    Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.
 
 
   
 
   
-    Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.
 
 
   
@@ -3108,8 +3023,7 @@ end
 
   
   
-    Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.
 
 
   
@@ -3197,21 +3111,17 @@ end
       
   
   
-    Constrain a message expectation to be received at least a specific
-number of times.Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.Constrain a message expectation to be received at least a specific number of times.
 
 
   
-    Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.
 
 
   
 
   
-    Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.
 
 
   
@@ -3473,8 +3383,7 @@ end
 
   
   
-    Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.
 
 
   
@@ -3549,21 +3458,17 @@ end
       
   
   
-    Constrain a message expectation to be received at most a specific
-number of times.Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.Constrain a message expectation to be received at most a specific number of times.
 
 
   
-    Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.
 
 
   
 
   
-    Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.
 
 
   
@@ -3765,8 +3670,7 @@ end
 
   
   
-    Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.
 
 
   
@@ -3829,21 +3733,17 @@ end
       
   
   
-    Constrain a message expectation to be received a specific number of
-times.Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.Constrain a message expectation to be received a specific number of times.
 
 
   
-    Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.
 
 
   
 
   
-    Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.
 
 
   
@@ -4045,8 +3945,7 @@ end
 
   
   
-    Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.
 
 
   
@@ -6052,45 +5951,29 @@ end
       
   
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using withwith to constrain to specific arguments.With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.A message expectation will fail if the message is received with different arguments.
 
 
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.
 
 
   
 
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.
 
 
   
@@ -6400,15 +6283,11 @@ end
 
   
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.
 
 
   
@@ -6503,8 +6382,7 @@ end
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -6571,11 +6449,7 @@ end
     
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -6643,13 +6517,9 @@ end
       
   
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
@@ -6742,8 +6612,7 @@ end
       
   
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
@@ -6812,10 +6681,7 @@ end
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -6874,8 +6740,7 @@ end
       
   
   
-    Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.
 
 
   
@@ -6963,8 +6828,7 @@ end
       
   
   
-    Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.
 
 
   
@@ -7039,8 +6903,7 @@ end
       
   
   
-    Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.
 
 
   
@@ -7103,8 +6966,7 @@ end
       
   
   
-    Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.
 
 
   
@@ -7608,15 +7470,11 @@ end
       
   
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.
 
 
   
@@ -7741,9 +7599,7 @@ Class: RSpec::Mocks::MessageExpectation
 
 Overview
   
-    Represents an individual method stub or message expectation. The methods
-defined here can be used to configure how it behaves. The methods return
-self so that they can be chained together to form a fluent interface.
+    Represents an individual method stub or message expectation. The methods defined here can be used to configure how it behaves. The methods return self so that they can be chained together to form a fluent interface.
 
 
   
@@ -8102,8 +7958,7 @@ self so that they can be chained together to form a fluent interface.
 
   
 
-Tells the object to delegate to the original unmodified method
-when it receives the message.
+Tells the object to delegate to the original unmodified method when it receives the message.
 
 
   
@@ -8170,11 +8025,7 @@ end
     
   
     Note:
-    When you pass an exception class, the MessageExpectation will raise
-an instance of it, creating it with exception and passing message
-if specified.  If the exception class initializer requires more than
-one parameters, you must pass in an instance and not the class,
-otherwise this method will raise an ArgumentError exception.
+    When you pass an exception class, the MessageExpectation will raise an instance of it, creating it with exception and passing message if specified.  If the exception class initializer requires more than one parameters, you must pass in an instance and not the class, otherwise this method will raise an ArgumentError exception.
 
   
 
@@ -8242,13 +8093,9 @@ end
       
   
   
-    Tells the object to return a value when it receives the message.  Given
-more than one value, the first value is returned the first time the
-message is received, the second value is returned the next time, etc,
-etc.
+    Tells the object to return a value when it receives the message.  Given more than one value, the first value is returned the first time the message is received, the second value is returned the next time, etc, etc.
 
-If the message is received more times than there are values, the last
-value is received for every subsequent call.
+If the message is received more times than there are values, the last value is received for every subsequent call.
 
 
   
@@ -8341,8 +8188,7 @@ end
       
   
   
-    Tells the object to throw a symbol (with the object if that form is
-used) when the message is received.
+    Tells the object to throw a symbol (with the object if that form is used) when the message is received.
 
 
   
@@ -8411,10 +8257,7 @@ end
 
   
 
-Decorates the stubbed method with the supplied block. The original
-unmodified method is passed to the block along with any method call
-arguments so you can delegate to it, whilst still being able to
-change what args are passed to it and/or change the return value.
+Decorates the stubbed method with the supplied block. The original unmodified method is passed to the block along with any method call arguments so you can delegate to it, whilst still being able to change what args are passed to it and/or change the return value.
 
 
   
@@ -8473,8 +8316,7 @@ end
       
   
   
-    Tells the object to yield one or more args to a block when the message
-is received.
+    Tells the object to yield one or more args to a block when the message is received.
 
 
   
@@ -8562,8 +8404,7 @@ end
       
   
   
-    Constrain a message expectation to be received at least a specific
-number of times.
+    Constrain a message expectation to be received at least a specific number of times.
 
 
   
@@ -8638,8 +8479,7 @@ end
       
   
   
-    Constrain a message expectation to be received at most a specific
-number of times.
+    Constrain a message expectation to be received at most a specific number of times.
 
 
   
@@ -8702,8 +8542,7 @@ end
       
   
   
-    Constrain a message expectation to be received a specific number of
-times.
+    Constrain a message expectation to be received a specific number of times.
 
 
   
@@ -9207,15 +9046,11 @@ end
       
   
   
-    Constrains a stub or message expectation to invocations with specific
-arguments.
+    Constrains a stub or message expectation to invocations with specific arguments.
 
-With a stub, if the message might be received with other args as well,
-you should stub a default value first, and then stub or mock the same
-message using with to constrain to specific arguments.
+With a stub, if the message might be received with other args as well, you should stub a default value first, and then stub or mock the same message using with to constrain to specific arguments.
 
-A message expectation will fail if the message is received with different
-arguments.
+A message expectation will fail if the message is received with different arguments.
 
 
   

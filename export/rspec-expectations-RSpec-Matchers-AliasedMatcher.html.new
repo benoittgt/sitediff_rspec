@@ -120,56 +120,20 @@ Class: RSpec::Matchers::AliasedMatcher
 
 OverviewOverview
   
-    
-  This class is part of a private API.This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-Decorator that wraps a matcher and overrides descriptiondescription
-using the provided block in order to support an alias
-of a matcher. This is intended for use when composing
-matchers, so that you can use an expression like
-include( a_value_within(0.1).of(3) )include( a_value_within(0.1).of(3) ) rather than
-include( be_within(0.1).of(3) )include( be_within(0.1).of(3) ), and have the corresponding
-description read naturally.Decorator that wraps a matcher and overrides description
-using the provided block in order to support an alias
-of a matcher. This is intended for use when composing
-matchers, so that you can use an expression like
-include( a_value_within(0.1).of(3) ) rather than
-include( be_within(0.1).of(3) ), and have the corresponding
-description read naturally.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .   This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+Decorator that wraps a matcher and overrides description using the provided block in order to support an alias of a matcher. This is intended for use when composing matchers, so that you can use an expression like include( a_value_within(0.1).of(3) ) rather than include( be_within(0.1).of(3) ), and have the corresponding description read naturally.Decorator that wraps a matcher and overrides description using the provided block in order to support an alias of a matcher. This is intended for use when composing matchers, so that you can use an expression like include( a_value_within(0.1).of(3) ) rather than include( be_within(0.1).of(3) ), and have the corresponding description read naturally.
 
 
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-Decorator that wraps a matcher and overrides description
-using the provided block in order to support an alias
-of a matcher. This is intended for use when composing
-matchers, so that you can use an expression like
-include( a_value_within(0.1).of(3) ) rather than
-include( be_within(0.1).of(3) ), and have the corresponding
-description read naturally.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+Decorator that wraps a matcher and overrides description using the provided block in order to support an alias of a matcher. This is intended for use when composing matchers, so that you can use an expression like include( a_value_within(0.1).of(3) ) rather than include( be_within(0.1).of(3) ), and have the corresponding description read naturally.
 
 
   
 
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-Decorator that wraps a matcher and overrides description
-using the provided block in order to support an alias
-of a matcher. This is intended for use when composing
-matchers, so that you can use an expression like
-include( a_value_within(0.1).of(3) ) rather than
-include( be_within(0.1).of(3) ), and have the corresponding
-description read naturally.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+Decorator that wraps a matcher and overrides description using the provided block in order to support an alias of a matcher. This is intended for use when composing matchers, so that you can use an expression like include( a_value_within(0.1).of(3) ) rather than include( be_within(0.1).of(3) ), and have the corresponding description read naturally.
 
 
   
@@ -482,31 +446,19 @@ Forward messages on to the wrapped matcher.
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.Returns a new instance of AliasedMatcher.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.
 
 
@@ -606,10 +558,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.
 
 
@@ -647,10 +596,7 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.
 
 
@@ -696,52 +642,20 @@ end
     
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to descriptiondescription,
-so that our override can be applied when it is eventually
-used.Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
@@ -850,16 +764,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
@@ -902,16 +808,8 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
@@ -954,44 +852,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
@@ -1080,14 +954,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
@@ -1119,44 +987,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
@@ -1245,14 +1089,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
@@ -1284,44 +1122,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   
@@ -1410,14 +1224,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   
@@ -1453,14 +1261,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
@@ -1492,14 +1294,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
@@ -1531,14 +1327,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   
@@ -1613,17 +1403,8 @@ Class: RSpec::Matchers::AliasedMatcher
 
 Overview
   
-    
-  This class is part of a private API.
-  You should avoid using this class if possible, as it may be removed or be changed in the future.
-
-Decorator that wraps a matcher and overrides description
-using the provided block in order to support an alias
-of a matcher. This is intended for use when composing
-matchers, so that you can use an expression like
-include( a_value_within(0.1).of(3) ) rather than
-include( be_within(0.1).of(3) ), and have the corresponding
-description read naturally.
+       This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
+Decorator that wraps a matcher and overrides description using the provided block in order to support an alias of a matcher. This is intended for use when composing matchers, so that you can use an expression like include( a_value_within(0.1).of(3) ) rather than include( be_within(0.1).of(3) ), and have the corresponding description read naturally.
 
 
   
@@ -1759,10 +1540,7 @@ description read naturally.
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns a new instance of AliasedMatcher.
 
 
@@ -1805,16 +1583,8 @@ end
     
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Forward messages on to the wrapped matcher.
-Since many matchers provide a fluent interface
-(e.g. a_value_within(0.1).of(3)), we need to wrap
-the returned value if it responds to description,
-so that our override can be applied when it is eventually
-used.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Forward messages on to the wrapped matcher. Since many matchers provide a fluent interface (e.g. a_value_within(0.1).of(3)), we need to wrap the returned value if it responds to description, so that our override can be applied when it is eventually used.
 
 
   
@@ -1857,14 +1627,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the description of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The description is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the description of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The description is different to reflect the aliased name.
 
 
   
@@ -1896,14 +1660,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message is different to reflect the aliased name.
 
 
   
@@ -1935,14 +1693,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Provides the failure_message_when_negated of the aliased matcher. Aliased matchers
-are designed to behave identically to the original matcher except
-for the description and failure messages. The failure_message_when_negated is different
-to reflect the aliased name.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Provides the failure_message_when_negated of the aliased matcher. Aliased matchers are designed to behave identically to the original matcher except for the description and failure messages. The failure_message_when_negated is different to reflect the aliased name.
 
 
   

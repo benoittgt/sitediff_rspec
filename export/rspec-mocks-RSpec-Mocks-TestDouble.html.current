@@ -61,25 +61,17 @@ Module: RSpec::Mocks::TestDouble
 
 OverviewOverview
   
-    Implements the methods needed for a pure test double.  RSpec::Mocks::Double
-includes this module, and it is provided for cases where you want a
-pure test double without subclassing RSpec::Mocks::Double.Implements the methods needed for a pure test double.  RSpec::Mocks::Double
-includes this module, and it is provided for cases where you want a
-pure test double without subclassing RSpec::Mocks::Double.
+    Implements the methods needed for a pure test double.  RSpec::Mocks::Double includes this module, and it is provided for cases where you want a pure test double without subclassing RSpec::Mocks::Double.Implements the methods needed for a pure test double.  RSpec::Mocks::Double includes this module, and it is provided for cases where you want a pure test double without subclassing RSpec::Mocks::Double.
 
 
   
-    Implements the methods needed for a pure test double.  RSpec::Mocks::Double
-includes this module, and it is provided for cases where you want a
-pure test double without subclassing RSpec::Mocks::Double.
+    Implements the methods needed for a pure test double.  RSpec::Mocks::Double includes this module, and it is provided for cases where you want a pure test double without subclassing RSpec::Mocks::Double.
 
 
   
 
   
-    Implements the methods needed for a pure test double.  RSpec::Mocks::Double
-includes this module, and it is provided for cases where you want a
-pure test double without subclassing RSpec::Mocks::Double.
+    Implements the methods needed for a pure test double.  RSpec::Mocks::Double includes this module, and it is provided for cases where you want a pure test double without subclassing RSpec::Mocks::Double.
 
 
   
@@ -218,7 +210,7 @@ Override for default freeze implementation to prevent freezing of test doubles.
   
 
   
-    Creates a new test double with a namename (that will be used in error messages only).Creates a new test double with a name (that will be used in error messages only).
+    Creates a new test double with a name (that will be used in error messages only).Creates a new test double with a name (that will be used in error messages only).
 Creates a new test double with a name (that will be used in error messages only).
 Creates a new test double with a name (that will be used in error messages only).
 
@@ -251,7 +243,7 @@ Creates a new test double with a name (that will be used in error messages only)
   
 
   
-    Returns true if this object has received as_null_objectas_null_object.Returns true if this object has received as_null_object.
+    Returns true if this object has received as_null_object.Returns true if this object has received as_null_object.
 Returns true if this object has received as_null_object.
 Returns true if this object has received as_null_object.
 
@@ -1003,29 +995,17 @@ end
       
   
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
 
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
@@ -1114,10 +1094,7 @@ end
 
   
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
@@ -1149,25 +1126,17 @@ end
       
   
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
 
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
@@ -1256,9 +1225,7 @@ end
 
   
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
@@ -1290,21 +1257,17 @@ end
       
   
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
 
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
@@ -1403,8 +1366,7 @@ end
 
   
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
@@ -1438,21 +1400,17 @@ end
       
   
   
-    Creates a new test double with a name (that will be used in error
-messages only).Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).Creates a new test double with a name (that will be used in error messages only).
 
 
   
-    Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).
 
 
   
 
   
-    Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).
 
 
   
@@ -1611,8 +1569,7 @@ end
 
   
   
-    Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).
 
 
   
@@ -1850,10 +1807,7 @@ end
       
   
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
@@ -1885,9 +1839,7 @@ end
       
   
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
@@ -1919,8 +1871,7 @@ end
       
   
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
@@ -1954,8 +1905,7 @@ end
       
   
   
-    Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).
 
 
   
@@ -2076,9 +2026,7 @@ Module: RSpec::Mocks::TestDouble
 
 Overview
   
-    Implements the methods needed for a pure test double.  RSpec::Mocks::Double
-includes this module, and it is provided for cases where you want a
-pure test double without subclassing RSpec::Mocks::Double.
+    Implements the methods needed for a pure test double.  RSpec::Mocks::Double includes this module, and it is provided for cases where you want a pure test double without subclassing RSpec::Mocks::Double.
 
 
   
@@ -2304,10 +2252,7 @@ end
       
   
   
-    This allows for comparing the mock to other objects that proxy such as
-ActiveRecords belongs_to proxy objects. By making the other object run
-the comparison, we're sure the call gets delegated to the proxy
-target.
+    This allows for comparing the mock to other objects that proxy such as ActiveRecords belongs_to proxy objects. By making the other object run the comparison, we're sure the call gets delegated to the proxy target.
 
 
   
@@ -2339,9 +2284,7 @@ end
       
   
   
-    Tells the object to respond to all messages. If specific stub values
-are declared, they'll work as expected. If not, the receiver is
-returned.
+    Tells the object to respond to all messages. If specific stub values are declared, they'll work as expected. If not, the receiver is returned.
 
 
   
@@ -2373,8 +2316,7 @@ end
       
   
   
-    Override for default freeze implementation to prevent freezing of test
-doubles.
+    Override for default freeze implementation to prevent freezing of test doubles.
 
 
   
@@ -2408,8 +2350,7 @@ end
       
   
   
-    Creates a new test double with a name (that will be used in error
-messages only).
+    Creates a new test double with a name (that will be used in error messages only).
 
 
   

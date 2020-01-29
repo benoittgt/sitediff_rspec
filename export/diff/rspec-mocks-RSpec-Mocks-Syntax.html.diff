@@ -1,8 +1,8 @@
 [1mdiff --git a/export/rspec-mocks-RSpec-Mocks-Syntax.html.current b/export/rspec-mocks-RSpec-Mocks-Syntax.html.new[m
-[1mindex 1ec994d..5cd2ce9 100644[m
+[1mindex 5ac3aa3..a5eea29 100644[m
 [1m--- a/export/rspec-mocks-RSpec-Mocks-Syntax.html.current[m
 [1m+++ b/export/rspec-mocks-RSpec-Mocks-Syntax.html.new[m
-[36m@@ -582,8 +582,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+[36m@@ -554,8 +554,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181# File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -12,7 +12,7 @@
  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
  # yet `BasicObject` still exists and patching onto ::Object breaks things[m
-[36m@@ -612,8 +612,7 @@[m [mdefdef selfself..default_should_syntax_hostdefault_should_syntax_host[m
+[36m@@ -584,8 +584,7 @@[m [mdefdef selfself..default_should_syntax_hostdefault_should_syntax_host[m
    ::::BasicObjectBasicObject[m
  endend# File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -22,7 +22,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -635,8 +635,7 @@[m [mend[m
+[36m@@ -607,8 +607,7 @@[m [mend[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -32,7 +32,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -685,8 +685,7 @@[m [mend[m
+[36m@@ -657,8 +657,7 @@[m [mend[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -42,7 +42,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -737,8 +737,7 @@[m [mend[m
+[36m@@ -709,8 +709,7 @@[m [mend[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -52,7 +52,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -805,8 +805,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+[36m@@ -774,8 +774,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -62,7 +62,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -3321,8 +3321,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+[36m@@ -3197,8 +3197,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m
@@ -72,7 +72,7 @@
    # yet `BasicObject` still exists and patching onto ::Object breaks things[m
    # e.g. SimpleDelegator expectations won't work[m
    #[m
-[36m@@ -4055,8 +4055,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+[36m@@ -3906,8 +3906,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
      [m
        # File 'lib/rspec/mocks/syntax.rb', line 181[m
  [m

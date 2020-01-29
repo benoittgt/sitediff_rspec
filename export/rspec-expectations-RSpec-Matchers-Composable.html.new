@@ -61,25 +61,17 @@ Module: RSpec::Matchers::Composable
 
 OverviewOverview
   
-    Mixin designed to support the composable matcher features
-of RSpec 3+. Mix it into your custom matcher classes to
-allow them to be used in a composable fashion.Mixin designed to support the composable matcher features
-of RSpec 3+. Mix it into your custom matcher classes to
-allow them to be used in a composable fashion.
+    Mixin designed to support the composable matcher features of RSpec 3+. Mix it into your custom matcher classes to allow them to be used in a composable fashion.Mixin designed to support the composable matcher features of RSpec 3+. Mix it into your custom matcher classes to allow them to be used in a composable fashion.
 
 
   
-    Mixin designed to support the composable matcher features
-of RSpec 3+. Mix it into your custom matcher classes to
-allow them to be used in a composable fashion.
+    Mixin designed to support the composable matcher features of RSpec 3+. Mix it into your custom matcher classes to allow them to be used in a composable fashion.
 
 
   
 
   
-    Mixin designed to support the composable matcher features
-of RSpec 3+. Mix it into your custom matcher classes to
-allow them to be used in a composable fashion.
+    Mixin designed to support the composable matcher features of RSpec 3+. Mix it into your custom matcher classes to allow them to be used in a composable fashion.
 
 
   
@@ -170,7 +162,7 @@ We should enumerate arrays as long as they are not recursive.
   
 
   
-    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect#inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect#inspect output.Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
@@ -296,7 +288,7 @@ Transforms the given data structue (typically a hash or array) into a new data s
   
 
   
-    Delegates to #matches?#matches?.Delegates to #matches?.
+    Delegates to #matches?.Delegates to #matches?.
 Delegates to #matches?.
 Delegates to #matches?.
 
@@ -329,7 +321,7 @@ Delegates to #matches?.
   
 
   
-    Creates a compound andand expectation.Creates a compound and expectation.
+    Creates a compound and expectation.Creates a compound and expectation.
 Creates a compound and expectation.
 Creates a compound and expectation.
 
@@ -395,7 +387,7 @@ Returns the description of the given object in a way that is aware of composed m
   
 
   
-    Creates a compound oror expectation.Creates a compound or expectation.
+    Creates a compound or expectation.Creates a compound or expectation.
 Creates a compound or expectation.
 Creates a compound or expectation.
 
@@ -549,31 +541,19 @@ This provides a generic way to fuzzy-match an expected value against an actual v
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.We should enumerate arrays as long as they are not recursive.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.
 
 
@@ -707,10 +687,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.
 
 
@@ -756,51 +733,23 @@ end
       
   
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect#inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect#inspect output.Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-descriptiondescription, failure_messagefailure_message or
-failure_message_when_negatedfailure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
 
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
@@ -989,16 +938,9 @@ end
 
   
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
@@ -1050,29 +992,17 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -1246,10 +1176,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -1306,10 +1233,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.
 
 
@@ -1355,16 +1279,9 @@ end
       
   
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
@@ -1416,10 +1333,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -1478,21 +1392,17 @@ end
       
   
   
-    Delegates to #matches?#matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
-    Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
 
   
-    Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
@@ -1581,8 +1491,7 @@ end
 
   
   
-    Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
@@ -1617,41 +1526,27 @@ end
     
   
     Note:Note:
-    The negative form (expect(...).not_to matcher.and otherexpect(...).not_to matcher.and other)
-is not supported at this time.The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
-The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.The negative form (expect(...).not_to matcher.and other) is not supported at this time.
+The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound andand expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
     
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -1660,15 +1555,11 @@ chain of matchers.
     
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -1787,15 +1678,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -1836,47 +1723,23 @@ end
       
   
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a descriptiondescription method, returns the description; otherwise
-returns object.inspectobject.inspect.Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-descriptiondescription, failure_messagefailure_message or
-failure_message_when_negatedfailure_message_when_negated implementation if you are
-supporting matcher arguments.You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
 
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
@@ -1965,15 +1828,9 @@ end
 
   
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
@@ -2008,41 +1865,27 @@ end
     
   
     Note:Note:
-    The negative form (expect(...).not_to matcher.or otherexpect(...).not_to matcher.or other)
-is not supported at this time.The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
-The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.The negative form (expect(...).not_to matcher.or other) is not supported at this time.
+The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound oror expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
     
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -2051,15 +1894,11 @@ chain of matchers.
     
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -2178,15 +2017,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -2227,51 +2062,23 @@ end
       
   
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eqeq matcher does notdoes not use this as it is meant to
-use ==== (and only ====) for matching.Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   
 
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   
@@ -2542,16 +2349,9 @@ end
 
   
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   
@@ -2636,8 +2436,7 @@ end
       
   
   
-    Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
@@ -2672,15 +2471,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -2721,15 +2516,9 @@ end
       
   
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
@@ -2764,15 +2553,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -2813,16 +2598,9 @@ end
       
   
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   
@@ -2933,9 +2711,7 @@ Module: RSpec::Matchers::Composable
 
 Overview
   
-    Mixin designed to support the composable matcher features
-of RSpec 3+. Mix it into your custom matcher classes to
-allow them to be used in a composable fashion.
+    Mixin designed to support the composable matcher features of RSpec 3+. Mix it into your custom matcher classes to allow them to be used in a composable fashion.
 
 
   
@@ -3124,10 +2900,7 @@ Defined Under Namespace
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 We should enumerate arrays as long as they are not recursive.
 
 
@@ -3173,16 +2946,9 @@ end
       
   
   
-    Transforms the given data structue (typically a hash or array)
-into a new data structure that, when #inspect is called on it,
-will provide descriptions of any contained matchers rather than
-the normal #inspect output.
+    Transforms the given data structue (typically a hash or array) into a new data structure that, when #inspect is called on it, will provide descriptions of any contained matchers rather than the normal #inspect output.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting any arguments which may be a data structure
-containing matchers.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting any arguments which may be a data structure containing matchers.
 
 
   
@@ -3234,10 +3000,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -3296,8 +3059,7 @@ end
       
   
   
-    Delegates to #matches?. Allows matchers to be used in composable
-fashion and also supports using matchers in case statements.
+    Delegates to #matches?. Allows matchers to be used in composable fashion and also supports using matchers in case statements.
 
 
   
@@ -3332,15 +3094,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.and other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.and other) is not supported at this time.
 
   
 
-Creates a compound and expectation. The matcher will
-only pass if both sub-matchers pass.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound and expectation. The matcher will only pass if both sub-matchers pass. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -3381,15 +3139,9 @@ end
       
   
   
-    Returns the description of the given object in a way that is
-aware of composed matchers. If the object is a matcher with
-a description method, returns the description; otherwise
-returns object.inspect.
+    Returns the description of the given object in a way that is aware of composed matchers. If the object is a matcher with a description method, returns the description; otherwise returns object.inspect.
 
-You are encouraged to use this in your custom matcher's
-description, failure_message or
-failure_message_when_negated implementation if you are
-supporting matcher arguments.
+You are encouraged to use this in your custom matcher's description, failure_message or failure_message_when_negated implementation if you are supporting matcher arguments.
 
 
   
@@ -3424,15 +3176,11 @@ end
     
   
     Note:
-    The negative form (expect(...).not_to matcher.or other)
-is not supported at this time.
+    The negative form (expect(...).not_to matcher.or other) is not supported at this time.
 
   
 
-Creates a compound or expectation. The matcher will
-pass if either sub-matcher passes.
-This can be chained together to form an arbitrarily long
-chain of matchers.
+Creates a compound or expectation. The matcher will pass if either sub-matcher passes. This can be chained together to form an arbitrarily long chain of matchers.
 
 
   
@@ -3473,16 +3221,9 @@ end
       
   
   
-    This provides a generic way to fuzzy-match an expected value against
-an actual value. It understands nested data structures (e.g. hashes
-and arrays) and is able to match against a matcher being used as
-the expected value or within the expected value at any level of
-nesting.
+    This provides a generic way to fuzzy-match an expected value against an actual value. It understands nested data structures (e.g. hashes and arrays) and is able to match against a matcher being used as the expected value or within the expected value at any level of nesting.
 
-Within a custom matcher you are encouraged to use this whenever your
-matcher needs to match two values, unless it needs more precise semantics.
-For example, the eq matcher does not use this as it is meant to
-use == (and only ==) for matching.
+Within a custom matcher you are encouraged to use this whenever your matcher needs to match two values, unless it needs more precise semantics. For example, the eq matcher does not use this as it is meant to use == (and only ==) for matching.
 
 
   

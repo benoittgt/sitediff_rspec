@@ -110,9 +110,7 @@ Class: RSpec::Mocks::ArgumentListMatcher
 
 OverviewOverview
   
-    Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:.Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:.
+    Wrapper for matching arguments against a list of expected values. Used by the with method on a MessageExpectation:.Wrapper for matching arguments against a list of expected values. Used by the with method on a MessageExpectation:.
 
 expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((:a:a,, ''bb'''b',, 33))
 objectobject..messagemessage((:a:a,, ''bb'''b',, 33))
@@ -122,20 +120,14 @@ expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
 
 
-Values passed to withwith can be literal values or argument matchers that
-match against the real objects .e.g.Values passed to with can be literal values or argument matchers that
-match against the real objects .e.g.
+Values passed to with can be literal values or argument matchers that match against the real objects .e.g.Values passed to with can be literal values or argument matchers that match against the real objects .e.g.
 
 expectexpect((objectobject))..toto receivereceive((:message:message))..withwith((hash_includinghash_including((:a:a =>=> ''bb'''b'))))
 expect(object).to receive(:message).with(hash_including(:a => 'b'))
 expect(object).to receive(:message).with(hash_including(:a => 'b'))
 
 
-Can also be used directly to match the contents of any ArrayArray. This
-enables 3rd party mocking libs to take advantage of rspec's argument
-matching without using the rest of rspec-mocks.Can also be used directly to match the contents of any Array. This
-enables 3rd party mocking libs to take advantage of rspec's argument
-matching without using the rest of rspec-mocks.
+Can also be used directly to match the contents of any Array. This enables 3rd party mocking libs to take advantage of rspec's argument matching without using the rest of rspec-mocks.Can also be used directly to match the contents of any Array. This enables 3rd party mocking libs to take advantage of rspec's argument matching without using the rest of rspec-mocks.
 
 requirerequire ''rspec/mocks/argument_list_matcherrspec/mocks/argument_list_matcher'''rspec/mocks/argument_list_matcher'
 includeinclude RSpecRSpec::::MocksMocks::::ArgumentMatchersArgumentMatchers
@@ -158,22 +150,18 @@ This class is immutable.This class is immutable.
 
 
   
-    Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:.
+    Wrapper for matching arguments against a list of expected values. Used by the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
 
 
-Values passed to with can be literal values or argument matchers that
-match against the real objects .e.g.
+Values passed to with can be literal values or argument matchers that match against the real objects .e.g.
 
 expect(object).to receive(:message).with(hash_including(:a => 'b'))
 
 
-Can also be used directly to match the contents of any Array. This
-enables 3rd party mocking libs to take advantage of rspec's argument
-matching without using the rest of rspec-mocks.
+Can also be used directly to match the contents of any Array. This enables 3rd party mocking libs to take advantage of rspec's argument matching without using the rest of rspec-mocks.
 
 require 'rspec/mocks/argument_list_matcher'
 include RSpec::Mocks::ArgumentMatchers
@@ -188,22 +176,18 @@ This class is immutable.
   
 
   
-    Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:.
+    Wrapper for matching arguments against a list of expected values. Used by the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
 
 
-Values passed to with can be literal values or argument matchers that
-match against the real objects .e.g.
+Values passed to with can be literal values or argument matchers that match against the real objects .e.g.
 
 expect(object).to receive(:message).with(hash_including(:a => 'b'))
 
 
-Can also be used directly to match the contents of any Array. This
-enables 3rd party mocking libs to take advantage of rspec's argument
-matching without using the rest of rspec-mocks.
+Can also be used directly to match the contents of any Array. This enables 3rd party mocking libs to take advantage of rspec's argument matching without using the rest of rspec-mocks.
 
 require 'rspec/mocks/argument_list_matcher'
 include RSpec::Mocks::ArgumentMatchers
@@ -270,7 +254,7 @@ This class is immutable.
   
 
   
-    Matches each element in the expected_argsexpected_args against the element in the same position of the arguments passed to newnew.Matches each element in the expected_args against the element in the same position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
@@ -305,7 +289,7 @@ Matches each element in the expected_args against the element in the same positi
   
 
   
-    Initializes an ArgumentListMatcherArgumentListMatcher with a collection of literal values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
@@ -376,21 +360,17 @@ Initializes an ArgumentListMatcher with a collection of literal values and/or ar
     
   
   
-    Initializes an ArgumentListMatcherArgumentListMatcher with a collection of literal
-values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
-    Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
 
   
-    Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
@@ -582,8 +562,7 @@ end
 
   
   
-    Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
@@ -648,8 +627,7 @@ end
     
   
   
-    Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
@@ -718,21 +696,17 @@ end
       
   
   
-    Matches each element in the expected_argsexpected_args against the element in the same
-position of the arguments passed to newnew.Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   
-    Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   
 
   
-    Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   
@@ -935,8 +909,7 @@ end
 
   
   
-    Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   
@@ -1007,8 +980,7 @@ end
       
   
   
-    Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   
@@ -1116,22 +1088,18 @@ Class: RSpec::Mocks::ArgumentListMatcher
 
 Overview
   
-    Wrapper for matching arguments against a list of expected values. Used by
-the with method on a MessageExpectation:.
+    Wrapper for matching arguments against a list of expected values. Used by the with method on a MessageExpectation:.
 
 expect(object).to receive(:message).with(:a, 'b', 3)
 object.message(:a, 'b', 3)
 
 
-Values passed to with can be literal values or argument matchers that
-match against the real objects .e.g.
+Values passed to with can be literal values or argument matchers that match against the real objects .e.g.
 
 expect(object).to receive(:message).with(hash_including(:a => 'b'))
 
 
-Can also be used directly to match the contents of any Array. This
-enables 3rd party mocking libs to take advantage of rspec's argument
-matching without using the rest of rspec-mocks.
+Can also be used directly to match the contents of any Array. This enables 3rd party mocking libs to take advantage of rspec's argument matching without using the rest of rspec-mocks.
 
 require 'rspec/mocks/argument_list_matcher'
 include RSpec::Mocks::ArgumentMatchers
@@ -1215,8 +1183,7 @@ This class is immutable.
     
   
   
-    Initializes an ArgumentListMatcher with a collection of literal
-values and/or argument matchers.
+    Initializes an ArgumentListMatcher with a collection of literal values and/or argument matchers.
 
 
   
@@ -1285,8 +1252,7 @@ end
       
   
   
-    Matches each element in the expected_args against the element in the same
-position of the arguments passed to new.
+    Matches each element in the expected_args against the element in the same position of the arguments passed to new.
 
 
   

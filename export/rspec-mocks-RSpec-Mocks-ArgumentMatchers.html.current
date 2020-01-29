@@ -61,35 +61,23 @@ Module: RSpec::Mocks::ArgumentMatchers
 
 OverviewOverview
   
-    ArgumentMatchers are placeholders that you can include in message
-expectations to match arguments against a broader check than simple
-equality.ArgumentMatchers are placeholders that you can include in message
-expectations to match arguments against a broader check than simple
-equality.
+    ArgumentMatchers are placeholders that you can include in message expectations to match arguments against a broader check than simple equality.ArgumentMatchers are placeholders that you can include in message expectations to match arguments against a broader check than simple equality.
 
-With the exception of any_argsany_args and no_argsno_args, they all match against
-the arg in same position in the argument list.With the exception of any_args and no_args, they all match against
-the arg in same position in the argument list.
+With the exception of any_args and no_args, they all match against the arg in same position in the argument list.With the exception of any_args and no_args, they all match against the arg in same position in the argument list.
 
 
   
-    ArgumentMatchers are placeholders that you can include in message
-expectations to match arguments against a broader check than simple
-equality.
+    ArgumentMatchers are placeholders that you can include in message expectations to match arguments against a broader check than simple equality.
 
-With the exception of any_args and no_args, they all match against
-the arg in same position in the argument list.
+With the exception of any_args and no_args, they all match against the arg in same position in the argument list.
 
 
   
 
   
-    ArgumentMatchers are placeholders that you can include in message
-expectations to match arguments against a broader check than simple
-equality.
+    ArgumentMatchers are placeholders that you can include in message expectations to match arguments against a broader check than simple equality.
 
-With the exception of any_args and no_args, they all match against
-the arg in same position in the argument list.
+With the exception of any_args and no_args, they all match against the arg in same position in the argument list.
 
 
   
@@ -378,7 +366,7 @@ Matches a hash that includes the specified key(s) or key/value pairs.
   
 
   
-    Matches if arg.instance_of?(klass)arg.instance_of?(klass).Matches if arg.instance_of?(klass).
+    Matches if arg.instance_of?(klass).Matches if arg.instance_of?(klass).
 Matches if arg.instance_of?(klass).
 Matches if arg.instance_of?(klass).
 
@@ -411,7 +399,7 @@ Matches if arg.instance_of?(klass).
   
 
   
-    Matches if arg.kind_of?(klass)arg.kind_of?(klass).Matches if arg.kind_of?(klass).
+    Matches if arg.kind_of?(klass).Matches if arg.kind_of?(klass).
 Matches if arg.kind_of?(klass).
 Matches if arg.kind_of?(klass).
 
@@ -1003,21 +991,17 @@ end
       
   
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
 
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
@@ -1143,8 +1127,7 @@ end
 
   
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
@@ -1688,21 +1671,17 @@ end
       
   
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   
 
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   
@@ -1823,8 +1802,7 @@ end
 
   
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   
@@ -2438,8 +2416,7 @@ end
       
   
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
@@ -2605,8 +2582,7 @@ end
       
   
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   
@@ -2798,12 +2774,9 @@ Module: RSpec::Mocks::ArgumentMatchers
 
 Overview
   
-    ArgumentMatchers are placeholders that you can include in message
-expectations to match arguments against a broader check than simple
-equality.
+    ArgumentMatchers are placeholders that you can include in message expectations to match arguments against a broader check than simple equality.
 
-With the exception of any_args and no_args, they all match against
-the arg in same position in the argument list.
+With the exception of any_args and no_args, they all match against the arg in same position in the argument list.
 
 
   
@@ -3100,8 +3073,7 @@ end
       
   
   
-    Matches an array that includes the specified items at least once.
-Ignores duplicates and additional values.
+    Matches an array that includes the specified items at least once. Ignores duplicates and additional values.
 
 
   
@@ -3267,8 +3239,7 @@ end
       
   
   
-    Matches a hash that includes the specified key(s) or key/value pairs.
-Ignores any additional keys.
+    Matches a hash that includes the specified key(s) or key/value pairs. Ignores any additional keys.
 
 
   

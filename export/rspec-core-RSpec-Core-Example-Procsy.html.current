@@ -113,38 +113,27 @@ OverviewOverview
     
   
     Note:Note:
-    This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
-This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
+This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
     Note:
-    This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
 
-Wraps both a ProcProc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
-kind of object (rather than the raw RSpec::Core::Example) because when
-there are multiple aroundaround hooks we have to wrap them recursively.Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
-kind of object (rather than the raw RSpec::Core::Example) because when
-there are multiple around hooks we have to wrap them recursively.
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
 
   
     
   
     Note:
-    This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
 
-Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
-kind of object (rather than the raw RSpec::Core::Example) because when
-there are multiple around hooks we have to wrap them recursively.
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
 
   
@@ -153,14 +142,11 @@ there are multiple around hooks we have to wrap them recursively.
     
   
     Note:
-    This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
 
-Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
-kind of object (rather than the raw RSpec::Core::Example) because when
-there are multiple around hooks we have to wrap them recursively.
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
 
   
@@ -439,7 +425,7 @@ A new instance of Procsy.
   
 
   
-    Provides a wrapped proc that will update our executed?executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
 Provides a wrapped proc that will update our executed? state when executed.
 Provides a wrapped proc that will update our executed? state when executed.
 
@@ -1249,21 +1235,17 @@ end
       
   
   
-    Provides a wrapped proc that will update our executed?executed? state when
-executed.Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
 
 
   
-    Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
 
   
-    Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1352,8 +1334,7 @@ end
 
   
   
-    Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1468,8 +1449,7 @@ end
       
   
   
-    Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1545,14 +1525,11 @@ Overview
     
   
     Note:
-    This class also exposes the instance methods of RSpec::Core::Example,
-proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
 
-Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special
-kind of object (rather than the raw RSpec::Core::Example) because when
-there are multiple around hooks we have to wrap them recursively.
+Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
 
   
@@ -1858,8 +1835,7 @@ end
       
   
   
-    Provides a wrapped proc that will update our executed? state when
-executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   

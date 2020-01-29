@@ -151,7 +151,7 @@ Defined Under NamespaceDefined Under Namespace
 
   
     
-Wraps the subjectsubject in expectexpect to make it the target of an expectation.Wraps the subject in expect to make it the target of an expectation.
+Wraps the subject in expect to make it the target of an expectation.Wraps the subject in expect to make it the target of an expectation.
 
 Wraps the subject in expect to make it the target of an expectation.
 
@@ -188,7 +188,7 @@ Wraps the subject in expect to make it the target of an expectation.
 
   
     
-When shouldshould is called with no explicit receiver, the call is delegated to the object returned by subjectsubject.When should is called with no explicit receiver, the call is delegated to the object returned by subject.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject.When should is called with no explicit receiver, the call is delegated to the object returned by subject.
 
 When should is called with no explicit receiver, the call is delegated to the object returned by subject.
 
@@ -225,7 +225,7 @@ When should is called with no explicit receiver, the call is delegated to the ob
 
   
     
-Just like shouldshould, should_notshould_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
@@ -379,7 +379,7 @@ This only works if you are using rspec-expectations.
   
 
 
-Wraps the subjectsubject in expectexpect to make it the target of an expectation. Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
+Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.Wraps the subject in expect to make it the target of an expectation. Designed to read nicely for one-liners.
 
 
   
@@ -650,7 +650,7 @@ This only works if you are using rspec-expectations.
   
     Note:Note:
     
-If you are using RSpec's newer expect-based syntax you may want to use is_expected.tois_expected.to instead of shouldshould.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
+If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
 If you are using RSpec's newer expect-based syntax you may want to use is_expected.to instead of should.
 
@@ -662,7 +662,7 @@ If you are using RSpec's newer expect-based syntax you may want to use is_expect
   
 
 
-When shouldshould is called with no explicit receiver, the call is delegated to the object returned by subjectsubject. Combined with an implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
+When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.When should is called with no explicit receiver, the call is delegated to the object returned by subject. Combined with an implicit subject this supports very concise expressions.
 
 
   
@@ -940,7 +940,7 @@ This only works if you are using rspec-expectations.
   
     Note:Note:
     
-If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_notis_expected.to_not instead of should_notshould_not.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
+If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
 If you are using RSpec's newer expect-based syntax you may want to use is_expected.to_not instead of should_not.
 
@@ -952,7 +952,7 @@ If you are using RSpec's newer expect-based syntax you may want to use is_expect
   
 
 
-Just like shouldshould, should_notshould_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
+Just like should, should_not delegates to the subject (implicit or explicit) of the example group.Just like should, should_not delegates to the subject (implicit or explicit) of the example group.
 
 
   
@@ -1236,7 +1236,7 @@ RSpec.describe Widget do
 end
 
 
-While the examples below demonstrate how to use subjectsubject explicitly in examples, we recommend that you define a method with an intention revealing name instead.While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
+While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.While the examples below demonstrate how to use subject explicitly in examples, we recommend that you define a method with an intention revealing name instead.
 
 subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
@@ -1268,7 +1268,7 @@ While the examples below demonstrate how to use subject explicitly in examples, 
   
     Note:Note:
     
-Because subjectsubject is designed to create state that is reset between each example, and before(:context)before(:context) is designed to setup state that is shared across allall examples in an example group, subjectsubject is notnot intended to be used in a before(:context)before(:context) hook.Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
+Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 
 Because subject is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, subject is not intended to be used in a before(:context) hook.
 

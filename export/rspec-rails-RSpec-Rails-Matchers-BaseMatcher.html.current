@@ -145,36 +145,20 @@ Defined Under NamespaceDefined Under Namespace
         UNDEFINED =
           
   
-    
-  This constant is part of a private API.This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initializeinitialize.
-nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .   This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
 
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -189,12 +173,8 @@ nil cannot be used because it's a valid value to pass.
         UNDEFINED =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -211,12 +191,8 @@ nil cannot be used because it's a valid value to pass.
         UNDEFINED =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -457,7 +433,7 @@ Indicates if the match is successful.
   privateprivate
 
   
-    Most matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 
@@ -801,31 +777,19 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.Generates a description using Matchers::EnglishPhrasing.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -979,10 +943,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -1032,36 +993,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1194,12 +1139,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1244,29 +1185,17 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -1399,10 +1328,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -1447,46 +1373,26 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1635,15 +1541,10 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1687,40 +1588,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to matchmatch, which
-should be defined on a subclass. Takes care of consistently
-initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1863,13 +1744,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1916,40 +1792,20 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value)expect(value))
-rather than block matchers (i.e. meant to work with expect { }expect { }), so
-this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2082,13 +1938,8 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2137,10 +1988,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -2190,12 +2038,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -2240,10 +2084,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -2288,15 +2129,10 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -2340,13 +2176,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -2393,13 +2224,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2515,12 +2341,8 @@ Defined Under Namespace
         UNDEFINED =
           
   
-    
-  This constant is part of a private API.
-  You should avoid using this constant if possible, as it may be removed or be changed in the future.
-
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+       This constant is part of a private API.   You should avoid using this constant if possible, as it may be removed or be changed in the future. .
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -2735,10 +2557,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -2788,12 +2607,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -2838,10 +2653,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 
 
   
@@ -2886,15 +2698,10 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
-
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -2938,13 +2745,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -2991,13 +2793,8 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   

@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
-[1mindex bdb92f9..183f779 100644[m
+[1mindex 2a8954c..183f779 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
 [36m@@ -40,6 +40,24 @@[m [mClass: RSpec::Rails::ViewPathBuilder[m
@@ -39,35 +39,7 @@
    [m
    [m
      Inherits:[m
-[36m@@ -412,21 +457,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-     [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.Given a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-   [m
-     [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-   [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-[32m+[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-   [m
-[36m@@ -440,24 +484,24 @@[m [mReturns nil if no path can be built from the given params.[m
+[36m@@ -436,24 +484,24 @@[m [mend[m
        # path can be built because all required params are present in the hash[m
  # path can be built because all required params are present in the hash[m
  view_path_builderview_path_builder == ViewPathBuilderViewPathBuilder..newnew((::::RailsRails..applicationapplication..routesroutes))[m
@@ -104,7 +76,7 @@
      [m
    [m
      Examples:[m
-[36m@@ -465,13 +509,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[36m@@ -461,13 +509,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
        [m
        # path can be built because all required params are present in the hash[m
  view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
@@ -122,7 +94,7 @@
      [m
    [m
  [m
-[36m@@ -484,13 +528,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[36m@@ -480,13 +528,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
        [m
        # path can be built because all required params are present in the hash[m
  view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
@@ -140,18 +112,7 @@
      [m
    [m
  [m
-[36m@@ -593,8 +637,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-[32m+[m[41m    [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-   [m
-[36m@@ -607,13 +651,13 @@[m [mReturns nil if no path can be built from the given params.[m
+[36m@@ -602,13 +651,13 @@[m [mend[m
        [m
        # path can be built because all required params are present in the hash[m
  view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
@@ -169,18 +130,7 @@
      [m
    [m
  [m
-[36m@@ -650,8 +694,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-[32m+[m[41m    [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-   [m
-[36m@@ -664,13 +708,13 @@[m [mReturns nil if no path can be built from the given params.[m
+[36m@@ -658,13 +708,13 @@[m [mend[m
        [m
        # path can be built because all required params are present in the hash[m
  view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
@@ -198,18 +148,7 @@
      [m
    [m
  [m
-[36m@@ -847,8 +899,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Given a hash of parameters, build a view path, if possible.[m
-[31m-Returns nil if no path can be built from the given params.[m
-[32m+[m[41m    [m
-[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
- [m
- [m
-   [m
-[36m@@ -861,13 +913,13 @@[m [mReturns nil if no path can be built from the given params.[m
+[36m@@ -854,13 +913,13 @@[m [mend[m
        [m
        # path can be built because all required params are present in the hash[m
  view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m

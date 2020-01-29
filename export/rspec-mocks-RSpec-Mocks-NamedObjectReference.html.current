@@ -110,37 +110,17 @@ Class: RSpec::Mocks::NamedObjectReference
 
 OverviewOverview
   
-    An implementation of rspec-mocks' reference interface.
-Used when a string is passed to ExampleMethods#object_double,
-and when a string, named class or named module is passed to
-ExampleMethods#instance_double, or ExampleMethods#class_double.
-Represents a reference to the object named (via a constant lookup)
-by the string.An implementation of rspec-mocks' reference interface.
-Used when a string is passed to ExampleMethods#object_double,
-and when a string, named class or named module is passed to
-ExampleMethods#instance_double, or ExampleMethods#class_double.
-Represents a reference to the object named (via a constant lookup)
-by the string.
+    An implementation of rspec-mocks' reference interface. Used when a string is passed to ExampleMethods#object_double, and when a string, named class or named module is passed to ExampleMethods#instance_double, or ExampleMethods#class_double. Represents a reference to the object named (via a constant lookup) by the string.An implementation of rspec-mocks' reference interface. Used when a string is passed to ExampleMethods#object_double, and when a string, named class or named module is passed to ExampleMethods#instance_double, or ExampleMethods#class_double. Represents a reference to the object named (via a constant lookup) by the string.
 
 
   
-    An implementation of rspec-mocks' reference interface.
-Used when a string is passed to ExampleMethods#object_double,
-and when a string, named class or named module is passed to
-ExampleMethods#instance_double, or ExampleMethods#class_double.
-Represents a reference to the object named (via a constant lookup)
-by the string.
+    An implementation of rspec-mocks' reference interface. Used when a string is passed to ExampleMethods#object_double, and when a string, named class or named module is passed to ExampleMethods#instance_double, or ExampleMethods#class_double. Represents a reference to the object named (via a constant lookup) by the string.
 
 
   
 
   
-    An implementation of rspec-mocks' reference interface.
-Used when a string is passed to ExampleMethods#object_double,
-and when a string, named class or named module is passed to
-ExampleMethods#instance_double, or ExampleMethods#class_double.
-Represents a reference to the object named (via a constant lookup)
-by the string.
+    An implementation of rspec-mocks' reference interface. Used when a string is passed to ExampleMethods#object_double, and when a string, named class or named module is passed to ExampleMethods#instance_double, or ExampleMethods#class_double. Represents a reference to the object named (via a constant lookup) by the string.
 
 
   
@@ -1152,21 +1132,17 @@ end
       
   
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
 
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
@@ -1184,11 +1160,8 @@ Returns:Returns:
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.the target of the verifying double (the named object), or
-nil if it is not defined.
-the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.the target of the verifying double (the named object), or nil if it is not defined.
+the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1199,8 +1172,7 @@ nil if it is not defined.
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1215,8 +1187,7 @@ nil if it is not defined.
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1236,8 +1207,7 @@ Returns:
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1322,8 +1292,7 @@ end
 
   
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
@@ -1341,8 +1310,7 @@ Returns:
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1373,25 +1341,17 @@ end
       
   
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   
 
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   
@@ -1541,9 +1501,7 @@ end
 
   
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   
@@ -1694,8 +1652,7 @@ end
       
   
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
@@ -1713,8 +1670,7 @@ Returns:
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -1745,9 +1701,7 @@ end
       
   
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   
@@ -1837,12 +1791,7 @@ Class: RSpec::Mocks::NamedObjectReference
 
 Overview
   
-    An implementation of rspec-mocks' reference interface.
-Used when a string is passed to ExampleMethods#object_double,
-and when a string, named class or named module is passed to
-ExampleMethods#instance_double, or ExampleMethods#class_double.
-Represents a reference to the object named (via a constant lookup)
-by the string.
+    An implementation of rspec-mocks' reference interface. Used when a string is passed to ExampleMethods#object_double, and when a string, named class or named module is passed to ExampleMethods#instance_double, or ExampleMethods#class_double. Represents a reference to the object named (via a constant lookup) by the string.
 
 
   
@@ -2124,8 +2073,7 @@ end
       
   
   
-    Returns the target of the verifying double (the named object), or
-nil if it is not defined.
+    Returns the target of the verifying double (the named object), or nil if it is not defined.
 
 
   
@@ -2143,8 +2091,7 @@ Returns:
       
       
         —
-        the target of the verifying double (the named object), or
-nil if it is not defined.
+        the target of the verifying double (the named object), or nil if it is not defined.
 
       
     
@@ -2175,9 +2122,7 @@ end
       
   
   
-    Yields if the reference target is loaded, providing a generic mechanism
-to optionally run a bit of code only when a reference's target is
-loaded.
+    Yields if the reference target is loaded, providing a generic mechanism to optionally run a bit of code only when a reference's target is loaded.
 
 
   

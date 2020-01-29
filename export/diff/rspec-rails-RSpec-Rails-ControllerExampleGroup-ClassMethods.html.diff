@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new[m
-[1mindex b7ce9e8..564c14a 100644[m
+[1mindex 1f82d04..08ee6d5 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new[m
 [36m@@ -20,6 +23,14 @@[m [mModule: RSpec::Rails::ControllerExampleGroup::ClassMethods[m
@@ -17,260 +17,63 @@
    [m
    [m
    [m
-[36m@@ -193,46 +217,22 @@[m [mSpecifies the routeset that will be used for the example group.[m
-     [m
+[36m@@ -202,7 +229,8 @@[m [mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in Appl[m
+ [m
    [m
-     Note:Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationControllerApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDeniedApplicationController::AccessDenied) in the block passed to the[m
-[31m-controllercontroller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationControllerApplicationController, however, are accessible from[m
-[31m-within the block.Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-[31m-Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-[32m+[m[41m    [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationControllerApplicationController must be fully qualified (e.g. ApplicationController::AccessDeniedApplicationController::AccessDenied) in the block passed to the controllercontroller method. Any instance methods, filters, etc, that are defined in ApplicationControllerApplicationController, however, are accessible from within the block.Due to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
+ [m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
 [32m+[m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
+[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
  [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-[32m+[m[41m    [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.If you would like to spec a subclass of ApplicationController, call controller like so:.[m
+ [m
+[36m@@ -227,7 +256,8 @@[m [mend[m
  [m
    [m
  [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-bodybody in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
- [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the bodybody in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
-[32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
- controllercontroller((ApplicationControllerSubclassApplicationControllerSubclass)) dodo[m
-   # ....[m
-[36m@@ -251,22 +251,15 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-     [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
- [m
-   [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
- [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
 [32m+[m
 [32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
-[32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.[m
  [m
- controller(ApplicationControllerSubclass) do[m
-   # ....[m
-[36m@@ -280,22 +273,15 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-     [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.[m
+ [m
+[36m@@ -247,7 +278,8 @@[m [mend[m
  [m
    [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
  [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
 [32m+[m
 [32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
-[32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.[m
  [m
- controller(ApplicationControllerSubclass) do[m
-   # ....[m
-[36m@@ -929,22 +915,15 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-[32m+[m[41m    [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.[m
+ [m
+[36m@@ -887,7 +920,8 @@[m [mend[m
  [m
    [m
  [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
- [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
-[32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
- controller(ApplicationControllerSubclass) do[m
-   # ....[m
-[36m@@ -1092,21 +1071,20 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-[32m+[m[41m    [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.Specifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
- [m
- [m
-   [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-     [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
- [m
- [m
-   [m
- [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
- [m
- [m
-   [m
-[36m@@ -1258,8 +1236,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-[32m+[m[41m    [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
- [m
- [m
-   [m
-[36m@@ -1314,22 +1292,15 @@[m [mend[m
-     [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-[32m+[m[41m    [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
- [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
-[32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
- controller(ApplicationControllerSubclass) do[m
-   # ....[m
-[36m@@ -1477,8 +1448,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-[32m+[m[41m    [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
- [m
- [m
-   [m
-[36m@@ -1620,22 +1597,15 @@[m [mOverview[m
-     [m
-   [m
-     Note:[m
-[31m-    Due to Ruby 1.8 scoping rules in anonymous subclasses, constants[m
-[31m-defined in ApplicationController must be fully qualified (e.g.[m
-[31m-ApplicationController::AccessDenied) in the block passed to the[m
-[31m-controller method. Any instance methods, filters, etc, that are[m
-[31m-defined in ApplicationController, however, are accessible from[m
-[31m-within the block.[m
-     [m
-[32m+[m[32mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in ApplicationController must be fully qualified (e.g. ApplicationController::AccessDenied) in the block passed to the controller method. Any instance methods, filters, etc, that are defined in ApplicationController, however, are accessible from within the block.[m
- [m
-   [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController.[m
-[31m-Creates an anonymous subclass of ApplicationController and evals the[m
-[31m-body in that context. Also sets up implicit routes for this[m
-[31m-controller, that are separate from those defined in "config/routes.rb".[m
- [m
-[31m-If you would like to spec a subclass of ApplicationController, call[m
-[31m-controller like so:.[m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
 [32m+[m
 [32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
+ [m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.[m
+ [m
+[36m@@ -1258,7 +1297,8 @@[m [mend[m
+ [m
+   [m
+ [m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
 [32m+[m
-[32m+[m[32mIf you would like to spec a subclass of ApplicationController, call controller like so:.[m
+[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
  [m
- controller(ApplicationControllerSubclass) do[m
-   # ....[m
-[36m@@ -1783,8 +1753,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Specifies the routeset that will be used for the example group. This[m
-[31m-is most useful when testing Rails engines.[m
-[32m+[m[41m    [m
-[32m+[m[32mSpecifies the routeset that will be used for the example group. This is most useful when testing Rails engines.[m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.[m
  [m
+[36m@@ -1554,7 +1602,8 @@[m [mOverview[m
  [m
    [m
+ [m
+[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
+[32m+[m
+[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
+ [m
+ If you would like to spec a subclass of ApplicationController, call controller like so:.[m
+ [m

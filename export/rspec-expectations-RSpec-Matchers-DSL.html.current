@@ -286,25 +286,17 @@ Defines a negated matcher.
       
   
   
-    Defines a matcher alias. The returned matcher's descriptiondescription will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
-    Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
 
   
-    Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
@@ -568,14 +560,8 @@ Yields:Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
-optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
+optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -586,9 +572,7 @@ block is provided, a default override is used based on the old and new names.
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -603,9 +587,7 @@ block is provided, a default override is used based on the old and new names.
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -730,9 +712,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -914,9 +894,7 @@ end
 
   
   
-    Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
@@ -1028,9 +1006,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1164,17 +1140,8 @@ Yields:Yields:
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
-block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
+block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -1185,10 +1152,7 @@ usually representing the expected value(s).
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -1203,10 +1167,7 @@ usually representing the expected value(s).
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -1256,10 +1217,7 @@ Yields:
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -1418,10 +1376,7 @@ Yields:
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -1465,25 +1420,17 @@ end
       
   
   
-    Defines a negated matcher. The returned matcher's descriptiondescription and failure_messagefailure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
-    Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
 
   
-    Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
@@ -1618,14 +1565,8 @@ Yields:Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
-optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
+optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1636,9 +1577,7 @@ block is provided, a default override is used based on the old and new names.
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1653,9 +1592,7 @@ block is provided, a default override is used based on the old and new names.
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1730,9 +1667,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1824,9 +1759,7 @@ end
 
   
   
-    Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
@@ -1888,9 +1821,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -1932,9 +1863,7 @@ end
       
   
   
-    Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
@@ -2046,9 +1975,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -2141,10 +2068,7 @@ Yields:
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -2188,9 +2112,7 @@ end
       
   
   
-    Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
@@ -2252,9 +2174,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -2420,9 +2340,7 @@ Defined Under Namespace
       
   
   
-    Defines a matcher alias. The returned matcher's description will be overriden
-to reflect the phrasing of the new name, which will be used in failure messages
-when passed as an argument to another matcher in a composed matcher expression.
+    Defines a matcher alias. The returned matcher's description will be overriden to reflect the phrasing of the new name, which will be used in failure messages when passed as an argument to another matcher in a composed matcher expression.
 
 
   
@@ -2534,9 +2452,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     
@@ -2629,10 +2545,7 @@ Yields:
       
       
         —
-        block that is used to define the matcher.
-The block is evaluated in the context of your custom matcher class.
-When args are passed to your matcher, they will be yielded here,
-usually representing the expected value(s).
+        block that is used to define the matcher. The block is evaluated in the context of your custom matcher class. When args are passed to your matcher, they will be yielded here, usually representing the expected value(s).
 
       
     
@@ -2676,9 +2589,7 @@ end
       
   
   
-    Defines a negated matcher. The returned matcher's description and failure_message
-will be overriden to reflect the phrasing of the new name, and the match logic will
-be based on the original matcher but negated.
+    Defines a negated matcher. The returned matcher's description and failure_message will be overriden to reflect the phrasing of the new name, and the match logic will be based on the original matcher but negated.
 
 
   
@@ -2740,9 +2651,7 @@ Yields:
       
       
         —
-        optional block that, when given, is used to define the overriden
-logic. The yielded arg is the original description or failure message. If no
-block is provided, a default override is used based on the old and new names.
+        optional block that, when given, is used to define the overriden logic. The yielded arg is the original description or failure message. If no block is provided, a default override is used based on the old and new names.
 
       
     

@@ -110,33 +110,17 @@ Class: Class
 
 OverviewOverview
   
-    The legacy :should:should syntax adds the any_instanceany_instance to ClassClass.
-We generally recommend you use the newer :expect:expect syntax instead,
-which allows you to stub any instance of a class using
-allow_any_instance_of(klass)allow_any_instance_of(klass) or mock any instance using
-expect_any_instance_of(klass)expect_any_instance_of(klass).The legacy :should syntax adds the any_instance to Class.
-We generally recommend you use the newer :expect syntax instead,
-which allows you to stub any instance of a class using
-allow_any_instance_of(klass) or mock any instance using
-expect_any_instance_of(klass).
+    The legacy :should syntax adds the any_instance to Class. We generally recommend you use the newer :expect syntax instead, which allows you to stub any instance of a class using allow_any_instance_of(klass) or mock any instance using expect_any_instance_of(klass).The legacy :should syntax adds the any_instance to Class. We generally recommend you use the newer :expect syntax instead, which allows you to stub any instance of a class using allow_any_instance_of(klass) or mock any instance using expect_any_instance_of(klass).
 
 
   
-    The legacy :should syntax adds the any_instance to Class.
-We generally recommend you use the newer :expect syntax instead,
-which allows you to stub any instance of a class using
-allow_any_instance_of(klass) or mock any instance using
-expect_any_instance_of(klass).
+    The legacy :should syntax adds the any_instance to Class. We generally recommend you use the newer :expect syntax instead, which allows you to stub any instance of a class using allow_any_instance_of(klass) or mock any instance using expect_any_instance_of(klass).
 
 
   
 
   
-    The legacy :should syntax adds the any_instance to Class.
-We generally recommend you use the newer :expect syntax instead,
-which allows you to stub any instance of a class using
-allow_any_instance_of(klass) or mock any instance using
-expect_any_instance_of(klass).
+    The legacy :should syntax adds the any_instance to Class. We generally recommend you use the newer :expect syntax instead, which allows you to stub any instance of a class using allow_any_instance_of(klass) or mock any instance using expect_any_instance_of(klass).
 
 
   
@@ -250,7 +234,7 @@ Used to set stubs and message expectations on any instance of a given class.
     
   
     Note:Note:
-    This is only available when you have enabled the shouldshould syntax.This is only available when you have enabled the should syntax.
+    This is only available when you have enabled the should syntax.This is only available when you have enabled the should syntax.
 This is only available when you have enabled the should syntax.
 
   
@@ -259,13 +243,7 @@ This is only available when you have enabled the should syntax.
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a RecorderRecorder, which records messages like
-stubstub and should_receiveshould_receive for later playback on instances of the
-class.Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   
@@ -276,10 +254,7 @@ class.
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   
@@ -292,10 +267,7 @@ class.
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   
@@ -498,10 +470,7 @@ Returns:
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   
@@ -577,10 +546,7 @@ Returns:
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   
@@ -686,11 +652,7 @@ Class: Class
 
 Overview
   
-    The legacy :should syntax adds the any_instance to Class.
-We generally recommend you use the newer :expect syntax instead,
-which allows you to stub any instance of a class using
-allow_any_instance_of(klass) or mock any instance using
-expect_any_instance_of(klass).
+    The legacy :should syntax adds the any_instance to Class. We generally recommend you use the newer :expect syntax instead, which allows you to stub any instance of a class using allow_any_instance_of(klass) or mock any instance using expect_any_instance_of(klass).
 
 
   
@@ -756,10 +718,7 @@ expect_any_instance_of(klass).
 
   
 
-Used to set stubs and message expectations on any instance of a given
-class. Returns a Recorder, which records messages like
-stub and should_receive for later playback on instances of the
-class.
+Used to set stubs and message expectations on any instance of a given class. Returns a Recorder, which records messages like stub and should_receive for later playback on instances of the class.
 
 
   

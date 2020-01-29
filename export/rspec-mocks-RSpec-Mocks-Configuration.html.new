@@ -236,7 +236,7 @@ Indicates whether or not diffs should be colored.
   
 
   
-    Sets the default for the transfer_nested_constantstransfer_nested_constants option when stubbing constants.Sets the default for the transfer_nested_constants option when stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.Sets the default for the transfer_nested_constants option when stubbing constants.
 Sets the default for the transfer_nested_constants option when stubbing constants.
 Sets the default for the transfer_nested_constants option when stubbing constants.
 
@@ -279,7 +279,7 @@ Sets the default for the transfer_nested_constants option when stubbing constant
   
 
   
-    When this is set to true, an error will be raised when instance_doubleinstance_double or class_doubleclass_double is given the name of an undefined constant.When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
 When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
 When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant.
 
@@ -486,7 +486,7 @@ Sets whether or not RSpec will yield the receiving instance of a message to bloc
   
 
   
-    Adds stubstub and should_receiveshould_receive to the given modules or classes.Adds stub and should_receive to the given modules or classes.
+    Adds stub and should_receive to the given modules or classes.Adds stub and should_receive to the given modules or classes.
 Adds stub and should_receive to the given modules or classes.
 Adds stub and should_receive to the given modules or classes.
 
@@ -622,7 +622,7 @@ A new instance of Configuration.
   
 
   
-    Monkey-patch Marshal.dumpMarshal.dump to enable dumping of mocked or stubbed objects.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
 Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
 Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects.
 
@@ -721,7 +721,7 @@ Returns an array with a list of syntaxes that are enabled.
   
 
   
-    Provides the ability to set either expectexpect, shouldshould or both syntaxes.Provides the ability to set either expect, should or both syntaxes.
+    Provides the ability to set either expect, should or both syntaxes.Provides the ability to set either expect, should or both syntaxes.
 Provides the ability to set either expect, should or both syntaxes.
 Provides the ability to set either expect, should or both syntaxes.
 
@@ -1429,41 +1429,17 @@ end
       
   
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to truetrue, warning messages are suppressed.
-When set to falsefalse, it will raise an error.Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
 
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
@@ -1594,13 +1570,7 @@ end
 
   
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
@@ -1646,25 +1616,17 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -1753,9 +1715,7 @@ end
 
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -1789,21 +1749,17 @@ end
       
   
   
-    Sets the default for the transfer_nested_constantstransfer_nested_constants option when
-stubbing constants.Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
-    Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
 
   
-    Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
@@ -1892,8 +1848,7 @@ end
 
   
   
-    Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
@@ -1927,33 +1882,17 @@ end
       
   
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
 
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
@@ -2042,11 +1981,7 @@ end
 
   
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
@@ -2080,29 +2015,17 @@ end
       
   
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to truetrue.Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
 
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
@@ -2233,10 +2156,7 @@ end
 
   
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
@@ -2285,13 +2205,7 @@ end
       
   
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
@@ -2337,9 +2251,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -2373,8 +2285,7 @@ end
       
   
   
-    Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
@@ -2408,11 +2319,7 @@ end
       
   
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
@@ -2446,10 +2353,7 @@ end
       
   
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
@@ -2500,37 +2404,17 @@ end
       
   
   
-    Adds stubstub and should_receiveshould_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stubstub and should_receiveshould_receive in
-the process.Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
-    Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
 
   
-    Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
@@ -2681,12 +2565,7 @@ end
 
   
   
-    Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
@@ -2907,25 +2786,17 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
 
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -3058,9 +2929,7 @@ end
 
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -3105,25 +2974,13 @@ end
       
   
   
-    Monkey-patch Marshal.dumpMarshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.This method is idempotent.
 
 
   
-    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.
 
@@ -3131,11 +2988,7 @@ This method is idempotent.
   
 
   
-    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.
 
@@ -3266,11 +3119,7 @@ end
 
   
   
-    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.
 
@@ -3312,31 +3161,19 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.Resets the configured syntax to the default.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.
 
 
@@ -3436,10 +3273,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.
 
 
@@ -3474,21 +3308,17 @@ end
       
   
   
-    Returns an array with a list of syntaxes
-that are enabled.Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.Returns an array with a list of syntaxes that are enabled.
 
 
   
-    Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.
 
 
   
 
   
-    Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.
 
 
   
@@ -3639,8 +3469,7 @@ end
 
   
   
-    Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.
 
 
   
@@ -3688,25 +3517,13 @@ end
       
   
   
-    Provides the ability to set either expectexpect,
-shouldshould or both syntaxes. RSpec uses expectexpect
-syntax by default. This is needed if you want to
-explicitly enable shouldshould syntax and/or explicitly
-disable expectexpect syntax.Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.end.
 
 
   
-    Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.
 
@@ -3714,11 +3531,7 @@ end.
   
 
   
-    Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.
 
@@ -3956,11 +3769,7 @@ end
 
   
   
-    Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.
 
@@ -4395,25 +4204,17 @@ end
       
   
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
 
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
@@ -4502,9 +4303,7 @@ end
 
   
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
@@ -4720,31 +4519,19 @@ end
       
   
   
-    
-  This method is part of a private API.This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.Returns an array of blocks to call when verifying doubles.
 
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.
 
 
   
 
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.
 
 
@@ -4834,10 +4621,7 @@ end
 
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.
 
 
@@ -5058,12 +4842,7 @@ end
       
   
   
-    Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
@@ -5153,9 +4932,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -5200,11 +4977,7 @@ end
       
   
   
-    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.
 
@@ -5246,10 +5019,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.
 
 
@@ -5284,8 +5054,7 @@ end
       
   
   
-    Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.
 
 
   
@@ -5333,11 +5102,7 @@ end
       
   
   
-    Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.
 
@@ -5492,9 +5257,7 @@ end
       
   
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
@@ -5570,10 +5333,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.
 
 
@@ -6123,13 +5883,7 @@ end
       
   
   
-    Sets whether RSpec will warn, ignore, or fail a test when
-expectations are set on nil.
-By default, when this flag is not set, warning messages are issued when
-expectations are set on nil. This is to prevent false-positives and to
-catch potential bugs early on.
-When set to true, warning messages are suppressed.
-When set to false, it will raise an error.
+    Sets whether RSpec will warn, ignore, or fail a test when expectations are set on nil. By default, when this flag is not set, warning messages are issued when expectations are set on nil. This is to prevent false-positives and to catch potential bugs early on. When set to true, warning messages are suppressed. When set to false, it will raise an error.
 
 
   
@@ -6175,9 +5929,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -6211,8 +5963,7 @@ end
       
   
   
-    Sets the default for the transfer_nested_constants option when
-stubbing constants.
+    Sets the default for the transfer_nested_constants option when stubbing constants.
 
 
   
@@ -6246,11 +5997,7 @@ end
       
   
   
-    When this is set to true, an error will be raised when
-instance_double or class_double is given the name of an undefined
-constant. You probably only want to set this when running your entire
-test suite, with all production code loaded. Setting this for an
-isolated unit test will prevent you from being able to isolate it!.
+    When this is set to true, an error will be raised when instance_double or class_double is given the name of an undefined constant. You probably only want to set this when running your entire test suite, with all production code loaded. Setting this for an isolated unit test will prevent you from being able to isolate it!.
 
 
   
@@ -6284,10 +6031,7 @@ end
       
   
   
-    Sets whether or not RSpec will yield the receiving instance of a
-message to blocks that are used for any_instance stub implementations.
-When set, the first yielded argument will be the receiving instance.
-Defaults to true.
+    Sets whether or not RSpec will yield the receiving instance of a message to blocks that are used for any_instance stub implementations. When set, the first yielded argument will be the receiving instance. Defaults to true.
 
 
   
@@ -6338,12 +6082,7 @@ end
       
   
   
-    Adds stub and should_receive to the given
-modules or classes. This is usually only necessary
-if you application uses some proxy classes that
-"strip themselves down" to a bare minimum set of
-methods and remove stub and should_receive in
-the process.
+    Adds stub and should_receive to the given modules or classes. This is usually only necessary if you application uses some proxy classes that "strip themselves down" to a bare minimum set of methods and remove stub and should_receive in the process.
 
 
   
@@ -6433,9 +6172,7 @@ end
       
   
   
-    Indicates whether or not diffs should be colored.
-Delegates to rspec-core's color option if rspec-core
-is loaded; otherwise you can set it here.
+    Indicates whether or not diffs should be colored. Delegates to rspec-core's color option if rspec-core is loaded; otherwise you can set it here.
 
 
   
@@ -6480,11 +6217,7 @@ end
       
   
   
-    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed
-objects. By default this will not work since RSpec mocks works by
-adding singleton methods that cannot be serialized. This patch removes
-these singleton methods before serialization. Setting to falsey removes
-the patch.
+    Monkey-patch Marshal.dump to enable dumping of mocked or stubbed objects. By default this will not work since RSpec mocks works by adding singleton methods that cannot be serialized. This patch removes these singleton methods before serialization. Setting to falsey removes the patch.
 
 This method is idempotent.
 
@@ -6526,10 +6259,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Resets the configured syntax to the default.
 
 
@@ -6564,8 +6294,7 @@ end
       
   
   
-    Returns an array with a list of syntaxes
-that are enabled.
+    Returns an array with a list of syntaxes that are enabled.
 
 
   
@@ -6613,11 +6342,7 @@ end
       
   
   
-    Provides the ability to set either expect,
-should or both syntaxes. RSpec uses expect
-syntax by default. This is needed if you want to
-explicitly enable should syntax and/or explicitly
-disable expect syntax.
+    Provides the ability to set either expect, should or both syntaxes. RSpec uses expect syntax by default. This is needed if you want to explicitly enable should syntax and/or explicitly disable expect syntax.
 
 end.
 
@@ -6772,9 +6497,7 @@ end
       
   
   
-    When set to true, partial mocks will be verified the same as object
-doubles. Any stubs will have their arguments checked against the original
-method, and methods that do not exist cannot be stubbed.
+    When set to true, partial mocks will be verified the same as object doubles. Any stubs will have their arguments checked against the original method, and methods that do not exist cannot be stubbed.
 
 
   
@@ -6850,10 +6573,7 @@ end
       
   
   
-    
-  This method is part of a private API.
-  You should avoid using this method if possible, as it may be removed or be changed in the future.
-
+       This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
 Returns an array of blocks to call when verifying doubles.
 
 

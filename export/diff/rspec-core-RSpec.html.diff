@@ -1,32 +1,24 @@
 [1mdiff --git a/export/rspec-core-RSpec.html.current b/export/rspec-core-RSpec.html.new[m
-[1mindex b22a86a..5627150 100644[m
+[1mindex dee3f0a..5e3679c 100644[m
 [1m--- a/export/rspec-core-RSpec.html.current[m
 [1m+++ b/export/rspec-core-RSpec.html.new[m
-[36m@@ -52,25 +52,20 @@[m [mlib/rspec/core.rb[m
+[36m@@ -52,17 +52,20 @@[m [mlib/rspec/core.rb[m
  [m
  OverviewOverview[m
    [m
-[31m-    This is borrowed (slightly modified) from Scott Taylor's[m
-[31m-project_path project:[m
-[31m-  http://github.com/smtlaissezfaire/project_path.This is borrowed (slightly modified) from Scott Taylor's[m
-[31m-project_path project:[m
-[31m-  http://github.com/smtlaissezfaire/project_path.[m
+[31m-    This is borrowed (slightly modified) from Scott Taylor's project_path project:   http://github.com/smtlaissezfaire/project_path.This is borrowed (slightly modified) from Scott Taylor's project_path project:   http://github.com/smtlaissezfaire/project_path.[m
      [m
 [32m+[m[32mThis is borrowed (slightly modified) from Scott Taylor's project_path project:  github.com/smtlaissezfaire/project_path.This is borrowed (slightly modified) from Scott Taylor's project_path project:  github.com/smtlaissezfaire/project_path.[m
  [m
  [m
-[31m-    This is borrowed (slightly modified) from Scott Taylor's[m
-[31m-project_path project:[m
-[31m-  http://github.com/smtlaissezfaire/project_path.[m
+[31m-    This is borrowed (slightly modified) from Scott Taylor's project_path project:   http://github.com/smtlaissezfaire/project_path.[m
    [m
      [m
 [32m+[m[32mThis is borrowed (slightly modified) from Scott Taylor's project_path project:  github.com/smtlaissezfaire/project_path.[m
  [m
  [m
    [m
-[31m-    This is borrowed (slightly modified) from Scott Taylor's[m
-[31m-project_path project:[m
-[31m-  http://github.com/smtlaissezfaire/project_path.[m
+[31m-    This is borrowed (slightly modified) from Scott Taylor's project_path project:   http://github.com/smtlaissezfaire/project_path.[m
 [32m+[m
 [32m+[m[41m  [m
 [32m+[m[41m    [m
@@ -34,349 +26,13 @@
  [m
  [m
    [m
-[36m@@ -518,25 +548,20 @@[m [mUsed to ensure examples get reloaded and user configuration gets reset to defaul[m
-       [m
-   [m
-   [m
-[31m-    Returns the global ConfigurationConfiguration object. While[m
-[31m-you cancan use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configureRSpec.configure.Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
-[32m+[m[41m    [m
-[32m+[m[32mReturns the global ConfigurationConfiguration object. While you cancan use this method to access the configuration, the more common convention is to use RSpec.configureRSpec.configure.Returns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
-[32m+[m
-[32m+[m
-   [m
-     [m
-[32m+[m[32mReturns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
- [m
-[31m-    Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
- [m
-   [m
- [m
-   [m
-     [m
-[31m-    Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
-[32m+[m[32mReturns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
- [m
- [m
-   [m
-[36m@@ -671,9 +696,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
-[32m+[m[41m    [m
-[32m+[m[32mReturns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
- [m
- [m
-   [m
-[36m@@ -879,9 +907,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
-[32m+[m[41m    [m
-[32m+[m[32mReturns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
- [m
- [m
-   [m
-[36m@@ -975,35 +1003,26 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-     [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.Used to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.Users must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
-[32m+[m
- [m
-   [m
-     [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
- [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
- [m
-   [m
- [m
-   [m
-     [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
- [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
- [m
- [m
-   [m
-[36m@@ -1122,12 +1141,10 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-     [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
- [m
- [m
-   [m
-[36m@@ -1441,21 +1468,18 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The example being executed.The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.The primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
-[32m+[m
- [m
-   [m
-     [m
- The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
-[32m+[m
- [m
-   [m
- [m
-[36m@@ -1463,9 +1487,7 @@[m [mversions of RSpec 2 and 3.[m
-     [m
- The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
- [m
- [m
-   [m
-[36m@@ -1639,11 +1661,10 @@[m [mend[m
- [m
-   [m
-   [m
-[32m+[m[41m    [m
- The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
- [m
- [m
-   [m
-[36m@@ -1845,35 +1870,26 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-     [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.Used to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
- [m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.Users must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
- [m
- [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-   [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[41m    [m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-     [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
- [m
- [m
-   [m
-[36m@@ -1982,12 +1998,10 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-     [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
- [m
- [m
-   [m
-[36m@@ -2027,12 +2041,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-     [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
- [m
- [m
-   [m
-[36m@@ -2136,11 +2150,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
- [m
- [m
-   [m
-[36m@@ -2228,12 +2242,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-     [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
- [m
- [m
-   [m
-[36m@@ -2295,9 +2307,8 @@[m [mModule: RSpec[m
+[36m@@ -2191,7 +2271,8 @@[m [mModule: RSpec[m
  [m
  Overview[m
    [m
-[31m-    This is borrowed (slightly modified) from Scott Taylor's[m
-[31m-project_path project:[m
-[31m-  http://github.com/smtlaissezfaire/project_path.[m
+[31m-    This is borrowed (slightly modified) from Scott Taylor's project_path project:   http://github.com/smtlaissezfaire/project_path.[m
 [32m+[m[41m    [m
 [32m+[m[32mThis is borrowed (slightly modified) from Scott Taylor's project_path project:  github.com/smtlaissezfaire/project_path.[m
- [m
- [m
-   [m
-[36m@@ -2480,9 +2498,8 @@[m [mDefined Under Namespace[m
-       [m
-   [m
-   [m
-[31m-    Returns the global Configuration object. While[m
-[31m-you can use this method to access the configuration, the more common[m
-[31m-convention is to use RSpec.configure.[m
-[32m+[m[41m    [m
-[32m+[m[32mReturns the global Configuration object. While you can use this method to access the configuration, the more common convention is to use RSpec.configure.[m
- [m
- [m
-   [m
-[36m@@ -2576,12 +2594,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded between multiple runs in the same[m
-[31m-process and ensures user configuration is persisted.[m
-     [m
-[31m-Users must invoke this if they want to clear all examples but preserve[m
-[31m-current configuration when they use the runner multiple times within the[m
-[31m-same process.[m
-[32m+[m[32mUsed to ensure examples get reloaded between multiple runs in the same process and ensures user configuration is persisted.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to clear all examples but preserve current configuration when they use the runner multiple times within the same process.[m
- [m
- [m
-   [m
-[36m@@ -2685,11 +2703,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The example being executed.[m
- [m
-[31m-The primary audience for this method is library authors who need access[m
-[31m-to the example currently being executed and also want to support all[m
-[31m-versions of RSpec 2 and 3.[m
-[32m+[m[32mThe primary audience for this method is library authors who need access to the example currently being executed and also want to support all versions of RSpec 2 and 3.[m
- [m
- [m
-   [m
-[36m@@ -2777,12 +2795,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Used to ensure examples get reloaded and user configuration gets reset to[m
-[31m-defaults between multiple runs in the same process.[m
-     [m
-[31m-Users must invoke this if they want to have the configuration reset when[m
-[31m-they use the runner multiple times within the same process. Users must deal[m
-[31m-themselves with re-configuration of RSpec before run.[m
-[32m+[m[32mUsed to ensure examples get reloaded and user configuration gets reset to defaults between multiple runs in the same process.[m
-[32m+[m
-[32m+[m[32mUsers must invoke this if they want to have the configuration reset when they use the runner multiple times within the same process. Users must deal themselves with re-configuration of RSpec before run.[m
  [m
  [m
    [m
