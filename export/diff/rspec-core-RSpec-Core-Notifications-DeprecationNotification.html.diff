@@ -1,0 +1,170 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.new[m
+[1mindex 2a4d536..3e57f22 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Notifications-DeprecationNotification.html.new[m
+[36m@@ -124,25 +124,20 @@[m [mlib/rspec/core/notifications.rb[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    The DeprecationNotificationDeprecationNotification is issued by the reporter when a deprecated[m
+[31m-part of RSpec is encountered. It represents information about the[m
+[31m-deprecated call site.The DeprecationNotification is issued by the reporter when a deprecated[m
+[31m-part of RSpec is encountered. It represents information about the[m
+[31m-deprecated call site.[m
+     [m
+[32m+[m[32mThe DeprecationNotificationDeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.The DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.[m
+ [m
+ [m
+[31m-    The DeprecationNotification is issued by the reporter when a deprecated[m
+[31m-part of RSpec is encountered. It represents information about the[m
+[31m-deprecated call site.[m
+   [m
+     [m
+[32m+[m[32mThe DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.[m
+ [m
+ [m
+   [m
+[31m-    The DeprecationNotification is issued by the reporter when a deprecated[m
+[31m-part of RSpec is encountered. It represents information about the[m
+[31m-deprecated call site.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mThe DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.[m
+ [m
+ [m
+   [m
+[36m@@ -479,21 +499,20 @@[m [mConvenience way to initialize the notification.[m
+       [m
+   [m
+   [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.An optional call site from which the deprecation[m
+[31m-was issued.[m
+[32m+[m[41m    [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.An optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.[m
+     [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+[36m@@ -643,8 +667,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.[m
+[32m+[m[41m    [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+[36m@@ -695,21 +720,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).A custom message about the deprecation (alias of[m
+[31m-message).[m
+[32m+[m[41m    [m
+[32m+[m[32mA custom message about the deprecation (alias of message).A custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).[m
+     [m
+[32m+[m[32mA custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m
+ [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mA custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m
+[36m@@ -859,8 +888,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).[m
+[32m+[m[41m    [m
+[32m+[m[32mA custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m
+[36m@@ -1336,8 +1386,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.[m
+[32m+[m[41m    [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+[36m@@ -1388,8 +1439,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).[m
+[32m+[m[41m    [m
+[32m+[m[32mA custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m
+[36m@@ -1758,9 +1819,8 @@[m [mClass: RSpec::Core::Notifications::DeprecationNotification[m
+ [m
+ Overview[m
+   [m
+[31m-    The DeprecationNotification is issued by the reporter when a deprecated[m
+[31m-part of RSpec is encountered. It represents information about the[m
+[31m-deprecated call site.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.[m
+ [m
+ [m
+   [m
+[36m@@ -1898,8 +1963,8 @@[m [mdeprecated call site.[m
+       [m
+   [m
+   [m
+[31m-    An optional call site from which the deprecation[m
+[31m-was issued.[m
+[32m+[m[41m    [m
+[32m+[m[32mAn optional call site from which the deprecation was issued.[m
+ [m
+ [m
+   [m
+[36m@@ -1950,8 +2016,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    A custom message about the deprecation (alias of[m
+[31m-message).[m
+[32m+[m[41m    [m
+[32m+[m[32mA custom message about the deprecation (alias of message).[m
+ [m
+ [m
+   [m

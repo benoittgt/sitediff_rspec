@@ -48,21 +48,10 @@ Module: RSpec::Core::DSL
 
 OverviewOverview
   
-    DSL defines methods to group examples, most notably describedescribe,
-and exposes them as class methods of RSpec. They can also be
-exposed globally (on mainmain and instances of ModuleModule) through
-the Configuration option expose_dsl_globallyexpose_dsl_globally.DSL defines methods to group examples, most notably describe,
-and exposes them as class methods of RSpec. They can also be
-exposed globally (on main and instances of Module) through
-the Configuration option expose_dsl_globally.
+    
+DSL defines methods to group examples, most notably describedescribe, and exposes them as class methods of RSpec. They can also be exposed globally (on mainmain and instances of ModuleModule) through the Configuration option expose_dsl_globallyexpose_dsl_globally.DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
-By default the methods describedescribe, contextcontext and example_groupexample_group
-are exposed. These methods define a named context for one or
-more examples. The given block is evaluated in the context of
-a generated subclass of ExampleGroup.By default the methods describe, context and example_group
-are exposed. These methods define a named context for one or
-more examples. The given block is evaluated in the context of
-a generated subclass of ExampleGroup.
+By default the methods describedescribe, contextcontext and example_groupexample_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
 Examples:Examples:
 
@@ -92,15 +81,10 @@ end
 
 
   
-    DSL defines methods to group examples, most notably describe,
-and exposes them as class methods of RSpec. They can also be
-exposed globally (on main and instances of Module) through
-the Configuration option expose_dsl_globally.
+    
+DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
-By default the methods describe, context and example_group
-are exposed. These methods define a named context for one or
-more examples. The given block is evaluated in the context of
-a generated subclass of ExampleGroup.
+By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
 Examples:
 
@@ -117,15 +101,10 @@ end
   
 
   
-    DSL defines methods to group examples, most notably describe,
-and exposes them as class methods of RSpec. They can also be
-exposed globally (on main and instances of Module) through
-the Configuration option expose_dsl_globally.
+    
+DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
-By default the methods describe, context and example_group
-are exposed. These methods define a named context for one or
-more examples. The given block is evaluated in the context of
-a generated subclass of ExampleGroup.
+By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
 Examples:
 
@@ -200,8 +179,11 @@ end
   privateprivate
 
   
-    Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
+    
+Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
+
 Adds the describe method to Module and the top level binding.
+
 Adds the describe method to Module and the top level binding.
 
   
@@ -216,7 +198,8 @@ Adds the describe method to Module and the top level binding.
   private
 
   
-    Adds the describe method to Module and the top level binding.
+    
+Adds the describe method to Module and the top level binding.
 
   
 
@@ -233,8 +216,11 @@ Adds the describe method to Module and the top level binding.
   privateprivate
 
   
-    Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
+    
+Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
+
 Removes the describe method from Module and the top level binding.
+
 Removes the describe method from Module and the top level binding.
 
   
@@ -249,7 +235,8 @@ Removes the describe method from Module and the top level binding.
   private
 
   
-    Removes the describe method from Module and the top level binding.
+    
+Removes the describe method from Module and the top level binding.
 
   
 
@@ -268,7 +255,8 @@ Removes the describe method from Module and the top level binding.
   private
 
   
-    Adds the describe method to Module and the top level binding.
+    
+Adds the describe method to Module and the top level binding.
 
   
 
@@ -285,7 +273,8 @@ Removes the describe method from Module and the top level binding.
   private
 
   
-    Removes the describe method from Module and the top level binding.
+    
+Removes the describe method from Module and the top level binding.
 
   
 
@@ -310,6 +299,7 @@ Removes the describe method from Module and the top level binding.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
 
 
@@ -317,6 +307,7 @@ Adds the describe method to Module and the top level binding.Adds the describe m
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Adds the describe method to Module and the top level binding.
 
@@ -327,6 +318,7 @@ Adds the describe method to Module and the top level binding.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Adds the describe method to Module and the top level binding.
 
@@ -481,6 +473,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Adds the describe method to Module and the top level binding.
 
 
@@ -532,6 +525,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
 
 
@@ -539,6 +533,7 @@ Removes the describe method from Module and the top level binding.Removes the de
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Removes the describe method from Module and the top level binding.
 
@@ -549,6 +544,7 @@ Removes the describe method from Module and the top level binding.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Removes the describe method from Module and the top level binding.
 
@@ -703,6 +699,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Removes the describe method from Module and the top level binding.
 
 
@@ -755,6 +752,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Adds the describe method to Module and the top level binding.
 
 
@@ -802,6 +800,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Removes the describe method from Module and the top level binding.
 
@@ -872,15 +871,10 @@ Module: RSpec::Core::DSL
 
 Overview
   
-    DSL defines methods to group examples, most notably describe,
-and exposes them as class methods of RSpec. They can also be
-exposed globally (on main and instances of Module) through
-the Configuration option expose_dsl_globally.
+    
+DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
-By default the methods describe, context and example_group
-are exposed. These methods define a named context for one or
-more examples. The given block is evaluated in the context of
-a generated subclass of ExampleGroup.
+By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
 Examples:
 
@@ -934,7 +928,8 @@ end
   private
 
   
-    Adds the describe method to Module and the top level binding.
+    
+Adds the describe method to Module and the top level binding.
 
   
 
@@ -951,7 +946,8 @@ end
   private
 
   
-    Removes the describe method from Module and the top level binding.
+    
+Removes the describe method from Module and the top level binding.
 
   
 
@@ -972,6 +968,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Adds the describe method to Module and the top level binding.
 
@@ -1020,6 +1017,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Removes the describe method from Module and the top level binding.
 

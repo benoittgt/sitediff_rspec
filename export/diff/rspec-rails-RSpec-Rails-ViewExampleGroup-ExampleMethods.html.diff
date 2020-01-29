@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new[m
-[1mindex 5d82106..36aed46 100644[m
+[1mindex 5d82106..d3b9495 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new[m
 [36m@@ -15,6 +16,12 @@[m [mModule: RSpec::Rails::ViewExampleGroup::ExampleMethods[m
@@ -28,3 +28,674 @@
  [m
    [m
    [m
+[36m@@ -161,9 +188,12 @@[m [mDelegates to ActionView::Base#render, so see documentation on that for more info[m
+   [m
+ [m
+   [m
+[31m-    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse renderedrendered instead.Use rendered instead.[m
+[32m+[m
+[32m+[m[32mUse rendered instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use rendered instead.[m
+[31m-Deprecated. Use rendered instead.[m
+ [m
+   [m
+ [m
+[36m@@ -177,7 +207,9 @@[m [mDeprecated. Use rendered instead.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -227,9 +262,12 @@[m [mSimulates the presence of a template on the file system by adding a Rails' Fixtu[m
+   [m
+ [m
+   [m
+[31m-    Deprecated.Deprecated. Use viewview instead.Use view instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse viewview instead.Use view instead.[m
+[32m+[m
+[32m+[m[32mUse view instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use view instead.[m
+[31m-Deprecated. Use view instead.[m
+ [m
+   [m
+ [m
+[36m@@ -243,7 +281,9 @@[m [mDeprecated. Use view instead.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -329,7 +374,9 @@[m [mThe instance of ActionView::Base that is used to render the template.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -363,7 +410,9 @@[m [mThe instance of ActionView::Base that is used to render the template.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -399,9 +448,8 @@[m [mThe instance of ActionView::Base that is used to render the template.[m
+       [m
+   [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.Provides access to the params hash that will be available within the view.[m
+ [m
+ paramsparams[[:foo:foo]] == ''barbar'''bar'[m
+ params[:foo] = 'bar'[m
+[36m@@ -410,8 +458,8 @@[m [mparams[:foo] = 'bar'[m
+ [m
+ [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.[m
+ [m
+ params[:foo] = 'bar'[m
+ [m
+[36m@@ -420,8 +468,8 @@[m [mparams[:foo] = 'bar'[m
+   [m
+ [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.[m
+ [m
+ params[:foo] = 'bar'[m
+ [m
+[36m@@ -513,8 +561,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.[m
+ [m
+ params[:foo] = 'bar'[m
+ [m
+[36m@@ -549,13 +597,10 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.Delegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.The only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo[m
+   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo[m
+[36m@@ -581,11 +626,10 @@[m [mend[m
+ [m
+ [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+[36m@@ -599,11 +643,10 @@[m [mend[m
+   [m
+ [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+[36m@@ -710,11 +753,10 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+[36m@@ -756,21 +798,26 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated.Deprecated. Use renderedrendered instead.Use rendered instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse renderedrendered instead.Use rendered instead.[m
+[32m+[m
+[32m+[m[32mUse rendered instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use rendered instead.[m
+[31m-Deprecated. Use rendered instead.[m
+ [m
+ [m
+ [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+ [m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+ [m
+ [m
+ [m
+[36m@@ -840,8 +887,7 @@[m [mDeprecated. Use rendered instead.[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113# File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-defdef responseresponse[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdefdef responseresponse  # `assert_template` expects `response` to implement a #body method[m
+ # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+ # like an `ActionDispatch::Response` does to force the view to[m
+[36m@@ -860,8 +907,7 @@[m [mdefdef responseresponse[m
+   renderedrendered[m
+ endend# File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -877,8 +924,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -915,8 +962,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -955,8 +1002,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -975,7 +1022,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+ [m
+ [m
+ [m
+[36m@@ -1008,8 +1056,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -1030,13 +1078,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.Simulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_templatestub_template((""widgets/_widget.html.erbwidgets/_widget.html.erb"""widgets/_widget.html.erb" =>=> ""This content.This content."""This content."))[m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+[36m@@ -1045,10 +1088,8 @@[m [mstub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+ [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+[36m@@ -1057,10 +1098,8 @@[m [mstub_template("widgets/_widget.html.erb" => "This content.")[m
+   [m
+ [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+[36m@@ -1152,10 +1191,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+[36m@@ -1190,21 +1227,26 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated.Deprecated. Use viewview instead.Use view instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse viewview instead.Use view instead.[m
+[32m+[m
+[32m+[m[32mUse view instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use view instead.[m
+[31m-Deprecated. Use view instead.[m
+ [m
+ [m
+ [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+ [m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+ [m
+ [m
+ [m
+[36m@@ -1304,7 +1346,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+ [m
+ [m
+ [m
+[36m@@ -1339,44 +1382,43 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    The instance of ActionView::BaseActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods beforebefore calling renderrender.The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::BaseActionView::Base that is used to render the template. Use this to stub methods beforebefore calling renderrender.The instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo[m
+   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo[m
+     viewview..stubstub((:foo:foo)) {{ ""foofoo"""foo" }}[m
+[31m-    renderrender[m
+[31m-    # ...[m
+[32m+[m[32m    renderrender    # ...[m
+ # ...[m
+[32m+[m
+   endend[m
+ endend[m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m
+ [m
+ [m
+   [m
+[31m-    The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m
+[36m@@ -1385,14 +1427,14 @@[m [mend[m
+   [m
+ [m
+   [m
+[31m-    The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m
+[36m@@ -1484,14 +1526,14 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m
+[36m@@ -1530,8 +1572,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.[m
+ [m
+ params[:foo] = 'bar'[m
+ [m
+[36m@@ -1566,11 +1608,10 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+[36m@@ -1612,7 +1653,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+ [m
+ [m
+ [m
+[36m@@ -1645,8 +1687,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -1667,10 +1709,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+[36m@@ -1705,7 +1745,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+ [m
+ [m
+ [m
+[36m@@ -1740,14 +1781,14 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m
+[36m@@ -1876,7 +1924,9 @@[m [mOverview[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -1910,7 +1960,9 @@[m [mOverview[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -1946,8 +1998,8 @@[m [mOverview[m
+       [m
+   [m
+   [m
+[31m-    Provides access to the params hash that will be available within the[m
+[31m-view.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides access to the params hash that will be available within the view.[m
+ [m
+ params[:foo] = 'bar'[m
+ [m
+[36m@@ -1982,11 +2034,10 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Delegates to ActionView::Base#render, so see documentation on that[m
+[31m-for more info.[m
+     [m
+[31m-The only addition is that you can call render with no arguments, and[m
+[31m-RSpec will pass the top level description to render:.[m
+[32m+[m[32mDelegates to ActionView::Base#render, so see documentation on that for more info.[m
+[32m+[m
+[32m+[m[32mThe only addition is that you can call render with no arguments, and RSpec will pass the top level description to render:.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+[36m@@ -2028,7 +2079,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use rendered instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse rendered instead.[m
+ [m
+ [m
+ [m
+[36m@@ -2061,8 +2113,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
+ [m
+[31m-def response[m
+[31m-  # `assert_template` expects `response` to implement a #body method[m
+[32m+[m[32mdef response  # `assert_template` expects `response` to implement a #body method[m
+   # like an `ActionDispatch::Response` does to force the view to[m
+   # render. For backwards compatibility, we use #response as an alias[m
+   # for #rendered, but it needs to implement #body to avoid[m
+[36m@@ -2083,10 +2135,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Simulates the presence of a template on the file system by adding a[m
+[31m-Rails' FixtureResolver to the front of the view_paths list. Designed to[m
+[31m-help isolate view examples from partials rendered by the view template[m
+[31m-that is the subject of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mSimulates the presence of a template on the file system by adding a Rails' FixtureResolver to the front of the view_paths list. Designed to help isolate view examples from partials rendered by the view template that is the subject of the example.[m
+ [m
+ stub_template("widgets/_widget.html.erb" => "This content.")[m
+ [m
+[36m@@ -2121,7 +2171,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use view instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse view instead.[m
+ [m
+ [m
+ [m
+[36m@@ -2156,14 +2207,14 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    The instance of ActionView::Base that is used to render the template.[m
+[31m-Use this to stub methods before calling render.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe instance of ActionView::Base that is used to render the template. Use this to stub methods before calling render.[m
+ [m
+ describe "widgets/new.html.erb" do[m
+   it "shows all the widgets" do[m
+     view.stub(:foo) { "foo" }[m
+[31m-    render[m
+[31m-    # ...[m
+[32m+[m[32m    render    # ...[m
+[32m+[m
+   end[m
+ end[m
+ [m

@@ -1,0 +1,103 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Formatters-Helpers.html.current b/export/rspec-core-RSpec-Core-Formatters-Helpers.html.new[m
+[1mindex 96e5a7d..4e0d1c8 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Formatters-Helpers.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Formatters-Helpers.html.new[m
+[36m@@ -829,15 +868,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in  and[m
+[31m-.The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.Formats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in  and .The precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m
+[36m@@ -845,12 +879,10 @@[m [mDEFAULT_PRECISION.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m
+[36m@@ -860,12 +892,10 @@[m [mDEFAULT_PRECISION.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m
+[36m@@ -1153,12 +1188,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m
+[36m@@ -2022,12 +2085,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m
+[36m@@ -2498,12 +2573,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Formats seconds to have 5 digits of precision with trailing zeros[m
+[31m-removed if the number is less than 1 or with 2 digits of precision if[m
+[31m-the number is greater than zero.[m
+ [m
+[31m-The precision used is set in SUB_SECOND_PRECISION and[m
+[31m-DEFAULT_PRECISION.[m
+[32m+[m[32mFormats seconds to have 5 digits of precision with trailing zeros removed if the number is less than 1 or with 2 digits of precision if the number is greater than zero.[m
+[32m+[m
+[32m+[m[32mThe precision used is set in SUB_SECOND_PRECISION and DEFAULT_PRECISION.[m
+ [m
+ [m
+   [m

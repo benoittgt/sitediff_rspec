@@ -120,25 +120,20 @@ Class: RSpec::Core::Notifications::StartNotification
 
 OverviewOverview
   
-    The StartNotificationStartNotification represents a notification sent by the reporter
-when the suite is started. It contains the expected amount of examples
-to be executed, and the load time of RSpec.The StartNotification represents a notification sent by the reporter
-when the suite is started. It contains the expected amount of examples
-to be executed, and the load time of RSpec.
+    
+The StartNotificationStartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.The StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.
 
 
   
-    The StartNotification represents a notification sent by the reporter
-when the suite is started. It contains the expected amount of examples
-to be executed, and the load time of RSpec.
+    
+The StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.
 
 
   
 
   
-    The StartNotification represents a notification sent by the reporter
-when the suite is started. It contains the expected amount of examples
-to be executed, and the load time of RSpec.
+    
+The StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.
 
 
   
@@ -170,8 +165,11 @@ to be executed, and the load time of RSpec.
   
 
   
-    the number counted.the number counted.
+    
+the number counted.the number counted.
+
 the number counted.
+
 the number counted.
 
   
@@ -189,7 +187,8 @@ the number counted.
   
 
   
-    the number counted.
+    
+the number counted.
 
   
 
@@ -209,8 +208,11 @@ the number counted.
   
 
   
-    the number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.
+
 the number of seconds taken to boot RSpec and load the spec files.
+
 the number of seconds taken to boot RSpec and load the spec files.
 
   
@@ -228,7 +230,8 @@ the number of seconds taken to boot RSpec and load the spec files.
   
 
   
-    the number of seconds taken to boot RSpec and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
   
 
@@ -250,7 +253,8 @@ the number of seconds taken to boot RSpec and load the spec files.
   
 
   
-    the number counted.
+    
+the number counted.
 
   
 
@@ -270,7 +274,8 @@ the number of seconds taken to boot RSpec and load the spec files.
   
 
   
-    the number of seconds taken to boot RSpec and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
   
 
@@ -291,17 +296,20 @@ the number of seconds taken to boot RSpec and load the spec files.
       
   
   
-    the number counted.the number counted.
+    
+the number counted.the number counted.
 
 
   
-    the number counted.
+    
+the number counted.
 
 
   
 
   
-    the number counted.
+    
+the number counted.
 
 
   
@@ -319,7 +327,9 @@ Returns:Returns:
       
       
         —
-        the current value of countthe current value of count
+        
+the current value of countthe current value of count
+
 the current value of count
 
       
@@ -331,7 +341,8 @@ the current value of count
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -346,7 +357,8 @@ the current value of count
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -366,7 +378,8 @@ Returns:
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -451,7 +464,8 @@ end
 
   
   
-    the number counted.
+    
+the number counted.
 
 
   
@@ -469,7 +483,8 @@ Returns:
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -502,21 +517,20 @@ end
       
   
   
-    the number of seconds taken to boot RSpec
-and load the spec files.the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.
 
 
   
-    the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
 
   
 
   
-    the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
 
   
@@ -534,7 +548,9 @@ Returns:Returns:
       
       
         —
-        the current value of load_timethe current value of load_time
+        
+the current value of load_timethe current value of load_time
+
 the current value of load_time
 
       
@@ -546,7 +562,8 @@ the current value of load_time
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     
@@ -561,7 +578,8 @@ the current value of load_time
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     
@@ -581,7 +599,8 @@ Returns:
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     
@@ -666,8 +685,8 @@ end
 
   
   
-    the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
 
   
@@ -685,7 +704,8 @@ Returns:
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     
@@ -721,7 +741,8 @@ end
       
   
   
-    the number counted.
+    
+the number counted.
 
 
   
@@ -739,7 +760,8 @@ Returns:
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -772,8 +794,8 @@ end
       
   
   
-    the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
 
   
@@ -791,7 +813,8 @@ Returns:
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     
@@ -866,9 +889,8 @@ Class: RSpec::Core::Notifications::StartNotification
 
 Overview
   
-    The StartNotification represents a notification sent by the reporter
-when the suite is started. It contains the expected amount of examples
-to be executed, and the load time of RSpec.
+    
+The StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.
 
 
   
@@ -897,7 +919,8 @@ to be executed, and the load time of RSpec.
   
 
   
-    the number counted.
+    
+the number counted.
 
   
 
@@ -917,7 +940,8 @@ to be executed, and the load time of RSpec.
   
 
   
-    the number of seconds taken to boot RSpec and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
   
 
@@ -938,7 +962,8 @@ to be executed, and the load time of RSpec.
       
   
   
-    the number counted.
+    
+the number counted.
 
 
   
@@ -956,7 +981,8 @@ Returns:
       
       
         —
-        the current value of count
+        
+the current value of count
 
       
     
@@ -989,8 +1015,8 @@ end
       
   
   
-    the number of seconds taken to boot RSpec
-and load the spec files.
+    
+the number of seconds taken to boot RSpec and load the spec files.
 
 
   
@@ -1008,7 +1034,8 @@ Returns:
       
       
         —
-        the current value of load_time
+        
+the current value of load_time
 
       
     

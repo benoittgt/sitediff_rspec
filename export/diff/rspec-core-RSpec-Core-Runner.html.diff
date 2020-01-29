@@ -1,0 +1,463 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Runner.html.current b/export/rspec-core-RSpec-Core-Runner.html.new[m
+[1mindex 814eb81..1527bae 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Runner.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Runner.html.new[m
+[36m@@ -734,28 +777,16 @@[m [mend[m
+     [m
+   [m
+     Note:Note:[m
+[31m-    This is not generally needed. The rspecrspec command takes care[m
+[31m-of running examples for you without involving an at_exitat_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the rubyruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorunrspec/autorun.This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[31m-This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspecrspec command takes care of running examples for you without involving an at_exitat_exit hook. This is only needed if you are running specs using the rubyruby command, and even then, the normal way to invoke this is by requiring rspec/autorunrspec/autorun.This is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+ [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -766,11 +797,9 @@[m [mRegister an at_exitat_exit hook that runs the suite when the process exits.Regis[m
+     [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -783,11 +812,9 @@[m [mRegister an at_exit hook that runs the suite when the process exits.[m
+     [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -963,11 +990,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -1019,21 +1044,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.Runs the suite of specs and exits the process with an appropriate exit code.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.[m
+ [m
+ [m
+   [m
+[36m@@ -1142,8 +1166,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.[m
+ [m
+ [m
+   [m
+[36m@@ -1179,28 +1203,22 @@[m [mend[m
+       [m
+   [m
+   [m
+[32m+[m[41m    [m
+ Run a suite of RSpec examples. Does not exit.Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.This is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+[32m+[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rbspec_helper.rb to be reloaded, be sure to load loadload instead of requirerequire.If you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rbspec_helper.rb to be reloaded, be sure to load loadload[m
+[31m-instead of requirerequire.If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+ [m
+   [m
+     [m
+ Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+[32m+[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+ [m
+   [m
+ [m
+[36m@@ -1208,12 +1226,9 @@[m [minstead of require.[m
+     [m
+ Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+ [m
+   [m
+[36m@@ -1381,14 +1408,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[31m-exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+[32m+[m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -1399,9 +1422,8 @@[m [mfailed.[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -1416,9 +1438,8 @@[m [mfailed.[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -1491,9 +1515,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -1648,14 +1671,12 @@[m [mend[m
+ [m
+   [m
+   [m
+[32m+[m[41m    [m
+ Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+ [m
+   [m
+[36m@@ -1726,9 +1750,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -1780,11 +1803,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -1836,8 +1857,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.[m
+ [m
+ [m
+   [m
+[36m@@ -1873,14 +1894,12 @@[m [mend[m
+       [m
+   [m
+   [m
+[32m+[m[41m    [m
+ Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+ [m
+   [m
+[36m@@ -1951,9 +1973,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -2435,14 +2479,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[31m-exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.exit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+[32m+[m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -2453,9 +2493,8 @@[m [mfailed.[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -2470,9 +2509,8 @@[m [mfailed.[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -2511,9 +2550,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -2745,9 +2785,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -3270,9 +3330,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -3650,11 +3721,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    This is not generally needed. The rspec command takes care[m
+[31m-of running examples for you without involving an at_exit[m
+[31m-hook. This is only needed if you are running specs using[m
+[31m-the ruby command, and even then, the normal way to invoke[m
+[31m-this is by requiring rspec/autorun.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis is not generally needed. The rspec command takes care of running examples for you without involving an at_exit hook. This is only needed if you are running specs using the ruby command, and even then, the normal way to invoke this is by requiring rspec/autorun.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -3706,8 +3775,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Runs the suite of specs and exits the process with an appropriate exit[m
+[31m-code.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuns the suite of specs and exits the process with an appropriate exit code.[m
+ [m
+ [m
+   [m
+[36m@@ -3743,14 +3812,12 @@[m [mend[m
+       [m
+   [m
+   [m
+[32m+[m[41m    [m
+ Run a suite of RSpec examples. Does not exit.[m
+ [m
+[31m-This is used internally by RSpec to run a suite, but is available[m
+[31m-for use by any other automation tool.[m
+[32m+[m[32mThis is used internally by RSpec to run a suite, but is available for use by any other automation tool.[m
+ [m
+[31m-If you want to run this multiple times in the same process, and you[m
+[31m-want files like spec_helper.rb to be reloaded, be sure to load load[m
+[31m-instead of require.[m
+[32m+[m[32mIf you want to run this multiple times in the same process, and you want files like spec_helper.rb to be reloaded, be sure to load load instead of require.[m
+ [m
+ [m
+   [m
+[36m@@ -3821,9 +3891,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m
+[36m@@ -3987,9 +4061,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        exit status code. 0 if all specs passed,[m
+[31m-or the configured failure exit code (1 by default) if specs[m
+[31m-failed.[m
+[32m+[m[41m        [m
+[32m+[m[32mexit status code. 0 if all specs passed, or the configured failure exit code (1 by default) if specs failed.[m
+ [m
+       [m
+     [m

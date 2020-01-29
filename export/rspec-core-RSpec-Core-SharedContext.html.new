@@ -48,21 +48,20 @@ Module: RSpec::Core::SharedContext
 
 OverviewOverview
   
-    Exposes ExampleGroup-level methods to a module, so you can include that
-module in an ExampleGroup.Exposes ExampleGroup-level methods to a module, so you can include that
-module in an ExampleGroup.
+    
+Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.
 
 
   
-    Exposes ExampleGroup-level methods to a module, so you can include that
-module in an ExampleGroup.
+    
+Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.
 
 
   
 
   
-    Exposes ExampleGroup-level methods to a module, so you can include that
-module in an ExampleGroup.
+    
+Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.
 
 
   
@@ -82,9 +81,9 @@ modulemodule LoggedInAsAdminLoggedInAsAdmin
 endend
 
 describedescribe ""admin sectionadmin section"""admin section" dodo
-  includeinclude LoggedInAsAdminLoggedInAsAdmin
-  # ...
+  includeinclude LoggedInAsAdminLoggedInAsAdmin  # ...
 # ...
+
 endend
 module LoggedInAsAdmin
   extend RSpec::Core::SharedContext
@@ -94,8 +93,8 @@ module LoggedInAsAdmin
 end
 
 describe "admin section" do
-  include LoggedInAsAdmin
-  # ...
+  include LoggedInAsAdmin  # ...
+
 end
 module LoggedInAsAdmin
   extend RSpec::Core::SharedContext
@@ -105,8 +104,8 @@ module LoggedInAsAdmin
 end
 
 describe "admin section" do
-  include LoggedInAsAdmin
-  # ...
+  include LoggedInAsAdmin  # ...
+
 end
     
   
@@ -122,8 +121,8 @@ module LoggedInAsAdmin
 end
 
 describe "admin section" do
-  include LoggedInAsAdmin
-  # ...
+  include LoggedInAsAdmin  # ...
+
 end
     
   
@@ -144,8 +143,8 @@ module LoggedInAsAdmin
 end
 
 describe "admin section" do
-  include LoggedInAsAdmin
-  # ...
+  include LoggedInAsAdmin  # ...
+
 end
     
   
@@ -186,8 +185,8 @@ Module: RSpec::Core::SharedContext
 
 Overview
   
-    Exposes ExampleGroup-level methods to a module, so you can include that
-module in an ExampleGroup.
+    
+Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.
 
 
   
@@ -207,8 +206,8 @@ module LoggedInAsAdmin
 end
 
 describe "admin section" do
-  include LoggedInAsAdmin
-  # ...
+  include LoggedInAsAdmin  # ...
+
 end
     
   

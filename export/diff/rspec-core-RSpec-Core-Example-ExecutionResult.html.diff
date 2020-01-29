@@ -1,0 +1,695 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Example-ExecutionResult.html.current b/export/rspec-core-RSpec-Core-Example-ExecutionResult.html.new[m
+[1mindex be6f395..7499cc9 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Example-ExecutionResult.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Example-ExecutionResult.html.new[m
+[36m@@ -110,21 +110,20 @@[m [mClass: RSpec::Core::Example::ExecutionResult[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Represents the result of executing an example.[m
+[31m-Behaves like a hash for backwards compatibility.Represents the result of executing an example.[m
+[31m-Behaves like a hash for backwards compatibility.[m
+     [m
+[32m+[m[32mRepresents the result of executing an example. Behaves like a hash for backwards compatibility.Represents the result of executing an example. Behaves like a hash for backwards compatibility.[m
+ [m
+ [m
+[31m-    Represents the result of executing an example.[m
+[31m-Behaves like a hash for backwards compatibility.[m
+   [m
+     [m
+[32m+[m[32mRepresents the result of executing an example. Behaves like a hash for backwards compatibility.[m
+ [m
+ [m
+   [m
+[31m-    Represents the result of executing an example.[m
+[31m-Behaves like a hash for backwards compatibility.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mRepresents the result of executing an example. Behaves like a hash for backwards compatibility.[m
+ [m
+ [m
+   [m
+[36m@@ -1224,29 +1298,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending:pending unless it was[m
+[31m-tagged with :skip:skip.Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending:pending unless it was tagged with :skip:skip.Returns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+ [m
+   [m
+[36m@@ -1264,17 +1329,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending:pending unless it was[m
+[31m-tagged with :skip:skip.The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[31m-The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending:pending unless it was tagged with :skip:skip.The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+[32m+[m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -1285,10 +1343,8 @@[m [mtagged with :skip.[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -1303,10 +1359,8 @@[m [mtagged with :skip.[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -1326,10 +1380,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -1414,10 +1466,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+ [m
+   [m
+[36m@@ -1435,10 +1485,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -1471,21 +1519,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns For examples tagged with :pending:pending,[m
+[31m-this indicates whether or not it now passes.Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns For examples tagged with :pending:pending, this indicates whether or not it now passes.Returns For examples tagged with :pending, this indicates whether or not it now passes.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mReturns For examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+[31m-    Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[32mReturns For examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+ [m
+   [m
+[36m@@ -1503,11 +1550,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending:pending,[m
+[31m-this indicates whether or not it now passes.For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[31m-For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending:pending, this indicates whether or not it now passes.For examples tagged with :pending, this indicates whether or not it now passes.[m
+[32m+[m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -1518,8 +1564,8 @@[m [mthis indicates whether or not it now passes.[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -1534,8 +1580,8 @@[m [mthis indicates whether or not it now passes.[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -1555,8 +1601,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -1641,8 +1687,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns For examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+ [m
+   [m
+[36m@@ -1660,8 +1706,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -1694,21 +1740,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.Returns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+     [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+[36m@@ -1726,11 +1771,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[31m-The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.The reason the example was pending, or nil if the example was not pending.[m
+[32m+[m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -1741,8 +1785,8 @@[m [mor nil if the example was not pending.[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -1757,8 +1801,8 @@[m [mor nil if the example was not pending.[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -1778,8 +1822,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -1864,8 +1908,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+[36m@@ -1883,8 +1927,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -2655,10 +2733,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+ [m
+   [m
+[36m@@ -2676,10 +2752,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -2712,8 +2786,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns For examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+ [m
+   [m
+[36m@@ -2731,8 +2805,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -2765,8 +2839,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+[36m@@ -2784,8 +2858,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -3126,33 +3210,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip:skip metadata or the skipskip method). Skipped examples[m
+[31m-will have a :pending:pending result. A :pending:pending result can also come from examples[m
+[31m-that were marked as :pending:pending, which causes them to be run, and produces a[m
+[31m-:failed:failed result if the example passes.Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method). Skipped examples will have a :pending:pending result. A :pending:pending result can also come from examples that were marked as :pending:pending, which causes them to be run, and produces a :failed:failed result if the example passes.Returns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+ [m
+   [m
+[36m@@ -3170,20 +3241,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip:skip metadata or the skipskip method). Skipped examples[m
+[31m-will have a :pending:pending result. A :pending:pending result can also come from examples[m
+[31m-that were marked as :pending:pending, which causes them to be run, and produces a[m
+[31m-:failed:failed result if the example passes.Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[31m-Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip:skip metadata or the skipskip method). Skipped examples will have a :pending:pending result. A :pending:pending result can also come from examples that were marked as :pending:pending, which causes them to be run, and produces a :failed:failed result if the example passes.Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+[32m+[m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3194,11 +3255,8 @@[m [mthat were marked as :pending, which causes them to be run, and produces a[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3213,11 +3271,8 @@[m [mthat were marked as :pending, which causes them to be run, and produces a[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3237,11 +3292,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3326,11 +3378,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+ [m
+   [m
+[36m@@ -3348,11 +3397,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3585,11 +3636,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+ [m
+   [m
+[36m@@ -3607,11 +3655,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m
+[36m@@ -3721,8 +3767,8 @@[m [mClass: RSpec::Core::Example::ExecutionResult[m
+ [m
+ Overview[m
+   [m
+[31m-    Represents the result of executing an example.[m
+[31m-Behaves like a hash for backwards compatibility.[m
+[32m+[m[41m    [m
+[32m+[m[32mRepresents the result of executing an example. Behaves like a hash for backwards compatibility.[m
+ [m
+ [m
+   [m
+[36m@@ -4081,10 +4142,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+ [m
+   [m
+[36m@@ -4102,10 +4161,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The exception triggered while[m
+[31m-executing the pending example. If no exception was triggered[m
+[31m-it would no longer get a status of :pending unless it was[m
+[31m-tagged with :skip.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe exception triggered while executing the pending example. If no exception was triggered it would no longer get a status of :pending unless it was tagged with :skip.[m
+ [m
+       [m
+     [m
+[36m@@ -4138,8 +4195,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns For examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+ [m
+   [m
+[36m@@ -4157,8 +4214,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        For examples tagged with :pending,[m
+[31m-this indicates whether or not it now passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mFor examples tagged with :pending, this indicates whether or not it now passes.[m
+ [m
+       [m
+     [m
+[36m@@ -4191,8 +4248,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The reason the example was pending, or nil if the example was not pending.[m
+ [m
+ [m
+   [m
+[36m@@ -4210,8 +4267,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The reason the example was pending,[m
+[31m-or nil if the example was not pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe reason the example was pending, or nil if the example was not pending.[m
+ [m
+       [m
+     [m
+[36m@@ -4438,11 +4502,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Indicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+ [m
+   [m
+[36m@@ -4460,11 +4521,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Indicates if the example was completely skipped[m
+[31m-(typically done via :skip metadata or the skip method). Skipped examples[m
+[31m-will have a :pending result. A :pending result can also come from examples[m
+[31m-that were marked as :pending, which causes them to be run, and produces a[m
+[31m-:failed result if the example passes.[m
+[32m+[m[41m        [m
+[32m+[m[32mIndicates if the example was completely skipped (typically done via :skip metadata or the skip method). Skipped examples will have a :pending result. A :pending result can also come from examples that were marked as :pending, which causes them to be run, and produces a :failed result if the example passes.[m
+ [m
+       [m
+     [m

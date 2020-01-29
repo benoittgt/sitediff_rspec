@@ -423,9 +423,9 @@ by including the method and the class in a module, which is then
 included in your spec:.
 
 modulemodule CustomGameMatchersCustomGameMatchers
-  classclass BeInZoneBeInZone
-    # ...
+  classclass BeInZoneBeInZone    # ...
 # ...
+
   endend
 
   defdef be_in_zonebe_in_zone((expectedexpected))
@@ -435,13 +435,13 @@ modulemodule CustomGameMatchersCustomGameMatchers
 endend
 
 describedescribe ""Player behaviourPlayer behaviour"""Player behaviour" dodo
-  includeinclude CustomGameMatchersCustomGameMatchers
-  # ...
+  includeinclude CustomGameMatchersCustomGameMatchers  # ...
 # ...
+
 endend
 module CustomGameMatchers
-  class BeInZone
-    # ...
+  class BeInZone    # ...
+
   end
 
   def be_in_zone(expected)
@@ -450,12 +450,12 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers
-  # ...
+  include CustomGameMatchers  # ...
+
 end
 module CustomGameMatchers
-  class BeInZone
-    # ...
+  class BeInZone    # ...
+
   end
 
   def be_in_zone(expected)
@@ -464,8 +464,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers
-  # ...
+  include CustomGameMatchers  # ...
+
 end
 
 
@@ -738,8 +738,8 @@ by including the method and the class in a module, which is then
 included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone
-    # ...
+  class BeInZone    # ...
+
   end
 
   def be_in_zone(expected)
@@ -748,8 +748,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers
-  # ...
+  include CustomGameMatchers  # ...
+
 end
 
 
@@ -981,8 +981,8 @@ by including the method and the class in a module, which is then
 included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone
-    # ...
+  class BeInZone    # ...
+
   end
 
   def be_in_zone(expected)
@@ -991,8 +991,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers
-  # ...
+  include CustomGameMatchers  # ...
+
 end
 
 
@@ -10219,21 +10219,21 @@ that splatted out as individual items.
     Examples:Examples:
     
       
-      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))
+      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))# is identical to:
 # is identical to:
-# is identical to:
-expectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)
-# is identical to:
-expect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)
-# is identical to:
+
+expectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)# is identical to:
+
+expect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)
-# is identical to:
+      expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   
@@ -10256,8 +10256,8 @@ expect(results).to match_array([1, 2])
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)
-# is identical to:
+      expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   
@@ -10361,8 +10361,8 @@ that splatted out as individual items.
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)
-# is identical to:
+      expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   
@@ -14385,8 +14385,8 @@ that splatted out as individual items.
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)
-# is identical to:
+      expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   
@@ -15244,8 +15244,8 @@ by including the method and the class in a module, which is then
 included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone
-    # ...
+  class BeInZone    # ...
+
   end
 
   def be_in_zone(expected)
@@ -15254,8 +15254,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers
-  # ...
+  include CustomGameMatchers  # ...
+
 end
 
 
@@ -17650,8 +17650,8 @@ that splatted out as individual items.
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)
-# is identical to:
+      expect(results).to contain_exactly(1, 2)# is identical to:
+
 expect(results).to match_array([1, 2])
     
   

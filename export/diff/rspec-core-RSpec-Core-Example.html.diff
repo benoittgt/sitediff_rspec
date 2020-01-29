@@ -1,13 +1,1937 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Example.html.current b/export/rspec-core-RSpec-Core-Example.html.new[m
-[1mindex 04f817b..43bf597 100644[m
+[1mindex 04f817b..4c50ab9 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Example.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Example.html.new[m
-[36m@@ -4966,7 +4966,7 @@[m [mend[m
+[36m@@ -113,64 +113,41 @@[m [mOverviewOverview[m
+     [m
+   [m
+     Note:Note:[m
+[31m-    Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroupExampleGroup, not in the context of an instance of ExampleExample.Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+[31m-Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+[32m+[m[41m    [m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroupExampleGroup, not in the context of an instance of ExampleExample.Example blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+[32m+[m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+ [m
+   [m
+     Note:[m
+[31m-    Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+[32m+[m[41m    [m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+[32m+[m
+   [m
+ [m
+ [m
+[31m-Wrapper for an instance of a subclass of ExampleGroup. An instance of[m
+[31m-RSpec::Core::ExampleRSpec::Core::Example is returned by example definition methods[m
+[31m-such as it and is yielded to the it,[m
+[31m-before, after, around,[m
+[31m-let and[m
+[31m-subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of[m
+[31m-RSpec::Core::Example is returned by example definition methods[m
+[31m-such as it and is yielded to the it,[m
+[31m-before, after, around,[m
+[31m-let and[m
+[31m-subject blocks.[m
+[32m+[m[32mWrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::ExampleRSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.Wrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.[m
+ [m
+[31m-This allows us to provide rich metadata about each individual[m
+[31m-example without adding tons of methods directly to the ExampleGroup[m
+[31m-that users may inadvertently redefine.This allows us to provide rich metadata about each individual[m
+[31m-example without adding tons of methods directly to the ExampleGroup[m
+[31m-that users may inadvertently redefine.[m
+[32m+[m[32mThis allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.This allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.[m
+ [m
+[31m-Useful for configuring logging and/or taking some action based[m
+[31m-on the state of an example's metadata.Useful for configuring logging and/or taking some action based[m
+[31m-on the state of an example's metadata.[m
+[32m+[m[32mUseful for configuring logging and/or taking some action based on the state of an example's metadata.Useful for configuring logging and/or taking some action based on the state of an example's metadata.[m
+ [m
+ [m
+   [m
+     [m
+   [m
+     Note:[m
+[31m-    Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+     [m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+ [m
+   [m
+[31m-Wrapper for an instance of a subclass of ExampleGroup. An instance of[m
+[31m-RSpec::Core::Example is returned by example definition methods[m
+[31m-such as it and is yielded to the it,[m
+[31m-before, after, around,[m
+[31m-let and[m
+[31m-subject blocks.[m
+ [m
+[31m-This allows us to provide rich metadata about each individual[m
+[31m-example without adding tons of methods directly to the ExampleGroup[m
+[31m-that users may inadvertently redefine.[m
+ [m
+[31m-Useful for configuring logging and/or taking some action based[m
+[31m-on the state of an example's metadata.[m
+[32m+[m[32mWrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.[m
+[32m+[m
+[32m+[m[32mThis allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.[m
+[32m+[m
+[32m+[m[32mUseful for configuring logging and/or taking some action based on the state of an example's metadata.[m
+ [m
+ [m
+   [m
+[36m@@ -179,24 +156,17 @@[m [mon the state of an example's metadata.[m
+     [m
+   [m
+     Note:[m
+[31m-    Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+[32m+[m[41m    [m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+ [m
+   [m
+ [m
+[31m-Wrapper for an instance of a subclass of ExampleGroup. An instance of[m
+[31m-RSpec::Core::Example is returned by example definition methods[m
+[31m-such as it and is yielded to the it,[m
+[31m-before, after, around,[m
+[31m-let and[m
+[31m-subject blocks.[m
+ [m
+[31m-This allows us to provide rich metadata about each individual[m
+[31m-example without adding tons of methods directly to the ExampleGroup[m
+[31m-that users may inadvertently redefine.[m
+[32m+[m[32mWrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.[m
+ [m
+[31m-Useful for configuring logging and/or taking some action based[m
+[31m-on the state of an example's metadata.[m
+[32m+[m[32mThis allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.[m
+[32m+[m
+[32m+[m[32mUseful for configuring logging and/or taking some action based on the state of an example's metadata.[m
+ [m
+ [m
+   [m
+[36m@@ -1034,9 +1071,12 @@[m [mFlag that indicates that the example is not expected to pass.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.Use #location_rerun_argument instead.[m
+[32m+[m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use #location_rerun_argument instead.[m
+[31m-Deprecated. Use #location_rerun_argument instead.[m
+ [m
+   [m
+ [m
+[36m@@ -1050,7 +1090,8 @@[m [mDeprecated. Use #location_rerun_argument instead.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+   [m
+ [m
+[36m@@ -1358,7 +1420,8 @@[m [mFlag that will cause the example to not run.[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+   [m
+ [m
+[36m@@ -1451,11 +1519,10 @@[m [mCreates a new instance of Example.[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declaredthe subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[31m-the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declaredthe subclass of ExampleGroup in which this Example is declared[m
+[32m+[m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -1468,8 +1535,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -1484,11 +1551,10 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the itit method (or[m
+[31m-alias)the String passed to the it method (or[m
+[31m-alias)[m
+[31m-the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the itit method (or alias)the String passed to the it method (or alias)[m
+[32m+[m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -1501,8 +1567,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -1517,11 +1583,10 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to itit to be used as[m
+[31m-metadataadditional args passed to it to be used as[m
+[31m-metadata[m
+[31m-additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to itit to be used as metadataadditional args passed to it to be used as metadata[m
+[32m+[m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -1534,8 +1599,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -1552,11 +1617,10 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-examplethe block of code that represents the[m
+[31m-example[m
+[31m-the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the examplethe block of code that represents the example[m
+[32m+[m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -1571,8 +1635,8 @@[m [mexample[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -1589,8 +1653,8 @@[m [mexample[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -1605,8 +1669,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -1621,8 +1685,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -1639,8 +1703,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -1662,8 +1726,8 @@[m [mexample[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -1678,8 +1742,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -1694,8 +1758,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -1712,8 +1776,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -2123,8 +2188,8 @@[m [mCreates a new instance of Example.[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -2139,8 +2204,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -2155,8 +2220,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -2173,8 +2238,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -2290,8 +2356,8 @@[m [mCreates a new instance of Example.[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -2306,8 +2372,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -2322,8 +2388,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -2340,8 +2406,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -2438,21 +2504,20 @@[m [mend[m
+       [m
    [m
    [m
-     Returns the exact source location of this example in a form[m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).Returns the first exception raised in the context of running this example (nil if no exception is raised).[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).[m
+[32m+[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).[m
+ [m
+ [m
+   [m
+[36m@@ -2541,8 +2606,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).[m
+ [m
+ [m
+   [m
+[36m@@ -2923,8 +3002,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).[m
+ [m
+ [m
+   [m
+[36m@@ -3048,33 +3130,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the string submitted to exampleexample or its aliases (e.g.[m
+[31m-specifyspecify, itit, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the string submitted to exampleexample or its aliases (e.g. specifyspecify, itit, etc). If no string is submitted (e.g. it { is_expected.to do_something }it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.Returns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+[31m-    Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+     [m
+[32m+[m[32mReturns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+[36m@@ -3223,11 +3292,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+[36m@@ -3271,21 +3337,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[41m    [m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.Duplicates the example and overrides metadata with the provided hash.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.[m
+[32m+[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.[m
+ [m
+ [m
+   [m
+[36m@@ -3626,8 +3701,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[41m    [m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.[m
+ [m
+ [m
+   [m
+[36m@@ -3719,21 +3796,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the example group class that provides the context for running this example.Returns the example group class that provides the context for running this example.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[32mReturns the example group class that provides the context for running this example.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the example group class that provides the context for running this example.[m
+ [m
+ [m
+   [m
+[36m@@ -3822,8 +3898,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the example group class that provides the context for running this example.[m
+ [m
+ [m
+   [m
+[36m@@ -4040,21 +4126,20 @@[m [mdelegate_to_metadata :execution_result[m
+       [m
+   [m
+   [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.Returns the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the relative path to the file where this example was defined.Returns the relative path to the file where this example was defined.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mReturns the relative path to the file where this example was defined.[m
+ [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[32mReturns the relative path to the file where this example was defined.[m
+ [m
+ [m
+   [m
+[36m@@ -4072,11 +4157,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.the relative path to the file where this example was[m
+[31m-defined.[m
+[31m-the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.the relative path to the file where this example was defined.[m
+[32m+[m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -4087,8 +4171,8 @@[m [mdefined.[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -4103,8 +4187,8 @@[m [mdefined.[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -4124,8 +4208,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -4190,8 +4274,8 @@[m [mdelegate_to_metadata :file_path[m
+ [m
+   [m
+   [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the relative path to the file where this example was defined.[m
+ [m
+ [m
+   [m
+[36m@@ -4209,8 +4293,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -4237,21 +4321,20 @@[m [mdelegate_to_metadata :file_path[m
+       [m
+   [m
+   [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).Returns the full description (including the docstrings of all parent example groups).[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).[m
+ [m
+ [m
+   [m
+[36m@@ -4269,11 +4352,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[31m-the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).the full description (including the docstrings of all parent example groups).[m
+[32m+[m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -4284,8 +4366,8 @@[m [mall parent example groups).[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -4300,8 +4382,8 @@[m [mall parent example groups).[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -4321,8 +4403,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -4387,8 +4469,8 @@[m [mdelegate_to_metadata :full_description[m
+ [m
+   [m
+   [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).[m
+ [m
+ [m
+   [m
+[36m@@ -4406,8 +4488,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -4434,21 +4516,20 @@[m [mdelegate_to_metadata :full_description[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.Returns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+ [m
+   [m
+[36m@@ -4466,11 +4547,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[31m-the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.the unique id of this example. Pass this at the command line to re-run this exact example.[m
+[32m+[m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -4481,8 +4561,8 @@[m [mthis at the command line to re-run this exact example.[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -4497,8 +4577,8 @@[m [mthis at the command line to re-run this exact example.[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -4518,8 +4598,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -4604,8 +4684,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+ [m
+   [m
+[36m@@ -4623,8 +4703,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -4965,21 +5053,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the exact source location of this example in a form[m
 [31m-like ./path/to/spec.rb:17.Returns the exact source location of this example in a form[m
-[32m+[m[32mlike ./path/to/spec.rb:17./path/to/spec.rb:17.Returns the exact source location of this example in a form[m
- like ./path/to/spec.rb:17.[m
+[31m-like ./path/to/spec.rb:17.[m
+     [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17.Returns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
  [m
  [m
+[31m-    Returns the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17.[m
+   [m
+     [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
+ [m
+ [m
+   [m
+[31m-    Returns the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
+ [m
+ [m
+   [m
+[36m@@ -4997,11 +5084,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17./path/to/spec.rb:17the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[31m-the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17./path/to/spec.rb:17the exact source location of this example in a form like ./path/to/spec.rb:17[m
+[32m+[m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -5012,8 +5098,8 @@[m [mlike ./path/to/spec.rb:17[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -5028,8 +5114,8 @@[m [mlike ./path/to/spec.rb:17[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -5049,8 +5135,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -5115,8 +5201,8 @@[m [mdelegate_to_metadata :location[m
+ [m
+   [m
+   [m
+[31m-    Returns the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
+ [m
+ [m
+   [m
+[36m@@ -5134,8 +5220,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -5365,25 +5455,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).Returns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+ [m
+   [m
+[36m@@ -5401,14 +5486,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[31m-flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -5419,9 +5500,8 @@[m [mfailure occurs) or a failed result (if no failure occurs).[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -5436,9 +5516,8 @@[m [mfailure occurs) or a failed result (if no failure occurs).[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -5458,9 +5537,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -5525,9 +5603,8 @@[m [mdelegate_to_metadata :pending[m
+ [m
+   [m
+   [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+ [m
+   [m
+[36m@@ -5545,9 +5622,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -5574,23 +5650,26 @@[m [mdelegate_to_metadata :pending[m
+       [m
+   [m
+   [m
+[31m-    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.Use #location_rerun_argument instead.[m
+[32m+[m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+[32m+[m[32mDeprecated.[m[41m [m
+ Use #location_rerun_argument instead.[m
+[31m-Deprecated. Use #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[31m-If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).If there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -5598,13 +5677,15 @@[m [mReturns the location-based argument that can be passed to the rspecrspec command[m
+ [m
+ [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -5614,13 +5695,15 @@[m [mReturns the location-based argument that can be passed to the rspec command to r[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -5713,13 +5796,15 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -5762,9 +5847,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.instance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -5772,8 +5856,8 @@[m [mthe instance of RSpec::Core::ExampleGroup.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -5783,8 +5867,8 @@[m [mthe instance of RSpec::Core::ExampleGroup.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -6055,8 +6144,7 @@[m [mdefdef runrun((example_group_instanceexample_group_instance,, reporterreporter))[m
+                   ''Expected example to fail since it is pending, but it passed.Expected example to fail since it is pending, but it passed.'''Expected example to fail since it is pending, but it passed.',,[m
+                   [[locationlocation]][m
+           endend[m
+[31m-        rescuerescue PendingPending::::SkipDeclaredInExampleSkipDeclaredInExample =>=> __[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescuerescue PendingPending::::SkipDeclaredInExampleSkipDeclaredInExample =>=> __          # The "=> _" is normally useless but on JRuby it is a workaround[m
+ # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+ # for a bug that prevents us from getting backtraces:[m
+[36m@@ -6113,8 +6202,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -6166,8 +6255,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -6276,8 +6365,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -6388,8 +6477,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -6423,8 +6512,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -6536,8 +6626,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -6569,21 +6659,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending:pending.Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending:pending.Returns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+ [m
+   [m
+[36m@@ -6601,11 +6690,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending:pending.flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[31m-flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending:pending.flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+[32m+[m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -6616,8 +6704,8 @@[m [mThe ExecutionResult status will be :pending.[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -6632,8 +6720,8 @@[m [mThe ExecutionResult status will be :pending.[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -6653,8 +6741,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -6719,8 +6807,8 @@[m [mdelegate_to_metadata :skip[m
+ [m
+   [m
+   [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+ [m
+   [m
+[36m@@ -6738,8 +6826,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -6770,11 +6858,8 @@[m [mdelegate_to_metadata :skip[m
+       [m
+   [m
+   [m
+[31m-    Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+[36m@@ -6818,8 +6903,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[41m    [m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.[m
+ [m
+ [m
+   [m
+[36m@@ -6911,8 +6998,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the example group class that provides the context for running this example.[m
+ [m
+ [m
+   [m
+[36m@@ -6989,8 +7078,8 @@[m [mdelegate_to_metadata :execution_result[m
+       [m
+   [m
+   [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the relative path to the file where this example was defined.[m
+ [m
+ [m
+   [m
+[36m@@ -7008,8 +7097,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -7036,8 +7125,8 @@[m [mdelegate_to_metadata :file_path[m
+       [m
+   [m
+   [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).[m
+ [m
+ [m
+   [m
+[36m@@ -7055,8 +7144,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -7083,8 +7172,8 @@[m [mdelegate_to_metadata :full_description[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+ [m
+   [m
+[36m@@ -7102,8 +7191,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -7206,8 +7297,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
+ [m
+ [m
+   [m
+[36m@@ -7225,8 +7316,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -7297,9 +7389,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+ [m
+   [m
+[36m@@ -7317,9 +7408,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -7346,13 +7436,15 @@[m [mdelegate_to_metadata :pending[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -7392,8 +7484,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -7505,8 +7598,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -7538,8 +7631,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+ [m
+   [m
+[36m@@ -7557,8 +7650,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m
+[36m@@ -7629,24 +7722,17 @@[m [mOverview[m
+     [m
+   [m
+     Note:[m
+[31m-    Example blocks are evaluated in the context of an instance[m
+[31m-of an ExampleGroup, not in the context of an instance of Example.[m
+     [m
+[32m+[m[32mExample blocks are evaluated in the context of an instance of an ExampleGroup, not in the context of an instance of Example.[m
+ [m
+   [m
+[31m-Wrapper for an instance of a subclass of ExampleGroup. An instance of[m
+[31m-RSpec::Core::Example is returned by example definition methods[m
+[31m-such as it and is yielded to the it,[m
+[31m-before, after, around,[m
+[31m-let and[m
+[31m-subject blocks.[m
+ [m
+[31m-This allows us to provide rich metadata about each individual[m
+[31m-example without adding tons of methods directly to the ExampleGroup[m
+[31m-that users may inadvertently redefine.[m
+ [m
+[31m-Useful for configuring logging and/or taking some action based[m
+[31m-on the state of an example's metadata.[m
+[32m+[m[32mWrapper for an instance of a subclass of ExampleGroup. An instance of RSpec::Core::Example is returned by example definition methods such as it and is yielded to the it, before, after, around, let and subject blocks.[m
+[32m+[m
+[32m+[m[32mThis allows us to provide rich metadata about each individual example without adding tons of methods directly to the ExampleGroup that users may inadvertently redefine.[m
+[32m+[m
+[32m+[m[32mUseful for configuring logging and/or taking some action based on the state of an example's metadata.[m
+ [m
+ [m
+   [m
+[36m@@ -8020,7 +8122,8 @@[m [mDefined Under Namespace[m
+   [m
+ [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+   [m
+ [m
+[36m@@ -8092,8 +8198,8 @@[m [mCreates a new instance of Example.[m
+       [m
+       [m
+         —[m
+[31m-        the subclass of ExampleGroup in which[m
+[31m-this Example is declared[m
+[32m+[m[41m        [m
+[32m+[m[32mthe subclass of ExampleGroup in which this Example is declared[m
+ [m
+       [m
+     [m
+[36m@@ -8108,8 +8214,8 @@[m [mthis Example is declared[m
+       [m
+       [m
+         —[m
+[31m-        the String passed to the it method (or[m
+[31m-alias)[m
+[32m+[m[41m        [m
+[32m+[m[32mthe String passed to the it method (or alias)[m
+ [m
+       [m
+     [m
+[36m@@ -8124,8 +8230,8 @@[m [malias)[m
+       [m
+       [m
+         —[m
+[31m-        additional args passed to it to be used as[m
+[31m-metadata[m
+[32m+[m[41m        [m
+[32m+[m[32madditional args passed to it to be used as metadata[m
+ [m
+       [m
+     [m
+[36m@@ -8142,8 +8248,8 @@[m [mmetadata[m
+       [m
+       [m
+         —[m
+[31m-        the block of code that represents the[m
+[31m-example[m
+[32m+[m[41m        [m
+[32m+[m[32mthe block of code that represents the example[m
+ [m
+       [m
+     [m
+[36m@@ -8240,8 +8346,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the first exception raised in the context of running this[m
+[31m-example (nil if no exception is raised).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the first exception raised in the context of running this example (nil if no exception is raised).[m
+ [m
+ [m
+   [m
+[36m@@ -8365,11 +8474,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the string submitted to example or its aliases (e.g.[m
+[31m-specify, it, etc). If no string is submitted (e.g.[m
+[31m-it { is_expected.to do_something }) it returns the message generated[m
+[31m-by the matcher if there is one, otherwise returns a message including[m
+[31m-the location of the example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the string submitted to example or its aliases (e.g. specify, it, etc). If no string is submitted (e.g. it { is_expected.to do_something }) it returns the message generated by the matcher if there is one, otherwise returns a message including the location of the example.[m
+ [m
+ [m
+   [m
+[36m@@ -8413,8 +8519,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Duplicates the example and overrides metadata with the provided[m
+[31m-hash.[m
+[32m+[m[41m    [m
+[32m+[m[32mDuplicates the example and overrides metadata with the provided hash.[m
+ [m
+ [m
+   [m
+[36m@@ -8506,8 +8614,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the example group class that provides the context for running[m
+[31m-this example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the example group class that provides the context for running this example.[m
+ [m
+ [m
+   [m
+[36m@@ -8584,8 +8694,8 @@[m [mdelegate_to_metadata :execution_result[m
+       [m
+   [m
+   [m
+[31m-    Returns the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the relative path to the file where this example was defined.[m
+ [m
+ [m
+   [m
+[36m@@ -8603,8 +8713,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the relative path to the file where this example was[m
+[31m-defined.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe relative path to the file where this example was defined.[m
+ [m
+       [m
+     [m
+[36m@@ -8631,8 +8741,8 @@[m [mdelegate_to_metadata :file_path[m
+       [m
+   [m
+   [m
+[31m-    Returns the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the full description (including the docstrings of all parent example groups).[m
+ [m
+ [m
+   [m
+[36m@@ -8650,8 +8760,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the full description (including the docstrings of[m
+[31m-all parent example groups).[m
+[32m+[m[41m        [m
+[32m+[m[32mthe full description (including the docstrings of all parent example groups).[m
+ [m
+       [m
+     [m
+[36m@@ -8678,8 +8788,8 @@[m [mdelegate_to_metadata :full_description[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+ [m
+   [m
+[36m@@ -8697,8 +8807,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example. Pass[m
+[31m-this at the command line to re-run this exact example.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example. Pass this at the command line to re-run this exact example.[m
+ [m
+       [m
+     [m
+[36m@@ -8801,8 +8913,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the exact source location of this example in a form like ./path/to/spec.rb:17.[m
+ [m
+ [m
+   [m
+[36m@@ -8820,8 +8932,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the exact source location of this example in a form[m
+[31m-like ./path/to/spec.rb:17[m
+[32m+[m[41m        [m
+[32m+[m[32mthe exact source location of this example in a form like ./path/to/spec.rb:17[m
+ [m
+       [m
+     [m
+[36m@@ -8892,9 +9005,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+ [m
+   [m
+[36m@@ -8912,9 +9024,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that indicates that the example is not expected[m
+[31m-to pass. It will be run and will either have a pending result (if a[m
+[31m-failure occurs) or a failed result (if no failure occurs).[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that indicates that the example is not expected to pass. It will be run and will either have a pending result (if a failure occurs) or a failed result (if no failure occurs).[m
+ [m
+       [m
+     [m
+[36m@@ -8941,13 +9052,15 @@[m [mdelegate_to_metadata :pending[m
+       [m
+   [m
+   [m
+[31m-    Deprecated. Use #location_rerun_argument instead.[m
+[32m+[m[32m    Deprecated.[m[41m [m
+[32m+[m[32mUse #location_rerun_argument instead.[m
+ [m
+ [m
+   [m
+     Note:[m
+[31m-    If there are multiple examples identified by this location, they will use #id[m
+[31m-to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m[41m    [m
+[32m+[m[32mIf there are multiple examples identified by this location, they will use #id to rerun instead, but this method will still return the location (that's why it is deprecated!).[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -8987,8 +9100,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-instance_execs the block passed to the constructor in the context of[m
+[31m-the instance of RSpec::Core::ExampleGroup.[m
+[32m+[m
+[32m+[m[32minstance_execs the block passed to the constructor in the context of the instance of RSpec::Core::ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -9100,8 +9214,7 @@[m [mdef run(example_group_instance, reporter)[m
+                   'Expected example to fail since it is pending, but it passed.',[m
+                   [location][m
+           end[m
+[31m-        rescue Pending::SkipDeclaredInExample => _[m
+[31m-          # The "=> _" is normally useless but on JRuby it is a workaround[m
+[32m+[m[32m        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround[m
+           # for a bug that prevents us from getting backtraces:[m
+           # https://github.com/jruby/jruby/issues/4467[m
+           #[m
+[36m@@ -9133,8 +9247,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns flag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+ [m
+   [m
+[36m@@ -9152,8 +9266,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        flag that will cause the example to not run.[m
+[31m-The ExecutionResult status will be :pending.[m
+[32m+[m[41m        [m
+[32m+[m[32mflag that will cause the example to not run. The ExecutionResult status will be :pending.[m
+ [m
+       [m
+     [m

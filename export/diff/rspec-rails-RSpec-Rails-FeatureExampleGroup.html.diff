@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.new[m
-[1mindex df597ea..8116041 100644[m
+[1mindex df597ea..ea6c346 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-FeatureExampleGroup.html.new[m
 [36m@@ -15,12 +16,22 @@[m [mModule: RSpec::Rails::FeatureExampleGroup[m
@@ -38,7 +38,7 @@
  [m
    [m
    [m
-[36m@@ -75,7 +96,14 @@[m [mOverviewOverview[m
+[36m@@ -75,7 +99,14 @@[m [mOverviewOverview[m
    [m
  [m
  [m
@@ -54,3 +54,71 @@
  [m
      [m
        [m
+[36m@@ -257,25 +298,20 @@[m [mShim to check for presence of Capybara.[m
+       [m
+   [m
+   [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visitvisit will be the first[m
+[31m-Capybara method called in a spec.Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+[32m+[m[41m    [m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visitvisit will be the first Capybara method called in a spec.Shim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+ [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+ [m
+ [m
+   [m
+[36m@@ -404,9 +440,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+[32m+[m[41m    [m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+ [m
+ [m
+   [m
+[36m@@ -450,9 +485,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+[32m+[m[41m    [m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+ [m
+ [m
+   [m
+[36m@@ -633,9 +679,8 @@[m [mOverview[m
+       [m
+   [m
+   [m
+[31m-    Shim to check for presence of Capybara. Will delegate if present, raise[m
+[31m-if not. We assume here that in most cases visit will be the first[m
+[31m-Capybara method called in a spec.[m
+[32m+[m[41m    [m
+[32m+[m[32mShim to check for presence of Capybara. Will delegate if present, raise if not. We assume here that in most cases visit will be the first Capybara method called in a spec.[m
+ [m
+ [m
+   [m

@@ -1,0 +1,93 @@
+[1mdiff --git a/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.current b/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.new[m
+[1mindex 90b00b4..8c3cc7a 100644[m
+[1m--- a/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.current[m
+[1m+++ b/export/rspec-expectations-RSpec-Matchers-DSL-Matcher.html.new[m
+[36m@@ -965,9 +965,9 @@[m [mdefdef initializeinitialize((namename,, declarationsdeclarations,, matcher_execu[m
+   @chained_method_clauses@chained_method_clauses == [[]][m
+   @block_arg@block_arg == block_argblock_arg[m
+ [m
+[31m-  classclass <<<< selfself[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  classclass <<<< selfself    # See `Macros#define_user_override` above, for an explanation.[m
+ # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     includeinclude((@user_method_defs@user_method_defs == ModuleModule..newnew))[m
+     selfself[m
+   endend..class_execclass_exec((**expectedexpected,, &&declarationsdeclarations))[m
+[36m@@ -981,8 +981,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -998,8 +998,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -1036,8 +1036,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -1076,8 +1076,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -1132,8 +1132,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -1193,8 +1193,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m
+[36m@@ -3721,8 +3721,8 @@[m [mdef initialize(name, declarations, matcher_execution_context, *expected, &block_[m
+   @chained_method_clauses = [][m
+   @block_arg = block_arg[m
+ [m
+[31m-  class << self[m
+[31m-    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m[32m  class << self    # See `Macros#define_user_override` above, for an explanation.[m
+[32m+[m
+     include(@user_method_defs = Module.new)[m
+     self[m
+   end.class_exec(*expected, &declarations)[m

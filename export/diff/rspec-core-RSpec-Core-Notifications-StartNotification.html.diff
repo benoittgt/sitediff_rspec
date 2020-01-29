@@ -1,0 +1,109 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Notifications-StartNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-StartNotification.html.new[m
+[1mindex 058f918..eb3b11c 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Notifications-StartNotification.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Notifications-StartNotification.html.new[m
+[36m@@ -120,25 +120,20 @@[m [mClass: RSpec::Core::Notifications::StartNotification[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    The StartNotificationStartNotification represents a notification sent by the reporter[m
+[31m-when the suite is started. It contains the expected amount of examples[m
+[31m-to be executed, and the load time of RSpec.The StartNotification represents a notification sent by the reporter[m
+[31m-when the suite is started. It contains the expected amount of examples[m
+[31m-to be executed, and the load time of RSpec.[m
+     [m
+[32m+[m[32mThe StartNotificationStartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.The StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.[m
+ [m
+ [m
+[31m-    The StartNotification represents a notification sent by the reporter[m
+[31m-when the suite is started. It contains the expected amount of examples[m
+[31m-to be executed, and the load time of RSpec.[m
+   [m
+     [m
+[32m+[m[32mThe StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.[m
+ [m
+ [m
+   [m
+[31m-    The StartNotification represents a notification sent by the reporter[m
+[31m-when the suite is started. It contains the expected amount of examples[m
+[31m-to be executed, and the load time of RSpec.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mThe StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.[m
+ [m
+ [m
+   [m
+[36m@@ -502,21 +517,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+[32m+[m[41m    [m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.the number of seconds taken to boot RSpec and load the spec files.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.[m
+ [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.[m
+ [m
+ [m
+   [m
+[36m@@ -666,8 +685,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+[32m+[m[41m    [m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.[m
+ [m
+ [m
+   [m
+[36m@@ -772,8 +794,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+[32m+[m[41m    [m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.[m
+ [m
+ [m
+   [m
+[36m@@ -866,9 +889,8 @@[m [mClass: RSpec::Core::Notifications::StartNotification[m
+ [m
+ Overview[m
+   [m
+[31m-    The StartNotification represents a notification sent by the reporter[m
+[31m-when the suite is started. It contains the expected amount of examples[m
+[31m-to be executed, and the load time of RSpec.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe StartNotification represents a notification sent by the reporter when the suite is started. It contains the expected amount of examples to be executed, and the load time of RSpec.[m
+ [m
+ [m
+   [m
+[36m@@ -989,8 +1015,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    the number of seconds taken to boot RSpec[m
+[31m-and load the spec files.[m
+[32m+[m[41m    [m
+[32m+[m[32mthe number of seconds taken to boot RSpec and load the spec files.[m
+ [m
+ [m
+   [m

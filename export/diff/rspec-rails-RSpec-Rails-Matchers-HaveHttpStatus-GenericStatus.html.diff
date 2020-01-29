@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new[m
-[1mindex 19196c1..3953a9d 100644[m
+[1mindex 19196c1..dec7a9e 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new[m
 [36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::GenericStatus[m
@@ -52,7 +52,41 @@
    [m
    [m
      Inherits:[m
-[36m@@ -207,9 +241,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
+[36m@@ -106,9 +140,8 @@[m [mOverviewOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_statushave_http_status matching against[m
+[31m-ActionDispatch::TestResponseActionDispatch::TestResponse http status category queries.Provides an implementation for have_http_status matching against[m
+[31m-ActionDispatch::TestResponse http status category queries.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_statushave_http_status matching against ActionDispatch::TestResponseActionDispatch::TestResponse http status category queries.Provides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.[m
+ [m
+ Not intended to be instantiated directly.Not intended to be instantiated directly.[m
+ [m
+[36m@@ -118,8 +151,8 @@[m [mNot intended to be instantiated directly.Not intended to be instantiated directl[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-ActionDispatch::TestResponse http status category queries.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -131,8 +164,8 @@[m [mNot intended to be instantiated directly.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-ActionDispatch::TestResponse http status category queries.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -207,9 +240,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
    [m
  [m
  [m
@@ -62,18 +96,308 @@
  [m
  [m
    Constant SummaryConstant Summary[m
-[36m@@ -1944,8 +1975,8 @@[m [mend[m
+[36m@@ -245,9 +275,12 @@[m [mexpect(response).to have_http_status(:redirect)[m
+   privateprivate[m
+ [m
+   [m
+[31m-    Of status codes which represent a HTTP status code "group".Of status codes which represent a HTTP status code "group".[m
+[31m-Of status codes which represent a HTTP status code "group".[m
+[31m-Of status codes which represent a HTTP status code "group".[m
+[32m+[m[41m    [m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.Of status codes which represent a HTTP status code “group”.[m
+[32m+[m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
+[32m+[m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
+ [m
+   [m
+ [m
+[36m@@ -261,7 +294,8 @@[m [mOf status codes which represent a HTTP status code "group".[m
+   private[m
+ [m
+   [m
+[31m-    Of status codes which represent a HTTP status code "group".[m
+[32m+[m[41m    [m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
+ [m
+   [m
+ [m
+[36m@@ -280,7 +314,8 @@[m [mOf status codes which represent a HTTP status code "group".[m
+   private[m
+ [m
+   [m
+[31m-    Of status codes which represent a HTTP status code "group".[m
+[32m+[m[41m    [m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
+ [m
+   [m
+ [m
+[36m@@ -868,9 +928,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.Returns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -878,8 +937,8 @@[m [mcode "group".[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -889,8 +948,8 @@[m [mcode "group".[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -908,11 +967,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[31m-of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”of status codes which represent a HTTP status code “group”[m
+[32m+[m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -923,8 +981,8 @@[m [mcode "group"[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -939,8 +997,8 @@[m [mcode "group"[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -971,8 +1029,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -1108,8 +1166,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -1127,8 +1185,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -1182,8 +1240,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -1201,8 +1259,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -1944,9 +2022,8 @@[m [mend[m
    This method is part of a private API.[m
    You should avoid using this method if possible, as it may be removed or be changed in the future.[m
  [m
 [31m-Returns true if Rack's associated numeric HTTP code matched[m
 [31m-the response code or the named response status.Returns true if Rack's associated numeric HTTP code matched[m
-[32m+[m[32mReturns truetrue if Rack's associated numeric HTTP code matched[m
-[32m+[m[32mthe responseresponse code or the named response status.Returns true if Rack's associated numeric HTTP code matched[m
- the response code or the named response status.[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns truetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response status.Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
  [m
  [m
-[36m@@ -2543,9 +2579,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
+   [m
+[36m@@ -1954,8 +2031,8 @@[m [mthe response code or the named response status.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
+ [m
+ [m
+   [m
+[36m@@ -1965,8 +2042,8 @@[m [mthe response code or the named response status.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
+ [m
+ [m
+   [m
+[36m@@ -1984,11 +2061,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        truetrue if Rack's associated numeric HTTP code matched[m
+[31m-the responseresponse code or the named response statustrue if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[31m-true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtruetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response statustrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+[32m+[m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -1999,8 +2075,8 @@[m [mthe response code or the named response status[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -2015,8 +2091,8 @@[m [mthe response code or the named response status[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -2036,8 +2112,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -2176,8 +2252,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
+ [m
+ [m
+   [m
+[36m@@ -2195,8 +2271,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -2403,8 +2483,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
+ [m
+ [m
+   [m
+[36m@@ -2422,8 +2502,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m
+[36m@@ -2511,8 +2596,8 @@[m [mOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-ActionDispatch::TestResponse http status category queries.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -2543,9 +2628,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
    [m
  [m
  [m
@@ -83,3 +407,57 @@
  [m
  [m
    Constant Summary[m
+[36m@@ -2577,7 +2659,8 @@[m [mexpect(response).to have_http_status(:redirect)[m
+   private[m
+ [m
+   [m
+[31m-    Of status codes which represent a HTTP status code "group".[m
+[32m+[m[41m    [m
+[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
+ [m
+   [m
+ [m
+[36m@@ -2779,8 +2867,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns of status codes which represent a HTTP status[m
+[31m-code "group".[m
+[32m+[m
+[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
+ [m
+ [m
+   [m
+[36m@@ -2798,8 +2886,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        of status codes which represent a HTTP status[m
+[31m-code "group"[m
+[32m+[m[41m        [m
+[32m+[m[32mof status codes which represent a HTTP status code “group”[m
+ [m
+       [m
+     [m
+[36m@@ -3013,8 +3105,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code or the named response status.[m
+ [m
+ [m
+   [m
+[36m@@ -3032,8 +3124,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code or the named response status[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code or the named response status[m
+ [m
+       [m
+     [m

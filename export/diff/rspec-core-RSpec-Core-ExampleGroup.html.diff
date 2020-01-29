@@ -1,0 +1,3513 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-ExampleGroup.html.current b/export/rspec-core-RSpec-Core-ExampleGroup.html.new[m
+[1mindex 18e920b..3558493 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-ExampleGroup.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-ExampleGroup.html.new[m
+[36m@@ -136,9 +136,8 @@[m [mClass: RSpec::Core::ExampleGroup[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    ExampleGroup and Example are the main structural elements of[m
+[31m-rspec-core. Consider this example:.ExampleGroup and Example are the main structural elements of[m
+[31m-rspec-core. Consider this example:.[m
+[32m+[m[41m    [m
+[32m+[m[32mExampleGroup and Example are the main structural elements of rspec-core. Consider this example:.ExampleGroup and Example are the main structural elements of rspec-core. Consider this example:.[m
+ [m
+ RSpecRSpec..describedescribe ThingThing dodo[m
+   itit ""does somethingdoes something"""does something" dodo[m
+[36m@@ -154,34 +153,16 @@[m [mRSpec.describe Thing do[m
+ end[m
+ [m
+ [m
+[31m-The object returned by describe Thingdescribe Thing is a subclass of ExampleGroup.[m
+[31m-The object returned by it "does something"it "does something" is an instance of Example,[m
+[31m-which serves as a wrapper for an instance of the ExampleGroup in which it[m
+[31m-is declared.The object returned by describe Thing is a subclass of ExampleGroup.[m
+[31m-The object returned by it "does something" is an instance of Example,[m
+[31m-which serves as a wrapper for an instance of the ExampleGroup in which it[m
+[31m-is declared.[m
+[32m+[m[32mThe object returned by describe Thingdescribe Thing is a subclass of ExampleGroup. The object returned by it "does something"it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.The object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.[m
+[32m+[m
+[32m+[m[32mExample group bodies (e.g. describedescribe or contextcontext blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.Example group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.[m
+ [m
+[31m-Example group bodies (e.g. describedescribe or contextcontext blocks) are evaluated[m
+[31m-in the context of a new subclass of ExampleGroup. Individual examples are[m
+[31m-evaluated in the context of an instance of the specific ExampleGroup[m
+[31m-subclass to which they belong.Example group bodies (e.g. describe or context blocks) are evaluated[m
+[31m-in the context of a new subclass of ExampleGroup. Individual examples are[m
+[31m-evaluated in the context of an instance of the specific ExampleGroup[m
+[31m-subclass to which they belong.[m
+[32m+[m[32mBesides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.Besides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.[m
+ [m
+[31m-Besides the class methods defined here, there are other interesting macros[m
+[31m-defined in Hooks, MemoizedHelpers::ClassMethods and[m
+[31m-SharedExampleGroup. There are additional instance methods available to[m
+[31m-your examples defined in MemoizedHelpers and Pending.Besides the class methods defined here, there are other interesting macros[m
+[31m-defined in Hooks, MemoizedHelpers::ClassMethods and[m
+[31m-SharedExampleGroup. There are additional instance methods available to[m
+[31m-your examples defined in MemoizedHelpers and Pending.[m
+ [m
+   [m
+     [m
+[31m-    ExampleGroup and Example are the main structural elements of[m
+[31m-rspec-core. Consider this example:.[m
+[32m+[m[32mExampleGroup and Example are the main structural elements of rspec-core. Consider this example:.[m
+ [m
+ RSpec.describe Thing do[m
+   it "does something" do[m
+[36m@@ -189,27 +170,18 @@[m [mRSpec.describe Thing do[m
+ end[m
+ [m
+ [m
+[31m-The object returned by describe Thing is a subclass of ExampleGroup.[m
+[31m-The object returned by it "does something" is an instance of Example,[m
+[31m-which serves as a wrapper for an instance of the ExampleGroup in which it[m
+[31m-is declared.[m
+[32m+[m[32mThe object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.[m
+[32m+[m
+[32m+[m[32mExample group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.[m
+ [m
+[31m-Example group bodies (e.g. describe or context blocks) are evaluated[m
+[31m-in the context of a new subclass of ExampleGroup. Individual examples are[m
+[31m-evaluated in the context of an instance of the specific ExampleGroup[m
+[31m-subclass to which they belong.[m
+[32m+[m[32mBesides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.[m
+ [m
+[31m-Besides the class methods defined here, there are other interesting macros[m
+[31m-defined in Hooks, MemoizedHelpers::ClassMethods and[m
+[31m-SharedExampleGroup. There are additional instance methods available to[m
+[31m-your examples defined in MemoizedHelpers and Pending.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    ExampleGroup and Example are the main structural elements of[m
+[31m-rspec-core. Consider this example:.[m
+[32m+[m[32mExampleGroup and Example are the main structural elements of rspec-core. Consider this example:.[m
+ [m
+ RSpec.describe Thing do[m
+   it "does something" do[m
+[36m@@ -217,20 +189,11 @@[m [mRSpec.describe Thing do[m
+ end[m
+ [m
+ [m
+[31m-The object returned by describe Thing is a subclass of ExampleGroup.[m
+[31m-The object returned by it "does something" is an instance of Example,[m
+[31m-which serves as a wrapper for an instance of the ExampleGroup in which it[m
+[31m-is declared.[m
+[32m+[m[32mThe object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.[m
+ [m
+[31m-Example group bodies (e.g. describe or context blocks) are evaluated[m
+[31m-in the context of a new subclass of ExampleGroup. Individual examples are[m
+[31m-evaluated in the context of an instance of the specific ExampleGroup[m
+[31m-subclass to which they belong.[m
+[32m+[m[32mExample group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.[m
+ [m
+[31m-Besides the class methods defined here, there are other interesting macros[m
+[31m-defined in Hooks, MemoizedHelpers::ClassMethods and[m
+[31m-SharedExampleGroup. There are additional instance methods available to[m
+[31m-your examples defined in MemoizedHelpers and Pending.[m
+[32m+[m[32mBesides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.[m
+ [m
+ [m
+   [m
+[36m@@ -256,25 +219,20 @@[m [myour examples defined in MemoizedHelpers and Pending.[m
+         WrongScopeError =[m
+           [m
+   [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as beforebefore[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+[32m+[m[41m    [m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as beforebefore being called from within an example rather than from within an example group block.Raised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+ [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+ [m
+ [m
+   [m
+[36m@@ -289,9 +247,8 @@[m [mgroup block.[m
+         WrongScopeError =[m
+           [m
+   [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+[32m+[m[41m    [m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+ [m
+ [m
+   [m
+[36m@@ -308,9 +265,8 @@[m [mgroup block.[m
+         WrongScopeError =[m
+           [m
+   [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+[32m+[m[41m    [m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+ [m
+ [m
+   [m
+[36m@@ -2201,21 +2281,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns true if a before(:context)before(:context) or after(:context)after(:context)[m
+[31m-hook is currently executing.Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+     [m
+[32m+[m[32mReturns true if a before(:context)before(:context) or after(:context)after(:context) hook is currently executing.Returns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+[31m-    Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+   [m
+     [m
+[32m+[m[32mReturns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+   [m
+[31m-    Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+   [m
+[36m@@ -2348,8 +2427,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+   [m
+[36m@@ -2926,11 +3030,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -2943,8 +3046,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -2993,8 +3098,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3048,8 +3155,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3112,8 +3221,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3217,11 +3332,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3234,8 +3348,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3313,8 +3432,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3383,8 +3505,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3462,8 +3587,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3581,8 +3710,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3648,8 +3779,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3839,8 +3978,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -3906,8 +4047,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4133,8 +4280,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4200,8 +4349,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4578,11 +4744,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4595,8 +4760,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4645,8 +4812,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4700,8 +4869,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4764,8 +4935,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4869,11 +5046,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4886,8 +5062,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -4965,8 +5146,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5035,8 +5219,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5114,8 +5301,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5233,8 +5424,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5300,8 +5493,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5502,8 +5703,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5569,8 +5772,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5803,8 +6012,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -5870,8 +6081,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6255,11 +6483,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6272,8 +6499,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6322,8 +6551,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6377,8 +6608,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6441,8 +6674,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6546,11 +6785,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6563,8 +6801,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6642,8 +6885,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6712,8 +6958,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6791,8 +7040,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6910,8 +7163,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -6977,8 +7232,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7179,8 +7442,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7246,8 +7511,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7480,8 +7751,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7547,8 +7820,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7932,11 +8222,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7949,8 +8238,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -7999,8 +8290,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8054,8 +8347,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8118,8 +8413,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8223,11 +8524,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8240,8 +8540,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8319,8 +8624,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8389,8 +8697,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8468,8 +8779,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8587,8 +8902,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8654,8 +8971,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8856,8 +9181,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -8923,8 +9250,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9157,8 +9490,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9224,8 +9559,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9609,11 +9961,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9626,8 +9977,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9676,8 +10029,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9731,8 +10086,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9795,8 +10152,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9900,11 +10263,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9917,8 +10279,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -9996,8 +10363,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10066,8 +10436,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10145,8 +10518,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10264,8 +10641,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10331,8 +10710,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10533,8 +10920,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10600,8 +10989,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10834,8 +11229,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10901,8 +11298,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -10975,21 +11374,20 @@[m [mdefine_example_method :fspecify, :focus => true[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.Returns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+     [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+[36m@@ -11007,11 +11405,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[31m-the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+[32m+[m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -11022,8 +11419,8 @@[m [mthis at the command line to re-run this exact example group.[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -11038,8 +11435,8 @@[m [mthis at the command line to re-run this exact example group.[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -11059,8 +11456,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -11145,8 +11542,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+[36m@@ -11164,8 +11561,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -11196,29 +11593,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to namename directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -11325,10 +11713,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -11367,29 +11753,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to namename directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to namename directly in the group in which it is declared, as opposed to it_behaves_likeit_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.Includes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -11496,10 +11873,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -11538,21 +11913,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+     [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.Defines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+   [m
+     [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+   [m
+[36m@@ -11853,11 +12239,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -11870,8 +12255,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -11920,8 +12307,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -11975,8 +12364,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12039,8 +12430,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12144,11 +12541,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12161,8 +12557,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12240,8 +12641,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12310,8 +12714,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12389,8 +12796,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12508,8 +12919,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12575,8 +12988,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12766,8 +13187,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12833,8 +13256,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -12938,8 +13363,8 @@[m [mdefine_example_method :it[m
+ [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+   [m
+[36m@@ -13061,8 +13489,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13128,8 +13558,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13662,11 +14113,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13679,8 +14129,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13729,8 +14181,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13784,8 +14238,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13848,8 +14304,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13953,11 +14415,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -13970,8 +14431,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14049,8 +14515,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14119,8 +14588,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14198,8 +14670,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14317,8 +14793,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14384,8 +14862,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14586,8 +15072,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14653,8 +15141,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14887,8 +15381,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -14954,8 +15450,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -15841,11 +16362,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -15858,8 +16378,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -15908,8 +16430,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -15963,8 +16487,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16027,8 +16553,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16132,11 +16664,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16149,8 +16680,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16228,8 +16764,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16298,8 +16837,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16377,8 +16919,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16496,8 +17042,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16563,8 +17111,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16765,8 +17321,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -16832,8 +17390,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17066,8 +17630,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17133,8 +17699,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17207,21 +17775,20 @@[m [mdefine_example_method :skip,     :skip => true[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of itit.Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+     [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of itit.Defines an example within a group. Useful for when your docstring does not read well off of it.[m
+ [m
+ [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+   [m
+     [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of it.[m
+[32m+[m
+ [m
+   [m
+ [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of it.[m
+ [m
+ [m
+   [m
+[36m@@ -17545,11 +18124,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17562,8 +18140,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17612,8 +18192,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17667,8 +18249,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17731,8 +18315,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17836,11 +18426,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17853,8 +18442,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -17932,8 +18526,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18002,8 +18599,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18081,8 +18681,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18200,8 +18804,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18267,8 +18873,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18465,8 +19079,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18532,8 +19148,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18637,8 +19255,8 @@[m [mdefine_example_method :specify[m
+ [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of it.[m
+ [m
+ [m
+   [m
+[36m@@ -18767,8 +19388,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -18834,8 +19457,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19212,11 +19852,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19229,8 +19868,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19279,8 +19920,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19334,8 +19977,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19398,8 +20043,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19503,11 +20154,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19520,8 +20170,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19599,8 +20254,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19669,8 +20327,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19748,8 +20409,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19867,8 +20532,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -19934,8 +20601,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20136,8 +20811,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20203,8 +20880,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20437,8 +21120,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20504,8 +21189,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20889,11 +21591,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20906,8 +21607,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -20956,8 +21659,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21011,8 +21716,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21075,8 +21782,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21180,11 +21893,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21197,8 +21909,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21276,8 +21993,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21346,8 +22066,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21425,8 +22148,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21544,8 +22271,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21611,8 +22340,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21813,8 +22550,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -21880,8 +22619,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22114,8 +22859,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22181,8 +22928,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22566,11 +23330,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22583,8 +23346,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22633,8 +23398,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22688,8 +23455,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22752,8 +23521,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22857,11 +23632,10 @@[m [mMetadata for the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with truetrue values.Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[31m-Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with truetrue values.Metadata tags for the example. Will be transformed into hash entries with true values.[m
+[32m+[m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22874,8 +23648,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -22953,8 +23732,8 @@[m [mThe implementation of the example.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23023,8 +23805,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23102,8 +23887,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23221,8 +24010,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23288,8 +24079,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23490,8 +24289,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23557,8 +24358,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23791,8 +24598,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23858,8 +24667,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -23970,8 +24782,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+   [m
+[36m@@ -24189,8 +25007,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24256,8 +25076,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24445,8 +25271,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24512,8 +25340,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24708,8 +25542,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24775,8 +25611,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -24971,8 +25813,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25038,8 +25882,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25234,8 +26084,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25301,8 +26153,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25375,8 +26229,8 @@[m [mdefine_example_method :fspecify, :focus => true[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+[36m@@ -25394,8 +26248,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -25426,10 +26280,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -25468,10 +26320,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -25510,8 +26360,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+   [m
+[36m@@ -25633,8 +26486,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25700,8 +26555,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25928,8 +26790,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -25995,8 +26859,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26295,8 +27167,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26362,8 +27236,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26436,8 +27312,8 @@[m [mdefine_example_method :skip,     :skip => true[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of it.[m
+ [m
+ [m
+   [m
+[36m@@ -26566,8 +27445,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26633,8 +27514,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26822,8 +27709,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -26889,8 +27778,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -27085,8 +27980,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -27152,8 +28049,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -27348,8 +28251,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -27415,8 +28320,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -27495,21 +28402,20 @@[m [mdefine_example_method :xspecify, :skip => 'Temporarily skipped with xspecify'[m
+       [m
+   [m
+   [m
+[31m-    Returns the class or module passed to the describedescribe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+     [m
+[32m+[m[32mReturns the class or module passed to the describedescribe method (or alias). Returns nil if the subject is not a class or module.Returns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+[31m-    Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+   [m
+     [m
+[32m+[m[32mReturns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+   [m
+[31m-    Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+   [m
+[36m@@ -27640,8 +28546,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+   [m
+[36m@@ -27689,8 +28595,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+   [m
+[36m@@ -27785,8 +28691,8 @@[m [mClass: RSpec::Core::ExampleGroup[m
+ [m
+ Overview[m
+   [m
+[31m-    ExampleGroup and Example are the main structural elements of[m
+[31m-rspec-core. Consider this example:.[m
+[32m+[m[41m    [m
+[32m+[m[32mExampleGroup and Example are the main structural elements of rspec-core. Consider this example:.[m
+ [m
+ RSpec.describe Thing do[m
+   it "does something" do[m
+[36m@@ -27794,20 +28700,11 @@[m [mRSpec.describe Thing do[m
+ end[m
+ [m
+ [m
+[31m-The object returned by describe Thing is a subclass of ExampleGroup.[m
+[31m-The object returned by it "does something" is an instance of Example,[m
+[31m-which serves as a wrapper for an instance of the ExampleGroup in which it[m
+[31m-is declared.[m
+[32m+[m[32mThe object returned by describe Thing is a subclass of ExampleGroup. The object returned by it "does something" is an instance of Example, which serves as a wrapper for an instance of the ExampleGroup in which it is declared.[m
+ [m
+[31m-Example group bodies (e.g. describe or context blocks) are evaluated[m
+[31m-in the context of a new subclass of ExampleGroup. Individual examples are[m
+[31m-evaluated in the context of an instance of the specific ExampleGroup[m
+[31m-subclass to which they belong.[m
+[32m+[m[32mExample group bodies (e.g. describe or context blocks) are evaluated in the context of a new subclass of ExampleGroup. Individual examples are evaluated in the context of an instance of the specific ExampleGroup subclass to which they belong.[m
+ [m
+[31m-Besides the class methods defined here, there are other interesting macros[m
+[31m-defined in Hooks, MemoizedHelpers::ClassMethods and[m
+[31m-SharedExampleGroup. There are additional instance methods available to[m
+[31m-your examples defined in MemoizedHelpers and Pending.[m
+[32m+[m[32mBesides the class methods defined here, there are other interesting macros defined in Hooks, MemoizedHelpers::ClassMethods and SharedExampleGroup. There are additional instance methods available to your examples defined in MemoizedHelpers and Pending.[m
+ [m
+ [m
+   [m
+[36m@@ -27827,9 +28724,8 @@[m [myour examples defined in MemoizedHelpers and Pending.[m
+         WrongScopeError =[m
+           [m
+   [m
+[31m-    Raised when an RSpec API is called in the wrong scope, such as before[m
+[31m-being called from within an example rather than from within an example[m
+[31m-group block.[m
+[32m+[m[41m    [m
+[32m+[m[32mRaised when an RSpec API is called in the wrong scope, such as before being called from within an example rather than from within an example group block.[m
+ [m
+ [m
+   [m
+[36m@@ -28472,8 +29393,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns true if a before(:context) or after(:context)[m
+[31m-hook is currently executing.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns true if a before(:context) or after(:context) hook is currently executing.[m
+ [m
+ [m
+   [m
+[36m@@ -28691,8 +29618,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -28758,8 +29687,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -28947,8 +29882,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29014,8 +29951,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29210,8 +30153,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29277,8 +30222,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29473,8 +30424,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29540,8 +30493,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29736,8 +30695,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29803,8 +30764,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -29877,8 +30840,8 @@[m [mdefine_example_method :fspecify, :focus => true[m
+       [m
+   [m
+   [m
+[31m-    Returns the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+ [m
+   [m
+[36m@@ -29896,8 +30859,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        the unique id of this example group. Pass[m
+[31m-this at the command line to re-run this exact example group.[m
+[32m+[m[41m        [m
+[32m+[m[32mthe unique id of this example group. Pass this at the command line to re-run this exact example group.[m
+ [m
+       [m
+     [m
+[36m@@ -29928,10 +30891,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -29970,10 +30931,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Includes shared content mapped to name directly in the group in which[m
+[31m-it is declared, as opposed to it_behaves_like, which creates a nested[m
+[31m-group. If given a block, that block is also eval'd in the current[m
+[31m-context.[m
+[32m+[m[41m    [m
+[32m+[m[32mIncludes shared content mapped to name directly in the group in which it is declared, as opposed to it_behaves_like, which creates a nested group. If given a block, that block is also eval'd in the current context.[m
+ [m
+ [m
+   [m
+[36m@@ -30012,8 +30971,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-This is the primary API to define a code example.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. This is the primary API to define a code example.[m
+ [m
+ [m
+   [m
+[36m@@ -30135,8 +31097,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30202,8 +31166,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30430,8 +31401,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30497,8 +31470,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30797,8 +31778,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30864,8 +31847,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -30938,8 +31923,8 @@[m [mdefine_example_method :skip,     :skip => true[m
+       [m
+   [m
+   [m
+[31m-    Defines an example within a group.[m
+[31m-Useful for when your docstring does not read well off of it.[m
+[32m+[m[41m    [m
+[32m+[m[32mDefines an example within a group. Useful for when your docstring does not read well off of it.[m
+ [m
+ [m
+   [m
+[36m@@ -31068,8 +32056,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31135,8 +32125,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31324,8 +32320,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31391,8 +32389,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31587,8 +32591,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31654,8 +32660,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31850,8 +32862,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31917,8 +32931,8 @@[m [mWill be transformed into hash entries with true values.[m
+       [m
+       [m
+         —[m
+[31m-        Metadata tags for the example.[m
+[31m-Will be transformed into hash entries with true values.[m
+[32m+[m[41m        [m
+[32m+[m[32mMetadata tags for the example. Will be transformed into hash entries with true values.[m
+ [m
+       [m
+     [m
+[36m@@ -31997,8 +33013,8 @@[m [mdefine_example_method :xspecify, :skip => 'Temporarily skipped with xspecify'[m
+       [m
+   [m
+   [m
+[31m-    Returns the class or module passed to the describe method (or alias).[m
+[31m-Returns nil if the subject is not a class or module.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns the class or module passed to the describe method (or alias). Returns nil if the subject is not a class or module.[m
+ [m
+ [m
+   [m

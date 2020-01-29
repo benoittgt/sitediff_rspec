@@ -1,0 +1,280 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-MultipleExceptionError.html.current b/export/rspec-core-RSpec-Core-MultipleExceptionError.html.new[m
+[1mindex 974eeed..67addfb 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-MultipleExceptionError.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-MultipleExceptionError.html.new[m
+[36m@@ -120,29 +120,20 @@[m [mException: RSpec::Core::MultipleExceptionError[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Provides a single exception instance that provides access to[m
+[31m-multiple sub-exceptions. This is used in situations where a single[m
+[31m-individual spec has multiple exceptions, such as one in the itit block[m
+[31m-and one in an afterafter block.Provides a single exception instance that provides access to[m
+[31m-multiple sub-exceptions. This is used in situations where a single[m
+[31m-individual spec has multiple exceptions, such as one in the it block[m
+[31m-and one in an after block.[m
+     [m
+[32m+[m[32mProvides a single exception instance that provides access to multiple sub-exceptions. This is used in situations where a single individual spec has multiple exceptions, such as one in the itit block and one in an afterafter block.Provides a single exception instance that provides access to multiple sub-exceptions. This is used in situations where a single individual spec has multiple exceptions, such as one in the it block and one in an after block.[m
+ [m
+ [m
+[31m-    Provides a single exception instance that provides access to[m
+[31m-multiple sub-exceptions. This is used in situations where a single[m
+[31m-individual spec has multiple exceptions, such as one in the it block[m
+[31m-and one in an after block.[m
+   [m
+     [m
+[32m+[m[32mProvides a single exception instance that provides access to multiple sub-exceptions. This is used in situations where a single individual spec has multiple exceptions, such as one in the it block and one in an after block.[m
+ [m
+ [m
+   [m
+[31m-    Provides a single exception instance that provides access to[m
+[31m-multiple sub-exceptions. This is used in situations where a single[m
+[31m-individual spec has multiple exceptions, such as one in the it block[m
+[31m-and one in an after block.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mProvides a single exception instance that provides access to multiple sub-exceptions. This is used in situations where a single individual spec has multiple exceptions, such as one in the it block and one in an after block.[m
+ [m
+ [m
+   [m
+[36m@@ -1119,21 +1167,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+     [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Returns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+   [m
+     [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+   [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+   [m
+[36m@@ -1151,11 +1198,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[31m-Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetErrorRSpec::Expectations::MultipleExpectationsNotMetError.Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -1166,8 +1212,8 @@[m [mRSpec::Expectations::MultipleExpectationsNotMetError.[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -1182,8 +1228,8 @@[m [mRSpec::Expectations::MultipleExpectationsNotMetError.[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -1203,8 +1249,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -1289,8 +1335,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+   [m
+[36m@@ -1308,8 +1354,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -2189,8 +2275,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+   [m
+[36m@@ -2208,8 +2294,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -2621,16 +2719,16 @@[m [mend[m
+     [m
+   [m
+     Note:Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[31m-RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.RSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+ [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -2641,8 +2739,9 @@[m [mReturns Combines all the exception messages into a single string.Returns Combine[m
+     [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -2655,8 +2754,9 @@[m [mReturns Combines all the exception messages into a single string.[m
+     [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -2813,8 +2918,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -3121,8 +3239,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m
+[36m@@ -3267,10 +3389,8 @@[m [mException: RSpec::Core::MultipleExceptionError[m
+ [m
+ Overview[m
+   [m
+[31m-    Provides a single exception instance that provides access to[m
+[31m-multiple sub-exceptions. This is used in situations where a single[m
+[31m-individual spec has multiple exceptions, such as one in the it block[m
+[31m-and one in an after block.[m
+[32m+[m[41m    [m
+[32m+[m[32mProvides a single exception instance that provides access to multiple sub-exceptions. This is used in situations where a single individual spec has multiple exceptions, such as one in the it block and one in an after block.[m
+ [m
+ [m
+   [m
+[36m@@ -3568,8 +3699,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns Provided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+ [m
+   [m
+[36m@@ -3587,8 +3718,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        Provided only for interface compatibility with[m
+[31m-RSpec::Expectations::MultipleExpectationsNotMetError.[m
+[32m+[m[41m        [m
+[32m+[m[32mProvided only for interface compatibility with RSpec::Expectations::MultipleExpectationsNotMetError.[m
+ [m
+       [m
+     [m
+[36m@@ -3871,8 +4011,9 @@[m [mend[m
+     [m
+   [m
+     Note:[m
+[31m-    RSpec does not actually use this -- instead it formats each exception[m
+[31m-individually.[m
+[32m+[m[41m    [m
+[32m+[m[32mRSpec does not actually use this – instead it formats each exception individually.[m
+[32m+[m
+   [m
+ [m
+ [m

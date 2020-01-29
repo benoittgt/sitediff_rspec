@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new[m
-[1mindex 98299c3..5ef6d2b 100644[m
+[1mindex 98299c3..f074fbe 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-SymbolicStatus.html.new[m
 [36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus[m
@@ -52,7 +52,41 @@
    [m
    [m
      Inherits:[m
-[36m@@ -192,9 +226,6 @@[m [mNot intended to be instantiated directly.[m
+[36m@@ -106,9 +140,8 @@[m [mOverviewOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_statushave_http_status matching against[m
+[31m-Rack symbol http status codes.Provides an implementation for have_http_status matching against[m
+[31m-Rack symbol http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_statushave_http_status matching against Rack symbol http status codes.Provides an implementation for have_http_status matching against Rack symbol http status codes.[m
+ [m
+ Not intended to be instantiated directly.Not intended to be instantiated directly.[m
+ [m
+[36m@@ -118,8 +151,8 @@[m [mNot intended to be instantiated directly.Not intended to be instantiated directl[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-Rack symbol http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against Rack symbol http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -131,8 +164,8 @@[m [mNot intended to be instantiated directly.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-Rack symbol http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against Rack symbol http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -192,9 +225,6 @@[m [mNot intended to be instantiated directly.[m
    [m
  [m
  [m
@@ -62,18 +96,145 @@
  [m
  [m
    Constant SummaryConstant Summary[m
-[36m@@ -1468,8 +1499,8 @@[m [mend[m
+[36m@@ -1468,9 +1543,8 @@[m [mend[m
    This method is part of a private API.[m
    You should avoid using this method if possible, as it may be removed or be changed in the future.[m
  [m
 [31m-Returns true if Rack's associated numeric HTTP code matched[m
 [31m-the response code.Returns true if Rack's associated numeric HTTP code matched[m
-[32m+[m[32mReturns truetrue if Rack's associated numeric HTTP code matched[m
-[32m+[m[32mthe responseresponse code.Returns true if Rack's associated numeric HTTP code matched[m
- the response code.[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns truetrue if Rack's associated numeric HTTP code matched the responseresponse code.Returns true if Rack's associated numeric HTTP code matched the response code.[m
  [m
  [m
-[36m@@ -2175,9 +2211,6 @@[m [mNot intended to be instantiated directly.[m
+   [m
+[36m@@ -1478,8 +1552,8 @@[m [mthe response code.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1489,8 +1563,8 @@[m [mthe response code.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1558,11 +1636,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        truetrue if Rack's associated numeric HTTP code matched[m
+[31m-the responseresponse codetrue if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[31m-true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtruetrue if Rack's associated numeric HTTP code matched the responseresponse codetrue if Rack's associated numeric HTTP code matched the response code[m
+[32m+[m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -1573,8 +1650,8 @@[m [mthe response code[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -1589,8 +1666,8 @@[m [mthe response code[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -1629,8 +1707,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -1769,8 +1847,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -1807,8 +1886,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -2019,8 +2102,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -2057,8 +2141,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m
+[36m@@ -2146,8 +2235,8 @@[m [mOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-Rack symbol http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against Rack symbol http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -2175,9 +2264,6 @@[m [mNot intended to be instantiated directly.[m
    [m
  [m
  [m
@@ -83,3 +244,25 @@
  [m
  [m
    Constant Summary[m
+[36m@@ -2543,8 +2638,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns true if Rack's associated numeric HTTP code matched[m
+[31m-the response code.[m
+[32m+[m
+[32m+[m[32mReturns true if Rack's associated numeric HTTP code matched the response code.[m
+ [m
+ [m
+   [m
+[36m@@ -2581,8 +2677,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        true if Rack's associated numeric HTTP code matched[m
+[31m-the response code[m
+[32m+[m[41m        [m
+[32m+[m[32mtrue if Rack's associated numeric HTTP code matched the response code[m
+ [m
+       [m
+     [m

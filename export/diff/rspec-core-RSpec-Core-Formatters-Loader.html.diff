@@ -1,13 +1,69 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new[m
-[1mindex fc5396e..9069f6d 100644[m
+[1mindex fc5396e..3676720 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new[m
-[36m@@ -734,7 +734,7 @@[m [mend[m
+[36m@@ -117,13 +117,8 @@[m [mOverviewOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-RSpec::Core::Formatters::LoaderRSpec::Core::Formatters::Loader is an internal class for[m
+[31m-managing formatters used by a particular configuration. It is[m
+[31m-not expected to be used directly, but only through the configuration[m
+[31m-interface.RSpec::Core::Formatters::Loader is an internal class for[m
+[31m-managing formatters used by a particular configuration. It is[m
+[31m-not expected to be used directly, but only through the configuration[m
+[31m-interface.[m
+[32m+[m
+[32m+[m[32mRSpec::Core::Formatters::LoaderRSpec::Core::Formatters::Loader is an internal class for managing formatters used by a particular configuration. It is not expected to be used directly, but only through the configuration interface.RSpec::Core::Formatters::Loader is an internal class for managing formatters used by a particular configuration. It is not expected to be used directly, but only through the configuration interface.[m
+ [m
+ [m
+   [m
+[36m@@ -131,10 +126,8 @@[m [minterface.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-RSpec::Core::Formatters::Loader is an internal class for[m
+[31m-managing formatters used by a particular configuration. It is[m
+[31m-not expected to be used directly, but only through the configuration[m
+[31m-interface.[m
+[32m+[m
+[32m+[m[32mRSpec::Core::Formatters::Loader is an internal class for managing formatters used by a particular configuration. It is not expected to be used directly, but only through the configuration interface.[m
+ [m
+ [m
+   [m
+[36m@@ -144,10 +137,8 @@[m [minterface.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-RSpec::Core::Formatters::Loader is an internal class for[m
+[31m-managing formatters used by a particular configuration. It is[m
+[31m-not expected to be used directly, but only through the configuration[m
+[31m-interface.[m
+[32m+[m
+[32m+[m[32mRSpec::Core::Formatters::Loader is an internal class for managing formatters used by a particular configuration. It is not expected to be used directly, but only through the configuration interface.[m
+ [m
+ [m
+   [m
+[36m@@ -734,7 +755,8 @@[m [mend[m
    This method is part of a private API.[m
    You should avoid using this method if possible, as it may be removed or be changed in the future.[m
  [m
 [31m-Returns the default formatter to setup, defaults to progress.Returns the default formatter to setup, defaults to progress.[m
+[32m+[m
 [32m+[m[32mReturns the default formatter to setup, defaults to progressprogress.Returns the default formatter to setup, defaults to progress.[m
+ [m
+ [m
+   [m
+[36m@@ -1825,10 +1887,8 @@[m [mOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-RSpec::Core::Formatters::Loader is an internal class for[m
+[31m-managing formatters used by a particular configuration. It is[m
+[31m-not expected to be used directly, but only through the configuration[m
+[31m-interface.[m
+[32m+[m
+[32m+[m[32mRSpec::Core::Formatters::Loader is an internal class for managing formatters used by a particular configuration. It is not expected to be used directly, but only through the configuration interface.[m
  [m
  [m
    [m

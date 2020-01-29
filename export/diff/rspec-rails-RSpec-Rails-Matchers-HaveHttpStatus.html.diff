@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new[m
-[1mindex 9436990..61ba86c 100644[m
+[1mindex 9436990..5c4bf62 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus.html.new[m
 [36m@@ -19,11 +21,23 @@[m [mModule: RSpec::Rails::Matchers::HaveHttpStatus[m
@@ -26,12 +26,387 @@
    [m
    [m
    [m
-[36m@@ -1415,7 +1431,7 @@[m [mend[m
+[36m@@ -302,9 +336,8 @@[m [mA formatted failure message if @invalid_response is present, nil otherwise.[m
+   This method is part of a private API.[m
    You should avoid using this method if possible, as it may be removed or be changed in the future.[m
  [m
- Returns a formatted failure message if[m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -312,8 +345,8 @@[m [mActionDispatch::TestResponse.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -323,8 +356,8 @@[m [mActionDispatch::TestResponse.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -532,8 +570,7 @@[m [mdefdef as_test_responseas_test_response((objobj))[m
+     ::::ActionDispatchActionDispatch::::TestResponseTestResponse..from_responsefrom_response((objobj))[m
+   elsifelsif ::::ActionDispatchActionDispatch::::TestResponseTestResponse ====== objobj[m
+     objobj[m
+[31m-  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))    # Acts As Capybara Session[m
+ # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+ # Hack to support `Capybara::Session` without having to load[m
+[36m@@ -557,10 +595,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -581,10 +619,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -633,10 +671,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -687,10 +725,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -713,8 +751,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -790,10 +829,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -821,9 +860,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-targettarget.Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided targettarget.Instantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -831,8 +869,8 @@[m [mtarget.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -842,8 +880,8 @@[m [mtarget.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -1126,8 +1174,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -1215,8 +1265,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -1292,10 +1343,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -1320,8 +1371,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -1414,9 +1467,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
 [31m-@invalid_response is present, nil otherwise.Returns a formatted failure message if[m
-[32m+[m[32m@invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if[m
- @invalid_response is present, nil otherwise.[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if @invalid_response is present, nil otherwise.[m
  [m
  [m
+   [m
+[36m@@ -1424,8 +1476,8 @@[m [mReturns a formatted failure message if[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1435,8 +1487,8 @@[m [mReturns a formatted failure message if[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1454,11 +1506,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response@invalid_response is present, nilnil otherwisea formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[31m-a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response@invalid_response is present, nilnil otherwisea formatted failure message if @invalid_response is present, nil otherwise[m
+[32m+[m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1469,8 +1520,8 @@[m [ma formatted failure message if[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1485,8 +1536,8 @@[m [ma formatted failure message if[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1506,8 +1557,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1616,8 +1667,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1635,8 +1686,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1679,8 +1730,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -1698,8 +1749,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m
+[36m@@ -1873,8 +1932,8 @@[m [mDefined Under Namespace[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Conversion function to coerce the provided object into an[m
+[31m-ActionDispatch::TestResponse.[m
+[32m+[m
+[32m+[m[32mConversion function to coerce the provided object into an ActionDispatch::TestResponse.[m
+ [m
+ [m
+   [m
+[36m@@ -1950,10 +2010,10 @@[m [mdef as_test_response(obj)[m
+     ::ActionDispatch::TestResponse.from_response(obj)[m
+   elsif ::ActionDispatch::TestResponse === obj[m
+     obj[m
+[31m-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)[m
+[31m-    # Acts As Capybara Session[m
+[32m+[m[32m  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session[m
+     # Hack to support `Capybara::Session` without having to load[m
+     # Capybara or catch `NameError`s for the undefined constants[m
+[32m+[m
+     obj = ActionDispatch::Response.new.tap do |resp|[m
+       resp.status  = obj.status_code[m
+       resp.headers.clear[m
+[36m@@ -1978,8 +2038,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Instantiates an instance of the proper matcher based on the provided[m
+[31m-target.[m
+[32m+[m
+[32m+[m[32mInstantiates an instance of the proper matcher based on the provided target.[m
+ [m
+ [m
+   [m
+[36m@@ -2069,8 +2131,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Returns a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise.[m
+[32m+[m
+[32m+[m[32mReturns a formatted failure message if @invalid_response is present, nil otherwise.[m
+ [m
+ [m
+   [m
+[36m@@ -2088,8 +2150,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        a formatted failure message if[m
+[31m-@invalid_response is present, nil otherwise[m
+[32m+[m[41m        [m
+[32m+[m[32ma formatted failure message if @invalid_response is present, nil otherwise[m
+ [m
+       [m
+     [m

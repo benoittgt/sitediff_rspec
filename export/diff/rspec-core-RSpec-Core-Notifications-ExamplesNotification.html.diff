@@ -1,0 +1,329 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.new[m
+[1mindex 8cc1381..f2158da 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Notifications-ExamplesNotification.html.new[m
+[36m@@ -110,21 +110,20 @@[m [mClass: RSpec::Core::Notifications::ExamplesNotification[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    The ExamplesNotificationExamplesNotification represents notifications sent by the reporter[m
+[31m-which contain information about the suites examples.The ExamplesNotification represents notifications sent by the reporter[m
+[31m-which contain information about the suites examples.[m
+     [m
+[32m+[m[32mThe ExamplesNotificationExamplesNotification represents notifications sent by the reporter which contain information about the suites examples.The ExamplesNotification represents notifications sent by the reporter which contain information about the suites examples.[m
+ [m
+ [m
+[31m-    The ExamplesNotification represents notifications sent by the reporter[m
+[31m-which contain information about the suites examples.[m
+   [m
+     [m
+[32m+[m[32mThe ExamplesNotification represents notifications sent by the reporter which contain information about the suites examples.[m
+ [m
+ [m
+   [m
+[31m-    The ExamplesNotification represents notifications sent by the reporter[m
+[31m-which contain information about the suites examples.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mThe ExamplesNotification represents notifications sent by the reporter which contain information about the suites examples.[m
+ [m
+ [m
+   [m
+[36m@@ -1452,21 +1531,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.Returns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+     [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -1484,11 +1562,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[31m-The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+[32m+[m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1499,8 +1576,8 @@[m [mthat RSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1515,8 +1592,8 @@[m [mthat RSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1536,8 +1613,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1682,8 +1759,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -1701,8 +1778,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1745,21 +1822,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.Returns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+[32m+[m
+ [m
+   [m
+     [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+ [m
+   [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -1777,11 +1853,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[31m-The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+[32m+[m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1792,8 +1867,8 @@[m [mway that RSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1808,8 +1883,8 @@[m [mway that RSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1829,8 +1904,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1975,8 +2050,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -1994,8 +2069,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -2802,8 +2907,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -2821,8 +2926,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -2865,8 +2970,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -2884,8 +2989,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -3113,8 +3223,8 @@[m [mClass: RSpec::Core::Notifications::ExamplesNotification[m
+ [m
+ Overview[m
+   [m
+[31m-    The ExamplesNotification represents notifications sent by the reporter[m
+[31m-which contain information about the suites examples.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe ExamplesNotification represents notifications sent by the reporter which contain information about the suites examples.[m
+ [m
+ [m
+   [m
+[36m@@ -3497,8 +3623,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -3516,8 +3642,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of failed examples, fully formatted in the way[m
+[31m-that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of failed examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -3560,8 +3686,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -3579,8 +3705,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The list of pending examples, fully formatted in the[m
+[31m-way that RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe list of pending examples, fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m

@@ -1,0 +1,110 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-SharedContext.html.current b/export/rspec-core-RSpec-Core-SharedContext.html.new[m
+[1mindex 04cff28..1c02d19 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-SharedContext.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-SharedContext.html.new[m
+[36m@@ -48,21 +48,20 @@[m [mModule: RSpec::Core::SharedContext[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Exposes ExampleGroup-level methods to a module, so you can include that[m
+[31m-module in an ExampleGroup.Exposes ExampleGroup-level methods to a module, so you can include that[m
+[31m-module in an ExampleGroup.[m
+     [m
+[32m+[m[32mExposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.Exposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.[m
+ [m
+ [m
+[31m-    Exposes ExampleGroup-level methods to a module, so you can include that[m
+[31m-module in an ExampleGroup.[m
+   [m
+     [m
+[32m+[m[32mExposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.[m
+ [m
+ [m
+   [m
+[31m-    Exposes ExampleGroup-level methods to a module, so you can include that[m
+[31m-module in an ExampleGroup.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mExposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -82,9 +81,9 @@[m [mmodulemodule LoggedInAsAdminLoggedInAsAdmin[m
+ endend[m
+ [m
+ describedescribe ""admin sectionadmin section"""admin section" dodo[m
+[31m-  includeinclude LoggedInAsAdminLoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  includeinclude LoggedInAsAdminLoggedInAsAdmin  # ...[m
+ # ...[m
+[32m+[m
+ endend[m
+ module LoggedInAsAdmin[m
+   extend RSpec::Core::SharedContext[m
+[36m@@ -94,8 +93,8 @@[m [mmodule LoggedInAsAdmin[m
+ end[m
+ [m
+ describe "admin section" do[m
+[31m-  include LoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  include LoggedInAsAdmin  # ...[m
+[32m+[m
+ end[m
+ module LoggedInAsAdmin[m
+   extend RSpec::Core::SharedContext[m
+[36m@@ -105,8 +104,8 @@[m [mmodule LoggedInAsAdmin[m
+ end[m
+ [m
+ describe "admin section" do[m
+[31m-  include LoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  include LoggedInAsAdmin  # ...[m
+[32m+[m
+ end[m
+     [m
+   [m
+[36m@@ -122,8 +121,8 @@[m [mmodule LoggedInAsAdmin[m
+ end[m
+ [m
+ describe "admin section" do[m
+[31m-  include LoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  include LoggedInAsAdmin  # ...[m
+[32m+[m
+ end[m
+     [m
+   [m
+[36m@@ -144,8 +143,8 @@[m [mmodule LoggedInAsAdmin[m
+ end[m
+ [m
+ describe "admin section" do[m
+[31m-  include LoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  include LoggedInAsAdmin  # ...[m
+[32m+[m
+ end[m
+     [m
+   [m
+[36m@@ -186,8 +185,8 @@[m [mModule: RSpec::Core::SharedContext[m
+ [m
+ Overview[m
+   [m
+[31m-    Exposes ExampleGroup-level methods to a module, so you can include that[m
+[31m-module in an ExampleGroup.[m
+[32m+[m[41m    [m
+[32m+[m[32mExposes ExampleGroup-level methods to a module, so you can include that module in an ExampleGroup.[m
+ [m
+ [m
+   [m
+[36m@@ -207,8 +206,8 @@[m [mmodule LoggedInAsAdmin[m
+ end[m
+ [m
+ describe "admin section" do[m
+[31m-  include LoggedInAsAdmin[m
+[31m-  # ...[m
+[32m+[m[32m  include LoggedInAsAdmin  # ...[m
+[32m+[m
+ end[m
+     [m
+   [m

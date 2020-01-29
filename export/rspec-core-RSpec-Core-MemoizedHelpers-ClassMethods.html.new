@@ -61,25 +61,20 @@ Module: RSpec::Core::MemoizedHelpers::ClassMethods
 
 OverviewOverview
   
-    This module is extended onto ExampleGroup, making the methods
-available to be called from within example group blocks.
-You can think of them as being analagous to class macros.This module is extended onto ExampleGroup, making the methods
-available to be called from within example group blocks.
-You can think of them as being analagous to class macros.
+    
+This module is extended onto ExampleGroup, making the methods available to be called from within example group blocks. You can think of them as being analagous to class macros.This module is extended onto ExampleGroup, making the methods available to be called from within example group blocks. You can think of them as being analagous to class macros.
 
 
   
-    This module is extended onto ExampleGroup, making the methods
-available to be called from within example group blocks.
-You can think of them as being analagous to class macros.
+    
+This module is extended onto ExampleGroup, making the methods available to be called from within example group blocks. You can think of them as being analagous to class macros.
 
 
   
 
   
-    This module is extended onto ExampleGroup, making the methods
-available to be called from within example group blocks.
-You can think of them as being analagous to class macros.
+    
+This module is extended onto ExampleGroup, making the methods available to be called from within example group blocks. You can think of them as being analagous to class macros.
 
 
   
@@ -119,8 +114,11 @@ You can think of them as being analagous to class macros.
   
 
   
-    Generates a method whose return value is memoized after the first call.Generates a method whose return value is memoized after the first call.
+    
+Generates a method whose return value is memoized after the first call.Generates a method whose return value is memoized after the first call.
+
 Generates a method whose return value is memoized after the first call.
+
 Generates a method whose return value is memoized after the first call.
 
   
@@ -135,7 +133,8 @@ Generates a method whose return value is memoized after the first call.
   
 
   
-    Generates a method whose return value is memoized after the first call.
+    
+Generates a method whose return value is memoized after the first call.
 
   
 
@@ -152,8 +151,11 @@ Generates a method whose return value is memoized after the first call.
   
 
   
-    Just like letlet, except the block is invoked by an implicit beforebefore hook.Just like let, except the block is invoked by an implicit before hook.
+    
+Just like letlet, except the block is invoked by an implicit beforebefore hook.Just like let, except the block is invoked by an implicit before hook.
+
 Just like let, except the block is invoked by an implicit before hook.
+
 Just like let, except the block is invoked by an implicit before hook.
 
   
@@ -168,7 +170,8 @@ Just like let, except the block is invoked by an implicit before hook.
   
 
   
-    Just like let, except the block is invoked by an implicit before hook.
+    
+Just like let, except the block is invoked by an implicit before hook.
 
   
 
@@ -185,8 +188,11 @@ Just like let, except the block is invoked by an implicit before hook.
   
 
   
-    Declares a subjectsubject for an example group which can then be wrapped with expectexpect using is_expectedis_expected to make it the target of an expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+    
+Declares a subjectsubject for an example group which can then be wrapped with expectexpect using is_expectedis_expected to make it the target of an expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
 Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
 Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
 
   
@@ -201,7 +207,8 @@ Declares a subject for an example group which can then be wrapped with expect us
   
 
   
-    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+    
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
 
   
 
@@ -218,8 +225,11 @@ Declares a subject for an example group which can then be wrapped with expect us
   
 
   
-    Just like subjectsubject, except the block is invoked by an implicit beforebefore hook.Just like subject, except the block is invoked by an implicit before hook.
+    
+Just like subjectsubject, except the block is invoked by an implicit beforebefore hook.Just like subject, except the block is invoked by an implicit before hook.
+
 Just like subject, except the block is invoked by an implicit before hook.
+
 Just like subject, except the block is invoked by an implicit before hook.
 
   
@@ -234,7 +244,8 @@ Just like subject, except the block is invoked by an implicit before hook.
   
 
   
-    Just like subject, except the block is invoked by an implicit before hook.
+    
+Just like subject, except the block is invoked by an implicit before hook.
 
   
 
@@ -253,7 +264,8 @@ Just like subject, except the block is invoked by an implicit before hook.
   
 
   
-    Generates a method whose return value is memoized after the first call.
+    
+Generates a method whose return value is memoized after the first call.
 
   
 
@@ -270,7 +282,8 @@ Just like subject, except the block is invoked by an implicit before hook.
   
 
   
-    Just like let, except the block is invoked by an implicit before hook.
+    
+Just like let, except the block is invoked by an implicit before hook.
 
   
 
@@ -287,7 +300,8 @@ Just like subject, except the block is invoked by an implicit before hook.
   
 
   
-    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+    
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
 
   
 
@@ -304,7 +318,8 @@ Just like subject, except the block is invoked by an implicit before hook.
   
 
   
-    Just like subject, except the block is invoked by an implicit before hook.
+    
+Just like subject, except the block is invoked by an implicit before hook.
 
   
 
@@ -325,107 +340,75 @@ Just like subject, except the block is invoked by an implicit before hook.
     
   
     Note:Note:
-    letlet cancan enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
-let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+letlet cancan enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
+
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
-let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
+
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:Note:
-    Because letlet is designed to create state that is reset between
-each example, and before(:context)before(:context) is designed to setup state that
-is shared across allall examples in an example group, letlet is notnot
-intended to be used in a before(:context)before(:context) hook.Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
-Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because letlet is designed to create state that is reset between each example, and before(:context)before(:context) is designed to setup state that is shared across allall examples in an example group, letlet is notnot intended to be used in a before(:context)before(:context) hook.Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
+
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
     
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
@@ -434,33 +417,27 @@ values to the same local variable.
     
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
@@ -975,33 +952,27 @@ end
     
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
@@ -1118,25 +1089,20 @@ end
       
   
   
-    Just like letlet, except the block is invoked by an implicit beforebefore
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like letlet, except the block is invoked by an implicit beforebefore hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
-    Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
 
   
-    Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -1492,9 +1458,8 @@ end
 
   
   
-    Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -1586,40 +1551,22 @@ end
     
   
     Note:Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
-subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
+
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subjectsubject for an example group which can then be wrapped
-with expectexpect using is_expectedis_expected to make it the target of an
-expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a namename, defines a method with that name which returns the
-subjectsubject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subjectsubject for an example group which can then be wrapped with expectexpect using is_expectedis_expected to make it the target of an expectation in a concise, one-line example.Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a namename, defines a method with that name which returns the subjectsubject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a namename, calling supersuper in the block is not supported.When given a name, calling super in the block is not supported.
 
@@ -1628,21 +1575,15 @@ When given a namename, calling supersuper in the block is not supported.When giv
     
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a name, calling super in the block is not supported.
 
@@ -1653,21 +1594,15 @@ When given a name, calling super in the block is not supported.
     
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a name, calling super in the block is not supported.
 
@@ -1756,11 +1691,10 @@ Parameters:Parameters:
       
       
         —
-        used to define an accessor with an
-intention revealing nameused to define an accessor with an
-intention revealing name
-used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing nameused to define an accessor with an intention revealing name
+
+used to define an accessor with an intention revealing name
 
       
     
@@ -1775,8 +1709,8 @@ intention revealing name
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -1791,7 +1725,9 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subjectsubject in examplesdefines the value to be returned by subject in examples
+        
+defines the value to be returned by subjectsubject in examplesdefines the value to be returned by subject in examples
+
 defines the value to be returned by subject in examples
 
       
@@ -1805,7 +1741,8 @@ defines the value to be returned by subject in examples
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -1824,8 +1761,8 @@ defines the value to be returned by subject in examples
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -1840,7 +1777,8 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -1904,8 +1842,8 @@ Parameters:
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -1920,7 +1858,8 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -2110,21 +2049,15 @@ end
     
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a name, calling super in the block is not supported.
 
@@ -2168,8 +2101,8 @@ Parameters:
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -2184,7 +2117,8 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -2245,25 +2179,20 @@ end
       
   
   
-    Just like subjectsubject, except the block is invoked by an implicit
-beforebefore hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subjectsubject, except the block is invoked by an implicit beforebefore hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
-    Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
 
   
-    Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -2619,9 +2548,8 @@ end
 
   
   
-    Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -2717,33 +2645,27 @@ end
     
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
@@ -2860,9 +2782,8 @@ end
       
   
   
-    Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -2954,21 +2875,15 @@ end
     
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a name, calling super in the block is not supported.
 
@@ -3012,8 +2927,8 @@ Parameters:
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -3028,7 +2943,8 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -3089,9 +3005,8 @@ end
       
   
   
-    Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -3210,9 +3125,8 @@ Module: RSpec::Core::MemoizedHelpers::ClassMethods
 
 Overview
   
-    This module is extended onto ExampleGroup, making the methods
-available to be called from within example group blocks.
-You can think of them as being analagous to class macros.
+    
+This module is extended onto ExampleGroup, making the methods available to be called from within example group blocks. You can think of them as being analagous to class macros.
 
 
   
@@ -3246,7 +3160,8 @@ You can think of them as being analagous to class macros.
   
 
   
-    Generates a method whose return value is memoized after the first call.
+    
+Generates a method whose return value is memoized after the first call.
 
   
 
@@ -3263,7 +3178,8 @@ You can think of them as being analagous to class macros.
   
 
   
-    Just like let, except the block is invoked by an implicit before hook.
+    
+Just like let, except the block is invoked by an implicit before hook.
 
   
 
@@ -3280,7 +3196,8 @@ You can think of them as being analagous to class macros.
   
 
   
-    Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+    
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
 
   
 
@@ -3297,7 +3214,8 @@ You can think of them as being analagous to class macros.
   
 
   
-    Just like subject, except the block is invoked by an implicit before hook.
+    
+Just like subject, except the block is invoked by an implicit before hook.
 
   
 
@@ -3318,33 +3236,27 @@ You can think of them as being analagous to class macros.
     
   
     Note:
-    let can enhance readability when used sparingly (1,2, or
-maybe 3 declarations) in any given example group, but that can
-quickly degrade with overuse. YMMV.
+    
+let can enhance readability when used sparingly (1,2, or maybe 3 declarations) in any given example group, but that can quickly degrade with overuse. YMMV.
 
   
 
   
     Note:
-    let can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+let can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
   
     Note:
-    Because let is designed to create state that is reset between
-each example, and before(:context) is designed to setup state that
-is shared across all examples in an example group, let is not
-intended to be used in a before(:context) hook.
+    
+Because let is designed to create state that is reset between each example, and before(:context) is designed to setup state that is shared across all examples in an example group, let is not intended to be used in a before(:context) hook.
 
   
 
-Generates a method whose return value is memoized after the first
-call. Useful for reducing duplication between examples that assign
-values to the same local variable.
+
+Generates a method whose return value is memoized after the first call. Useful for reducing duplication between examples that assign values to the same local variable.
 
 
   
@@ -3461,9 +3373,8 @@ end
       
   
   
-    Just like let, except the block is invoked by an implicit before
-hook. This serves a dual purpose of setting up state and providing a
-memoized reference to that state.
+    
+Just like let, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   
@@ -3555,21 +3466,15 @@ end
     
   
     Note:
-    subject can be configured to be threadsafe or not.
-If it is threadsafe, it will take longer to access the value.
-If it is not threadsafe, it may behave in surprising ways in examples
-that spawn separate threads. Specify this on RSpec.configure.
+    
+subject can be configured to be threadsafe or not. If it is threadsafe, it will take longer to access the value. If it is not threadsafe, it may behave in surprising ways in examples that spawn separate threads. Specify this on RSpec.configure.
 
   
 
-Declares a subject for an example group which can then be wrapped
-with expect using is_expected to make it the target of an
-expectation in a concise, one-line example.
 
-Given a name, defines a method with that name which returns the
-subject. This lets you declare the subject once and access it
-implicitly in one-liners and explicitly using an intention revealing
-name.
+Declares a subject for an example group which can then be wrapped with expect using is_expected to make it the target of an expectation in a concise, one-line example.
+
+Given a name, defines a method with that name which returns the subject. This lets you declare the subject once and access it implicitly in one-liners and explicitly using an intention revealing name.
 
 When given a name, calling super in the block is not supported.
 
@@ -3613,8 +3518,8 @@ Parameters:
       
       
         —
-        used to define an accessor with an
-intention revealing name
+        
+used to define an accessor with an intention revealing name
 
       
     
@@ -3629,7 +3534,8 @@ intention revealing name
       
       
         —
-        defines the value to be returned by subject in examples
+        
+defines the value to be returned by subject in examples
 
       
     
@@ -3690,9 +3596,8 @@ end
       
   
   
-    Just like subject, except the block is invoked by an implicit
-before hook. This serves a dual purpose of setting up state and
-providing a memoized reference to that state.
+    
+Just like subject, except the block is invoked by an implicit before hook. This serves a dual purpose of setting up state and providing a memoized reference to that state.
 
 
   

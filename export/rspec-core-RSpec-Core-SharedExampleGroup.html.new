@@ -61,61 +61,32 @@ Module: RSpec::Core::SharedExampleGroup
 
 OverviewOverview
   
-    Shared example groups let you define common context and/or common
-examples that you wish to use in multiple example groups.Shared example groups let you define common context and/or common
-examples that you wish to use in multiple example groups.
+    
+Shared example groups let you define common context and/or common examples that you wish to use in multiple example groups.Shared example groups let you define common context and/or common examples that you wish to use in multiple example groups.
 
-When defined, the shared group block is stored for later evaluation.
-It can later be included in an example group either explicitly
-(using include_examplesinclude_examples, include_contextinclude_context or it_behaves_likeit_behaves_like)
-or implicitly (via matching metadata).When defined, the shared group block is stored for later evaluation.
-It can later be included in an example group either explicitly
-(using include_examples, include_context or it_behaves_like)
-or implicitly (via matching metadata).
+When defined, the shared group block is stored for later evaluation. It can later be included in an example group either explicitly (using include_examplesinclude_examples, include_contextinclude_context or it_behaves_likeit_behaves_like) or implicitly (via matching metadata).When defined, the shared group block is stored for later evaluation. It can later be included in an example group either explicitly (using include_examples, include_context or it_behaves_like) or implicitly (via matching metadata).
 
-Named shared example groups are scoped based on where they are
-defined. Shared groups defined in an example group are available
-for inclusion in that example group or any child example groups,
-but not in any parent or sibling example groups. Shared example
-groups defined at the top level can be included from any example group.Named shared example groups are scoped based on where they are
-defined. Shared groups defined in an example group are available
-for inclusion in that example group or any child example groups,
-but not in any parent or sibling example groups. Shared example
-groups defined at the top level can be included from any example group.
+Named shared example groups are scoped based on where they are defined. Shared groups defined in an example group are available for inclusion in that example group or any child example groups, but not in any parent or sibling example groups. Shared example groups defined at the top level can be included from any example group.Named shared example groups are scoped based on where they are defined. Shared groups defined in an example group are available for inclusion in that example group or any child example groups, but not in any parent or sibling example groups. Shared example groups defined at the top level can be included from any example group.
 
 
   
-    Shared example groups let you define common context and/or common
-examples that you wish to use in multiple example groups.
+    
+Shared example groups let you define common context and/or common examples that you wish to use in multiple example groups.
 
-When defined, the shared group block is stored for later evaluation.
-It can later be included in an example group either explicitly
-(using include_examples, include_context or it_behaves_like)
-or implicitly (via matching metadata).
+When defined, the shared group block is stored for later evaluation. It can later be included in an example group either explicitly (using include_examples, include_context or it_behaves_like) or implicitly (via matching metadata).
 
-Named shared example groups are scoped based on where they are
-defined. Shared groups defined in an example group are available
-for inclusion in that example group or any child example groups,
-but not in any parent or sibling example groups. Shared example
-groups defined at the top level can be included from any example group.
+Named shared example groups are scoped based on where they are defined. Shared groups defined in an example group are available for inclusion in that example group or any child example groups, but not in any parent or sibling example groups. Shared example groups defined at the top level can be included from any example group.
 
 
   
 
   
-    Shared example groups let you define common context and/or common
-examples that you wish to use in multiple example groups.
+    
+Shared example groups let you define common context and/or common examples that you wish to use in multiple example groups.
 
-When defined, the shared group block is stored for later evaluation.
-It can later be included in an example group either explicitly
-(using include_examples, include_context or it_behaves_like)
-or implicitly (via matching metadata).
+When defined, the shared group block is stored for later evaluation. It can later be included in an example group either explicitly (using include_examples, include_context or it_behaves_like) or implicitly (via matching metadata).
 
-Named shared example groups are scoped based on where they are
-defined. Shared groups defined in an example group are available
-for inclusion in that example group or any child example groups,
-but not in any parent or sibling example groups. Shared example
-groups defined at the top level can be included from any example group.
+Named shared example groups are scoped based on where they are defined. Shared groups defined in an example group are available for inclusion in that example group or any child example groups, but not in any parent or sibling example groups. Shared example groups defined at the top level can be included from any example group.
 
 
   
@@ -173,8 +144,11 @@ Defined Under NamespaceDefined Under Namespace
   
 
   
-    Stores the block for later use.Stores the block for later use.
+    
+Stores the block for later use.Stores the block for later use.
+
 Stores the block for later use.
+
 Stores the block for later use.
 
   
@@ -189,7 +163,8 @@ Stores the block for later use.
   
 
   
-    Stores the block for later use.
+    
+Stores the block for later use.
 
   
 
@@ -208,7 +183,8 @@ Stores the block for later use.
   
 
   
-    Stores the block for later use.
+    
+Stores the block for later use.
 
   
 
@@ -226,25 +202,20 @@ Stores the block for later use.
       
   
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examplesinclude_examples,
-include_contextinclude_context, or it_behaves_likeit_behaves_like.Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examplesinclude_examples, include_contextinclude_context, or it_behaves_likeit_behaves_like.Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
 
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
@@ -339,11 +310,10 @@ end
       
       
         —
-        identifer to use when looking up
-this shared groupidentifer to use when looking up
-this shared group
-identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared groupidentifer to use when looking up this shared group
+
+identifer to use when looking up this shared group
 
       
     
@@ -356,8 +326,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -372,7 +342,9 @@ this shared group
       
       
         —
-        The block to be eval'dThe block to be eval'd
+        
+The block to be eval'dThe block to be eval'd
+
 The block to be eval'd
 
       
@@ -386,7 +358,8 @@ The block to be eval'd
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -403,8 +376,8 @@ The block to be eval'd
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -419,7 +392,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -441,8 +415,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -457,7 +431,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -488,8 +463,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -504,7 +479,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -546,11 +522,10 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared groupidentifer to use when looking up
-this shared group
-identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared groupidentifer to use when looking up this shared group
+
+identifer to use when looking up this shared group
 
       
     
@@ -563,8 +538,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -579,14 +554,10 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
-metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
+
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -599,9 +570,8 @@ automatically include this shared example group.
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -616,7 +586,9 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'dThe block to be eval'd
+        
+The block to be eval'dThe block to be eval'd
+
 The block to be eval'd
 
       
@@ -630,7 +602,8 @@ The block to be eval'd
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -647,8 +620,8 @@ The block to be eval'd
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -663,9 +636,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -680,7 +652,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -702,8 +675,8 @@ automatically include this shared example group.
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -718,9 +691,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -735,71 +707,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
-
-      
-    
-  
-
-
-
-
-      
         
-        
-  
-    
-
-  
-
-
-  Parameters:
-
-  
-    
-      
-        name
-      
-      
-        (String, Symbol, Module)
-      
-      
-      
-        —
-        identifer to use when looking up
-this shared group
-
-      
-    
-  
-    
-      
-        metadata
-      
-      
-        (Array<Symbol>, Hash)
-      
-      
-      
-        —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
-
-      
-    
-  
-    
-      
-        block
-      
-      
-        
-      
-      
-      
-        —
-        The block to be eval'd
+The block to be eval'd
 
       
     
@@ -808,11 +717,6 @@ automatically include this shared example group.
 
 
 
-      
-    
-  
-    
-      
       
         
         
@@ -835,8 +739,24 @@ automatically include this shared example group.
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -851,7 +771,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -861,6 +782,8 @@ this shared group
 
 
       
+    
+  
     
       
       
@@ -885,25 +808,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
-
-      
-    
-  
-    
-      
-        metadata
-      
-      
-        (Array<Symbol>, Hash)
-      
-      
-      
-        —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+identifer to use when looking up this shared group
 
       
     
@@ -918,7 +824,75 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
+
+      
+    
+  
+
+
+
+
+      
+    
+      
+      
+        
+        
+  
+    
+
+  
+
+
+  Parameters:
+
+  
+    
+      
+        name
+      
+      
+        (String, Symbol, Module)
+      
+      
+      
+        —
+        
+identifer to use when looking up this shared group
+
+      
+    
+  
+    
+      
+        metadata
+      
+      
+        (Array<Symbol>, Hash)
+      
+      
+      
+        —
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
+
+      
+    
+  
+    
+      
+        block
+      
+      
+        
+      
+      
+      
+        —
+        
+The block to be eval'd
 
       
     
@@ -997,8 +971,8 @@ end
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1013,7 +987,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1047,8 +1022,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1063,9 +1038,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -1080,7 +1054,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1253,9 +1228,8 @@ end
 
   
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
@@ -1306,8 +1280,8 @@ end
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1322,7 +1296,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1356,8 +1331,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1372,9 +1347,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -1389,7 +1363,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1456,9 +1431,8 @@ end
       
   
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
@@ -1509,8 +1483,8 @@ end
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1525,7 +1499,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1559,8 +1534,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1575,9 +1550,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -1592,7 +1566,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1685,19 +1660,12 @@ Module: RSpec::Core::SharedExampleGroup
 
 Overview
   
-    Shared example groups let you define common context and/or common
-examples that you wish to use in multiple example groups.
+    
+Shared example groups let you define common context and/or common examples that you wish to use in multiple example groups.
 
-When defined, the shared group block is stored for later evaluation.
-It can later be included in an example group either explicitly
-(using include_examples, include_context or it_behaves_like)
-or implicitly (via matching metadata).
+When defined, the shared group block is stored for later evaluation. It can later be included in an example group either explicitly (using include_examples, include_context or it_behaves_like) or implicitly (via matching metadata).
 
-Named shared example groups are scoped based on where they are
-defined. Shared groups defined in an example group are available
-for inclusion in that example group or any child example groups,
-but not in any parent or sibling example groups. Shared example
-groups defined at the top level can be included from any example group.
+Named shared example groups are scoped based on where they are defined. Shared groups defined in an example group are available for inclusion in that example group or any child example groups, but not in any parent or sibling example groups. Shared example groups defined at the top level can be included from any example group.
 
 
   
@@ -1741,7 +1709,8 @@ Defined Under Namespace
   
 
   
-    Stores the block for later use.
+    
+Stores the block for later use.
 
   
 
@@ -1759,9 +1728,8 @@ Defined Under Namespace
       
   
   
-    Stores the block for later use. The block will be evaluated
-in the context of an example group via include_examples,
-include_context, or it_behaves_like.
+    
+Stores the block for later use. The block will be evaluated in the context of an example group via include_examples, include_context, or it_behaves_like.
 
 
   
@@ -1812,8 +1780,8 @@ end
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1828,7 +1796,8 @@ this shared group
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     
@@ -1862,8 +1831,8 @@ this shared group
       
       
         —
-        identifer to use when looking up
-this shared group
+        
+identifer to use when looking up this shared group
 
       
     
@@ -1878,9 +1847,8 @@ this shared group
       
       
         —
-        metadata to attach to this
-group; any example group or example with matching metadata will
-automatically include this shared example group.
+        
+metadata to attach to this group; any example group or example with matching metadata will automatically include this shared example group.
 
       
     
@@ -1895,7 +1863,8 @@ automatically include this shared example group.
       
       
         —
-        The block to be eval'd
+        
+The block to be eval'd
 
       
     

@@ -1,0 +1,84 @@
+[1mdiff --git a/export/rspec-mocks-RSpec-Mocks-Syntax.html.current b/export/rspec-mocks-RSpec-Mocks-Syntax.html.new[m
+[1mindex 1ec994d..5cd2ce9 100644[m
+[1m--- a/export/rspec-mocks-RSpec-Mocks-Syntax.html.current[m
+[1m+++ b/export/rspec-mocks-RSpec-Mocks-Syntax.html.new[m
+[36m@@ -582,8 +582,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181# File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-defdef selfself..default_should_syntax_hostdefault_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdefdef selfself..default_should_syntax_hostdefault_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+ # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+ # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+[36m@@ -612,8 +612,7 @@[m [mdefdef selfself..default_should_syntax_hostdefault_should_syntax_host[m
+   ::::BasicObjectBasicObject[m
+ endend# File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -635,8 +635,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -685,8 +685,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -737,8 +737,7 @@[m [mend[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -805,8 +805,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -3321,8 +3321,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m
+[36m@@ -4055,8 +4055,7 @@[m [mDetermines where the methods like should_receive, and stub are added.[m
+     [m
+       # File 'lib/rspec/mocks/syntax.rb', line 181[m
+ [m
+[31m-def self.default_should_syntax_host[m
+[31m-  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+[32m+[m[32mdef self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`[m
+   # yet `BasicObject` still exists and patching onto ::Object breaks things[m
+   # e.g. SimpleDelegator expectations won't work[m
+   #[m

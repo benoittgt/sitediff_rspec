@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new[m
-[1mindex ec3a95a..494f993 100644[m
+[1mindex ec3a95a..cef5c36 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-BaseMatcher.html.new[m
 [36m@@ -40,6 +40,22 @@[m [mClass: RSpec::Rails::Matchers::BaseMatcher[m
@@ -50,7 +50,7 @@
    [m
    [m
      Inherits:[m
-[36m@@ -138,7 +170,14 @@[m [mDefined Under NamespaceDefined Under Namespace[m
+[36m@@ -138,7 +173,14 @@[m [mDefined Under NamespaceDefined Under Namespace[m
    [m
  [m
  [m
@@ -66,3 +66,377 @@
  [m
      [m
        [m
+[36m@@ -152,9 +194,8 @@[m [mDefined Under NamespaceDefined Under Namespace[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initializeinitialize.[m
+[31m-nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initializeinitialize. nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -162,8 +203,8 @@[m [mnil cannot be used because it's a valid value to pass.[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -173,8 +214,8 @@[m [mnil cannot be used because it's a valid value to pass.[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -193,8 +234,8 @@[m [mnil cannot be used because it's a valid value to pass.[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -215,8 +256,8 @@[m [mnil cannot be used because it's a valid value to pass.[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -1039,9 +1119,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.Matchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -1049,8 +1128,8 @@[m [msubclass diffable.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -1060,8 +1139,8 @@[m [msubclass diffable.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -1198,8 +1277,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -1454,13 +1533,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.This is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -1468,11 +1544,10 @@[m [mwrap rails' assertions.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -1482,11 +1557,10 @@[m [mwrap rails' assertions.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -1639,11 +1713,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -1694,11 +1767,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to matchmatch, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to matchmatch, which should be defined on a subclass. Takes care of consistently initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1706,9 +1776,8 @@[m [minitializing the actual attribute.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1718,9 +1787,8 @@[m [minitializing the actual attribute.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1867,9 +1935,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1923,11 +1990,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value)expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m
+[36m@@ -1935,9 +1999,8 @@[m [mthis defaults to false. Block matchers must override this to return true.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m
+[36m@@ -1947,9 +2010,8 @@[m [mthis defaults to false. Block matchers must override this to return true.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m
+[36m@@ -2086,9 +2148,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m
+[36m@@ -2194,8 +2256,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -2292,11 +2354,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -2344,9 +2405,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -2397,9 +2457,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m
+[36m@@ -2519,8 +2588,8 @@[m [mDefined Under Namespace[m
+   This constant is part of a private API.[m
+   You should avoid using this constant if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to detect when no arg is passed to initialize.[m
+[31m-nil cannot be used because it's a valid value to pass.[m
+[32m+[m
+[32m+[m[32mUsed to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.[m
+ [m
+ [m
+   [m
+[36m@@ -2792,8 +2869,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Matchers are not diffable by default. Override this to make your[m
+[31m-subclass diffable.[m
+[32m+[m
+[32m+[m[32mMatchers are not diffable by default. Override this to make your subclass diffable.[m
+ [m
+ [m
+   [m
+[36m@@ -2890,11 +2967,10 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Used to wrap a block of code that will indicate failure by[m
+[31m-raising one of the named exceptions.[m
+ [m
+[31m-This is used by rspec-rails for some of its matchers that[m
+[31m-wrap rails' assertions.[m
+[32m+[m[32mUsed to wrap a block of code that will indicate failure by raising one of the named exceptions.[m
+[32m+[m
+[32m+[m[32mThis is used by rspec-rails for some of its matchers that wrap rails' assertions.[m
+ [m
+ [m
+   [m
+[36m@@ -2942,9 +3018,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Indicates if the match is successful. Delegates to match, which[m
+[31m-should be defined on a subclass. Takes care of consistently[m
+[31m-initializing the actual attribute.[m
+[32m+[m
+[32m+[m[32mIndicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -2995,9 +3070,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Most matchers are value matchers (i.e. meant to work with expect(value))[m
+[31m-rather than block matchers (i.e. meant to work with expect { }), so[m
+[31m-this defaults to false. Block matchers must override this to return true.[m
+[32m+[m
+[32m+[m[32mMost matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.[m
+ [m
+ [m
+   [m

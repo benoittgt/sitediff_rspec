@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.current b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.new[m
-[1mindex d528f4d..1a6f2f3 100644[m
+[1mindex d528f4d..a41209c 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup.html.new[m
 [36m@@ -15,6 +16,10 @@[m [mModule: RSpec::Rails::ControllerExampleGroup[m
@@ -41,7 +41,7 @@
  [m
    [m
    [m
-[36m@@ -99,9 +122,6 @@[m [mDefined Under NamespaceDefined Under Namespace[m
+[36m@@ -99,9 +125,6 @@[m [mDefined Under NamespaceDefined Under Namespace[m
    [m
  [m
  [m
@@ -51,7 +51,119 @@
  [m
  [m
  [m
-[36m@@ -1384,9 +1409,6 @@[m [mDefined Under Namespace[m
+[36m@@ -459,21 +502,20 @@[m [mIf method is a named_route, delegates to the RouteSet associated with this contr[m
+     [m
+   [m
+   [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+[32m+[m[41m    [m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.If method is a named_route, delegates to the RouteSet associated with this controller.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.[m
+ [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.[m
+ [m
+ [m
+   [m
+[36m@@ -602,8 +644,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+[32m+[m[41m    [m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.[m
+ [m
+ [m
+   [m
+[36m@@ -650,8 +692,8 @@[m [mend[m
+     [m
+   [m
+   [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+[32m+[m[41m    [m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.[m
+ [m
+ [m
+   [m
+[36m@@ -1040,29 +1092,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handlerrescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action shouldshould raise an exception given appropriate[m
+[31m-conditions.Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+     [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handlerrescue_with_handler to raise the exception passed to it. Use this to specify that an action shouldshould raise an exception given appropriate conditions.Extends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+   [m
+     [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+   [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+   [m
+[36m@@ -1223,10 +1266,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+[32m+[m[41m    [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+   [m
+[36m@@ -1280,10 +1321,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+[32m+[m[41m    [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+   [m
+[36m@@ -1384,9 +1429,6 @@[m [mDefined Under Namespace[m
    [m
  [m
  [m
@@ -61,3 +173,27 @@
  [m
  [m
  [m
+[36m@@ -1582,8 +1628,8 @@[m [mDefined Under Namespace[m
+     [m
+   [m
+   [m
+[31m-    If method is a named_route, delegates to the RouteSet associated with[m
+[31m-this controller.[m
+[32m+[m[41m    [m
+[32m+[m[32mIf method is a named_route, delegates to the RouteSet associated with this controller.[m
+ [m
+ [m
+   [m
+[36m@@ -1703,10 +1751,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Extends the controller with a module that overrides[m
+[31m-rescue_with_handler to raise the exception passed to it. Use this to[m
+[31m-specify that an action should raise an exception given appropriate[m
+[31m-conditions.[m
+[32m+[m[41m    [m
+[32m+[m[32mExtends the controller with a module that overrides rescue_with_handler to raise the exception passed to it. Use this to specify that an action should raise an exception given appropriate conditions.[m
+ [m
+ [m
+   [m

@@ -1,0 +1,511 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.current b/export/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.new[m
+[1mindex 7c2d6dd..11d5abc 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Formatters-HtmlSnippetExtractor.html.new[m
+[36m@@ -117,9 +117,8 @@[m [mOverviewOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extracts code snippets by looking at the backtrace of the passed error[m
+[31m-and applies synax highlighting and line numbers using html.Extracts code snippets by looking at the backtrace of the passed error[m
+[31m-and applies synax highlighting and line numbers using html.[m
+[32m+[m
+[32m+[m[32mExtracts code snippets by looking at the backtrace of the passed error and applies synax highlighting and line numbers using html.Extracts code snippets by looking at the backtrace of the passed error and applies synax highlighting and line numbers using html.[m
+ [m
+ [m
+   [m
+[36m@@ -127,8 +126,8 @@[m [mand applies synax highlighting and line numbers using html.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extracts code snippets by looking at the backtrace of the passed error[m
+[31m-and applies synax highlighting and line numbers using html.[m
+[32m+[m
+[32m+[m[32mExtracts code snippets by looking at the backtrace of the passed error and applies synax highlighting and line numbers using html.[m
+ [m
+ [m
+   [m
+[36m@@ -138,8 +137,8 @@[m [mand applies synax highlighting and line numbers using html.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extracts code snippets by looking at the backtrace of the passed error[m
+[31m-and applies synax highlighting and line numbers using html.[m
+[32m+[m
+[32m+[m[32mExtracts code snippets by looking at the backtrace of the passed error and applies synax highlighting and line numbers using html.[m
+ [m
+ [m
+   [m
+[36m@@ -389,9 +408,8 @@[m [mCreate a snippet from a line of code.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.Extract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -399,8 +417,8 @@[m [msource file.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -410,8 +428,8 @@[m [msource file.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -523,11 +549,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[31m-lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).lines around the target line within the file (2 above and 1 below).[m
+[32m+[m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -538,8 +563,8 @@[m [mand 1 below).[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -554,8 +579,8 @@[m [mand 1 below).[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -609,8 +636,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -809,8 +836,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -862,8 +891,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -923,9 +952,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html spanspan tags.Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html spanspan tags.Adds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -933,8 +961,8 @@[m [mfailure occurred using html span tags.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -944,8 +972,8 @@[m [mfailure occurred using html span tags.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -964,11 +992,10 @@[m [mfailure occurred using html span tags.[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of codesyntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[31m-syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of codesyntax-highlighted snippet surrounding the offending line of code[m
+[32m+[m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -981,8 +1008,8 @@[m [moffending line of code[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -1028,8 +1058,8 @@[m [mline where failure occured[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -1110,8 +1145,8 @@[m [mcompleted snippet[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -1293,8 +1330,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -1313,8 +1350,8 @@[m [mfailure occurred using html span tags.[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -1483,11 +1529,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occuredhighlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[31m-highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occuredhighlighted code snippet indicating where the test failure occured[m
+[32m+[m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -1498,8 +1543,8 @@[m [mfailure occured[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -1514,8 +1559,8 @@[m [mfailure occured[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -1565,8 +1611,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -1719,8 +1767,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -1806,11 +1857,10 @@[m [mCreate a snippet from a line of code.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[31m-file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')file name with line number (i.e. 'foo_spec.rb:12')[m
+[32m+[m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -1823,8 +1873,8 @@[m [mfile name with line number (i.e.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -1841,8 +1891,8 @@[m [mfile name with line number (i.e.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -1919,8 +1973,8 @@[m [mlines around the target line within the file[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -2113,8 +2169,8 @@[m [mCreate a snippet from a line of code.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -2190,8 +2247,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -2243,8 +2302,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -2301,8 +2360,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -2321,8 +2380,8 @@[m [mfailure occurred using html span tags.[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -2439,8 +2502,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -2505,8 +2569,8 @@[m [mCreate a snippet from a line of code.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m
+[36m@@ -2619,8 +2684,8 @@[m [mOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extracts code snippets by looking at the backtrace of the passed error[m
+[31m-and applies synax highlighting and line numbers using html.[m
+[32m+[m
+[32m+[m[32mExtracts code snippets by looking at the backtrace of the passed error and applies synax highlighting and line numbers using html.[m
+ [m
+ [m
+   [m
+[36m@@ -2727,8 +2796,8 @@[m [mand applies synax highlighting and line numbers using html.[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Extract lines of code centered around a particular line within a[m
+[31m-source file.[m
+[32m+[m
+[32m+[m[32mExtract lines of code centered around a particular line within a source file.[m
+ [m
+ [m
+   [m
+[36m@@ -2780,8 +2851,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        lines around the target line within the file (2 above[m
+[31m-and 1 below).[m
+[32m+[m[41m        [m
+[32m+[m[32mlines around the target line within the file (2 above and 1 below).[m
+ [m
+       [m
+     [m
+[36m@@ -2838,8 +2909,8 @@[m [mend[m
+   This method is part of a private API.[m
+   You should avoid using this method if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Adds line numbers to all lines and highlights the line where the[m
+[31m-failure occurred using html span tags.[m
+[32m+[m
+[32m+[m[32mAdds line numbers to all lines and highlights the line where the failure occurred using html span tags.[m
+ [m
+ [m
+   [m
+[36m@@ -2858,8 +2929,8 @@[m [mfailure occurred using html span tags.[m
+       [m
+       [m
+         —[m
+[31m-        syntax-highlighted snippet surrounding the[m
+[31m-offending line of code[m
+[32m+[m[41m        [m
+[32m+[m[32msyntax-highlighted snippet surrounding the offending line of code[m
+ [m
+       [m
+     [m
+[36m@@ -2976,8 +3051,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        highlighted code snippet indicating where the test[m
+[31m-failure occured[m
+[32m+[m[41m        [m
+[32m+[m[32mhighlighted code snippet indicating where the test failure occured[m
+ [m
+       [m
+     [m
+[36m@@ -3042,8 +3118,8 @@[m [mCreate a snippet from a line of code.[m
+       [m
+       [m
+         —[m
+[31m-        file name with line number (i.e.[m
+[31m-'foo_spec.rb:12')[m
+[32m+[m[41m        [m
+[32m+[m[32mfile name with line number (i.e. 'foo_spec.rb:12')[m
+ [m
+       [m
+     [m

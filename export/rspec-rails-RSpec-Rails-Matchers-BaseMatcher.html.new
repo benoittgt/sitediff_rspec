@@ -123,17 +123,20 @@ Class: RSpec::Rails::Matchers::BaseMatcher
 
 OverviewOverview
   
-    @ api private.@ api private.
+    
+@ api private.@ api private.
 
 
   
-    @ api private.
+    
+@ api private.
 
 
   
 
   
-    @ api private.
+    
+@ api private.
 
 
   
@@ -191,9 +194,8 @@ Defined Under NamespaceDefined Under Namespace
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initializeinitialize.
-nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initializeinitialize. nilnil cannot be used because it's a valid value to pass.Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -201,8 +203,8 @@ nil cannot be used because it's a valid value to pass.
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -212,8 +214,8 @@ nil cannot be used because it's a valid value to pass.
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -232,8 +234,8 @@ nil cannot be used because it's a valid value to pass.
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -254,8 +256,8 @@ nil cannot be used because it's a valid value to pass.
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -298,8 +300,11 @@ nil cannot be used because it's a valid value to pass.
   privateprivate
 
   
-    Generates a description using Matchers::EnglishPhrasing.Generates a description using Matchers::EnglishPhrasing.
+    
+Generates a description using Matchers::EnglishPhrasing.Generates a description using Matchers::EnglishPhrasing.
+
 Generates a description using Matchers::EnglishPhrasing.
+
 Generates a description using Matchers::EnglishPhrasing.
 
   
@@ -314,7 +319,8 @@ Generates a description using Matchers::EnglishPhrasing.
   private
 
   
-    Generates a description using Matchers::EnglishPhrasing.
+    
+Generates a description using Matchers::EnglishPhrasing.
 
   
 
@@ -331,8 +337,11 @@ Generates a description using Matchers::EnglishPhrasing.
   privateprivate
 
   
-    Matchers are not diffable by default.Matchers are not diffable by default.
+    
+Matchers are not diffable by default.Matchers are not diffable by default.
+
 Matchers are not diffable by default.
+
 Matchers are not diffable by default.
 
   
@@ -347,7 +356,8 @@ Matchers are not diffable by default.
   private
 
   
-    Matchers are not diffable by default.
+    
+Matchers are not diffable by default.
 
   
 
@@ -395,8 +405,11 @@ Matchers are not diffable by default.
   
 
   
-    A new instance of BaseMatcher.A new instance of BaseMatcher.
+    
+A new instance of BaseMatcher.A new instance of BaseMatcher.
+
 A new instance of BaseMatcher.
+
 A new instance of BaseMatcher.
 
   
@@ -413,7 +426,8 @@ A new instance of BaseMatcher.
   
 
   
-    A new instance of BaseMatcher.
+    
+A new instance of BaseMatcher.
 
   
 
@@ -430,8 +444,11 @@ A new instance of BaseMatcher.
   privateprivate
 
   
-    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+    
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
 Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
 Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
   
@@ -446,7 +463,8 @@ Used to wrap a block of code that will indicate failure by raising one of the na
   private
 
   
-    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+    
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
   
 
@@ -463,8 +481,11 @@ Used to wrap a block of code that will indicate failure by raising one of the na
   privateprivate
 
   
-    Indicates if the match is successful.Indicates if the match is successful.
+    
+Indicates if the match is successful.Indicates if the match is successful.
+
 Indicates if the match is successful.
+
 Indicates if the match is successful.
 
   
@@ -479,7 +500,8 @@ Indicates if the match is successful.
   private
 
   
-    Indicates if the match is successful.
+    
+Indicates if the match is successful.
 
   
 
@@ -496,8 +518,11 @@ Indicates if the match is successful.
   privateprivate
 
   
-    Most matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+    
+Most matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
 Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+
 Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 
   
@@ -512,7 +537,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+    
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 
   
 
@@ -531,7 +557,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Generates a description using Matchers::EnglishPhrasing.
+    
+Generates a description using Matchers::EnglishPhrasing.
 
   
 
@@ -548,7 +575,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Matchers are not diffable by default.
+    
+Matchers are not diffable by default.
 
   
 
@@ -583,7 +611,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   
 
   
-    A new instance of BaseMatcher.
+    
+A new instance of BaseMatcher.
 
   
 
@@ -600,7 +629,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+    
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
   
 
@@ -617,7 +647,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Indicates if the match is successful.
+    
+Indicates if the match is successful.
 
   
 
@@ -634,7 +665,8 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
   private
 
   
-    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+    
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 
   
 
@@ -667,17 +699,20 @@ Most matchers are value matchers (i.e. meant to work with expect(value)) rather 
     
   
   
-    Returns a new instance of BaseMatcher.Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.Returns a new instance of BaseMatcher.
 
 
   
-    Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.
 
 
   
 
   
-    Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.
 
 
   
@@ -766,7 +801,8 @@ end
 
   
   
-    Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.
 
 
   
@@ -801,7 +837,8 @@ end
     
   
   
-    Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.
 
 
   
@@ -847,6 +884,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Generates a description using Matchers::EnglishPhrasing.Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -854,6 +892,7 @@ Generates a description using Matchers::EnglishPhrasing.Generates a description 
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Generates a description using Matchers::EnglishPhrasing.
 
@@ -864,6 +903,7 @@ Generates a description using Matchers::EnglishPhrasing.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Generates a description using Matchers::EnglishPhrasing.
 
@@ -1022,6 +1062,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Generates a description using Matchers::EnglishPhrasing.
 
 
@@ -1078,9 +1119,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1088,8 +1128,8 @@ subclass diffable.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1099,8 +1139,8 @@ subclass diffable.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1237,8 +1277,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -1493,13 +1533,10 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1507,11 +1544,10 @@ wrap rails' assertions.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1521,11 +1557,10 @@ wrap rails' assertions.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1678,11 +1713,10 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -1733,11 +1767,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to matchmatch, which
-should be defined on a subclass. Takes care of consistently
-initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to matchmatch, which should be defined on a subclass. Takes care of consistently initializing the actualactual attribute.Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1745,9 +1776,8 @@ initializing the actual attribute.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1757,9 +1787,8 @@ initializing the actual attribute.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1906,9 +1935,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -1962,11 +1990,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value)expect(value))
-rather than block matchers (i.e. meant to work with expect { }expect { }), so
-this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)expect(value)) rather than block matchers (i.e. meant to work with expect { }expect { }), so this defaults to false. Block matchers must override this to return true.Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -1974,9 +1999,8 @@ this defaults to false. Block matchers must override this to return true.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -1986,9 +2010,8 @@ this defaults to false. Block matchers must override this to return true.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2125,9 +2148,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2179,6 +2201,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Generates a description using Matchers::EnglishPhrasing.
 
@@ -2233,8 +2256,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -2331,11 +2354,10 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -2383,9 +2405,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -2436,9 +2457,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   
@@ -2529,7 +2549,8 @@ Class: RSpec::Rails::Matchers::BaseMatcher
 
 Overview
   
-    @ api private.
+    
+@ api private.
 
 
   
@@ -2567,8 +2588,8 @@ Defined Under Namespace
   This constant is part of a private API.
   You should avoid using this constant if possible, as it may be removed or be changed in the future.
 
-Used to detect when no arg is passed to initialize.
-nil cannot be used because it's a valid value to pass.
+
+Used to detect when no arg is passed to initialize. nil cannot be used because it's a valid value to pass.
 
 
   
@@ -2608,7 +2629,8 @@ nil cannot be used because it's a valid value to pass.
   private
 
   
-    Generates a description using Matchers::EnglishPhrasing.
+    
+Generates a description using Matchers::EnglishPhrasing.
 
   
 
@@ -2625,7 +2647,8 @@ nil cannot be used because it's a valid value to pass.
   private
 
   
-    Matchers are not diffable by default.
+    
+Matchers are not diffable by default.
 
   
 
@@ -2660,7 +2683,8 @@ nil cannot be used because it's a valid value to pass.
   
 
   
-    A new instance of BaseMatcher.
+    
+A new instance of BaseMatcher.
 
   
 
@@ -2677,7 +2701,8 @@ nil cannot be used because it's a valid value to pass.
   private
 
   
-    Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+    
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
 
   
 
@@ -2694,7 +2719,8 @@ nil cannot be used because it's a valid value to pass.
   private
 
   
-    Indicates if the match is successful.
+    
+Indicates if the match is successful.
 
   
 
@@ -2711,7 +2737,8 @@ nil cannot be used because it's a valid value to pass.
   private
 
   
-    Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
+    
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false.
 
   
 
@@ -2744,7 +2771,8 @@ nil cannot be used because it's a valid value to pass.
     
   
   
-    Returns a new instance of BaseMatcher.
+    
+Returns a new instance of BaseMatcher.
 
 
   
@@ -2786,6 +2814,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Generates a description using Matchers::EnglishPhrasing.
 
@@ -2840,8 +2869,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Matchers are not diffable by default. Override this to make your
-subclass diffable.
+
+Matchers are not diffable by default. Override this to make your subclass diffable.
 
 
   
@@ -2938,11 +2967,10 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Used to wrap a block of code that will indicate failure by
-raising one of the named exceptions.
 
-This is used by rspec-rails for some of its matchers that
-wrap rails' assertions.
+Used to wrap a block of code that will indicate failure by raising one of the named exceptions.
+
+This is used by rspec-rails for some of its matchers that wrap rails' assertions.
 
 
   
@@ -2990,9 +3018,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Indicates if the match is successful. Delegates to match, which
-should be defined on a subclass. Takes care of consistently
-initializing the actual attribute.
+
+Indicates if the match is successful. Delegates to match, which should be defined on a subclass. Takes care of consistently initializing the actual attribute.
 
 
   
@@ -3043,9 +3070,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Most matchers are value matchers (i.e. meant to work with expect(value))
-rather than block matchers (i.e. meant to work with expect { }), so
-this defaults to false. Block matchers must override this to return true.
+
+Most matchers are value matchers (i.e. meant to work with expect(value)) rather than block matchers (i.e. meant to work with expect { }), so this defaults to false. Block matchers must override this to return true.
 
 
   

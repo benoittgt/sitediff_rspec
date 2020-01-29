@@ -74,17 +74,20 @@ Module: RSpec::Rails::Matchers::RoutingMatchers
 
 OverviewOverview
   
-    Matchers to help with specs for routing code.Matchers to help with specs for routing code.
+    
+Matchers to help with specs for routing code.Matchers to help with specs for routing code.
 
 
   
-    Matchers to help with specs for routing code.
+    
+Matchers to help with specs for routing code.
 
 
   
 
   
-    Matchers to help with specs for routing code.
+    
+Matchers to help with specs for routing code.
 
 
   
@@ -142,8 +145,11 @@ Defined Under NamespaceDefined Under Namespace
   
 
   
-    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rbconfig/routes.rb.Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rbconfig/routes.rb.Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
 Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+
 Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
 
   
@@ -158,7 +164,8 @@ Passes if the route expression is recognized by the Rails router based on the de
   
 
   
-    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
 
   
 
@@ -175,8 +182,11 @@ Passes if the route expression is recognized by the Rails router based on the de
   
 
   
-    Delegates to assert_recognizesassert_recognizes.Delegates to assert_recognizes.
+    
+Delegates to assert_recognizesassert_recognizes.Delegates to assert_recognizes.
+
 Delegates to assert_recognizes.
+
 Delegates to assert_recognizes.
 
   
@@ -191,7 +201,8 @@ Delegates to assert_recognizes.
   
 
   
-    Delegates to assert_recognizes.
+    
+Delegates to assert_recognizes.
 
   
 
@@ -210,7 +221,8 @@ Delegates to assert_recognizes.
   
 
   
-    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
 
   
 
@@ -227,7 +239,8 @@ Delegates to assert_recognizes.
   
 
   
-    Delegates to assert_recognizes.
+    
+Delegates to assert_recognizes.
 
   
 
@@ -246,25 +259,20 @@ Delegates to assert_recognizes.
       
   
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rbconfig/routes.rb. Delegates to
-RouteSet#recognize_pathRouteSet#recognize_path.Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rbconfig/routes.rb. Delegates to RouteSet#recognize_pathRouteSet#recognize_path.Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
 
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
@@ -275,7 +283,9 @@ RouteSet#recognize_path.
     Examples:Examples:
     
       
-        You can use route helpers provided by rspec-rails.You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.You can use route helpers provided by rspec-rails.
+
 You can use route helpers provided by rspec-rails.
 
       
@@ -291,7 +301,8 @@ expect(:put  => "/yet/another/path").to be_routable
     Examples:
     
       
-        You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.
 
       
       expect(:get  => "/a/path").to be_routable
@@ -307,7 +318,8 @@ expect(:put  => "/yet/another/path").to be_routable
     Examples:
     
       
-        You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.
 
       
       expect(:get  => "/a/path").to be_routable
@@ -395,9 +407,8 @@ end
 
   
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
@@ -408,7 +419,8 @@ RouteSet#recognize_path.
     Examples:
     
       
-        You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.
 
       
       expect(:get  => "/a/path").to be_routable
@@ -442,21 +454,20 @@ end
       
   
   
-    Delegates to assert_recognizesassert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action""controller#action").Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizesassert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action""controller#action").Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   
-    Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   
 
   
-    Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   
@@ -615,8 +626,8 @@ end
 
   
   
-    Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   
@@ -673,9 +684,8 @@ end
       
   
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
@@ -686,7 +696,8 @@ RouteSet#recognize_path.
     Examples:
     
       
-        You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.
 
       
       expect(:get  => "/a/path").to be_routable
@@ -720,8 +731,8 @@ end
       
   
   
-    Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   
@@ -809,7 +820,8 @@ Module: RSpec::Rails::Matchers::RoutingMatchers
 
 Overview
   
-    Matchers to help with specs for routing code.
+    
+Matchers to help with specs for routing code.
 
 
   
@@ -853,7 +865,8 @@ Defined Under Namespace
   
 
   
-    Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb.
 
   
 
@@ -870,7 +883,8 @@ Defined Under Namespace
   
 
   
-    Delegates to assert_recognizes.
+    
+Delegates to assert_recognizes.
 
   
 
@@ -889,9 +903,8 @@ Defined Under Namespace
       
   
   
-    Passes if the route expression is recognized by the Rails router based on
-the declarations in config/routes.rb. Delegates to
-RouteSet#recognize_path.
+    
+Passes if the route expression is recognized by the Rails router based on the declarations in config/routes.rb. Delegates to RouteSet#recognize_path.
 
 
   
@@ -902,7 +915,8 @@ RouteSet#recognize_path.
     Examples:
     
       
-        You can use route helpers provided by rspec-rails.
+        
+You can use route helpers provided by rspec-rails.
 
       
       expect(:get  => "/a/path").to be_routable
@@ -936,8 +950,8 @@ end
       
   
   
-    Delegates to assert_recognizes. Supports short-hand controller/action
-declarations (e.g. "controller#action").
+    
+Delegates to assert_recognizes. Supports short-hand controller/action declarations (e.g. "controller#action").
 
 
   

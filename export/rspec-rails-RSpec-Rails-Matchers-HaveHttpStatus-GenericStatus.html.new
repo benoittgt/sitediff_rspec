@@ -140,9 +140,8 @@ OverviewOverview
   This class is part of a private API.
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
-Provides an implementation for have_http_statushave_http_status matching against
-ActionDispatch::TestResponseActionDispatch::TestResponse http status category queries.Provides an implementation for have_http_status matching against
-ActionDispatch::TestResponse http status category queries.
+
+Provides an implementation for have_http_statushave_http_status matching against ActionDispatch::TestResponseActionDispatch::TestResponse http status category queries.Provides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.
 
 Not intended to be instantiated directly.Not intended to be instantiated directly.
 
@@ -152,8 +151,8 @@ Not intended to be instantiated directly.Not intended to be instantiated directl
   This class is part of a private API.
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
-Provides an implementation for have_http_status matching against
-ActionDispatch::TestResponse http status category queries.
+
+Provides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.
 
 Not intended to be instantiated directly.
 
@@ -165,8 +164,8 @@ Not intended to be instantiated directly.
   This class is part of a private API.
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
-Provides an implementation for have_http_status matching against
-ActionDispatch::TestResponse http status category queries.
+
+Provides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.
 
 Not intended to be instantiated directly.
 
@@ -276,9 +275,12 @@ expect(response).to have_http_status(:redirect)
   privateprivate
 
   
-    Of status codes which represent a HTTP status code "group".Of status codes which represent a HTTP status code "group".
-Of status codes which represent a HTTP status code "group".
-Of status codes which represent a HTTP status code "group".
+    
+Of status codes which represent a HTTP status code “group”.Of status codes which represent a HTTP status code “group”.
+
+Of status codes which represent a HTTP status code “group”.
+
+Of status codes which represent a HTTP status code “group”.
 
   
 
@@ -292,7 +294,8 @@ Of status codes which represent a HTTP status code "group".
   private
 
   
-    Of status codes which represent a HTTP status code "group".
+    
+Of status codes which represent a HTTP status code “group”.
 
   
 
@@ -311,7 +314,8 @@ Of status codes which represent a HTTP status code "group".
   private
 
   
-    Of status codes which represent a HTTP status code "group".
+    
+Of status codes which represent a HTTP status code “group”.
 
   
 
@@ -369,8 +373,11 @@ Of status codes which represent a HTTP status code "group".
   privateprivate
 
   
-    Explaining why the match failed.Explaining why the match failed.
+    
+Explaining why the match failed.Explaining why the match failed.
+
 Explaining why the match failed.
+
 Explaining why the match failed.
 
   
@@ -385,7 +392,8 @@ Explaining why the match failed.
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -402,8 +410,11 @@ Explaining why the match failed.
   privateprivate
 
   
-    Explaining why the match failed.Explaining why the match failed.
+    
+Explaining why the match failed.Explaining why the match failed.
+
 Explaining why the match failed.
+
 Explaining why the match failed.
 
   
@@ -418,7 +429,8 @@ Explaining why the match failed.
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -437,8 +449,11 @@ Explaining why the match failed.
   privateprivate
 
   
-    A new instance of GenericStatus.A new instance of GenericStatus.
+    
+A new instance of GenericStatus.A new instance of GenericStatus.
+
 A new instance of GenericStatus.
+
 A new instance of GenericStatus.
 
   
@@ -455,7 +470,8 @@ A new instance of GenericStatus.
   private
 
   
-    A new instance of GenericStatus.
+    
+A new instance of GenericStatus.
 
   
 
@@ -472,8 +488,11 @@ A new instance of GenericStatus.
   privateprivate
 
   
-    truetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response status.true if Rack's associated numeric HTTP code matched the response code or the named response status.
+    
+truetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response status.true if Rack's associated numeric HTTP code matched the response code or the named response status.
+
 true if Rack's associated numeric HTTP code matched the response code or the named response status.
+
 true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
   
@@ -488,7 +507,8 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   private
 
   
-    true if Rack's associated numeric HTTP code matched the response code or the named response status.
+    
+true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
   
 
@@ -523,7 +543,8 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -540,7 +561,8 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -559,7 +581,8 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   private
 
   
-    A new instance of GenericStatus.
+    
+A new instance of GenericStatus.
 
   
 
@@ -576,7 +599,8 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   private
 
   
-    true if Rack's associated numeric HTTP code matched the response code or the named response status.
+    
+true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
   
 
@@ -633,6 +657,7 @@ true if Rack's associated numeric HTTP code matched the response code or the nam
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns a new instance of GenericStatus.Returns a new instance of GenericStatus.
 
 
@@ -640,6 +665,7 @@ Returns a new instance of GenericStatus.Returns a new instance of GenericStatus.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns a new instance of GenericStatus.
 
@@ -650,6 +676,7 @@ Returns a new instance of GenericStatus.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns a new instance of GenericStatus.
 
@@ -794,6 +821,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns a new instance of GenericStatus.
 
 
@@ -842,6 +870,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns a new instance of GenericStatus.
 
@@ -899,9 +928,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -909,8 +937,8 @@ code "group".
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -920,8 +948,8 @@ code "group".
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -939,11 +967,10 @@ Returns:Returns:
       
       
         —
-        of status codes which represent a HTTP status
-code "group"of status codes which represent a HTTP status
-code "group"
-of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”of status codes which represent a HTTP status code “group”
+
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -954,8 +981,8 @@ code "group"
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -970,8 +997,8 @@ code "group"
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -1002,8 +1029,8 @@ Returns:
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -1139,8 +1166,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -1158,8 +1185,8 @@ Returns:
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -1213,8 +1240,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -1232,8 +1259,8 @@ Returns:
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -1495,6 +1522,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.Returns explaining why the match failed.
 
 
@@ -1502,6 +1530,7 @@ Returns explaining why the match failed.Returns explaining why the match failed.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns explaining why the match failed.
 
@@ -1512,6 +1541,7 @@ Returns explaining why the match failed.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns explaining why the match failed.
 
@@ -1531,7 +1561,9 @@ Returns:Returns:
       
       
         —
-        explaining why the match failedexplaining why the match failed
+        
+explaining why the match failedexplaining why the match failed
+
 explaining why the match failed
 
       
@@ -1543,7 +1575,8 @@ explaining why the match failed
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1558,7 +1591,8 @@ explaining why the match failed
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1578,7 +1612,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1677,6 +1712,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -1695,7 +1731,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1735,6 +1772,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.Returns explaining why the match failed.
 
 
@@ -1742,6 +1780,7 @@ Returns explaining why the match failed.Returns explaining why the match failed.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns explaining why the match failed.
 
@@ -1752,6 +1791,7 @@ Returns explaining why the match failed.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns explaining why the match failed.
 
@@ -1771,7 +1811,9 @@ Returns:Returns:
       
       
         —
-        explaining why the match failedexplaining why the match failed
+        
+explaining why the match failedexplaining why the match failed
+
 explaining why the match failed
 
       
@@ -1783,7 +1825,8 @@ explaining why the match failed
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1798,7 +1841,8 @@ explaining why the match failed
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1818,7 +1862,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1917,6 +1962,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -1935,7 +1981,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -1975,9 +2022,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns truetrue if Rack's associated numeric HTTP code matched
-the responseresponse code or the named response status.Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns truetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response status.Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -1985,8 +2031,8 @@ the response code or the named response status.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -1996,8 +2042,8 @@ the response code or the named response status.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -2015,11 +2061,10 @@ Returns:Returns:
       
       
         —
-        truetrue if Rack's associated numeric HTTP code matched
-the responseresponse code or the named response statustrue if Rack's associated numeric HTTP code matched
-the response code or the named response status
-true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+truetrue if Rack's associated numeric HTTP code matched the responseresponse code or the named response statustrue if Rack's associated numeric HTTP code matched the response code or the named response status
+
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2030,8 +2075,8 @@ the response code or the named response status
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2046,8 +2091,8 @@ the response code or the named response status
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2067,8 +2112,8 @@ Returns:
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2207,8 +2252,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -2226,8 +2271,8 @@ Returns:
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2324,6 +2369,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -2342,7 +2388,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -2379,6 +2426,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -2397,7 +2445,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -2434,8 +2483,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -2453,8 +2502,8 @@ Returns:
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     
@@ -2547,8 +2596,8 @@ Overview
   This class is part of a private API.
   You should avoid using this class if possible, as it may be removed or be changed in the future.
 
-Provides an implementation for have_http_status matching against
-ActionDispatch::TestResponse http status category queries.
+
+Provides an implementation for have_http_status matching against ActionDispatch::TestResponse http status category queries.
 
 Not intended to be instantiated directly.
 
@@ -2610,7 +2659,8 @@ expect(response).to have_http_status(:redirect)
   private
 
   
-    Of status codes which represent a HTTP status code "group".
+    
+Of status codes which represent a HTTP status code “group”.
 
   
 
@@ -2652,7 +2702,8 @@ expect(response).to have_http_status(:redirect)
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -2669,7 +2720,8 @@ expect(response).to have_http_status(:redirect)
   private
 
   
-    Explaining why the match failed.
+    
+Explaining why the match failed.
 
   
 
@@ -2688,7 +2740,8 @@ expect(response).to have_http_status(:redirect)
   private
 
   
-    A new instance of GenericStatus.
+    
+A new instance of GenericStatus.
 
   
 
@@ -2705,7 +2758,8 @@ expect(response).to have_http_status(:redirect)
   private
 
   
-    true if Rack's associated numeric HTTP code matched the response code or the named response status.
+    
+true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
   
 
@@ -2758,6 +2812,7 @@ expect(response).to have_http_status(:redirect)
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns a new instance of GenericStatus.
 
@@ -2812,8 +2867,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns of status codes which represent a HTTP status
-code "group".
+
+Returns of status codes which represent a HTTP status code “group”.
 
 
   
@@ -2831,8 +2886,8 @@ Returns:
       
       
         —
-        of status codes which represent a HTTP status
-code "group"
+        
+of status codes which represent a HTTP status code “group”
 
       
     
@@ -2936,6 +2991,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -2954,7 +3010,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -2991,6 +3048,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns explaining why the match failed.
 
 
@@ -3009,7 +3067,8 @@ Returns:
       
       
         —
-        explaining why the match failed
+        
+explaining why the match failed
 
       
     
@@ -3046,8 +3105,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns true if Rack's associated numeric HTTP code matched
-the response code or the named response status.
+
+Returns true if Rack's associated numeric HTTP code matched the response code or the named response status.
 
 
   
@@ -3065,8 +3124,8 @@ Returns:
       
       
         —
-        true if Rack's associated numeric HTTP code matched
-the response code or the named response status
+        
+true if Rack's associated numeric HTTP code matched the response code or the named response status
 
       
     

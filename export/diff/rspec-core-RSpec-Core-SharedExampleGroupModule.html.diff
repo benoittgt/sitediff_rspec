@@ -1,0 +1,121 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.current b/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.new[m
+[1mindex 15967ff..5dbf9c5 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-SharedExampleGroupModule.html.new[m
+[36m@@ -120,29 +120,20 @@[m [mClass: RSpec::Core::SharedExampleGroupModule[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Represents some functionality that is shared with multiple example groups.[m
+[31m-The functionality is defined by the provided block, which is lazily[m
+[31m-eval'd when the SharedExampleGroupModuleSharedExampleGroupModule instance is included in an example[m
+[31m-group.Represents some functionality that is shared with multiple example groups.[m
+[31m-The functionality is defined by the provided block, which is lazily[m
+[31m-eval'd when the SharedExampleGroupModule instance is included in an example[m
+[31m-group.[m
+     [m
+[32m+[m[32mRepresents some functionality that is shared with multiple example groups. The functionality is defined by the provided block, which is lazily eval'd when the SharedExampleGroupModuleSharedExampleGroupModule instance is included in an example group.Represents some functionality that is shared with multiple example groups. The functionality is defined by the provided block, which is lazily eval'd when the SharedExampleGroupModule instance is included in an example group.[m
+ [m
+ [m
+[31m-    Represents some functionality that is shared with multiple example groups.[m
+[31m-The functionality is defined by the provided block, which is lazily[m
+[31m-eval'd when the SharedExampleGroupModule instance is included in an example[m
+[31m-group.[m
+   [m
+     [m
+[32m+[m[32mRepresents some functionality that is shared with multiple example groups. The functionality is defined by the provided block, which is lazily eval'd when the SharedExampleGroupModule instance is included in an example group.[m
+ [m
+ [m
+   [m
+[31m-    Represents some functionality that is shared with multiple example groups.[m
+[31m-The functionality is defined by the provided block, which is lazily[m
+[31m-eval'd when the SharedExampleGroupModule instance is included in an example[m
+[31m-group.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mRepresents some functionality that is shared with multiple example groups. The functionality is defined by the provided block, which is lazily eval'd when the SharedExampleGroupModule instance is included in an example group.[m
+ [m
+ [m
+   [m
+[36m@@ -540,25 +551,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+     [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.Ruby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+   [m
+     [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+   [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+   [m
+[36m@@ -657,9 +663,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+   [m
+[36m@@ -828,9 +837,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+   [m
+[36m@@ -939,10 +948,8 @@[m [mClass: RSpec::Core::SharedExampleGroupModule[m
+ [m
+ Overview[m
+   [m
+[31m-    Represents some functionality that is shared with multiple example groups.[m
+[31m-The functionality is defined by the provided block, which is lazily[m
+[31m-eval'd when the SharedExampleGroupModule instance is included in an example[m
+[31m-group.[m
+[32m+[m[41m    [m
+[32m+[m[32mRepresents some functionality that is shared with multiple example groups. The functionality is defined by the provided block, which is lazily eval'd when the SharedExampleGroupModule instance is included in an example group.[m
+ [m
+ [m
+   [m
+[36m@@ -1071,9 +1082,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Ruby callback for when a module is included in another module is class.[m
+[31m-Our definition evaluates the shared group block in the context of the[m
+[31m-including example group.[m
+[32m+[m[41m    [m
+[32m+[m[32mRuby callback for when a module is included in another module is class. Our definition evaluates the shared group block in the context of the including example group.[m
+ [m
+ [m
+   [m

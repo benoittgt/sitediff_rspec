@@ -1,0 +1,195 @@
+[1mdiff --git a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new[m
+[1mindex b3ed2cc..683fc6b 100644[m
+[1m--- a/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.current[m
+[1m+++ b/export/rspec-mocks-RSpec-Mocks-MessageExpectation.html.new[m
+[36m@@ -6103,41 +6103,41 @@[m [marguments.[m
+       [m
+       allowallow((cartcart))..toto receivereceive((:add:add)) {{ :failure:failure }}[m
+ allowallow((cartcart))..toto receivereceive((:add:add))..withwith((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379)))) {{ :success:success }}[m
+[31m-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))[m
+[32m+[m[32mcartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))# => :failure[m
+ # => :failure[m
+[31m-# => :failure[m
+[31m-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))[m
+[31m-# => :success[m
+[32m+[m
+[32m+[m[32mcartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))# => :success[m
+ # => :success[m
+ [m
+[32m+[m
+ expectexpect((cartcart))..toto receivereceive((:add:add))..withwith((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379)))) {{ :success:success }}[m
+[31m-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))[m
+[32m+[m[32mcartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))# => failed expectation[m
+ # => failed expectation[m
+[31m-# => failed expectation[m
+[31m-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))[m
+[31m-# => passes# => passesallow(cart).to receive(:add) { :failure }[m
+[32m+[m
+[32m+[m[32mcartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))# => passes# => passes[m
+[32m+[m[32mallow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passesallow(cart).to receive(:add) { :failure }[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m[32mallow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+     Examples:[m
+[36m@@ -6145,16 +6145,16 @@[m [mcart.add(Book.new(:isbn => 1934356379))[m
+       [m
+       allow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -6211,16 +6211,16 @@[m [mself, to support further chaining.[m
+       [m
+       allow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -6421,16 +6421,16 @@[m [marguments.[m
+       [m
+       allow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -7629,16 +7629,16 @@[m [marguments.[m
+       [m
+       allow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -9228,16 +9228,16 @@[m [marguments.[m
+       [m
+       allow(cart).to receive(:add) { :failure }[m
+ allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => :failure[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => :success[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => :failure[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => :success[m
+[32m+[m
+ [m
+ expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }[m
+[31m-cart.add(Book.new(:isbn => 1234567890))[m
+[31m-# => failed expectation[m
+[31m-cart.add(Book.new(:isbn => 1934356379))[m
+[31m-# => passes[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1234567890))# => failed expectation[m
+[32m+[m
+[32m+[m[32mcart.add(Book.new(:isbn => 1934356379))# => passes[m
+[32m+[m
+     [m
+   [m
+ [m

@@ -68,6 +68,7 @@ OverviewOverview
   This module is part of a private API.
   You should avoid using this module if possible, as it may be removed or be changed in the future.
 
+
 Namespace for various implementations of have_http_statushave_http_status.Namespace for various implementations of have_http_status.
 
 
@@ -75,6 +76,7 @@ Namespace for various implementations of have_http_statushave_http_status.Namesp
     
   This module is part of a private API.
   You should avoid using this module if possible, as it may be removed or be changed in the future.
+
 
 Namespace for various implementations of have_http_status.
 
@@ -85,6 +87,7 @@ Namespace for various implementations of have_http_status.
     
   This module is part of a private API.
   You should avoid using this module if possible, as it may be removed or be changed in the future.
+
 
 Namespace for various implementations of have_http_status.
 
@@ -144,8 +147,11 @@ Defined Under NamespaceDefined Under Namespace
   privateprivate
 
   
-    Conversion function to coerce the provided object into an ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+    
+Conversion function to coerce the provided object into an ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
 Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+
 Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
   
@@ -160,7 +166,8 @@ Conversion function to coerce the provided object into an ActionDispatch::TestRe
   private
 
   
-    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+    
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
   
 
@@ -177,8 +184,11 @@ Conversion function to coerce the provided object into an ActionDispatch::TestRe
   privateprivate
 
   
-    Instantiates an instance of the proper matcher based on the provided targettarget.Instantiates an instance of the proper matcher based on the provided target.
+    
+Instantiates an instance of the proper matcher based on the provided targettarget.Instantiates an instance of the proper matcher based on the provided target.
+
 Instantiates an instance of the proper matcher based on the provided target.
+
 Instantiates an instance of the proper matcher based on the provided target.
 
   
@@ -193,7 +203,8 @@ Instantiates an instance of the proper matcher based on the provided target.
   private
 
   
-    Instantiates an instance of the proper matcher based on the provided target.
+    
+Instantiates an instance of the proper matcher based on the provided target.
 
   
 
@@ -212,7 +223,8 @@ Instantiates an instance of the proper matcher based on the provided target.
   private
 
   
-    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+    
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
   
 
@@ -229,7 +241,8 @@ Instantiates an instance of the proper matcher based on the provided target.
   private
 
   
-    Instantiates an instance of the proper matcher based on the provided target.
+    
+Instantiates an instance of the proper matcher based on the provided target.
 
   
 
@@ -258,8 +271,11 @@ Instantiates an instance of the proper matcher based on the provided target.
   privateprivate
 
   
-    A formatted failure message if @invalid_response@invalid_response is present, nilnil otherwise.A formatted failure message if @invalid_response is present, nil otherwise.
+    
+A formatted failure message if @invalid_response@invalid_response is present, nilnil otherwise.A formatted failure message if @invalid_response is present, nil otherwise.
+
 A formatted failure message if @invalid_response is present, nil otherwise.
+
 A formatted failure message if @invalid_response is present, nil otherwise.
 
   
@@ -274,7 +290,8 @@ A formatted failure message if @invalid_response is present, nil otherwise.
   private
 
   
-    A formatted failure message if @invalid_response is present, nil otherwise.
+    
+A formatted failure message if @invalid_response is present, nil otherwise.
 
   
 
@@ -293,7 +310,8 @@ A formatted failure message if @invalid_response is present, nil otherwise.
   private
 
   
-    A formatted failure message if @invalid_response is present, nil otherwise.
+    
+A formatted failure message if @invalid_response is present, nil otherwise.
 
   
 
@@ -318,9 +336,8 @@ A formatted failure message if @invalid_response is present, nil otherwise.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponseActionDispatch::TestResponse.Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -328,8 +345,8 @@ ActionDispatch::TestResponse.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -339,8 +356,8 @@ ActionDispatch::TestResponse.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -359,7 +376,9 @@ ActionDispatch::TestResponse.
       
       
         —
-        object to convert to a responseobject to convert to a response
+        
+object to convert to a responseobject to convert to a response
+
 object to convert to a response
 
       
@@ -373,7 +392,8 @@ object to convert to a response
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -390,7 +410,8 @@ object to convert to a response
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -443,7 +464,8 @@ Returns:Returns:
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -548,13 +570,13 @@ defdef as_test_responseas_test_response((objobj))
     ::::ActionDispatchActionDispatch::::TestResponseTestResponse..from_responsefrom_response((objobj))
   elsifelsif ::::ActionDispatchActionDispatch::::TestResponseTestResponse ====== objobj
     objobj
-  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))
-    # Acts As Capybara Session
+  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))    # Acts As Capybara Session
 # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
 # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
 # Capybara or catch `NameError`s for the undefined constants
+
     objobj == ActionDispatchActionDispatch::::ResponseResponse..newnew..taptap dodo ||respresp||
       respresp..statusstatus  == objobj..status_codestatus_code
       respresp..headersheaders..clearclear
@@ -573,10 +595,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -597,10 +619,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -649,10 +671,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -703,10 +725,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -729,8 +751,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -749,7 +771,8 @@ ActionDispatch::TestResponse.
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -806,10 +829,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -837,9 +860,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-targettarget.Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided targettarget.Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -847,8 +869,8 @@ target.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -858,8 +880,8 @@ target.
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -878,7 +900,9 @@ target.
       
       
         —
-        expected http status or codeexpected http status or code
+        
+expected http status or codeexpected http status or code
+
 expected http status or code
 
       
@@ -892,7 +916,8 @@ expected http status or code
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -909,7 +934,8 @@ expected http status or code
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -927,7 +953,9 @@ Returns:Returns:
       
       
         
-        response matcher instanceresponse matcher instance
+        
+response matcher instanceresponse matcher instance
+
 response matcher instance
 
       
@@ -939,7 +967,8 @@ response matcher instance
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -954,7 +983,8 @@ response matcher instance
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -975,7 +1005,8 @@ response matcher instance
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -993,7 +1024,8 @@ Returns:
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -1142,8 +1174,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -1162,7 +1194,8 @@ target.
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -1180,7 +1213,8 @@ Returns:
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -1231,8 +1265,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -1251,7 +1285,8 @@ ActionDispatch::TestResponse.
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -1308,10 +1343,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -1336,8 +1371,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -1356,7 +1391,8 @@ target.
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -1374,7 +1410,8 @@ Returns:
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -1430,9 +1467,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response@invalid_response is present, nilnil otherwise.Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -1440,8 +1476,8 @@ Returns a formatted failure message if
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -1451,8 +1487,8 @@ Returns a formatted failure message if
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -1470,11 +1506,10 @@ Returns:Returns:
       
       
         —
-        a formatted failure message if
-@invalid_response@invalid_response is present, nilnil otherwisea formatted failure message if
-@invalid_response is present, nil otherwise
-a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response@invalid_response is present, nilnil otherwisea formatted failure message if @invalid_response is present, nil otherwise
+
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1485,8 +1520,8 @@ a formatted failure message if
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1501,8 +1536,8 @@ a formatted failure message if
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1522,8 +1557,8 @@ Returns:
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1632,8 +1667,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -1651,8 +1686,8 @@ Returns:
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1695,8 +1730,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -1714,8 +1749,8 @@ Returns:
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     
@@ -1784,6 +1819,7 @@ Overview
   This module is part of a private API.
   You should avoid using this module if possible, as it may be removed or be changed in the future.
 
+
 Namespace for various implementations of have_http_status.
 
 
@@ -1828,7 +1864,8 @@ Defined Under Namespace
   private
 
   
-    Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
+    
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
   
 
@@ -1845,7 +1882,8 @@ Defined Under Namespace
   private
 
   
-    Instantiates an instance of the proper matcher based on the provided target.
+    
+Instantiates an instance of the proper matcher based on the provided target.
 
   
 
@@ -1871,7 +1909,8 @@ Defined Under Namespace
   private
 
   
-    A formatted failure message if @invalid_response is present, nil otherwise.
+    
+A formatted failure message if @invalid_response is present, nil otherwise.
 
   
 
@@ -1893,8 +1932,8 @@ Defined Under Namespace
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Conversion function to coerce the provided object into an
-ActionDispatch::TestResponse.
+
+Conversion function to coerce the provided object into an ActionDispatch::TestResponse.
 
 
   
@@ -1913,7 +1952,8 @@ ActionDispatch::TestResponse.
       
       
         —
-        object to convert to a response
+        
+object to convert to a response
 
       
     
@@ -1970,10 +2010,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
-    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
+
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -1998,8 +2038,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Instantiates an instance of the proper matcher based on the provided
-target.
+
+Instantiates an instance of the proper matcher based on the provided target.
 
 
   
@@ -2018,7 +2058,8 @@ target.
       
       
         —
-        expected http status or code
+        
+expected http status or code
 
       
     
@@ -2036,7 +2077,8 @@ Returns:
       
       
         
-        response matcher instance
+        
+response matcher instance
 
       
     
@@ -2089,8 +2131,8 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
-Returns a formatted failure message if
-@invalid_response is present, nil otherwise.
+
+Returns a formatted failure message if @invalid_response is present, nil otherwise.
 
 
   
@@ -2108,8 +2150,8 @@ Returns:
       
       
         —
-        a formatted failure message if
-@invalid_response is present, nil otherwise
+        
+a formatted failure message if @invalid_response is present, nil otherwise
 
       
     

@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new[m
-[1mindex 3d08c0f..c7fdebd 100644[m
+[1mindex 3d08c0f..2305544 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-NumericCode.html.new[m
 [36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::NumericCode[m
@@ -52,7 +52,41 @@
    [m
    [m
      Inherits:[m
-[36m@@ -186,9 +220,6 @@[m [mNot intended to be instantiated directly.[m
+[36m@@ -106,9 +140,8 @@[m [mOverviewOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_statushave_http_status matching against[m
+[31m-numeric http status codes.Provides an implementation for have_http_status matching against[m
+[31m-numeric http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_statushave_http_status matching against numeric http status codes.Provides an implementation for have_http_status matching against numeric http status codes.[m
+ [m
+ Not intended to be instantiated directly.Not intended to be instantiated directly.[m
+ [m
+[36m@@ -118,8 +151,8 @@[m [mNot intended to be instantiated directly.Not intended to be instantiated directl[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-numeric http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against numeric http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -131,8 +164,8 @@[m [mNot intended to be instantiated directly.[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-numeric http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against numeric http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -186,9 +219,6 @@[m [mNot intended to be instantiated directly.[m
    [m
  [m
  [m
@@ -62,16 +96,28 @@
  [m
  [m
    Constant SummaryConstant Summary[m
-[36m@@ -1448,7 +1479,7 @@[m [mend[m
+[36m@@ -1448,7 +1523,8 @@[m [mend[m
    This method is part of a private API.[m
    You should avoid using this method if possible, as it may be removed or be changed in the future.[m
  [m
 [31m-Returns true if the numeric code matched the response code.Returns true if the numeric code matched the response code.[m
+[32m+[m
 [32m+[m[32mReturns truetrue if the numeric code matched the responseresponse code.Returns true if the numeric code matched the response code.[m
  [m
  [m
    [m
-[36m@@ -2139,9 +2175,6 @@[m [mNot intended to be instantiated directly.[m
+[36m@@ -2112,8 +2215,8 @@[m [mOverview[m
+   This class is part of a private API.[m
+   You should avoid using this class if possible, as it may be removed or be changed in the future.[m
+ [m
+[31m-Provides an implementation for have_http_status matching against[m
+[31m-numeric http status codes.[m
+[32m+[m
+[32m+[m[32mProvides an implementation for have_http_status matching against numeric http status codes.[m
+ [m
+ Not intended to be instantiated directly.[m
+ [m
+[36m@@ -2139,9 +2242,6 @@[m [mNot intended to be instantiated directly.[m
    [m
  [m
  [m

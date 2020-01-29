@@ -48,15 +48,10 @@ Module: RSpec::Core::Metadata
 
 OverviewOverview
   
-    Each ExampleGroup class and Example instance owns an instance of
-Metadata, which is Hash extended to support lazy evaluation of values
-associated with keys that may or may not be used by any example or group.Each ExampleGroup class and Example instance owns an instance of
-Metadata, which is Hash extended to support lazy evaluation of values
-associated with keys that may or may not be used by any example or group.
+    
+Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.
 
-In addition to metadata that is used internally, this also stores
-user-supplied metadata, e.g.In addition to metadata that is used internally, this also stores
-user-supplied metadata, e.g.
+In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.
 
 RSpecRSpec..describedescribe SomethingSomething,, :type:type =>=> :ui:ui dodo
   itit ""does somethingdoes something"""does something",, :slow:slow =>=> truetrue dodo
@@ -76,24 +71,14 @@ RSpec.describe Something, :type => :ui do
 end
 
 
-:type => :ui:type => :ui is stored in the Metadata owned by the example group, and
-:slow => true:slow => true is stored in the Metadata owned by the example. These can
-then be used to select which examples are run using the --tag--tag option on
-the command line, or several methods on ConfigurationConfiguration used to filter a
-run (e.g. filter_run_includingfilter_run_including, filter_run_excludingfilter_run_excluding, etc).:type => :ui is stored in the Metadata owned by the example group, and
-:slow => true is stored in the Metadata owned by the example. These can
-then be used to select which examples are run using the --tag option on
-the command line, or several methods on Configuration used to filter a
-run (e.g. filter_run_including, filter_run_excluding, etc).
+:type => :ui:type => :ui is stored in the Metadata owned by the example group, and :slow => true:slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag--tag option on the command line, or several methods on ConfigurationConfiguration used to filter a run (e.g. filter_run_includingfilter_run_including, filter_run_excludingfilter_run_excluding, etc).:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).
 
 
   
-    Each ExampleGroup class and Example instance owns an instance of
-Metadata, which is Hash extended to support lazy evaluation of values
-associated with keys that may or may not be used by any example or group.
+    
+Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.
 
-In addition to metadata that is used internally, this also stores
-user-supplied metadata, e.g.
+In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.
 
 RSpec.describe Something, :type => :ui do
   it "does something", :slow => true do
@@ -102,22 +87,16 @@ RSpec.describe Something, :type => :ui do
 end
 
 
-:type => :ui is stored in the Metadata owned by the example group, and
-:slow => true is stored in the Metadata owned by the example. These can
-then be used to select which examples are run using the --tag option on
-the command line, or several methods on Configuration used to filter a
-run (e.g. filter_run_including, filter_run_excluding, etc).
+:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).
 
 
   
 
   
-    Each ExampleGroup class and Example instance owns an instance of
-Metadata, which is Hash extended to support lazy evaluation of values
-associated with keys that may or may not be used by any example or group.
+    
+Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.
 
-In addition to metadata that is used internally, this also stores
-user-supplied metadata, e.g.
+In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.
 
 RSpec.describe Something, :type => :ui do
   it "does something", :slow => true do
@@ -126,11 +105,7 @@ RSpec.describe Something, :type => :ui do
 end
 
 
-:type => :ui is stored in the Metadata owned by the example group, and
-:slow => true is stored in the Metadata owned by the example. These can
-then be used to select which examples are run using the --tag option on
-the command line, or several methods on Configuration used to filter a
-run (e.g. filter_run_including, filter_run_excluding, etc).
+:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).
 
 
   
@@ -212,8 +187,11 @@ run (e.g. filter_run_including, filter_run_excluding, etc).
   privateprivate
 
   
-    Relative path to line.Relative path to line.
+    
+Relative path to line.Relative path to line.
+
 Relative path to line.
+
 Relative path to line.
 
   
@@ -228,7 +206,8 @@ Relative path to line.
   private
 
   
-    Relative path to line.
+    
+Relative path to line.
 
   
 
@@ -245,8 +224,11 @@ Relative path to line.
   
 
   
-    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
 Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+
 Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
 
   
@@ -261,7 +243,8 @@ Matches strings either at the beginning of the input or prefixed with a whitespa
   
 
   
-    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
 
   
 
@@ -280,7 +263,8 @@ Matches strings either at the beginning of the input or prefixed with a whitespa
   private
 
   
-    Relative path to line.
+    
+Relative path to line.
 
   
 
@@ -297,7 +281,8 @@ Matches strings either at the beginning of the input or prefixed with a whitespa
   
 
   
-    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
 
   
 
@@ -322,6 +307,7 @@ Matches strings either at the beginning of the input or prefixed with a whitespa
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns relative path to line.Returns relative path to line.
 
 
@@ -329,6 +315,7 @@ Returns relative path to line.Returns relative path to line.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns relative path to line.
 
@@ -339,6 +326,7 @@ Returns relative path to line.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns relative path to line.
 
@@ -359,7 +347,9 @@ Returns relative path to line.
       
       
         —
-        current code linecurrent code line
+        
+current code linecurrent code line
+
 current code line
 
       
@@ -373,7 +363,8 @@ current code line
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -390,7 +381,8 @@ current code line
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -408,7 +400,9 @@ Returns:Returns:
       
       
         —
-        relative path to linerelative path to line
+        
+relative path to linerelative path to line
+
 relative path to line
 
       
@@ -420,7 +414,8 @@ relative path to line
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -435,7 +430,8 @@ relative path to line
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -456,7 +452,8 @@ relative path to line
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -474,7 +471,8 @@ Returns:
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -532,12 +530,12 @@ defdef selfself..relative_pathrelative_path((lineline))
   lineline == lineline..subsub((//\A([^:]+:\d+)$\A([^:]+:\d+)$///\A([^:]+:\d+)$/,, ''\\1\\1'''\\1'..freezefreeze))
   returnreturn nilnil ifif lineline ==== ''-e:1-e:1'''-e:1'..freezefreeze
   lineline
-rescuerescue SecurityErrorSecurityError
-  # :nocov:
+rescuerescue SecurityErrorSecurityError  # :nocov:
 # :nocov:
-  nilnil
-  # :nocov:
+
+  nilnil  # :nocov:
 # :nocov:
+
 endend# File 'lib/rspec/core/metadata.rb', line 44
 
 def self.relative_path(line)
@@ -545,10 +543,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
       # File 'lib/rspec/core/metadata.rb', line 44
@@ -558,10 +556,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -588,10 +586,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -620,10 +618,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -634,6 +632,7 @@ end
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Returns relative path to line.
 
@@ -654,7 +653,8 @@ Returns relative path to line.
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -672,7 +672,8 @@ Returns:
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -704,10 +705,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -717,43 +718,26 @@ end
       
   
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   
 
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   
@@ -842,14 +826,10 @@ end
 
   
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   
@@ -889,6 +869,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns relative path to line.
 
 
@@ -908,7 +889,8 @@ Returns relative path to line.
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -926,7 +908,8 @@ Returns:
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -958,10 +941,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -971,14 +954,10 @@ end
       
   
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   
@@ -1035,12 +1014,10 @@ Module: RSpec::Core::Metadata
 
 Overview
   
-    Each ExampleGroup class and Example instance owns an instance of
-Metadata, which is Hash extended to support lazy evaluation of values
-associated with keys that may or may not be used by any example or group.
+    
+Each ExampleGroup class and Example instance owns an instance of Metadata, which is Hash extended to support lazy evaluation of values associated with keys that may or may not be used by any example or group.
 
-In addition to metadata that is used internally, this also stores
-user-supplied metadata, e.g.
+In addition to metadata that is used internally, this also stores user-supplied metadata, e.g.
 
 RSpec.describe Something, :type => :ui do
   it "does something", :slow => true do
@@ -1049,11 +1026,7 @@ RSpec.describe Something, :type => :ui do
 end
 
 
-:type => :ui is stored in the Metadata owned by the example group, and
-:slow => true is stored in the Metadata owned by the example. These can
-then be used to select which examples are run using the --tag option on
-the command line, or several methods on Configuration used to filter a
-run (e.g. filter_run_including, filter_run_excluding, etc).
+:type => :ui is stored in the Metadata owned by the example group, and :slow => true is stored in the Metadata owned by the example. These can then be used to select which examples are run using the --tag option on the command line, or several methods on Configuration used to filter a run (e.g. filter_run_including, filter_run_excluding, etc).
 
 
   
@@ -1102,7 +1075,8 @@ run (e.g. filter_run_including, filter_run_excluding, etc).
   private
 
   
-    Relative path to line.
+    
+Relative path to line.
 
   
 
@@ -1119,7 +1093,8 @@ run (e.g. filter_run_including, filter_run_excluding, etc).
   
 
   
-    Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string.
 
   
 
@@ -1141,6 +1116,7 @@ run (e.g. filter_run_including, filter_run_excluding, etc).
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Returns relative path to line.
 
 
@@ -1160,7 +1136,8 @@ Returns relative path to line.
       
       
         —
-        current code line
+        
+current code line
 
       
     
@@ -1178,7 +1155,8 @@ Returns:
       
       
         —
-        relative path to line
+        
+relative path to line
 
       
     
@@ -1210,10 +1188,10 @@ def self.relative_path(line)
   line = line.sub(/\A([^:]+:\d+)$/, '\\1'.freeze)
   return nil if line == '-e:1'.freeze
   line
-rescue SecurityError
-  # :nocov:
-  nil
-  # :nocov:
+rescue SecurityError  # :nocov:
+
+  nil  # :nocov:
+
 end
     
   
@@ -1223,14 +1201,10 @@ end
       
   
   
-    Matches strings either at the beginning of the input or prefixed with a
-whitespace, containing the current path, either postfixed with the
-separator, or at the end of the string. Match groups are the character
-before and the character after the string if any.
+    
+Matches strings either at the beginning of the input or prefixed with a whitespace, containing the current path, either postfixed with the separator, or at the end of the string. Match groups are the character before and the character after the string if any.
 
-http://rubular.com/r/fT0gmX6VJX
-http://rubular.com/r/duOrD4i3wb
-http://rubular.com/r/sbAMHFrOx1.
+rubular.com/r/fT0gmX6VJX rubular.com/r/duOrD4i3wb rubular.com/r/sbAMHFrOx1.
 
 
   

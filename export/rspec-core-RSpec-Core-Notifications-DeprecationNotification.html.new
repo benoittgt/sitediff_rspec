@@ -124,25 +124,20 @@ lib/rspec/core/notifications.rb
 
 OverviewOverview
   
-    The DeprecationNotificationDeprecationNotification is issued by the reporter when a deprecated
-part of RSpec is encountered. It represents information about the
-deprecated call site.The DeprecationNotification is issued by the reporter when a deprecated
-part of RSpec is encountered. It represents information about the
-deprecated call site.
+    
+The DeprecationNotificationDeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.The DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.
 
 
   
-    The DeprecationNotification is issued by the reporter when a deprecated
-part of RSpec is encountered. It represents information about the
-deprecated call site.
+    
+The DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.
 
 
   
 
   
-    The DeprecationNotification is issued by the reporter when a deprecated
-part of RSpec is encountered. It represents information about the
-deprecated call site.
+    
+The DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.
 
 
   
@@ -174,8 +169,11 @@ deprecated call site.
   
 
   
-    An optional call site from which the deprecation was issued.An optional call site from which the deprecation was issued.
+    
+An optional call site from which the deprecation was issued.An optional call site from which the deprecation was issued.
+
 An optional call site from which the deprecation was issued.
+
 An optional call site from which the deprecation was issued.
 
   
@@ -193,7 +191,8 @@ An optional call site from which the deprecation was issued.
   
 
   
-    An optional call site from which the deprecation was issued.
+    
+An optional call site from which the deprecation was issued.
 
   
 
@@ -213,8 +212,11 @@ An optional call site from which the deprecation was issued.
   
 
   
-    A custom message about the deprecation (alias of message).A custom message about the deprecation (alias of message).
+    
+A custom message about the deprecation (alias of message).A custom message about the deprecation (alias of message).
+
 A custom message about the deprecation (alias of message).
+
 A custom message about the deprecation (alias of message).
 
   
@@ -232,7 +234,8 @@ A custom message about the deprecation (alias of message).
   
 
   
-    A custom message about the deprecation (alias of message).
+    
+A custom message about the deprecation (alias of message).
 
   
 
@@ -252,8 +255,11 @@ A custom message about the deprecation (alias of message).
   
 
   
-    A custom message about the deprecation.A custom message about the deprecation.
+    
+A custom message about the deprecation.A custom message about the deprecation.
+
 A custom message about the deprecation.
+
 A custom message about the deprecation.
 
   
@@ -271,7 +277,8 @@ A custom message about the deprecation.
   
 
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
   
 
@@ -291,8 +298,11 @@ A custom message about the deprecation.
   
 
   
-    An optional replacement for the deprecation.An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.An optional replacement for the deprecation.
+
 An optional replacement for the deprecation.
+
 An optional replacement for the deprecation.
 
   
@@ -310,7 +320,8 @@ An optional replacement for the deprecation.
   
 
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
   
 
@@ -332,7 +343,8 @@ An optional replacement for the deprecation.
   
 
   
-    An optional call site from which the deprecation was issued.
+    
+An optional call site from which the deprecation was issued.
 
   
 
@@ -352,7 +364,8 @@ An optional replacement for the deprecation.
   
 
   
-    A custom message about the deprecation (alias of message).
+    
+A custom message about the deprecation (alias of message).
 
   
 
@@ -372,7 +385,8 @@ An optional replacement for the deprecation.
   
 
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
   
 
@@ -392,7 +406,8 @@ An optional replacement for the deprecation.
   
 
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
   
 
@@ -425,8 +440,11 @@ An optional replacement for the deprecation.
   
 
   
-    Convenience way to initialize the notification.Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.Convenience way to initialize the notification.
+
 Convenience way to initialize the notification.
+
 Convenience way to initialize the notification.
 
   
@@ -441,7 +459,8 @@ Convenience way to initialize the notification.
   
 
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
   
 
@@ -460,7 +479,8 @@ Convenience way to initialize the notification.
   
 
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
   
 
@@ -479,21 +499,20 @@ Convenience way to initialize the notification.
       
   
   
-    An optional call site from which the deprecation
-was issued.An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.An optional call site from which the deprecation was issued.
 
 
   
-    An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.
 
 
   
 
   
-    An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.
 
 
   
@@ -511,7 +530,9 @@ Returns:Returns:
       
       
         —
-        the current value of call_sitethe current value of call_site
+        
+the current value of call_sitethe current value of call_site
+
 the current value of call_site
 
       
@@ -523,7 +544,8 @@ the current value of call_site
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -538,7 +560,8 @@ the current value of call_site
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -558,7 +581,8 @@ Returns:
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -643,8 +667,8 @@ end
 
   
   
-    An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.
 
 
   
@@ -662,7 +686,8 @@ Returns:
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -695,21 +720,20 @@ end
       
   
   
-    A custom message about the deprecation (alias of
-message).A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).A custom message about the deprecation (alias of message).
 
 
   
-    A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).
 
 
   
 
   
-    A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).
 
 
   
@@ -727,7 +751,9 @@ Returns:Returns:
       
       
         —
-        the current value of deprecatedthe current value of deprecated
+        
+the current value of deprecatedthe current value of deprecated
+
 the current value of deprecated
 
       
@@ -739,7 +765,8 @@ the current value of deprecated
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -754,7 +781,8 @@ the current value of deprecated
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -774,7 +802,8 @@ Returns:
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -859,8 +888,8 @@ end
 
   
   
-    A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).
 
 
   
@@ -878,7 +907,8 @@ Returns:
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -911,17 +941,20 @@ end
       
   
   
-    A custom message about the deprecation.A custom message about the deprecation.
+    
+A custom message about the deprecation.A custom message about the deprecation.
 
 
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
 
   
 
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
 
   
@@ -939,7 +972,9 @@ Returns:Returns:
       
       
         —
-        the current value of messagethe current value of message
+        
+the current value of messagethe current value of message
+
 the current value of message
 
       
@@ -951,7 +986,8 @@ the current value of message
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -966,7 +1002,8 @@ the current value of message
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -986,7 +1023,8 @@ Returns:
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -1071,7 +1109,8 @@ end
 
   
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
 
   
@@ -1089,7 +1128,8 @@ Returns:
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -1122,17 +1162,20 @@ end
       
   
   
-    An optional replacement for the deprecation.An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.An optional replacement for the deprecation.
 
 
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
 
   
 
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
 
   
@@ -1150,7 +1193,9 @@ Returns:Returns:
       
       
         —
-        the current value of replacementthe current value of replacement
+        
+the current value of replacementthe current value of replacement
+
 the current value of replacement
 
       
@@ -1162,7 +1207,8 @@ the current value of replacement
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -1177,7 +1223,8 @@ the current value of replacement
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -1197,7 +1244,8 @@ Returns:
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -1282,7 +1330,8 @@ end
 
   
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
 
   
@@ -1300,7 +1349,8 @@ Returns:
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -1336,8 +1386,8 @@ end
       
   
   
-    An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.
 
 
   
@@ -1355,7 +1405,8 @@ Returns:
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -1388,8 +1439,8 @@ end
       
   
   
-    A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).
 
 
   
@@ -1407,7 +1458,8 @@ Returns:
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -1440,7 +1492,8 @@ end
       
   
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
 
   
@@ -1458,7 +1511,8 @@ Returns:
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -1491,7 +1545,8 @@ end
       
   
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
 
   
@@ -1509,7 +1564,8 @@ Returns:
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -1547,17 +1603,20 @@ end
       
   
   
-    Convenience way to initialize the notification.Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.Convenience way to initialize the notification.
 
 
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
 
   
 
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
 
   
@@ -1646,7 +1705,8 @@ end
 
   
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
 
   
@@ -1682,7 +1742,8 @@ end
       
   
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
 
   
@@ -1758,9 +1819,8 @@ Class: RSpec::Core::Notifications::DeprecationNotification
 
 Overview
   
-    The DeprecationNotification is issued by the reporter when a deprecated
-part of RSpec is encountered. It represents information about the
-deprecated call site.
+    
+The DeprecationNotification is issued by the reporter when a deprecated part of RSpec is encountered. It represents information about the deprecated call site.
 
 
   
@@ -1789,7 +1849,8 @@ deprecated call site.
   
 
   
-    An optional call site from which the deprecation was issued.
+    
+An optional call site from which the deprecation was issued.
 
   
 
@@ -1809,7 +1870,8 @@ deprecated call site.
   
 
   
-    A custom message about the deprecation (alias of message).
+    
+A custom message about the deprecation (alias of message).
 
   
 
@@ -1829,7 +1891,8 @@ deprecated call site.
   
 
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
   
 
@@ -1849,7 +1912,8 @@ deprecated call site.
   
 
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
   
 
@@ -1879,7 +1943,8 @@ deprecated call site.
   
 
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
   
 
@@ -1898,8 +1963,8 @@ deprecated call site.
       
   
   
-    An optional call site from which the deprecation
-was issued.
+    
+An optional call site from which the deprecation was issued.
 
 
   
@@ -1917,7 +1982,8 @@ Returns:
       
       
         —
-        the current value of call_site
+        
+the current value of call_site
 
       
     
@@ -1950,8 +2016,8 @@ end
       
   
   
-    A custom message about the deprecation (alias of
-message).
+    
+A custom message about the deprecation (alias of message).
 
 
   
@@ -1969,7 +2035,8 @@ Returns:
       
       
         —
-        the current value of deprecated
+        
+the current value of deprecated
 
       
     
@@ -2002,7 +2069,8 @@ end
       
   
   
-    A custom message about the deprecation.
+    
+A custom message about the deprecation.
 
 
   
@@ -2020,7 +2088,8 @@ Returns:
       
       
         —
-        the current value of message
+        
+the current value of message
 
       
     
@@ -2053,7 +2122,8 @@ end
       
   
   
-    An optional replacement for the deprecation.
+    
+An optional replacement for the deprecation.
 
 
   
@@ -2071,7 +2141,8 @@ Returns:
       
       
         —
-        the current value of replacement
+        
+the current value of replacement
 
       
     
@@ -2109,7 +2180,8 @@ end
       
   
   
-    Convenience way to initialize the notification.
+    
+Convenience way to initialize the notification.
 
 
   

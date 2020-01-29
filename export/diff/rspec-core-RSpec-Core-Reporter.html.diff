@@ -1,0 +1,336 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Reporter.html.current b/export/rspec-core-RSpec-Core-Reporter.html.new[m
+[1mindex b2becfb..fd4ef3b 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Reporter.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Reporter.html.new[m
+[36m@@ -110,21 +110,20 @@[m [mClass: RSpec::Core::Reporter[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    A reporter will send notifications to listeners, usually formatters for the[m
+[31m-spec suite run.A reporter will send notifications to listeners, usually formatters for the[m
+[31m-spec suite run.[m
+     [m
+[32m+[m[32mA reporter will send notifications to listeners, usually formatters for the spec suite run.A reporter will send notifications to listeners, usually formatters for the spec suite run.[m
+ [m
+ [m
+[31m-    A reporter will send notifications to listeners, usually formatters for the[m
+[31m-spec suite run.[m
+   [m
+     [m
+[32m+[m[32mA reporter will send notifications to listeners, usually formatters for the spec suite run.[m
+ [m
+ [m
+   [m
+[31m-    A reporter will send notifications to listeners, usually formatters for the[m
+[31m-spec suite run.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mA reporter will send notifications to listeners, usually formatters for the spec suite run.[m
+ [m
+ [m
+   [m
+[36m@@ -1583,21 +1653,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+[32m+[m[41m    [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.Registers a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+     [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+[36m@@ -1616,11 +1685,10 @@[m [mnotification of events to all registered listeners.[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-eventsAn obect that wishes to be notified of reporter[m
+[31m-events[m
+[31m-An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter eventsAn obect that wishes to be notified of reporter events[m
+[32m+[m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -1633,8 +1701,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -1649,11 +1717,10 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe tooArray of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[31m-Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe tooArray of symbols represents the events a listener wishes to subscribe too[m
+[32m+[m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -1666,8 +1733,8 @@[m [mlistener wishes to subscribe too[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -1684,8 +1751,8 @@[m [mlistener wishes to subscribe too[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -1700,8 +1767,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -1723,8 +1790,8 @@[m [mlistener wishes to subscribe too[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -1739,8 +1806,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -1856,8 +1923,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+[32m+[m[41m    [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+[36m@@ -1876,8 +1943,8 @@[m [mnotification of events to all registered listeners.[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -1892,8 +1959,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -1931,25 +1998,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+[32m+[m[41m    [m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.Initializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+ [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+ [m
+ [m
+   [m
+[36m@@ -2255,9 +2327,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+[32m+[m[41m    [m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+ [m
+ [m
+   [m
+[36m@@ -2535,8 +2615,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+[32m+[m[41m    [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+[36m@@ -2555,8 +2635,8 @@[m [mnotification of events to all registered listeners.[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -2571,8 +2651,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -2610,9 +2690,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+[32m+[m[41m    [m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+ [m
+ [m
+   [m
+[36m@@ -2742,8 +2823,8 @@[m [mClass: RSpec::Core::Reporter[m
+ [m
+ Overview[m
+   [m
+[31m-    A reporter will send notifications to listeners, usually formatters for the[m
+[31m-spec suite run.[m
+[32m+[m[41m    [m
+[32m+[m[32mA reporter will send notifications to listeners, usually formatters for the spec suite run.[m
+ [m
+ [m
+   [m
+[36m@@ -3121,8 +3216,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Registers a listener to a list of notifications. The reporter will send[m
+[31m-notification of events to all registered listeners.[m
+[32m+[m[41m    [m
+[32m+[m[32mRegisters a listener to a list of notifications. The reporter will send notification of events to all registered listeners.[m
+ [m
+ [m
+   [m
+[36m@@ -3141,8 +3236,8 @@[m [mnotification of events to all registered listeners.[m
+       [m
+       [m
+         —[m
+[31m-        An obect that wishes to be notified of reporter[m
+[31m-events[m
+[32m+[m[41m        [m
+[32m+[m[32mAn obect that wishes to be notified of reporter events[m
+ [m
+       [m
+     [m
+[36m@@ -3157,8 +3252,8 @@[m [mevents[m
+       [m
+       [m
+         —[m
+[31m-        Array of symbols represents the events a[m
+[31m-listener wishes to subscribe too[m
+[32m+[m[41m        [m
+[32m+[m[32mArray of symbols represents the events a listener wishes to subscribe too[m
+ [m
+       [m
+     [m
+[36m@@ -3196,9 +3291,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Initializes the report run and yields itself for further reporting. The[m
+[31m-block is required, so that the reporter can manage cleaning up after the[m
+[31m-run.[m
+[32m+[m[41m    [m
+[32m+[m[32mInitializes the report run and yields itself for further reporting. The block is required, so that the reporter can manage cleaning up after the run.[m
+ [m
+ [m
+   [m

@@ -110,29 +110,20 @@ Class: RSpec::Core::ConfigurationOptions
 
 OverviewOverview
   
-    Responsible for utilizing externally provided configuration options,
-whether via the command line, .rspec.rspec, ~/.rspec~/.rspec,
-$XDG_CONFIG_HOME/rspec/options$XDG_CONFIG_HOME/rspec/options, .rspec-local.rspec-local or a custom options
-file.Responsible for utilizing externally provided configuration options,
-whether via the command line, .rspec, ~/.rspec,
-$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
-file.
+    
+Responsible for utilizing externally provided configuration options, whether via the command line, .rspec.rspec, ~/.rspec~/.rspec, $XDG_CONFIG_HOME/rspec/options$XDG_CONFIG_HOME/rspec/options, .rspec-local.rspec-local or a custom options file.Responsible for utilizing externally provided configuration options, whether via the command line, .rspec, ~/.rspec, $XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options file.
 
 
   
-    Responsible for utilizing externally provided configuration options,
-whether via the command line, .rspec, ~/.rspec,
-$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
-file.
+    
+Responsible for utilizing externally provided configuration options, whether via the command line, .rspec, ~/.rspec, $XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options file.
 
 
   
 
   
-    Responsible for utilizing externally provided configuration options,
-whether via the command line, .rspec, ~/.rspec,
-$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
-file.
+    
+Responsible for utilizing externally provided configuration options, whether via the command line, .rspec, ~/.rspec, $XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options file.
 
 
   
@@ -166,8 +157,11 @@ file.
   
 
   
-    The original command-line arguments.The original command-line arguments.
+    
+The original command-line arguments.The original command-line arguments.
+
 The original command-line arguments.
+
 The original command-line arguments.
 
   
@@ -187,7 +181,8 @@ The original command-line arguments.
   
 
   
-    The original command-line arguments.
+    
+The original command-line arguments.
 
   
 
@@ -209,8 +204,11 @@ The original command-line arguments.
   
 
   
-    The final merged options, drawn from all external sources.The final merged options, drawn from all external sources.
+    
+The final merged options, drawn from all external sources.The final merged options, drawn from all external sources.
+
 The final merged options, drawn from all external sources.
+
 The final merged options, drawn from all external sources.
 
   
@@ -230,7 +228,8 @@ The final merged options, drawn from all external sources.
   
 
   
-    The final merged options, drawn from all external sources.
+    
+The final merged options, drawn from all external sources.
 
   
 
@@ -254,7 +253,8 @@ The final merged options, drawn from all external sources.
   
 
   
-    The original command-line arguments.
+    
+The original command-line arguments.
 
   
 
@@ -276,7 +276,8 @@ The final merged options, drawn from all external sources.
   
 
   
-    The final merged options, drawn from all external sources.
+    
+The final merged options, drawn from all external sources.
 
   
 
@@ -309,8 +310,11 @@ The final merged options, drawn from all external sources.
   
 
   
-    Updates the provided Configuration instance based on the provided external configuration options.Updates the provided Configuration instance based on the provided external configuration options.
+    
+Updates the provided Configuration instance based on the provided external configuration options.Updates the provided Configuration instance based on the provided external configuration options.
+
 Updates the provided Configuration instance based on the provided external configuration options.
+
 Updates the provided Configuration instance based on the provided external configuration options.
 
   
@@ -325,7 +329,8 @@ Updates the provided Configuration instance based on the provided external confi
   
 
   
-    Updates the provided Configuration instance based on the provided external configuration options.
+    
+Updates the provided Configuration instance based on the provided external configuration options.
 
   
 
@@ -342,8 +347,11 @@ Updates the provided Configuration instance based on the provided external confi
   privateprivate
 
   
-    Updates the provided  based on the filter options.Updates the provided FilterManager based on the filter options.
+    
+Updates the provided  based on the filter options.Updates the provided FilterManager based on the filter options.
+
 Updates the provided FilterManager based on the filter options.
+
 Updates the provided FilterManager based on the filter options.
 
   
@@ -358,7 +366,8 @@ Updates the provided FilterManager based on the filter options.
   private
 
   
-    Updates the provided FilterManager based on the filter options.
+    
+Updates the provided FilterManager based on the filter options.
 
   
 
@@ -377,8 +386,11 @@ Updates the provided FilterManager based on the filter options.
   
 
   
-    A new instance of ConfigurationOptions.A new instance of ConfigurationOptions.
+    
+A new instance of ConfigurationOptions.A new instance of ConfigurationOptions.
+
 A new instance of ConfigurationOptions.
+
 A new instance of ConfigurationOptions.
 
   
@@ -395,7 +407,8 @@ A new instance of ConfigurationOptions.
   
 
   
-    A new instance of ConfigurationOptions.
+    
+A new instance of ConfigurationOptions.
 
   
 
@@ -414,7 +427,8 @@ A new instance of ConfigurationOptions.
   
 
   
-    Updates the provided Configuration instance based on the provided external configuration options.
+    
+Updates the provided Configuration instance based on the provided external configuration options.
 
   
 
@@ -431,7 +445,8 @@ A new instance of ConfigurationOptions.
   private
 
   
-    Updates the provided FilterManager based on the filter options.
+    
+Updates the provided FilterManager based on the filter options.
 
   
 
@@ -450,7 +465,8 @@ A new instance of ConfigurationOptions.
   
 
   
-    A new instance of ConfigurationOptions.
+    
+A new instance of ConfigurationOptions.
 
   
 
@@ -465,17 +481,20 @@ A new instance of ConfigurationOptions.
     
   
   
-    Returns a new instance of ConfigurationOptions.Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.Returns a new instance of ConfigurationOptions.
 
 
   
-    Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.
 
 
   
 
   
-    Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.
 
 
   
@@ -494,7 +513,9 @@ A new instance of ConfigurationOptions.
       
       
         —
-        command line argumentscommand line arguments
+        
+command line argumentscommand line arguments
+
 command line arguments
 
       
@@ -508,7 +529,8 @@ command line arguments
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -525,7 +547,8 @@ command line arguments
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -547,7 +570,8 @@ command line arguments
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -643,7 +667,8 @@ end
 
   
   
-    Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.
 
 
   
@@ -662,7 +687,8 @@ end
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -699,7 +725,8 @@ end
     
   
   
-    Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.
 
 
   
@@ -718,7 +745,8 @@ end
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -759,17 +787,20 @@ end
       
   
   
-    Returns the original command-line arguments.Returns the original command-line arguments.
+    
+Returns the original command-line arguments.Returns the original command-line arguments.
 
 
   
-    Returns the original command-line arguments.
+    
+Returns the original command-line arguments.
 
 
   
 
   
-    Returns the original command-line arguments.
+    
+Returns the original command-line arguments.
 
 
   
@@ -787,7 +818,9 @@ Returns:Returns:
       
       
         —
-        the original command-line argumentsthe original command-line arguments
+        
+the original command-line argumentsthe original command-line arguments
+
 the original command-line arguments
 
       
@@ -799,7 +832,8 @@ the original command-line arguments
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -814,7 +848,8 @@ the original command-line arguments
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -834,7 +869,8 @@ Returns:
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -919,7 +955,8 @@ end
 
   
   
-    Returns the original command-line arguments.
+    
+Returns the original command-line arguments.
 
 
   
@@ -937,7 +974,8 @@ Returns:
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -970,17 +1008,20 @@ end
       
   
   
-    Returns the final merged options, drawn from all external sources.Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.Returns the final merged options, drawn from all external sources.
 
 
   
-    Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.
 
 
   
 
   
-    Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.
 
 
   
@@ -998,7 +1039,9 @@ Returns:Returns:
       
       
         —
-        the final merged options, drawn from all external sourcesthe final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sourcesthe final merged options, drawn from all external sources
+
 the final merged options, drawn from all external sources
 
       
@@ -1010,7 +1053,8 @@ the final merged options, drawn from all external sources
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -1025,7 +1069,8 @@ the final merged options, drawn from all external sources
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -1045,7 +1090,8 @@ Returns:
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -1130,7 +1176,8 @@ end
 
   
   
-    Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.
 
 
   
@@ -1148,7 +1195,8 @@ Returns:
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -1184,7 +1232,8 @@ end
       
   
   
-    Returns the original command-line arguments.
+    
+Returns the original command-line arguments.
 
 
   
@@ -1202,7 +1251,8 @@ Returns:
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -1235,7 +1285,8 @@ end
       
   
   
-    Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.
 
 
   
@@ -1253,7 +1304,8 @@ Returns:
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -1291,21 +1343,20 @@ end
       
   
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
 
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
@@ -1324,7 +1375,9 @@ external configuration options.
       
       
         —
-        the configuration instance to updatethe configuration instance to update
+        
+the configuration instance to updatethe configuration instance to update
+
 the configuration instance to update
 
       
@@ -1338,7 +1391,8 @@ the configuration instance to update
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -1355,7 +1409,8 @@ the configuration instance to update
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -1377,7 +1432,8 @@ the configuration instance to update
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -1483,8 +1539,8 @@ end
 
   
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
@@ -1503,7 +1559,8 @@ external configuration options.
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -1546,6 +1603,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Updates the provided  based on the filter options.Updates the provided FilterManager based on the filter options.
 
 
@@ -1553,6 +1611,7 @@ Updates the provided  based on the filter options.Updates the provided FilterMan
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Updates the provided FilterManager based on the filter options.
 
@@ -1563,6 +1622,7 @@ Updates the provided FilterManager based on the filter options.
     
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
+
 
 Updates the provided FilterManager based on the filter options.
 
@@ -1583,7 +1643,9 @@ Updates the provided FilterManager based on the filter options.
       
       
         —
-        instance to updateinstance to update
+        
+instance to updateinstance to update
+
 instance to update
 
       
@@ -1597,7 +1659,8 @@ instance to update
       
       
         —
-        instance to update
+        
+instance to update
 
       
     
@@ -1614,7 +1677,8 @@ instance to update
       
       
         —
-        instance to update
+        
+instance to update
 
       
     
@@ -1636,7 +1700,8 @@ instance to update
       
       
         —
-        instance to update
+        
+instance to update
 
       
     
@@ -1746,6 +1811,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Updates the provided FilterManager based on the filter options.
 
 
@@ -1765,7 +1831,8 @@ Updates the provided FilterManager based on the filter options.
       
       
         —
-        instance to update
+        
+instance to update
 
       
     
@@ -1805,8 +1872,8 @@ end
       
   
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
@@ -1825,7 +1892,8 @@ external configuration options.
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -1865,6 +1933,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Updates the provided FilterManager based on the filter options.
 
 
@@ -1884,7 +1953,8 @@ Updates the provided FilterManager based on the filter options.
       
       
         —
-        instance to update
+        
+instance to update
 
       
     
@@ -1961,10 +2031,8 @@ Class: RSpec::Core::ConfigurationOptions
 
 Overview
   
-    Responsible for utilizing externally provided configuration options,
-whether via the command line, .rspec, ~/.rspec,
-$XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options
-file.
+    
+Responsible for utilizing externally provided configuration options, whether via the command line, .rspec, ~/.rspec, $XDG_CONFIG_HOME/rspec/options, .rspec-local or a custom options file.
 
 
   
@@ -1995,7 +2063,8 @@ file.
   
 
   
-    The original command-line arguments.
+    
+The original command-line arguments.
 
   
 
@@ -2017,7 +2086,8 @@ file.
   
 
   
-    The final merged options, drawn from all external sources.
+    
+The final merged options, drawn from all external sources.
 
   
 
@@ -2047,7 +2117,8 @@ file.
   
 
   
-    Updates the provided Configuration instance based on the provided external configuration options.
+    
+Updates the provided Configuration instance based on the provided external configuration options.
 
   
 
@@ -2064,7 +2135,8 @@ file.
   private
 
   
-    Updates the provided FilterManager based on the filter options.
+    
+Updates the provided FilterManager based on the filter options.
 
   
 
@@ -2083,7 +2155,8 @@ file.
   
 
   
-    A new instance of ConfigurationOptions.
+    
+A new instance of ConfigurationOptions.
 
   
 
@@ -2098,7 +2171,8 @@ file.
     
   
   
-    Returns a new instance of ConfigurationOptions.
+    
+Returns a new instance of ConfigurationOptions.
 
 
   
@@ -2117,7 +2191,8 @@ file.
       
       
         —
-        command line arguments
+        
+command line arguments
 
       
     
@@ -2158,7 +2233,8 @@ end
       
   
   
-    Returns the original command-line arguments.
+    
+Returns the original command-line arguments.
 
 
   
@@ -2176,7 +2252,8 @@ Returns:
       
       
         —
-        the original command-line arguments
+        
+the original command-line arguments
 
       
     
@@ -2209,7 +2286,8 @@ end
       
   
   
-    Returns the final merged options, drawn from all external sources.
+    
+Returns the final merged options, drawn from all external sources.
 
 
   
@@ -2227,7 +2305,8 @@ Returns:
       
       
         —
-        the final merged options, drawn from all external sources
+        
+the final merged options, drawn from all external sources
 
       
     
@@ -2265,8 +2344,8 @@ end
       
   
   
-    Updates the provided RSpec::Core::Configuration instance based on the provided
-external configuration options.
+    
+Updates the provided RSpec::Core::Configuration instance based on the provided external configuration options.
 
 
   
@@ -2285,7 +2364,8 @@ external configuration options.
       
       
         —
-        the configuration instance to update
+        
+the configuration instance to update
 
       
     
@@ -2325,6 +2405,7 @@ end
   This method is part of a private API.
   You should avoid using this method if possible, as it may be removed or be changed in the future.
 
+
 Updates the provided FilterManager based on the filter options.
 
 
@@ -2344,7 +2425,8 @@ Updates the provided FilterManager based on the filter options.
       
       
         —
-        instance to update
+        
+instance to update
 
       
     

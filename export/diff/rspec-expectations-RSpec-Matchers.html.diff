@@ -1,0 +1,202 @@
+[1mdiff --git a/export/rspec-expectations-RSpec-Matchers.html.current b/export/rspec-expectations-RSpec-Matchers.html.new[m
+[1mindex 621642c..1c1c58d 100644[m
+[1m--- a/export/rspec-expectations-RSpec-Matchers.html.current[m
+[1m+++ b/export/rspec-expectations-RSpec-Matchers.html.new[m
+[36m@@ -423,9 +423,9 @@[m [mby including the method and the class in a module, which is then[m
+ included in your spec:.[m
+ [m
+ modulemodule CustomGameMatchersCustomGameMatchers[m
+[31m-  classclass BeInZoneBeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  classclass BeInZoneBeInZone    # ...[m
+ # ...[m
+[32m+[m
+   endend[m
+ [m
+   defdef be_in_zonebe_in_zone((expectedexpected))[m
+[36m@@ -435,13 +435,13 @@[m [mmodulemodule CustomGameMatchersCustomGameMatchers[m
+ endend[m
+ [m
+ describedescribe ""Player behaviourPlayer behaviour"""Player behaviour" dodo[m
+[31m-  includeinclude CustomGameMatchersCustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  includeinclude CustomGameMatchersCustomGameMatchers  # ...[m
+ # ...[m
+[32m+[m
+ endend[m
+ module CustomGameMatchers[m
+[31m-  class BeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  class BeInZone    # ...[m
+[32m+[m
+   end[m
+ [m
+   def be_in_zone(expected)[m
+[36m@@ -450,12 +450,12 @@[m [mmodule CustomGameMatchers[m
+ end[m
+ [m
+ describe "Player behaviour" do[m
+[31m-  include CustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  include CustomGameMatchers  # ...[m
+[32m+[m
+ end[m
+ module CustomGameMatchers[m
+[31m-  class BeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  class BeInZone    # ...[m
+[32m+[m
+   end[m
+ [m
+   def be_in_zone(expected)[m
+[36m@@ -464,8 +464,8 @@[m [mmodule CustomGameMatchers[m
+ end[m
+ [m
+ describe "Player behaviour" do[m
+[31m-  include CustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  include CustomGameMatchers  # ...[m
+[32m+[m
+ end[m
+ [m
+ [m
+[36m@@ -738,8 +738,8 @@[m [mby including the method and the class in a module, which is then[m
+ included in your spec:.[m
+ [m
+ module CustomGameMatchers[m
+[31m-  class BeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  class BeInZone    # ...[m
+[32m+[m
+   end[m
+ [m
+   def be_in_zone(expected)[m
+[36m@@ -748,8 +748,8 @@[m [mmodule CustomGameMatchers[m
+ end[m
+ [m
+ describe "Player behaviour" do[m
+[31m-  include CustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  include CustomGameMatchers  # ...[m
+[32m+[m
+ end[m
+ [m
+ [m
+[36m@@ -981,8 +981,8 @@[m [mby including the method and the class in a module, which is then[m
+ included in your spec:.[m
+ [m
+ module CustomGameMatchers[m
+[31m-  class BeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  class BeInZone    # ...[m
+[32m+[m
+   end[m
+ [m
+   def be_in_zone(expected)[m
+[36m@@ -991,8 +991,8 @@[m [mmodule CustomGameMatchers[m
+ end[m
+ [m
+ describe "Player behaviour" do[m
+[31m-  include CustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  include CustomGameMatchers  # ...[m
+[32m+[m
+ end[m
+ [m
+ [m
+[36m@@ -10219,21 +10219,21 @@[m [mthat splatted out as individual items.[m
+     Examples:Examples:[m
+     [m
+       [m
+[31m-      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))[m
+[31m-# is identical to:[m
+[31m-# is identical to:[m
+[31m-expectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[31m-expect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)[m
+[32m+[m[32m      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))# is identical to:[m
+ # is identical to:[m
+[32m+[m
+[32m+[m[32mexpectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+[32m+[m[32mexpect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m
+     Examples:[m
+     [m
+       [m
+[31m-      expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[32m+[m[32m      expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m
+[36m@@ -10256,8 +10256,8 @@[m [mexpect(results).to match_array([1, 2])[m
+     Examples:[m
+     [m
+       [m
+[31m-      expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[32m+[m[32m      expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m
+[36m@@ -10361,8 +10361,8 @@[m [mthat splatted out as individual items.[m
+     Examples:[m
+     [m
+       [m
+[31m-      expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[32m+[m[32m      expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m
+[36m@@ -14385,8 +14385,8 @@[m [mthat splatted out as individual items.[m
+     Examples:[m
+     [m
+       [m
+[31m-      expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[32m+[m[32m      expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m
+[36m@@ -15244,8 +15244,8 @@[m [mby including the method and the class in a module, which is then[m
+ included in your spec:.[m
+ [m
+ module CustomGameMatchers[m
+[31m-  class BeInZone[m
+[31m-    # ...[m
+[32m+[m[32m  class BeInZone    # ...[m
+[32m+[m
+   end[m
+ [m
+   def be_in_zone(expected)[m
+[36m@@ -15254,8 +15254,8 @@[m [mmodule CustomGameMatchers[m
+ end[m
+ [m
+ describe "Player behaviour" do[m
+[31m-  include CustomGameMatchers[m
+[31m-  # ...[m
+[32m+[m[32m  include CustomGameMatchers  # ...[m
+[32m+[m
+ end[m
+ [m
+ [m
+[36m@@ -17650,8 +17650,8 @@[m [mthat splatted out as individual items.[m
+     Examples:[m
+     [m
+       [m
+[31m-      expect(results).to contain_exactly(1, 2)[m
+[31m-# is identical to:[m
+[32m+[m[32m      expect(results).to contain_exactly(1, 2)# is identical to:[m
+[32m+[m
+ expect(results).to match_array([1, 2])[m
+     [m
+   [m

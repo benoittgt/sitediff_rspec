@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
-[1mindex bdb92f9..5b5bde9 100644[m
+[1mindex bdb92f9..183f779 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ViewPathBuilder.html.new[m
 [36m@@ -40,6 +40,24 @@[m [mClass: RSpec::Rails::ViewPathBuilder[m
@@ -39,3 +39,191 @@
    [m
    [m
      Inherits:[m
+[36m@@ -412,21 +457,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+     [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.Given a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+   [m
+     [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+   [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+   [m
+[36m@@ -440,24 +484,24 @@[m [mReturns nil if no path can be built from the given params.[m
+       # path can be built because all required params are present in the hash[m
+ # path can be built because all required params are present in the hash[m
+ view_path_builderview_path_builder == ViewPathBuilderViewPathBuilder..newnew((::::RailsRails..applicationapplication..routesroutes))[m
+[31m-view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''showshow'''show',, :id:id =>=> ''5454'''54' }}))[m
+[31m-# => "/post/54"# => "/post/54"# path can be built because all required params are present in the hash[m
+[32m+[m[32mview_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''showshow'''show',, :id:id =>=> ''5454'''54' }}))# => "/post/54"# => "/post/54"[m
+[32m+[m[32m# path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"# path can be built because all required params are present in the hash[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m[32m# path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+ # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''deletedelete'''delete' }}))[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''deletedelete'''delete' }}))# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32m# path cannot be built because the params are missing a required element (:id)[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32m# path cannot be built because the params are missing a required element (:id)[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+     Examples:[m
+[36m@@ -465,13 +509,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+       [m
+       # path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -484,13 +528,13 @@[m [mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+       [m
+       # path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -593,8 +637,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+[32m+[m[41m    [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+   [m
+[36m@@ -607,13 +651,13 @@[m [mReturns nil if no path can be built from the given params.[m
+       [m
+       # path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -650,8 +694,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+[32m+[m[41m    [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+   [m
+[36m@@ -664,13 +708,13 @@[m [mReturns nil if no path can be built from the given params.[m
+       [m
+       # path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+ [m
+[36m@@ -847,8 +899,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Given a hash of parameters, build a view path, if possible.[m
+[31m-Returns nil if no path can be built from the given params.[m
+[32m+[m[41m    [m
+[32m+[m[32mGiven a hash of parameters, build a view path, if possible. Returns nil if no path can be built from the given params.[m
+ [m
+ [m
+   [m
+[36m@@ -861,13 +913,13 @@[m [mReturns nil if no path can be built from the given params.[m
+       [m
+       # path can be built because all required params are present in the hash[m
+ view_path_builder = ViewPathBuilder.new(::Rails.application.routes)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })[m
+[31m-# => "/post/54"[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"[m
+[32m+[m
+     [m
+       [m
+       # path cannot be built because the params are missing a required element (:id)[m
+[31m-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })[m
+[31m-# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m[32mview_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}[m
+[32m+[m
+     [m
+   [m
+ [m

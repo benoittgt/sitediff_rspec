@@ -1,0 +1,609 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Formatters.html.current b/export/rspec-core-RSpec-Core-Formatters.html.new[m
+[1mindex 594e9b4..616a10b 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Formatters.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Formatters.html.new[m
+[36m@@ -52,394 +52,14 @@[m [mlib/rspec/core/formatters.rb[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Built-in FormattersBuilt-in Formatters[m
+     [m
+ [m
+[31m-progress (default) - Prints dots for passing examples, FF for failures, **[m
+[31m-                   for pending.progress (default) - Prints dots for passing examples, F for failures, *[m
+[31m-                   for pending.[m
+[31m-documentation - Prints the docstrings passed to describedescribe and itit methods[m
+[31m-              (and their aliases).documentation - Prints the docstrings passed to describe and it methods[m
+[31m-              (and their aliases).[m
+[31m-htmlhtml[m
+[31m-json - Useful for archiving data for subsequent analysis.json - Useful for archiving data for subsequent analysis.[m
+   [m
+[31m-progress (default) - Prints dots for passing examples, F for failures, *[m
+[31m-                   for pending.[m
+[31m-documentation - Prints the docstrings passed to describe and it methods[m
+[31m-              (and their aliases).[m
+[31m-html[m
+[31m-json - Useful for archiving data for subsequent analysis.[m
+     [m
+ [m
+[31m-The progress formatter is the default, but you can choose any one or more of[m
+[31m-the other formatters by passing with the --format--format (or -f-f for short)[m
+[31m-command-line option, e.g.The progress formatter is the default, but you can choose any one or more of[m
+[31m-the other formatters by passing with the --format (or -f for short)[m
+[31m-command-line option, e.g.[m
+   [m
+[31m-rspec --format documentation[m
+[31m-rspec --format documentation[m
+[31m-rspec --format documentation[m
+ [m
+   [m
+[31m-You can also send the output of multiple formatters to different streams, e.g.You can also send the output of multiple formatters to different streams, e.g.[m
+[31m-[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-[m
+[31m-[m
+[31m-This example sends the output of the documentation formatter to $stdout$stdout, and[m
+[31m-the output of the html formatter to results.html.This example sends the output of the documentation formatter to $stdout, and[m
+[31m-the output of the html formatter to results.html.[m
+[31m-[m
+[31m-Custom FormattersCustom Formatters[m
+[31m-[m
+[31m-You can tell RSpec to use a custom formatter by passing its path and name to[m
+[31m-the rspec command. For example, if you define MyCustomFormatter in[m
+[31m-path/to/my_custom_formatter.rb, you would type this command:.You can tell RSpec to use a custom formatter by passing its path and name to[m
+[31m-the rspec command. For example, if you define MyCustomFormatter in[m
+[31m-path/to/my_custom_formatter.rb, you would type this command:.[m
+[31m-[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-[m
+[31m-[m
+[31m-The reporter calls every formatter with this protocol:.The reporter calls every formatter with this protocol:.[m
+[31m-[m
+[31m-[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)start(StartNotification)start(StartNotification)[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)example_group_started(GroupNotification)example_group_started(GroupNotification)[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)example_started(ExampleNotification)example_started(ExampleNotification)[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)example_passed(ExampleNotification)example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)example_failed(FailedExampleNotification)example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)example_pending(ExampleNotification)example_pending(ExampleNotification)[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)message(MessageNotification)message(MessageNotification)[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)stop(ExamplesNotification)stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)start_dump(NullNotification)start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)dump_pending(ExamplesNotification)dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)dump_failures(ExamplesNotification)dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)dump_summary(SummaryNotification)dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)seed(SeedNotification)seed(SeedNotification)[m
+[31m-close(NullNotification)close(NullNotification)close(NullNotification)[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-[m
+[31m-[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Only the notifications to which you subscribe your formatter will be called[m
+[31m-on your formatter. To subscribe your formatter use:[m
+[31m-RSpec::Core::Formatters#registerRSpec::Core::Formatters#register e.g.Only the notifications to which you subscribe your formatter will be called[m
+[31m-on your formatter. To subscribe your formatter use:[m
+[31m-RSpec::Core::Formatters#register e.g.[m
+[31m-[m
+[31m-RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.[m
+[31m-[m
+[31m-We recommend you implement the methods yourself; for simplicity we provide the[m
+[31m-default formatter output via our notification objects but if you prefer you[m
+[31m-can subclass RSpec::Core::Formatters::BaseTextFormatterRSpec::Core::Formatters::BaseTextFormatter and override the[m
+[31m-methods you wish to enhance.We recommend you implement the methods yourself; for simplicity we provide the[m
+[31m-default formatter output via our notification objects but if you prefer you[m
+[31m-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the[m
+[31m-methods you wish to enhance.[m
+[31m-[m
+[31m-[m
+[31m-  [m
+[31m-    Built-in Formatters[m
+[31m-[m
+[31m-[m
+[31m-progress (default) - Prints dots for passing examples, F for failures, *[m
+[31m-                   for pending.[m
+[31m-documentation - Prints the docstrings passed to describe and it methods[m
+[31m-              (and their aliases).[m
+[31m-html[m
+[31m-json - Useful for archiving data for subsequent analysis.[m
+[31m-[m
+[31m-[m
+[31m-The progress formatter is the default, but you can choose any one or more of[m
+[31m-the other formatters by passing with the --format (or -f for short)[m
+[31m-command-line option, e.g.[m
+[31m-[m
+[31m-rspec --format documentation[m
+[31m-[m
+[31m-[m
+[31m-You can also send the output of multiple formatters to different streams, e.g.[m
+[31m-[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-[m
+[31m-[m
+[31m-This example sends the output of the documentation formatter to $stdout, and[m
+[31m-the output of the html formatter to results.html.[m
+[31m-[m
+[31m-Custom Formatters[m
+[31m-[m
+[31m-You can tell RSpec to use a custom formatter by passing its path and name to[m
+[31m-the rspec command. For example, if you define MyCustomFormatter in[m
+[31m-path/to/my_custom_formatter.rb, you would type this command:.[m
+[31m-[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-[m
+[31m-[m
+[31m-The reporter calls every formatter with this protocol:.[m
+[31m-[m
+[31m-[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Only the notifications to which you subscribe your formatter will be called[m
+[31m-on your formatter. To subscribe your formatter use:[m
+[31m-RSpec::Core::Formatters#register e.g.[m
+[31m-[m
+[31m-RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.[m
+[31m-[m
+[31m-We recommend you implement the methods yourself; for simplicity we provide the[m
+[31m-default formatter output via our notification objects but if you prefer you[m
+[31m-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the[m
+[31m-methods you wish to enhance.[m
+[31m-[m
+[31m-[m
+[31m-  [m
+[31m-[m
+[31m-  [m
+[31m-    Built-in Formatters[m
+[31m-[m
+[31m-[m
+[31m-progress (default) - Prints dots for passing examples, F for failures, *[m
+[31m-                   for pending.[m
+[31m-documentation - Prints the docstrings passed to describe and it methods[m
+[31m-              (and their aliases).[m
+[31m-html[m
+[31m-json - Useful for archiving data for subsequent analysis.[m
+[31m-[m
+[31m-[m
+[31m-The progress formatter is the default, but you can choose any one or more of[m
+[31m-the other formatters by passing with the --format (or -f for short)[m
+[31m-command-line option, e.g.[m
+[31m-[m
+[31m-rspec --format documentation[m
+[31m-[m
+[31m-[m
+[31m-You can also send the output of multiple formatters to different streams, e.g.[m
+[31m-[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-[m
+[31m-[m
+[31m-This example sends the output of the documentation formatter to $stdout, and[m
+[31m-the output of the html formatter to results.html.[m
+[31m-[m
+[31m-Custom Formatters[m
+[31m-[m
+[31m-You can tell RSpec to use a custom formatter by passing its path and name to[m
+[31m-the rspec command. For example, if you define MyCustomFormatter in[m
+[31m-path/to/my_custom_formatter.rb, you would type this command:.[m
+[31m-[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-[m
+[31m-[m
+[31m-The reporter calls every formatter with this protocol:.[m
+[31m-[m
+[31m-[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Only the notifications to which you subscribe your formatter will be called[m
+[31m-on your formatter. To subscribe your formatter use:[m
+[31m-RSpec::Core::Formatters#register e.g.[m
+[31m-[m
+[31m-RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.[m
+[31m-[m
+[31m-We recommend you implement the methods yourself; for simplicity we provide the[m
+[31m-default formatter output via our notification objects but if you prefer you[m
+[31m-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the[m
+[31m-methods you wish to enhance.[m
+     [m
+ [m
+   [m
+[36m@@ -450,14 +70,10 @@[m [mmethods you wish to enhance.[m
+   See Also:See Also:[m
+   [m
+     [m
+[31m-      BaseTextFormatterBaseTextFormatter[m
+[31m-    [m
+       ReporterReporter[m
+     [m
+   [m
+     [m
+[31m-      BaseTextFormatter[m
+[31m-    [m
+       Reporter[m
+     [m
+   [m
+[36m@@ -468,8 +84,6 @@[m [mmethods you wish to enhance.[m
+   See Also:[m
+   [m
+     [m
+[31m-      BaseTextFormatter[m
+[31m-    [m
+       Reporter[m
+     [m
+   [m
+[36m@@ -636,11 +261,10 @@[m [mformatter class to register[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatterone or more notifications to be[m
+[31m-registered to the specified formatter[m
+[31m-one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatterone or more notifications to be registered to the specified formatter[m
+[32m+[m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -653,8 +277,8 @@[m [mregistered to the specified formatter[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -686,8 +311,8 @@[m [mregistered to the specified formatter[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -735,8 +361,8 @@[m [mregistered to the specified formatter[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -863,8 +491,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -941,8 +571,8 @@[m [mend[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m
+[36m@@ -1007,94 +637,6 @@[m [mModule: RSpec::Core::Formatters[m
+ [m
+ Overview[m
+   [m
+[31m-    Built-in Formatters[m
+[31m-[m
+[31m-[m
+[31m-progress (default) - Prints dots for passing examples, F for failures, *[m
+[31m-                   for pending.[m
+[31m-documentation - Prints the docstrings passed to describe and it methods[m
+[31m-              (and their aliases).[m
+[31m-html[m
+[31m-json - Useful for archiving data for subsequent analysis.[m
+[31m-[m
+[31m-[m
+[31m-The progress formatter is the default, but you can choose any one or more of[m
+[31m-the other formatters by passing with the --format (or -f for short)[m
+[31m-command-line option, e.g.[m
+[31m-[m
+[31m-rspec --format documentation[m
+[31m-[m
+[31m-[m
+[31m-You can also send the output of multiple formatters to different streams, e.g.[m
+[31m-[m
+[31m-rspec --format documentation --format html --out results.html[m
+[31m-[m
+[31m-[m
+[31m-This example sends the output of the documentation formatter to $stdout, and[m
+[31m-the output of the html formatter to results.html.[m
+[31m-[m
+[31m-Custom Formatters[m
+[31m-[m
+[31m-You can tell RSpec to use a custom formatter by passing its path and name to[m
+[31m-the rspec command. For example, if you define MyCustomFormatter in[m
+[31m-path/to/my_custom_formatter.rb, you would type this command:.[m
+[31m-[m
+[31m-rspec --require path/to/my_custom_formatter.rb --format MyCustomFormatter[m
+[31m-[m
+[31m-[m
+[31m-The reporter calls every formatter with this protocol:.[m
+[31m-[m
+[31m-[m
+[31m-To start[m
+[31m-[m
+[31m-[m
+[31m-start(StartNotification)[m
+[31m-[m
+[31m-Once per example group[m
+[31m-[m
+[31m-[m
+[31m-example_group_started(GroupNotification)[m
+[31m-[m
+[31m-Once per example[m
+[31m-[m
+[31m-[m
+[31m-example_started(ExampleNotification)[m
+[31m-[m
+[31m-One of these per example, depending on outcome[m
+[31m-[m
+[31m-[m
+[31m-example_passed(ExampleNotification)[m
+[31m-example_failed(FailedExampleNotification)[m
+[31m-example_pending(ExampleNotification)[m
+[31m-[m
+[31m-Optionally at any time[m
+[31m-[m
+[31m-[m
+[31m-message(MessageNotification)[m
+[31m-[m
+[31m-At the end of the suite[m
+[31m-[m
+[31m-[m
+[31m-stop(ExamplesNotification)[m
+[31m-start_dump(NullNotification)[m
+[31m-dump_pending(ExamplesNotification)[m
+[31m-dump_failures(ExamplesNotification)[m
+[31m-dump_summary(SummaryNotification)[m
+[31m-seed(SeedNotification)[m
+[31m-close(NullNotification)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Only the notifications to which you subscribe your formatter will be called[m
+[31m-on your formatter. To subscribe your formatter use:[m
+[31m-RSpec::Core::Formatters#register e.g.[m
+[31m-[m
+[31m-RSpec::Core::Formatters.register FormatterClassName, :example_passed, :example_failed.[m
+[31m-[m
+[31m-We recommend you implement the methods yourself; for simplicity we provide the[m
+[31m-default formatter output via our notification objects but if you prefer you[m
+[31m-can subclass RSpec::Core::Formatters::BaseTextFormatter and override the[m
+[31m-methods you wish to enhance.[m
+     [m
+ [m
+   [m
+[36m@@ -1105,8 +647,6 @@[m [mmethods you wish to enhance.[m
+   See Also:[m
+   [m
+     [m
+[31m-      BaseTextFormatter[m
+[31m-    [m
+       Reporter[m
+     [m
+   [m
+[36m@@ -1201,8 +744,8 @@[m [mDefined Under Namespace[m
+       [m
+       [m
+         —[m
+[31m-        one or more notifications to be[m
+[31m-registered to the specified formatter[m
+[32m+[m[41m        [m
+[32m+[m[32mone or more notifications to be registered to the specified formatter[m
+ [m
+       [m
+     [m

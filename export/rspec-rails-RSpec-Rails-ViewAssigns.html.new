@@ -61,17 +61,20 @@ Module: RSpec::Rails::ViewAssigns
 
 OverviewOverview
   
-    Helpers for making instance variables available to views.Helpers for making instance variables available to views.
+    
+Helpers for making instance variables available to views.Helpers for making instance variables available to views.
 
 
   
-    Helpers for making instance variables available to views.
+    
+Helpers for making instance variables available to views.
 
 
   
 
   
-    Helpers for making instance variables available to views.
+    
+Helpers for making instance variables available to views.
 
 
   
@@ -111,8 +114,11 @@ OverviewOverview
   
 
   
-    Assigns a value to an instance variable in the scope of the view being rendered.Assigns a value to an instance variable in the scope of the view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.Assigns a value to an instance variable in the scope of the view being rendered.
+
 Assigns a value to an instance variable in the scope of the view being rendered.
+
 Assigns a value to an instance variable in the scope of the view being rendered.
 
   
@@ -127,7 +133,8 @@ Assigns a value to an instance variable in the scope of the view being rendered.
   
 
   
-    Assigns a value to an instance variable in the scope of the view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
   
 
@@ -144,8 +151,11 @@ Assigns a value to an instance variable in the scope of the view being rendered.
   
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.Compat-shim for AbstractController::Rendering#view_assigns.
+
 Compat-shim for AbstractController::Rendering#view_assigns.
+
 Compat-shim for AbstractController::Rendering#view_assigns.
 
   
@@ -160,7 +170,8 @@ Compat-shim for AbstractController::Rendering#view_assigns.
   
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
   
 
@@ -179,7 +190,8 @@ Compat-shim for AbstractController::Rendering#view_assigns.
   
 
   
-    Assigns a value to an instance variable in the scope of the view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
   
 
@@ -196,7 +208,8 @@ Compat-shim for AbstractController::Rendering#view_assigns.
   
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
   
 
@@ -214,21 +227,20 @@ Compat-shim for AbstractController::Rendering#view_assigns.
       
   
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
 
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
@@ -344,8 +356,8 @@ end
 
   
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
@@ -386,57 +398,32 @@ end
       
   
   
-    Compat-shim for AbstractController::Rendering#view_assigns.Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with._assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change isis released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change isis released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   
@@ -545,18 +532,12 @@ end
 
   
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   
@@ -596,8 +577,8 @@ end
       
   
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
@@ -638,18 +619,12 @@ end
       
   
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   
@@ -715,7 +690,8 @@ Module: RSpec::Rails::ViewAssigns
 
 Overview
   
-    Helpers for making instance variables available to views.
+    
+Helpers for making instance variables available to views.
 
 
   
@@ -749,7 +725,8 @@ Overview
   
 
   
-    Assigns a value to an instance variable in the scope of the view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
   
 
@@ -766,7 +743,8 @@ Overview
   
 
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
   
 
@@ -784,8 +762,8 @@ Overview
       
   
   
-    Assigns a value to an instance variable in the scope of the
-view being rendered.
+    
+Assigns a value to an instance variable in the scope of the view being rendered.
 
 
   
@@ -826,18 +804,12 @@ end
       
   
   
-    Compat-shim for AbstractController::Rendering#view_assigns.
+    
+Compat-shim for AbstractController::Rendering#view_assigns.
 
-_assigns was deprecated in favor of view_assigns after
-Rails-3.0.0 was released. Since we are not able to predict when
-the _assigns/view_assigns patch will be released (I thought it
-would have been in 3.0.1, but 3.0.1 bypassed this change for a
-security fix), this bit ensures that we do the right thing without
-knowing anything about the Rails version we are dealing with.
+assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.
 
-Once that change is released, this can be changed to something
-that checks for the Rails version when the module is being
-interpreted, as it was before commit dd0095.
+Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.
 
 
   

@@ -1,0 +1,186 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.current b/export/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.new[m
+[1mindex 79fc287..c50112e 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Notifications-SkippedExampleNotification.html.new[m
+[36m@@ -130,21 +130,20 @@[m [mClass: RSpec::Core::Notifications::SkippedExampleNotification[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    The SkippedExampleNotificationSkippedExampleNotification extends ExampleNotificationExampleNotification with[m
+[31m-things useful for specs that are skipped.The SkippedExampleNotification extends ExampleNotification with[m
+[31m-things useful for specs that are skipped.[m
+     [m
+[32m+[m[32mThe SkippedExampleNotificationSkippedExampleNotification extends ExampleNotificationExampleNotification with things useful for specs that are skipped.The SkippedExampleNotification extends ExampleNotification with things useful for specs that are skipped.[m
+ [m
+ [m
+[31m-    The SkippedExampleNotification extends ExampleNotification with[m
+[31m-things useful for specs that are skipped.[m
+   [m
+     [m
+[32m+[m[32mThe SkippedExampleNotification extends ExampleNotification with things useful for specs that are skipped.[m
+ [m
+ [m
+   [m
+[31m-    The SkippedExampleNotification extends ExampleNotification with[m
+[31m-things useful for specs that are skipped.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mThe SkippedExampleNotification extends ExampleNotification with things useful for specs that are skipped.[m
+ [m
+ [m
+   [m
+[36m@@ -598,21 +619,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.Returns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+     [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+ [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -630,11 +650,10 @@[m [mReturns:Returns:[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[31m-The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+[32m+[m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -645,8 +664,8 @@[m [mRSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -661,8 +680,8 @@[m [mRSpec's built-in formatters emit.[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -682,8 +701,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -848,8 +867,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -867,8 +886,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -919,8 +938,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -938,8 +957,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m
+[36m@@ -1031,8 +1050,8 @@[m [mClass: RSpec::Core::Notifications::SkippedExampleNotification[m
+ [m
+ Overview[m
+   [m
+[31m-    The SkippedExampleNotification extends ExampleNotification with[m
+[31m-things useful for specs that are skipped.[m
+[32m+[m[41m    [m
+[32m+[m[32mThe SkippedExampleNotification extends ExampleNotification with things useful for specs that are skipped.[m
+ [m
+ [m
+   [m
+[36m@@ -1179,8 +1202,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Returns The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m    [m
+[32m+[m[32mReturns The pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+ [m
+   [m
+[36m@@ -1198,8 +1221,8 @@[m [mReturns:[m
+       [m
+       [m
+         —[m
+[31m-        The pending detail fully formatted in the way that[m
+[31m-RSpec's built-in formatters emit.[m
+[32m+[m[41m        [m
+[32m+[m[32mThe pending detail fully formatted in the way that RSpec's built-in formatters emit.[m
+ [m
+       [m
+     [m

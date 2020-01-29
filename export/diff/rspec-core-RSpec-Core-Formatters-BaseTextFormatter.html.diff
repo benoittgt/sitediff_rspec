@@ -1,0 +1,259 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.current b/export/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.new[m
+[1mindex cc2b989..7014371 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.new[m
+[36m@@ -120,25 +120,20 @@[m [mClass: RSpec::Core::Formatters::BaseTextFormatter[m
+ [m
+ OverviewOverview[m
+   [m
+[31m-    Base for all of RSpec's built-in formatters. See[m
+[31m-RSpec::Core::Formatters::BaseFormatter to learn more about all of the[m
+[31m-methods called by the reporter.Base for all of RSpec's built-in formatters. See[m
+[31m-RSpec::Core::Formatters::BaseFormatter to learn more about all of the[m
+[31m-methods called by the reporter.[m
+     [m
+[32m+[m[32mBase for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.[m
+ [m
+ [m
+[31m-    Base for all of RSpec's built-in formatters. See[m
+[31m-RSpec::Core::Formatters::BaseFormatter to learn more about all of the[m
+[31m-methods called by the reporter.[m
+   [m
+     [m
+[32m+[m[32mBase for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.[m
+ [m
+ [m
+   [m
+[31m-    Base for all of RSpec's built-in formatters. See[m
+[31m-RSpec::Core::Formatters::BaseFormatter to learn more about all of the[m
+[31m-methods called by the reporter.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mBase for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.[m
+ [m
+ [m
+   [m
+[36m@@ -432,25 +447,20 @@[m [mUsed by the reporter to send messages to the output stream.[m
+       [m
+   [m
+   [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+[32m+[m[41m    [m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+[32m+[m
+[32m+[m
+   [m
+     [m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+ [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+ [m
+   [m
+ [m
+   [m
+     [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+ [m
+ [m
+   [m
+[36m@@ -648,9 +663,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+[32m+[m[41m    [m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+ [m
+ [m
+   [m
+[36m@@ -919,21 +938,20 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+     [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+ [m
+ [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+   [m
+     [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+[32m+[m
+ [m
+   [m
+ [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+[32m+[m[41m  [m
+[32m+[m[41m    [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -952,11 +970,10 @@[m [mEach parameter is assigned to a corresponding attribute.[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_countcontaining duration,[m
+[31m-example_count, failure_count and pending_count[m
+[31m-containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_countcontaining duration, example_count, failure_count and pending_count[m
+[32m+[m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -969,8 +986,8 @@[m [mexample_count, failure_count and pending_count[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -987,8 +1004,8 @@[m [mexample_count, failure_count and pending_count[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -1010,8 +1027,8 @@[m [mexample_count, failure_count and pending_count[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -1097,8 +1114,8 @@[m [mend[m
+ [m
+   [m
+   [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1117,8 +1134,8 @@[m [mEach parameter is assigned to a corresponding attribute.[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -1373,9 +1400,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+[32m+[m[41m    [m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+ [m
+ [m
+   [m
+[36m@@ -1483,8 +1511,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1503,8 +1531,8 @@[m [mEach parameter is assigned to a corresponding attribute.[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
+[36m@@ -1630,9 +1660,8 @@[m [mClass: RSpec::Core::Formatters::BaseTextFormatter[m
+ [m
+ Overview[m
+   [m
+[31m-    Base for all of RSpec's built-in formatters. See[m
+[31m-RSpec::Core::Formatters::BaseFormatter to learn more about all of the[m
+[31m-methods called by the reporter.[m
+[32m+[m[41m    [m
+[32m+[m[32mBase for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.[m
+ [m
+ [m
+   [m
+[36m@@ -1766,9 +1799,8 @@[m [mmethods called by the reporter.[m
+       [m
+   [m
+   [m
+[31m-    Invoked at the end of a suite run. Allows the formatter to do any[m
+[31m-tidying up, but be aware that formatter output streams may be used[m
+[31m-elsewhere so don't actually close them.[m
+[32m+[m[41m    [m
+[32m+[m[32mInvoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.[m
+ [m
+ [m
+   [m
+[36m@@ -1876,8 +1910,8 @@[m [mend[m
+       [m
+   [m
+   [m
+[31m-    This method is invoked after the dumping of examples and failures.[m
+[31m-Each parameter is assigned to a corresponding attribute.[m
+[32m+[m[41m    [m
+[32m+[m[32mThis method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.[m
+ [m
+ [m
+   [m
+[36m@@ -1896,8 +1930,8 @@[m [mEach parameter is assigned to a corresponding attribute.[m
+       [m
+       [m
+         —[m
+[31m-        containing duration,[m
+[31m-example_count, failure_count and pending_count[m
+[32m+[m[41m        [m
+[32m+[m[32mcontaining duration, example_count, failure_count and pending_count[m
+ [m
+       [m
+     [m
