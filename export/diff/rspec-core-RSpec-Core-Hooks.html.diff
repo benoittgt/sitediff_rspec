@@ -1,8 +1,8 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Hooks.html.current b/export/rspec-core-RSpec-Core-Hooks.html.new[m
-[1mindex 86175ff..e528040 100644[m
+[1mindex 86175ff..3d4ccea 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Hooks.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Hooks.html.new[m
-[36m@@ -1710,19 +1801,19 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -1710,19 +1710,19 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  aroundaround((:example:example)) dodo ||exex||[m
    # Do some stuff before.[m
  # Do some stuff before.[m
@@ -28,7 +28,7 @@
  end[m
  [m
  [m
-[36m@@ -1761,8 +1855,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -1761,8 +1761,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  [m
  around(:example) do |ex|[m
    # Do some stuff before.[m
@@ -39,7 +39,7 @@
  end[m
  [m
  [m
-[36m@@ -1799,8 +1896,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -1799,8 +1799,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  [m
  around(:example) do |ex|[m
    # Do some stuff before.[m
@@ -50,7 +50,7 @@
  end[m
  [m
  [m
-[36m@@ -2682,8 +2819,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -2682,8 +2682,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  [m
  around(:example) do |ex|[m
    # Do some stuff before.[m
@@ -61,82 +61,7 @@
  end[m
  [m
  [m
-[36m@@ -3030,14 +3179,23 @@[m [mUnsupported RSpec constructsUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.let declarations.[m
-[32m+[m
-[32m+[m[32mlet declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.subject declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.[m
-[32m+[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.Any mocking, stubbing or test double declaration.[m
-[32m+[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
-[31m-letlet declarationslet declarations[m
-[31m-subjectsubject declarationssubject declarations[m
-[31m-Any mocking, stubbing or test double declarationAny mocking, stubbing or test double declaration[m
-[32m+[m[32mlet declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32msubject declarations.[m
-[32m+[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworksother frameworks[m
-[36m@@ -3137,10 +3298,11 @@[m [mUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworks[m
-[36m@@ -3242,10 +3407,11 @@[m [mUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworks[m
-[36m@@ -4363,10 +4572,11 @@[m [mUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32msubject declarations.[m
-[32m+[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworks[m
-[36m@@ -4986,8 +5217,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -4986,8 +4986,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  [m
  around(:example) do |ex|[m
    # Do some stuff before.[m
@@ -147,22 +72,7 @@
  end[m
  [m
  [m
-[36m@@ -5262,10 +5501,11 @@[m [mUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworks[m
-[36m@@ -5926,8 +6190,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
+[36m@@ -5926,8 +5926,8 @@[m [mDeclare a block of code, parts of which will be run before and parts after the e[m
  [m
  around(:example) do |ex|[m
    # Do some stuff before.[m
@@ -173,18 +83,3 @@
  end[m
  [m
  [m
-[36m@@ -6202,10 +6474,11 @@[m [mUnsupported RSpec constructs[m
- [m
- RSpec has several constructs that reset state between each example automatically. These are not intended for use from within before(:context):.[m
- [m
-[32m+[m[32mlet declarations.[m
-[32m+[m
-[32m+[m[32msubject declarations.[m
- [m
-[31m-let declarations[m
-[31m-subject declarations[m
-[31m-Any mocking, stubbing or test double declaration[m
-[32m+[m[32mAny mocking, stubbing or test double declaration.[m
- [m
- [m
- other frameworks[m

@@ -48,8 +48,7 @@ Module: RSpec::Core::DSL
 
 OverviewOverview
   
-    
-DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
+    DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
 By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
@@ -81,8 +80,7 @@ end
 
 
   
-    
-DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
+    DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
 By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
@@ -101,8 +99,7 @@ end
   
 
   
-    
-DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
+    DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
 By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
@@ -179,11 +176,8 @@ end
   privateprivate
 
   
-    
-Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
-
+    Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
 Adds the describe method to Module and the top level binding.
-
 Adds the describe method to Module and the top level binding.
 
   
@@ -198,8 +192,7 @@ Adds the describe method to Module and the top level binding.
   private
 
   
-    
-Adds the describe method to Module and the top level binding.
+    Adds the describe method to Module and the top level binding.
 
   
 
@@ -216,11 +209,8 @@ Adds the describe method to Module and the top level binding.
   privateprivate
 
   
-    
-Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
-
+    Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
 Removes the describe method from Module and the top level binding.
-
 Removes the describe method from Module and the top level binding.
 
   
@@ -235,8 +225,7 @@ Removes the describe method from Module and the top level binding.
   private
 
   
-    
-Removes the describe method from Module and the top level binding.
+    Removes the describe method from Module and the top level binding.
 
   
 
@@ -255,8 +244,7 @@ Removes the describe method from Module and the top level binding.
   private
 
   
-    
-Adds the describe method to Module and the top level binding.
+    Adds the describe method to Module and the top level binding.
 
   
 
@@ -273,8 +261,7 @@ Adds the describe method to Module and the top level binding.
   private
 
   
-    
-Removes the describe method from Module and the top level binding.
+    Removes the describe method from Module and the top level binding.
 
   
 
@@ -293,13 +280,11 @@ Removes the describe method from Module and the top level binding.
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.Adds the describe method to Module and the top level binding.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.
 
 
@@ -307,7 +292,6 @@ Adds the describe method to Module and the top level binding.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.
 
 
@@ -458,7 +442,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.
 
 
@@ -504,13 +487,11 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.Removes the describe method from Module and the top level binding.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.
 
 
@@ -518,7 +499,6 @@ Removes the describe method from Module and the top level binding.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.
 
 
@@ -669,7 +649,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.
 
 
@@ -719,7 +698,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.
 
 
@@ -765,7 +743,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.
 
 
@@ -835,8 +812,7 @@ Module: RSpec::Core::DSL
 
 Overview
   
-    
-DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
+    DSL defines methods to group examples, most notably describe, and exposes them as class methods of RSpec. They can also be exposed globally (on main and instances of Module) through the Configuration option expose_dsl_globally.
 
 By default the methods describe, context and example_group are exposed. These methods define a named context for one or more examples. The given block is evaluated in the context of a generated subclass of ExampleGroup.
 
@@ -892,8 +868,7 @@ end
   private
 
   
-    
-Adds the describe method to Module and the top level binding.
+    Adds the describe method to Module and the top level binding.
 
   
 
@@ -910,8 +885,7 @@ Adds the describe method to Module and the top level binding.
   private
 
   
-    
-Removes the describe method from Module and the top level binding.
+    Removes the describe method from Module and the top level binding.
 
   
 
@@ -930,7 +904,6 @@ Removes the describe method from Module and the top level binding.
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Adds the describe method to Module and the top level binding.
 
 
@@ -976,7 +949,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Removes the describe method from Module and the top level binding.
 
 

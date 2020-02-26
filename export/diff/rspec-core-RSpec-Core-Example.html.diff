@@ -1,88 +1,8 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Example.html.current b/export/rspec-core-RSpec-Core-Example.html.new[m
-[1mindex fa3f612..7d8a7a3 100644[m
+[1mindex fa3f612..f245ed4 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Example.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Example.html.new[m
-[36m@@ -996,9 +1071,12 @@[m [mFlag that indicates that the example is not expected to pass.[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.Use #location_rerun_argument instead.[m
-[32m+[m
-[32m+[m[32mUse #location_rerun_argument instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use #location_rerun_argument instead.[m
-[31m-Deprecated. Use #location_rerun_argument instead.[m
- [m
-   [m
- [m
-[36m@@ -1012,7 +1090,8 @@[m [mDeprecated. Use #location_rerun_argument instead.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
-   [m
- [m
-[36m@@ -1320,7 +1420,8 @@[m [mFlag that will cause the example to not run.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
-   [m
- [m
-[36m@@ -5378,9 +5632,12 @@[m [mdelegate_to_metadata :pending[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. Use #location_rerun_argument instead.Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.Use #location_rerun_argument instead.[m
-[32m+[m
-[32m+[m[32mUse #location_rerun_argument instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use #location_rerun_argument instead.[m
-[31m-Deprecated. Use #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -5398,7 +5659,8 @@[m [mReturns the location-based argument that can be passed to the rspec command to r[m
- [m
- [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -5413,7 +5677,8 @@[m [mReturns the location-based argument that can be passed to the rspec command to r[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -5511,7 +5778,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -5836,8 +6114,7 @@[m [mdefdef runrun((example_group_instanceexample_group_instance,, reporterreporter))[m
+[36m@@ -5836,8 +5836,7 @@[m [mdefdef runrun((example_group_instanceexample_group_instance,, reporterreporter))[m
                    ''Expected example to fail since it is pending, but it passed.Expected example to fail since it is pending, but it passed.'''Expected example to fail since it is pending, but it passed.',,[m
                    [[locationlocation]][m
            endend[m
@@ -92,7 +12,7 @@
  # The "=> _" is normally useless but on JRuby it is a workaround[m
            # for a bug that prevents us from getting backtraces:[m
  # for a bug that prevents us from getting backtraces:[m
-[36m@@ -5894,8 +6172,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -5894,8 +5894,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -102,7 +22,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -5947,8 +6225,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -5947,8 +5947,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -112,7 +32,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -6057,8 +6335,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -6057,8 +6057,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -122,7 +42,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -6169,8 +6447,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -6169,8 +6169,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -132,7 +52,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -6313,8 +6593,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -6313,8 +6313,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -142,17 +62,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -7093,7 +7403,8 @@[m [mdelegate_to_metadata :pending[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -7247,8 +7562,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -7247,8 +7247,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m
@@ -162,27 +72,7 @@
            # for a bug that prevents us from getting backtraces:[m
            # https://github.com/jruby/jruby/issues/4467[m
            #[m
-[36m@@ -7751,7 +8086,8 @@[m [mDefined Under Namespace[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
-   [m
- [m
-[36m@@ -8646,7 +9013,8 @@[m [mdelegate_to_metadata :pending[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use #location_rerun_argument instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #location_rerun_argument instead.[m
- [m
- [m
-   [m
-[36m@@ -8800,8 +9172,7 @@[m [mdef run(example_group_instance, reporter)[m
+[36m@@ -8800,8 +8800,7 @@[m [mdef run(example_group_instance, reporter)[m
                    'Expected example to fail since it is pending, but it passed.',[m
                    [location][m
            end[m

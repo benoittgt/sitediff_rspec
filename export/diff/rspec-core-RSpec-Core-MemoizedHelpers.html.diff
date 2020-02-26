@@ -1,9 +1,9 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-MemoizedHelpers.html.current b/export/rspec-core-RSpec-Core-MemoizedHelpers.html.new[m
-[1mindex 0bced67..eabb800 100644[m
+[1mindex 0bced67..d0565b6 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-MemoizedHelpers.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-MemoizedHelpers.html.new[m
-[36m@@ -1158,19 +1219,19 @@[m [mend[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1158,19 +1158,19 @@[m [mend[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpecRSpec..describedescribe WidgetWidget dodo[m
 [31m-  itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}[m
@@ -28,7 +28,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1179,8 +1241,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+[36m@@ -1179,8 +1179,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
@@ -39,8 +39,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1192,8 +1255,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1192,8 +1192,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -50,8 +50,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1222,8 +1289,8 @@[m [mBecause subject is designed to create state that is reset between each example,[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1222,8 +1222,8 @@[m [mBecause subject is designed to create state that is reset between each example,[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -61,8 +61,8 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1249,8 +1318,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1249,8 +1249,8 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -72,7 +72,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1281,9 +1351,9 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+[36m@@ -1281,9 +1281,9 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpecRSpec..describedescribe PersonPerson dodo[m
    subjectsubject {{ PersonPerson..newnew((:birthdate:birthdate =>=> 1919..yearsyears..agoago)) }}[m
    itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo[m
@@ -84,7 +84,7 @@
    endend[m
  endend[m
  [m
-[36m@@ -1291,64 +1361,64 @@[m [mendend[m
+[36m@@ -1291,64 +1291,64 @@[m [mendend[m
  # Implicit subject => { Person.new }.[m
  RSpecRSpec..describedescribe PersonPerson dodo[m
    itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo[m
@@ -165,7 +165,7 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1361,23 +1431,23 @@[m [mend[m
+[36m@@ -1361,23 +1361,23 @@[m [mend[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -195,7 +195,7 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1414,23 +1484,23 @@[m [mend[m
+[36m@@ -1414,23 +1414,23 @@[m [mend[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -225,8 +225,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1562,8 +1633,8 @@[m [mend[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1562,8 +1562,8 @@[m [mend[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -236,7 +236,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1593,23 +1665,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+[36m@@ -1593,23 +1593,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -266,8 +266,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -1859,8 +1940,8 @@[m [mend[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -1859,8 +1859,8 @@[m [mend[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -277,7 +277,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -1890,23 +1972,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+[36m@@ -1890,23 +1890,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m
@@ -307,8 +307,8 @@
    it { should be_eligible_to_vote }[m
  end[m
      [m
-[36m@@ -2301,8 +2396,8 @@[m [mend[m
- subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
+[36m@@ -2301,8 +2301,8 @@[m [mend[m
+     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.[m
  [m
  RSpec.describe Widget do[m
 [31m-  it { is_expected.to validate_presence_of(:name) }[m
@@ -318,7 +318,7 @@
    it { should validate_presence_of(:name) }[m
  end[m
  [m
-[36m@@ -2332,23 +2428,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
+[36m@@ -2332,23 +2332,23 @@[m [mWhile the examples below demonstrate how to use subject explicitly in examples,[m
  RSpec.describe Person do[m
    subject { Person.new(:birthdate => 19.years.ago) }[m
    it "should be eligible to vote" do[m

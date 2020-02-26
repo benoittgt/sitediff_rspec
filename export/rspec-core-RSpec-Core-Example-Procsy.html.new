@@ -113,18 +113,14 @@ OverviewOverview
     
   
     Note:Note:
-    
-This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
-
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
     Note:
-    
-This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
-
 
 Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
@@ -133,11 +129,9 @@ Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around
     
   
     Note:
-    
-This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
-
 
 Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
@@ -148,11 +142,9 @@ Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around
     
   
     Note:
-    
-This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
-
 
 Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
@@ -252,11 +244,8 @@ end
   
 
   
-    
-The RSpec::Core::Example instance.The RSpec::Core::Example instance.
-
+    The RSpec::Core::Example instance.The RSpec::Core::Example instance.
 The RSpec::Core::Example instance.
-
 The RSpec::Core::Example instance.
 
   
@@ -276,8 +265,7 @@ The RSpec::Core::Example instance.
   
 
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
   
 
@@ -301,8 +289,7 @@ The RSpec::Core::Example instance.
   
 
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
   
 
@@ -335,11 +322,8 @@ The RSpec::Core::Example instance.
   
 
   
-    
-Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
-
+    Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
 Calls the proc and notes that the example has been executed.
-
 Calls the proc and notes that the example has been executed.
 
   
@@ -354,8 +338,7 @@ Calls the proc and notes that the example has been executed.
   
 
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
   
 
@@ -372,11 +355,8 @@ Calls the proc and notes that the example has been executed.
   
 
   
-    
-Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
-
+    Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
 Indicates whether or not the around hook has executed the example.
-
 Indicates whether or not the around hook has executed the example.
 
   
@@ -391,8 +371,7 @@ Indicates whether or not the around hook has executed the example.
   
 
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
   
 
@@ -411,11 +390,8 @@ Indicates whether or not the around hook has executed the example.
   
 
   
-    
-A new instance of Procsy.A new instance of Procsy.
-
+    A new instance of Procsy.A new instance of Procsy.
 A new instance of Procsy.
-
 A new instance of Procsy.
 
   
@@ -432,8 +408,7 @@ A new instance of Procsy.
   
 
   
-    
-A new instance of Procsy.
+    A new instance of Procsy.
 
   
 
@@ -450,11 +425,8 @@ A new instance of Procsy.
   
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
-
+    Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
 Provides a wrapped proc that will update our executed? state when executed.
-
 Provides a wrapped proc that will update our executed? state when executed.
 
   
@@ -469,8 +441,7 @@ Provides a wrapped proc that will update our executed? state when executed.
   
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
   
 
@@ -489,8 +460,7 @@ Provides a wrapped proc that will update our executed? state when executed.
   
 
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
   
 
@@ -507,8 +477,7 @@ Calls the proc and notes that the example has been executed.
   
 
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
   
 
@@ -527,8 +496,7 @@ Indicates whether or not the around hook has executed the example.
   
 
   
-    
-A new instance of Procsy.
+    A new instance of Procsy.
 
   
 
@@ -545,8 +513,7 @@ A new instance of Procsy.
   
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
   
 
@@ -561,20 +528,17 @@ Provides a wrapped proc that will update our executed? state when executed.
     
   
   
-    
-Returns a new instance of Procsy.Returns a new instance of Procsy.
+    Returns a new instance of Procsy.Returns a new instance of Procsy.
 
 
   
-    
-Returns a new instance of Procsy.
+    Returns a new instance of Procsy.
 
 
   
 
   
-    
-Returns a new instance of Procsy.
+    Returns a new instance of Procsy.
 
 
   
@@ -683,8 +647,7 @@ end
 
   
   
-    
-Returns a new instance of Procsy.
+    Returns a new instance of Procsy.
 
 
   
@@ -723,8 +686,7 @@ end
     
   
   
-    
-Returns a new instance of Procsy.
+    Returns a new instance of Procsy.
 
 
   
@@ -767,20 +729,17 @@ end
       
   
   
-    
-The RSpec::Core::Example instance.The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.The RSpec::Core::Example instance.
 
 
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
 
   
 
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
 
   
@@ -869,8 +828,7 @@ end
 
   
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
 
   
@@ -907,8 +865,7 @@ end
       
   
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
 
   
@@ -947,20 +904,17 @@ end
       
   
   
-    
-Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.Calls the proc and notes that the example has been executed.
 
 
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
 
   
 
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
 
   
@@ -1059,8 +1013,7 @@ end
 
   
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
 
   
@@ -1094,20 +1047,17 @@ end
       
   
   
-    
-Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.Indicates whether or not the around hook has executed the example.
 
 
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
 
   
 
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
 
   
@@ -1240,8 +1190,7 @@ end
 
   
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
 
   
@@ -1286,20 +1235,17 @@ end
       
   
   
-    
-Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.Provides a wrapped proc that will update our executed? state when executed.
 
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1388,8 +1334,7 @@ end
 
   
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1425,8 +1370,7 @@ end
       
   
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
 
   
@@ -1460,8 +1404,7 @@ end
       
   
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
 
   
@@ -1506,8 +1449,7 @@ end
       
   
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   
@@ -1583,11 +1525,9 @@ Overview
     
   
     Note:
-    
-This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
+    This class also exposes the instance methods of RSpec::Core::Example, proxying them through to the wrapped RSpec::Core::Example instance.
 
   
-
 
 Wraps both a Proc and an RSpec::Core::Example for use in around hooks. In around hooks we need to yield this special kind of object (rather than the raw RSpec::Core::Example) because when there are multiple around hooks we have to wrap them recursively.
 
@@ -1636,8 +1576,7 @@ end
   
 
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
   
 
@@ -1667,8 +1606,7 @@ The RSpec::Core::Example instance.
   
 
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
   
 
@@ -1685,8 +1623,7 @@ Calls the proc and notes that the example has been executed.
   
 
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
   
 
@@ -1705,8 +1642,7 @@ Indicates whether or not the around hook has executed the example.
   
 
   
-    
-A new instance of Procsy.
+    A new instance of Procsy.
 
   
 
@@ -1723,8 +1659,7 @@ A new instance of Procsy.
   
 
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
   
 
@@ -1739,8 +1674,7 @@ Provides a wrapped proc that will update our executed? state when executed.
     
   
   
-    
-Returns a new instance of Procsy.
+    Returns a new instance of Procsy.
 
 
   
@@ -1783,8 +1717,7 @@ end
       
   
   
-    
-The RSpec::Core::Example instance.
+    The RSpec::Core::Example instance.
 
 
   
@@ -1823,8 +1756,7 @@ end
       
   
   
-    
-Calls the proc and notes that the example has been executed.
+    Calls the proc and notes that the example has been executed.
 
 
   
@@ -1858,8 +1790,7 @@ end
       
   
   
-    
-Indicates whether or not the around hook has executed the example.
+    Indicates whether or not the around hook has executed the example.
 
 
   
@@ -1904,8 +1835,7 @@ end
       
   
   
-    
-Provides a wrapped proc that will update our executed? state when executed.
+    Provides a wrapped proc that will update our executed? state when executed.
 
 
   

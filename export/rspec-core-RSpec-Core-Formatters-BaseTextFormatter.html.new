@@ -120,20 +120,17 @@ Class: RSpec::Core::Formatters::BaseTextFormatter
 
 OverviewOverview
   
-    
-Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
-    
-Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
 
   
-    
-Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
@@ -202,11 +199,8 @@ Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFo
   
 
   
-    
-Invoked at the end of a suite run.Invoked at the end of a suite run.
-
+    Invoked at the end of a suite run.Invoked at the end of a suite run.
 Invoked at the end of a suite run.
-
 Invoked at the end of a suite run.
 
   
@@ -221,8 +215,7 @@ Invoked at the end of a suite run.
   
 
   
-    
-Invoked at the end of a suite run.
+    Invoked at the end of a suite run.
 
   
 
@@ -239,11 +232,8 @@ Invoked at the end of a suite run.
   
 
   
-    
-Dumps detailed information about each example failure.Dumps detailed information about each example failure.
-
+    Dumps detailed information about each example failure.Dumps detailed information about each example failure.
 Dumps detailed information about each example failure.
-
 Dumps detailed information about each example failure.
 
   
@@ -258,8 +248,7 @@ Dumps detailed information about each example failure.
   
 
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
   
 
@@ -276,11 +265,8 @@ Dumps detailed information about each example failure.
   
 
   
-    
-This method is invoked after the dumping of examples and failures.This method is invoked after the dumping of examples and failures.
-
+    This method is invoked after the dumping of examples and failures.This method is invoked after the dumping of examples and failures.
 This method is invoked after the dumping of examples and failures.
-
 This method is invoked after the dumping of examples and failures.
 
   
@@ -295,8 +281,7 @@ This method is invoked after the dumping of examples and failures.
   
 
   
-    
-This method is invoked after the dumping of examples and failures.
+    This method is invoked after the dumping of examples and failures.
 
   
 
@@ -313,11 +298,8 @@ This method is invoked after the dumping of examples and failures.
   
 
   
-    
-Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
-
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
 Used by the reporter to send messages to the output stream.
-
 Used by the reporter to send messages to the output stream.
 
   
@@ -332,8 +314,7 @@ Used by the reporter to send messages to the output stream.
   
 
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
   
 
@@ -352,8 +333,7 @@ Used by the reporter to send messages to the output stream.
   
 
   
-    
-Invoked at the end of a suite run.
+    Invoked at the end of a suite run.
 
   
 
@@ -370,8 +350,7 @@ Invoked at the end of a suite run.
   
 
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
   
 
@@ -388,8 +367,7 @@ Dumps detailed information about each example failure.
   
 
   
-    
-This method is invoked after the dumping of examples and failures.
+    This method is invoked after the dumping of examples and failures.
 
   
 
@@ -406,8 +384,7 @@ This method is invoked after the dumping of examples and failures.
   
 
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
   
 
@@ -447,20 +424,17 @@ Used by the reporter to send messages to the output stream.
       
   
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
 
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -479,9 +453,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)(Ignored)
-
+        (Ignored)(Ignored)
 (Ignored)
 
       
@@ -495,8 +467,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -513,8 +484,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -536,8 +506,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -663,8 +632,7 @@ end
 
   
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -683,8 +651,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -724,20 +691,17 @@ end
       
   
   
-    
-Dumps detailed information about each example failure.Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.Dumps detailed information about each example failure.
 
 
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
 
   
 
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
 
   
@@ -888,8 +852,7 @@ end
 
   
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
 
   
@@ -938,20 +901,17 @@ end
       
   
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
 
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -970,9 +930,7 @@ This method is invoked after the dumping of examples and failures. Each paramete
       
       
         —
-        
-containing duration, example_count, failure_count and pending_countcontaining duration, example_count, failure_count and pending_count
-
+        containing duration, example_count, failure_count and pending_countcontaining duration, example_count, failure_count and pending_count
 containing duration, example_count, failure_count and pending_count
 
       
@@ -986,8 +944,7 @@ containing duration, example_count, failure_count and pending_count
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1004,8 +961,7 @@ containing duration, example_count, failure_count and pending_count
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1027,8 +983,7 @@ containing duration, example_count, failure_count and pending_count
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1114,8 +1069,7 @@ end
 
   
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1134,8 +1088,7 @@ This method is invoked after the dumping of examples and failures. Each paramete
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1167,20 +1120,17 @@ end
       
   
   
-    
-Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.Used by the reporter to send messages to the output stream.
 
 
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
 
   
 
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
 
   
@@ -1199,9 +1149,7 @@ Used by the reporter to send messages to the output stream.
       
       
         —
-        
-containing messagecontaining message
-
+        containing messagecontaining message
 containing message
 
       
@@ -1215,8 +1163,7 @@ containing message
       
       
         —
-        
-containing message
+        containing message
 
       
     
@@ -1233,8 +1180,7 @@ containing message
       
       
         —
-        
-containing message
+        containing message
 
       
     
@@ -1256,8 +1202,7 @@ containing message
       
       
         —
-        
-containing message
+        containing message
 
       
     
@@ -1343,8 +1288,7 @@ end
 
   
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
 
   
@@ -1363,8 +1307,7 @@ Used by the reporter to send messages to the output stream.
       
       
         —
-        
-containing message
+        containing message
 
       
     
@@ -1400,8 +1343,7 @@ end
       
   
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -1420,8 +1362,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -1461,8 +1402,7 @@ end
       
   
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
 
   
@@ -1511,8 +1451,7 @@ end
       
   
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1531,8 +1470,7 @@ This method is invoked after the dumping of examples and failures. Each paramete
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1564,8 +1502,7 @@ end
       
   
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
 
   
@@ -1584,8 +1521,7 @@ Used by the reporter to send messages to the output stream.
       
       
         —
-        
-containing message
+        containing message
 
       
     
@@ -1660,8 +1596,7 @@ Class: RSpec::Core::Formatters::BaseTextFormatter
 
 Overview
   
-    
-Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
+    Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFormatter to learn more about all of the methods called by the reporter.
 
 
   
@@ -1709,8 +1644,7 @@ Base for all of RSpec's built-in formatters. See RSpec::Core::Formatters::BaseFo
   
 
   
-    
-Invoked at the end of a suite run.
+    Invoked at the end of a suite run.
 
   
 
@@ -1727,8 +1661,7 @@ Invoked at the end of a suite run.
   
 
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
   
 
@@ -1745,8 +1678,7 @@ Dumps detailed information about each example failure.
   
 
   
-    
-This method is invoked after the dumping of examples and failures.
+    This method is invoked after the dumping of examples and failures.
 
   
 
@@ -1763,8 +1695,7 @@ This method is invoked after the dumping of examples and failures.
   
 
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
   
 
@@ -1799,8 +1730,7 @@ Used by the reporter to send messages to the output stream.
       
   
   
-    
-Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
+    Invoked at the end of a suite run. Allows the formatter to do any tidying up, but be aware that formatter output streams may be used elsewhere so don't actually close them.
 
 
   
@@ -1819,8 +1749,7 @@ Invoked at the end of a suite run. Allows the formatter to do any tidying up, bu
       
       
         —
-        
-(Ignored)
+        (Ignored)
 
       
     
@@ -1860,8 +1789,7 @@ end
       
   
   
-    
-Dumps detailed information about each example failure.
+    Dumps detailed information about each example failure.
 
 
   
@@ -1910,8 +1838,7 @@ end
       
   
   
-    
-This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
+    This method is invoked after the dumping of examples and failures. Each parameter is assigned to a corresponding attribute.
 
 
   
@@ -1930,8 +1857,7 @@ This method is invoked after the dumping of examples and failures. Each paramete
       
       
         —
-        
-containing duration, example_count, failure_count and pending_count
+        containing duration, example_count, failure_count and pending_count
 
       
     
@@ -1963,8 +1889,7 @@ end
       
   
   
-    
-Used by the reporter to send messages to the output stream.
+    Used by the reporter to send messages to the output stream.
 
 
   
@@ -1983,8 +1908,7 @@ Used by the reporter to send messages to the output stream.
       
       
         —
-        
-containing message
+        containing message
 
       
     

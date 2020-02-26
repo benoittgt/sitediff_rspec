@@ -48,20 +48,17 @@ Module: RSpec::Core::Formatters::ConsoleCodes
 
 OverviewOverview
   
-    
-ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
+    ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
 
 
   
-    
-ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
+    ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
 
 
   
 
   
-    
-ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
+    ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
 
 
   
@@ -101,11 +98,8 @@ ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g
   
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid.Fetches the correct code for the supplied symbol, or checks that a code is valid.
-
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.Fetches the correct code for the supplied symbol, or checks that a code is valid.
 Fetches the correct code for the supplied symbol, or checks that a code is valid.
-
 Fetches the correct code for the supplied symbol, or checks that a code is valid.
 
   
@@ -120,8 +114,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
   
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid.
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
 
   
 
@@ -138,11 +131,8 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
   
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code.Wraps a piece of text in ANSI codes with the supplied code.
-
+    Wraps a piece of text in ANSI codes with the supplied code.Wraps a piece of text in ANSI codes with the supplied code.
 Wraps a piece of text in ANSI codes with the supplied code.
-
 Wraps a piece of text in ANSI codes with the supplied code.
 
   
@@ -157,8 +147,7 @@ Wraps a piece of text in ANSI codes with the supplied code.
   
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code.
+    Wraps a piece of text in ANSI codes with the supplied code.
 
   
 
@@ -177,8 +166,7 @@ Wraps a piece of text in ANSI codes with the supplied code.
   
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid.
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
 
   
 
@@ -195,8 +183,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
   
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code.
+    Wraps a piece of text in ANSI codes with the supplied code.
 
   
 
@@ -214,20 +201,17 @@ Wraps a piece of text in ANSI codes with the supplied code.
       
   
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
@@ -246,9 +230,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
       
       
         —
-        
-Symbol or code to checkSymbol or code to check
-
+        Symbol or code to checkSymbol or code to check
 Symbol or code to check
 
       
@@ -262,8 +244,7 @@ Symbol or code to check
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -280,8 +261,7 @@ Symbol or code to check
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -299,9 +279,7 @@ Returns:Returns:
       
       
         —
-        
-a console codea console code
-
+        a console codea console code
 a console code
 
       
@@ -313,8 +291,7 @@ a console code
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -329,8 +306,7 @@ a console code
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -351,8 +327,7 @@ a console code
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -370,8 +345,7 @@ Returns:
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -536,8 +510,7 @@ end
 
   
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
@@ -556,8 +529,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -575,8 +547,7 @@ Returns:
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -623,20 +594,17 @@ end
       
   
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
@@ -655,9 +623,7 @@ Wraps a piece of text in ANSI codes with the supplied code. Will only apply the 
       
       
         —
-        
-the text to wrapthe text to wrap
-
+        the text to wrapthe text to wrap
 the text to wrap
 
       
@@ -671,8 +637,7 @@ the text to wrap
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -687,9 +652,7 @@ the text to wrap
       
       
         —
-        
-the desired control codethe desired control code
-
+        the desired control codethe desired control code
 the desired control code
 
       
@@ -703,8 +666,7 @@ the desired control code
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -721,8 +683,7 @@ the desired control code
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -737,8 +698,7 @@ the text to wrap
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -756,9 +716,7 @@ Returns:Returns:
       
       
         —
-        
-the wrapped textthe wrapped text
-
+        the wrapped textthe wrapped text
 the wrapped text
 
       
@@ -770,8 +728,7 @@ the wrapped text
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     
@@ -786,8 +743,7 @@ the wrapped text
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     
@@ -808,8 +764,7 @@ the wrapped text
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -824,8 +779,7 @@ the text to wrap
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -843,8 +797,7 @@ Returns:
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     
@@ -969,8 +922,7 @@ end
 
   
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
@@ -989,8 +941,7 @@ Wraps a piece of text in ANSI codes with the supplied code. Will only apply the 
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -1005,8 +956,7 @@ the text to wrap
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -1024,8 +974,7 @@ Returns:
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     
@@ -1068,8 +1017,7 @@ end
       
   
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
@@ -1088,8 +1036,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -1107,8 +1054,7 @@ Returns:
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -1155,8 +1101,7 @@ end
       
   
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
@@ -1175,8 +1120,7 @@ Wraps a piece of text in ANSI codes with the supplied code. Will only apply the 
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -1191,8 +1135,7 @@ the text to wrap
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -1210,8 +1153,7 @@ Returns:
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     
@@ -1275,8 +1217,7 @@ Module: RSpec::Core::Formatters::ConsoleCodes
 
 Overview
   
-    
-ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
+    ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g. color's and bold.
 
 
   
@@ -1310,8 +1251,7 @@ ConsoleCodes provides helpers for formatting console output with ANSI codes, e.g
   
 
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid.
+    Fetches the correct code for the supplied symbol, or checks that a code is valid.
 
   
 
@@ -1328,8 +1268,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
   
 
   
-    
-Wraps a piece of text in ANSI codes with the supplied code.
+    Wraps a piece of text in ANSI codes with the supplied code.
 
   
 
@@ -1347,8 +1286,7 @@ Wraps a piece of text in ANSI codes with the supplied code.
       
   
   
-    
-Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
+    Fetches the correct code for the supplied symbol, or checks that a code is valid. Defaults to white (37).
 
 
   
@@ -1367,8 +1305,7 @@ Fetches the correct code for the supplied symbol, or checks that a code is valid
       
       
         —
-        
-Symbol or code to check
+        Symbol or code to check
 
       
     
@@ -1386,8 +1323,7 @@ Returns:
       
       
         —
-        
-a console code
+        a console code
 
       
     
@@ -1434,8 +1370,7 @@ end
       
   
   
-    
-Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
+    Wraps a piece of text in ANSI codes with the supplied code. Will only apply the control code if RSpec.configuration.color_enabled? returns true.
 
 
   
@@ -1454,8 +1389,7 @@ Wraps a piece of text in ANSI codes with the supplied code. Will only apply the 
       
       
         —
-        
-the text to wrap
+        the text to wrap
 
       
     
@@ -1470,8 +1404,7 @@ the text to wrap
       
       
         —
-        
-the desired control code
+        the desired control code
 
       
     
@@ -1489,8 +1422,7 @@ Returns:
       
       
         —
-        
-the wrapped text
+        the wrapped text
 
       
     

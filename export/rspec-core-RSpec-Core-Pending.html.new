@@ -61,20 +61,17 @@ Module: RSpec::Core::Pending
 
 OverviewOverview
   
-    
-Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
+    Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
 
 
   
-    
-Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
+    Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
 
 
   
 
   
-    
-Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
+    Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
 
 
   
@@ -132,11 +129,8 @@ Defined Under NamespaceDefined Under Namespace
   
 
   
-    
-Marks an example as pending.Marks an example as pending.
-
+    Marks an example as pending.Marks an example as pending.
 Marks an example as pending.
-
 Marks an example as pending.
 
   
@@ -151,8 +145,7 @@ Marks an example as pending.
   
 
   
-    
-Marks an example as pending.
+    Marks an example as pending.
 
   
 
@@ -169,11 +162,8 @@ Marks an example as pending.
   
 
   
-    
-Marks an example as pending and skips execution.Marks an example as pending and skips execution.
-
+    Marks an example as pending and skips execution.Marks an example as pending and skips execution.
 Marks an example as pending and skips execution.
-
 Marks an example as pending and skips execution.
 
   
@@ -188,8 +178,7 @@ Marks an example as pending and skips execution.
   
 
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
   
 
@@ -208,8 +197,7 @@ Marks an example as pending and skips execution.
   
 
   
-    
-Marks an example as pending.
+    Marks an example as pending.
 
   
 
@@ -226,8 +214,7 @@ Marks an example as pending.
   
 
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
   
 
@@ -248,8 +235,7 @@ Marks an example as pending and skips execution.
     
   
     Note:Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 itit ""does somethingdoes something"""does something",, :pending:pending =>=> truetrue dodo
   # ...
@@ -276,7 +262,6 @@ it "does something", :pending => "something else getting finished" do
   # ...
 end
 
-
 before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
@@ -293,8 +278,7 @@ end
 
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -309,7 +293,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -318,8 +301,7 @@ Marks an example as pending. The rest of the example will still be executed, and
     
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -334,7 +316,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -345,8 +326,7 @@ Marks an example as pending. The rest of the example will still be executed, and
     
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -361,7 +341,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -448,9 +427,7 @@ Parameters:Parameters:
       
       
         —
-        
-optional message to add to the summary report.optional message to add to the summary report.
-
+        optional message to add to the summary report.optional message to add to the summary report.
 optional message to add to the summary report.
 
       
@@ -466,8 +443,7 @@ optional message to add to the summary report.
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -486,8 +462,7 @@ optional message to add to the summary report.
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -531,8 +506,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -887,8 +861,7 @@ end
     
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -903,7 +876,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -946,8 +918,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1029,20 +1000,17 @@ end
       
   
   
-    
-Marks an example as pending and skips execution.Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.Marks an example as pending and skips execution.
 
 
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
 
   
 
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
 
   
@@ -1119,9 +1087,7 @@ Parameters:Parameters:
       
       
         —
-        
-optional message to add to the summary report.optional message to add to the summary report.
-
+        optional message to add to the summary report.optional message to add to the summary report.
 optional message to add to the summary report.
 
       
@@ -1137,8 +1103,7 @@ optional message to add to the summary report.
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1157,8 +1122,7 @@ optional message to add to the summary report.
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1231,8 +1195,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1371,8 +1334,7 @@ end
 
   
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
 
   
@@ -1411,8 +1373,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1472,8 +1433,7 @@ end
     
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -1488,7 +1448,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -1531,8 +1490,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1614,8 +1572,7 @@ end
       
   
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
 
   
@@ -1654,8 +1611,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1738,8 +1694,7 @@ Module: RSpec::Core::Pending
 
 Overview
   
-    
-Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
+    Provides methods to mark examples as pending. These methods are available to be called from within any example or hook.
 
 
   
@@ -1783,8 +1738,7 @@ Defined Under Namespace
   
 
   
-    
-Marks an example as pending.
+    Marks an example as pending.
 
   
 
@@ -1801,8 +1755,7 @@ Marks an example as pending.
   
 
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
   
 
@@ -1823,8 +1776,7 @@ Marks an example as pending and skips execution.
     
   
     Note:
-    
-before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
+    before(:example) hooks are eval'd when you use the pending method within an example. If you want to declare an example pending and bypass the before hooks as well, you can pass :pending => true to the it method:.
 
 it "does something", :pending => true do
   # ...
@@ -1839,7 +1791,6 @@ end
 
 
   
-
 
 Marks an example as pending. The rest of the example will still be executed, and if it passes the example will fail to indicate that the pending can be removed.
 
@@ -1882,8 +1833,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     
@@ -1965,8 +1915,7 @@ end
       
   
   
-    
-Marks an example as pending and skips execution.
+    Marks an example as pending and skips execution.
 
 
   
@@ -2005,8 +1954,7 @@ Parameters:
       
       
         —
-        
-optional message to add to the summary report.
+        optional message to add to the summary report.
 
       
     

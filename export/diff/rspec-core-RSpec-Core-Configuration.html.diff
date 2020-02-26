@@ -1,319 +1,15 @@
 [1mdiff --git a/export/rspec-core-RSpec-Core-Configuration.html.current b/export/rspec-core-RSpec-Core-Configuration.html.new[m
-[1mindex e6c6d1a..72b090d 100644[m
+[1mindex e6c6d1a..b643aa3 100644[m
 [1m--- a/export/rspec-core-RSpec-Core-Configuration.html.current[m
 [1m+++ b/export/rspec-core-RSpec-Core-Configuration.html.new[m
-[36m@@ -129,26 +130,41 @@[m [mConfiguration options are loaded from multiple files and joined together with co[m
- [m
- Precedence order (where later entries overwrite earlier entries on conflicts):.Precedence order (where later entries overwrite earlier entries on conflicts):.[m
- [m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).Project-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).Local (./.rspec-local).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).[m
-[32m+[m
-[32m+[m[32mCommand-line options.Command-line options.[m
-[32m+[m
-[32m+[m[32mCommand-line options.[m
-[32m+[m
-[32m+[m[32mSPEC_OPTS.SPEC_OPTS.[m
-[32m+[m
-[32m+[m[32mSPEC_OPTS.[m
-[32m+[m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).[m
- [m
-[31m-Global ($XDG_CONFIG_HOME/rspec/options$XDG_CONFIG_HOME/rspec/options, or ~/.rspec~/.rspec if it does[m
-[31m-not exist)Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does[m
-[31m-not exist)[m
-[31m-Project-specific (./.rspec./.rspec)Project-specific (./.rspec)[m
-[31m-Local (./.rspec-local./.rspec-local)Local (./.rspec-local)[m
-[31m-Command-line optionsCommand-line options[m
-[31m-SPEC_OPTSSPEC_OPTSSPEC_OPTS[m
-[32m+[m[32mCommand-line options.[m
- [m
-[31m-Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does[m
-[31m-not exist)[m
-[31m-Project-specific (./.rspec)[m
-[31m-Local (./.rspec-local)[m
-[31m-Command-line options[m
-[31m-SPEC_OPTS[m
-[32m+[m[32mSPEC_OPTS.[m
- [m
- [m
- For example, an option set in the local file will override an option set in your global file.For example, an option set in the local file will override an option set in your global file.[m
- [m
-[31m-The global, project-specific and local files can all be overridden with a separate custom file using the --options command-line parameter.The global, project-specific and local files can all be overridden with a separate custom file using the --options command-line parameter.[m
-[32m+[m[32mThe global, project-specific and local files can all be overridden with a separate custom file using the –options command-line parameter.The global, project-specific and local files can all be overridden with a separate custom file using the –options command-line parameter.[m
-[32m+[m
- [m
-   [m
-     [m
-[36m@@ -158,18 +174,21 @@[m [mConfiguration options are loaded from multiple files and joined together with co[m
- [m
- Precedence order (where later entries overwrite earlier entries on conflicts):.[m
- [m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).[m
-[32m+[m
-[32m+[m[32mCommand-line options.[m
- [m
-[31m-Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does[m
-[31m-not exist)[m
-[31m-Project-specific (./.rspec)[m
-[31m-Local (./.rspec-local)[m
-[31m-Command-line options[m
-[31m-SPEC_OPTS[m
-[32m+[m[32mSPEC_OPTS.[m
- [m
- [m
- For example, an option set in the local file will override an option set in your global file.[m
- [m
-[31m-The global, project-specific and local files can all be overridden with a separate custom file using the --options command-line parameter.[m
-[32m+[m[32mThe global, project-specific and local files can all be overridden with a separate custom file using the –options command-line parameter.[m
-[32m+[m
- [m
-   [m
- [m
-[36m@@ -181,18 +200,20 @@[m [mConfiguration options are loaded from multiple files and joined together with co[m
- [m
- Precedence order (where later entries overwrite earlier entries on conflicts):.[m
- [m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).[m
- [m
-[31m-Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does[m
-[31m-not exist)[m
-[31m-Project-specific (./.rspec)[m
-[31m-Local (./.rspec-local)[m
-[31m-Command-line options[m
-[31m-SPEC_OPTS[m
-[32m+[m[32mCommand-line options.[m
-[32m+[m
-[32m+[m[32mSPEC_OPTS.[m
- [m
- [m
- For example, an option set in the local file will override an option set in your global file.[m
- [m
-[31m-The global, project-specific and local files can all be overridden with a separate custom file using the --options command-line parameter.[m
-[32m+[m[32mThe global, project-specific and local files can all be overridden with a separate custom file using the –options command-line parameter.[m
- [m
- [m
-   [m
-[36m@@ -378,9 +411,12 @@[m [mDetermines which bisect runner implementation gets used to run subsets of the su[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32mDeprecated.[m[41m [m
- No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[31m-Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
- [m
-   [m
- [m
-[36m@@ -397,7 +433,9 @@[m [mDeprecated. No longer recommended because of complex behavior. Instead, rely on[m
-   [m
- [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -1209,12 +1326,12 @@[m [mDetermines where RSpec will send its output.[m
-   [m
- [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[31m-Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[31m-Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-     [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
-   [m
- [m
-[36m@@ -1228,7 +1345,12 @@[m [mLoad files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-   [m
-   [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m  [m
-[32m+[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -1408,9 +1545,12 @@[m [mIndicates files configured to be required.[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[31m-Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
- [m
-   [m
- [m
-[36m@@ -1427,7 +1567,9 @@[m [mDeprecated. Use #filter_run_when_matching instead for the specific filters that[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -1625,7 +1783,9 @@[m [mUse threadsafe options where available.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -2051,7 +2230,9 @@[m [mUse threadsafe options where available.[m
-   [m
- [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -2153,7 +2337,9 @@[m [mUse threadsafe options where available.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -2431,9 +2640,14 @@[m [mCreates a method that delegates to example including the submitted args.[m
-   [m
- [m
-   [m
-[31m-    Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m[41m    [m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.Define an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[41m  [m
- [m
-   [m
-   [m
-[36m@@ -2446,8 +2660,8 @@[m [mDefine an alias for it_should_behave_like that allows different language (like "[m
- [m
-   [m
-     [m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
-[31m-    Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-   [m
- [m
- [m
-[36m@@ -4184,9 +4605,12 @@[m [mSets the seed value and sets the default global ordering to random.[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32mDeprecated.[m[41m [m
- This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[31m-Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
-   [m
- [m
-[36m@@ -4200,7 +4624,9 @@[m [mDeprecated. This config option was added in RSpec 2 to pave the way for this bei[m
-   [m
- [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -4403,7 +4845,9 @@[m [mDefines a callback that runs after the first example with matching metadata is d[m
-   [m
- [m
-   [m
-[31m-    Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m[41m    [m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -5306,7 +5801,9 @@[m [mDefines a callback that runs after the first example with matching metadata is d[m
-   [m
- [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -5581,12 +6083,12 @@[m [mDefines a callback that runs after the first example with matching metadata is d[m
+[36m@@ -5581,12 +5581,12 @@[m [mDefines a callback that runs after the first example with matching metadata is d[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500# File 'lib/rspec/core/configuration.rb', line 500[m
  [m
 [31m-defdef initializeinitialize[m
-[31m-  # rubocop:disable Style/GlobalVars[m
 [32m+[m[32mdefdef initializeinitialize  # rubocop:disable Style/GlobalVars[m
  # rubocop:disable Style/GlobalVars[m
+[31m-# rubocop:disable Style/GlobalVars[m
 [31m-  @start_time@start_time == $_rspec_core_load_started_at$_rspec_core_load_started_at |||| ::::RSpecRSpec::::CoreCore::::TimeTime..nownow[m
 [31m-  # rubocop:enable Style/GlobalVars[m
 [32m+[m
@@ -323,7 +19,7 @@
    @expectation_frameworks@expectation_frameworks == [[]][m
    @include_modules@include_modules == FilterableItemRepositoryFilterableItemRepository::::QueryOptimizedQueryOptimized..newnew((:any?:any?))[m
    @extend_modules@extend_modules  == FilterableItemRepositoryFilterableItemRepository::::QueryOptimizedQueryOptimized..newnew((:any?:any?))[m
-[36m@@ -5639,10 +6141,10 @@[m [mdefdef initializeinitialize[m
+[36m@@ -5639,10 +5639,10 @@[m [mdefdef initializeinitialize[m
    define_built_in_hooksdefine_built_in_hooks[m
  endend# File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -338,7 +34,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -5697,10 +6199,10 @@[m [mend[m
+[36m@@ -5697,10 +5697,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -353,7 +49,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -5817,10 +6319,10 @@[m [mend[m
+[36m@@ -5817,10 +5817,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -368,7 +64,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -5939,10 +6441,10 @@[m [mend[m
+[36m@@ -5939,10 +5939,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -383,7 +79,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -6073,10 +6576,10 @@[m [mend[m
+[36m@@ -6073,10 +6073,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -398,7 +94,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -6212,10 +6716,10 @@[m [mend[m
+[36m@@ -6212,10 +6212,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -413,799 +109,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -6294,41 +6801,20 @@[m [mThis option will only be used by --bisect if you set it in a file loaded via --r[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
-[32m+[m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
-[32m+[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
-[31m-:shell:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell:shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite)before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require--require.:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[31m-[m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
-[32m+[m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
-[32m+[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -6340,20 +6827,12 @@[m [mof getting run at the top-level of a file loaded by --require.[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
- [m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -6367,20 +6847,12 @@[m [mof getting run at the top-level of a file loaded by --require.[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
- [m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -6521,20 +6994,12 @@[m [mend[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
- [m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -6582,15 +7047,21 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32mDeprecated.[m[41m [m
- No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[31m-Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
- [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
-[36m@@ -6598,7 +7069,9 @@[m [mEnables color output if the output is a TTY.  As of RSpec 3.6, this is the defau[m
-   [m
- [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
-[36m@@ -6757,7 +7230,9 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
-[36m@@ -6815,30 +7290,39 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The mode for determining whether to display output in color. One of:.The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.:on - the output will be in color, whether or not the output is a TTY.[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
-[32m+[m
-[32m+[m[32m:off - the output will not be in color.:off - the output will not be in color.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default):automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color:off - the output will not be in color[m
-[32m+[m[32m:off - the output will not be in color.[m
-[32m+[m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
-[32m+[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
- [m
- [m
-   [m
-     [m
- The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
-[32m+[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
- [m
- [m
-   [m
-[36m@@ -6847,11 +7331,11 @@[m [mdefault)[m
-     [m
- The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
- [m
- [m
-[36m@@ -7003,13 +7487,14 @@[m [mend[m
- [m
-   [m
-   [m
-[32m+[m[41m    [m
- The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
- [m
- [m
-[36m@@ -10361,17 +10959,20 @@[m [mdefine_reader :output_stream[m
-       [m
-   [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-     [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').Load files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-   [m
-     [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m
-[32m+[m[41m  [m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-   [m
-[36m@@ -10484,7 +11085,8 @@[m [mdefine_reader :pattern[m
- [m
-   [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-   [m
-[36m@@ -11138,15 +11756,21 @@[m [mdefine_reader :requires[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[31m-Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).Run all examples if none match the configured filters (default: false).[m
- [m
- [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).[m
- [m
-[36m@@ -11154,7 +11778,9 @@[m [mRun all examples if none match the configured filters (default: false).[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).[m
- [m
-[36m@@ -11225,7 +11851,9 @@[m [madd_setting :run_all_when_everything_filtered[m
- [m
-   [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).[m
- [m
-[36m@@ -11276,20 +11905,19 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:....there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
-[32m+[m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
-[31m-:trigger_inclusion:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true:db => true metadata.:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
-[32m+[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.:trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -11305,7 +11933,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:....or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpecRSpec..configureconfigure dodo ||rspecrspec||[m
-   rspecrspec..include_contextinclude_context ""uses DBuses DB"""uses DB",, :db:db =>=> truetrue[m
-[36m@@ -11331,13 +11960,11 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
- [m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -11347,7 +11974,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpec.configure do |rspec|[m
-   rspec.include_context "uses DB", :db => true[m
-[36m@@ -11369,13 +11997,11 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
- [m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -11385,7 +12011,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpec.configure do |rspec|[m
-   rspec.include_context "uses DB", :db => true[m
-[36m@@ -11862,13 +12511,11 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
- [m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -11878,7 +12525,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpec.configure do |rspec|[m
-   rspec.include_context "uses DB", :db => true[m
-[36m@@ -11987,17 +12637,20 @@[m [mdefine_reader :shared_context_metadata_behavior[m
-       [m
-   [m
-   [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
-[32m+[m[41m    [m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].Don't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
-[32m+[m
-[32m+[m
-   [m
-     [m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
- [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
- [m
-   [m
- [m
-   [m
-     [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
- [m
- [m
-   [m
-[36m@@ -12066,7 +12719,8 @@[m [madd_setting :silence_filter_announcements[m
- [m
-   [m
-   [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
-[32m+[m[41m    [m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
- [m
- [m
-   [m
-[36m@@ -12381,20 +13044,12 @@[m [madd_setting :threadsafe[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
- [m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -12442,7 +13097,9 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
-[36m@@ -12500,13 +13157,14 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
- [m
- [m
-[36m@@ -13374,7 +14056,8 @@[m [mdefine_reader :output_stream[m
-       [m
-   [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-   [m
-[36m@@ -13577,7 +14264,9 @@[m [mdefine_reader :requires[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).[m
- [m
-[36m@@ -13618,13 +14308,11 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
- [m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -13634,7 +14322,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpec.configure do |rspec|[m
-   rspec.include_context "uses DB", :db => true[m
-[36m@@ -13743,7 +14434,8 @@[m [mdefine_reader :shared_context_metadata_behavior[m
-       [m
-   [m
-   [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
-[32m+[m[41m    [m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
- [m
- [m
-   [m
-[36m@@ -14345,7 +15062,8 @@[m [ma customizable set of options[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:Set a default value for the generated getter and predicate methods:[m
- [m
- add_settingadd_setting((:foo:foo,, :default:default =>=> ""default valuedefault value"""default value"))[m
- add_setting(:foo, :default => "default value")[m
-[36m@@ -14364,7 +15083,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -14381,7 +15101,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_settingadd_setting((:foo:foo,, :alias_with:alias_with =>=> :bar:bar))[m
- add_settingadd_setting((:foo:foo,, :alias_with:alias_with =>=> [[:bar:bar,, :baz:baz]]))[m
-[36m@@ -14404,7 +15126,8 @@[m [madd_setting(:foo, :alias_with => [:bar, :baz])[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -14422,7 +15145,8 @@[m [madd_setting(:foo, :alias_with => [:bar, :baz])[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -14437,7 +15161,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -14488,7 +15214,8 @@[m [madd_setting(:foo, :alias_with => [:bar, :baz])[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -14503,7 +15230,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -14696,7 +15426,8 @@[m [mRSpec.configuration.foo? # Returns true if foo returns anything but nil or false[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -14711,7 +15442,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -15929,7 +16706,8 @@[m [mUse with caution. This extends the language used in your specs, but does not add[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.Define an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -15940,7 +16719,8 @@[m [mDefine an alias for it_should_behave_like that allows different language (like "[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -15953,7 +16734,8 @@[m [mDefine an alias for it_should_behave_like that allows different language (like "[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -16150,7 +16933,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -16756,9 +17548,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.Excludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -16766,9 +17559,10 @@[m [mTo override this behaviour and display a full backtrace, use --backtrace on the[m
- [m
- [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -16778,9 +17572,10 @@[m [mTo override this behaviour and display a full backtrace, use --backtrace on the[m
-   [m
- [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -16917,9 +17712,10 @@[m [mend[m
- [m
-   [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -21870,9 +22799,9 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
+[36m@@ -21870,9 +21870,9 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
        [m
        [m
  modulemodule UiHelpersUiHelpers[m
@@ -1217,7 +121,7 @@
    endend[m
  endend[m
  [m
-[36m@@ -21889,8 +22818,8 @@[m [mdescribedescribe ""edit profileedit profile"""edit profile",, :type:type =>=> :r[m
+[36m@@ -21889,8 +21889,8 @@[m [mdescribedescribe ""edit profileedit profile"""edit profile",, :type:type =>=> :r[m
    endend[m
  endend[m
  module UiHelpers[m
@@ -1228,7 +132,7 @@
    end[m
  end[m
  [m
-[36m@@ -21906,8 +22835,8 @@[m [mdescribe "edit profile", :type => :request do[m
+[36m@@ -21906,8 +21906,8 @@[m [mdescribe "edit profile", :type => :request do[m
    end[m
  end[m
  module UiHelpers[m
@@ -1239,7 +143,7 @@
    end[m
  end[m
  [m
-[36m@@ -21929,8 +22858,8 @@[m [mend[m
+[36m@@ -21929,8 +21929,8 @@[m [mend[m
        [m
        [m
  module UiHelpers[m
@@ -1250,7 +154,7 @@
    end[m
  end[m
  [m
-[36m@@ -21972,8 +22901,8 @@[m [mend[m
+[36m@@ -21972,8 +21972,8 @@[m [mend[m
        [m
        [m
  module UiHelpers[m
@@ -1261,7 +165,7 @@
    end[m
  end[m
  [m
-[36m@@ -22114,8 +23044,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
+[36m@@ -22114,8 +22114,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
        [m
        [m
  module UiHelpers[m
@@ -1272,7 +176,7 @@
    end[m
  end[m
  [m
-[36m@@ -28782,8 +29898,7 @@[m [mReturns:[m
+[36m@@ -28782,8 +28782,7 @@[m [mReturns:[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024# File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1282,7 +186,7 @@
  # @reporter_buffer should only ever be set in this method to cover[m
    # initialization of @reporter.[m
  # initialization of @reporter.[m
-[36m@@ -28797,9 +29913,9 @@[m [mdefdef reporterreporter[m
+[36m@@ -28797,9 +28797,9 @@[m [mdefdef reporterreporter[m
      endend[m
  endend# File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1294,7 +198,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -28812,9 +29928,9 @@[m [mend[m
+[36m@@ -28812,9 +28812,9 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1306,7 +210,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -28846,9 +29962,9 @@[m [mend[m
+[36m@@ -28846,9 +28846,9 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1318,7 +222,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -28882,9 +29998,9 @@[m [mend[m
+[36m@@ -28882,9 +28882,9 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1330,7 +234,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -28947,9 +30065,9 @@[m [mReturns:[m
+[36m@@ -28947,9 +28947,9 @@[m [mReturns:[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1342,90 +246,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -29197,21 +30323,26 @@[m [mdelegate_to_ordering_manager :seed=[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32mDeprecated.[m[41m [m
- This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[31m-Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
-[36m@@ -29351,7 +30482,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
-[36m@@ -30248,7 +31403,8 @@[m [mRSpec.configuration.foo? # Returns true if foo returns anything but nil or false[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -30263,7 +31419,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -30563,7 +31729,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -30735,9 +31904,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -31872,8 +33071,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
+[36m@@ -31872,8 +31872,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
        [m
        [m
  module UiHelpers[m
@@ -1436,7 +257,7 @@
    end[m
  end[m
  [m
-[36m@@ -33412,9 +34651,9 @@[m [mReturns:[m
+[36m@@ -33412,9 +33412,9 @@[m [mReturns:[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1448,100 +269,7 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -33492,7 +34733,8 @@[m [mdelegate_to_ordering_manager :seed=[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
-[36m@@ -33743,18 +34990,20 @@[m [mConfiguration options are loaded from multiple files and joined together with co[m
- [m
- Precedence order (where later entries overwrite earlier entries on conflicts):.[m
- [m
-[32m+[m[32mGlobal ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does not exist).[m
-[32m+[m
-[32m+[m[32mProject-specific (./.rspec).[m
-[32m+[m
-[32m+[m[32mLocal (./.rspec-local).[m
- [m
-[31m-Global ($XDG_CONFIG_HOME/rspec/options, or ~/.rspec if it does[m
-[31m-not exist)[m
-[31m-Project-specific (./.rspec)[m
-[31m-Local (./.rspec-local)[m
-[31m-Command-line options[m
-[31m-SPEC_OPTS[m
-[32m+[m[32mCommand-line options.[m
-[32m+[m
-[32m+[m[32mSPEC_OPTS.[m
- [m
- [m
- For example, an option set in the local file will override an option set in your global file.[m
- [m
-[31m-The global, project-specific and local files can all be overridden with a separate custom file using the --options command-line parameter.[m
-[32m+[m[32mThe global, project-specific and local files can all be overridden with a separate custom file using the –options command-line parameter.[m
- [m
- [m
-   [m
-[36m@@ -33837,7 +35089,9 @@[m [mend[m
-   [m
- [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -34263,7 +35536,9 @@[m [mend[m
-   [m
- [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -34365,7 +35643,9 @@[m [mend[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -34560,7 +35848,9 @@[m [mend[m
-   [m
- [m
-   [m
-[31m-    Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m[41m    [m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -35463,7 +36804,9 @@[m [mend[m
-   [m
- [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -35609,10 +36955,10 @@[m [mend[m
+[36m@@ -35609,10 +35609,10 @@[m [mend[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 500[m
  [m
@@ -1556,160 +284,7 @@
    @expectation_frameworks = [][m
    @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)[m
    @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)[m
-[36m@@ -35686,20 +37033,12 @@[m [mend[m
- [m
-   [m
- [m
-[32m+[m
- Determines which bisect runner implementation gets used to run subsets of the suite during a bisection. Your choices are:.[m
- [m
-[32m+[m[32m:shell: Performs a spec run by shelling out, booting RSpec and your application environment each time. This runner is the most widely compatible runner, but is not as fast. On platforms that do not support forking, this is the default.[m
- [m
-[31m-:shell: Performs a spec run by shelling out, booting RSpec and your[m
-[31m-application environment each time. This runner is the most widely[m
-[31m-compatible runner, but is not as fast. On platforms that do not[m
-[31m-support forking, this is the default.[m
-[31m-:fork: Pre-boots RSpec and your application environment in a parent[m
-[31m-process, and then forks a child process for each spec run. This runner[m
-[31m-tends to be significantly faster than the :shell runner but cannot[m
-[31m-be used in some situations. On platforms that support forking, this[m
-[31m-is the default. If you use this runner, you should ensure that all[m
-[31m-of your one-time setup logic goes in a before(:suite) hook instead[m
-[31m-of getting run at the top-level of a file loaded by --require.[m
-[32m+[m[32m:fork: Pre-boots RSpec and your application environment in a parent process, and then forks a child process for each spec run. This runner tends to be significantly faster than the :shell runner but cannot be used in some situations. On platforms that support forking, this is the default. If you use this runner, you should ensure that all of your one-time setup logic goes in a before(:suite) hook instead of getting run at the top-level of a file loaded by --require.[m
- [m
- [m
- [m
-[36m@@ -35747,7 +37086,9 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. No longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mNo longer recommended because of complex behavior. Instead, rely on the fact that TTYs will display color by default, or set #color_mode to :on to display color on a non-TTY output.[m
-[32m+[m
- [m
- Enables color output if the output is a TTY. As of RSpec 3.6, this is the default behavior and this option is retained only for backwards compatibility.[m
- [m
-[36m@@ -35805,13 +37146,14 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- The mode for determining whether to display output in color. One of:.[m
- [m
-[32m+[m[32m:automatic - the output will be in color if the output is a TTY (the  default).[m
-[32m+[m
-[32m+[m[32m:on - the output will be in color, whether or not the output is a TTY.[m
- [m
-[31m-:automatic - the output will be in color if the output is a TTY (the[m
-[31m-default)[m
-[31m-:on - the output will be in color, whether or not the output is a TTY[m
-[31m-:off - the output will not be in color[m
-[32m+[m[32m:off - the output will not be in color.[m
- [m
- [m
- [m
-[36m@@ -36679,7 +38045,8 @@[m [mdefine_reader :output_stream[m
-       [m
-   [m
-   [m
-[31m-    Load files matching this pattern (default: '**{,/*/**}/*_spec.rb').[m
-[32m+[m[41m    [m
-[32m+[m[32mLoad files matching this pattern (default: '**{,//*}/*_spec.rb').[m
- [m
- [m
-   [m
-[36m@@ -36882,7 +38253,9 @@[m [mdefine_reader :requires[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse #filter_run_when_matching instead for the specific filters that you want to be ignored if none match.[m
-[32m+[m
- [m
- Run all examples if none match the configured filters (default: false).[m
- [m
-[36m@@ -36923,13 +38297,11 @@[m [mRSpec.shared_context "uses DB", :db => true do[m
- end[m
- [m
- [m
-[31m-...there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
-[32m+[m[32m…there are two ways RSpec can treat the :db => true metadata, each of which has a corresponding config option:.[m
- [m
-[32m+[m[32m:trigger_inclusion: this shared context will be implicitly included  in any groups (or examples) that have :db => true metadata.[m
- [m
-[31m-:trigger_inclusion: this shared context will be implicitly included[m
-[31m-in any groups (or examples) that have :db => true metadata.[m
-[31m-:apply_to_host_groups: the metadata will be inherited by the metadata[m
-[31m-hash of all host groups and examples.[m
-[32m+[m[32m:apply_to_host_groups: the metadata will be inherited by the metadata  hash of all host groups and examples.[m
- [m
- [m
- :trigger_inclusion is the legacy behavior from before RSpec 3.5 but should be considered deprecated. Instead, you can explicitly include a group with include_context:.[m
-[36m@@ -36939,7 +38311,7 @@[m [mRSpec.describe "My model" do[m
- end[m
- [m
- [m
-[31m-...or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
-[32m+[m[32m…or you can configure RSpec to include the context based on matching metadata using an API that mirrors configured module inclusion:.[m
- [m
- RSpec.configure do |rspec|[m
-   rspec.include_context "uses DB", :db => true[m
-[36m@@ -37048,7 +38423,8 @@[m [mdefine_reader :shared_context_metadata_behavior[m
-       [m
-   [m
-   [m
-[31m-    Don't print filter info i.e. "Run options: include :focus=>true" (default false). return [Boolean].[m
-[32m+[m[41m    [m
-[32m+[m[32mDon't print filter info i.e. “Run options: include :focus=>true” (default false). return [Boolean].[m
- [m
- [m
-   [m
-[36m@@ -37293,7 +38676,8 @@[m [mRSpec.configuration.foo? # Returns true if foo returns anything but nil or false[m
-             [m
-           [m
-           [m
-[31m-            — Set a default value for the generated getter and predicate methods:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mSet a default value for the generated getter and predicate methods:[m
- [m
- add_setting(:foo, :default => "default value")[m
- [m
-[36m@@ -37308,7 +38692,8 @@[m [madd_setting(:foo, :default => "default value")[m
-             [m
-           [m
-           [m
-[31m-            — Use :alias_with to alias the setter, getter, and predicate to another name, or names:[m
-[32m+[m[32m            —[m[41m [m
-[32m+[m[32mUse :alias_with to alias the setter, getter, and predicate to another name, or names:[m
- [m
- add_setting(:foo, :alias_with => :bar)[m
- add_setting(:foo, :alias_with => [:bar, :baz])[m
-[36m@@ -37608,7 +39002,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Define an alias for it_should_behave_like that allows different language (like "it_has_behavior" or "it_behaves_like") to be employed when including shared examples.[m
-[32m+[m
-[32m+[m[32mDefine an alias for it_should_behave_like that allows different language (like “it_has_behavior” or “it_behaves_like”) to be employed when including shared examples.[m
- [m
- [m
-   [m
-[36m@@ -37780,9 +39177,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Regexps used to exclude lines from backtraces.[m
- [m
-[31m-Excludes lines from ruby (and jruby) source, installed gems, anything in any "bin" directory, and any of the RSpec libs (outside gem installs) by default.[m
-[32m+[m[32mExcludes lines from ruby (and jruby) source, installed gems, anything in any “bin” directory, and any of the RSpec libs (outside gem installs) by default.[m
- [m
- You can modify the list via the getter, or replace it with the setter.[m
- [m
-[36m@@ -38917,8 +40344,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
+[36m@@ -38917,8 +38917,8 @@[m [mSimilar to include, but behavior is added to example groups, which are classes,[m
        [m
        [m
  module UiHelpers[m
@@ -1720,7 +295,7 @@
    end[m
  end[m
  [m
-[36m@@ -40457,9 +41924,9 @@[m [mReturns:[m
+[36m@@ -40457,9 +40457,9 @@[m [mReturns:[m
      [m
        # File 'lib/rspec/core/configuration.rb', line 1024[m
  [m
@@ -1732,13 +307,3 @@
    @reporter_buffer || @reporter ||=[m
      begin[m
        @reporter_buffer = DeprecationReporterBuffer.new[m
-[36m@@ -40537,7 +42006,8 @@[m [mdelegate_to_ordering_manager :seed=[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. This config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mThis config option was added in RSpec 2 to pave the way for this being the default behavior in RSpec 3. Now this option is a no-op.[m
- [m
- [m
- [m
