@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new[m
-[1mindex 25b59b7..ff3ad49 100644[m
+[1mindex 25b59b7..e8ad43a 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-Matchers-HaveHttpStatus-GenericStatus.html.new[m
 [36m@@ -46,6 +46,24 @@[m [mClass: RSpec::Rails::Matchers::HaveHttpStatus::GenericStatus[m
@@ -52,7 +52,7 @@
    [m
    [m
      Inherits:[m
-[36m@@ -191,9 +228,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
+[36m@@ -191,9 +225,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
    [m
  [m
  [m
@@ -62,152 +62,7 @@
  [m
  [m
    Constant SummaryConstant Summary[m
-[36m@@ -229,9 +263,12 @@[m [mexpect(response).to have_http_status(:redirect)[m
-   privateprivate[m
- [m
-   [m
-[31m-    Of status codes which represent a HTTP status code "group".Of status codes which represent a HTTP status code "group".[m
-[31m-Of status codes which represent a HTTP status code "group".[m
-[31m-Of status codes which represent a HTTP status code "group".[m
-[32m+[m[41m    [m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.Of status codes which represent a HTTP status code “group”.[m
-[32m+[m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
-[32m+[m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
- [m
-   [m
- [m
-[36m@@ -245,7 +282,8 @@[m [mOf status codes which represent a HTTP status code "group".[m
-   private[m
- [m
-   [m
-[31m-    Of status codes which represent a HTTP status code "group".[m
-[32m+[m[41m    [m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
- [m
-   [m
- [m
-[36m@@ -264,7 +302,8 @@[m [mOf status codes which represent a HTTP status code "group".[m
-   private[m
- [m
-   [m
-[31m-    Of status codes which represent a HTTP status code "group".[m
-[32m+[m[41m    [m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
- [m
-   [m
- [m
-[36m@@ -828,19 +892,22 @@[m [mend[m
-   [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.Returns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
- [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
-[36m@@ -858,8 +925,10 @@[m [mReturns:Returns:[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"of status codes which represent a HTTP status code "group"[m
-[31m-of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”of status codes which represent a HTTP status code “group”[m
-[32m+[m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -870,7 +939,8 @@[m [mof status codes which represent a HTTP status code "group"[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -885,7 +955,8 @@[m [mof status codes which represent a HTTP status code "group"[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -916,7 +987,8 @@[m [mReturns:[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -1049,7 +1121,8 @@[m [mend[m
-   [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
-[36m@@ -1067,7 +1140,8 @@[m [mReturns:[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -1118,7 +1192,8 @@[m [mend[m
-   [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
-[36m@@ -1136,7 +1211,8 @@[m [mReturns:[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m
-[36m@@ -2387,9 +2505,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
+[36m@@ -2387,9 +2423,6 @@[m [mexpect(response).to have_http_status(:redirect)[m
    [m
  [m
  [m
@@ -217,33 +72,3 @@
  [m
  [m
    Constant Summary[m
-[36m@@ -2421,7 +2536,8 @@[m [mexpect(response).to have_http_status(:redirect)[m
-   private[m
- [m
-   [m
-[31m-    Of status codes which represent a HTTP status code "group".[m
-[32m+[m[41m    [m
-[32m+[m[32mOf status codes which represent a HTTP status code “group”.[m
- [m
-   [m
- [m
-[36m@@ -2617,7 +2738,8 @@[m [mend[m
-   [m
-   [m
-        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .[m
-[31m-Returns of status codes which represent a HTTP status code "group".[m
-[32m+[m
-[32m+[m[32mReturns of status codes which represent a HTTP status code “group”.[m
- [m
- [m
-   [m
-[36m@@ -2635,7 +2757,8 @@[m [mReturns:[m
-       [m
-       [m
-         —[m
-[31m-        of status codes which represent a HTTP status code "group"[m
-[32m+[m[41m        [m
-[32m+[m[32mof status codes which represent a HTTP status code “group”[m
- [m
-       [m
-     [m

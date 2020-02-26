@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new[m
-[1mindex 1f82d04..08ee6d5 100644[m
+[1mindex 1f82d04..a3674a2 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ControllerExampleGroup-ClassMethods.html.new[m
 [36m@@ -20,6 +23,14 @@[m [mModule: RSpec::Rails::ControllerExampleGroup::ClassMethods[m
@@ -17,63 +17,3 @@
    [m
    [m
    [m
-[36m@@ -202,7 +229,8 @@[m [mDue to Ruby 1.8 scoping rules in anonymous subclasses, constants defined in Appl[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
-[36m@@ -227,7 +256,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
-[36m@@ -247,7 +278,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
-[36m@@ -887,7 +920,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
-[36m@@ -1258,7 +1297,8 @@[m [mend[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m
-[36m@@ -1554,7 +1602,8 @@[m [mOverview[m
- [m
-   [m
- [m
-[31m-Supports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in "config/routes.rb".[m
-[32m+[m
-[32m+[m[32mSupports a simple DSL for specifying behavior of ApplicationController. Creates an anonymous subclass of ApplicationController and evals the body in that context. Also sets up implicit routes for this controller, that are separate from those defined in “config/routes.rb”.[m
- [m
- If you would like to spec a subclass of ApplicationController, call controller like so:.[m
- [m

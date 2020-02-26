@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewAssigns.html.current b/export/rspec-rails-RSpec-Rails-ViewAssigns.html.new[m
-[1mindex 4cce7bf..b317482 100644[m
+[1mindex 4cce7bf..14a56eb 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ViewAssigns.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ViewAssigns.html.new[m
 [36m@@ -19,11 +21,23 @@[m [mModule: RSpec::Rails::ViewAssigns[m
@@ -26,73 +26,3 @@
    [m
    [m
    [m
-[36m@@ -365,17 +398,19 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with._assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m
- [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m
-[36m@@ -383,9 +418,10 @@[m [mOnce that change is released, this can be changed to something that checks for t[m
-   [m
- [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m
-[36m@@ -496,9 +532,10 @@[m [mend[m
- [m
-   [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m
-[36m@@ -581,9 +619,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m
-[36m@@ -757,9 +804,10 @@[m [mend[m
-       [m
-   [m
-   [m
-[32m+[m[41m    [m
- Compat-shim for AbstractController::Rendering#view_assigns.[m
- [m
-[31m-_assigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the _assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
-[32m+[m[32massigns was deprecated in favor of view_assigns after Rails-3.0.0 was released. Since we are not able to predict when the assigns/view_assigns patch will be released (I thought it would have been in 3.0.1, but 3.0.1 bypassed this change for a security fix), this bit ensures that we do the right thing without knowing anything about the Rails version we are dealing with.[m
- [m
- Once that change is released, this can be changed to something that checks for the Rails version when the module is being interpreted, as it was before commit dd0095.[m
- [m

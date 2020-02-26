@@ -1,5 +1,5 @@
 [1mdiff --git a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new[m
-[1mindex 2ea0fb2..94a9118 100644[m
+[1mindex 2ea0fb2..5683432 100644[m
 [1m--- a/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.current[m
 [1m+++ b/export/rspec-rails-RSpec-Rails-ViewExampleGroup-ExampleMethods.html.new[m
 [36m@@ -15,6 +16,12 @@[m [mModule: RSpec::Rails::ViewExampleGroup::ExampleMethods[m
@@ -28,112 +28,7 @@
  [m
    [m
    [m
-[36m@@ -161,9 +188,12 @@[m [mDelegates to ActionView::Base#render, so see documentation on that for more info[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. Use rendered instead.Use rendered instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.Use rendered instead.[m
-[32m+[m
-[32m+[m[32mUse rendered instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use rendered instead.[m
-[31m-Deprecated. Use rendered instead.[m
- [m
-   [m
- [m
-[36m@@ -177,7 +207,9 @@[m [mDeprecated. Use rendered instead.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -227,9 +262,12 @@[m [mSimulates the presence of a template on the file system by adding a Rails' Fixtu[m
-   [m
- [m
-   [m
-[31m-    Deprecated.Deprecated. Use view instead.Use view instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.Use view instead.[m
-[32m+[m
-[32m+[m[32mUse view instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use view instead.[m
-[31m-Deprecated. Use view instead.[m
- [m
-   [m
- [m
-[36m@@ -243,7 +281,9 @@[m [mDeprecated. Use view instead.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -329,7 +374,9 @@[m [mThe instance of ActionView::Base that is used to render the template.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -363,7 +410,9 @@[m [mThe instance of ActionView::Base that is used to render the template.[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -741,21 +798,26 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. Use rendered instead.Use rendered instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.Use rendered instead.[m
-[32m+[m
-[32m+[m[32mUse rendered instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use rendered instead.[m
-[31m-Deprecated. Use rendered instead.[m
- [m
- [m
- [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
- [m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
- [m
- [m
- [m
-[36m@@ -825,8 +887,7 @@[m [mDeprecated. Use rendered instead.[m
+[36m@@ -825,8 +841,7 @@[m [mDeprecated. Use rendered instead.[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113# File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -143,7 +38,7 @@
  # `assert_template` expects `response` to implement a #body method[m
    # like an `ActionDispatch::Response` does to force the view to[m
  # like an `ActionDispatch::Response` does to force the view to[m
-[36m@@ -845,8 +907,7 @@[m [mdefdef responseresponse[m
+[36m@@ -845,8 +861,7 @@[m [mdefdef responseresponse[m
    renderedrendered[m
  endend# File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -153,7 +48,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -862,8 +924,7 @@[m [mend[m
+[36m@@ -862,8 +878,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -163,7 +58,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -900,8 +962,7 @@[m [mend[m
+[36m@@ -900,8 +916,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -173,7 +68,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -940,8 +1002,7 @@[m [mend[m
+[36m@@ -940,8 +956,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -183,17 +78,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -960,7 +1022,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
- [m
- [m
- [m
-[36m@@ -993,8 +1056,7 @@[m [mend[m
+[36m@@ -993,8 +1009,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -203,48 +88,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -1160,21 +1227,26 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated.Deprecated. Use view instead.Use view instead.[m
-[32m+[m[32m    Deprecated.Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.Use view instead.[m
-[32m+[m
-[32m+[m[32mUse view instead.[m
-[32m+[m[32mDeprecated.[m[41m [m
- Use view instead.[m
-[31m-Deprecated. Use view instead.[m
- [m
- [m
- [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
- [m
- [m
- [m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
- [m
- [m
- [m
-[36m@@ -1274,7 +1346,8 @@[m [mend[m
- [m
-   [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
- [m
- [m
- [m
-[36m@@ -1314,23 +1388,23 @@[m [mend[m
+[36m@@ -1314,23 +1330,23 @@[m [mend[m
  describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo[m
    itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo[m
      viewview..stubstub((:foo:foo)) {{ ""foofoo"""foo" }}[m
@@ -274,7 +118,7 @@
    end[m
  end[m
  [m
-[36m@@ -1342,8 +1417,8 @@[m [mend[m
+[36m@@ -1342,8 +1358,8 @@[m [mend[m
  describe "widgets/new.html.erb" do[m
    it "shows all the widgets" do[m
      view.stub(:foo) { "foo" }[m
@@ -285,7 +129,7 @@
    end[m
  end[m
  [m
-[36m@@ -1357,8 +1433,8 @@[m [mend[m
+[36m@@ -1357,8 +1373,8 @@[m [mend[m
  describe "widgets/new.html.erb" do[m
    it "shows all the widgets" do[m
      view.stub(:foo) { "foo" }[m
@@ -296,7 +140,7 @@
    end[m
  end[m
  [m
-[36m@@ -1455,8 +1532,8 @@[m [mend[m
+[36m@@ -1455,8 +1471,8 @@[m [mend[m
  describe "widgets/new.html.erb" do[m
    it "shows all the widgets" do[m
      view.stub(:foo) { "foo" }[m
@@ -307,17 +151,7 @@
    end[m
  end[m
  [m
-[36m@@ -1574,7 +1653,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
- [m
- [m
- [m
-[36m@@ -1607,8 +1687,7 @@[m [mend[m
+[36m@@ -1607,8 +1623,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -327,17 +161,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -1664,7 +1745,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
- [m
- [m
- [m
-[36m@@ -1704,8 +1787,8 @@[m [mend[m
+[36m@@ -1704,8 +1720,8 @@[m [mend[m
  describe "widgets/new.html.erb" do[m
    it "shows all the widgets" do[m
      view.stub(:foo) { "foo" }[m
@@ -348,39 +172,7 @@
    end[m
  end[m
  [m
-[36m@@ -1834,7 +1924,9 @@[m [mOverview[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -1868,7 +1960,9 @@[m [mOverview[m
-   [m
- [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
-[32m+[m
-   [m
- [m
- [m
-[36m@@ -1983,7 +2079,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use rendered instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse rendered instead.[m
- [m
- [m
- [m
-[36m@@ -2016,8 +2113,7 @@[m [mend[m
+[36m@@ -2016,8 +2036,7 @@[m [mend[m
      [m
        # File 'lib/rspec/rails/example/view_example_group.rb', line 113[m
  [m
@@ -390,17 +182,7 @@
    # like an `ActionDispatch::Response` does to force the view to[m
    # render. For backwards compatibility, we use #response as an alias[m
    # for #rendered, but it needs to implement #body to avoid[m
-[36m@@ -2073,7 +2171,8 @@[m [mend[m
-       [m
-   [m
-   [m
-[31m-    Deprecated. Use view instead.[m
-[32m+[m[32m    Deprecated.[m[41m [m
-[32m+[m[32mUse view instead.[m
- [m
- [m
- [m
-[36m@@ -2113,8 +2213,8 @@[m [mend[m
+[36m@@ -2113,8 +2133,8 @@[m [mend[m
  describe "widgets/new.html.erb" do[m
    it "shows all the widgets" do[m
      view.stub(:foo) { "foo" }[m

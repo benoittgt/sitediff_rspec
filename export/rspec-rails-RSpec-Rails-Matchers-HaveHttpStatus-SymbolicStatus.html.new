@@ -134,7 +134,6 @@ Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
 OverviewOverview
   
        This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .   This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
-
 Provides an implementation for have_http_status matching against Rack symbol http status codes.Provides an implementation for have_http_status matching against Rack symbol http status codes.
 
 Not intended to be instantiated directly.Not intended to be instantiated directly.
@@ -142,7 +141,6 @@ Not intended to be instantiated directly.Not intended to be instantiated directl
 
   
        This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
-
 Provides an implementation for have_http_status matching against Rack symbol http status codes.
 
 Not intended to be instantiated directly.
@@ -152,7 +150,6 @@ Not intended to be instantiated directly.
 
   
        This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
-
 Provides an implementation for have_http_status matching against Rack symbol http status codes.
 
 Not intended to be instantiated directly.
@@ -277,11 +274,8 @@ Not intended to be instantiated directly.
   privateprivate
 
   
-    
-Explaining why the match failed.Explaining why the match failed.
-
+    Explaining why the match failed.Explaining why the match failed.
 Explaining why the match failed.
-
 Explaining why the match failed.
 
   
@@ -296,8 +290,7 @@ Explaining why the match failed.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -314,11 +307,8 @@ Explaining why the match failed.
   privateprivate
 
   
-    
-Explaining why the match failed.Explaining why the match failed.
-
+    Explaining why the match failed.Explaining why the match failed.
 Explaining why the match failed.
-
 Explaining why the match failed.
 
   
@@ -333,8 +323,7 @@ Explaining why the match failed.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -353,11 +342,8 @@ Explaining why the match failed.
   privateprivate
 
   
-    
-A new instance of SymbolicStatus.A new instance of SymbolicStatus.
-
+    A new instance of SymbolicStatus.A new instance of SymbolicStatus.
 A new instance of SymbolicStatus.
-
 A new instance of SymbolicStatus.
 
   
@@ -374,8 +360,7 @@ A new instance of SymbolicStatus.
   private
 
   
-    
-A new instance of SymbolicStatus.
+    A new instance of SymbolicStatus.
 
   
 
@@ -392,11 +377,8 @@ A new instance of SymbolicStatus.
   privateprivate
 
   
-    
-true if Rack's associated numeric HTTP code matched the response code.true if Rack's associated numeric HTTP code matched the response code.
-
+    true if Rack's associated numeric HTTP code matched the response code.true if Rack's associated numeric HTTP code matched the response code.
 true if Rack's associated numeric HTTP code matched the response code.
-
 true if Rack's associated numeric HTTP code matched the response code.
 
   
@@ -411,8 +393,7 @@ true if Rack's associated numeric HTTP code matched the response code.
   private
 
   
-    
-true if Rack's associated numeric HTTP code matched the response code.
+    true if Rack's associated numeric HTTP code matched the response code.
 
   
 
@@ -447,8 +428,7 @@ true if Rack's associated numeric HTTP code matched the response code.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -465,8 +445,7 @@ Explaining why the match failed.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -485,8 +464,7 @@ Explaining why the match failed.
   private
 
   
-    
-A new instance of SymbolicStatus.
+    A new instance of SymbolicStatus.
 
   
 
@@ -503,8 +481,7 @@ A new instance of SymbolicStatus.
   private
 
   
-    
-true if Rack's associated numeric HTTP code matched the response code.
+    true if Rack's associated numeric HTTP code matched the response code.
 
   
 
@@ -555,13 +532,11 @@ true if Rack's associated numeric HTTP code matched the response code.
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.Returns a new instance of SymbolicStatus.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.
 
 
@@ -569,7 +544,6 @@ Returns a new instance of SymbolicStatus.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.
 
 
@@ -690,7 +664,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.
 
 
@@ -733,7 +706,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.
 
 
@@ -968,13 +940,11 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.Returns explaining why the match failed.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -982,7 +952,6 @@ Returns explaining why the match failed.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1001,9 +970,7 @@ Returns:Returns:
       
       
         —
-        
-explaining why the match failedexplaining why the match failed
-
+        explaining why the match failedexplaining why the match failed
 explaining why the match failed
 
       
@@ -1015,8 +982,7 @@ explaining why the match failed
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1031,8 +997,7 @@ explaining why the match failed
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1052,8 +1017,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1159,7 +1123,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1178,8 +1141,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1215,13 +1177,11 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.Returns explaining why the match failed.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1229,7 +1189,6 @@ Returns explaining why the match failed.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1248,9 +1207,7 @@ Returns:Returns:
       
       
         —
-        
-explaining why the match failedexplaining why the match failed
-
+        explaining why the match failedexplaining why the match failed
 explaining why the match failed
 
       
@@ -1262,8 +1219,7 @@ explaining why the match failed
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1278,8 +1234,7 @@ explaining why the match failed
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1299,8 +1254,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1406,7 +1360,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1425,8 +1378,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1462,13 +1414,11 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .   This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
@@ -1476,7 +1426,6 @@ Returns true if Rack's associated numeric HTTP code matched the response code.
 
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
@@ -1496,9 +1445,7 @@ Returns true if Rack's associated numeric HTTP code matched the response code.
       
       
         —
-        
-object providing an http code to matchobject providing an http code to match
-
+        object providing an http code to matchobject providing an http code to match
 object providing an http code to match
 
       
@@ -1512,8 +1459,7 @@ object providing an http code to match
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -1530,8 +1476,7 @@ object providing an http code to match
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -1549,9 +1494,7 @@ Returns:Returns:
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response codetrue if Rack's associated numeric HTTP code matched the response code
-
+        true if Rack's associated numeric HTTP code matched the response codetrue if Rack's associated numeric HTTP code matched the response code
 true if Rack's associated numeric HTTP code matched the response code
 
       
@@ -1563,8 +1506,7 @@ true if Rack's associated numeric HTTP code matched the response code
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
@@ -1579,8 +1521,7 @@ true if Rack's associated numeric HTTP code matched the response code
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
@@ -1601,8 +1542,7 @@ true if Rack's associated numeric HTTP code matched the response code
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -1620,8 +1560,7 @@ Returns:
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
@@ -1757,7 +1696,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
@@ -1777,8 +1715,7 @@ Returns true if Rack's associated numeric HTTP code matched the response code.
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -1796,8 +1733,7 @@ Returns:
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
@@ -1888,7 +1824,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1907,8 +1842,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -1944,7 +1878,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -1963,8 +1896,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -2000,7 +1932,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
@@ -2020,8 +1951,7 @@ Returns true if Rack's associated numeric HTTP code matched the response code.
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -2039,8 +1969,7 @@ Returns:
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
@@ -2130,7 +2059,6 @@ Class: RSpec::Rails::Matchers::HaveHttpStatus::SymbolicStatus
 Overview
   
        This class is part of a private API.   You should avoid using this class if possible, as it may be removed or be changed in the future. .
-
 Provides an implementation for have_http_status matching against Rack symbol http status codes.
 
 Not intended to be instantiated directly.
@@ -2206,8 +2134,7 @@ Not intended to be instantiated directly.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -2224,8 +2151,7 @@ Explaining why the match failed.
   private
 
   
-    
-Explaining why the match failed.
+    Explaining why the match failed.
 
   
 
@@ -2244,8 +2170,7 @@ Explaining why the match failed.
   private
 
   
-    
-A new instance of SymbolicStatus.
+    A new instance of SymbolicStatus.
 
   
 
@@ -2262,8 +2187,7 @@ A new instance of SymbolicStatus.
   private
 
   
-    
-true if Rack's associated numeric HTTP code matched the response code.
+    true if Rack's associated numeric HTTP code matched the response code.
 
   
 
@@ -2314,7 +2238,6 @@ true if Rack's associated numeric HTTP code matched the response code.
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns a new instance of SymbolicStatus.
 
 
@@ -2406,7 +2329,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -2425,8 +2347,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -2462,7 +2383,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns explaining why the match failed.
 
 
@@ -2481,8 +2401,7 @@ Returns:
       
       
         —
-        
-explaining why the match failed
+        explaining why the match failed
 
       
     
@@ -2518,7 +2437,6 @@ end
   
   
        This method is part of a private API.   You should avoid using this method if possible, as it may be removed or be changed in the future. .
-
 Returns true if Rack's associated numeric HTTP code matched the response code.
 
 
@@ -2538,8 +2456,7 @@ Returns true if Rack's associated numeric HTTP code matched the response code.
       
       
         —
-        
-object providing an http code to match
+        object providing an http code to match
 
       
     
@@ -2557,8 +2474,7 @@ Returns:
       
       
         —
-        
-true if Rack's associated numeric HTTP code matched the response code
+        true if Rack's associated numeric HTTP code matched the response code
 
       
     
