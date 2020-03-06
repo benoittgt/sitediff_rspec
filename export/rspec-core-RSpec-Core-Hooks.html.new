@@ -1710,19 +1710,19 @@ Declare a block of code, parts of which will be run before and parts after the e
 aroundaround((:example:example)) dodo ||exex||
   # Do some stuff before.
 # Do some stuff before.
-  exex..runrun  # Do some stuff after.
+  exex..runrun
+  # Do some stuff after.
 # Do some stuff after.
-
 endend
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 
@@ -1761,8 +1761,8 @@ Declare a block of code, parts of which will be run before and parts after the e
 
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 
@@ -1799,8 +1799,8 @@ Declare a block of code, parts of which will be run before and parts after the e
 
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 
@@ -2682,8 +2682,8 @@ Declare a block of code, parts of which will be run before and parts after the e
 
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 
@@ -4986,8 +4986,8 @@ Declare a block of code, parts of which will be run before and parts after the e
 
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 
@@ -5926,8 +5926,8 @@ Declare a block of code, parts of which will be run before and parts after the e
 
 around(:example) do |ex|
   # Do some stuff before.
-  ex.run  # Do some stuff after.
-
+  ex.run
+  # Do some stuff after.
 end
 
 

@@ -554,7 +554,8 @@ Determines where the methods like should_receive, and stub are added.
     
       # File 'lib/rspec/mocks/syntax.rb', line 181# File 'lib/rspec/mocks/syntax.rb', line 181
 
-defdef selfself..default_should_syntax_hostdefault_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+defdef selfself..default_should_syntax_hostdefault_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
 # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
 # yet `BasicObject` still exists and patching onto ::Object breaks things
@@ -564,7 +565,6 @@ defdef selfself..default_should_syntax_hostdefault_should_syntax_host  # JRuby 1
 #
   # See: https://github.com/jruby/jruby/issues/814
 # See: https://github.com/jruby/jruby/issues/814
-
   ifif defined?defined?((JRUBY_VERSIONJRUBY_VERSION)) &&&& JRUBY_VERSIONJRUBY_VERSION ==== ''1.7.41.7.4'''1.7.4' &&&& RUBY_VERSIONRUBY_VERSION..to_fto_f >> 1.81.8
     returnreturn ::::BasicObjectBasicObject
   endend
@@ -584,12 +584,12 @@ defdef selfself..default_should_syntax_hostdefault_should_syntax_host  # JRuby 1
   ::::BasicObjectBasicObject
 endend# File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -607,12 +607,12 @@ end
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -657,12 +657,12 @@ end
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -709,12 +709,12 @@ end
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -774,12 +774,12 @@ Determines where the methods like should_receive, and stub are added.
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -3197,12 +3197,12 @@ Determines where the methods like should_receive, and stub are added.
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end
@@ -3906,12 +3906,12 @@ Determines where the methods like should_receive, and stub are added.
     
       # File 'lib/rspec/mocks/syntax.rb', line 181
 
-def self.default_should_syntax_host  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
+def self.default_should_syntax_host
+  # JRuby 1.7.4 introduces a regression whereby `defined?(::BasicObject) => nil`
   # yet `BasicObject` still exists and patching onto ::Object breaks things
   # e.g. SimpleDelegator expectations won't work
   #
   # See: https://github.com/jruby/jruby/issues/814
-
   if defined?(JRUBY_VERSION) && JRUBY_VERSION == '1.7.4' && RUBY_VERSION.to_f > 1.8
     return ::BasicObject
   end

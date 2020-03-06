@@ -5986,41 +5986,41 @@ A message expectation will fail if the message is received with different argume
       
       allowallow((cartcart))..toto receivereceive((:add:add)) {{ :failure:failure }}
 allowallow((cartcart))..toto receivereceive((:add:add))..withwith((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379)))) {{ :success:success }}
-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))# => :failure
+cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))
 # => :failure
-
-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))# => :success
+# => :failure
+cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))
+# => :success
 # => :success
 
-
 expectexpect((cartcart))..toto receivereceive((:add:add))..withwith((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379)))) {{ :success:success }}
-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))# => failed expectation
+cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 12345678901234567890))))
 # => failed expectation
-
-cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))# => passes# => passes
-allow(cart).to receive(:add) { :failure }
+# => failed expectation
+cartcart..addadd((BookBook..newnew((:isbn:isbn =>=> 19343563791934356379))))
+# => passes# => passesallow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-allow(cart).to receive(:add) { :failure }
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passesallow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
     Examples:
@@ -6028,16 +6028,16 @@ cart.add(Book.new(:isbn => 1934356379))# => passes
       
       allow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
 
@@ -6094,16 +6094,16 @@ self, to support further chaining.
       
       allow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
 
@@ -6300,16 +6300,16 @@ A message expectation will fail if the message is received with different argume
       
       allow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
 
@@ -7487,16 +7487,16 @@ A message expectation will fail if the message is received with different argume
       
       allow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
 
@@ -9063,16 +9063,16 @@ A message expectation will fail if the message is received with different argume
       
       allow(cart).to receive(:add) { :failure }
 allow(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => :failure
-
-cart.add(Book.new(:isbn => 1934356379))# => :success
-
+cart.add(Book.new(:isbn => 1234567890))
+# => :failure
+cart.add(Book.new(:isbn => 1934356379))
+# => :success
 
 expect(cart).to receive(:add).with(Book.new(:isbn => 1934356379)) { :success }
-cart.add(Book.new(:isbn => 1234567890))# => failed expectation
-
-cart.add(Book.new(:isbn => 1934356379))# => passes
-
+cart.add(Book.new(:isbn => 1234567890))
+# => failed expectation
+cart.add(Book.new(:isbn => 1934356379))
+# => passes
     
   
 

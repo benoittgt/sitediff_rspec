@@ -5836,7 +5836,8 @@ defdef runrun((example_group_instanceexample_group_instance,, reporterreporter))
                   ''Expected example to fail since it is pending, but it passed.Expected example to fail since it is pending, but it passed.'''Expected example to fail since it is pending, but it passed.',,
                   [[locationlocation]]
           endend
-        rescuerescue PendingPending::::SkipDeclaredInExampleSkipDeclaredInExample =>=> __          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescuerescue PendingPending::::SkipDeclaredInExampleSkipDeclaredInExample =>=> __
+          # The "=> _" is normally useless but on JRuby it is a workaround
 # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
 # for a bug that prevents us from getting backtraces:
@@ -5848,7 +5849,6 @@ defdef runrun((example_group_instanceexample_group_instance,, reporterreporter))
 # no-op, required metadata has already been set by the `skip`
           # method.
 # method.
-
         rescuerescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowItAllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt =>=> ee
           set_exceptionset_exception((ee))
         ensureensure
@@ -5894,13 +5894,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -5947,13 +5947,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -6057,13 +6057,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -6169,13 +6169,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -6313,13 +6313,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -7247,13 +7247,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure
@@ -8800,13 +8800,13 @@ def run(example_group_instance, reporter)
                   'Expected example to fail since it is pending, but it passed.',
                   [location]
           end
-        rescue Pending::SkipDeclaredInExample => _          # The "=> _" is normally useless but on JRuby it is a workaround
+        rescue Pending::SkipDeclaredInExample => _
+          # The "=> _" is normally useless but on JRuby it is a workaround
           # for a bug that prevents us from getting backtraces:
           # https://github.com/jruby/jruby/issues/4467
           #
           # no-op, required metadata has already been set by the `skip`
           # method.
-
         rescue AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt => e
           set_exception(e)
         ensure

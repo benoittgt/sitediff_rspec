@@ -373,9 +373,9 @@ end
 And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.
 
 modulemodule CustomGameMatchersCustomGameMatchers
-  classclass BeInZoneBeInZone    # ...
+  classclass BeInZoneBeInZone
+    # ...
 # ...
-
   endend
 
   defdef be_in_zonebe_in_zone((expectedexpected))
@@ -385,13 +385,13 @@ modulemodule CustomGameMatchersCustomGameMatchers
 endend
 
 describedescribe ""Player behaviourPlayer behaviour"""Player behaviour" dodo
-  includeinclude CustomGameMatchersCustomGameMatchers  # ...
+  includeinclude CustomGameMatchersCustomGameMatchers
+  # ...
 # ...
-
 endend
 module CustomGameMatchers
-  class BeInZone    # ...
-
+  class BeInZone
+    # ...
   end
 
   def be_in_zone(expected)
@@ -400,12 +400,12 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers  # ...
-
+  include CustomGameMatchers
+  # ...
 end
 module CustomGameMatchers
-  class BeInZone    # ...
-
+  class BeInZone
+    # ...
   end
 
   def be_in_zone(expected)
@@ -414,8 +414,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers  # ...
-
+  include CustomGameMatchers
+  # ...
 end
 
 
@@ -621,8 +621,8 @@ end
 And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone    # ...
-
+  class BeInZone
+    # ...
   end
 
   def be_in_zone(expected)
@@ -631,8 +631,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers  # ...
-
+  include CustomGameMatchers
+  # ...
 end
 
 
@@ -818,8 +818,8 @@ end
 And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone    # ...
-
+  class BeInZone
+    # ...
   end
 
   def be_in_zone(expected)
@@ -828,8 +828,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers  # ...
-
+  include CustomGameMatchers
+  # ...
 end
 
 
@@ -9623,21 +9623,21 @@ end
     Examples:Examples:
     
       
-      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))# is identical to:
+      expectexpect((resultsresults))..toto contain_exactlycontain_exactly((11,, 22))
 # is identical to:
-
-expectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)# is identical to:
-
-expect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)# is identical to:
-
+# is identical to:
+expectexpect((resultsresults))..toto match_arraymatch_array(([[11,, 22]]))expect(results).to contain_exactly(1, 2)
+# is identical to:
+expect(results).to match_array([1, 2])expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)# is identical to:
-
+      expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   
@@ -9660,8 +9660,8 @@ expect(results).to match_array([1, 2])
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)# is identical to:
-
+      expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   
@@ -9763,8 +9763,8 @@ end
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)# is identical to:
-
+      expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   
@@ -13514,8 +13514,8 @@ end
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)# is identical to:
-
+      expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   
@@ -14310,8 +14310,8 @@ end
 And then expose the method to your specs. This is normally done by including the method and the class in a module, which is then included in your spec:.
 
 module CustomGameMatchers
-  class BeInZone    # ...
-
+  class BeInZone
+    # ...
   end
 
   def be_in_zone(expected)
@@ -14320,8 +14320,8 @@ module CustomGameMatchers
 end
 
 describe "Player behaviour" do
-  include CustomGameMatchers  # ...
-
+  include CustomGameMatchers
+  # ...
 end
 
 
@@ -16621,8 +16621,8 @@ end
     Examples:
     
       
-      expect(results).to contain_exactly(1, 2)# is identical to:
-
+      expect(results).to contain_exactly(1, 2)
+# is identical to:
 expect(results).to match_array([1, 2])
     
   

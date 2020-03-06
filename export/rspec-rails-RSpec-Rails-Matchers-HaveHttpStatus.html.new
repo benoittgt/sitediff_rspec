@@ -520,13 +520,13 @@ defdef as_test_responseas_test_response((objobj))
     ::::ActionDispatchActionDispatch::::TestResponseTestResponse..from_responsefrom_response((objobj))
   elsifelsif ::::ActionDispatchActionDispatch::::TestResponseTestResponse ====== objobj
     objobj
-  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))    # Acts As Capybara Session
+  elsifelsif objobj..respond_to?respond_to?((:status_code:status_code)) &&&& objobj..respond_to?respond_to?((:response_headers:response_headers))
+    # Acts As Capybara Session
 # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
 # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
 # Capybara or catch `NameError`s for the undefined constants
-
     objobj == ActionDispatchActionDispatch::::ResponseResponse..newnew..taptap dodo ||respresp||
       respresp..statusstatus  == objobj..status_codestatus_code
       respresp..headersheaders..clearclear
@@ -545,10 +545,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -569,10 +569,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -621,10 +621,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -675,10 +675,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -774,10 +774,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -1252,10 +1252,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear
@@ -1871,10 +1871,10 @@ def as_test_response(obj)
     ::ActionDispatch::TestResponse.from_response(obj)
   elsif ::ActionDispatch::TestResponse === obj
     obj
-  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)    # Acts As Capybara Session
+  elsif obj.respond_to?(:status_code) && obj.respond_to?(:response_headers)
+    # Acts As Capybara Session
     # Hack to support `Capybara::Session` without having to load
     # Capybara or catch `NameError`s for the undefined constants
-
     obj = ActionDispatch::Response.new.tap do |resp|
       resp.status  = obj.status_code
       resp.headers.clear

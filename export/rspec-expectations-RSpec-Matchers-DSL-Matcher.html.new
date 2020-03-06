@@ -941,9 +941,9 @@ defdef initializeinitialize((namename,, declarationsdeclarations,, matcher_execu
   @chained_method_clauses@chained_method_clauses == [[]]
   @block_arg@block_arg == block_argblock_arg
 
-  classclass <<<< selfself    # See `Macros#define_user_override` above, for an explanation.
+  classclass <<<< selfself
+    # See `Macros#define_user_override` above, for an explanation.
 # See `Macros#define_user_override` above, for an explanation.
-
     includeinclude((@user_method_defs@user_method_defs == ModuleModule..newnew))
     selfself
   endend..class_execclass_exec((**expectedexpected,, &&declarationsdeclarations))
@@ -957,8 +957,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -974,8 +974,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -1012,8 +1012,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -1052,8 +1052,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -1105,8 +1105,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -1163,8 +1163,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)
@@ -3583,8 +3583,8 @@ def initialize(name, declarations, matcher_execution_context, *expected, &block_
   @chained_method_clauses = []
   @block_arg = block_arg
 
-  class << self    # See `Macros#define_user_override` above, for an explanation.
-
+  class << self
+    # See `Macros#define_user_override` above, for an explanation.
     include(@user_method_defs = Module.new)
     self
   end.class_exec(*expected, &declarations)

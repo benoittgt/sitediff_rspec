@@ -1158,19 +1158,19 @@ end
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpecRSpec..describedescribe WidgetWidget dodo
-  itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}  # or
+  itit {{ is_expectedis_expected..toto validate_presence_ofvalidate_presence_of((:name:name)) }}
+  # or
 # or
-
   itit {{ shouldshould validate_presence_ofvalidate_presence_of((:name:name)) }}
 endend
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1179,8 +1179,8 @@ While the examples below demonstrate how to use subject explicitly in examples, 
 subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1192,8 +1192,8 @@ While the examples below demonstrate how to use subject explicitly in examples, 
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1222,8 +1222,8 @@ Because subject is designed to create state that is reset between each example, 
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1249,8 +1249,8 @@ While the examples below demonstrate how to use subject explicitly in examples, 
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1281,9 +1281,9 @@ While the examples below demonstrate how to use subject explicitly in examples, 
 RSpecRSpec..describedescribe PersonPerson dodo
   subjectsubject {{ PersonPerson..newnew((:birthdate:birthdate =>=> 1919..yearsyears..agoago)) }}
   itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo
-    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
+    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
 # ^ ^ explicit reference to subject not recommended
-
   endend
 endend
 
@@ -1291,64 +1291,64 @@ endend
 # Implicit subject => { Person.new }.
 RSpecRSpec..describedescribe PersonPerson dodo
   itit ""should be eligible to voteshould be eligible to vote"""should be eligible to vote" dodo
-    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
+    subjectsubject..shouldshould be_eligible_to_votebe_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
 # ^ ^ explicit reference to subject not recommended
-
   endend
 endend
 
 # One-liner syntax - expectation is set on the subject.
 # One-liner syntax - expectation is set on the subject.
 RSpecRSpec..describedescribe PersonPerson dodo
-  itit {{ is_expectedis_expected..toto be_eligible_to_votebe_eligible_to_vote }}  # or
+  itit {{ is_expectedis_expected..toto be_eligible_to_votebe_eligible_to_vote }}
+  # or
 # or
-
   itit {{ shouldshould be_eligible_to_votebe_eligible_to_vote }}
 endend
 # Explicit declaration of subject.
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
 # Explicit declaration of subject.
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     
@@ -1361,23 +1361,23 @@ end
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     
@@ -1414,23 +1414,23 @@ end
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     
@@ -1562,8 +1562,8 @@ end
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1593,23 +1593,23 @@ While the examples below demonstrate how to use subject explicitly in examples, 
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     
@@ -1859,8 +1859,8 @@ end
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -1890,23 +1890,23 @@ While the examples below demonstrate how to use subject explicitly in examples, 
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     
@@ -2301,8 +2301,8 @@ end
     subject was contributed by Joe Ferris to support the one-liner syntax embraced by shoulda matchers:.
 
 RSpec.describe Widget do
-  it { is_expected.to validate_presence_of(:name) }  # or
-
+  it { is_expected.to validate_presence_of(:name) }
+  # or
   it { should validate_presence_of(:name) }
 end
 
@@ -2332,23 +2332,23 @@ While the examples below demonstrate how to use subject explicitly in examples, 
 RSpec.describe Person do
   subject { Person.new(:birthdate => 19.years.ago) }
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # Implicit subject => { Person.new }.
 RSpec.describe Person do
   it "should be eligible to vote" do
-    subject.should be_eligible_to_vote    # ^ ^ explicit reference to subject not recommended
-
+    subject.should be_eligible_to_vote
+    # ^ ^ explicit reference to subject not recommended
   end
 end
 
 # One-liner syntax - expectation is set on the subject.
 RSpec.describe Person do
-  it { is_expected.to be_eligible_to_vote }  # or
-
+  it { is_expected.to be_eligible_to_vote }
+  # or
   it { should be_eligible_to_vote }
 end
     

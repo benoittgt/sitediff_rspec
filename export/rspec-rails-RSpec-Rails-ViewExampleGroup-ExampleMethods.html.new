@@ -841,7 +841,8 @@ Deprecated. Use rendered instead.
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113# File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-defdef responseresponse  # `assert_template` expects `response` to implement a #body method
+defdef responseresponse
+  # `assert_template` expects `response` to implement a #body method
 # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
 # like an `ActionDispatch::Response` does to force the view to
@@ -851,7 +852,6 @@ defdef responseresponse  # `assert_template` expects `response` to implement a #
 # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
 # `assert_template` raising a `NoMethodError`.
-
   unlessunless renderedrendered..respond_to?respond_to?((:body:body))
     defdef renderedrendered..bodybody
       selfself
@@ -861,12 +861,12 @@ defdef responseresponse  # `assert_template` expects `response` to implement a #
   renderedrendered
 endend# File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -878,12 +878,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -916,12 +916,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -956,12 +956,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -1009,12 +1009,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -1330,23 +1330,23 @@ end
 describedescribe ""widgets/new.html.erbwidgets/new.html.erb"""widgets/new.html.erb" dodo
   itit ""shows all the widgetsshows all the widgets"""shows all the widgets" dodo
     viewview..stubstub((:foo:foo)) {{ ""foofoo"""foo" }}
-    renderrender    # ...
+    renderrender
+    # ...
 # ...
-
   endend
 endend
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 
@@ -1358,8 +1358,8 @@ end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 
@@ -1373,8 +1373,8 @@ end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 
@@ -1471,8 +1471,8 @@ end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 
@@ -1623,12 +1623,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -1720,8 +1720,8 @@ end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 
@@ -2036,12 +2036,12 @@ end
     
       # File 'lib/rspec/rails/example/view_example_group.rb', line 113
 
-def response  # `assert_template` expects `response` to implement a #body method
+def response
+  # `assert_template` expects `response` to implement a #body method
   # like an `ActionDispatch::Response` does to force the view to
   # render. For backwards compatibility, we use #response as an alias
   # for #rendered, but it needs to implement #body to avoid
   # `assert_template` raising a `NoMethodError`.
-
   unless rendered.respond_to?(:body)
     def rendered.body
       self
@@ -2133,8 +2133,8 @@ end
 describe "widgets/new.html.erb" do
   it "shows all the widgets" do
     view.stub(:foo) { "foo" }
-    render    # ...
-
+    render
+    # ...
   end
 end
 

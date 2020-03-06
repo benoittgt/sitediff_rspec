@@ -5581,12 +5581,12 @@ Defines a callback that runs after the first example with matching metadata is d
     
       # File 'lib/rspec/core/configuration.rb', line 500# File 'lib/rspec/core/configuration.rb', line 500
 
-defdef initializeinitialize  # rubocop:disable Style/GlobalVars
+defdef initializeinitialize
+  # rubocop:disable Style/GlobalVars
 # rubocop:disable Style/GlobalVars
-
-  @start_time@start_time == $_rspec_core_load_started_at$_rspec_core_load_started_at |||| ::::RSpecRSpec::::CoreCore::::TimeTime..nownow  # rubocop:enable Style/GlobalVars
+  @start_time@start_time == $_rspec_core_load_started_at$_rspec_core_load_started_at |||| ::::RSpecRSpec::::CoreCore::::TimeTime..nownow
+  # rubocop:enable Style/GlobalVars
 # rubocop:enable Style/GlobalVars
-
   @expectation_frameworks@expectation_frameworks == [[]]
   @include_modules@include_modules == FilterableItemRepositoryFilterableItemRepository::::QueryOptimizedQueryOptimized..newnew((:any?:any?))
   @extend_modules@extend_modules  == FilterableItemRepositoryFilterableItemRepository::::QueryOptimizedQueryOptimized..newnew((:any?:any?))
@@ -5639,10 +5639,10 @@ defdef initializeinitialize  # rubocop:disable Style/GlobalVars
   define_built_in_hooksdefine_built_in_hooks
 endend# File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -5697,10 +5697,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -5817,10 +5817,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -5939,10 +5939,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -6073,10 +6073,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -6212,10 +6212,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -21870,9 +21870,9 @@ Similar to include, but behavior is added to example groups, which are classes, 
       
       
 modulemodule UiHelpersUiHelpers
-  defdef run_in_browserrun_in_browser    # ...
+  defdef run_in_browserrun_in_browser
+    # ...
 # ...
-
   endend
 endend
 
@@ -21889,8 +21889,8 @@ describedescribe ""edit profileedit profile"""edit profile",, :type:type =>=> :r
   endend
 endend
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -21906,8 +21906,8 @@ describe "edit profile", :type => :request do
   end
 end
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -21929,8 +21929,8 @@ end
       
       
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -21972,8 +21972,8 @@ end
       
       
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -22114,8 +22114,8 @@ Similar to include, but behavior is added to example groups, which are classes, 
       
       
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -28782,11 +28782,11 @@ Returns:
     
       # File 'lib/rspec/core/configuration.rb', line 1024# File 'lib/rspec/core/configuration.rb', line 1024
 
-defdef reporterreporter  # @reporter_buffer should only ever be set in this method to cover
+defdef reporterreporter
+  # @reporter_buffer should only ever be set in this method to cover
 # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
 # initialization of @reporter.
-
   @reporter_buffer@reporter_buffer |||| @reporter@reporter ||=||=
     beginbegin
       @reporter_buffer@reporter_buffer == DeprecationReporterBufferDeprecationReporterBuffer..newnew
@@ -28797,9 +28797,9 @@ defdef reporterreporter  # @reporter_buffer should only ever be set in this meth
     endend
 endend# File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -28812,9 +28812,9 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -28846,9 +28846,9 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -28882,9 +28882,9 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -28947,9 +28947,9 @@ Returns:
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -31872,8 +31872,8 @@ Similar to include, but behavior is added to example groups, which are classes, 
       
       
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -33412,9 +33412,9 @@ Returns:
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new
@@ -35609,10 +35609,10 @@ end
     
       # File 'lib/rspec/core/configuration.rb', line 500
 
-def initialize  # rubocop:disable Style/GlobalVars
-
-  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now  # rubocop:enable Style/GlobalVars
-
+def initialize
+  # rubocop:disable Style/GlobalVars
+  @start_time = $_rspec_core_load_started_at || ::RSpec::Core::Time.now
+  # rubocop:enable Style/GlobalVars
   @expectation_frameworks = []
   @include_modules = FilterableItemRepository::QueryOptimized.new(:any?)
   @extend_modules  = FilterableItemRepository::QueryOptimized.new(:any?)
@@ -38917,8 +38917,8 @@ Similar to include, but behavior is added to example groups, which are classes, 
       
       
 module UiHelpers
-  def run_in_browser    # ...
-
+  def run_in_browser
+    # ...
   end
 end
 
@@ -40457,9 +40457,9 @@ Returns:
     
       # File 'lib/rspec/core/configuration.rb', line 1024
 
-def reporter  # @reporter_buffer should only ever be set in this method to cover
+def reporter
+  # @reporter_buffer should only ever be set in this method to cover
   # initialization of @reporter.
-
   @reporter_buffer || @reporter ||=
     begin
       @reporter_buffer = DeprecationReporterBuffer.new

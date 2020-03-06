@@ -463,24 +463,24 @@ end
       # path can be built because all required params are present in the hash
 # path can be built because all required params are present in the hash
 view_path_builderview_path_builder == ViewPathBuilderViewPathBuilder..newnew((::::RailsRails..applicationapplication..routesroutes))
-view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''showshow'''show',, :id:id =>=> ''5454'''54' }}))# => "/post/54"# => "/post/54"
-# path can be built because all required params are present in the hash
+view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''showshow'''show',, :id:id =>=> ''5454'''54' }}))
+# => "/post/54"# => "/post/54"# path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-# path can be built because all required params are present in the hash
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"# path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
 # path cannot be built because the params are missing a required element (:id)
-view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''deletedelete'''delete' }}))# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-# path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-# path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builderview_path_builder..path_forpath_for(({{ :controller:controller =>=> ''postsposts'''posts',, :action:action =>=> ''deletedelete'''delete' }}))
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}# path cannot be built because the params are missing a required element (:id)
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
     Examples:
@@ -488,13 +488,13 @@ view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => 
       
       # path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
 
@@ -507,13 +507,13 @@ view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => 
       
       # path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
 
@@ -629,13 +629,13 @@ end
       
       # path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
 
@@ -685,13 +685,13 @@ end
       
       # path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
 
@@ -885,13 +885,13 @@ end
       
       # path can be built because all required params are present in the hash
 view_path_builder = ViewPathBuilder.new(::Rails.application.routes)
-view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })# => "/post/54"
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'show', :id => '54' })
+# => "/post/54"
     
       
       # path cannot be built because the params are missing a required element (:id)
-view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
-
+view_path_builder.path_for({ :controller => 'posts', :action => 'delete' })
+# => ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"posts"}
     
   
 

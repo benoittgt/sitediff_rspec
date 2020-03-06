@@ -3142,28 +3142,28 @@ end
       
       RSpecRSpec..configureconfigure dodo ||rspecrspec||
   rspecrspec..expect_withexpect_with :rspec:rspec dodo ||cc||
-    cc..syntaxsyntax == :should:should    # or
+    cc..syntaxsyntax == :should:should
+    # or
 # or
-
-    cc..syntaxsyntax == :expect:expect    # or
+    cc..syntaxsyntax == :expect:expect
+    # or
 # or
-
     cc..syntaxsyntax == [[:should:should,, :expect:expect]]
   endend
 endendRSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 endRSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
@@ -3174,10 +3174,10 @@ end
       
       RSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
@@ -3243,10 +3243,10 @@ the syntaxes to enable
       
       RSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
@@ -3464,10 +3464,10 @@ end
       
       RSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
@@ -4287,10 +4287,10 @@ end
       
       RSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
@@ -5308,10 +5308,10 @@ end
       
       RSpec.configure do |rspec|
   rspec.expect_with :rspec do |c|
-    c.syntax = :should    # or
-
-    c.syntax = :expect    # or
-
+    c.syntax = :should
+    # or
+    c.syntax = :expect
+    # or
     c.syntax = [:should, :expect]
   end
 end
