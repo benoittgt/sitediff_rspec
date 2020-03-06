@@ -711,34 +711,34 @@ one or more notifications to be registered to the specified formatter
       
 
 
-85
 86
 87
+88
 
 
-85
 86
 87
+88
     
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85# File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86# File 'lib/rspec/core/formatters.rb', line 86
 
 defdef selfself..registerregister((formatter_classformatter_class,, **notificationsnotifications))
   LoaderLoader..formattersformatters[[formatter_classformatter_class]] == notificationsnotifications
-endend# File 'lib/rspec/core/formatters.rb', line 85
+endend# File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
 end
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
@@ -749,12 +749,12 @@ end
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
@@ -767,12 +767,12 @@ end
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
@@ -838,12 +838,12 @@ end
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
@@ -915,12 +915,12 @@ end
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications
@@ -1164,12 +1164,12 @@ Defined Under Namespace
       
 
 
-85
 86
 87
+88
     
     
-      # File 'lib/rspec/core/formatters.rb', line 85
+      # File 'lib/rspec/core/formatters.rb', line 86
 
 def self.register(formatter_class, *notifications)
   Loader.formatters[formatter_class] = notifications

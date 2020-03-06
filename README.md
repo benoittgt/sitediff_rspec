@@ -36,6 +36,19 @@ The diff output still display few artifacts but most of the time they can be ign
 ## Output
 
 ```diff
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-expectations/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-mocks/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-rails/_index.html
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseFormatter.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
+🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/BaseTextFormatter.html
+🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-BaseTextFormatter.html.diff
+
+🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
 🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers/ClassMethods.html
 🏆 Diff done: export/diff/rspec-core-RSpec-Core-MemoizedHelpers-ClassMethods.html.diff
 
@@ -98,6 +111,126 @@ The diff output still display few artifacts but most of the time they can be ign
 🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
 🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters.html
 🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters.html.diff
+diff --git a/export/rspec-core-RSpec-Core-Formatters.html.current b/export/rspec-core-RSpec-Core-Formatters.html.new
+index 096d1e6..0a32acd 100644
+--- a/export/rspec-core-RSpec-Core-Formatters.html.current
++++ b/export/rspec-core-RSpec-Core-Formatters.html.new
+@@ -711,34 +711,34 @@ one or more notifications to be registered to the specified formatter
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-85
+ 86
+ 87
++88
+
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85# File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86# File 'lib/rspec/core/formatters.rb', line 86
+
+ defdef selfself..registerregister((formatter_classformatter_class,, **notificationsnotifications))
+   LoaderLoader..formattersformatters[[formatter_classformatter_class]] == notificationsnotifications
+-endend# File 'lib/rspec/core/formatters.rb', line 85
++endend# File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+@@ -749,12 +749,12 @@ end
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+@@ -767,12 +767,12 @@ end
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+@@ -838,12 +838,12 @@ end
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+@@ -915,12 +915,12 @@ end
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
+@@ -1164,12 +1164,12 @@ Defined Under Namespace
+
+
+
+-85
+ 86
+ 87
++88
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 85
++      # File 'lib/rspec/core/formatters.rb', line 86
+
+ def self.register(formatter_class, *notifications)
+   Loader.formatters[formatter_class] = notifications
 
 🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
 🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Notifications/GroupNotification.html
@@ -118,6 +251,610 @@ The diff output still display few artifacts but most of the time they can be ign
 🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
 🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/Formatters/Loader.html
 🏆 Diff done: export/diff/rspec-core-RSpec-Core-Formatters-Loader.html.diff
+diff --git a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new
+index a1d1539..e654238 100644
+--- a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current
++++ b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new
+@@ -509,36 +509,36 @@ Returns a new instance of Loader.
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104# File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105# File 'lib/rspec/core/formatters.rb', line 105
+
+ defdef initializeinitialize((reporterreporter))
+   @formatters@formatters == [[]]
+   @reporter@reporter == reporterreporter
+   selfself..default_formatterdefault_formatter == ''progressprogress'''progress'
+-endend# File 'lib/rspec/core/formatters.rb', line 104
++endend# File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -546,7 +546,7 @@ def initialize(reporter)
+   self.default_formatter = 'progress'
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -559,14 +559,14 @@ end
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -581,14 +581,14 @@ end
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -616,14 +616,14 @@ Returns a new instance of Loader.
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -656,14 +656,14 @@ Returns a new instance of Loader.
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -776,34 +776,34 @@ Returns:
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-117
+ 118
+ 119
++120
+
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117# File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118# File 'lib/rspec/core/formatters.rb', line 118
+
+ defdef default_formatterdefault_formatter
+   @default_formatter@default_formatter
+-endend# File 'lib/rspec/core/formatters.rb', line 117
++endend# File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -814,12 +814,12 @@ end
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -832,12 +832,12 @@ end
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -880,12 +880,12 @@ Returns:
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -991,34 +991,34 @@ Returns:
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-111
+ 112
+ 113
++114
+
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111# File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112# File 'lib/rspec/core/formatters.rb', line 112
+
+ defdef formattersformatters
+   @formatters@formatters
+-endend# File 'lib/rspec/core/formatters.rb', line 111
++endend# File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -1029,12 +1029,12 @@ end
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -1047,12 +1047,12 @@ end
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -1095,12 +1095,12 @@ Returns:
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -1206,34 +1206,34 @@ Returns:
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-114
+ 115
+ 116
++117
+
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114# File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115# File 'lib/rspec/core/formatters.rb', line 115
+
+ defdef reporterreporter
+   @reporter@reporter
+-endend# File 'lib/rspec/core/formatters.rb', line 114
++endend# File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -1244,12 +1244,12 @@ end
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -1262,12 +1262,12 @@ end
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -1310,12 +1310,12 @@ Returns:
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -1365,12 +1365,12 @@ Returns:
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -1417,12 +1417,12 @@ Returns:
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -1469,12 +1469,12 @@ Returns:
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -1524,34 +1524,34 @@ Internal formatters are stored here when loaded.
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-99
+ 100
+ 101
++102
+
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99# File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100# File 'lib/rspec/core/formatters.rb', line 100
+
+ defdef selfself..formattersformatters
+   @formatters@formatters ||=||= {{}}
+-endend# File 'lib/rspec/core/formatters.rb', line 99
++endend# File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+ end
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+@@ -1562,12 +1562,12 @@ end
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+@@ -1580,12 +1580,12 @@ end
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+@@ -1611,12 +1611,12 @@ Internal formatters are stored here when loaded.
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+@@ -1648,12 +1648,12 @@ Internal formatters are stored here when loaded.
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
+@@ -1869,14 +1869,14 @@ Returns a new instance of Loader.
+
+
+
+-104
+ 105
+ 106
+ 107
+ 108
++109
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 104
++      # File 'lib/rspec/core/formatters.rb', line 105
+
+ def initialize(reporter)
+   @formatters = []
+@@ -1930,12 +1930,12 @@ Returns:
+
+
+
+-117
+ 118
+ 119
++120
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 117
++      # File 'lib/rspec/core/formatters.rb', line 118
+
+ def default_formatter
+   @default_formatter
+@@ -1982,12 +1982,12 @@ Returns:
+
+
+
+-111
+ 112
+ 113
++114
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 111
++      # File 'lib/rspec/core/formatters.rb', line 112
+
+ def formatters
+   @formatters
+@@ -2034,12 +2034,12 @@ Returns:
+
+
+
+-114
+ 115
+ 116
++117
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 114
++      # File 'lib/rspec/core/formatters.rb', line 115
+
+ def reporter
+   @reporter
+@@ -2074,12 +2074,12 @@ Internal formatters are stored here when loaded.
+
+
+
+-99
+ 100
+ 101
++102
+
+
+-      # File 'lib/rspec/core/formatters.rb', line 99
++      # File 'lib/rspec/core/formatters.rb', line 100
+
+ def self.formatters
+   @formatters ||= {}
 
 🧪 Get html for: http://rspec.info/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
 🧪 Get html for: http://0.0.0.0:4567/documentation/3.9/rspec-core/RSpec/Core/MemoizedHelpers.html
@@ -2369,7 +3106,6 @@ index 09423ca..0fbd543 100644
 
 -  Constant Summary
 -
- COMMIT_EDITMSG
 -
 
 
@@ -2394,7 +3130,4 @@ index 915238f..cff0968 100644
 +
 +
 +
-
-
-
 ```

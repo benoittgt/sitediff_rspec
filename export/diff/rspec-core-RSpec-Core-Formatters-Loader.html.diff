@@ -1,0 +1,604 @@
+[1mdiff --git a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new[m
+[1mindex a1d1539..e654238 100644[m
+[1m--- a/export/rspec-core-RSpec-Core-Formatters-Loader.html.current[m
+[1m+++ b/export/rspec-core-RSpec-Core-Formatters-Loader.html.new[m
+[36m@@ -509,36 +509,36 @@[m [mReturns a new instance of Loader.[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104# File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105# File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ defdef initializeinitialize((reporterreporter))[m
+   @formatters@formatters == [[]][m
+   @reporter@reporter == reporterreporter[m
+   selfself..default_formatterdefault_formatter == ''progressprogress'''progress'[m
+[31m-endend# File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32mendend# File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -546,7 +546,7 @@[m [mdef initialize(reporter)[m
+   self.default_formatter = 'progress'[m
+ end[m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -559,14 +559,14 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -581,14 +581,14 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -616,14 +616,14 @@[m [mReturns a new instance of Loader.[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -656,14 +656,14 @@[m [mReturns a new instance of Loader.[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -776,34 +776,34 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117# File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118# File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ defdef default_formatterdefault_formatter[m
+   @default_formatter@default_formatter[m
+[31m-endend# File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32mendend# File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+ end[m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -814,12 +814,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -832,12 +832,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -880,12 +880,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -991,34 +991,34 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111# File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112# File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ defdef formattersformatters[m
+   @formatters@formatters[m
+[31m-endend# File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32mendend# File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+ end[m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -1029,12 +1029,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -1047,12 +1047,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -1095,12 +1095,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -1206,34 +1206,34 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114# File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115# File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ defdef reporterreporter[m
+   @reporter@reporter[m
+[31m-endend# File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32mendend# File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+ end[m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -1244,12 +1244,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -1262,12 +1262,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -1310,12 +1310,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -1365,12 +1365,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -1417,12 +1417,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -1469,12 +1469,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -1524,34 +1524,34 @@[m [mInternal formatters are stored here when loaded.[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99# File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100# File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ defdef selfself..formattersformatters[m
+   @formatters@formatters ||=||= {{}}[m
+[31m-endend# File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32mendend# File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+ end[m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+[36m@@ -1562,12 +1562,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+[36m@@ -1580,12 +1580,12 @@[m [mend[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+[36m@@ -1611,12 +1611,12 @@[m [mInternal formatters are stored here when loaded.[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+[36m@@ -1648,12 +1648,12 @@[m [mInternal formatters are stored here when loaded.[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
+[36m@@ -1869,14 +1869,14 @@[m [mReturns a new instance of Loader.[m
+       [m
+ [m
+ [m
+[31m-104[m
+ 105[m
+ 106[m
+ 107[m
+ 108[m
+[32m+[m[32m109[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 104[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 105[m
+ [m
+ def initialize(reporter)[m
+   @formatters = [][m
+[36m@@ -1930,12 +1930,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-117[m
+ 118[m
+ 119[m
+[32m+[m[32m120[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 117[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 118[m
+ [m
+ def default_formatter[m
+   @default_formatter[m
+[36m@@ -1982,12 +1982,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-111[m
+ 112[m
+ 113[m
+[32m+[m[32m114[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 111[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 112[m
+ [m
+ def formatters[m
+   @formatters[m
+[36m@@ -2034,12 +2034,12 @@[m [mReturns:[m
+       [m
+ [m
+ [m
+[31m-114[m
+ 115[m
+ 116[m
+[32m+[m[32m117[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 114[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 115[m
+ [m
+ def reporter[m
+   @reporter[m
+[36m@@ -2074,12 +2074,12 @@[m [mInternal formatters are stored here when loaded.[m
+       [m
+ [m
+ [m
+[31m-99[m
+ 100[m
+ 101[m
+[32m+[m[32m102[m
+     [m
+     [m
+[31m-      # File 'lib/rspec/core/formatters.rb', line 99[m
+[32m+[m[32m      # File 'lib/rspec/core/formatters.rb', line 100[m
+ [m
+ def self.formatters[m
+   @formatters ||= {}[m
